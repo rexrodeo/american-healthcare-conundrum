@@ -1,0 +1,66 @@
+category,generic_name,otc_brand,medicare_unit_cost,otc_unit_cost,markup_multiple,tot_claims,medicare_spending,est_otc_spend,savings
+PPI / Heartburn,Omeprazole,Prilosec OTC,0.204,0.33,1.0,28144241.0,422372715.0,690382431.0,-268009716.0
+Nasal Steroid,Fluticasone Propionate,Flonase,26.9718,0.25,108.0,963296.0,394517813.0,3633092.0,390884721.0
+PPI / Heartburn,Dexlansoprazole,Prevacid 24HR,7.3584,0.48,15.0,799392.0,315328215.0,20579820.0,294748395.0
+H2 Blocker / Heartburn,Famotidine,Pepcid AC,0.203,0.18,1.0,12748534.0,202810000.0,179442730.0,23367270.0
+Nasal Steroid,Fluticasone Propionate,Flonase,0.6853,0.25,3.0,12165417.0,201536224.0,73534992.0,128001232.0
+PPI / Heartburn,Omeprazole/Sodium Bicarbonate,Prilosec OTC,43.6195,0.33,132.0,84533.0,174703369.0,1350579.0,173352789.0
+PPI / Heartburn,Esomeprazole Magnesium,Prilosec OTC,0.9553,0.33,3.0,2711609.0,172016821.0,62461004.0,109555817.0
+PPI / Heartburn,Esomeprazole Magnesium,Nexium 24HR,0.9553,0.5,2.0,2711609.0,172016821.0,94637884.0,77378937.0
+Nasal Antihistamine,Azelastine HCl,Astepro OTC,1.6517,0.3,6.0,2785552.0,103095649.0,28868740.0,74226909.0
+PPI / Heartburn,Dexlansoprazole,Prevacid 24HR,10.6357,0.48,22.0,174167.0,87349224.0,3942207.0,83407018.0
+Nasal Steroid,Triamcinolone Acetonide,Nasacort,0.372,0.23,2.0,6197096.0,75381353.0,165886222.0,-90504869.0
+PPI / Heartburn,Esomeprazole Magnesium,Nexium 24HR,9.5002,0.5,19.0,113050.0,74209509.0,3908969.0,70300540.0
+PPI / Heartburn,Esomeprazole Magnesium,Prilosec OTC,9.5002,0.33,29.0,113050.0,74209509.0,2579920.0,71629590.0
+PPI / Heartburn,Lansoprazole,Prevacid 24HR,0.7845,0.48,2.0,1152106.0,57025404.0,40590793.0,16434611.0
+NSAID,Ibuprofen,Advil/Motrin,0.1313,0.03,4.0,6891680.0,56974814.0,13197248.0,43777566.0
+Nasal Steroid,Mometasone Furoate,Nasonex OTC,1.7612,0.35,5.0,928670.0,54728321.0,13002710.0,41725611.0
+Nasal Steroid,Fluticasone Propionate,Flonase,3.9673,0.25,16.0,146409.0,48304452.0,3030282.0,45274171.0
+Antihistamine,Levocetirizine Dihydrochloride,Zyrtec,0.3177,0.12,3.0,2093762.0,38000182.0,14432903.0,23567279.0
+PPI / Heartburn,Naproxen/Esomeprazole Mag,Nexium 24HR,20.6945,0.5,41.0,17584.0,27214352.0,658076.0,26556276.0
+PPI / Heartburn,Naproxen/Esomeprazole Mag,Prilosec OTC,20.6945,0.33,63.0,17584.0,27214352.0,434330.0,26780022.0
+Nasal Steroid,Fluticasone Propionate,Flonase,21.7603,0.25,87.0,88340.0,25700617.0,292744.0,25407873.0
+Antidiarrheal,Loperamide HCl,Imodium,0.3937,0.15,3.0,820472.0,22281039.0,8474006.0,13807033.0
+Nasal Antihistamine,Azelastine/Fluticasone,Astepro OTC,5.847,0.3,19.0,110866.0,20125539.0,1029816.0,19095723.0
+Nasal Steroid,Fluticasone Propionate,Flonase,38.4428,0.25,154.0,23519.0,18483355.0,120201.0,18363155.0
+Nasal Steroid,Mometasone Furoate,Nasonex OTC,237.7895,0.35,679.0,38033.0,14614629.0,21691.0,14592938.0
+NSAID,Ibuprofen/FAmotidine,Advil/Motrin,28.1797,0.03,939.0,5488.0,14326353.0,15252.0,14311102.0
+H2 Blocker / Heartburn,Ibuprofen/FAmotidine,Pepcid AC,28.1797,0.18,157.0,5488.0,14326353.0,91511.0,14234843.0
+PPI / Heartburn,Lansoprazole,Prevacid 24HR,14.0257,0.48,29.0,10139.0,11088457.0,379785.0,10708672.0
+Hair Loss,Minoxidil,Rogaine,0.2652,0.2,1.0,408098.0,8975225.0,6625873.0,2349351.0
+Antihistamine,Cetirizine HCl,Zyrtec,8.245,0.12,69.0,20372.0,8592881.0,125063.0,8467817.0
+PPI / Heartburn,Omeprazole/Sodium Bicarbonate,Prilosec OTC,114.5882,0.33,347.0,1457.0,8514993.0,24527.0,8490466.0
+Antihistamine,Desloratadine,Claritin,0.9675,0.1,10.0,133427.0,7931019.0,818311.0,7112708.0
+Nasal Steroid,Mometasone Furoate,Nasonex OTC,16.2871,0.35,47.0,26387.0,7543027.0,161501.0,7381526.0
+NSAID,Naproxen Sodium,Aleve,0.936,0.07,13.0,80889.0,5373172.0,393182.0,4979990.0
+H2 Blocker / Heartburn,Ibuprofen/FAmotidine,Pepcid AC,4.9055,0.18,27.0,10637.0,5004013.0,184008.0,4820005.0
+NSAID,Ibuprofen/FAmotidine,Advil/Motrin,4.9055,0.03,164.0,10637.0,5004013.0,30668.0,4973345.0
+PPI / Heartburn,Naproxen/Esomeprazole Mag,Nexium 24HR,44.2996,0.5,89.0,1223.0,3389170.0,38249.0,3350921.0
+PPI / Heartburn,Naproxen/Esomeprazole Mag,Prilosec OTC,44.2996,0.33,134.0,1223.0,3389170.0,25244.0,3363926.0
+PPI / Heartburn,Omeprazole/Amoxicill/Rifabutin,Prilosec OTC,4.7849,0.33,14.0,4147.0,3328152.0,229532.0,3098621.0
+PPI / Heartburn,Omeprazole Magnesium,Prilosec OTC,14.5138,0.33,44.0,3547.0,3235647.0,73568.0,3162079.0
+NSAID,Naproxen Sodium,Aleve,6.8244,0.07,97.0,3872.0,3127285.0,43091.0,3084195.0
+NSAID,Hydrocodone/Ibuprofen,Advil/Motrin,1.0085,0.03,34.0,26302.0,2185723.0,58798.0,2126926.0
+PPI / Heartburn,Omeprazole/Sodium Bicarbonate,Prilosec OTC,1.4585,0.33,4.0,4389.0,1917158.0,433782.0,1483377.0
+NSAID,Ibuprofen,Advil/Motrin,0.0527,0.03,2.0,328471.0,1734891.0,1016670.0,718221.0
+Antihistamine,Diphenhydramine HCl,Benadryl,1.423,0.05,28.0,53131.0,1517571.0,58104.0,1459467.0
+NSAID,Naproxen Sodium,Aleve,11.9414,0.07,171.0,2047.0,1486856.0,8775.0,1478081.0
+H2 Blocker / Heartburn,Famotidine,Pepcid AC,19.1479,0.18,106.0,547.0,835895.0,8059.0,827836.0
+Antihistamine,Desloratadine/Pseudoephedrine,Claritin,5.4608,0.1,55.0,1260.0,764353.0,13997.0,750356.0
+Nasal Steroid,Triamcinolone Acetonide,Nasacort,651.3908,0.23,2832.0,731.0,693067.0,245.0,692822.0
+Antihistamine,Cetirizine HCl,Zyrtec,318.8893,0.12,2657.0,184.0,615775.0,232.0,615543.0
+Nasal Antihistamine,Azelastine/Fluticasone,Astepro OTC,9.3066,0.3,31.0,1752.0,486687.0,15689.0,470999.0
+PPI / Heartburn,Lansoprazole/Amoxiciln/Clarith,Prevacid 24HR,5.7415,0.48,12.0,733.0,472488.0,39501.0,432987.0
+Nasal Steroid,Fluticasone Propionate,Flonase,297.1295,0.25,1189.0,1038.0,356529.0,301.0,356228.0
+Antihistamine,Desloratadine,Claritin,8.2082,0.1,82.0,537.0,289142.0,3523.0,285619.0
+Antihistamine,Cetirizine HCl,Zyrtec,0.0578,0.12,0.0,15082.0,243628.0,508806.0,-265178.0
+NSAID,Naproxen Sodium,Aleve,24.1319,0.07,345.0,104.0,123017.0,357.0,122660.0
+H2 Blocker / Heartburn,Famotidine/PF,Pepcid AC,0.537,0.18,3.0,9139.0,69118.0,23326.0,45791.0
+PPI / Heartburn,Esomeprazole Sodium,Nexium 24HR,20.8896,0.5,42.0,146.0,39442.0,842.0,38600.0
+PPI / Heartburn,Esomeprazole Sodium,Prilosec OTC,20.8896,0.33,63.0,146.0,39442.0,556.0,38886.0
+Nasal Steroid,Triamcinolone Acetonide,Nasacort,1.0401,0.23,5.0,1191.0,25718.0,5687.0,20031.0
+Nasal Steroid,Triamcinolone Acetonide,Nasacort,21.7874,0.23,95.0,333.0,10305.0,109.0,10197.0
+Nasal Steroid,Triamcinolone Acetonide,Nasacort,0.3511,0.23,2.0,39.0,6217.0,4072.0,2144.0
+Nasal Steroid,Triamcinolone Acetonide,Nasacort,1.3042,0.23,6.0,290.0,6188.0,1091.0,5097.0
+Nasal Steroid,Triamcinolone Acetonide,Nasacort,7.4564,0.23,32.0,36.0,1640.0,51.0,1590.0
+H2 Blocker / Heartburn,"Famotidine In NaCl,Iso-Osm/PF",Pepcid AC,0.1723,0.18,1.0,70.0,846.0,884.0,-38.0

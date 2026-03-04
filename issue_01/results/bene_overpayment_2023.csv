@@ -1,0 +1,66 @@
+year,generic_name,otc_brand,category,avg_rx_cost_per_claim,est_monthly_otc_cost,overpayment_per_claim
+2023,Omeprazole/Sodium Bicarbonate,Prilosec OTC,PPI / Heartburn,5844.2,9.9,5834.3
+2023,Cetirizine HCl,Zyrtec,Antihistamine,3346.6,3.6,3343.0
+2023,Naproxen/Esomeprazole Mag,Prilosec OTC,PPI / Heartburn,2771.19,9.9,2761.29
+2023,Naproxen/Esomeprazole Mag,Nexium 24HR,PPI / Heartburn,2771.19,15.0,2756.19
+2023,Ibuprofen/FAmotidine,Advil/Motrin,NSAID,2610.49,0.9,2609.59
+2023,Ibuprofen/FAmotidine,Pepcid AC,H2 Blocker / Heartburn,2610.49,5.4,2605.09
+2023,Omeprazole/Sodium Bicarbonate,Prilosec OTC,PPI / Heartburn,2066.69,9.9,2056.79
+2023,Naproxen/Esomeprazole Mag,Prilosec OTC,PPI / Heartburn,1547.68,9.9,1537.78
+2023,Naproxen/Esomeprazole Mag,Nexium 24HR,PPI / Heartburn,1547.68,15.0,1532.68
+2023,Famotidine,Pepcid AC,H2 Blocker / Heartburn,1528.14,5.4,1522.74
+2023,Naproxen Sodium,Aleve,NSAID,1182.85,2.1,1180.75
+2023,Lansoprazole,Prevacid 24HR,PPI / Heartburn,1093.64,14.4,1079.24
+2023,Triamcinolone Acetonide,Nasacort,Nasal Steroid,948.11,6.9,941.21
+2023,Omeprazole Magnesium,Prilosec OTC,PPI / Heartburn,912.22,9.9,902.32
+2023,Naproxen Sodium,Aleve,NSAID,807.67,2.1,805.57
+2023,Omeprazole/Amoxicill/Rifabutin,Prilosec OTC,PPI / Heartburn,802.54,9.9,792.64
+2023,Fluticasone Propionate,Flonase,Nasal Steroid,785.89,7.5,778.39
+2023,Naproxen Sodium,Aleve,NSAID,726.36,2.1,724.26
+2023,Esomeprazole Magnesium,Prilosec OTC,PPI / Heartburn,656.43,9.9,646.53
+2023,Esomeprazole Magnesium,Nexium 24HR,PPI / Heartburn,656.43,15.0,641.43
+2023,Lansoprazole/Amoxiciln/Clarith,Prevacid 24HR,PPI / Heartburn,644.59,14.4,630.19
+2023,Desloratadine/Pseudoephedrine,Claritin,Antihistamine,606.63,3.0,603.63
+2023,Desloratadine,Claritin,Antihistamine,538.44,3.0,535.44
+2023,Dexlansoprazole,Prevacid 24HR,PPI / Heartburn,501.53,14.4,487.13
+2023,Ibuprofen/FAmotidine,Advil/Motrin,NSAID,470.43,0.9,469.53
+2023,Ibuprofen/FAmotidine,Pepcid AC,H2 Blocker / Heartburn,470.43,5.4,465.03
+2023,Omeprazole/Sodium Bicarbonate,Prilosec OTC,PPI / Heartburn,436.81,9.9,426.91
+2023,Cetirizine HCl,Zyrtec,Antihistamine,421.8,3.6,418.2
+2023,Fluticasone Propionate,Flonase,Nasal Steroid,409.55,7.5,402.05
+2023,Dexlansoprazole,Prevacid 24HR,PPI / Heartburn,394.46,14.4,380.06
+2023,Mometasone Furoate,Nasonex OTC,Nasal Steroid,384.26,10.5,373.76
+2023,Fluticasone Propionate,Flonase,Nasal Steroid,343.48,7.5,335.98
+2023,Fluticasone Propionate,Flonase,Nasal Steroid,329.93,7.5,322.43
+2023,Fluticasone Propionate,Flonase,Nasal Steroid,290.93,7.5,283.43
+2023,Mometasone Furoate,Nasonex OTC,Nasal Steroid,285.86,10.5,275.36
+2023,Azelastine/Fluticasone,Astepro OTC,Nasal Antihistamine,277.79,9.0,268.79
+2023,Esomeprazole Sodium,Prilosec OTC,PPI / Heartburn,270.15,9.9,260.25
+2023,Esomeprazole Sodium,Nexium 24HR,PPI / Heartburn,270.15,15.0,255.15
+2023,Azelastine/Fluticasone,Astepro OTC,Nasal Antihistamine,181.53,9.0,172.53
+2023,Triamcinolone Acetonide,Nasacort,Nasal Steroid,159.41,6.9,152.51
+2023,Hydrocodone/Ibuprofen,Advil/Motrin,NSAID,83.1,0.9,82.2
+2023,Naproxen Sodium,Aleve,NSAID,66.43,2.1,64.33
+2023,Desloratadine,Claritin,Antihistamine,59.44,3.0,56.44
+2023,Esomeprazole Magnesium,Prilosec OTC,PPI / Heartburn,63.44,9.9,53.54
+2023,Esomeprazole Magnesium,Nexium 24HR,PPI / Heartburn,63.44,15.0,48.44
+2023,Mometasone Furoate,Nasonex OTC,Nasal Steroid,58.93,10.5,48.43
+2023,Triamcinolone Acetonide,Nasacort,Nasal Steroid,45.57,6.9,38.67
+2023,Lansoprazole,Prevacid 24HR,PPI / Heartburn,49.5,14.4,35.1
+2023,Azelastine HCl,Astepro OTC,Nasal Antihistamine,37.01,9.0,28.01
+2023,Diphenhydramine HCl,Benadryl,Antihistamine,28.56,1.5,27.06
+2023,Triamcinolone Acetonide,Nasacort,Nasal Steroid,30.95,6.9,24.05
+2023,Loperamide HCl,Imodium,Antidiarrheal,27.16,4.5,22.66
+2023,Minoxidil,Rogaine,Hair Loss,21.99,6.0,15.99
+2023,Triamcinolone Acetonide,Nasacort,Nasal Steroid,21.59,6.9,14.69
+2023,Levocetirizine Dihydrochloride,Zyrtec,Antihistamine,18.15,3.6,14.55
+2023,Triamcinolone Acetonide,Nasacort,Nasal Steroid,21.34,6.9,14.44
+2023,Cetirizine HCl,Zyrtec,Antihistamine,16.15,3.6,12.55
+2023,Famotidine,Pepcid AC,H2 Blocker / Heartburn,15.91,5.4,10.51
+2023,Fluticasone Propionate,Flonase,Nasal Steroid,16.57,7.5,9.07
+2023,Ibuprofen,Advil/Motrin,NSAID,8.27,0.9,7.37
+2023,"Famotidine In NaCl,Iso-Osm/PF",Pepcid AC,H2 Blocker / Heartburn,12.09,5.4,6.69
+2023,Triamcinolone Acetonide,Nasacort,Nasal Steroid,12.16,6.9,5.26
+2023,Omeprazole,Prilosec OTC,PPI / Heartburn,15.01,9.9,5.11
+2023,Ibuprofen,Advil/Motrin,NSAID,5.28,0.9,4.38
+2023,Famotidine/PF,Pepcid AC,H2 Blocker / Heartburn,7.56,5.4,2.16
