@@ -9,7 +9,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-OUT = '/sessions/confident-nice-fermat/mnt/healthcare/figures/05_gap_trends.png'
+import os, pathlib
+_PROJECT_ROOT = pathlib.Path(__file__).resolve().parent.parent
+OUT = str(_PROJECT_ROOT / 'figures' / '05_gap_trends.png')
 
 # ── Palette ──────────────────────────────────────────────────────────────────
 TEAL  = '#16A085'
@@ -19,8 +21,8 @@ MID   = '#4A5568'
 WHITE = '#FFFFFF'
 
 # ── Load data ─────────────────────────────────────────────────────────────────
-df = pd.read_parquet('/sessions/confident-nice-fermat/mnt/healthcare/data/raw/part_d_long.parquet')
-drugs_2023 = pd.read_csv('/sessions/confident-nice-fermat/mnt/healthcare/results/by_drug_2023.csv')
+df = pd.read_parquet(str(_PROJECT_ROOT / 'data' / 'raw' / 'part_d_long.parquet'))
+drugs_2023 = pd.read_csv(str(_PROJECT_ROOT / 'results' / 'by_drug_2023.csv'))
 
 EXCLUDE = ['Dexlansoprazole', 'Naproxen/Esomeprazole Mag', 'Desloratadine',
            'Ibuprofen/FAmotidine', 'Hydrocodone/Ibuprofen',

@@ -10,8 +10,10 @@ import matplotlib.patches as mpatches
 import numpy as np
 
 W, H = 16, 9   # figure units (will render at 100dpi = 1600x900)
-OUT_A = '/sessions/confident-nice-fermat/mnt/healthcare/figures/cover_option_a.png'
-OUT_B = '/sessions/confident-nice-fermat/mnt/healthcare/figures/cover_option_b.png'
+import os, pathlib
+_PROJECT_ROOT = pathlib.Path(__file__).resolve().parent.parent
+OUT_A = str(_PROJECT_ROOT / 'figures' / 'cover_option_a.png')
+OUT_B = str(_PROJECT_ROOT / 'figures' / 'cover_option_b.png')
 
 # ── Shared palette ─────────────────────────────────────────────────────────
 NAVY    = '#0A1628'

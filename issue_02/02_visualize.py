@@ -17,7 +17,9 @@ import matplotlib.ticker as mticker
 import numpy as np
 import pandas as pd
 
-FIG_DIR = '/sessions/confident-nice-fermat/mnt/healthcare/issue_02/figures/'
+import os
+_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+FIG_DIR = os.path.join(_SCRIPT_DIR, 'figures', '')
 
 # ── Palette (matches Issue #1) ────────────────────────────────────────────────
 NAVY   = '#0A1628'
@@ -32,9 +34,10 @@ LIGHT  = '#EDF2F7'
 BLUE   = '#2980B9'
 
 # ── Load data ─────────────────────────────────────────────────────────────────
-kff  = pd.read_csv('/sessions/confident-nice-fermat/mnt/healthcare/issue_02/results/kff_drug_comparison.csv')
-nhs  = pd.read_csv('/sessions/confident-nice-fermat/mnt/healthcare/issue_02/results/nhs_vs_medicare.csv')
-rand = pd.read_csv('/sessions/confident-nice-fermat/mnt/healthcare/issue_02/results/rand_country_ratios.csv')
+_RESULTS = os.path.join(_SCRIPT_DIR, 'results')
+kff  = pd.read_csv(os.path.join(_RESULTS, 'kff_drug_comparison.csv'))
+nhs  = pd.read_csv(os.path.join(_RESULTS, 'nhs_vs_medicare.csv'))
+rand = pd.read_csv(os.path.join(_RESULTS, 'rand_country_ratios.csv'))
 
 
 # ══════════════════════════════════════════════════════════════════════════════
