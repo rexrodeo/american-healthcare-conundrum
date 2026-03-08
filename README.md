@@ -51,9 +51,48 @@ python 05_visualize.py
 
 ---
 
+### Issue #2 — The Same Pill, A Different Price (~$25.0B/year)
+
+Medicare pays 7–25× more than peer nations for the same brand-name drugs. International reference pricing — benchmarking Medicare negotiations against what Germany, France, Japan, UK, and Australia pay — would save approximately **$25 billion per year**.
+
+**Read the full analysis →** [`newsletter_issue_02_FINAL.md`](newsletter_issue_02_FINAL.md)
+
+#### Running the pipeline
+
+```bash
+cd issue_02
+
+# Build reference price dataset (NHS Drug Tariff + RAND international averages)
+python 01_build_reference_data.py
+
+# Generate charts
+python 02_visualize.py
+```
+
+#### Data sources
+
+| Source | Description |
+|--------|-------------|
+| CMS Medicare Part D Spending by Drug (2023) | Gross drug spend and claim counts by drug name |
+| NHS Drug Tariff Part VIIIA (March 2026) | UK generic reimbursement prices post-patent expiry |
+| RAND RRA788-3 (Feb 2024) | International prescription drug price comparisons using 2022 data |
+| Peterson-KFF Health System Tracker (Dec 2024) | 11-country OECD drug price benchmarks |
+
+#### Key methodology notes
+- Medicare figures are gross cost (pre-rebate) from CMS Part D Public Use File
+- ~49% net rebate adjustment applied for top-spend brand drugs, triangulated from MedPAC and Feldman et al.
+- NHS prices are post-patent generic reimbursement rates — representing the molecule's commodity price
+- International average = Peterson-KFF 11-country OECD analysis
+
+---
+
+**Through 2 issues: ~$25.6 billion in identified savings**
+
+---
+
 ## Up Next
 
-Issue #2 is in the works. Subscribe on Substack to get it when it drops.
+Issue #3 is in the works — examining hospital pricing and the gap between what commercial insurers pay vs. Medicare for the same procedures. Subscribe on Substack to get it when it drops.
 
 ---
 
