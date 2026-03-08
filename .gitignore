@@ -15,23 +15,25 @@ reference_data/
 # On publish: remove the issue folder and newsletter file lines below,
 # commit the issue content, and push.
 
-# Issue 2 (published)
+# Issue 2 (published — newsletter_issue_02.md is the working draft, not for public)
+newsletter_issue_02.md
 
 # Issue 3 (unpublished)
 issue_03/
 newsletter_issue_03.md
 newsletter_issue_03_FINAL.md
 
-# Future issues — add each one here until published
-# issue_04/
-# newsletter_issue_04.md
-# newsletter_issue_04_FINAL.md
+# Issue 4 (unpublished)
+issue_04/
+newsletter_issue_04.md
+newsletter_issue_04_FINAL.md
 
 # ── Internal / operational files (not for public repo) ──────────────────────
 CLAUDE.md
 ROADMAP.md
 research/
 INSURANCE_RESEARCH_FILE_INDEX.txt
+**/LAUNCH_PACKAGE.md
 
 # Root-level figures (issue-specific figures live in issue_XX/figures/)
 /figures/

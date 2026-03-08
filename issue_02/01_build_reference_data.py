@@ -13,7 +13,8 @@ Sources:
 import pandas as pd
 import numpy as np
 
-OUT_DIR = '/sessions/confident-nice-fermat/mnt/healthcare/issue_02/results/'
+import os
+OUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'results', '')
 
 # ── Exchange rate (USD/GBP, approximate March 2026) ─────────────────────────
 GBP_TO_USD = 1.27   # £1 = $1.27
