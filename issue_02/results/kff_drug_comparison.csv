@@ -1,0 +1,10 @@
+drug,generic,brand_owner,medicare_list,medicare_negotiated,intl_avg,lowest_country,lowest_price,medicare_spending_2023_b,ratio_list_vs_intl,ratio_neg_vs_intl,savings_if_intl_avg_b
+Eliquis,Apixaban,Bristol-Myers Squibb / Pfizer,862,231,59,Japan,22,18.27,14.610169491525424,3.9152542372881354,17.01950116009281
+Jardiance,Empagliflozin,Boehringer Ingelheim / Eli Lilly,1084,197,52,Japan,20,8.84,20.846153846153847,3.7884615384615383,8.415940959409594
+Xarelto,Rivaroxaban,Johnson & Johnson / Bayer,948,197,55,Australia,18,6.31,17.236363636363638,3.581818181818182,5.943913502109704
+Farxiga,Dapagliflozin,AstraZeneca,1010,179,50,Australia,15,4.34,20.2,3.58,4.125148514851485
+Januvia,Sitagliptin,Merck,1015,113,39,Japan,12,4.09,26.025641025641026,2.8974358974358974,3.932847290640394
+Entresto,Sacubitril/Valsartan,Novartis,1072,295,145,Japan,60,3.43,7.393103448275862,2.0344827586206895,2.966054104477612
+Stelara,Ustekinumab,Johnson & Johnson,25522,4490,2822,France,900,2.99,9.043940467753366,1.591070163004961,2.659391897186741
+Imbruvica,Ibrutinib,AbbVie / J&J,15601,9319,2400,Germany,1800,2.37,6.500416666666666,3.8829166666666666,2.0054079866675214
+Enbrel,Etanercept,Amgen / Pfizer,7804,2355,700,Japan,280,2.05,11.148571428571428,3.3642857142857143,1.8661199384930804

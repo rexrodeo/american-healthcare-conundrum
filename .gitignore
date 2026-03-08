@@ -15,10 +15,7 @@ reference_data/
 # On publish: remove the issue folder and newsletter file lines below,
 # commit the issue content, and push.
 
-# Issue 2 (unpublished)
-issue_02/
-newsletter_issue_02.md
-newsletter_issue_02_FINAL.md
+# Issue 2 (published)
 
 # Issue 3 (unpublished)
 issue_03/
