@@ -34,7 +34,7 @@ research/
 INSURANCE_RESEARCH_FILE_INDEX.txt
 
 # Root-level figures (issue-specific figures live in issue_XX/figures/)
-figures/
+/figures/
 
 # ── Python ──────────────────────────────────────────────────────────────────
 .venv/
