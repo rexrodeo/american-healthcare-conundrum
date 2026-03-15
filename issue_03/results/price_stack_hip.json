@@ -1,0 +1,38 @@
+{
+  "procedure": "Total Hip Replacement",
+  "source": "iFHP 2024-2025, CMS HCRIS FY2023, CMS IPPS FY2024",
+  "us_commercial": 29006,
+  "medicare_rate": 15000,
+  "peer_median": 11169,
+  "hospital_cost_est": 12000,
+  "chargemaster_est": 73000,
+  "commercial_as_pct_of_medicare": 1.9337333333333333,
+  "gap_medicare_to_commercial_pct": 0.9337333333333333,
+  "layers": [
+    {
+      "label": "Actual hospital cost (est.)",
+      "value": 12000,
+      "color": "#0E8A72"
+    },
+    {
+      "label": "International peer median",
+      "value": 11169,
+      "color": "#2E9E6B"
+    },
+    {
+      "label": "Medicare rate (DRG 470)",
+      "value": 15000,
+      "color": "#4A7C9E"
+    },
+    {
+      "label": "US commercial (iFHP 2022)",
+      "value": 29006,
+      "color": "#B7182A"
+    },
+    {
+      "label": "Chargemaster list price (est.)",
+      "value": 73000,
+      "color": "#5C0A0A"
+    }
+  ]
+}

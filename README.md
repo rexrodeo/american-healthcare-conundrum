@@ -86,13 +86,51 @@ python 02_visualize.py
 
 ---
 
-**Through 2 issues: ~$25.6 billion in identified savings**
+### Issue #3 — The 254% Problem (~$73.0B/year)
+
+Commercial insurers pay 254% of Medicare rates for identical hospital procedures. A hip replacement costs $29,000 in the US and under $11,000 in most peer nations. Capping commercial hospital payments at 200% of Medicare — the mechanism already used by Montana Medicaid and thousands of self-insured employers — would save approximately **$73 billion per year**.
+
+**Read the full analysis →** [`issue_03/newsletter_issue_03.md`](issue_03/newsletter_issue_03.md)
+
+#### Running the pipeline
+
+```bash
+cd issue_03
+
+# Build HCRIS cost report dataset and compute cost-to-charge ratios
+python 01_build_data.py
+
+# Generate charts
+python 02_visualize.py
+```
+
+#### Data sources
+
+| Source | Description |
+|--------|-------------|
+| CMS HCRIS HOSP10-REPORTS FY2023 | Cost reports for 3,193 hospitals; cost-to-charge ratios and operating costs |
+| RAND Round 5.1 Hospital Pricing Study (2023) | Commercial insurer payments = 254% of Medicare for identical procedures |
+| International Federation of Health Plans 2024-2025 | Procedure prices by country (hip replacement, bypass, etc.) |
+| Peterson-KFF Health System Tracker | US vs. peer-nation procedure cost comparisons |
+| CMS National Health Expenditure Accounts 2023 | Total US hospital spending $1.361T; private insurance share 38.8% |
+| NASHP Montana Analysis (April 2021) | Independent evaluation of reference-based hospital pricing impact |
+
+#### Key methodology notes
+- Savings formula: $528B commercial hospital spend × 65% addressable × 21.3% price reduction (254%→200% of Medicare) = $73B
+- 3,193 hospitals analyzed from raw HCRIS FY2023 federal cost reports
+- Median markup in nonprofit hospitals: 3.96× actual operating costs; 37% of all hospitals charge 3× or more
+- Fix mechanism (Commercial Reference Pricing) is already implemented in Montana and by thousands of self-insured employers
+- No overlap with Issues #1 or #2 (those cover drug prices only; this covers hospital/procedure prices)
+
+---
+
+**Through 3 issues: ~$98.6 billion in identified savings**
 
 ---
 
 ## Up Next
 
-Issue #3 is in the works — examining hospital pricing and the gap between what commercial insurers pay vs. Medicare for the same procedures. Subscribe on Substack to get it when it drops.
+Issue #4 examines pharmacy benefit managers — the largely invisible intermediaries who process 80% of US prescriptions and extract billions through spread pricing, rebate opacity, and formulary manipulation. Subscribe on Substack to get it when it drops.
 
 ---
 
