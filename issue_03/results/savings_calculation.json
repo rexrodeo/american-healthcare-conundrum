@@ -1,0 +1,16 @@
+{
+  "us_hospital_spending_B": 1361.0,
+  "private_insurance_share": 0.388,
+  "commercial_hospital_spend_B": 528.068,
+  "rand_commercial_to_medicare": 2.54,
+  "policy_target_ratio": 2.0,
+  "price_reduction_pct": 0.2125984251968504,
+  "addressability_fraction": 0.65,
+  "gross_savings_B": 72.97317637795275,
+  "net_savings_B": 70.78398108661418,
+  "booked_savings_B": 73.0,
+  "prior_issues_total_B": 25.6,
+  "running_total_B": 98.6,
+  "total_gap_B": 3000.0,
+  "running_pct_of_gap": 0.032866666666666666
+}

@@ -1,0 +1,34 @@
+{
+  "Hip Replacement": {
+    "USA": 29006,
+    "Australia": 17263,
+    "Germany": 14986,
+    "New Zealand": 10944,
+    "UK": 9641,
+    "Spain": 9105
+  },
+  "Knee Replacement": {
+    "USA": 26340,
+    "Australia": 18230,
+    "Germany": 15216,
+    "New Zealand": 12243,
+    "UK": 9563,
+    "Spain": 9006
+  },
+  "Coronary Bypass": {
+    "USA": 89094,
+    "Australia": 36352,
+    "Germany": 24044,
+    "New Zealand": 15183,
+    "UK": 16936,
+    "Spain": 10734
+  },
+  "Appendectomy": {
+    "USA": 13601,
+    "Australia": 7097,
+    "Germany": 5479,
+    "New Zealand": 3553,
+    "UK": 3980,
+    "Spain": 4268
+  }
+}

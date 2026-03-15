@@ -1,0 +1,11 @@
+{
+  "total_hospitals": 5985,
+  "total_medicare_discharges": 7346444,
+  "total_all_payer_discharges": 33330509,
+  "medicare_share_mean": 0.3107792105191843,
+  "medicare_share_median": 0.27884615384615385,
+  "total_ime_payments_B": 8.235416893,
+  "total_dsh_payments_B": 3.101965007,
+  "total_dgme_payments_B": 6.293187464,
+  "total_hospital_beds": 808982
+}

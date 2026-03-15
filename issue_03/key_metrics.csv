@@ -1,0 +1,98 @@
+Category,Metric,Value,Unit,Source,Citation_URL
+Hospital Consolidation,Mergers 2000-2020,1164,mergers among 5000 hospitals,NIHCM/Penn LDI,https://ldi.upenn.edu/our-work/research-updates/hospital-consolidation-continues-to-boost-costs-narrow-access-and-impact-care-quality/
+Hospital Consolidation,Current System Membership,70,% of US hospitals in larger systems,AHA 2024,https://onepercentsteps.com/policy-briefs/addressing-hospital-consolidation-and-rising-consolidation-in-the-united-states/
+Hospital Consolidation,Predictably Anticompetitive Mergers,238,mergers that could be flagged using standard tools (20% of 1164),Yale/Brot-Goldberg 2024,https://tobin.yale.edu/sites/default/files/2024-02/Hospital_Merger_Heterogeneity_manuscript.pdf
+Hospital Consolidation,FTC Enforcement Rate,13,mergers challenged out of 1164,FTC analysis 2024,https://www.advisory.com/daily-briefing/2024/04/29/hospital-mergers
+Hospital Consolidation,FTC Enforcement Percentage,1.1,% enforcement rate,FTC analysis 2024,https://www.advisory.com/daily-briefing/2024/04/29/hospital-mergers
+Consolidation - Price Effect,Cooper et al Average Increase,6,% price increase post-merger,Cooper et al 2019,https://www.nber.org/system/files/working_papers/w32613/w32613.pdf
+Consolidation - Price Effect,HHI Concentration Elasticity,0.5,% price decrease per 10% HHI decrease,Cooper et al 2019,https://www.nber.org/system/files/working_papers/w32613/w32613.pdf
+Consolidation - Price Effect,Dafny Cross-Market Within-State,7-9,% price increase for acquiring hospitals,Dafny et al,https://www.kellogg.northwestern.edu/docs/faculty/dafny/price-effects-of-cross-market-hospital-mergers.pdf
+Consolidation - Price Effect,Dafny Cross-Market Cross-State,10-17,% price increase leveraging multi-state power,Dafny et al,https://www.kellogg.northwestern.edu/docs/faculty/dafny/price-effects-of-cross-market-hospital-mergers.pdf
+Consolidation - Price Effect,Dafny Independent Hospital Mergers,40,% price increase (IV estimates),Dafny et al,https://www.kellogg.northwestern.edu/docs/faculty/dafny/price-effects-of-cross-market-hospital-mergers.pdf
+Consolidation - Price Effect,FTC Retrospective Range,20-50,% price increases in individual cases,FTC merger reviews,https://journalistsresource.org/home/hospital-mergers-research-consumer-price-quality/
+Consolidation - Price Effect,Overall 1164-Merger Average,1.6,% price increase over 2 years,AER: Insights 2024,https://www.advisory.com/daily-briefing/2024/04/29/hospital-mergers
+Consolidation - Price Effect,High Market Power Deals,5.2,% price increase (HHI +1500+),AER: Insights 2024,https://www.advisory.com/daily-briefing/2024/04/29/hospital-mergers
+Consolidation - Price Effect,Rural High-Poverty Areas,highest,outpatient price increases,AER: Insights 2024,https://www.advisory.com/daily-briefing/2024/04/29/hospital-mergers
+Consolidation - Price Effect,Health Spending Impact,204,million $ per merger in year after close,AER: Insights 2024,https://www.advisory.com/daily-briefing/2024/04/29/hospital-mergers
+Chargemaster,Median Markup Ratio,3.5,x cost,HCCI 2017,https://pmc.ncbi.nlm.nih.gov/articles/PMC9262858/
+Chargemaster,90th Percentile Markup,6.6,x cost = 560% above,HCCI 2017,https://pmc.ncbi.nlm.nih.gov/articles/PMC9262858/
+Chargemaster,CT Scan Markup,30,x cost,HCCI 2017,https://pmc.ncbi.nlm.nih.gov/articles/PMC9262858/
+Chargemaster,Routine Inpatient Markup,1.8,x cost,HCCI 2017,https://pmc.ncbi.nlm.nih.gov/articles/PMC9262858/
+Chargemaster,Markup Increase 1996-2017,155,% increase in average markups,HCCI study,https://pmc.ncbi.nlm.nih.gov/articles/PMC9262858/
+Chargemaster,Markup Variance Increase 1996-2017,324,% increase in standard deviation,HCCI study,https://pmc.ncbi.nlm.nih.gov/articles/PMC9262858/
+Chargemaster,List Price vs Negotiated,164,% higher than negotiated rates,HCCI,https://pmc.ncbi.nlm.nih.gov/articles/PMC9262858/
+Chargemaster,Cash Price vs Negotiated,60,% higher than negotiated rates,HCCI,https://pmc.ncbi.nlm.nih.gov/articles/PMC9262858/
+Chargemaster,CT Operating Cost per Procedure,51,dollars,PMC cost study,https://pubmed.ncbi.nlm.nih.gov/17411868/
+Chargemaster,CT Chargemaster Charge,1565,dollars = 30x markup,PMC cost study,https://pubmed.ncbi.nlm.nih.gov/17411868/
+Chargemaster,Lab Test Hospital vs Independent,3.5,x higher in hospital outpatient,HCCI,https://healthcostinstitute.org/all-hcci-reports/facility-fees-what-are-them-and-how-do-they-impact-health-care-prices
+Chargemaster,Lab Test Hospital vs Physician Office,3.3,x higher in hospital outpatient,HCCI,https://healthcostinstitute.org/all-hcci-reports/facility-fees-what-are-them-and-how-do-they-impact-health-care-prices
+Rural Hospital Crisis,Closures 2005-2024,219,hospital closures or inpatient conversions,USDA ERS,https://ers.usda.gov/data-products/charts-of-note/chart-detail?chartId=110927
+Rural Hospital Crisis,Closures in 2023,8,rural hospitals closed,USDA ERS,https://ers.usda.gov/data-products/charts-of-note/chart-detail?chartId=110927
+Rural Hospital Crisis,States with >50% Negative Margins,19,states (non-Medicaid expansion),KFF,https://www.kff.org/health-costs/10-things-to-know-about-rural-hospitals/
+Rural Hospital Crisis,Negative Margins - Non-Expansion States,50,% of rural hospitals,Commonwealth Fund 2023,https://www.commonwealthfund.org/publications/explainer/2026/feb/why-rural-hospitals-face-funding-crisis-how-it-could-get-worse
+Rural Hospital Crisis,Negative Margins - Expansion States,41,% of rural hospitals,Commonwealth Fund 2023,https://www.commonwealthfund.org/publications/explainer/2026/feb/why-rural-hospitals-face-funding-crisis-how-it-could-get-worse
+Rural Hospital Crisis,At Risk of Closure,700+,rural hospitals (31% of total),Chartis 2025,https://www.chartis.com/insights/2025-rural-health-state-state
+Rural Hospital Crisis,Imminent Risk (2-3 Years),360,rural hospitals,Chartis 2025,https://www.chartis.com/insights/2025-rural-health-state-state
+Rural Hospital Crisis,Chemotherapy Service Closures,424,rural hospitals eliminated service 2014-2023,KFF,https://www.kff.org/health-costs/10-things-to-know-about-rural-hospitals/
+Rural Hospital Crisis,Impaired Municipal Bonds,12000,million dollars in distressed bonds,Becker's 2023,https://www.beckershospitalreview.com/finance/12b-in-hospital-bonds-impaired.html
+Rural Hospital Crisis,Impaired Bonds as % of Total,4,% of hospital municipal bond debt,Becker's 2023,https://www.beckershospitalreview.com/finance/12b-in-hospital-bonds-impaired.html
+Rural Hospital Crisis,Hospital Bond Defaults Q1 2023,highest,in 15+ years (since 2008 financial crisis),Advisory Board,https://www.advisory.com/daily-briefing/2023/07/11/hospital-finances
+Rural Hospital Crisis,Investor Fund Withdrawals H1 2023,7000,million dollars pulled,Advisory Board 2023,https://www.advisory.com/daily-briefing/2023/07/11/hospital-finances
+Rural Hospital Crisis,Investor Fund Withdrawals 2022,80000,million dollars+ pulled,Advisory Board 2023,https://www.advisory.com/daily-briefing/2023/07/11/hospital-finances
+CON Laws,States with CON Programs,35,states + DC,Mercatus Center,https://www.mercatus.org/economic-insights/features/certificate-need-laws-how-they-affect-healthcare-access-quality-and-cost
+CON Laws,Cost Difference in CON States,11,% higher healthcare costs,Kaiser Family Foundation,https://www.mercatus.org/economic-insights/features/certificate-need-laws-how-they-affect-healthcare-access-quality-and-cost
+Price Transparency,HHS OIG Non-Compliance Rate,46,% of hospitals not fully compliant 2024,HHS OIG,https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-price-transparency-enforcement-activities-and-outcomes
+Price Transparency,Full Compliance Rate,21,% fully compliant with all rule aspects,PatientRightsAdvocate Nov 2024,https://chir.georgetown.edu/federal-officials-announce-steps-to-strengthen-health-care-price-transparency/
+Price Transparency,MRF Published Rate,91,% of hospitals posted MRF by Nov 2024,PatientRightsAdvocate Nov 2024,https://chir.georgetown.edu/federal-officials-announce-steps-to-strengthen-health-care-price-transparency/
+Price Transparency,CMS Enforcement Penalties,27,hospitals assessed penalties to date,CMS,https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-price-transparency-enforcement-activities-and-outcomes
+Price Transparency,Compliance Reviews Conducted,5149,cases covering 3764 distinct hospitals,CMS June 2025,https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-price-transparency-enforcement-activities-and-outcomes
+Price Transparency,Coverage of Eligible Hospitals,52,% of acute-care/specialty hospitals reviewed,CMS June 2025,https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-price-transparency-enforcement-activities-and-outcomes
+Price Transparency,Turquoise Records,1000000000,+ records in databases,Turquoise Health,https://turquoise.health/researchers
+Price Transparency,Hospitals Posted MRF by End 2023,5763,hospitals,Turquoise/AHA 2023,https://www.aha.org/news/headline/2024-01-05-analysis-91-hospitals-posting-machine-readable-price-transparency-data
+Price Transparency,Complete File Quality,50,% of hospitals posting complete files,Turquoise Health 2024,https://turquoise.health/researchers
+Facility Fees,States with >$100 Average Fee,24,of 43 states surveyed,HCCI,https://healthcostinstitute.org/all-hcci-reports/facility-fees-what-are-them-and-how-do-they-impact-health-care-prices
+Facility Fees,Colorado Extra Charges,50000000,+ dollars for 25 services,HCCI Colorado case,https://healthcostinstitute.org/all-hcci-reports/facility-fees-what-are-them-and-how-do-they-impact-health-care-prices
+Facility Fees,Hospital Acquisition Price Impact,14,% outpatient price increase,Yale News 2025,https://news.yale.edu/2025/08/14/hospital-takeovers-physician-practices-drive-health-care-prices-study-finds
+Facility Fees,Facility Fee Attribution,50,% of 14% increase attributable to facility fee,Yale News 2025,https://news.yale.edu/2025/08/14/hospital-takeovers-physician-practices-drive-health-care-prices-study-finds
+Facility Fees,States with Fee Restrictions,18,states restricting facility fees (as of Sept 2024),Applied Policy,https://www.appliedpolicy.com/facility-fee-reforms-how-states-are-tackling-excessive-hospital-outpatient-charges/
+340B Program,Eligible Covered Entities,2000+,hospitals and health systems,HRSA,https://www.hrsa.gov/opa
+340B Program,Manufacturer Discount Rate,20-40,% below retail (typical range),HRSA,https://www.hrsa.gov/opa
+340B Program,HRSA Contract Review Rate,<10,% of nongovernmental hospitals reviewed annually,GAO audit 2017-2018,https://www.gao.gov/products/gao-20-108
+Nonprofit Hospitals,Tax Exemption Value 2020,28000,million dollars annual,KFF,https://www.kff.org/health-costs/the-estimated-value-of-tax-exemption-for-nonprofit-hospitals-was-about-28-billion-in-2020/
+Nonprofit Hospitals,Tax Exemption Value 2021,37400,million dollars annual,JAMA study,https://journalistsresource.org/health/nonprofit-hospitals-tax-benefits-jama/
+Nonprofit Hospitals,Charity Care 2020,16000,million dollars annual,KFF,https://www.kff.org/health-costs/the-estimated-value-of-tax-exemption-for-nonprofit-hospitals-was-about-28-billion-in-2020/
+Nonprofit Hospitals,Tax Exemption vs Charity Care Ratio,1.75,x exemption exceeds charity care,KFF analysis,https://www.kff.org/health-costs/the-estimated-value-of-tax-exemption-for-nonprofit-hospitals-was-about-28-billion-in-2020/
+Nonprofit Hospitals,Tax Exemption as % Expenses,5.9,% average,PMC study,https://pmc.ncbi.nlm.nih.gov/articles/PMC5813653/
+Nonprofit Hospitals,Community Benefits as % Expenses,7.6,% average,PMC study,https://pmc.ncbi.nlm.nih.gov/articles/PMC5813653/
+Nonprofit Hospitals,Incremental Nonprofit Benefits,5.7,% of expenses,PMC study,https://pmc.ncbi.nlm.nih.gov/articles/PMC5813653/
+Nonprofit Hospitals,Incremental Charity Care,1.7,% of expenses,PMC study,https://pmc.ncbi.nlm.nih.gov/articles/PMC5813653/
+Nonprofit Hospitals,Charity Care as % Expenses,1.8,% average 2017-2021,PMC recent study,https://pmc.ncbi.nlm.nih.gov/articles/PMC5813653/
+Nonprofit Hospitals,Tax Exemption 10th Percentile,0.9,% of expenses,PMC study,https://pmc.ncbi.nlm.nih.gov/articles/PMC5813653/
+Nonprofit Hospitals,Tax Exemption 90th Percentile,7.7,% of expenses,PMC study,https://pmc.ncbi.nlm.nih.gov/articles/PMC5813653/
+Nonprofit Hospitals,Charity Care 10th Percentile,0,% of expenses,PMC study,https://pmc.ncbi.nlm.nih.gov/articles/PMC5813653/
+Nonprofit Hospitals,Charity Care 90th Percentile,3.0,% of expenses,PMC study,https://pmc.ncbi.nlm.nih.gov/articles/PMC5813653/
+Procedure Costs,Hip Replacement US,40000,dollars,Peterson-KFF Tracker,https://www.healthsystemtracker.org/chart-collection/how-costly-are-common-health-services-in-the-united-states/
+Procedure Costs,Hip Replacement Germany,14000,dollars (2.9x cheaper),World Pop Review,https://worldpopulationreview.com/country-rankings/hip-replacement-cost-by-country
+Procedure Costs,Hip Replacement Spain,12000,dollars (3.3x cheaper),World Pop Review,https://worldpopulationreview.com/country-rankings/hip-replacement-cost-by-country
+Procedure Costs,Hip Replacement Poland,5000,dollars (8x cheaper),World Pop Review,https://worldpopulationreview.com/country-rankings/hip-replacement-cost-by-country
+Procedure Costs,Hip Replacement Bangladesh,1360,dollars (29x cheaper),World Pop Review 2025,https://worldpopulationreview.com/country-rankings/hip-replacement-cost-by-country
+Procedure Costs,Knee Replacement US,35000-50000,dollars,Peterson-KFF Tracker,https://www.healthsystemtracker.org/chart-collection/how-costly-are-common-health-services-in-the-united-states/
+Procedure Costs,Knee Replacement International,4000-6000,dollars (6-10x cheaper),Peterson-KFF Tracker,https://www.healthsystemtracker.org/chart-collection/how-costly-are-common-health-services-in-the-united-states/
+Procedure Costs,Coronary Bypass US Median,89094,dollars,iFHP 2022 report,https://ifhp.com/international-healthcare-cost-comparison-report-2024/
+Procedure Costs,Coronary Bypass Australia,17741,dollars (5x cheaper),iFHP 2022 report,https://ifhp.com/international-healthcare-cost-comparison-report-2024/
+Procedure Costs,Coronary Bypass Spain,10734,dollars (8.3x cheaper),iFHP 2022 report,https://ifhp.com/international-healthcare-cost-comparison-report-2024/
+Procedure Costs,Coronary Bypass US vs Peers,2.9,x average cost (Peterson-KFF 2022),Peterson-KFF Tracker,https://www.healthsystemtracker.org/chart-collection/how-do-healthcare-prices-and-use-in-the-u-s-compare-to-other-countries/
+Procedure Costs,Coronary Angioplasty US vs Peers,2.9,x average cost inpatient,Peterson-KFF Tracker,https://www.healthsystemtracker.org/chart-collection/how-do-healthcare-prices-and-use-in-the-u-s-compare-to-other-countries/
+Procedure Costs,C-Section Excess Utilization,15,% more per 1000 live births vs peers,Peterson-KFF 2022,https://www.healthsystemtracker.org/chart-collection/how-do-healthcare-prices-and-use-in-the-u-s-compare-to-other-countries/
+Procedure Costs,Appendectomy US Average,21000,dollars,iFHP 2022 report,https://healthcostinstitute.org/images/pdfs/international_health_cost_comparison_report_2022.pdf
+Procedure Costs,Appendectomy US 25th Percentile,9000,dollars,iFHP 2022 report,https://healthcostinstitute.org/images/pdfs/international_health_cost_comparison_report_2022.pdf
+Procedure Costs,Appendectomy US 95th Percentile,33000,dollars,iFHP 2022 report,https://healthcostinstitute.org/images/pdfs/international_health_cost_comparison_report_2022.pdf
+Procedure Costs,Appendectomy UK,11000,dollars (50% cheaper),iFHP 2022 report,https://healthcostinstitute.org/images/pdfs/international_health_cost_comparison_report_2022.pdf
+Procedure Costs,Appendectomy Australia,5500,dollars (75% cheaper),iFHP 2022 report,https://healthcostinstitute.org/images/pdfs/international_health_cost_comparison_report_2022.pdf
+Procedure Costs,MRI Cost US Range,400-10000,dollars depending on body part,Cura4U,https://cura4u.com/blog/cost-of-mri-and-ct-scan-without-insurance
+Procedure Costs,CT Scan Cost US Range,300-7000,dollars (some as high as 20000),Cura4U,https://cura4u.com/blog/cost-of-mri-and-ct-scan-without-insurance
+Procedure Costs,Colonoscopy US Average,920,dollars with insurance,GoodRx,https://allclinics.io/articles/how-much-does-colonoscopy-cost-in-us/
+Procedure Costs,Colonoscopy US Range,400-1000,dollars across 230 hospitals,GoodRx,https://allclinics.io/articles/how-much-does-colonoscopy-cost-in-us/
+RAND Hospital Pricing,Private Insurer vs Medicare,254,% of Medicare rates (2022),RAND Round 5,https://www.rand.org/pubs/research_reports/RRA1144-2-v2.html
+RAND Hospital Pricing,Employer Insurance Premium 2013,16350,dollars family plan,RAND context,https://www.rand.org/pubs/research_reports/RRA1144-2-v2.html
+RAND Hospital Pricing,Employer Insurance Premium 2023,24000,dollars family plan (~50% increase),RAND context,https://www.rand.org/pubs/research_reports/RRA1144-2-v2.html
