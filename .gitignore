@@ -1,7 +1,5 @@
 # Data files (too large for git; re-download with pipeline scripts)
-issue_01/data/
-issue_02/data/
-issue_03/data/
+issue_*/data/
 
 # DuckDB databases (regenerate with pipeline scripts)
 *.duckdb
@@ -10,41 +8,32 @@ issue_03/data/
 *.pdf
 reference_data/
 
-# ── Unpublished issues ──────────────────────────────────────────────────────
-# Add each issue here until its Substack post goes live.
-# On publish: remove the issue folder and newsletter file lines below,
-# commit the issue content, and push.
-
-# Issue 2 (published — newsletter_issue_02.md is the working draft, not for public)
-newsletter_issue_02.md
-
-# Issue 3 (published)
-
-# Issue 4 (unpublished)
+# Unpublished issue drafts (added to repo on publication)
 issue_04/
-newsletter_issue_04.md
-newsletter_issue_04_FINAL.md
+issue_05/
+issue_06/
 
-# ── Internal / operational files (not for public repo) ──────────────────────
+# Internal project files
 CLAUDE.md
 ROADMAP.md
 research/
+skills/
 INSURANCE_RESEARCH_FILE_INDEX.txt
 **/LAUNCH_PACKAGE.md
 
 # Root-level figures (issue-specific figures live in issue_XX/figures/)
 /figures/
 
-# ── Python ──────────────────────────────────────────────────────────────────
+# Python
 .venv/
 __pycache__/
 *.pyc
 *.pyo
-.DS_Store
 
 # Jupyter
 .ipynb_checkpoints/
 
-# IDE
+# OS / IDE
+.DS_Store
 .vscode/
 .idea/
