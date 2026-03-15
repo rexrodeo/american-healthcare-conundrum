@@ -55,7 +55,7 @@ python 05_visualize.py
 
 Medicare pays 7–25× more than peer nations for the same brand-name drugs. International reference pricing — benchmarking Medicare negotiations against what Germany, France, Japan, UK, and Australia pay — would save approximately **$25 billion per year**.
 
-**Read the full analysis →** [`newsletter_issue_02_FINAL.md`](newsletter_issue_02_FINAL.md)
+**Read the full analysis →** [`issue_02/newsletter_issue_02_FINAL.md`](issue_02/newsletter_issue_02_FINAL.md)
 
 #### Running the pipeline
 
