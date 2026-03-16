@@ -1,8 +1,19 @@
 # The American Healthcare Conundrum
 
-An investigative data journalism newsletter. Each issue identifies one fixable, quantifiable problem in the US healthcare system, builds the data case from primary sources, and recommends a specific policy fix. All code and methodology are open-source — anyone can check the work.
+The US spends ~$14,570 per person on healthcare. Japan spends ~$5,790 and has the highest life expectancy in the OECD. That gap is roughly **$3 trillion per year.**
 
-**Substack:** [andrewrexroad.substack.com](https://andrewrexroad.substack.com)
+This project finds it, one issue at a time. Each issue identifies one fixable problem, quantifies the waste from primary federal data, and recommends a specific policy fix. All code is open-source. Anyone can reproduce the analysis.
+
+**[Subscribe on Substack](https://andrewrexroad.substack.com)** | **[MIT License](LICENSE)** | **[Contributing](CONTRIBUTING.md)**
+
+## Savings Identified So Far
+
+| # | Issue | Savings | Key Finding | Data Source |
+|---|-------|---------|-------------|-------------|
+| 1 | [OTC Drug Overspending](issue_01/newsletter_issue_01_FINAL.md) | $0.6B/yr | Medicare pays Rx prices for drugs you can buy off the shelf | CMS Part D 2023 |
+| 2 | [The Same Pill, A Different Price](issue_02/newsletter_issue_02_FINAL.md) | $25.0B/yr | US pays 7-581x more than peer nations for the same drugs | CMS Part D, NHS Tariff, RAND |
+| 3 | [The 254% Problem](issue_03/newsletter_issue_03.md) | $73.0B/yr | Commercial insurers pay 254% of Medicare for identical hospital procedures | CMS HCRIS, RAND 5.1 |
+| | **Running Total** | **$98.6B/yr** | **3.3% of the $3T gap** | |
 
 ---
 
@@ -136,6 +147,6 @@ Issue #4 examines pharmacy benefit managers — the largely invisible intermedia
 
 ## About This Project
 
-The US spends roughly **2.5× per capita** what comparable nations spend on healthcare — while achieving worse aggregate outcomes on life expectancy and infant mortality. This newsletter maps the gap, issue by issue, using publicly available data.
+Every analysis uses primary sources: CMS cost reports, Part D claims data, OECD health statistics, RAND pricing studies. Every number has a citation. Every script is reproducible from a clean clone. Caveats are named explicitly. The math is the argument.
 
-All analysis uses primary sources. Code is reproducible. Caveats are named explicitly. The math is the argument.
+Built by [Andrew Rexroad](https://andrewrexroad.substack.com). Questions, corrections, or data tips: vonrexroad@gmail.com
