@@ -33,6 +33,9 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
+# Credentials (never commit)
+.git-credentials
+
 # OS / IDE
 .DS_Store
 .vscode/
