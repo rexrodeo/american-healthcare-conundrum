@@ -13,9 +13,9 @@ Sources:
 
 import requests, zipfile, io, pandas as pd, numpy as np, json, os
 
-OUTDIR  = "/sessions/magical-youthful-ride/mnt/healthcare/issue_03/results"
-FIGDIR  = "/sessions/magical-youthful-ride/mnt/healthcare/issue_03/figures"
-DATADIR = "/sessions/magical-youthful-ride/mnt/healthcare/issue_03/data"
+OUTDIR  = "/Users/minirex/healthcare/issue_03/results"
+FIGDIR  = "/Users/minirex/healthcare/issue_03/figures"
+DATADIR = "/Users/minirex/healthcare/issue_03/data"
 os.makedirs(OUTDIR, exist_ok=True)
 os.makedirs(FIGDIR, exist_ok=True)
 os.makedirs(DATADIR, exist_ok=True)
@@ -79,12 +79,15 @@ df_valid = df_valid.loc[df_valid.col5.notna() & df_valid.col7.notna()]
 df_valid["ccr"] = df_valid.col5 / df_valid.col7
 df_valid["markup"] = 1.0 / df_valid.ccr
 
-# Control type labels
+# Control type labels (CMS Form 2552-10)
 ctrl_map = {
-    1: "Government (nonfederal)", 2: "Government (nonfederal)",
-    3: "For-profit", 4: "Nonprofit", 5: "Nonprofit",
-    6: "Nonprofit", 7: "For-profit", 8: "For-profit",
-    9: "For-profit", 13: "Nonprofit"
+    1: "Nonprofit", 2: "Nonprofit",           # Voluntary Nonprofit (Church, Other)
+    3: "For-profit", 4: "For-profit",          # Proprietary (Individual, Corporation)
+    5: "For-profit", 6: "For-profit",          # Proprietary (Partnership, Other)
+    7: "Government", 8: "Government",          # Government (State, County)
+    9: "Government", 10: "Government",         # Government (City, City-County)
+    11: "Government", 12: "Government",        # Government (Hospital District, Federal)
+    13: "Nonprofit"                            # Voluntary Nonprofit, Other
 }
 df_valid["ctrl_label"] = df_valid.CTRL_TYPE.map(ctrl_map).fillna("Other")
 
