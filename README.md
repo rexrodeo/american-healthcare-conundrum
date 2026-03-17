@@ -73,7 +73,8 @@ python 02_visualize.py
 
 - Savings formula: $528B commercial hospital spend × 65% addressable × 21.3% price reduction (254%→200% of Medicare) = $73B
 - 3,193 hospitals analyzed from raw HCRIS FY2023 federal cost reports
-- Median markup in nonprofit hospitals: 3.96× actual operating costs; 37% of all hospitals charge 3× or more
+- For-profit hospitals: 4.11× median markup (highest); nonprofit: 2.46×; government: 2.22×. 37% of all hospitals charge 3× or more
+- **Correction (2026-03-17):** Original release mislabeled CMS ownership codes, swapping nonprofit and for-profit categories. The $73B savings estimate was unaffected (derived from RAND/CMS NHE national data). See `issue_03/CTRL_TYPE_AUDIT.md` for details.
 - Fix mechanism (Commercial Reference Pricing) is already implemented in Montana and by thousands of self-insured employers
 - No overlap with Issues #1 or #2 (those cover drug prices only; this covers hospital/procedure prices)
 
