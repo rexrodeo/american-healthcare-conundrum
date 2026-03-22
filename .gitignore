@@ -26,6 +26,21 @@ INSURANCE_RESEARCH_FILE_INDEX.txt
 # Root-level figures (issue-specific figures live in issue_XX/figures/)
 /figures/
 
+# Internal issue working files (never public)
+**/PROMO_KIT.md
+**/QUICK_REFERENCE.txt
+**/fact_check*.md
+**/FACT_CHECK*.md
+**/research_notes.md
+**/payload.html
+**/inject_*.js
+**/get_chunks*.py
+**/save_chunks.py
+**/serve_html.py
+**/chunks/
+**/chunks_v*/
+**/thumbs/
+
 # Python
 .venv/
 __pycache__/
