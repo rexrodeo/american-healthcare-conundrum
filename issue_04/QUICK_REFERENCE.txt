@@ -1,0 +1,163 @@
+ISSUE #4 QUICK REFERENCE — "The Middlemen: Pharmacy Benefit Managers"
+=======================================================================
+Compiled: March 5, 2026 | Booked savings: $30B/year | Running total: $128.6B
+
+THE ONE-LINE PITCH
+------------------
+Three companies process 80% of US prescriptions and extract ~$30B/year
+through spread pricing, retained rebates, and formulary manipulation — all
+invisible to the patients paying the bills.
+
+KEY NUMBERS (all independently sourced)
+----------------------------------------
+$722.5B   — US prescription drug spending, 2023 (Bernard & Sloan 2025)
+$334B     — Total manufacturer rebates paid to PBMs/plans annually (IQVIA)
+80%       — Share of US prescriptions processed by CVS Caremark, Express Scripts, OptumRx
+$7.3B     — FTC-documented specialty drug markups at PBM-owned pharmacies, 2017–2022
+$224.8M   — PBM spread pricing extracted from Ohio Medicaid in ONE year (Ohio Auditor 2018)
+$123.5M   — PBM spread from Kentucky Medicaid, same period
+16.1%     — Rural independent pharmacies that closed 2003–2018 (JAMA Health Forum 2021)
+57.4%     — ESI formulary exclusions with questionable patient benefit (Chea et al. 2023)
+28%       — Share of Florida Medicaid prescription profit captured by PBM-owned pharmacies
+0.4%      — Share of claims those same pharmacies dispensed (70x profit-per-claim advantage)
+$316      — Humalog (insulin lispro) list price peak, 2022
+$21       — Humalog list price, 1996 (when approved)
+1,405%    — Price increase over 26 years (the rebate system's work)
+$35       — Patient monthly cap (IRA, Part D) — helped patients; didn't fix the mechanism
+
+THE BIG 3 PBMs — MARKET SHARES
+-------------------------------
+CVS Caremark:         ~34% (part of CVS Health: PBM + CVS Pharmacy + Aetna)
+Express Scripts:      ~24% (part of Cigna/Evernorth)
+OptumRx:              ~22% (part of UnitedHealth Group/Optum)
+Combined:             ~80% of US prescriptions
+
+THE SIX MECHANISMS OF EXTRACTION
+----------------------------------
+1. SPREAD PRICING
+   PBMs bill health plans MORE than they reimburse pharmacies.
+   Ohio: billed $224.8M more than they paid pharmacies in one year.
+   Medicaid-scale estimate: $5B/year gross; book at $3B.
+
+2. REBATE OPACITY
+   Manufacturers pay $334B/year in rebates to secure favorable formulary placement.
+   PBMs retain 5–10% above disclosed admin fees.
+   Conservative: $10B/year retained by PBMs, not passed to plans or patients.
+
+3. SPECIALTY DRUG MARKUP
+   PBM-owned specialty pharmacies reimbursed at higher rates than independents.
+   FTC documented: $7.3B over 5 years (2017–2022) = $1.5B/year ongoing.
+
+4. FORMULARY MANIPULATION
+   57.4% of ESI exclusions had questionable patient benefit.
+   Brand insulins stay preferred; biosimilar insulins excluded — because brands pay
+   bigger rebates. FDA-approved biosimilars: 100+. Penetration: far below Europe.
+   Conservative savings from fixing this: $10B/year.
+
+5. SELF-PREFERENCING
+   PBMs steer patients to their own pharmacies via restricted networks.
+   Florida: PBM-owned pharmacies = 0.4% of claims, 28% of profit.
+   Embedded in specialty markup figures; not separately booked to avoid double-count.
+
+6. INDEPENDENT PHARMACY DESTRUCTION
+   Consequence of mechanisms above: rural pharmacy deserts.
+   16.1% of rural independents closed 2003–2018.
+   Some pharmacies: 80% of reimbursements below cost to dispense.
+   This is a harm metric, not separately booked.
+
+SAVINGS MODEL (Conservative)
+-------------------------------
+Mechanism 1: Spread pricing elimination (Medicaid MC)  → $3.0B
+Mechanism 2: Rebate pass-through mandate               → $10.0B
+Mechanism 3: Specialty drug markup cap                 → $1.5B
+Mechanism 4: Formulary reform (biosimilar preference)  → $10.0B
+Mechanism 5: Admin transparency savings                → $5.5B
+TOTAL (booked conservative)                            → $30.0B
+RANGE                                                   → $30–50B
+
+DOUBLE-COUNT CHECK (Clean)
+----------------------------
+Issue #1: OTC step therapy for Medicare Part D OTC-equivalent molecules. No overlap.
+Issue #2: IRA international reference pricing for 9 specific brand drugs. No overlap.
+Issue #3: Commercial hospital procedure pricing. No overlap (different sector).
+Issue #4: PBM intermediary extraction layer — sits ON TOP of whatever manufacturer prices Issue #2 addressed.
+
+THE INSULIN CASE STUDY
+-----------------------
+Humalog price: $21 (1996) → $316 (2022) = +1,405%
+Mechanism: Three manufacturers competed on rebate size (not price) to win PBM formulary
+  placement. High rebates required high list prices. PBMs preferred high-list/high-rebate
+  brands over cheaper biosimilar insulins (Semglee at $98, Rezvoglar at $92).
+IRA cap: $35/month for Medicare beneficiaries (2023) — helps at the register but
+  doesn't change the underlying rebate incentive structure.
+FTC: Sued all 3 Big PBMs in September 2024 specifically over insulin pricing practices.
+Biosimilar uptake: 20.6% market share in least-restrictive states (Kwon et al. 2025)
+  — even with an FDA-approved interchangeable biosimilar, formulary barriers limit adoption.
+
+THE VERTICAL INTEGRATION PROBLEM
+----------------------------------
+CVS Health = CVS Caremark PBM + CVS Pharmacy + Aetna insurer + specialty pharmacies
+Cigna/Evernorth = Express Scripts PBM + Accredo specialty pharmacy
+UnitedHealth = OptumRx PBM + OptumRx Mail Service + UHC insurer
+Result: The entity that sets formularies and reimburses pharmacies ALSO owns the
+  pharmacies being reimbursed at the highest rates.
+
+KEY SOURCES (for citations)
+-----------------------------
+FOUNDATION:
+- Mattingly, Hyman & Bai 2023, JAMA Health Forum (25 citations) — best academic overview
+- FTC Interim Report #1, July 2024 — $7.3B specialty markup, $334B rebate flow
+- FTC Interim Report #2, January 2025 — vertical integration details
+- FTC Lawsuit vs. CVS Caremark, Express Scripts, OptumRx, September 2024 (insulin)
+
+STATE AUDITS:
+- Ohio State Auditor 2018 — $224.8M spread pricing
+- Kentucky equivalent — $123.5M same period
+
+ACADEMIC (Consensus):
+- Knox, Gagneja & Kraschel 2021, JAMA Health Forum — 16.1% rural pharmacy closures
+- Mattingly, Ben-Umeh, Bai & Anderson 2023, JAMA Health Forum — generic spread pricing
+- Chea, Sydor & Popovian 2023 — 57.4% formulary exclusions questionable benefit
+- Kwon, Sarpatwari & Dusetzina 2025, JAMA Health Forum — biosimilar adoption + state laws
+- Motheral & Fairman 2020, JMCSP — PBM business practice analysis (note: author conflict)
+- Bernard & Sloan 2025, J Gen Internal Med — $722.5B total drug spend
+
+ADDITIONAL:
+- Drug Channels Institute 2024 — PBM market share data
+- CMS NHE 2023 — total drug spending breakdown
+
+POLICY STATUS
+--------------
+Already enacted:
+  - IRA 2022: Part D rebate pass-through (fully effective 2025)
+  - IRA 2022: $35 Medicare patient cap on insulin
+  - Rutledge v. PCMA (2020): States can require PBMs to reimburse above cost
+  - 15+ states have banned spread pricing in Medicaid (post-Ohio audit)
+  - 40+ states have PBM reimbursement reform laws
+What's left:
+  - Federal spread pricing ban for ALL PBM programs (not just Medicaid)
+  - Fiduciary standard for PBMs
+  - Formulary transparency + biosimilar preference mandate
+  - Vertical divestiture OR open network mandate
+  - Federal right of pharmacies to refuse below-cost reimbursement
+
+NEWSLETTER STRUCTURE (Recommended)
+-------------------------------------
+1. Open: A prescription in Chillicothe, Ohio (rural independent pharmacy story)
+2. The Invisible Tax: How PBMs work and why patients can't see them
+3. Six Ways to Extract $30 Billion (mechanisms, with Ohio/insulin as cases)
+4. The Insulin Files: How the rebate system kept prices at 1,400% for 26 years
+5. The Vertical Integration Problem (CVS/Cigna/United empire building)
+6. What the FTC Found (and Sued Over)
+7. The Fix: Fiduciary standard + transparency + formulary reform
+8. Savings Tracker: $130.6B and counting
+9. What's Next: Issue #5 — Administrative waste ($200B)
+
+SAVINGS TRACKER UPDATE
+-----------------------
+Issue #1  OTC Drug Overspending:          $0.6B
+Issue #2  Drug Reference Pricing:        $25.0B
+Issue #3  Hospital Reference Pricing:    $73.0B
+Issue #4  PBM Reform (this issue):       $30.0B
+                                         ------
+RUNNING TOTAL:                          $128.6B / $3T = 4.3%

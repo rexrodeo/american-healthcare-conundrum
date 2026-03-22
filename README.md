@@ -15,9 +15,10 @@ This project finds it, one issue at a time. Each issue identifies one fixable pr
 | 1 | [OTC Drug Overspending](issue_01/newsletter_issue_01_FINAL.md) | $0.6B/yr | Medicare pays Rx prices for drugs you can buy off the shelf | CMS Part D 2023 |
 | 2 | [The Same Pill, A Different Price](issue_02/newsletter_issue_02_FINAL.md) | $25.0B/yr | US pays 7–581x more than peer nations for the same drugs | CMS Part D, NHS Tariff, RAND |
 | 3 | [The 254% Problem](issue_03/newsletter_issue_03.md) | $73.0B/yr | Commercial insurers pay 254% of Medicare for identical hospital procedures | CMS HCRIS, RAND 5.1 |
-| | **Running Total** | **$98.6B/yr** | **3.3% of the $3T gap** | |
+| 4 | [The Middlemen](issue_04/newsletter_issue_04.md) | $30.0B/yr | Three PBMs process 80% of US prescriptions and extract ~$30B/yr through spread pricing, rebate opacity, and formulary manipulation | FTC Interim Reports, Ohio Auditor, JAMA |
+| | **Running Total** | **$128.6B/yr** | **4.3% of the $3T gap** | |
 
-![Savings Tracker](issue_03/figures/chart5_savings_tracker.png)
+![Savings Tracker](issue_04/figures/chart6_savings_tracker.png)
 
 ---
 
@@ -32,6 +33,68 @@ The same operations. Exposed to the same clinical evidence. Wildly different pri
 ---
 
 ## Published Issues
+
+### Issue #4 — The Middlemen: Pharmacy Benefit Managers (~$30.0B/year)
+
+Three companies — CVS Caremark, Express Scripts, and OptumRx — process 80% of the 6.6 billion prescriptions Americans fill each year. The Federal Trade Commission spent two years investigating their practices and documented billions in extraction through six distinct mechanisms: spread pricing, rebate opacity, specialty drug markup, formulary manipulation, self-preferencing, and independent pharmacy destruction. The Ohio state auditor found $224.8 million in spread pricing from a single state's Medicaid program in a single year. Eliminating these extraction mechanisms — through rebate pass-through mandates, fiduciary standards, and formulary transparency — would save approximately **$30 billion per year**.
+
+![PBM Market Share and Drug Dollar Flow](issue_04/figures/chart1_pbm_market.png)
+
+*Source: Drug Channels Institute 2024; Bernard & Sloan 2025.*
+
+**Read the full analysis →** [`issue_04/newsletter_issue_04.md`](issue_04/newsletter_issue_04.md)
+
+<details>
+<summary>Running the pipeline</summary>
+
+```bash
+cd issue_04
+
+# Generate charts
+python chart1_pbm_market.py
+python chart2_harm_spread.py
+python chart4_biosimilar_v4.py
+python chart5_insulin_prices.py
+python generate_tracker_04.py
+```
+
+</details>
+
+<details>
+<summary>Data sources</summary>
+
+| Source | Description |
+|--------|-------------|
+| FTC Interim Report #1 (July 2024) | $7.3B in PBM-owned specialty pharmacy markups, 2017–2022; $334B annual rebate flow |
+| FTC Interim Report #2 (January 2025) | Vertical integration details and self-preferencing evidence |
+| Ohio State Auditor (2018) | $224.8M spread pricing extracted from Ohio Medicaid in one year |
+| Mattingly, Hyman & Bai 2023, JAMA Health Forum | Comprehensive review of PBM economics and agency conflicts |
+| Drug Channels Institute 2024 | PBM market share: CVS 34%, ESI 24%, OptumRx 22% |
+| Bernard & Sloan 2025, J Gen Internal Med | Total US prescription drug spending $722.5B (2023) |
+| Kwon, Sarpatwari & Dusetzina 2025, JAMA Health Forum | Biosimilar adoption rates by state PBM law stringency |
+| Chea, Sydor & Popovian 2023 | 57.4% of ESI formulary exclusions with questionable patient benefit |
+| Knox, Gagneja & Kraschel 2021, JAMA Health Forum | 16.1% of rural independent pharmacies closed 2003–2018 |
+| IQVIA National Prescription Audit | Manufacturer rebates: $334B annually paid to PBMs/plans |
+
+</details>
+
+<details>
+<summary>Key methodology notes</summary>
+
+- Savings model is conservative, built from six distinct non-overlapping mechanisms
+- Mechanism 1 (spread pricing): $3.0B — Ohio audit extrapolated to national Medicaid managed care
+- Mechanism 2 (rebate pass-through): $10.0B — PBMs retain estimated 5–10% above disclosed admin fees on $334B rebate pool
+- Mechanism 3 (specialty markup): $1.5B — FTC-documented $7.3B over 5 years, annualized
+- Mechanism 4 (formulary reform/biosimilar preference): $10.0B — biosimilar adoption gap vs. states with strong PBM laws
+- Mechanism 5 (admin transparency savings): $5.5B — waste from opaque PBM reporting requirements
+- Total booked: $30.0B/year (range $30–50B)
+- No overlap with Issues #1–3: Issue #2 addresses manufacturer-level drug prices; Issue #4 addresses the intermediary extraction layer on top of those prices
+- CAA 2026 (enacted Feb 3, 2026) includes rebate pass-through effective 2029 for commercial plans; FTC settled with Express Scripts Feb 4, 2026 ($700M/yr projected savings from one PBM)
+
+</details>
+
+---
+
 
 ### Issue #3 — The 254% Problem (~$73.0B/year)
 
@@ -184,13 +247,13 @@ python 05_visualize.py
 
 ---
 
-**Through 3 issues: ~$98.6 billion in identified savings**
+**Through 4 issues: ~$128.6 billion in identified savings (4.3% of the $3T gap)**
 
 ---
 
 ## Up Next
 
-Issue #4 examines pharmacy benefit managers — the largely invisible intermediaries who process 80% of US prescriptions and extract billions through spread pricing, rebate opacity, and formulary manipulation. Subscribe on Substack to get it when it drops.
+Issue #5 examines the administrative cost of US healthcare complexity — the $4,983 per-capita we spend just to manage billing, prior authorization, and insurance paperwork, versus $884 in peer nations. Subscribe on Substack to get it when it drops.
 
 ---
 
