@@ -22,6 +22,25 @@ threads/
 .skills/
 INSURANCE_RESEARCH_FILE_INDEX.txt
 **/LAUNCH_PACKAGE.md
+**/PROMO_KIT*
+
+# Policy outreach — contacts, strategy memos, rapid-response playbooks
+policy-outreach/contacts/
+policy-outreach/rapid-response/
+**/STRATEGY.md
+states/**/contacts/
+
+# Internal project management / working docs
+PROJECT_JOURNAL.md
+SUBSTACK_ABOUT.md
+profile_readme_draft.md
+hn_digests/
+MEDICAL_SUPPLY_QUOTES_FOR_ARTICLE.md
+newsletter_issue_02.md
+dashboard.html
+
+# Promotion / growth-hacking skill files
+skills/ahc-growth-hacker/
 
 # Root-level figures (issue-specific figures live in issue_XX/figures/)
 /figures/
