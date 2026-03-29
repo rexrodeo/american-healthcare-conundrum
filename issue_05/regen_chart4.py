@@ -16,7 +16,7 @@ import matplotlib.ticker as mticker
 import numpy as np
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-CSV_PATH = os.path.join(BASE, "hospital_admin_costs_fy2023.csv")
+CSV_PATH = os.path.join(BASE, "results", "hospital_admin_costs_fy2023.csv")
 FIG_DIR = os.path.join(BASE, "figures")
 
 # Brand
