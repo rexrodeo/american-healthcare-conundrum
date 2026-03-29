@@ -270,7 +270,7 @@ Issue #6 asks where that operational variance shows up in the physical supply ch
 
 If you want to follow the code: [github.com/rexrodeo/american-healthcare-conundrum](https://github.com/rexrodeo/american-healthcare-conundrum)
 
-If you want to check our numbers: the hospital-level CSV (4,518 rows, 22 columns) is in the repository under `issue_05/hospital_admin_costs_fy2023.csv`.
+If you want to check our numbers: the hospital-level CSV (4,518 rows, 22 columns) is in the repository under `issue_05/results/hospital_admin_costs_fy2023.csv`.
 
 If you want to push back on the methodology: reply to this email, or leave a comment below.
 

@@ -80,7 +80,7 @@ python generate_all_charts.py
 - P75/P25 ratio: 6.2× nationally, 2.0–2.7× within bed-size peers (CMI-adjusted: 2.1–3.1×)
 - Ownership: For-profit median $458/DC, nonprofit $1,980/DC, government $2,524/DC
 - Savings: Q4→P75 = $18.0B, above-median→P50 = $39.8B (hospital admin only; $200B includes full system)
-- Published dataset: `hospital_admin_costs_fy2023.csv` (4,518 hospitals, 22 columns)
+- Published dataset: `results/hospital_admin_costs_fy2023.csv` (4,518 hospitals, 22 columns)
 - No overlap with Issues #1–4: those cover drug prices, hospital procedure prices, and PBM extraction; this covers administrative overhead
 
 </details>
