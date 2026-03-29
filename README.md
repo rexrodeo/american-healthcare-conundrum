@@ -16,9 +16,10 @@ This project finds it, one issue at a time. Each issue identifies one fixable pr
 | 2 | [The Same Pill, A Different Price](issue_02/newsletter_issue_02_FINAL.md) | $25.0B/yr | US pays 7–581x more than peer nations for the same drugs | CMS Part D, NHS Tariff, RAND |
 | 3 | [The 254% Problem](issue_03/newsletter_issue_03.md) | $73.0B/yr | Commercial insurers pay 254% of Medicare for identical hospital procedures | CMS HCRIS, RAND 5.1 |
 | 4 | [The Middlemen](issue_04/newsletter_issue_04.md) | $30.0B/yr | Three PBMs process 80% of US prescriptions and extract ~$30B/yr through spread pricing, rebate opacity, and formulary manipulation | FTC Interim Reports, Ohio Auditor, JAMA |
-| | **Running Total** | **$128.6B/yr** | **4.3% of the $3T gap** | |
+| 5 | [The Paper Chase](issue_05/newsletter_issue_05.md) | $200.0B/yr | US spends $4,983/person on healthcare admin vs. $884 in peer nations; original HCRIS analysis of 4,518 hospitals reveals 6.2× variance in overhead costs | CMS HCRIS, CMS NHE, OECD, AMA |
+| | **Running Total** | **$328.6B/yr** | **11.0% of the $3T gap** | |
 
-![Savings Tracker](issue_04/figures/chart6_savings_tracker.png)
+![Savings Tracker](issue_05/figures/chart6_savings_tracker.png)
 
 ---
 
@@ -33,6 +34,59 @@ The same operations. Exposed to the same clinical evidence. Wildly different pri
 ---
 
 ## Published Issues
+
+### Issue #5 — The Paper Chase: Administrative Waste (~$200.0B/year)
+
+The US spends $4,983 per person just to administer healthcare — 5.6× the $884 average across ten peer nations. An original analysis of 4,518 hospital cost reports (CMS HCRIS FY2023) reveals a 6.2× variance in administrative overhead per discharge nationally. Even within same-size, same-acuity peer groups, the gap is 2.0–3.1×. Prior authorization alone costs the system $21–93 billion per year. Standardized billing, automated prior auth, and all-payer rate setting would save approximately **$200 billion per year**.
+
+![Hospital Admin Overhead Decomposition](issue_05/figures/chart1_overhead_decomposition.png)
+
+*Source: CMS HCRIS FY2023, 4,518 hospitals with ≥100 discharges.*
+
+**Read the full analysis →** [`issue_05/newsletter_issue_05.md`](issue_05/newsletter_issue_05.md)
+
+<details>
+<summary>Running the pipeline</summary>
+
+```bash
+cd issue_05
+
+# Generate all charts
+python generate_all_charts.py
+```
+
+</details>
+
+<details>
+<summary>Data sources</summary>
+
+| Source | Description |
+|--------|-------------|
+| CMS HCRIS HOSP10-REPORTS FY2023 | Cost reports for 4,518 hospitals; administrative overhead, A&G costs, total expenses |
+| CMS National Health Expenditure Accounts 2023 | Total US healthcare spending $4.867T; admin share benchmarks |
+| OECD Health Statistics 2023 | Per-capita admin spending across 10 peer nations |
+| Woolhandler/Himmelstein 2020, Annals of Internal Medicine | US healthcare admin costs: $812B (2017), updated to $1.13–1.66T (2023) |
+| AMA Prior Authorization Survey 2024 | 93% of physicians report PA delays care; 7% report PA contributed to patient death |
+| Health Affairs Nov 2025 | Full-system PA cost: $93.3B/year (payers $6B, manufacturers $24.8B, physicians $26.7B, patients $35.8B) |
+| Gaffney, Himmelstein, Woolhandler & Kahn 2023 | International admin cost comparison methodology |
+
+</details>
+
+<details>
+<summary>Key methodology notes</summary>
+
+- Four original analyses: (1) per-capita international comparison (US $4,983 vs 10-peer avg $884), (2) Woolhandler update to 2023 ($1.13–1.66T), (3) prior auth national cost ($21–93B), (4) HCRIS hospital admin variance
+- HCRIS analysis: 4,518 hospitals (≥100 discharges, nonzero A&G), $141.2B total A&G, $268.5B total overhead (32.2% of total costs)
+- P75/P25 ratio: 6.2× nationally, 2.0–2.7× within bed-size peers (CMI-adjusted: 2.1–3.1×)
+- Ownership: For-profit median $458/DC, nonprofit $1,980/DC, government $2,524/DC
+- Savings: Q4→P75 = $18.0B, above-median→P50 = $39.8B (hospital admin only; $200B includes full system)
+- Published dataset: `hospital_admin_costs_fy2023.csv` (4,518 hospitals, 22 columns)
+- No overlap with Issues #1–4: those cover drug prices, hospital procedure prices, and PBM extraction; this covers administrative overhead
+
+</details>
+
+---
+
 
 ### Issue #4 — The Middlemen: Pharmacy Benefit Managers (~$30.0B/year)
 
@@ -247,13 +301,13 @@ python 05_visualize.py
 
 ---
 
-**Through 4 issues: ~$128.6 billion in identified savings (4.3% of the $3T gap)**
+**Through 5 issues: ~$328.6 billion in identified savings (11.0% of the $3T gap)**
 
 ---
 
 ## Up Next
 
-Issue #5 examines the administrative cost of US healthcare complexity — the $4,983 per-capita we spend just to manage billing, prior authorization, and insurance paperwork, versus $884 in peer nations. Subscribe on Substack to get it when it drops.
+Issue #6 examines hospital supply waste — an original HCRIS analysis of 5,480 hospitals reveals massive unexplained variance in per-discharge supply costs, with CMI-adjusted P75/P25 ratios of 2.5–3.4× within same-size peer groups. Subscribe on Substack to get it when it drops.
 
 ---
 
