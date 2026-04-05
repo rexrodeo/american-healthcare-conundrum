@@ -46,6 +46,19 @@ skills/ahc-growth-hacker/
 # Root-level figures (issue-specific figures live in issue_XX/figures/)
 /figures/
 
+# Article production artifacts (not part of the data pipeline)
+**/gen_cover.py
+**/generate_hero*.py
+**/generate_tracker*.py
+**/generate_global_savings_tracker*.py
+**/regen_*.py
+**/EDITORIAL_REVIEW.md
+**/CHARTS_GENERATED.md
+**/CHARTS_REGENERATION_SUMMARY.md
+**/REGENERATION_CHECKLIST*
+**/RESEARCH_BRIEF.md
+**/EXPANDED_FINDINGS.md
+
 # Internal issue working files (never public)
 **/PROMO_KIT.md
 **/QUICK_REFERENCE.txt
