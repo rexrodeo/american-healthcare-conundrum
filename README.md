@@ -52,7 +52,11 @@ Original HCRIS FY2023 analysis of 5,480 hospitals (142M total discharges) reveal
 ```bash
 cd issue_06
 
-# Generate analysis charts from HCRIS FY2023 results
+# Build dataset from raw HCRIS FY2023/FY2024 flat files
+# Downloads ~200MB per year, extracts supply cost centers, computes CMI-adjusted variance
+python 01_build_data.py
+
+# Generate analysis charts
 python generate_chart1_supply_variance.py   # Supply cost variance by bed size (CMI-adjusted)
 python generate_chart2_surplus_nonprofits.py # Medical surplus redistribution
 python generate_chart3.py                   # Supply cost decomposition ($170.9B)
@@ -62,7 +66,7 @@ python generate_chart7_state_ranking.py     # 50-state supply waste ranking
 ```
 
 **Key outputs:**
-- `results/expanded_analysis_results.json` — Full state-level and year-over-year results
+- `results/expanded_analysis_results.json` — State rankings, teaching analysis, FY2023 vs FY2024 comparison
 - `figures/` — All analysis charts
 
 </details>
@@ -110,13 +114,16 @@ The US spends $4,983 per person just to administer healthcare — 5.6× the $884
 ```bash
 cd issue_05
 
+# Build dataset from raw HCRIS FY2023 flat files
+# Downloads ~200MB, extracts admin/overhead cost centers from Worksheet A
+python 01_build_data.py
+
 # Generate all analysis charts from the hospital dataset
-# Reads from results/hospital_admin_costs_fy2023.csv (4,518 hospitals, 22 columns)
 python generate_all_charts.py
 ```
 
 **Key outputs:**
-- `results/hospital_admin_costs_fy2023.csv` — Full hospital-level admin cost dataset
+- `results/hospital_admin_costs_fy2023.csv` — 4,518 hospitals, 22 columns (admin costs, overhead breakdown, payer mix)
 - `figures/` — All analysis charts
 
 </details>
@@ -168,11 +175,11 @@ Three companies — CVS Caremark, Express Scripts, and OptumRx — process 80% o
 ```bash
 cd issue_04
 
-# Generate analysis charts from cited federal data
+# Generate analysis charts from cited federal data and academic literature
 python chart1_pbm_market.py       # PBM market concentration (Drug Channels Institute 2024)
-python chart2_harm_spread.py      # Spread pricing extraction mechanisms
-python chart4_biosimilar_v4.py    # Biosimilar adoption rates by state PBM law stringency
-python chart5_insulin_prices.py   # Insulin price trajectory analysis
+python chart2_harm_spread.py      # Spread pricing extraction mechanisms (FTC, Ohio Auditor)
+python chart4_biosimilar_v4.py    # Biosimilar adoption by state PBM law (CMS Part D, JAMA)
+python chart5_insulin_prices.py   # Insulin price trajectory (IQVIA, CMS)
 ```
 
 **Key outputs:**
