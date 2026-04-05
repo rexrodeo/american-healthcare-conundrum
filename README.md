@@ -17,9 +17,10 @@ This project finds it, one issue at a time. Each issue identifies one fixable pr
 | 3 | [The 254% Problem](issue_03/newsletter_issue_03.md) | $73.0B/yr | Commercial insurers pay 254% of Medicare for identical hospital procedures | CMS HCRIS, RAND 5.1 |
 | 4 | [The Middlemen](issue_04/newsletter_issue_04.md) | $30.0B/yr | Three PBMs process 80% of US prescriptions and extract ~$30B/yr through spread pricing, rebate opacity, and formulary manipulation | FTC Interim Reports, Ohio Auditor, JAMA |
 | 5 | [The Paper Chase](issue_05/newsletter_issue_05.md) | $200.0B/yr | US spends $4,983/person on healthcare admin vs. $884 in peer nations; original HCRIS analysis of 4,518 hospitals reveals 6.2× variance in overhead costs | CMS HCRIS, CMS NHE, OECD, AMA |
-| | **Running Total** | **$328.6B/yr** | **11.0% of the $3T gap** | |
+| 6 | [The Supply Closet](issue_06/newsletter_issue_06.md) | $28.0B/yr | Original HCRIS analysis of 5,480 hospitals reveals massive variance in per-discharge supply costs; CMI-adjusted P75/P25 ratios of 2.5–3.4× within same-size peer groups | CMS HCRIS FY2023 |
+| | **Running Total** | **$356.6B/yr** | **11.9% of the $3T gap** | |
 
-![Savings Tracker](issue_05/figures/chart6_savings_tracker.png)
+![Savings Tracker](issue_06/figures/chart3_savings_tracker.png)
 
 ---
 
@@ -34,6 +35,59 @@ The same operations. Exposed to the same clinical evidence. Wildly different pri
 ---
 
 ## Published Issues
+
+### Issue #6 — The Supply Closet: Hospital Supply Waste (~$28.0B/year)
+
+Original HCRIS FY2023 analysis of 5,480 hospitals (142M total discharges) reveals massive unexplained variance in per-discharge supply costs. National total: $170.9B across medical supplies ($40.4B), implantable devices ($48.7B), and drugs charged to patients ($81.9B). CMI-adjusted, bed-size-stratified P75/P25 ratios range from 2.5× to 3.4×: hospitals in the same size class and acuity tier spend wildly different amounts on supplies for equivalent patients. Bringing the highest-cost quartile down to the 75th percentile within peer groups would save approximately **$28 billion per year**.
+
+![Supply Cost Variance by Bed Size](issue_06/figures/chart1_supply_variance.png)
+
+*Source: CMS HCRIS FY2023, 5,480 hospitals with ≥50 discharges and nonzero supply costs.*
+
+**Read the full analysis →** [`issue_06/newsletter_issue_06.md`](issue_06/newsletter_issue_06.md)
+
+<details>
+<summary>Running the pipeline</summary>
+
+```bash
+cd issue_06
+
+# Generate charts
+python generate_chart1_supply_variance.py
+python generate_chart2_surplus_nonprofits.py
+python generate_chart3_savings_tracker.py
+python generate_hero_image.py
+```
+
+</details>
+
+<details>
+<summary>Data sources</summary>
+
+| Source | Description |
+|--------|-------------|
+| CMS HCRIS HOSP10-REPORTS FY2023 | Cost reports for 5,480 hospitals; Worksheet A (supply cost centers), Worksheet S-2 (CMI), Worksheet S-3 (discharges/beds) |
+| UCSF Health Supply Chain Optimization Study | 6.5% universal savings benchmark from supply chain standardization |
+| Bernstein et al. 2024 | 6.8× cost variance in surgeon preference items for lumbar fusion |
+| MATTER / Afya Foundation | Nonprofit medical surplus redistribution data |
+
+</details>
+
+<details>
+<summary>Key methodology notes</summary>
+
+- 5,480 hospitals analyzed (≥50 discharges, nonzero supply costs) from raw HCRIS FY2023 federal cost reports
+- Three supply cost categories: medical supplies (Worksheet A, line 53), implantable devices (line 55), drugs charged to patients (line 56)
+- CMI adjustment: per-discharge costs divided by hospital Case Mix Index to normalize for patient acuity
+- Bed-size stratification: Small (<100), Medium (100–299), Large (300–499), Major (500+)
+- Savings scenarios: Q4→P75 within peers = $28.5B (conservative); above-median→P50 = $58.9B; UCSF 6.5% universal = $11.1B
+- Ownership: For-Profit 1,576 hospitals ($18.8B total), Nonprofit 2,993 hospitals ($128.9B total, 75.5% of national spend), Government 911 hospitals ($23.0B total)
+- No overlap with Issue #3 (hospital pricing): that covers commercial-to-Medicare price ratios; this covers within-hospital purchasing efficiency
+
+</details>
+
+---
+
 
 ### Issue #5 — The Paper Chase: Administrative Waste (~$200.0B/year)
 
@@ -301,13 +355,13 @@ python 05_visualize.py
 
 ---
 
-**Through 5 issues: ~$328.6 billion in identified savings (11.0% of the $3T gap)**
+**Through 6 issues: ~$356.6 billion in identified savings (11.9% of the $3T gap)**
 
 ---
 
 ## Up Next
 
-Issue #6 examines hospital supply waste — an original HCRIS analysis of 5,480 hospitals reveals massive unexplained variance in per-discharge supply costs, with CMI-adjusted P75/P25 ratios of 2.5–3.4× within same-size peer groups. Subscribe on Substack to get it when it drops.
+Issue #7 examines the GLP-1 gold rush — GLP-1 receptor agonists (Ozempic, Wegovy, Mounjaro, Zepbound) are the fastest-growing drug class in history, with US spending at $71.7B and prices 3–5× international peers. Subscribe on Substack to get it when it drops.
 
 ---
 
