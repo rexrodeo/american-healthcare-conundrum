@@ -1,0 +1,75 @@
+ISSUE #6 CHART REGENERATION — VERIFICATION CHECKLIST
+====================================================
+
+Date Completed: 2026-03-31
+Status: ALL CHARTS COMPLETE AND VERIFIED
+
+CHART 1: Hospital Supply Cost Variance by Bed Size
+[X] Generated: chart1_supply_variance.png (104 KB)
+[X] Data verified: 5,480 hospitals, CMI-adjusted, 4 bed-size categories
+[X] Text overlap check: PASS — ratio annotations positioned at fixed x with ample clearance
+[X] Readability: All text at or above 5.5pt minimum
+[X] Brand colors: Navy/Teal/Red used correctly
+[X] Problem fixed: Ratio annotations no longer crowd bar tops
+
+CHART 2: Medical Surplus Nonprofits Annual Revenue
+[X] Generated: chart2_surplus_nonprofits.png (96 KB)
+[X] Data verified: 6 organizations, Form 990 data 2023
+[X] Log scale applied: Effectively handles $11.6M to $2.27B range
+[X] Text overlap check: PASS — value labels clear
+[X] Problem fixed: Removed overlapping annotation text at top
+[X] Readability: All organization names and revenue figures clear
+
+CHART 3: Supply Cost Decomposition ($170.9B) — NEW CHART
+[X] Generated: chart3_cost_decomposition.png (110 KB)
+[X] Data verified: Medical Supplies $40.4B (23.6%), Implantable Devices $48.7B (28.5%), Drugs $81.9B (47.9%)
+[X] Text overlap check: PASS — segment labels centered in bars
+[X] Total callout box: Clear and prominent
+[X] Visual clarity: Effectively communicates drugs as nearly half of spend
+
+CHART 4: Ownership Breakdown: Supply Cost Per Discharge — NEW CHART
+[X] Generated: chart4_ownership_breakdown.png (132 KB)
+[X] Data verified: For-Profit/Nonprofit/Government with N counts
+[X] Two-panel layout: Left (total spend), Right (median per discharge)
+[X] Text overlap check: PASS — no collisions between panels
+[X] Insight box: Explains for-profit hospital mix effect
+[X] Readability: Both panels independently clear
+
+CHART 5: Implant Price Variance (TKA) — NEW CHART
+[X] Generated: chart5_implant_variance.png (104 KB)
+[X] Data verified: Robinson 2012 (variance), Fang 2020 (reference pricing)
+[X] Low/High/Reference pricing bars: $1,797 / $12,093 / $10,073
+[X] Variance annotation: 6.7× with curved arrow, no overlap
+[X] Savings annotation: 16.7% reduction clearly marked
+[X] Sources cited: Academic papers referenced in footnote
+
+CHART 6: Savings Tracker (Cumulative) — REPLACEMENT
+[X] Generated: chart6_savings_tracker.png (163 KB)
+[X] Data verified: Issues #1-6, cumulative to $356.6B
+[X] Full scale panel: $0–$3T with progress indicator (11.9%)
+[X] Zoomed panel: $0–$500B with individual issue visibility
+[X] Text overlap check: PASS — all labels clear at both scales
+[X] Running total: Correctly shows $356.6B / $3T
+
+OVERALL QUALITY ASSURANCE
+==========================
+[X] All 6 PNGs output to /mnt/healthcare/issue_06/figures/
+[X] All 6 Python scripts saved to /mnt/healthcare/issue_06/
+[X] Figure sizing: 10×6 at 100dpi, saved at 150dpi (output: 1500×900px)
+[X] Memory management: plt.close(fig) called after every save
+[X] Font rules: All text >= 5.5pt rendered size; fonts set to DejaVu Sans
+[X] Explicit positioning: ALL annotations use xy and xytext coordinates
+[X] No matplotlib auto-placement: Every text element position is manual
+[X] Grid and spine styling: Consistent across all charts
+[X] Visual verification: Each PNG read and checked for overlaps — ZERO OVERLAPS FOUND
+
+READY FOR SUBSTACK INJECTION
+=============================
+All charts are:
+- Visually clean (no overlapping text)
+- Properly branded (navy/teal/red/gold/white color scheme)
+- Appropriately sized (1500×900px at 150dpi)
+- Thoroughly tested (100% reading rate on PNG verification)
+- Data-backed (all sources cited in RESEARCH_BRIEF.md)
+
+Next step: Update newsletter_issue_06.md with chart placeholders pointing to these figures.
