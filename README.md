@@ -47,17 +47,23 @@ Original HCRIS FY2023 analysis of 5,480 hospitals (142M total discharges) reveal
 **Read the full analysis →** [`issue_06/newsletter_issue_06.md`](issue_06/newsletter_issue_06.md)
 
 <details>
-<summary>Running the pipeline</summary>
+<summary>Reproducing the analysis</summary>
 
 ```bash
 cd issue_06
 
-# Generate charts
-python generate_chart1_supply_variance.py
-python generate_chart2_surplus_nonprofits.py
-python generate_chart3_savings_tracker.py
-python generate_hero_image.py
+# Generate analysis charts from HCRIS FY2023 results
+python generate_chart1_supply_variance.py   # Supply cost variance by bed size (CMI-adjusted)
+python generate_chart2_surplus_nonprofits.py # Medical surplus redistribution
+python generate_chart3.py                   # Supply cost decomposition ($170.9B)
+python generate_chart4.py                   # Ownership breakdown (for-profit vs nonprofit vs govt)
+python generate_chart5.py                   # Implant price variance
+python generate_chart7_state_ranking.py     # 50-state supply waste ranking
 ```
+
+**Key outputs:**
+- `results/expanded_analysis_results.json` — Full state-level and year-over-year results
+- `figures/` — All analysis charts
 
 </details>
 
@@ -88,7 +94,6 @@ python generate_hero_image.py
 
 ---
 
-
 ### Issue #5 — The Paper Chase: Administrative Waste (~$200.0B/year)
 
 The US spends $4,983 per person just to administer healthcare — 5.6× the $884 average across ten peer nations. An original analysis of 4,518 hospital cost reports (CMS HCRIS FY2023) reveals a 6.2× variance in administrative overhead per discharge nationally. Even within same-size, same-acuity peer groups, the gap is 2.0–3.1×. Prior authorization alone costs the system $21–93 billion per year. Standardized billing, automated prior auth, and all-payer rate setting would save approximately **$200 billion per year**.
@@ -100,14 +105,19 @@ The US spends $4,983 per person just to administer healthcare — 5.6× the $884
 **Read the full analysis →** [`issue_05/newsletter_issue_05.md`](issue_05/newsletter_issue_05.md)
 
 <details>
-<summary>Running the pipeline</summary>
+<summary>Reproducing the analysis</summary>
 
 ```bash
 cd issue_05
 
-# Generate all charts
+# Generate all analysis charts from the hospital dataset
+# Reads from results/hospital_admin_costs_fy2023.csv (4,518 hospitals, 22 columns)
 python generate_all_charts.py
 ```
+
+**Key outputs:**
+- `results/hospital_admin_costs_fy2023.csv` — Full hospital-level admin cost dataset
+- `figures/` — All analysis charts
 
 </details>
 
@@ -153,18 +163,22 @@ Three companies — CVS Caremark, Express Scripts, and OptumRx — process 80% o
 **Read the full analysis →** [`issue_04/newsletter_issue_04.md`](issue_04/newsletter_issue_04.md)
 
 <details>
-<summary>Running the pipeline</summary>
+<summary>Reproducing the analysis</summary>
 
 ```bash
 cd issue_04
 
-# Generate charts
-python chart1_pbm_market.py
-python chart2_harm_spread.py
-python chart4_biosimilar_v4.py
-python chart5_insulin_prices.py
-python generate_tracker_04.py
+# Generate analysis charts from cited federal data
+python chart1_pbm_market.py       # PBM market concentration (Drug Channels Institute 2024)
+python chart2_harm_spread.py      # Spread pricing extraction mechanisms
+python chart4_biosimilar_v4.py    # Biosimilar adoption rates by state PBM law stringency
+python chart5_insulin_prices.py   # Insulin price trajectory analysis
 ```
+
+**Key outputs:**
+- `results/biosimilar_analysis_2023.csv` — CMS Part D biosimilar adoption data
+- `results/key_metrics.csv` — Core PBM extraction metrics
+- `figures/` — All analysis charts
 
 </details>
 
@@ -211,7 +225,7 @@ Commercial insurers pay 254% of Medicare rates for identical hospital procedures
 **Read the full analysis →** [`issue_03/newsletter_issue_03.md`](issue_03/newsletter_issue_03.md)
 
 <details>
-<summary>Running the pipeline</summary>
+<summary>Reproducing the analysis</summary>
 
 ```bash
 cd issue_03
@@ -219,9 +233,15 @@ cd issue_03
 # Build HCRIS cost report dataset and compute cost-to-charge ratios
 python 01_build_data.py
 
-# Generate charts
+# Generate analysis charts
 python 02_visualize.py
 ```
+
+**Key outputs:**
+- `results/hospital_ccr_2023.csv` — Hospital cost-to-charge ratios (3,193 hospitals)
+- `results/savings_calculation.json` — Full savings model parameters
+- `results/procedure_prices.json` — International procedure price comparisons
+- `figures/` — All analysis charts
 
 </details>
 
@@ -264,7 +284,7 @@ Medicare pays 7–25× more than peer nations for the same brand-name drugs. Int
 **Read the full analysis →** [`issue_02/newsletter_issue_02_FINAL.md`](issue_02/newsletter_issue_02_FINAL.md)
 
 <details>
-<summary>Running the pipeline</summary>
+<summary>Reproducing the analysis</summary>
 
 ```bash
 cd issue_02
@@ -272,9 +292,15 @@ cd issue_02
 # Build reference price dataset (NHS Drug Tariff + RAND international averages)
 python 01_build_reference_data.py
 
-# Generate charts
+# Generate analysis charts
 python 02_visualize.py
 ```
+
+**Key outputs:**
+- `results/nhs_vs_medicare.csv` — Medicare vs. NHS Drug Tariff price comparisons
+- `results/kff_drug_comparison.csv` — 11-country OECD drug price benchmarks
+- `results/rand_country_ratios.csv` — RAND international price ratios
+- `figures/` — All analysis charts
 
 </details>
 
@@ -309,7 +335,7 @@ Medicare Part D pays prescription prices for drugs available cheaply over-the-co
 **Read the full analysis →** [`issue_01/newsletter_issue_01_FINAL.md`](issue_01/newsletter_issue_01_FINAL.md)
 
 <details>
-<summary>Running the pipeline</summary>
+<summary>Reproducing the analysis</summary>
 
 ```bash
 cd issue_01
@@ -327,9 +353,14 @@ python 03_build_database.py
 # Run analysis
 python 04_analyze.py
 
-# Generate charts
+# Generate analysis charts
 python 05_visualize.py
 ```
+
+**Key outputs:**
+- `results/by_drug_2023.csv` — Per-drug Medicare Part D spending and OTC price comparisons
+- `results/bene_overpayment_2023.csv` — Beneficiary-level overpayment estimates
+- `figures/` — All analysis charts
 
 </details>
 
