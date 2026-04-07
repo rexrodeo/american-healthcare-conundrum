@@ -1,0 +1,10 @@
+company,claims_market_share_pct,prescriptions_B_per_year,parent_company,vertical_integration_status,specialty_pharmacy_ownership,mail_order_pharmacy_ownership
+CVS Caremark,34,2.2,CVS Health Corp (CVS),"Highly integrated: owns pharmacy chain (CVS), insurance (Aetna)",Yes (CVS Specialty),Yes (multiple locations)
+Express Scripts (Evernorth/Cigna),24,1.6,Cigna Group (CI),"Highly integrated: owns insurance (Cigna), healthcare services",Yes (Express Scripts Specialty),Yes (multiple locations)
+OptumRx (UnitedHealth),22,1.5,UnitedHealth Group (UNH),"Highly integrated: owns UnitedHealthcare, Optum Health",Yes (Optum Specialty),Yes (Optum Mail)
+Big 3 Combined,80,5.3,N/A (combined),N/A,All three own specialty,All three own mail-order
+Humana Pharmacy Solutions,5,0.33,Humana Inc (HUM),Partially integrated: Humana owns insurance + HPS PBM,Humana Pharmacy Specialty,Yes (Humana Mail)
+Prime Therapeutics,4,0.26,Cooperative ownership (40+ health plans),Non-integrated: cooperative model,No (member plans own),Yes (member cooperatives)
+MedImpact,3,0.2,Cooperative ownership (regional),Non-integrated: cooperative model,No (member plans own),Yes (member cooperatives)
+Independent / Pass-Through PBMs,5,0.33,Varies,Varies,Varies,Varies
+Total Market,100,6.6,N/A,N/A,N/A,N/A
