@@ -1,0 +1,112 @@
+{
+  "issue": 4,
+  "title": "The Middlemen: Pharmacy Benefit Manager Extraction",
+  "publication_date": "2026-03-22",
+  "analysis_finalized": "2026-04-06",
+  "total_booked_savings_B": 30.0,
+  "savings_range_low_B": 30.0,
+  "savings_range_high_B": 50.0,
+  "running_total_cumulative_B": 128.6,
+  "us_annual_drug_spend_B": 722.5,
+  "pbm_administered_spend_B": 450.0,
+  "pbm_extraction_rate_percent": 6.7,
+  "big_3_pbm_market_share_pct": 80,
+  "components": {
+    "biosimilar_non_adoption_gap": {
+      "headline": "Biosimilar adoption suppressed to <2% despite FDA approval & cost advantage",
+      "key_examples": {
+        "adalimumab": {
+          "price_ratio": 3.4,
+          "biosimilar_adoption_pct": 1.1,
+          "gross_excess_spend_B": 4.27,
+          "mechanism": "PBM formulary exclusion due to high rebate incentive from brand"
+        },
+        "insulin_glargine": {
+          "price_ratio": 2.4,
+          "biosimilar_adoption_pct": 1.6,
+          "gross_excess_spend_B": 3.44,
+          "mechanism": "PBM formulary suppression of low-rebate biosimilar"
+        },
+        "filgrastim_counter_example": {
+          "price_ratio": 3.0,
+          "biosimilar_adoption_pct": 76.0,
+          "note": "Provider-administered (Part B); PBM formulary leverage removed"
+        }
+      },
+      "combined_two_molecule_excess_B": 5.5,
+      "source": "CMS Medicare Part D 2023 PUF"
+    },
+    "spread_pricing": {
+      "ohio_audit_amount_M": 224.8,
+      "ohio_audit_year": 2018,
+      "ohio_medicaid_budget_B": 3.3,
+      "ohio_spread_rate_pct": 6.8,
+      "national_medicaid_mc_spend_B": 80,
+      "estimated_national_spread_gross_B": 5.6,
+      "booked_savings_post_caa_B": 3.0,
+      "source": "Ohio State Auditor 2018; CAA 2026 provisions"
+    },
+    "rebate_retention": {
+      "total_manufacturer_rebates_B": 334,
+      "pbm_administered_rebates_B": 233,
+      "historical_retention_rate_pct": 5.0,
+      "cbo_scored_passthrough_B_per_year": 2.93,
+      "booked_savings_full_passthrough_B": 10.0,
+      "source": "Senate Finance 2022; CBO 2019; FTC 2024"
+    },
+    "specialty_drug_markup": {
+      "ftc_documented_markup_2017_2022_B": 7.3,
+      "years": 5,
+      "annualized_B": 1.46,
+      "booked_savings_B": 1.5,
+      "source": "FTC Interim Report #1 July 2024"
+    },
+    "formulary_manipulation": {
+      "mechanism": "Exclusion of cost-effective alternatives (generics, biosimilars) in favor of high-rebate branded drugs",
+      "booked_savings_B": 10.0,
+      "addressable_molecules": 30,
+      "source": "CMS biosimilar analysis; Chea et al. 2023; IQVIA"
+    }
+  },
+  "insulin_case_study": {
+    "humalog_price_1996": 21,
+    "humalog_price_2022_peak": 316,
+    "humalog_cumulative_increase_pct": 1405,
+    "humalog_price_2026_ira_negotiated": 100,
+    "americans_using_insulin_M": 8.4,
+    "annual_insulin_spending_pre_ira_B": 33.5,
+    "mechanism": "PBM maintained high-list-price insulins on preferred formularies because high list prices = high rebates; excluded biosimilar alternatives"
+  },
+  "pbm_market_concentration": {
+    "big_3_combined_claims_pct": 80,
+    "cvs_caremark_pct": 34,
+    "express_scripts_pct": 24,
+    "optumrx_pct": 22,
+    "total_prescriptions_processed_B": 6.6,
+    "vertical_integration_status": "All three integrated with insurance + pharmacy chains; specialty + mail-order ownership universal"
+  },
+  "regulatory_context": {
+    "ftc_interim_report_1": "July 2024; documented specialty drug markups, spread pricing, vertical integration harms",
+    "ftc_interim_report_2": "January 2025; focused on self-preferencing (PBM-owned specialty pharmacy gains)",
+    "caa_2026": "Signed February 3, 2026; mandates 100% rebate pass-through (effective 2029), spread pricing reporting, Part D delinking, expanded PBM definition",
+    "ftc_litigation": "Express Scripts settlement Feb 4, 2026 (projected $700M/year savings from one PBM); ongoing litigation vs Caremark and OptumRx",
+    "state_reforms": "40+ states passed PBM reimbursement reform; spread pricing capped in many states"
+  },
+  "data_quality_notes": {
+    "biosimilar_analysis": "CMS Part D only; full US market (commercial + Medicaid) likely shows similar patterns but unavailable in single dataset",
+    "spread_pricing": "Ohio audit is best-documented state case; extrapolation assumes similar rates nationally (conservative)",
+    "rebate_retention": "Exact PBM retention rates proprietary; estimates based on government audits and legislative analysis",
+    "specialty_markup": "FTC data covers 2017-2022; current rates may have shifted post-regulation",
+    "formulary_manipulation": "Inferred from adoption gap analysis; direct causal attribution would require administrative records access (unavailable)"
+  },
+  "accounting_verification": {
+    "mechanism_1_spread_pricing_B": 3.0,
+    "mechanism_2_rebate_passthrough_B": 10.0,
+    "mechanism_3_specialty_markup_B": 1.5,
+    "mechanism_4_formulary_biosimilar_B": 10.0,
+    "mechanism_5_administrative_B": 5.5,
+    "mechanism_6_independent_pharmacy_B": 0.0,
+    "total_booked_B": 30.0,
+    "verification_note": "No double-counting across mechanisms; each addresses distinct extraction pathway"
+  }
+}

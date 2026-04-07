@@ -1,0 +1,14 @@
+year,humalog_price_per_vial,lantus_price_per_vial,novolog_price_per_vial,event,regulatory_context,humalog_cumulative_increase_pct,humalog_cumulative_increase_dollars
+1996,21,,,Humalog FDA approval (Lilly),Biotechnology breakthrough,0.0,0
+2000,32,,,Market establishment,Market growth,52.4,11
+2005,78,,,Price acceleration begins,"Patent protection (Lilly, Novo)",271.4,57
+2010,122,115.0,105.0,Annual increases 10-15%,PBM consolidation era,481.0,101
+2012,156,140.0,130.0,"Novo Nordisk patent strategy (NovoLog, Levemir)",Vertical integration accelerates,642.9,135
+2015,180,165.0,155.0,Lantus monopoly begins ($165),Closed formulary preference (PBM control),757.1,159
+2018,265,210.0,190.0,Brand consolidation (Big 3 formulary preference),No generic/biosimilar alternatives,1161.9,244
+2020,300,280.0,270.0,COVID pandemic & utilization surge,Pandemic exemptions extended,1328.6,279
+2022,316,295.0,280.0,Peak prices before policy intervention,Federal pricing pressure builds,1404.8,295
+2023,297,285.0,270.0,IRA pricing negotiation begins (Jan 2026),IRA Part B negotiation (IRA signed Aug 2022),1314.3,276
+2024,245,220.0,210.0,CAA 2026 $35 copay cap expanded,"CAA signed Feb 3, 2026",1066.7,224
+2025,150,140.0,135.0,GLP-1 Bridge Program impacts payer mix,BALANCE Model Medicare pilot,614.3,129
+2026,100,90.0,85.0,IRA Round 2 negotiated insulin prices; CAA pass-through mandate,Legislative action (negotiation + pass-through),376.2,79
