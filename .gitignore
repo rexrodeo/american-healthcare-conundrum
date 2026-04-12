@@ -12,12 +12,13 @@ reference_data/
 # Issue 4 (published 2026-03-22)
 # Issue 5 (published 2026-03-29)
 # Issue 6 (published 2026-04-05)
-issue_07/
+# Issue 7 (published 2026-04-12)
 
 # Internal project files
 CLAUDE.md
 ROADMAP.md
 research/
+publications/
 skills/
 threads/
 .skills/
@@ -53,11 +54,26 @@ skills/ahc-growth-hacker/
 **/generate_global_savings_tracker*.py
 **/regen_*.py
 **/EDITORIAL_REVIEW.md
+**/EDITORIAL_FINAL_REVIEW.md
+**/EDITOR_*_ASSESSMENT.md
 **/CHARTS_GENERATED.md
 **/CHARTS_REGENERATION_SUMMARY.md
+**/CHART_GENERATION_SUMMARY.md
 **/REGENERATION_CHECKLIST*
 **/RESEARCH_BRIEF.md
 **/EXPANDED_FINDINGS.md
+
+# Internal per-issue working documents (not part of public analysis)
+**/ANALYSIS_COMPLETE_SUMMARY*
+**/BALANCE_COST_PROJECTION*
+**/DATA_HUNT_SUMMARY*
+**/KEY_FINDINGS.txt
+**/PROJECT_STATUS.md
+**/SCRIPT_DELIVERABLE_SUMMARY*
+**/SOURCE_CITATIONS.md
+**/TARIFF_ANGLE_NOTE*
+**/*_data_sources.md
+**/search_log*
 
 # Internal issue working files (never public)
 **/PROMO_KIT.md

@@ -1,0 +1,7 @@
+Factor,Ten_Year_Cost_B,Delta_vs_Base_B,Pct_Change
+Obesity +2%,131.9,7.0,5.6
+Obesity -2%,117.8,-7.0,-5.6
+High Engagement (60%),136.2,11.3,9.1
+Low Engagement (50%),113.5,-11.3,-9.1
+Fast Ramp (50% plateau),156.0,31.2,25.0
+Slow Ramp (25% plateau),78.0,-46.8,-37.5
