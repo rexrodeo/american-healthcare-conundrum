@@ -38,8 +38,16 @@ SUBSTACK_ABOUT.md
 profile_readme_draft.md
 hn_digests/
 MEDICAL_SUPPLY_QUOTES_FOR_ARTICLE.md
+MEDICAL_SUPPLY_ALTERNATIVES_RESEARCH.md
+MEDICAL_SUPPLY_SUMMARY_TABLE.md
 newsletter_issue_02.md
 dashboard.html
+
+# Root-level exploratory scripts (superseded by issue_XX/01_build_data.py pipelines)
+/analyze_*.py
+/compute_*.py
+/check_sheets.py
+/inspect_data.py
 
 # Promotion / growth-hacking skill files
 skills/ahc-growth-hacker/
@@ -99,8 +107,20 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# Credentials (never commit)
+# Credentials and secrets (never commit)
 .git-credentials
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.json
+service-account*.json
+config.local.*
+
+# Databases (besides DuckDB above)
+*.sqlite
+*.sqlite3
+*.db
 
 # OS / IDE
 .DS_Store
