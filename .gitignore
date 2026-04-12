@@ -90,3 +90,13 @@ __pycache__/
 .DS_Store
 .vscode/
 .idea/
+
+# Environment variables and secrets
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account*.json
