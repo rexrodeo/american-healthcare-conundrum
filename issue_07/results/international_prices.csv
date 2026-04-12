@@ -1,0 +1,8 @@
+Country,Price_30day_USD,Source,US_Markup_Ratio
+US Retail,1175,"OptumInsight 2024, GoodRx avg",5.34
+US BALANCE Negotiated,300,CMS BALANCE Jan 2027,1.36
+US IRA Negotiated (Wegovy),274,CMS Part D 2026,1.25
+Germany,280,Peterson-KFF 2024,1.27
+UK (NHS),220,NHS Drug Tariff 2025,1.0
+Canada,280,PMPRB Review 2024,1.27
+India (Compounded),150,Local market survey 2025,0.68

@@ -1,0 +1,32 @@
+{
+  "program": "BALANCE Model (CMS GLP-1 Negotiated Prices)",
+  "period": "2027-2036",
+  "projection_type": "Bottom-up enrollment model with price negotiation",
+  "eligible_beneficiaries_mid_scenario": "13.2M",
+  "ten_year_cost_low_scenario_B": 86.2,
+  "ten_year_cost_mid_scenario_B": 124.8,
+  "ten_year_cost_high_scenario_B": 170.1,
+  "peak_annual_enrollment_millions": 4.64,
+  "peak_enrollment_year": 2032,
+  "negotiated_price_range_per_year": "$2,940\u2013$4,200 (vs $14,400\u2013$16,200 retail)",
+  "annual_savings_at_full_ramp_B": 40.0,
+  "savings_range_B": "$40\u201380B (conservative to aggressive adoption)",
+  "health_benefit_roi_moderate_scenario_pct": 55.6,
+  "sensitivity_range_10yr_B": "$78.0\u2013$156.0B (range across 6 variations)",
+  "key_assumptions": [
+    "Medicare obesity rate 35.5% (CDC NHANES 2023-2024)",
+    "Behavioral engagement rate 55% (DPP benchmarks)",
+    "Enrollment ramp: 5% (2027) \u2192 40% plateau (2031)",
+    "Annual retention rate 88% (attrition from mortality + discontinuation)",
+    "CMS negotiated prices: $245\u2013350/month (IRA reference)",
+    "Health benefits: $1,190 (conservative) to $3,500 (optimistic) per person-year of treatment"
+  ],
+  "confidence_level": "Medium (depends on CMS pricing durability, manufacturer compliance, uptake)",
+  "caveats": [
+    "Obesity prevalence may shift; model uses static rates",
+    "Retention model simplifies age-stratified mortality",
+    "Price model assumes no market exit or premium tiering by manufacturers",
+    "Does not account for patent expirations (Ozempic 2030) driving generic competition",
+    "Assumes disjoint populations (no overlap with other high-cost Medicare cohorts)"
+  ]
+}
