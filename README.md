@@ -8,6 +8,10 @@ This project finds it, one issue at a time. Each issue identifies one fixable pr
 
 ---
 
+> **Latest Issue (#7): [The GLP-1 Gold Rush](issue_07/newsletter_issue_07.md)** — US GLP-1 spending grew 1,200-fold in 5 years. We built the first published 10-year budget projection of Medicare's BALANCE Model. **$40B/year in savings identified.** [Read it on Substack →](https://andrewrexroad.substack.com)
+
+---
+
 ## Savings Identified So Far
 
 | # | Issue | Savings | Key Finding | Data Source |
@@ -18,9 +22,10 @@ This project finds it, one issue at a time. Each issue identifies one fixable pr
 | 4 | [The Middlemen](issue_04/newsletter_issue_04.md) | $30.0B/yr | Three PBMs process 80% of US prescriptions and extract ~$30B/yr through spread pricing, rebate opacity, and formulary manipulation | FTC Interim Reports, Ohio Auditor, JAMA |
 | 5 | [The Paper Chase](issue_05/newsletter_issue_05.md) | $200.0B/yr | US spends $4,983/person on healthcare admin vs. $884 in peer nations; original HCRIS analysis of 4,518 hospitals reveals 6.2× variance in overhead costs | CMS HCRIS, CMS NHE, OECD, AMA |
 | 6 | [The Supply Closet](issue_06/newsletter_issue_06.md) | $28.0B/yr | Original HCRIS analysis of 5,480 hospitals reveals massive variance in per-discharge supply costs; CMI-adjusted P75/P25 ratios of 2.5–3.4× within same-size peer groups | CMS HCRIS FY2023 |
-| | **Running Total** | **$356.6B/yr** | **11.9% of the $3T gap** | |
+| 7 | [The GLP-1 Gold Rush](issue_07/newsletter_issue_07.md) | $40.0B/yr | US GLP-1 spending grew 1,200-fold in 5 years ($57M→$71.7B); US pays 3–5× international prices; original 10-year BALANCE budget projection for Medicare GLP-1 coverage | CMS Part D, OECD, KFF, CBO |
+| | **Running Total** | **$396.6B/yr** | **13.2% of the $3T gap** | |
 
-![Savings Tracker](issue_06/figures/chart3_savings_tracker.png)
+![Savings Tracker](issue_07/figures/chart5_savings_tracker.png)
 
 ---
 
@@ -35,6 +40,74 @@ The same operations. Exposed to the same clinical evidence. Wildly different pri
 ---
 
 ## Published Issues
+
+### Issue #7 — The GLP-1 Gold Rush (~$40.0B/year)
+
+US GLP-1 spending grew from $57 million in 2018 to $71.7 billion in 2023, a 1,200-fold increase in five years. The US pays 3–5× more per dose than every other country buying the same drug. We built the first published 10-year budget projection of the CMS BALANCE Model, estimating $124 billion in cumulative Medicare costs to cover 4.6 million beneficiaries at negotiated prices ($245–350/month vs. $1,000+ retail). The $40 billion annual savings opportunity comes from aligning US GLP-1 prices with international levels through reference pricing and generic entry (semaglutide patent: December 2031).
+
+![GLP-1 Price Comparison](issue_07/figures/chart2_price_comparison.png)
+
+*Source: CMS BALANCE Model documentation, Peterson-KFF international drug pricing, Novo Nordisk and Eli Lilly SEC filings.*
+
+**Read the full analysis →** [`issue_07/newsletter_issue_07.md`](issue_07/newsletter_issue_07.md)
+
+<details>
+<summary>Reproducing the analysis</summary>
+
+```bash
+cd issue_07
+
+# Run the BALANCE Model projection (no downloads needed — all data hardcoded from published sources)
+python 01_build_data.py
+
+# Generate analysis charts
+python generate_all_charts.py     # Charts 1–4 (market growth, price comparison, cost projection, pricing structure)
+python generate_chart5.py         # Chart 5 (savings tracker)
+```
+
+**Key outputs:**
+- `results/balance_projection_all_scenarios.csv` — 10-year enrollment and cost projections (LOW/MID/HIGH)
+- `results/sensitivity_analysis.csv` — Model uncertainty drivers
+- `results/health_benefit_roi.csv` — Cost-benefit analysis
+- `results/international_prices.csv` — US vs. international GLP-1 price comparison
+- `results/market_growth.csv` — Historical GLP-1 market trajectory (2018–2025)
+- `results/key_metrics.json` — Summary of all headline numbers and assumptions
+- `figures/` — All analysis charts
+
+</details>
+
+<details>
+<summary>Data sources</summary>
+
+| Source | Description |
+|--------|-------------|
+| CMS BALANCE Model Documentation (2026) | Negotiated prices, eligibility criteria, behavioral engagement requirements |
+| CBO "How Would Authorizing Medicare to Cover Anti-Obesity Medications Affect the Federal Budget?" (Oct 2024) | Budget scoring framework |
+| CDC NHANES 2023-2024 | Medicare-specific obesity prevalence (35.5%) |
+| JAMA Network Open 2024 | US GLP-1 spending analysis ($71.7B in 2023) |
+| Peterson-KFF Health System Tracker | International drug price comparisons |
+| Novo Nordisk Annual Report 2024 | GLP-1 revenue ($26.0B), Wegovy/Ozempic financials |
+| Eli Lilly SEC filings Q3 2025 | Tirzepatide revenue ($35-38B estimated), patent timelines |
+| SELECT trial (NEJM 2023) | 20% reduction in major adverse cardiovascular events |
+| STEP/SURMOUNT trials (NEJM 2023) | 16–22% mean weight loss |
+| White House Section 232 Proclamation (April 2, 2026) | Pharmaceutical tariff structure and MFN exemption |
+
+</details>
+
+<details>
+<summary>Key methodology notes</summary>
+
+- Eligible population: 67.5M Medicare beneficiaries × 35.5% obesity × 55% behavioral engagement = 13.2M
+- Enrollment ramp: 5% (2027) → 12% (2028) → 40% plateau (2031+), 88% annual retention
+- Three pricing scenarios: LOW ($2,940/yr), MID ($3,600/yr), HIGH ($4,200/yr)
+- 10-year cost: $86.2B (LOW) to $170.1B (HIGH); MID = $124.8B
+- Health benefit ROI: 33% conservative (prevented CV events and T2DM progression)
+- Savings: $40B/yr from 50–70% US GLP-1 price reduction through reference pricing and generic competition
+- No overlap with Issue #2 (which covers 9 specific top-spend Medicare drugs) or Issue #4 (PBM extraction)
+
+</details>
+
+---
 
 ### Issue #6 — The Supply Closet: Hospital Supply Waste (~$28.0B/year)
 
@@ -393,13 +466,13 @@ python 05_visualize.py
 
 ---
 
-**Through 6 issues: ~$356.6 billion in identified savings (11.9% of the $3T gap)**
+**Through 7 issues: ~$396.6 billion in identified savings (13.2% of the $3T gap)**
 
 ---
 
 ## Up Next
 
-Issue #7 examines the GLP-1 gold rush — GLP-1 receptor agonists (Ozempic, Wegovy, Mounjaro, Zepbound) are the fastest-growing drug class in history, with US spending at $71.7B and prices 3–5× international peers. Subscribe on Substack to get it when it drops.
+Issue #8 examines the denial machine — insurance companies use claim denials, prior authorization, and appeals processes as profit tools. New CMS data shows a 15–17% initial denial rate; 80% are overturned on appeal; less than 1% of patients appeal. Subscribe on Substack to get it when it drops.
 
 ---
 
