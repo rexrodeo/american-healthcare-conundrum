@@ -106,3 +106,7 @@ __pycache__/
 .DS_Store
 .vscode/
 .idea/
+
+# Environment files
+.env
+.env.*
