@@ -202,6 +202,23 @@
   .modal-disc{font-size:10px;color:var(--text-dim);text-align:center;margin-top:10px;line-height:1.55;}
   .spinner{width:14px;height:14px;border:2px solid rgba(255,255,255,.3);border-top-color:#fff;
     border-radius:50%;animation:spin .7s linear infinite;display:inline-block;flex-shrink:0;}
+
+  /* ── Contact form (reuses .modal-overlay + .modal shell) ─────────────── */
+  .form-field{margin-bottom:12px;}
+  .form-label{display:block;font-size:11px;font-weight:600;color:var(--text-dim);
+    text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px;}
+  .form-label .opt{text-transform:none;letter-spacing:0;font-weight:500;color:#6b7280;}
+  .form-input,.form-textarea{width:100%;background:var(--navy);border:1px solid var(--navy-lighter);
+    border-radius:6px;padding:9px 12px;color:var(--white);font-family:'Inter',sans-serif;
+    font-size:13px;outline:none;transition:border-color .15s;}
+  .form-input:focus,.form-textarea:focus{border-color:var(--teal);}
+  .form-input::placeholder,.form-textarea::placeholder{color:#4b5266;}
+  .form-textarea{resize:vertical;min-height:100px;line-height:1.5;}
+  .modal-ok{background:var(--teal-dim);border:1px solid rgba(14,138,114,.35);border-radius:6px;
+    padding:12px 14px;font-size:13px;color:var(--teal-light);margin-bottom:12px;display:none;line-height:1.5;}
+  .modal-ok strong{color:var(--white);}
+  .hp-field{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;}
+  .form-contact{font-size:10px;color:var(--text-dim);text-align:center;margin-top:10px;line-height:1.55;}
   @keyframes spin{to{transform:rotate(360deg);}}
 
   /* ── Success banner ─────────────────────────────────────────────────── */
@@ -250,7 +267,7 @@
       <strong>Have data you can share?</strong>
       <p>Whether you hold an active DUA (CMS LDS, VRDC, a state APCD, HCUP) or your organization licenses a proprietary dataset (<strong style="color:var(--white);">Truven/MarketScan</strong>, <strong style="color:var(--white);">Optum Clinformatics</strong>, <strong style="color:var(--white);">IQVIA Pharmetrics</strong>, <strong style="color:var(--white);">Definitive Healthcare</strong>, <strong style="color:var(--white);">Press Ganey</strong>, <strong style="color:var(--white);">Sage Transparency</strong>), get in touch. Your existing access + our published code = findings neither of us could produce alone. Co-publication under your DUA is fine. Donors can be public or anonymous. Code stays open. Findings stay published.</p>
     </div>
-    <a href="mailto:contact@ahcdata.fund?subject=Data%20collaboration%20—%20AHC">Get in touch</a>
+    <a href="#contact" onclick="openContactModal(event)">Get in touch</a>
   </div>
 
   <!-- TIER 1 -->
@@ -511,7 +528,7 @@
   <div class="footer-note">
     No institutional affiliations. No university. No think tank. No funder who might find the analysis inconvenient.
     <br><br>
-    <a href="https://andrewrexroad.substack.com">Substack</a> · <a href="https://github.com/rexrodeo/american-healthcare-conundrum">GitHub</a> · <a href="mailto:contact@ahcdata.fund">Contact</a>
+    <a href="https://andrewrexroad.substack.com">Substack</a> · <a href="https://github.com/rexrodeo/american-healthcare-conundrum">GitHub</a> · <a href="#contact" onclick="openContactModal(event)">Contact</a>
   </div>
 </div>
 
@@ -541,6 +558,52 @@
 
     <button class="btn-contribute" id="btn-contribute" onclick="submitFund()">Contribute →</button>
     <div class="modal-disc">Contributions are project funding, not tax-deductible charitable donations.</div>
+  </div>
+</div>
+
+<!-- ── Contact modal ────────────────────────────────────────────────────── -->
+<div class="modal-overlay" id="contact-modal" onclick="contactOverlayClick(event)">
+  <div class="modal">
+    <div class="modal-hdr">
+      <h3>Get in touch</h3>
+      <button class="modal-x" onclick="closeContactModal()" aria-label="Close">✕</button>
+    </div>
+    <div class="modal-meta">
+      Data partnerships, press, corrections, or anything else. Goes straight to Andrew.
+    </div>
+
+    <form id="contact-form" onsubmit="submitContact(event)" novalidate>
+      <div class="form-field">
+        <label class="form-label" for="c-name">Name</label>
+        <input class="form-input" type="text" id="c-name" name="name" required maxlength="80" autocomplete="name">
+      </div>
+      <div class="form-field">
+        <label class="form-label" for="c-email">Email</label>
+        <input class="form-input" type="email" id="c-email" name="email" required maxlength="120" autocomplete="email">
+      </div>
+      <div class="form-field">
+        <label class="form-label" for="c-subject">Subject <span class="opt">(optional)</span></label>
+        <input class="form-input" type="text" id="c-subject" name="subject" maxlength="120"
+               placeholder="e.g. Data collaboration, press inquiry, correction">
+      </div>
+      <div class="form-field">
+        <label class="form-label" for="c-message">Message</label>
+        <textarea class="form-textarea" id="c-message" name="message" required maxlength="2000" rows="5"></textarea>
+      </div>
+
+      <!-- Honeypot: real humans leave this blank; bots tend to fill it in -->
+      <div class="hp-field" aria-hidden="true">
+        <label for="c-website">Website</label>
+        <input type="text" id="c-website" name="website" tabindex="-1" autocomplete="off">
+      </div>
+
+      <div class="modal-err" id="contact-err"></div>
+
+      <button type="submit" class="btn-contribute" id="btn-send">Send message →</button>
+    </form>
+
+    <div class="modal-ok" id="contact-ok"></div>
+    <div class="form-contact">Replies come from Andrew. No mailing list, no tracking.</div>
   </div>
 </div>
 
@@ -664,7 +727,82 @@ function overlayClick(e) {
   if (e.target === document.getElementById('fund-modal')) closeModal();
 }
 
-document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') { closeModal(); closeContactModal(); }
+});
+
+// ── Contact modal ───────────────────────────────────────────────────────
+function openContactModal(e) {
+  if (e) e.preventDefault();
+  const form = document.getElementById('contact-form');
+  const ok   = document.getElementById('contact-ok');
+  const err  = document.getElementById('contact-err');
+  form.style.display = '';
+  form.reset();
+  ok.style.display  = 'none';
+  err.style.display = 'none';
+  const btn = document.getElementById('btn-send');
+  btn.disabled  = false;
+  btn.innerHTML = 'Send message &rarr;';
+  document.getElementById('contact-modal').classList.add('open');
+  setTimeout(() => document.getElementById('c-name').focus(), 50);
+}
+
+function closeContactModal() {
+  document.getElementById('contact-modal').classList.remove('open');
+}
+
+function contactOverlayClick(e) {
+  if (e.target === document.getElementById('contact-modal')) closeContactModal();
+}
+
+async function submitContact(e) {
+  e.preventDefault();
+  const btn  = document.getElementById('btn-send');
+  const err  = document.getElementById('contact-err');
+  const ok   = document.getElementById('contact-ok');
+  err.style.display = 'none';
+  ok.style.display  = 'none';
+
+  const name    = document.getElementById('c-name').value.trim();
+  const email   = document.getElementById('c-email').value.trim();
+  const subject = document.getElementById('c-subject').value.trim();
+  const message = document.getElementById('c-message').value.trim();
+  const website = document.getElementById('c-website').value; // honeypot
+
+  if (!name || !email || !message) {
+    err.textContent   = 'Name, email, and message are all required.';
+    err.style.display = 'block';
+    return;
+  }
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    err.textContent   = 'Please enter a valid email address.';
+    err.style.display = 'block';
+    return;
+  }
+
+  btn.disabled  = true;
+  btn.innerHTML = '<span class="spinner"></span> Sending…';
+
+  try {
+    const res = await fetch(WORKER_URL + '/contact', {
+      method:  'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name, email, subject, message, website }),
+    });
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.error || 'Something went wrong.');
+
+    document.getElementById('contact-form').style.display = 'none';
+    ok.innerHTML = '<strong>Got it, thanks.</strong> Andrew will reply within a day or two.';
+    ok.style.display = 'block';
+  } catch (ex) {
+    err.textContent   = ex.message || 'Could not send. Please try again in a moment.';
+    err.style.display = 'block';
+    btn.disabled  = false;
+    btn.innerHTML = 'Send message &rarr;';
+  }
+}
 
 function selectChip(el, amt) {
   chipAmount = amt;
@@ -688,7 +826,7 @@ async function submitFund() {
     return;
   }
   if (amount > 35000) {
-    showErr('Maximum is $35,000. For larger gifts, email contact@ahcdata.fund.');
+    showErr('Maximum is $35,000. For larger gifts, use the Contact link below.');
     return;
   }
 

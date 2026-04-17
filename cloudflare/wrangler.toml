@@ -7,15 +7,21 @@ main = "worker.js"
 compatibility_date = "2024-11-01"
 
 [vars]
-# The full URL of the GitHub Pages fund page (no trailing slash issues — keep the slash).
-# Update this if you add a custom domain (e.g. https://ahcdata.fund/).
+# The full URL of the fund page (keep the trailing slash).
 FUND_PAGE_URL   = "https://ahcdata.fund/"
 ALLOWED_ORIGIN  = "https://ahcdata.fund"
 
-# ── Secret (never committed) ──────────────────────────────────────────────────
-# Set your Stripe secret key via:
+# Contact form settings (POST /contact)
+CONTACT_TO      = "contact@ahcdata.fund"
+CONTACT_FROM    = "AHC Contact Form <noreply@ahcdata.fund>"
+
+# ── Secrets (never committed) ────────────────────────────────────────────────
+# Stripe:
 #   wrangler secret put STRIPE_SECRET_KEY
+#   Use sk_test_... while testing, then swap to sk_live_... before launch.
+#   Stripe test card: 4242 4242 4242 4242, any future expiry, any CVC.
 #
-# Use sk_test_... while testing, then swap to sk_live_... before Sunday launch.
-# The test key lets you run end-to-end flows without charging real cards.
-# Stripe test card: 4242 4242 4242 4242, any future expiry, any CVC.
+# Resend:
+#   wrangler secret put RESEND_API_KEY
+#   Create at https://resend.com/api-keys after verifying ahcdata.fund domain.
+#   See cloudflare/RESEND_SETUP.md for the full domain-verification flow.
