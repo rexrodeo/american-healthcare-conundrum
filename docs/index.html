@@ -222,36 +222,26 @@
   <div class="hero">
     <div class="hero-row">
       <span class="hero-label">Total Raised</span>
-      <span class="hero-amt" id="totalAmt">$0 <span>of $44,000</span></span>
+      <span class="hero-amt" id="totalAmt">$0 <span>of $44,200</span></span>
     </div>
     <div class="bar-outer"><div class="bar-inner" id="totalBar" style="width:0%"></div></div>
-    <div class="hero-micro">Free data found <strong>$428.6B/year</strong> in fixable waste. These datasets let us prove it at patient level.</div>
+    <div class="hero-micro">Free data found <strong>$448.6B/year</strong> in fixable waste. These datasets let us prove it at patient level.</div>
   </div>
 
   <div class="phases">
     <div class="phase" id="ph1"><div class="p-cost">$3,500</div><div class="p-label">Phase 1: Claims Access</div></div>
     <div class="phase" id="ph2"><div class="p-cost">$9,000</div><div class="p-label">Phase 2: Multi-State + Legal</div></div>
-    <div class="phase" id="ph3"><div class="p-cost">$44,000</div><div class="p-label">Phase 3: Full Medicare (65M patients)</div></div>
+    <div class="phase" id="ph3"><div class="p-cost">$44,200</div><div class="p-label">Phase 3: Full Medicare (65M patients)</div></div>
   </div>
 
-  <!-- Have data? -->
+  <!-- Have data? (unified CTA for DUA holders + proprietary dataset donors) -->
   <div class="data-donate-banner">
     <div class="icon">🔓</div>
     <div class="text">
-      <strong>Already have access to one of these datasets?</strong>
-      <p>If you hold an active DUA for CMS LDS, VRDC, a state APCD, or HCUP data, you can collaborate directly. Your existing access + our published code = findings neither of us could produce alone.</p>
+      <strong>Have data you can share?</strong>
+      <p>Whether you hold an active DUA (CMS LDS, VRDC, a state APCD, HCUP) or your organization licenses a proprietary dataset (<strong style="color:var(--white);">Truven/MarketScan</strong>, <strong style="color:var(--white);">Optum Clinformatics</strong>, <strong style="color:var(--white);">IQVIA Pharmetrics</strong>, <strong style="color:var(--white);">Definitive Healthcare</strong>, <strong style="color:var(--white);">Press Ganey</strong>, <strong style="color:var(--white);">Sage Transparency</strong>), get in touch. Your existing access + our published code = findings neither of us could produce alone. Co-publication under your DUA is fine. Donors can be public or anonymous. Code stays open. Findings stay published.</p>
     </div>
-    <a href="mailto:vonrexroad@gmail.com?subject=Data%20collaboration%20—%20AHC">Get in touch</a>
-  </div>
-
-  <!-- Donate proprietary access -->
-  <div class="data-donate-banner" style="background:rgba(14,138,114,.10);border-color:rgba(14,138,114,.30);">
-    <div class="icon" style="color:var(--teal-light);">📦</div>
-    <div class="text">
-      <strong style="color:var(--teal-light);">Can your organization donate proprietary dataset access?</strong>
-      <p>We're seeking licensed-tier data that would unlock issues we cannot fully quantify with public sources. Currently on the wishlist: <strong style="color:var(--white);">Truven/MarketScan</strong>, <strong style="color:var(--white);">Optum Clinformatics</strong>, <strong style="color:var(--white);">IQVIA Pharmetrics</strong>, <strong style="color:var(--white);">Definitive Healthcare</strong>, <strong style="color:var(--white);">Press Ganey</strong>, <strong style="color:var(--white);">Sage Transparency</strong>. Donations can be public or anonymous. Co-publication under your DUA is fine. Code stays open. Findings stay published.</p>
-    </div>
-    <a href="mailto:vonrexroad@gmail.com?subject=Dataset%20donation%20—%20AHC" style="color:var(--teal-light);border-color:var(--teal-light);">Donate access</a>
+    <a href="mailto:contact@ahcdata.fund?subject=Data%20collaboration%20—%20AHC">Get in touch</a>
   </div>
 
   <!-- TIER 1 -->
@@ -512,7 +502,7 @@
   <div class="footer-note">
     No institutional affiliations. No university. No think tank. No funder who might find the analysis inconvenient.
     <br><br>
-    <a href="https://andrewrexroad.substack.com">Substack</a> · <a href="https://github.com/rexrodeo/american-healthcare-conundrum">GitHub</a> · <a href="mailto:vonrexroad@gmail.com">Contact</a>
+    <a href="https://andrewrexroad.substack.com">Substack</a> · <a href="https://github.com/rexrodeo/american-healthcare-conundrum">GitHub</a> · <a href="mailto:contact@ahcdata.fund">Contact</a>
   </div>
 </div>
 
@@ -689,7 +679,7 @@ async function submitFund() {
     return;
   }
   if (amount > 35000) {
-    showErr('Maximum is $35,000. For larger gifts, email vonrexroad@gmail.com.');
+    showErr('Maximum is $35,000. For larger gifts, email contact@ahcdata.fund.');
     return;
   }
 
