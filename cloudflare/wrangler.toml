@@ -9,8 +9,8 @@ compatibility_date = "2024-11-01"
 [vars]
 # The full URL of the GitHub Pages fund page (no trailing slash issues — keep the slash).
 # Update this if you add a custom domain (e.g. https://ahcdata.fund/).
-FUND_PAGE_URL   = "https://rexrodeo.github.io/american-healthcare-conundrum/docs/"
-ALLOWED_ORIGIN  = "https://rexrodeo.github.io"
+FUND_PAGE_URL   = "https://ahcdata.fund/"
+ALLOWED_ORIGIN  = "https://ahcdata.fund"
 
 # ── Secret (never committed) ──────────────────────────────────────────────────
 # Set your Stripe secret key via:
