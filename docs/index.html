@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AHC Data Access Fund</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+  :root {
+    --navy:#1A1F2E; --navy-light:#252B3D; --navy-lighter:#2E3650;
+    --teal:#0E8A72; --teal-light:#12B898; --teal-dim:rgba(14,138,114,.15);
+    --red:#B7182A; --red-dim:rgba(183,24,42,.12);
+    --gold:#D4AF37; --gold-dim:rgba(212,175,55,.12);
+    --white:#F8F8F6; --text:#E5E7EB; --text-dim:#9CA3AF;
+    --success:#10B981; --success-dim:rgba(16,185,129,.12);
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:'Inter',-apple-system,sans-serif;background:var(--navy);color:var(--text);line-height:1.6;min-height:100vh;}
+  .container{max-width:800px;margin:0 auto;padding:20px 16px 80px;}
+
+  /* Header — compact */
+  .header{text-align:center;padding:40px 0 28px;border-bottom:1px solid var(--navy-lighter);margin-bottom:28px;}
+  .series-tag{color:var(--red);font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;margin-bottom:6px;}
+  .header h1{font-size:28px;font-weight:800;color:var(--white);margin-bottom:8px;}
+  .header .sub{font-size:14px;color:var(--text-dim);max-width:560px;margin:0 auto;}
+
+  /* Total progress hero */
+  .hero{background:var(--navy-light);border:1px solid var(--navy-lighter);border-radius:10px;padding:20px 24px;margin-bottom:10px;}
+  .hero-row{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px;}
+  .hero-label{font-size:12px;font-weight:600;color:var(--text-dim);text-transform:uppercase;letter-spacing:1px;}
+  .hero-amt{font-size:26px;font-weight:800;color:var(--teal-light);font-family:'JetBrains Mono',monospace;}
+  .hero-amt span{font-size:14px;color:var(--text-dim);font-weight:500;}
+  .bar-outer{background:var(--navy);border-radius:6px;height:14px;overflow:hidden;margin-bottom:6px;}
+  .bar-inner{height:100%;border-radius:6px;background:linear-gradient(90deg,var(--teal),var(--teal-light));transition:width .8s;min-width:2px;}
+  .hero-micro{font-size:11px;color:var(--text-dim);text-align:center;}
+  .hero-micro strong{color:var(--gold);}
+
+  /* Phase pills */
+  .phases{display:flex;gap:6px;margin:10px 0 28px;flex-wrap:wrap;}
+  .phase{flex:1;min-width:120px;background:var(--navy-light);border:1px solid var(--navy-lighter);border-radius:8px;padding:10px 12px;text-align:center;}
+  .phase.hit{border-color:var(--success);background:var(--success-dim);}
+  .phase.partial{border-color:var(--gold);}
+  .phase .p-cost{font-family:'JetBrains Mono',monospace;font-size:16px;font-weight:700;color:var(--white);}
+  .phase .p-label{font-size:10px;color:var(--text-dim);text-transform:uppercase;letter-spacing:.5px;margin-top:2px;}
+
+  /* Intro — very short */
+  .intro{font-size:14px;color:var(--text);margin-bottom:28px;line-height:1.7;}
+  .intro strong{color:var(--white);}
+  .hl{color:var(--teal-light);font-weight:700;font-family:'JetBrains Mono',monospace;}
+
+  /* Have Data? banner */
+  .data-donate-banner{background:var(--gold-dim);border:1px solid rgba(212,175,55,.25);border-radius:10px;padding:16px 20px;margin-bottom:28px;display:flex;align-items:center;gap:14px;flex-wrap:wrap;}
+  .data-donate-banner .icon{font-size:24px;flex-shrink:0;}
+  .data-donate-banner .text{flex:1;min-width:200px;}
+  .data-donate-banner .text strong{color:var(--gold);font-size:14px;}
+  .data-donate-banner .text p{font-size:12px;color:var(--text-dim);margin-top:2px;}
+  .data-donate-banner a{font-size:12px;font-weight:700;color:var(--gold);text-decoration:none;white-space:nowrap;padding:6px 14px;border:1px solid var(--gold);border-radius:6px;flex-shrink:0;}
+  .data-donate-banner a:hover{background:rgba(212,175,55,.15);}
+
+  /* Tier divider */
+  .tier-div{display:flex;align-items:center;gap:10px;margin:32px 0 14px;}
+  .tier-div .line{flex:1;height:1px;background:var(--navy-lighter);}
+  .tier-div .tag{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:3px 10px;border-radius:4px;white-space:nowrap;}
+  .t1{background:var(--teal-dim);color:var(--teal-light);}
+  .t2{background:var(--gold-dim);color:var(--gold);}
+  .t3{background:var(--red-dim);color:#E85D6F;}
+
+  /* Dataset card */
+  .ds{background:var(--navy-light);border:1px solid var(--navy-lighter);border-radius:10px;margin-bottom:10px;overflow:hidden;transition:border-color .2s;}
+  .ds:hover{border-color:#3E465A;}
+
+  /* Card top — always visible */
+  .ds-top{padding:16px 18px;}
+  .ds-row1{display:flex;align-items:center;gap:12px;margin-bottom:10px;}
+  .ds-num{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:600;color:var(--navy);background:var(--teal);border-radius:5px;width:28px;height:28px;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+  .ds-title{font-size:15px;font-weight:700;color:var(--white);flex:1;}
+  .ds-cost{font-family:'JetBrains Mono',monospace;font-size:14px;font-weight:600;color:var(--teal-light);white-space:nowrap;}
+
+  /* Per-dataset progress */
+  .ds-progress{margin-bottom:10px;}
+  .ds-progress-row{display:flex;justify-content:space-between;font-size:11px;margin-bottom:4px;}
+  .ds-progress-row .raised{color:var(--teal-light);font-weight:600;font-family:'JetBrains Mono',monospace;}
+  .ds-progress-row .goal{color:var(--text-dim);}
+  .ds-bar-outer{background:var(--navy);border-radius:4px;height:8px;overflow:hidden;}
+  .ds-bar-inner{height:100%;border-radius:4px;background:linear-gradient(90deg,var(--teal),var(--teal-light));transition:width .6s;min-width:1px;}
+  .ds-bar-full .ds-bar-inner{background:var(--success);}
+
+  /* One-liner + action row */
+  .ds-oneliner{font-size:13px;color:var(--text-dim);margin-bottom:10px;line-height:1.5;}
+  .ds-actions{display:flex;gap:8px;flex-wrap:wrap;align-items:center;}
+  .btn-fund{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:700;color:var(--white);background:var(--teal);padding:7px 16px;border-radius:6px;text-decoration:none;transition:background .2s,transform .1s;cursor:pointer;border:none;}
+  .btn-fund:hover{background:var(--teal-light);transform:translateY(-1px);}
+  .btn-fund.funded-btn{background:var(--success);cursor:default;}
+  .btn-fund.funded-btn:hover{transform:none;}
+  .btn-details{font-size:12px;font-weight:600;color:var(--text-dim);background:none;border:1px solid var(--navy-lighter);padding:6px 14px;border-radius:6px;cursor:pointer;transition:border-color .2s;}
+  .btn-details:hover{border-color:var(--text-dim);}
+
+  /* Expandable details */
+  .ds-body{max-height:0;overflow:hidden;transition:max-height .35s ease;}
+  .ds.open .ds-body{max-height:3000px;}
+  .ds-body-inner{padding:0 18px 18px;border-top:1px solid var(--navy-lighter);padding-top:14px;margin-top:4px;}
+  .ds-body-inner p{font-size:13px;color:var(--text);line-height:1.65;margin-bottom:10px;}
+  .ds-body-inner p strong{color:var(--white);}
+
+  .unlock-tbl{width:100%;border-collapse:collapse;font-size:12px;margin:10px 0;}
+  .unlock-tbl th{text-align:left;font-size:10px;font-weight:600;color:var(--text-dim);text-transform:uppercase;letter-spacing:.5px;padding:6px 8px;border-bottom:1px solid var(--navy-lighter);}
+  .unlock-tbl td{padding:6px 8px;border-bottom:1px solid rgba(46,54,80,.5);color:var(--text);vertical-align:top;}
+  .unlock-tbl td:first-child{color:var(--gold);font-weight:600;white-space:nowrap;width:100px;}
+
+  .share-badge{display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:600;padding:4px 10px;border-radius:5px;margin-top:6px;}
+  .share-open{background:var(--success-dim);color:var(--success);}
+  .share-agg{background:var(--gold-dim);color:var(--gold);}
+
+  /* Sponsors list per dataset */
+  .sponsors{margin-top:12px;padding-top:10px;border-top:1px solid var(--navy-lighter);}
+  .sponsors .s-label{font-size:10px;font-weight:600;color:var(--text-dim);text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px;}
+  .sponsors .s-list{display:flex;gap:6px;flex-wrap:wrap;}
+  .sponsors .s-name{font-size:11px;font-weight:600;color:var(--white);background:var(--navy);padding:3px 10px;border-radius:12px;border:1px solid var(--navy-lighter);}
+  .sponsors .s-empty{font-size:11px;color:var(--text-dim);font-style:italic;}
+
+  /* Open source matrix */
+  .os-section{background:var(--navy-light);border:1px solid var(--navy-lighter);border-radius:10px;padding:20px;margin:28px 0;}
+  .os-section h3{font-size:15px;font-weight:700;color:var(--white);margin-bottom:10px;}
+  .os-grid{display:grid;grid-template-columns:120px 1fr;gap:1px;font-size:12px;}
+  .os-grid .os-h{font-weight:700;color:var(--text-dim);font-size:10px;text-transform:uppercase;letter-spacing:.5px;padding:6px 8px;background:var(--navy);border-radius:3px;}
+  .os-grid .os-c{padding:7px 8px;background:var(--navy);color:var(--text);line-height:1.5;}
+  .os-yes{color:var(--success);font-weight:600;}
+  .os-no{color:var(--red);font-weight:600;}
+  .os-note{font-size:12px;color:var(--text-dim);margin-top:12px;line-height:1.6;}
+  .os-note strong{color:var(--white);}
+
+  /* Footer CTA */
+  .footer-cta{text-align:center;padding:32px 20px;background:var(--navy-light);border:1px solid var(--navy-lighter);border-radius:10px;margin-top:28px;}
+  .footer-cta h2{font-size:18px;font-weight:800;color:var(--white);margin-bottom:8px;}
+  .footer-cta p{font-size:13px;color:var(--text-dim);max-width:500px;margin:0 auto 16px;line-height:1.6;}
+  .footer-cta .big-btn{display:inline-block;background:var(--teal);color:var(--white);font-size:15px;font-weight:700;padding:12px 32px;border-radius:8px;text-decoration:none;transition:background .2s,transform .1s;}
+  .footer-cta .big-btn:hover{background:var(--teal-light);transform:translateY(-1px);}
+  .footer-note{text-align:center;font-size:11px;color:var(--text-dim);margin-top:24px;padding-top:20px;border-top:1px solid var(--navy-lighter);line-height:1.7;}
+  .footer-note a{color:var(--teal-light);text-decoration:none;}
+
+  @media(max-width:640px){
+    .container{padding:14px 12px 60px;}
+    .header h1{font-size:22px;}
+    .hero{padding:16px;}
+    .hero-amt{font-size:20px;}
+    .phases{flex-direction:column;}
+    .ds-row1{flex-wrap:wrap;}
+    .ds-actions{flex-direction:column;}
+    .btn-fund,.btn-details{width:100%;justify-content:center;text-align:center;}
+    .data-donate-banner{flex-direction:column;text-align:center;}
+    .os-grid{grid-template-columns:1fr;}
+    .modal{padding:18px;}
+    .chips{gap:6px;}
+    .chip{padding:7px 10px;font-size:12px;}
+  }
+
+  /* ── Contribution modal ─────────────────────────────────────────────── */
+  .modal-overlay{display:none;position:fixed;inset:0;background:rgba(10,13,20,.88);z-index:1000;
+    align-items:center;justify-content:center;padding:20px;}
+  .modal-overlay.open{display:flex;}
+  .modal{background:var(--navy-light);border:1px solid var(--navy-lighter);border-radius:12px;
+    width:100%;max-width:420px;padding:26px;position:relative;}
+  .modal-hdr{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:4px;}
+  .modal-hdr h3{font-size:15px;font-weight:700;color:var(--white);line-height:1.35;flex:1;padding-right:10px;}
+  .modal-x{background:none;border:none;color:var(--text-dim);font-size:20px;cursor:pointer;
+    padding:0;line-height:1;flex-shrink:0;transition:color .15s;}
+  .modal-x:hover{color:var(--white);}
+  .modal-meta{font-size:12px;color:var(--text-dim);margin-bottom:18px;line-height:1.5;}
+  .modal-meta strong{color:var(--teal-light);font-family:'JetBrains Mono',monospace;}
+  .chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px;}
+  .chip{font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:600;color:var(--text-dim);
+    background:var(--navy);border:1px solid var(--navy-lighter);border-radius:6px;
+    padding:8px 14px;cursor:pointer;transition:all .15s;flex:1;min-width:56px;text-align:center;}
+  .chip:hover{border-color:var(--teal);color:var(--teal-light);}
+  .chip.sel{border-color:var(--teal);background:var(--teal-dim);color:var(--teal-light);}
+  .amt-row{display:flex;align-items:center;background:var(--navy);border:1px solid var(--navy-lighter);
+    border-radius:6px;padding:9px 12px;margin-bottom:12px;transition:border-color .15s;}
+  .amt-row:focus-within{border-color:var(--teal);}
+  .dollar{font-family:'JetBrains Mono',monospace;font-size:15px;color:var(--text-dim);margin-right:4px;}
+  .amt-row input{flex:1;background:none;border:none;color:var(--white);
+    font-family:'JetBrains Mono',monospace;font-size:15px;font-weight:600;outline:none;width:100%;}
+  .amt-row input::placeholder{color:#3a4260;}
+  .amt-row input::-webkit-outer-spin-button,.amt-row input::-webkit-inner-spin-button{-webkit-appearance:none;}
+  .amt-row input[type=number]{-moz-appearance:textfield;}
+  .modal-note{font-size:11px;color:var(--text-dim);margin-bottom:16px;line-height:1.55;}
+  .modal-err{background:var(--red-dim);border:1px solid rgba(183,24,42,.3);border-radius:6px;
+    padding:8px 12px;font-size:12px;color:#E85D6F;margin-bottom:12px;display:none;}
+  .btn-contribute{width:100%;background:var(--teal);color:var(--white);font-size:14px;font-weight:700;
+    padding:12px;border:none;border-radius:8px;cursor:pointer;font-family:'Inter',sans-serif;
+    transition:background .2s,transform .1s;display:flex;align-items:center;justify-content:center;gap:8px;}
+  .btn-contribute:hover:not(:disabled){background:var(--teal-light);transform:translateY(-1px);}
+  .btn-contribute:disabled{opacity:.6;cursor:default;transform:none;}
+  .modal-disc{font-size:10px;color:var(--text-dim);text-align:center;margin-top:10px;line-height:1.55;}
+  .spinner{width:14px;height:14px;border:2px solid rgba(255,255,255,.3);border-top-color:#fff;
+    border-radius:50%;animation:spin .7s linear infinite;display:inline-block;flex-shrink:0;}
+  @keyframes spin{to{transform:rotate(360deg);}}
+
+  /* ── Success banner ─────────────────────────────────────────────────── */
+  .success-banner{background:var(--success-dim);border:1px solid rgba(16,185,129,.3);border-radius:10px;
+    padding:18px 22px;margin-bottom:24px;display:none;}
+  .success-banner h3{font-size:15px;font-weight:700;color:var(--success);margin-bottom:4px;}
+  .success-banner p{font-size:13px;color:var(--text);line-height:1.6;}
+  .success-banner strong{color:var(--white);}
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="header">
+    <div class="series-tag">The American Healthcare Conundrum</div>
+    <h1>Data Access Fund</h1>
+    <div class="sub">Every dollar buys data, not salary. Every analysis is open-source. Every finding is reproducible.</div>
+  </div>
+
+  <!-- Success banner (shown after Stripe redirect) -->
+  <div class="success-banner" id="success-banner">
+    <h3>Thank you! Your contribution is confirmed.</h3>
+    <p>You funded <strong id="success-ds"></strong> with <strong id="success-amt"></strong>. We'll publish your name on this page within 48 hours and email you when the dataset reaches its goal. Check your inbox for a Stripe receipt.</p>
+  </div>
+
+  <!-- Total progress -->
+  <div class="hero">
+    <div class="hero-row">
+      <span class="hero-label">Total Raised</span>
+      <span class="hero-amt" id="totalAmt">$0 <span>of $44,000</span></span>
+    </div>
+    <div class="bar-outer"><div class="bar-inner" id="totalBar" style="width:0%"></div></div>
+    <div class="hero-micro">Free data found <strong>$428.6B/year</strong> in fixable waste. These datasets let us prove it at patient level.</div>
+  </div>
+
+  <div class="phases">
+    <div class="phase" id="ph1"><div class="p-cost">$3,500</div><div class="p-label">Phase 1: Claims Access</div></div>
+    <div class="phase" id="ph2"><div class="p-cost">$9,000</div><div class="p-label">Phase 2: Multi-State + Legal</div></div>
+    <div class="phase" id="ph3"><div class="p-cost">$44,000</div><div class="p-label">Phase 3: Full Medicare (65M patients)</div></div>
+  </div>
+
+  <!-- Have data? -->
+  <div class="data-donate-banner">
+    <div class="icon">🔓</div>
+    <div class="text">
+      <strong>Already have access to one of these datasets?</strong>
+      <p>If you hold an active DUA for CMS LDS, VRDC, a state APCD, or HCUP data, you can collaborate directly. Your existing access + our published code = findings neither of us could produce alone.</p>
+    </div>
+    <a href="mailto:vonrexroad@gmail.com?subject=Data%20collaboration%20—%20AHC">Get in touch</a>
+  </div>
+
+  <!-- Donate proprietary access -->
+  <div class="data-donate-banner" style="background:rgba(14,138,114,.10);border-color:rgba(14,138,114,.30);">
+    <div class="icon" style="color:var(--teal-light);">📦</div>
+    <div class="text">
+      <strong style="color:var(--teal-light);">Can your organization donate proprietary dataset access?</strong>
+      <p>We're seeking licensed-tier data that would unlock issues we cannot fully quantify with public sources. Currently on the wishlist: <strong style="color:var(--white);">Truven/MarketScan</strong>, <strong style="color:var(--white);">Optum Clinformatics</strong>, <strong style="color:var(--white);">IQVIA Pharmetrics</strong>, <strong style="color:var(--white);">Definitive Healthcare</strong>, <strong style="color:var(--white);">Press Ganey</strong>, <strong style="color:var(--white);">Sage Transparency</strong>. Donations can be public or anonymous. Co-publication under your DUA is fine. Code stays open. Findings stay published.</p>
+    </div>
+    <a href="mailto:vonrexroad@gmail.com?subject=Dataset%20donation%20—%20AHC" style="color:var(--teal-light);border-color:var(--teal-light);">Donate access</a>
+  </div>
+
+  <!-- TIER 1 -->
+  <div class="tier-div"><div class="line"></div><div class="tag t1">Phase 1 — Claims Access</div><div class="line"></div></div>
+
+  <!-- DS1: CMS LDS -->
+  <div class="ds" id="ds1">
+    <div class="ds-top">
+      <div class="ds-row1">
+        <div class="ds-num">1</div>
+        <div class="ds-title">CMS Medicare Claims (5% Sample)</div>
+        <div class="ds-cost">$1,500</div>
+      </div>
+      <div class="ds-progress" id="ds1-prog">
+        <div class="ds-progress-row"><span class="raised" id="ds1-raised">$0 raised</span><span class="goal">Goal: $1,500</span></div>
+        <div class="ds-bar-outer"><div class="ds-bar-inner" id="ds1-bar" style="width:0%"></div></div>
+      </div>
+      <div class="ds-oneliner">Claim-level Medicare data with diagnosis codes, procedure codes, and denial outcomes. Transforms 6+ issues from aggregate inference to patient-level evidence.</div>
+      <div class="ds-actions">
+        <button class="btn-fund" id="ds1-btn" onclick="openFund('ds1')">Fund this dataset</button>
+        <button class="btn-details" onclick="toggle('ds1')">What it unlocks ▾</button>
+      </div>
+    </div>
+    <div class="ds-body"><div class="ds-body-inner">
+      <p><strong>Source:</strong> CMS via ResDAC. Data Use Agreement required (no fee), 2-3 week approval. 5% random sample of all fee-for-service Medicare: inpatient, outpatient, physician, SNF, home health, hospice, DME.</p>
+      <table class="unlock-tbl">
+        <tr><th>Issue</th><th>What becomes possible</th></tr>
+        <tr><td>#8 Denials</td><td>Which diagnoses denied most. What happens after denial: ER visits, readmissions, mortality.</td></tr>
+        <tr><td>#9 Low-Value Care</td><td>Flag specific procedures with high geographic variance and no outcome benefit.</td></tr>
+        <tr><td>#14 Facility Fees</td><td>Same-procedure cost at hospital outpatient vs. physician office, claim by claim.</td></tr>
+        <tr><td>#16 Upcoding</td><td>DRG severity shifts over time. Which hospitals changed coding without changing patients.</td></tr>
+        <tr><td>#22 FFS Trap</td><td>FFS vs. MA utilization for same conditions. The empirical volume premium.</td></tr>
+        <tr><td>#25 End-of-Life</td><td>Specific high-cost, low-benefit interventions in final 6 months of life.</td></tr>
+      </table>
+      <div class="share-badge share-agg">✓ Open source: all code + aggregate findings. Raw claims protected by CMS DUA.</div>
+      <div class="sponsors" id="ds1-sponsors">
+        <div class="s-label">Sponsors</div>
+        <div class="s-list"><span class="s-empty">Be the first to fund this dataset</span></div>
+      </div>
+    </div></div>
+  </div>
+
+  <!-- DS2: CO APCD -->
+  <div class="ds" id="ds2">
+    <div class="ds-top">
+      <div class="ds-row1">
+        <div class="ds-num">2</div>
+        <div class="ds-title">Colorado All-Payer Claims Database</div>
+        <div class="ds-cost">$2,000</div>
+      </div>
+      <div class="ds-progress" id="ds2-prog">
+        <div class="ds-progress-row"><span class="raised" id="ds2-raised">$0 raised</span><span class="goal">Goal: $2,000</span></div>
+        <div class="ds-bar-outer"><div class="ds-bar-inner" id="ds2-bar" style="width:0%"></div></div>
+      </div>
+      <div class="ds-oneliner">Every commercial, Medicare, and Medicaid claim in Colorado. The only way to see what private insurers actually pay. 5.5M lives.</div>
+      <div class="ds-actions">
+        <button class="btn-fund" id="ds2-btn" onclick="openFund('ds2')">Fund this dataset</button>
+        <button class="btn-details" onclick="toggle('ds2')">What it unlocks ▾</button>
+      </div>
+    </div>
+    <div class="ds-body"><div class="ds-body-inner">
+      <p><strong>Source:</strong> CIVHC (civhc.org). CO Health Foundation offers up to $50K/project in grants to offset costs, so this may ultimately cost nothing out of pocket.</p>
+      <table class="unlock-tbl">
+        <tr><th>Issue</th><th>What becomes possible</th></tr>
+        <tr><td>#3 Hospital Pricing</td><td>Actual negotiated rates by hospital and insurer. Ground-truth the RAND 254% finding.</td></tr>
+        <tr><td>#4 PBMs</td><td>Drug-by-drug comparison: what plans pay PBMs vs. what pharmacies receive.</td></tr>
+        <tr><td>#8 Denials</td><td>First independent analysis of commercial insurer denial rates at claim level.</td></tr>
+        <tr><td>#10 Consolidation</td><td>Price changes at hospitals before and after system acquisitions.</td></tr>
+        <tr><td>State Spotlights</td><td>Full claim-level Colorado analysis by hospital, insurer, and procedure.</td></tr>
+      </table>
+      <div class="share-badge share-agg">✓ Open source: all code + aggregate findings. Raw claims protected by CIVHC DUA.</div>
+      <div class="sponsors" id="ds2-sponsors">
+        <div class="s-label">Sponsors</div>
+        <div class="s-list"><span class="s-empty">Be the first to fund this dataset</span></div>
+      </div>
+    </div></div>
+  </div>
+
+  <!-- TIER 2 -->
+  <div class="tier-div"><div class="line"></div><div class="tag t2">Phase 2 — Multi-State + Legal</div><div class="line"></div></div>
+
+  <!-- DS3: HCUP -->
+  <div class="ds" id="ds3">
+    <div class="ds-top">
+      <div class="ds-row1">
+        <div class="ds-num">3</div>
+        <div class="ds-title">Hospital Discharge Data: California + New York</div>
+        <div class="ds-cost">$1,000</div>
+      </div>
+      <div class="ds-progress" id="ds3-prog">
+        <div class="ds-progress-row"><span class="raised" id="ds3-raised">$0 raised</span><span class="goal">Goal: $1,000</span></div>
+        <div class="ds-bar-outer"><div class="ds-bar-inner" id="ds3-bar" style="width:0%"></div></div>
+      </div>
+      <div class="ds-oneliner">Every hospital inpatient discharge in the two largest state markets. All payers. If a finding holds in CO, CA, and NY, it's national.</div>
+      <div class="ds-actions">
+        <button class="btn-fund" id="ds3-btn" onclick="openFund('ds3')">Fund this dataset</button>
+        <button class="btn-details" onclick="toggle('ds3')">What it unlocks ▾</button>
+      </div>
+    </div>
+    <div class="ds-body"><div class="ds-body-inner">
+      <p><strong>Source:</strong> AHRQ HCUP State Inpatient Databases. ~$500/state. California: 400+ hospitals, 3M+ discharges/year. New York: 200+ hospitals. Student/nonprofit discounts available.</p>
+      <table class="unlock-tbl">
+        <tr><th>Issue</th><th>What becomes possible</th></tr>
+        <tr><td>#9 Low-Value Care</td><td>Identify unnecessary inpatient procedures by volume, geography, and hospital across 3 states.</td></tr>
+        <tr><td>#16 Upcoding</td><td>DRG severity distributions at hospital level, multi-state. Flag outlier coding patterns.</td></tr>
+        <tr><td>#25 End-of-Life</td><td>Regional comparison of aggressive end-of-life care intensity.</td></tr>
+      </table>
+      <div class="share-badge share-agg">✓ Open source: all code + summarized findings. Raw micro data restricted by AHRQ DUA.</div>
+      <div class="sponsors" id="ds3-sponsors">
+        <div class="s-label">Sponsors</div>
+        <div class="s-list"><span class="s-empty">Be the first to fund this dataset</span></div>
+      </div>
+    </div></div>
+  </div>
+
+  <!-- DS4: Turquoise -->
+  <div class="ds" id="ds4">
+    <div class="ds-top">
+      <div class="ds-row1">
+        <div class="ds-num">4</div>
+        <div class="ds-title">Hospital Price Transparency (Full National)</div>
+        <div class="ds-cost">$3,500</div>
+      </div>
+      <div class="ds-progress" id="ds4-prog">
+        <div class="ds-progress-row"><span class="raised" id="ds4-raised">$0 raised</span><span class="goal">Goal: $3,500</span></div>
+        <div class="ds-bar-outer"><div class="ds-bar-inner" id="ds4-bar" style="width:0%"></div></div>
+      </div>
+      <div class="ds-oneliner">1 billion+ negotiated rate records. What every hospital charges every insurer for every procedure. The most consumer-facing dataset on this list.</div>
+      <div class="ds-actions">
+        <button class="btn-fund" id="ds4-btn" onclick="openFund('ds4')">Fund this dataset</button>
+        <button class="btn-details" onclick="toggle('ds4')">What it unlocks ▾</button>
+      </div>
+    </div>
+    <div class="ds-body"><div class="ds-body-inner">
+      <p><strong>Source:</strong> Turquoise Health. Free tier covers 14 procedures; full dataset covers thousands. Research partnership may reduce cost. Derived from CMS-mandated public hospital price disclosures.</p>
+      <table class="unlock-tbl">
+        <tr><th>Issue</th><th>What becomes possible</th></tr>
+        <tr><td>#3 Hospital Pricing</td><td>"Your hospital charges UnitedHealthcare $47K for a hip replacement. Across town: $29K." Real prices people can look up.</td></tr>
+        <tr><td>#10 Consolidation</td><td>Pre- and post-merger negotiated rates at acquired hospitals, procedure by procedure.</td></tr>
+        <tr><td>#14 Facility Fees</td><td>Same CPT code at hospital outpatient vs. ambulatory surgery center. Real prices, not estimates.</td></tr>
+      </table>
+      <div class="share-badge share-open">✓ Fully open: derived from public price filings. Analysis shareable under non-commercial DUA.</div>
+      <div class="sponsors" id="ds4-sponsors">
+        <div class="s-label">Sponsors</div>
+        <div class="s-list"><span class="s-empty">Be the first to fund this dataset</span></div>
+      </div>
+    </div></div>
+  </div>
+
+  <!-- DS5: Midpage -->
+  <div class="ds" id="ds5">
+    <div class="ds-top">
+      <div class="ds-row1">
+        <div class="ds-num">5</div>
+        <div class="ds-title">Legal Research (Case Law + Antitrust)</div>
+        <div class="ds-cost">$1,200</div>
+      </div>
+      <div class="ds-progress" id="ds5-prog">
+        <div class="ds-progress-row"><span class="raised" id="ds5-raised">$0 raised</span><span class="goal">Goal: $1,200</span></div>
+        <div class="ds-bar-outer"><div class="ds-bar-inner" id="ds5-bar" style="width:0%"></div></div>
+      </div>
+      <div class="ds-oneliner">Full US case law. FTC antitrust opinions, merger challenges, PBM litigation, Safe Harbor history. Answers "how did the system get this way?"</div>
+      <div class="ds-actions">
+        <button class="btn-fund" id="ds5-btn" onclick="openFund('ds5')">Fund this dataset</button>
+        <button class="btn-details" onclick="toggle('ds5')">What it unlocks ▾</button>
+      </div>
+    </div>
+    <div class="ds-body"><div class="ds-body-inner">
+      <p><strong>Source:</strong> Midpage (midpage.ai). $99/month, cancel anytime. Already configured as a live connector in our research environment. Just needs activation.</p>
+      <table class="unlock-tbl">
+        <tr><th>Issue</th><th>What becomes possible</th></tr>
+        <tr><td>#4 PBMs</td><td>Full text of FTC antitrust cases and settlement terms.</td></tr>
+        <tr><td>#10 Consolidation</td><td>Every FTC hospital merger challenge. Court opinions on market definition and competitive harm.</td></tr>
+        <tr><td>#11 GPOs</td><td>Anti-Kickback Safe Harbor legal history. Challenges to the 1987 exemption.</td></tr>
+        <tr><td>#31 Capstone</td><td>Fiduciary duty case law. Can shareholders sue for prioritizing extraction over outcomes?</td></tr>
+      </table>
+      <div class="share-badge share-open">✓ Fully open: case law is public record. All legal analysis shareable.</div>
+      <div class="sponsors" id="ds5-sponsors">
+        <div class="s-label">Sponsors</div>
+        <div class="s-list"><span class="s-empty">Be the first to fund this dataset</span></div>
+      </div>
+    </div></div>
+  </div>
+
+  <!-- TIER 3 -->
+  <div class="tier-div"><div class="line"></div><div class="tag t3">Phase 3 — Full Medicare Access</div><div class="line"></div></div>
+
+  <!-- DS6: VRDC -->
+  <div class="ds" id="ds6">
+    <div class="ds-top">
+      <div class="ds-row1">
+        <div class="ds-num">6</div>
+        <div class="ds-title">CMS Full Medicare Claims (65M Patients)</div>
+        <div class="ds-cost">$35,000</div>
+      </div>
+      <div class="ds-progress" id="ds6-prog">
+        <div class="ds-progress-row"><span class="raised" id="ds6-raised">$0 raised</span><span class="goal">Goal: $35,000</span></div>
+        <div class="ds-bar-outer"><div class="ds-bar-inner" id="ds6-bar" style="width:0%"></div></div>
+      </div>
+      <div class="ds-oneliner">100% of Medicare claims, including Medicare Advantage. Patient-level, longitudinal. The same data Harvard, Dartmouth, and RAND use. For less than the cost of one junior researcher.</div>
+      <div class="ds-actions">
+        <button class="btn-fund" id="ds6-btn" onclick="openFund('ds6')">Fund this dataset</button>
+        <button class="btn-details" onclick="toggle('ds6')">What it unlocks ▾</button>
+      </div>
+    </div>
+    <div class="ds-body"><div class="ds-body-inner">
+      <p><strong>Source:</strong> CMS Virtual Research Data Center (VRDC) via ResDAC. ~$35K first year ($23K renewal). Full DUA + IRB approval required. Virtual-only access (no data downloads). All outputs reviewed by CMS for patient privacy.</p>
+      <p>This is the dataset that produces JAMA-publishable, congressionally-citable findings. It lets us follow individual patients across time, link denials to outcomes, trace spending through vertically integrated systems, and answer questions no other dataset can.</p>
+      <table class="unlock-tbl">
+        <tr><th>Issue</th><th>What becomes possible</th></tr>
+        <tr><td>#8 Denials</td><td>Follow every denied MA patient. ER visits, readmissions, mortality. The actual human cost of wrongful denials.</td></tr>
+        <tr><td>#9 Low-Value Care</td><td>Every unnecessary procedure for 65M patients, linked to outcomes. The definitive national overuse estimate.</td></tr>
+        <tr><td>#10 Consolidation</td><td>Patient-level cost changes before/after mergers. Evidence an FTC proceeding could cite.</td></tr>
+        <tr><td>#16 Upcoding</td><td>Full DRG distribution for every Medicare hospital. Flag implausible coding with statistical precision.</td></tr>
+        <tr><td>#22 FFS Trap</td><td>Same demographics in FFS vs. MA. The definitive fee-for-service volume premium.</td></tr>
+        <tr><td>#31 Capstone</td><td>Trace patient flows through vertically integrated systems. Are UNH patients funneled to Optum at higher cost?</td></tr>
+      </table>
+      <div class="share-badge share-agg">✓ Open source: all code + all statistical findings. Individual-level data stays in the VRDC (CMS-reviewed output only).</div>
+      <div class="sponsors" id="ds6-sponsors">
+        <div class="s-label">Sponsors</div>
+        <div class="s-list"><span class="s-empty">Be the first to fund this dataset</span></div>
+      </div>
+    </div></div>
+  </div>
+
+  <!-- Open Source commitment -->
+  <div class="os-section">
+    <h3>What "Open Source" Means Here</h3>
+    <div class="os-grid">
+      <div class="os-h">What</div><div class="os-h">Shareable?</div>
+      <div class="os-c"><strong style="color:var(--white)">Analysis code</strong></div><div class="os-c"><span class="os-yes">Yes, always.</span> Every script, every model. Published to GitHub.</div>
+      <div class="os-c"><strong style="color:var(--white)">Findings</strong></div><div class="os-c"><span class="os-yes">Yes, always.</span> Hospital stats, denial rates, cost comparisons. Published in the newsletter and on GitHub.</div>
+      <div class="os-c"><strong style="color:var(--white)">Derived tables</strong></div><div class="os-c"><span class="os-yes">Yes, with cell suppression.</span> No cell under 11 observations (CMS privacy rule).</div>
+      <div class="os-c"><strong style="color:var(--white)">Raw claims</strong></div><div class="os-c"><span class="os-no">No.</span> Patient privacy. Any researcher can get their own access and run our code.</div>
+    </div>
+    <div class="os-note"><strong>The model:</strong> We buy access. We publish the code. We publish the findings. CMS actually <em>requires</em> researchers to publish as a condition of access. Any researcher with their own DUA can reproduce every result.</div>
+  </div>
+
+  <!-- How It Works -->
+  <div class="os-section" style="margin-bottom:20px;">
+    <h3>How Sponsorship Works</h3>
+    <div class="os-note">
+      <strong>1.</strong> Click "Fund this dataset" on any card above.<br>
+      <strong>2.</strong> Pick a suggested amount ($25, $100, $500, $1,500) or type any amount — minimum $5.<br>
+      <strong>3.</strong> You're taken to Stripe Checkout (secure, no account required). Card, Apple Pay, and Google Pay accepted.<br>
+      <strong>4.</strong> We purchase the data when a dataset's goal is fully met. Your money is only used for the dataset you chose.<br>
+      <strong>5.</strong> You're listed as a sponsor on this page and thanked by name in every issue that uses your data.<br>
+      <em>Contributions are project funding, not tax-deductible charitable donations.</em>
+    </div>
+  </div>
+
+  <!-- Footer CTA -->
+  <div class="footer-cta">
+    <h2>Pick a Dataset. Fund the Finding.</h2>
+    <p>Every contributor is acknowledged by name in every issue their dataset makes possible. You're not donating to a newsletter. You're buying the evidence.</p>
+  </div>
+
+  <div class="footer-note">
+    No institutional affiliations. No university. No think tank. No funder who might find the analysis inconvenient.
+    <br><br>
+    <a href="https://andrewrexroad.substack.com">Substack</a> · <a href="https://github.com/rexrodeo/american-healthcare-conundrum">GitHub</a> · <a href="mailto:vonrexroad@gmail.com">Contact</a>
+  </div>
+</div>
+
+<!-- ── Contribution modal ───────────────────────────────────────────────── -->
+<div class="modal-overlay" id="fund-modal" onclick="overlayClick(event)">
+  <div class="modal">
+    <div class="modal-hdr">
+      <h3 id="modal-title">Fund this dataset</h3>
+      <button class="modal-x" onclick="closeModal()" aria-label="Close">✕</button>
+    </div>
+    <div class="modal-meta" id="modal-meta"></div>
+
+    <div class="chips">
+      <button class="chip" onclick="selectChip(this,25)">$25</button>
+      <button class="chip" onclick="selectChip(this,100)">$100</button>
+      <button class="chip" onclick="selectChip(this,500)">$500</button>
+      <button class="chip" onclick="selectChip(this,1500)">$1,500</button>
+    </div>
+
+    <div class="amt-row">
+      <span class="dollar">$</span>
+      <input type="number" id="amt-input" min="5" max="35000" placeholder="Other amount" oninput="clearChips()">
+    </div>
+
+    <div class="modal-note">Minimum $5 · Maximum $35,000 · All code and aggregate findings published open-source on GitHub.</div>
+    <div class="modal-err" id="modal-err"></div>
+
+    <button class="btn-contribute" id="btn-contribute" onclick="submitFund()">Contribute →</button>
+    <div class="modal-disc">Contributions are project funding, not tax-deductible charitable donations.</div>
+  </div>
+</div>
+
+<script>
+// ================================================================
+//  CONFIG — set WORKER_URL after deploying the Cloudflare Worker.
+//  See cloudflare/SETUP.md for step-by-step instructions.
+// ================================================================
+const WORKER_URL = 'https://ahc-data-fund.vonrexroad.workers.dev';
+
+// ================================================================
+//  FUNDING DATA — update funded + sponsors as donations arrive.
+//  The entire page auto-updates: bars, buttons, sponsor list.
+// ================================================================
+const DATA = {
+  ds1: { goal: 1500,  funded: 0, sponsors: [] },  // CMS Medicare Claims (5% Sample)
+  ds2: { goal: 2000,  funded: 0, sponsors: [] },  // Colorado APCD
+  ds3: { goal: 1000,  funded: 0, sponsors: [] },  // AHRQ HCUP (CA+NY)
+  ds4: { goal: 3500,  funded: 0, sponsors: [] },  // Turquoise Health HPT
+  ds5: { goal: 1200,  funded: 0, sponsors: [] },  // Midpage legal research
+  ds6: { goal: 35000, funded: 0, sponsors: [] },  // CMS VRDC (full Medicare)
+};
+// When a donation arrives (Stripe emails you), update two fields:
+//   funded:   add the dollar amount
+//   sponsors: push the donor's display name (or 'Anonymous')
+// Example: ds1: { goal: 1500, funded: 325, sponsors: ['Sarah M.', 'David K.', 'Anonymous'] },
+
+const DS_NAMES = {
+  ds1: 'CMS Medicare Claims (5% Sample)',
+  ds2: 'Colorado All-Payer Claims Database',
+  ds3: 'Hospital Discharge Data (CA + NY)',
+  ds4: 'Hospital Price Transparency (Full National)',
+  ds5: 'Legal Research (Case Law + Antitrust)',
+  ds6: 'CMS Full Medicare Claims (65M Patients)',
+};
+
+const TOTAL_GOAL = Object.values(DATA).reduce((s,d) => s + d.goal, 0);
+
+// ── Page rendering ──────────────────────────────────────────────────────────
+
+function toggle(id) { document.getElementById(id).classList.toggle('open'); }
+
+function render() {
+  let totalFunded = 0;
+  Object.entries(DATA).forEach(([id, d]) => {
+    totalFunded += d.funded;
+    const pct  = Math.min(100, (d.funded / d.goal) * 100);
+    const full = d.funded >= d.goal;
+
+    const bar = document.getElementById(id + '-bar');
+    if (bar) bar.style.width = pct + '%';
+    if (full) document.getElementById(id + '-prog')?.classList.add('ds-bar-full');
+
+    const raised = document.getElementById(id + '-raised');
+    if (raised) raised.textContent = '$' + d.funded.toLocaleString() + ' raised';
+
+    const btn = document.getElementById(id + '-btn');
+    if (btn) {
+      if (full) {
+        btn.textContent = '✓ Funded';
+        btn.classList.add('funded-btn');
+        btn.onclick = null;
+      } else if (d.funded > 0) {
+        btn.textContent = 'Fund this dataset (' + Math.round(100 - pct) + '% to go)';
+      }
+    }
+
+    const sDiv = document.getElementById(id + '-sponsors');
+    if (sDiv && d.sponsors.length > 0) {
+      sDiv.querySelector('.s-list').innerHTML =
+        d.sponsors.map(n => '<span class="s-name">' + n + '</span>').join('');
+    }
+  });
+
+  const totalPct = Math.min(100, (totalFunded / TOTAL_GOAL) * 100);
+  document.getElementById('totalAmt').innerHTML =
+    '$' + totalFunded.toLocaleString() + ' <span>of $' + TOTAL_GOAL.toLocaleString() + '</span>';
+  document.getElementById('totalBar').style.width = totalPct + '%';
+
+  const p1 = DATA.ds1.funded + DATA.ds2.funded;
+  const p2 = p1 + DATA.ds3.funded + DATA.ds4.funded + DATA.ds5.funded;
+  document.getElementById('ph1').className = 'phase' + (p1 >= 3500 ? ' hit' : p1 > 0 ? ' partial' : '');
+  document.getElementById('ph2').className = 'phase' + (p2 >= 9200 ? ' hit' : p2 > 3500 ? ' partial' : '');
+  document.getElementById('ph3').className = 'phase' + (totalFunded >= TOTAL_GOAL ? ' hit' : totalFunded > 9200 ? ' partial' : '');
+}
+
+// ── Contribution modal ──────────────────────────────────────────────────────
+
+let activeDs   = null;
+let chipAmount = null;
+
+function openFund(dsId) {
+  const d = DATA[dsId];
+  if (!d || d.funded >= d.goal) return;
+  activeDs   = dsId;
+  chipAmount = null;
+
+  document.getElementById('modal-title').textContent = 'Fund: ' + DS_NAMES[dsId];
+  const remaining = d.goal - d.funded;
+  document.getElementById('modal-meta').innerHTML =
+    '<strong>$' + d.goal.toLocaleString() + '</strong> goal' +
+    (d.funded > 0 ? ' · <strong>$' + d.funded.toLocaleString() + '</strong> raised' : '') +
+    ' · <strong>$' + remaining.toLocaleString() + '</strong> remaining';
+
+  document.getElementById('amt-input').value = '';
+  document.getElementById('modal-err').style.display = 'none';
+  document.querySelectorAll('.chip').forEach(c => c.classList.remove('sel'));
+  const btn = document.getElementById('btn-contribute');
+  btn.disabled = false;
+  btn.innerHTML = 'Contribute &rarr;';
+
+  document.getElementById('fund-modal').classList.add('open');
+}
+
+function closeModal() {
+  document.getElementById('fund-modal').classList.remove('open');
+  activeDs = null;
+}
+
+function overlayClick(e) {
+  if (e.target === document.getElementById('fund-modal')) closeModal();
+}
+
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+function selectChip(el, amt) {
+  chipAmount = amt;
+  document.getElementById('amt-input').value = '';
+  document.querySelectorAll('.chip').forEach(c => c.classList.remove('sel'));
+  el.classList.add('sel');
+  document.getElementById('modal-err').style.display = 'none';
+}
+
+function clearChips() {
+  chipAmount = null;
+  document.querySelectorAll('.chip').forEach(c => c.classList.remove('sel'));
+}
+
+async function submitFund() {
+  const inputVal = document.getElementById('amt-input').value;
+  const amount   = chipAmount || parseFloat(inputVal);
+
+  if (!amount || isNaN(amount) || amount < 5) {
+    showErr('Please select or enter an amount of at least $5.');
+    return;
+  }
+  if (amount > 35000) {
+    showErr('Maximum is $35,000. For larger gifts, email vonrexroad@gmail.com.');
+    return;
+  }
+
+  const btn = document.getElementById('btn-contribute');
+  btn.disabled = true;
+  btn.innerHTML = '<span class="spinner"></span> Connecting to Stripe\u2026';
+  document.getElementById('modal-err').style.display = 'none';
+
+  try {
+    const res  = await fetch(WORKER_URL, {
+      method:  'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body:    JSON.stringify({ amount, datasetId: activeDs }),
+    });
+    const data = await res.json();
+    if (!res.ok || !data.url) throw new Error(data.error || 'Payment initialization failed.');
+    window.location.href = data.url;
+  } catch (err) {
+    btn.disabled = false;
+    btn.innerHTML = 'Contribute &rarr;';
+    showErr(err.message || 'Something went wrong. Please try again.');
+  }
+}
+
+function showErr(msg) {
+  const el = document.getElementById('modal-err');
+  el.textContent = msg;
+  el.style.display = 'block';
+}
+
+// ── Success banner (Stripe redirects back with ?funded=dsN&amount=X) ────────
+
+(function() {
+  const p = new URLSearchParams(window.location.search);
+  const funded = p.get('funded');
+  const amount = p.get('amount');
+  if (funded && amount && DATA[funded]) {
+    const banner = document.getElementById('success-banner');
+    if (banner) {
+      document.getElementById('success-ds').textContent  = DS_NAMES[funded] || funded;
+      document.getElementById('success-amt').textContent = '$' + parseFloat(amount).toLocaleString();
+      banner.style.display = 'block';
+    }
+    window.history.replaceState({}, '', window.location.pathname);
+  }
+})();
+
+render();
+</script>
+</body>
+</html>

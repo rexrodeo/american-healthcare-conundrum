@@ -1,0 +1,21 @@
+# AHC Data Fund — Cloudflare Worker configuration
+# Deploy: wrangler deploy
+# Docs:   https://developers.cloudflare.com/workers/
+
+name = "ahc-data-fund"
+main = "worker.js"
+compatibility_date = "2024-11-01"
+
+[vars]
+# The full URL of the GitHub Pages fund page (no trailing slash issues — keep the slash).
+# Update this if you add a custom domain (e.g. https://ahcdata.fund/).
+FUND_PAGE_URL   = "https://rexrodeo.github.io/american-healthcare-conundrum/docs/"
+ALLOWED_ORIGIN  = "https://rexrodeo.github.io"
+
+# ── Secret (never committed) ──────────────────────────────────────────────────
+# Set your Stripe secret key via:
+#   wrangler secret put STRIPE_SECRET_KEY
+#
+# Use sk_test_... while testing, then swap to sk_live_... before Sunday launch.
+# The test key lets you run end-to-end flows without charging real cards.
+# Stripe test card: 4242 4242 4242 4242, any future expiry, any CVC.
