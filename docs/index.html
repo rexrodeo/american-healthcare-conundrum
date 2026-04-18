@@ -29,8 +29,8 @@
 
   /* Header — compact */
   .header{text-align:center;padding:40px 0 28px;border-bottom:1px solid var(--navy-lighter);margin-bottom:28px;}
-  .series-tag{color:var(--red);font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;margin-bottom:6px;}
-  .header h1{font-size:28px;font-weight:800;color:var(--white);margin-bottom:8px;}
+  .series-tag{color:var(--red);font-size:19px;font-weight:800;letter-spacing:2.5px;text-transform:uppercase;margin-bottom:14px;line-height:1.25;}
+  .header h1{font-size:22px;font-weight:700;color:var(--white);margin-bottom:10px;letter-spacing:.5px;}
   .header .sub{font-size:14px;color:var(--text-dim);max-width:560px;margin:0 auto;}
 
   /* Total progress hero */
@@ -103,6 +103,8 @@
   .btn-fund.funded-btn:hover{transform:none;}
   .btn-details{font-size:12px;font-weight:600;color:var(--text-dim);background:none;border:1px solid var(--navy-lighter);padding:6px 14px;border-radius:6px;cursor:pointer;transition:border-color .2s;}
   .btn-details:hover{border-color:var(--text-dim);}
+  .btn-source{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:600;color:var(--text-dim);text-decoration:none;padding:6px 10px;border-radius:5px;transition:color .2s;}
+  .btn-source:hover{color:var(--teal-light);}
 
   /* Expandable details */
   .ds-body{max-height:0;overflow:hidden;transition:max-height .35s ease;}
@@ -155,7 +157,7 @@
     .phases{flex-direction:column;}
     .ds-row1{flex-wrap:wrap;}
     .ds-actions{flex-direction:column;}
-    .btn-fund,.btn-details{width:100%;justify-content:center;text-align:center;}
+    .btn-fund,.btn-details,.btn-source{width:100%;justify-content:center;text-align:center;}
     .data-donate-banner{flex-direction:column;text-align:center;}
     .os-grid{grid-template-columns:1fr;}
     .modal{padding:18px;}
@@ -248,7 +250,7 @@
   <div class="hero">
     <div class="hero-row">
       <span class="hero-label">Total Raised</span>
-      <span class="hero-amt" id="totalAmt">$0 <span>of $44,200</span></span>
+      <span class="hero-amt" id="totalAmt">$0 <span>of $44,700</span></span>
     </div>
     <div class="bar-outer"><div class="bar-inner" id="totalBar" style="width:0%"></div></div>
     <div class="hero-micro">Free data found <strong>$448.6B/year</strong> in fixable waste. These datasets let us prove it at patient level.</div>
@@ -256,8 +258,8 @@
 
   <div class="phases">
     <div class="phase" id="ph1"><div class="p-cost">$3,500</div><div class="p-label">Phase 1: Claims Access</div></div>
-    <div class="phase" id="ph2"><div class="p-cost">$9,000</div><div class="p-label">Phase 2: Multi-State + Legal</div></div>
-    <div class="phase" id="ph3"><div class="p-cost">$44,200</div><div class="p-label">Phase 3: Full Medicare (65M patients)</div></div>
+    <div class="phase" id="ph2"><div class="p-cost">$9,700</div><div class="p-label">Phase 2: Multi-State + Legal</div></div>
+    <div class="phase" id="ph3"><div class="p-cost">$44,700</div><div class="p-label">Phase 3: Full Medicare (65M patients)</div></div>
   </div>
 
   <!-- Have data? (unified CTA for DUA holders + proprietary dataset donors) -->
@@ -268,6 +270,19 @@
       <p>Whether you hold an active DUA (CMS LDS, VRDC, a state APCD, HCUP) or your organization licenses a proprietary dataset (<strong style="color:var(--white);">Truven/MarketScan</strong>, <strong style="color:var(--white);">Optum Clinformatics</strong>, <strong style="color:var(--white);">IQVIA Pharmetrics</strong>, <strong style="color:var(--white);">Definitive Healthcare</strong>, <strong style="color:var(--white);">Press Ganey</strong>, <strong style="color:var(--white);">Sage Transparency</strong>), get in touch. Your existing access + our published code = findings neither of us could produce alone. Co-publication under your DUA is fine. Donors can be public or anonymous. Code stays open. Findings stay published.</p>
     </div>
     <a href="#contact" onclick="openContactModal(event)">Get in touch</a>
+  </div>
+
+  <!-- How It Works — moved up so readers know the mechanics before they scroll through datasets -->
+  <div class="os-section" style="margin-top:0;margin-bottom:28px;">
+    <h3>How Sponsorship Works</h3>
+    <div class="os-note">
+      <strong>1.</strong> Click "Fund this dataset" on any card below.<br>
+      <strong>2.</strong> Pick a suggested amount ($25, $100, $500, $1,500) or type any amount — minimum $5.<br>
+      <strong>3.</strong> You're taken to Stripe Checkout (secure, no account required). Card, Apple Pay, and Google Pay accepted.<br>
+      <strong>4.</strong> We purchase the data when a dataset's goal is fully met. Your money is only used for the dataset you chose.<br>
+      <strong>5.</strong> You're listed as a sponsor on this page and thanked by name in every issue that uses your data.<br>
+      <em>Contributions are project funding, not tax-deductible charitable donations.</em>
+    </div>
   </div>
 
   <!-- TIER 1 -->
@@ -285,28 +300,21 @@
         <div class="ds-progress-row"><span class="raised" id="ds1-raised">$0 raised</span><span class="goal">Goal: $1,500</span></div>
         <div class="ds-bar-outer"><div class="ds-bar-inner" id="ds1-bar" style="width:0%"></div></div>
       </div>
-      <div class="ds-oneliner">Claim-level Medicare data with diagnosis codes, procedure codes, and denial outcomes. Transforms 6+ issues from aggregate inference to patient-level evidence.</div>
+      <div class="ds-oneliner">Claim-level Medicare data with diagnosis codes, procedure codes, and denial outcomes. Transforms aggregate inference into patient-level evidence.</div>
       <div class="ds-actions">
         <button class="btn-fund" id="ds1-btn" onclick="openFund('ds1')">Fund this dataset</button>
-        <button class="btn-details" onclick="toggle('ds1')">What it unlocks ▾</button>
+        <a class="btn-source" href="https://resdac.org/cms-data/request/research-identifiable-files" target="_blank" rel="noopener">Data source ↗</a>
+        <button class="btn-details" onclick="toggle('ds1')">Details ▾</button>
       </div>
-    </div>
-    <div class="ds-body"><div class="ds-body-inner">
-      <p><strong>Source:</strong> CMS via ResDAC. Data Use Agreement required (no fee), 2-3 week approval. 5% random sample of all fee-for-service Medicare: inpatient, outpatient, physician, SNF, home health, hospice, DME.</p>
-      <table class="unlock-tbl">
-        <tr><th>Issue</th><th>What becomes possible</th></tr>
-        <tr><td>#8 Denials</td><td>Which diagnoses denied most. What happens after denial: ER visits, readmissions, mortality.</td></tr>
-        <tr><td>#9 Low-Value Care</td><td>Flag specific procedures with high geographic variance and no outcome benefit.</td></tr>
-        <tr><td>#14 Facility Fees</td><td>Same-procedure cost at hospital outpatient vs. physician office, claim by claim.</td></tr>
-        <tr><td>#16 Upcoding</td><td>DRG severity shifts over time. Which hospitals changed coding without changing patients.</td></tr>
-        <tr><td>#22 FFS Trap</td><td>FFS vs. MA utilization for same conditions. The empirical volume premium.</td></tr>
-        <tr><td>#25 End-of-Life</td><td>Specific high-cost, low-benefit interventions in final 6 months of life.</td></tr>
-      </table>
-      <div class="share-badge share-agg">✓ Open source: all code + aggregate findings. Raw claims protected by CMS DUA.</div>
       <div class="sponsors" id="ds1-sponsors">
         <div class="s-label">Sponsors</div>
         <div class="s-list"><span class="s-empty">Be the first to fund this dataset</span></div>
       </div>
+    </div>
+    <div class="ds-body"><div class="ds-body-inner">
+      <p><strong>Source:</strong> CMS via ResDAC. Data Use Agreement required (no fee), 2-3 week approval. 5% random sample of all fee-for-service Medicare: inpatient, outpatient, physician, SNF, home health, hospice, DME.</p>
+      <p><strong>The problem this solves:</strong> Aggregated Medicare reports flatten the questions that matter most. What happens to a patient after a denial? Which procedures add volume without improving outcomes? When a physician's office is acquired by a hospital, does the bill for the same visit double? Claim-level data answers these one event at a time, tied to the patient. Everything else is inference.</p>
+      <div class="share-badge share-agg">✓ Open source: all code + aggregate findings. Raw claims protected by CMS DUA.</div>
     </div></div>
   </div>
 
@@ -325,24 +333,19 @@
       <div class="ds-oneliner">Every commercial, Medicare, and Medicaid claim in Colorado. The only way to see what private insurers actually pay. 5.5M lives.</div>
       <div class="ds-actions">
         <button class="btn-fund" id="ds2-btn" onclick="openFund('ds2')">Fund this dataset</button>
-        <button class="btn-details" onclick="toggle('ds2')">What it unlocks ▾</button>
+        <a class="btn-source" href="https://civhc.org/get-data/" target="_blank" rel="noopener">Data source ↗</a>
+        <button class="btn-details" onclick="toggle('ds2')">Details ▾</button>
       </div>
-    </div>
-    <div class="ds-body"><div class="ds-body-inner">
-      <p><strong>Source:</strong> CIVHC (civhc.org). CO Health Foundation offers up to $50K/project in grants to offset costs, so this may ultimately cost nothing out of pocket.</p>
-      <table class="unlock-tbl">
-        <tr><th>Issue</th><th>What becomes possible</th></tr>
-        <tr><td>#3 Hospital Pricing</td><td>Actual negotiated rates by hospital and insurer. Ground-truth the RAND 254% finding.</td></tr>
-        <tr><td>#4 PBMs</td><td>Drug-by-drug comparison: what plans pay PBMs vs. what pharmacies receive.</td></tr>
-        <tr><td>#8 Denials</td><td>First independent analysis of commercial insurer denial rates at claim level.</td></tr>
-        <tr><td>#10 Consolidation</td><td>Price changes at hospitals before and after system acquisitions.</td></tr>
-        <tr><td>State Spotlights</td><td>Full claim-level Colorado analysis by hospital, insurer, and procedure.</td></tr>
-      </table>
-      <div class="share-badge share-agg">✓ Open source: all code + aggregate findings. Raw claims protected by CIVHC DUA.</div>
       <div class="sponsors" id="ds2-sponsors">
         <div class="s-label">Sponsors</div>
         <div class="s-list"><span class="s-empty">Be the first to fund this dataset</span></div>
       </div>
+    </div>
+    <div class="ds-body"><div class="ds-body-inner">
+      <p><strong>Source:</strong> CIVHC (civhc.org). Custom data extract with Data Use Agreement. Commercial, Medicare Advantage, Medicaid, and MA plan coverage. Standard researcher access.</p>
+      <p><strong>The problem this solves:</strong> Commercial insurer prices are set in private. Hospital chargemasters are fiction. PBM rebates hide inside bilateral contracts. An all-payer claims database is the only way to see what a specific insurer actually pays a specific hospital for a specific procedure, what a plan pays a PBM versus what the PBM pays the pharmacy, and whether denial rates differ by payer or diagnosis. Colorado runs one of the most researcher-accessible APCDs in the country.</p>
+      <p><strong>Grant writers, we need you:</strong> Philanthropic funders like the Colorado Health Foundation run RFPs that can underwrite work like this. If you have experience writing health-research grants, consider donating your time to partner with us on a submission. Reach out via the "Get in touch" link above.</p>
+      <div class="share-badge share-agg">✓ Open source: all code + aggregate findings. Raw claims protected by CIVHC DUA.</div>
     </div></div>
   </div>
 
@@ -354,32 +357,28 @@
     <div class="ds-top">
       <div class="ds-row1">
         <div class="ds-num">3</div>
-        <div class="ds-title">Hospital Discharge Data: California + New York</div>
-        <div class="ds-cost">$1,000</div>
+        <div class="ds-title">Hospital Discharge Data: California + New York + Florida</div>
+        <div class="ds-cost">$1,500</div>
       </div>
       <div class="ds-progress" id="ds3-prog">
-        <div class="ds-progress-row"><span class="raised" id="ds3-raised">$0 raised</span><span class="goal">Goal: $1,000</span></div>
+        <div class="ds-progress-row"><span class="raised" id="ds3-raised">$0 raised</span><span class="goal">Goal: $1,500</span></div>
         <div class="ds-bar-outer"><div class="ds-bar-inner" id="ds3-bar" style="width:0%"></div></div>
       </div>
-      <div class="ds-oneliner">Every hospital inpatient discharge in the two largest state markets. All payers. If a finding holds in CO, CA, and NY, it's national.</div>
+      <div class="ds-oneliner">Every hospital inpatient discharge in three of the largest state markets. All payers. If a finding holds in CA, NY, and FL, it scales nationally.</div>
       <div class="ds-actions">
         <button class="btn-fund" id="ds3-btn" onclick="openFund('ds3')">Fund this dataset</button>
-        <button class="btn-details" onclick="toggle('ds3')">What it unlocks ▾</button>
+        <a class="btn-source" href="https://www.hcup-us.ahrq.gov/tech_assist/centdist.jsp" target="_blank" rel="noopener">Data source ↗</a>
+        <button class="btn-details" onclick="toggle('ds3')">Details ▾</button>
       </div>
-    </div>
-    <div class="ds-body"><div class="ds-body-inner">
-      <p><strong>Source:</strong> AHRQ HCUP State Inpatient Databases. ~$500/state. California: 400+ hospitals, 3M+ discharges/year. New York: 200+ hospitals. Student/nonprofit discounts available.</p>
-      <table class="unlock-tbl">
-        <tr><th>Issue</th><th>What becomes possible</th></tr>
-        <tr><td>#9 Low-Value Care</td><td>Identify unnecessary inpatient procedures by volume, geography, and hospital across 3 states.</td></tr>
-        <tr><td>#16 Upcoding</td><td>DRG severity distributions at hospital level, multi-state. Flag outlier coding patterns.</td></tr>
-        <tr><td>#25 End-of-Life</td><td>Regional comparison of aggressive end-of-life care intensity.</td></tr>
-      </table>
-      <div class="share-badge share-agg">✓ Open source: all code + summarized findings. Raw micro data restricted by AHRQ DUA.</div>
       <div class="sponsors" id="ds3-sponsors">
         <div class="s-label">Sponsors</div>
         <div class="s-list"><span class="s-empty">Be the first to fund this dataset</span></div>
       </div>
+    </div>
+    <div class="ds-body"><div class="ds-body-inner">
+      <p><strong>Source:</strong> AHRQ HCUP State Inpatient Databases. ~$500/state. California: 400+ hospitals, 3M+ discharges/year. New York: 200+ hospitals. Florida: 200+ hospitals, one of the largest Medicare-age markets in the country. Student/nonprofit discounts available.</p>
+      <p><strong>The problem this solves:</strong> One state is a case study. Three major state markets, covering roughly a quarter of the US population and every major insurance model, is national evidence. Hospital discharge data lets us map procedure volume, DRG severity drift, readmissions, and end-of-life intensity at the hospital level across California, New York, and Florida. Findings that replicate across all three are very hard to dismiss as regional artifacts.</p>
+      <div class="share-badge share-agg">✓ Open source: all code + summarized findings. Raw micro data restricted by AHRQ DUA.</div>
     </div></div>
   </div>
 
@@ -398,22 +397,18 @@
       <div class="ds-oneliner">1 billion+ negotiated rate records. What every hospital charges every insurer for every procedure. The most consumer-facing dataset on this list.</div>
       <div class="ds-actions">
         <button class="btn-fund" id="ds4-btn" onclick="openFund('ds4')">Fund this dataset</button>
-        <button class="btn-details" onclick="toggle('ds4')">What it unlocks ▾</button>
+        <a class="btn-source" href="https://turquoise.health/researchers" target="_blank" rel="noopener">Data source ↗</a>
+        <button class="btn-details" onclick="toggle('ds4')">Details ▾</button>
       </div>
-    </div>
-    <div class="ds-body"><div class="ds-body-inner">
-      <p><strong>Source:</strong> Turquoise Health. Free tier covers 14 procedures; full dataset covers thousands. Research partnership may reduce cost. Derived from CMS-mandated public hospital price disclosures.</p>
-      <table class="unlock-tbl">
-        <tr><th>Issue</th><th>What becomes possible</th></tr>
-        <tr><td>#3 Hospital Pricing</td><td>"Your hospital charges UnitedHealthcare $47K for a hip replacement. Across town: $29K." Real prices people can look up.</td></tr>
-        <tr><td>#10 Consolidation</td><td>Pre- and post-merger negotiated rates at acquired hospitals, procedure by procedure.</td></tr>
-        <tr><td>#14 Facility Fees</td><td>Same CPT code at hospital outpatient vs. ambulatory surgery center. Real prices, not estimates.</td></tr>
-      </table>
-      <div class="share-badge share-open">✓ Fully open: derived from public price filings. Analysis shareable under non-commercial DUA.</div>
       <div class="sponsors" id="ds4-sponsors">
         <div class="s-label">Sponsors</div>
         <div class="s-list"><span class="s-empty">Be the first to fund this dataset</span></div>
       </div>
+    </div>
+    <div class="ds-body"><div class="ds-body-inner">
+      <p><strong>Source:</strong> Turquoise Health. Free tier covers 14 procedures; full dataset covers thousands. Research partnership may reduce cost. Derived from CMS-mandated public hospital price disclosures.</p>
+      <p><strong>The problem this solves:</strong> The CMS price transparency rule requires hospitals to publish their negotiated rates in machine-readable format. In practice the files are huge, inconsistent, and only partially compliant. Turquoise has already parsed, normalized, and cross-walked the universe into queryable records. Without it, we cite studies. With it, we can show a reader exactly what their own hospital charges their own insurer for their own procedure, and compare that to the hospital across town.</p>
+      <div class="share-badge share-open">✓ Fully open: derived from public price filings. Analysis shareable under non-commercial DUA.</div>
     </div></div>
   </div>
 
@@ -432,23 +427,18 @@
       <div class="ds-oneliner">Full US case law. FTC antitrust opinions, merger challenges, PBM litigation, Safe Harbor history. Answers "how did the system get this way?"</div>
       <div class="ds-actions">
         <button class="btn-fund" id="ds5-btn" onclick="openFund('ds5')">Fund this dataset</button>
-        <button class="btn-details" onclick="toggle('ds5')">What it unlocks ▾</button>
+        <a class="btn-source" href="https://midpage.ai/" target="_blank" rel="noopener">Data source ↗</a>
+        <button class="btn-details" onclick="toggle('ds5')">Details ▾</button>
       </div>
-    </div>
-    <div class="ds-body"><div class="ds-body-inner">
-      <p><strong>Source:</strong> Midpage (midpage.ai). $99/month, cancel anytime. Already configured as a live connector in our research environment. Just needs activation.</p>
-      <table class="unlock-tbl">
-        <tr><th>Issue</th><th>What becomes possible</th></tr>
-        <tr><td>#4 PBMs</td><td>Full text of FTC antitrust cases and settlement terms.</td></tr>
-        <tr><td>#10 Consolidation</td><td>Every FTC hospital merger challenge. Court opinions on market definition and competitive harm.</td></tr>
-        <tr><td>#11 GPOs</td><td>Anti-Kickback Safe Harbor legal history. Challenges to the 1987 exemption.</td></tr>
-        <tr><td>#31 Capstone</td><td>Fiduciary duty case law. Can shareholders sue for prioritizing extraction over outcomes?</td></tr>
-      </table>
-      <div class="share-badge share-open">✓ Fully open: case law is public record. All legal analysis shareable.</div>
       <div class="sponsors" id="ds5-sponsors">
         <div class="s-label">Sponsors</div>
         <div class="s-list"><span class="s-empty">Be the first to fund this dataset</span></div>
       </div>
+    </div>
+    <div class="ds-body"><div class="ds-body-inner">
+      <p><strong>Source:</strong> Midpage (midpage.ai). $99/month, cancel anytime. Already configured as a live connector in our research environment. Just needs activation.</p>
+      <p><strong>The problem this solves:</strong> Every regulatory failure in US healthcare leaves a paper trail in the case law. The Anti-Kickback Safe Harbor that shields intermediary fees. The hospital mergers the FTC lost. The fiduciary-duty litigation that could rewire incentive structures inside public companies. Legal research is how you trace a mechanism back to its origin and understand which levers can actually be moved, rather than guessing at symptoms.</p>
+      <div class="share-badge share-open">✓ Fully open: case law is public record. All legal analysis shareable.</div>
     </div></div>
   </div>
 
@@ -470,26 +460,18 @@
       <div class="ds-oneliner">100% of Medicare claims, including Medicare Advantage. Patient-level, longitudinal. The same data Harvard, Dartmouth, and RAND use. For less than the cost of one junior researcher.</div>
       <div class="ds-actions">
         <button class="btn-fund" id="ds6-btn" onclick="openFund('ds6')">Fund this dataset</button>
-        <button class="btn-details" onclick="toggle('ds6')">What it unlocks ▾</button>
+        <a class="btn-source" href="https://resdac.org/cms-virtual-research-data-center-vrdc" target="_blank" rel="noopener">Data source ↗</a>
+        <button class="btn-details" onclick="toggle('ds6')">Details ▾</button>
       </div>
-    </div>
-    <div class="ds-body"><div class="ds-body-inner">
-      <p><strong>Source:</strong> CMS Virtual Research Data Center (VRDC) via ResDAC. ~$35K first year ($23K renewal). Full DUA + IRB approval required. Virtual-only access (no data downloads). All outputs reviewed by CMS for patient privacy.</p>
-      <p>This is the dataset that produces JAMA-publishable, congressionally-citable findings. It lets us follow individual patients across time, link denials to outcomes, trace spending through vertically integrated systems, and answer questions no other dataset can.</p>
-      <table class="unlock-tbl">
-        <tr><th>Issue</th><th>What becomes possible</th></tr>
-        <tr><td>#8 Denials</td><td>Follow every denied MA patient. ER visits, readmissions, mortality. The actual human cost of wrongful denials.</td></tr>
-        <tr><td>#9 Low-Value Care</td><td>Every unnecessary procedure for 65M patients, linked to outcomes. The definitive national overuse estimate.</td></tr>
-        <tr><td>#10 Consolidation</td><td>Patient-level cost changes before/after mergers. Evidence an FTC proceeding could cite.</td></tr>
-        <tr><td>#16 Upcoding</td><td>Full DRG distribution for every Medicare hospital. Flag implausible coding with statistical precision.</td></tr>
-        <tr><td>#22 FFS Trap</td><td>Same demographics in FFS vs. MA. The definitive fee-for-service volume premium.</td></tr>
-        <tr><td>#31 Capstone</td><td>Trace patient flows through vertically integrated systems. Are UNH patients funneled to Optum at higher cost?</td></tr>
-      </table>
-      <div class="share-badge share-agg">✓ Open source: all code + all statistical findings. Individual-level data stays in the VRDC (CMS-reviewed output only).</div>
       <div class="sponsors" id="ds6-sponsors">
         <div class="s-label">Sponsors</div>
         <div class="s-list"><span class="s-empty">Be the first to fund this dataset</span></div>
       </div>
+    </div>
+    <div class="ds-body"><div class="ds-body-inner">
+      <p><strong>Source:</strong> CMS Virtual Research Data Center (VRDC) via ResDAC. ~$35K first year ($23K renewal). Full DUA + IRB approval required. Virtual-only access (no data downloads). All outputs reviewed by CMS for patient privacy.</p>
+      <p><strong>The problem this solves:</strong> The 5% sample reveals patterns. The full file follows every Medicare patient across every provider, every year. It's the data that connects a denial to the hospitalization three months later, quantifies whether vertically integrated systems route patients to captive providers at higher cost, and settles the fee-for-service-vs-Medicare-Advantage volume debate with individual-level evidence. This is what peer-reviewed research, regulatory citations, and congressional testimony are built on.</p>
+      <div class="share-badge share-agg">✓ Open source: all code + all statistical findings. Individual-level data stays in the VRDC (CMS-reviewed output only).</div>
     </div></div>
   </div>
 
@@ -504,19 +486,6 @@
       <div class="os-c"><strong style="color:var(--white)">Raw claims</strong></div><div class="os-c"><span class="os-no">No.</span> Patient privacy. Any researcher can get their own access and run our code.</div>
     </div>
     <div class="os-note"><strong>The model:</strong> We buy access. We publish the code. We publish the findings. CMS actually <em>requires</em> researchers to publish as a condition of access. Any researcher with their own DUA can reproduce every result.</div>
-  </div>
-
-  <!-- How It Works -->
-  <div class="os-section" style="margin-bottom:20px;">
-    <h3>How Sponsorship Works</h3>
-    <div class="os-note">
-      <strong>1.</strong> Click "Fund this dataset" on any card above.<br>
-      <strong>2.</strong> Pick a suggested amount ($25, $100, $500, $1,500) or type any amount — minimum $5.<br>
-      <strong>3.</strong> You're taken to Stripe Checkout (secure, no account required). Card, Apple Pay, and Google Pay accepted.<br>
-      <strong>4.</strong> We purchase the data when a dataset's goal is fully met. Your money is only used for the dataset you chose.<br>
-      <strong>5.</strong> You're listed as a sponsor on this page and thanked by name in every issue that uses your data.<br>
-      <em>Contributions are project funding, not tax-deductible charitable donations.</em>
-    </div>
   </div>
 
   <!-- Footer CTA -->
@@ -621,7 +590,7 @@ const WORKER_URL = 'https://ahc-data-fund.vonrexroad.workers.dev';
 const DATA = {
   ds1: { goal: 1500,  funded: 0, sponsors: [] },  // CMS Medicare Claims (5% Sample)
   ds2: { goal: 2000,  funded: 0, sponsors: [] },  // Colorado APCD
-  ds3: { goal: 1000,  funded: 0, sponsors: [] },  // AHRQ HCUP (CA+NY)
+  ds3: { goal: 1500,  funded: 0, sponsors: [] },  // AHRQ HCUP (CA+NY+FL) — 3 states × $500
   ds4: { goal: 3500,  funded: 0, sponsors: [] },  // Turquoise Health HPT
   ds5: { goal: 1200,  funded: 0, sponsors: [] },  // Midpage legal research
   ds6: { goal: 35000, funded: 0, sponsors: [] },  // CMS VRDC (full Medicare)
@@ -634,7 +603,7 @@ const DATA = {
 const DS_NAMES = {
   ds1: 'CMS Medicare Claims (5% Sample)',
   ds2: 'Colorado All-Payer Claims Database',
-  ds3: 'Hospital Discharge Data (CA + NY)',
+  ds3: 'Hospital Discharge Data (CA + NY + FL)',
   ds4: 'Hospital Price Transparency (Full National)',
   ds5: 'Legal Research (Case Law + Antitrust)',
   ds6: 'CMS Full Medicare Claims (65M Patients)',
@@ -686,8 +655,8 @@ function render() {
   const p1 = DATA.ds1.funded + DATA.ds2.funded;
   const p2 = p1 + DATA.ds3.funded + DATA.ds4.funded + DATA.ds5.funded;
   document.getElementById('ph1').className = 'phase' + (p1 >= 3500 ? ' hit' : p1 > 0 ? ' partial' : '');
-  document.getElementById('ph2').className = 'phase' + (p2 >= 9200 ? ' hit' : p2 > 3500 ? ' partial' : '');
-  document.getElementById('ph3').className = 'phase' + (totalFunded >= TOTAL_GOAL ? ' hit' : totalFunded > 9200 ? ' partial' : '');
+  document.getElementById('ph2').className = 'phase' + (p2 >= 9700 ? ' hit' : p2 > 3500 ? ' partial' : '');
+  document.getElementById('ph3').className = 'phase' + (totalFunded >= TOTAL_GOAL ? ' hit' : totalFunded > 9700 ? ' partial' : '');
 }
 
 // ── Contribution modal ──────────────────────────────────────────────────────
