@@ -1,0 +1,7 @@
+validation,metric,implied_savings_billions,interpretation
+Brot-Goldberg 2017 quantity reduction at deductible,13% spending reduction (firm-level natural experiment),10.3,"Quantity-foregone channel, not price wedge. Captured in Component A."
+Wang/Bai 2023 cash<negotiated frequency,47% of hospitals have cash < median negotiated for shoppable services,—,Confirms wedge exists at scale; supports 50% wedge central assumption.
+JHU Radiology 2022 commercial/Medicare ratio,4.0x for brain MRI (range 2-6x across 13 imaging services),—,Implies 50-80% wedge if Medicare approximates cash-equivalent.
+Peterson-KFF 2023 ESI deductible breakdown,$453 of $869 ESI OOP is deductible (52.1%),—,Direct support for our 52.1% deductible-share-of-OOP parameter.
+KFF EHBS 2025 HDHP non-attainment,75% of HDHP enrollees never reach deductible in plan year,—,Direct support for 75% addressable-share parameter.
+Touchstone Imaging Denver MRI vignette,"$3,000 negotiated vs $450 cash = 6.7x markup, 85% wedge",—,"Single case at upper end of distribution; consistent with JHU MRI 10th-90th range $965-$3,033."

@@ -1,0 +1,55 @@
+{
+  "analysis_date": "2026-04-12T14:07:18.838445",
+  "issue": 8,
+  "title": "The Denial Machine: Insurer Profit Extraction (Level 4 \u2014 Original Computation)",
+  "roadmap_target_b": 28,
+  "roadmap_range_b": [
+    28,
+    32
+  ],
+  "components": {
+    "A_care_suppression": {
+      "conservative_b": 12.2,
+      "mid_b": 19.6,
+      "aggressive_b": 30.31,
+      "mechanism": "Care suppression from denial-then-approval cycles (UPGRADED: disease-specific)"
+    },
+    "B_vertical_integration": {
+      "conservative_b": 7.34,
+      "mid_b": 9.18,
+      "aggressive_b": 13.77,
+      "mechanism": "Margin arbitrage from insurer-owned provider payment premium"
+    },
+    "C_ai_escalation": {
+      "conservative_b": 0.29,
+      "mid_b": 1.11,
+      "aggressive_b": 4.16,
+      "mechanism": "Excess denials from AI adoption in PA decisions"
+    },
+    "D_mlr_gaming": {
+      "conservative_b": 11.82,
+      "mid_b": 20.69,
+      "aggressive_b": 29.55,
+      "mechanism": "MLR gaming and accounting loophole extraction (NEW)"
+    },
+    "E_ma_risk_adjustment": {
+      "conservative_b": 0.3,
+      "mid_b": 0.76,
+      "aggressive_b": 1.22,
+      "mechanism": "Medicare Advantage risk adjustment overpayment recovery (NEW)"
+    }
+  },
+  "totals": {
+    "conservative_b": 31.97,
+    "mid_b": 51.34,
+    "aggressive_b": 79.01,
+    "booked_b": 31.97
+  },
+  "editor_assessment": {
+    "prior_level": "Level 2 (novel framing)",
+    "target_level": "Level 4 (original computation)",
+    "upgrade_summary": "Added disease-specific care suppression modeling (Component A), MLR gaming extraction (Component D), and MA risk adjustment overpayment (Component E). All new components computed from published data rather than attribution-based estimates.",
+    "meets_target": true,
+    "roadmap_compliance": "Conservative $31.97B meets $28-32B target"
+  }
+}

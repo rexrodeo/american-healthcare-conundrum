@@ -1,0 +1,10 @@
+Parameter,Value,Component A Impact (B),Total Estimate (B),Component B Impact (B),Component C Impact (B)
+Denial rate,12.0%,$9.72,$29.92,,
+Denial rate,16.5%,$13.37,$33.57,,
+Denial rate,20.0%,$16.20,$36.40,,
+VI ownership share,8%,,$33.67,$10.20,
+VI ownership share,12%,,$38.77,$15.30,
+VI ownership share,16%,,$43.87,$20.40,
+AI adoption rate,10%,,$33.72,,$2.93
+AI adoption rate,22%,,$37.23,,$6.44
+AI adoption rate,35%,,$41.04,,$10.24

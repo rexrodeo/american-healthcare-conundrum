@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "issue": 8,
+    "title": "The Denial Machine: Insurer Profit Extraction",
+    "publication": "The American Healthcare Conundrum",
+    "analysis_date": "2026-04-13T08:44:15.482196",
+    "cms_enrollment_vintage": "March 2026",
+    "kff_data_vintage": "Calendar Year 2024"
+  },
+  "data_sources": {
+    "cms_ma_enrollment": "/sessions/loving-compassionate-clarke/mnt/healthcare/issue_08/raw_data/Monthly_Report_By_Plan_2026_03/Monthly_Report_By_Plan_2026_03.csv",
+    "kff_ma_prior_auth": "/sessions/loving-compassionate-clarke/mnt/healthcare/issue_08/raw_data/KFF_MA_PriorAuth_Insurer_2024.csv",
+    "kff_ma_historical": "/sessions/loving-compassionate-clarke/mnt/healthcare/issue_08/raw_data/KFF_MA_PriorAuth_Historical_2019-2024.csv",
+    "kff_aca_marketplace": "/sessions/loving-compassionate-clarke/mnt/healthcare/issue_08/raw_data/KFF_ACA_Marketplace_2024_Working_File.xlsx"
+  },
+  "component_A_care_suppression": {
+    "type": "ORIGINAL",
+    "method": "CMS MA enrollment \u00d7 KFF PA requests/enrollee \u00d7 denial rate \u00d7 (1-appeal rate) \u00d7 overturn rate \u00d7 PA service cost",
+    "cms_ma_enrollment": 35624601,
+    "total_pa_requests": 57059796,
+    "total_denials": 4088578,
+    "silent_denials": 3592582,
+    "wrongful_silent_denials": 2806288,
+    "conservative_B": 4.21,
+    "mid_B": 5.61,
+    "aggressive_B": 7.02,
+    "pa_claim_cost_range": [
+      1500,
+      2000,
+      2500
+    ]
+  },
+  "analysis_2_denial_reasons": {
+    "type": "ORIGINAL",
+    "total_aca_claims": 373979030,
+    "total_aca_denials": 75855824,
+    "overall_denial_rate_pct": 20.3,
+    "administrative_pct_of_coded": 69.7,
+    "clinical_pct_of_coded": 20.5,
+    "network_pct_of_coded": 9.8,
+    "bh_medical_necessity_denials": 374394,
+    "non_bh_medical_necessity_denials": 3594527,
+    "bh_share_of_med_nec_pct": 9.4,
+    "aca_issuer_denial_rate_range": "3.5% - 47.0%",
+    "aca_issuer_denial_rate_median": 20.9
+  },
+  "analysis_3_trend": {
+    "type": "ORIGINAL",
+    "baseline_year": 2019,
+    "baseline_denial_rate_pct": 5.7,
+    "latest_denial_rate_pct": 7.7,
+    "rate_increase_pp": 2.0,
+    "excess_denials_2024": 1056032,
+    "cumulative_excess_2020_2024": 2226866
+  },
+  "component_B_vertical_integration": {
+    "type": "CURATED",
+    "source": "Health Affairs Nov 2025",
+    "conservative_B": 9.2,
+    "mid_B": 15.7,
+    "aggressive_B": 23.6
+  },
+  "component_D_mlr_gaming": {
+    "type": "CURATED (pending MLR PUF)",
+    "conservative_B": 5.0,
+    "mid_B": 10.0,
+    "aggressive_B": 15.0
+  },
+  "component_E_ma_risk_adjustment": {
+    "type": "CURATED",
+    "source": "MEDPAC 2024, OIG",
+    "conservative_B": 4.6,
+    "mid_B": 9.2,
+    "aggressive_B": 13.9
+  },
+  "consolidated": {
+    "conservative_B": 23.0,
+    "mid_B": 40.5,
+    "aggressive_B": 59.5,
+    "note": "Component A is ORIGINAL (CMS + KFF data). Components B/D/E are CURATED (pending MLR PUF and APCD upgrades)."
+  },
+  "cross_validation": {
+    "our_total_pa_requests": 57059796,
+    "kff_reported_total": 52801636,
+    "request_ratio": 1.081,
+    "our_ma_enrollment": 35624601,
+    "kff_ma_enrollment": 33000000,
+    "enrollment_ratio": 1.08,
+    "note": "Enrollment ratio >1.0 expected: CMS March 2026 vs KFF 2024 base. MA growing ~5%/year."
+  }
+}

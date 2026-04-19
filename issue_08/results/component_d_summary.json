@@ -1,0 +1,33 @@
+{
+  "component": "D",
+  "name": "Deductible-Delay Extraction",
+  "issue": 8,
+  "computed_central_billions": 25.2,
+  "booked_billions": 20.0,
+  "range_low_billions": 6.4,
+  "range_high_billions": 45.0,
+  "sensitivity_low_billions": 10.1,
+  "sensitivity_high_billions": 37.8,
+  "rationale": "$20B booked as conservative-leaning central estimate within a computed range of $6.4B-$45.0B. Rounds down from central $25.2B to absorb HPT data quality uncertainty (GAO-25-106995 documents 17% non-compliance) and behavioral-response slippage.",
+  "policy_lever": "Reference pricing or cash-price-floor mandate: insured patients below deductible must receive the lower of cash or negotiated rate, with the paid amount credited toward deductible attainment.",
+  "data_sources": [
+    "CMS NHE 2023 (out-of-pocket spend pool, $505.7B)",
+    "Peterson-KFF 2023 (ESI deductible share of OOP, 52.1%)",
+    "KFF EHBS 2025 (HDHP enrollment, deductible distribution, non-attainment rate)",
+    "HCCI Frost/Newman 2016 + 2022 HCCUR (shoppable share)",
+    "Wang/Meiselbach/Cox/Anderson/Bai 2023 Health Affairs (paired pricing across 2,379 hospitals)",
+    "JHU Radiology 2022 (imaging commercial/Medicare ratios)",
+    "Brot-Goldberg/Chandra/Handel/Kolstad 2017 QJE (deductible behavioral validation)"
+  ],
+  "data_gaps": [
+    "No public CPT-level paired negotiated/cash dataset (workaround: Wang/Bai aggregate ratios)",
+    "Patient cash-pay decision rate has no clean public survey (workaround: not load-bearing for the policy fix)",
+    "All-payer deductible-only spend not separately published by NHE (workaround: Peterson-KFF ESI ratio applied)"
+  ],
+  "would_be_tighter_with": [
+    "Truven/MarketScan claims (procedure-level patient-paid amounts)",
+    "Optum Clinformatics (commercial claim-level OOP attribution)",
+    "IQVIA Pharmetrics (longitudinal patient OOP trajectories)",
+    "Definitive Healthcare (provider-level pricing benchmarks)"
+  ]
+}

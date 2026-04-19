@@ -1,0 +1,7 @@
+pool_definition,pool_value_billions,scenario,shoppable_share,addressable_share,wedge,overlap_factor,annual_savings_billions
+All-payer (NHE-derived),263.4697,Conservative (1.5x markup),0.2,0.75,0.33,0.85,11.1
+All-payer (NHE-derived),263.4697,Central (2.0x markup),0.3,0.75,0.5,0.85,25.2
+All-payer (NHE-derived),263.4697,Aggressive (3.0x markup),0.4,0.75,0.67,0.85,45.0
+Commercial-only (narrow),151.4950775,Conservative (1.5x markup),0.2,0.75,0.33,0.85,6.4
+Commercial-only (narrow),151.4950775,Central (2.0x markup),0.3,0.75,0.5,0.85,14.5
+Commercial-only (narrow),151.4950775,Aggressive (3.0x markup),0.4,0.75,0.67,0.85,25.9

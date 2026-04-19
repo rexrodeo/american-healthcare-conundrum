@@ -1,0 +1,5 @@
+Year,Scenario,AI Adoption Rate,Excess Denial Rate (pp),Excess Denials (M),Recoverable Cost (B)
+2025,Conservative,22%,5.0,3.3,$4.95
+2025,Mid,22%,6.5,4.2,$6.44
+2025,Aggressive,22%,8.0,5.2,$7.92
+2030,Mid (Projected),50%,6.5,9.7,$14.62
