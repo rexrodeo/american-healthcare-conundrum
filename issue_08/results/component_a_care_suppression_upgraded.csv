@@ -1,0 +1,9 @@
+Component,Parameter,Value,Rationale,Source
+A,Disease-specific escalation (low),14.5%,"BMJ 2020, ADA 2024 chronic disease progression","BMJ 2020 diagnostic delay, ADA Standards 2024"
+A,Disease-specific escalation (mid),22.5%,Disease-specific cost literature (midpoint),Disease cost literature
+A,Disease-specific escalation (high),33.0%,Disease-specific cost literature (upper bound),Disease cost literature
+A,Delayed approval escalation,8.0%,CMS appeal lag data ~30 days,CMS 2024
+A,Adverse event cost multiplier (low),2.0%,AMA adverse event incidence (conservative),AMA 2024 PA survey
+A,Adverse event cost multiplier (mid),4.0%,AMA adverse event incidence (midpoint),AMA 2024
+A,Adverse event cost multiplier (high),8.0%,AMA adverse event incidence (aggressive),AMA 2024
+A,Total Care Suppression Cost,$12.20B / $19.60B / $30.31B,Sum of three suppression pathways,ORIGINAL computation

@@ -8,7 +8,7 @@ This project finds it, one issue at a time. Each issue identifies one fixable pr
 
 ---
 
-> **Latest Issue (#7): [The GLP-1 Gold Rush](issue_07/newsletter_issue_07.md)** — US GLP-1 spending grew 1,200-fold in 5 years. We built the first published 10-year budget projection of Medicare's BALANCE Model. **$40B/year in savings identified.** [Read it on Substack →](https://andrewrexroad.substack.com)
+> **Latest Issue (#8): [The Denial Machine](issue_08/newsletter_issue_08.md)** — We extracted per-contract prior authorization data from 93 Medicare Advantage contracts using the new CMS-0057-F transparency rule. UnitedHealthcare's real denial rate: 13.5%. Appeal overturn rate: 58%. ~3M patients denied entitled care every year, and less than 1% appeal. **$32B/year in savings identified** from care suppression, vertical integration arbitrage, and AI-driven denial escalation. [Read it on Substack →](https://andrewrexroad.substack.com/p/issue-8-the-denial-machine)
 
 ---
 
@@ -23,9 +23,10 @@ This project finds it, one issue at a time. Each issue identifies one fixable pr
 | 5 | [The Paper Chase](issue_05/newsletter_issue_05.md) | $200.0B/yr | US spends $4,983/person on healthcare admin vs. $884 in peer nations; original HCRIS analysis of 4,518 hospitals reveals 6.2× variance in overhead costs | CMS HCRIS, CMS NHE, OECD, AMA |
 | 6 | [The Supply Closet](issue_06/newsletter_issue_06.md) | $28.0B/yr | Original HCRIS analysis of 5,480 hospitals reveals massive variance in per-discharge supply costs; CMI-adjusted P75/P25 ratios of 2.5–3.4× within same-size peer groups | CMS HCRIS FY2023 |
 | 7 | [The GLP-1 Gold Rush](issue_07/newsletter_issue_07.md) | $40.0B/yr | US GLP-1 spending grew 1,200-fold in 5 years ($57M→$71.7B); US pays 3–5× international prices; original 10-year BALANCE budget projection for Medicare GLP-1 coverage | CMS Part D, OECD, KFF, CBO |
-| | **Running Total** | **$396.6B/yr** | **13.2% of the $3T gap** | |
+| 8 | [The Denial Machine](issue_08/newsletter_issue_08.md) | $32.0B/yr | Original CMS-0057-F extraction of 93 MA contracts (UHC denial rate 13.5%, appeal overturn 58–65%, ~3M denied entitled care annually); care suppression, vertical integration arbitrage, and AI-driven denial escalation | CMS-0057-F, UNH/HUM 10-K, Health Affairs, Stanford npj |
+| | **Running Total** | **$428.6B/yr** | **14.3% of the $3T gap** | |
 
-![Savings Tracker](issue_07/figures/chart5_savings_tracker.png)
+![Savings Tracker](issue_08/figures/chart4_savings_tracker.png)
 
 ---
 
@@ -40,6 +41,61 @@ The same operations. Exposed to the same clinical evidence. Wildly different pri
 ---
 
 ## Published Issues
+
+### Issue #8 — The Denial Machine (~$32.0B/year)
+
+Insurance companies use claim denials, prior authorization, and vertical integration as profit tools. We extracted per-contract prior authorization data from 93 Medicare Advantage contracts (61 UnitedHealthcare, 32 Humana) using the new CMS-0057-F transparency rule, covering 18.4 million prior authorization requests. UnitedHealthcare's volume-weighted denial rate: 13.5% (contradicting its headline "95.4% approved"). Per-contract variance: 0.7% to 25.2% (a 36× spread). Appeal overturn rates: 57.9% (UHC) and 64.7% (Humana). National extrapolation: approximately 3 million MA patients are denied entitled care every year and never appeal. Eliminating care suppression, vertical integration arbitrage, and AI-driven denial escalation would save approximately **$32 billion per year**.
+
+**Read the full analysis →** [`issue_08/newsletter_issue_08.md`](issue_08/newsletter_issue_08.md)
+
+<details>
+<summary>Reproducing the analysis</summary>
+
+```bash
+cd issue_08
+
+# Build dataset from CMS-0057-F disclosures and SEC filings
+python 01_build_data.py
+
+# Generate analysis charts
+python generate_all_charts.py
+```
+
+**Key outputs:**
+- `results/` — Per-contract denial rates, appeal analysis, savings model
+- `figures/` — All analysis charts
+
+</details>
+
+<details>
+<summary>Data sources</summary>
+
+| Source | Description |
+|--------|-------------|
+| CMS-0057-F Prior Authorization Transparency Rule Disclosures (April 2026) | Per-contract PA decision data for MA plans |
+| UnitedHealth Group 10-K FY2024 | Revenue, operating margins, Optum segment |
+| CVS Health, Elevance, Cigna, Humana 10-K filings | Insurer financials and MA enrollment |
+| Health Affairs Nov 2025 | Optum vertical integration premium: 17% (61% in concentrated markets) |
+| Stanford npj Digital Medicine Jan 2026 | AI increases denial rates 5–8 percentage points |
+| AMA Physician Survey on Prior Authorization 2024 | 93% report PA delays care; 8% report PA contributed to death/disability |
+| KFF CY2024 Part C PA Reporting Data | MA plan prior authorization volumes |
+
+</details>
+
+<details>
+<summary>Key methodology notes</summary>
+
+- Original CMS-0057-F per-contract extraction: 93 MA contracts, 18.4M PA requests
+- Volume-weighted denial rates computed from per-contract data (not headline averages)
+- Savings components: Care Suppression ($13.7B mid), Vertical Integration Arbitrage ($10.3B mid), AI Denial Escalation ($5.7B mid), Risk Adjustment ($0.3B)
+- MLR Gaming ($11.8–20.7B) documented but excluded from booked savings
+- Booked: $32B (upper-conservative within component ranges A+B+C+E); full range $22–37B
+- Component D (deductible-delay extraction) described in the newsletter's MRI vignette but excluded from booked total pending matched patient-level claims + deductible-exposure data
+- No overlap with Issue #5 (admin waste counts processing cost of PA; this counts the denied-care cost)
+
+</details>
+
+---
 
 ### Issue #7 — The GLP-1 Gold Rush (~$40.0B/year)
 
@@ -466,13 +522,31 @@ python 05_visualize.py
 
 ---
 
-**Through 7 issues: ~$396.6 billion in identified savings (13.2% of the $3T gap)**
+**Through 8 issues: ~$428.6 billion in identified savings (14.3% of the $3T gap)**
+
+---
+
+## Fund the Data
+
+We've identified $428.6 billion in fixable waste using free federal datasets. To go deeper, we need claim-level data that costs money to access: Medicare claims with diagnosis codes, all-payer state databases, hospital price transparency records, and legal research tools. Issue #8 made this concrete: the deductible-delay extraction mechanism described in the MRI vignette, where an insurer denial pushes a patient to cash and captures the deductible spread on the next claim, cannot be measured rigorously without paired patient-level claims plus deductible-exposure data. That is why Component D stays out of our booked total and why this fund exists.
+
+**[Visit the AHC Data Access Fund →](https://ahcdata.fund)** | **[Sponsor on GitHub →](https://github.com/sponsors/rexrodeo)**
+
+Six datasets. Per-dataset crowdfunding via Stripe (no account required, any amount $5+). Your money is used only when a dataset is fully funded. Every contributor is listed publicly (or anonymously) on the fund page. Code is always open-source. Findings are always published. Holding licensed data (Truven/MarketScan, Optum Clinformatics, IQVIA Pharmetrics, Definitive Healthcare, Press Ganey, Sage Transparency)? **Donate access** — the fund page has a dedicated channel for proprietary dataset partnerships.
+
+| Phase | Datasets | Cost | What It Unlocks |
+|-------|----------|------|-----------------|
+| 1 | CMS Medicare Claims (5% sample) + Colorado All-Payer Claims | $3,500 | Patient-level denial outcomes, commercial vs. Medicare pricing, drug cost analysis |
+| 2 | Hospital Discharge Data (CA+NY) + Price Transparency + Legal Research | $5,700 | Low-value care identification, real negotiated rates, antitrust case law |
+| 3 | CMS Full Medicare (65M patients via VRDC) | $35,000 | The same data Harvard, Dartmouth, and RAND use. JAMA-publishable, congressionally-citable. |
+
+**Already have access to one of these datasets?** We can collaborate directly. Your existing DUA + our published code = findings neither of us could produce alone. [Get in touch →](mailto:vonrexroad@gmail.com?subject=Data%20collaboration%20—%20AHC)
 
 ---
 
 ## Up Next
 
-Issue #8 examines the denial machine — insurance companies use claim denials, prior authorization, and appeals processes as profit tools. New CMS data shows a 15–17% initial denial rate; 80% are overturned on appeal; less than 1% of patients appeal. Subscribe on Substack to get it when it drops.
+Issue #9 examines the Employer Trap: how the employer-sponsored insurance system converts system-level healthcare price excess into a hidden tax on wages. US premium growth has outpaced wage growth by 1.6× over the past decade. Subscribe on Substack to get it when it drops.
 
 ---
 
@@ -480,4 +554,8 @@ Issue #8 examines the denial machine — insurance companies use claim denials, 
 
 Every analysis uses primary sources: CMS cost reports, Part D claims data, OECD health statistics, RAND pricing studies. Every number has a citation. Every script is reproducible from a clean clone. Caveats are named explicitly. The math is the argument.
 
+No institutional affiliations. No university. No think tank. No funder who might find the analysis inconvenient. Funded by readers and data sponsors who want the numbers to be public.
+
 Built by [Andrew Rexroad](https://andrewrexroad.substack.com). Questions, corrections, or data tips: vonrexroad@gmail.com
+
+**[Subscribe on Substack](https://andrewrexroad.substack.com)** | **[Sponsor the Data](https://github.com/sponsors/rexrodeo)** | **[View the Code](https://github.com/rexrodeo/american-healthcare-conundrum)**

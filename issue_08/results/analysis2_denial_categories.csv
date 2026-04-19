@@ -1,0 +1,4 @@
+category,denial_count,pct_of_coded,includes
+Administrative/Procedural,60759390,69.7,"Referral Required, Administrative Reason, Other, Member Not Covered"
+Clinical/Coverage,17846133,20.5,"Medical Necessity, Services Excluded, Investigational/Cosmetic, Benefit Limit"
+Network Design,8567575,9.8,Out Of Network

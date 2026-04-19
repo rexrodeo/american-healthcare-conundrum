@@ -1,0 +1,13 @@
+Component,Parameter,Value,Source
+A,Initial denial rate,16.5%,FTC Jan 2024
+A,Appeal rate,1.00%,"OIG 2022, KFF 2023"
+A,Overturn rate,75%,OIG 2022
+A,Permanent suppression escalation (low),12%,Disease cost literature (conservative)
+A,Permanent suppression escalation (mid),18%,Disease cost literature (midpoint)
+A,Permanent suppression escalation (high),25%,Disease cost literature (aggressive)
+A,Delayed approval escalation (low),10%,Delayed care escalation factor (conservative)
+A,Delayed approval escalation (mid),10%,Delayed care escalation factor (mid)
+A,Delayed approval escalation (high),10%,Delayed care escalation factor (aggressive)
+A,Adverse event cost multiplier (low),2.0%,AMA adverse event incidence (conservative)
+A,Adverse event cost multiplier (mid),5.0%,AMA adverse event incidence (mid)
+A,Adverse event cost multiplier (high),10.0%,AMA adverse event incidence (aggressive)

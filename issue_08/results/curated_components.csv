@@ -1,0 +1,4 @@
+component,type,source,conservative_B,mid_B,aggressive_B,mechanism
+B_vertical_integration,CURATED,"Health Affairs Nov 2025, CMS NHE",9.2,15.7,23.6,Insurer-owned provider 17% payment premium
+D_mlr_gaming,CURATED (pending MLR PUF),"FTC reports, state AG audits",5.0,10.0,15.0,QI expense reclassification to meet MLR floor
+E_ma_risk_adjustment,CURATED,"MEDPAC 2024, OIG audits",4.6,9.2,13.9,Coding intensity / risk score inflation

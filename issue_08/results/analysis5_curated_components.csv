@@ -1,0 +1,6 @@
+component,data_type,source,value_conservative_billion,value_mid_billion,value_aggressive_billion,methodology
+A. Silent Denial Cost Impact,ORIGINAL,KFF MA Prior Auth Insurer Data 2024 + CMS NHE spending,42.9,57.2,71.6,Insurer-by-insurer enrollment × requests × denial rate × (1 - appeal rate) × appeals overturned rate × PA claim cost
+B. Excess Denial Rate Impact (2019-2024),ORIGINAL,KFF MA Prior Auth Historical Data 2019-2024,3.3,4.4,5.5,Total excess denials (above 2019 baseline) × PA claim cost
+C. Insurer Variation in Denial Rates,ORIGINAL,KFF ACA Marketplace Claims Denial Data 2024 + KFF MA Prior Auth Insurer 2024,17.4,24.9,32.4,CMS enrollment × KFF insurer denial rates × wrongful denial computation
+D. MLR Gaming (PENDING),CURATED,"CMS MLR PUF (pending); Published analysis: FTC, state AG reports",5.0,8.0,15.0,Based on insurer denial-claim-rejection profitability spread; pending MLR PUF analysis
+E. Vertical Integration Arbitrage (PENDING),CURATED,"Published research (Health Affairs, JAMA); pending CMS medical loss ratio analysis",2.0,4.0,10.0,Based on published MA risk adjustment gaming research; pending integrated data

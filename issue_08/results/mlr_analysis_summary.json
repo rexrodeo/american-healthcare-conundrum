@@ -1,0 +1,35 @@
+{
+  "analysis_date": "2026-04-13",
+  "data_source": "CMS Medical Loss Ratio Public Use Files (2019-2024)",
+  "key_findings": {
+    "latest_year_2024": {
+      "total_market_premium_billions": 1586.35,
+      "total_market_claims_billions": 1409.83,
+      "total_admin_expenses_billions": 183.63,
+      "admin_as_pct_of_premium": 11.6,
+      "computed_mlr_percent": 88.9
+    },
+    "big_5_concentration_2024": {
+      "companies_with_data": 92,
+      "total_premium_billions": 190.76,
+      "market_share_pct": 24.0,
+      "average_mlr_percent": 80.6,
+      "average_admin_ratio_percent": 14.6
+    },
+    "admin_decomposition_2024": {
+      "cost_containment_pct": 11.2,
+      "claims_adjustment_pct": 13.3,
+      "sales_and_benefits_pct": 6.4,
+      "broker_fees_pct": 16.9,
+      "other_ga_pct": 52.2
+    }
+  },
+  "methodology_notes": [
+    "Market segments aggregated: Individual, Small Group, Large Group, Mini-Med (all yearly variants)",
+    "MLR calculated as: (Claims) / Premium",
+    "Admin expenses include: cost containment, claims adjustment, sales, broker fees, other G&A",
+    "Big 5 identified by company name matching: UnitedHealth, Elevance, Anthem, CVS, Aetna, Cigna, Humana",
+    "Grand Total rows used for insurer-level analysis",
+    "All figures in billions unless otherwise noted"
+  ]
+}

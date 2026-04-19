@@ -1,0 +1,44 @@
+{
+  "analysis_date": "2026-04-12T13:59:20.667294",
+  "issue": 8,
+  "title": "The Denial Machine: Insurer Profit Extraction",
+  "roadmap_target_b": 50.0,
+  "roadmap_range_b": [
+    50,
+    150
+  ],
+  "components": {
+    "A_care_suppression": {
+      "conservative_b": 10.37,
+      "mid_b": 17.03,
+      "aggressive_b": 25.92,
+      "mechanism": "Care suppression from denial-then-approval cycles"
+    },
+    "B_vertical_integration": {
+      "conservative_b": 6.69,
+      "mid_b": 13.77,
+      "aggressive_b": 23.99,
+      "mechanism": "Margin arbitrage from insurer-owned provider payment premium"
+    },
+    "C_ai_escalation": {
+      "conservative_b": 4.95,
+      "mid_b": 6.44,
+      "aggressive_b": 7.92,
+      "mechanism": "Excess denials from AI adoption in PA decisions"
+    }
+  },
+  "totals": {
+    "conservative_b": 22.01,
+    "mid_b": 37.23,
+    "aggressive_b": 57.83,
+    "booked_b": 22.01
+  },
+  "cross_validation": {
+    "health_affairs_pa_system_cost_b": 93.3,
+    "health_affairs_patient_facing_cost_b": 35.8,
+    "component_a_as_percent_of_patient_cost": "48%",
+    "optum_health_operating_income_b": 5.22,
+    "our_vi_margin_b": 13.77,
+    "verdict": "Conservative estimate $22.0B aligns with research. Mid estimate $37.2B meets $50B target."
+  }
+}

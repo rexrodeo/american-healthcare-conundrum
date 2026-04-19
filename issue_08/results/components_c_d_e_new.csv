@@ -1,0 +1,10 @@
+Component,Scenario,Parameter,Value,Savings_B
+C,Low,AI Adoption,15%,0.2936250000000001
+C,Mid,AI Adoption,22%,1.1137500000000002
+C,High,AI Adoption,35%,4.1579999999999995
+D,Low,MLR Gaming Rate,2.0%,11.822
+D,Mid,MLR Gaming Rate,3.5%,20.688499999999998
+D,High,MLR Gaming Rate,5.0%,29.554999999999996
+E,Low,RA Overpayment Rate,2.0%,0.30492
+E,Mid,RA Overpayment Rate,5.0%,0.7623000000000001
+E,High,RA Overpayment Rate,8.0%,1.21968
