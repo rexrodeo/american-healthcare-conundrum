@@ -588,12 +588,12 @@ const WORKER_URL = 'https://ahc-data-fund.vonrexroad.workers.dev';
 //  The entire page auto-updates: bars, buttons, sponsor list.
 // ================================================================
 const DATA = {
-  ds1: { goal: 1500,  funded: 0, sponsors: [] },  // CMS Medicare Claims (5% Sample)
-  ds2: { goal: 2000,  funded: 0, sponsors: [] },  // Colorado APCD
-  ds3: { goal: 1500,  funded: 0, sponsors: [] },  // AHRQ HCUP (CA+NY+FL) — 3 states × $500
-  ds4: { goal: 3500,  funded: 0, sponsors: [] },  // Turquoise Health HPT
-  ds5: { goal: 1200,  funded: 0, sponsors: [] },  // Midpage legal research
-  ds6: { goal: 35000, funded: 0, sponsors: [] },  // CMS VRDC (full Medicare)
+  ds1: { goal: 1500,  funded: 100, sponsors: ['Andrew Rexroad (founder)'] },  // CMS Medicare Claims (5% Sample)
+  ds2: { goal: 2000,  funded: 100, sponsors: ['Andrew Rexroad (founder)'] },  // Colorado APCD
+  ds3: { goal: 1500,  funded: 100, sponsors: ['Andrew Rexroad (founder)'] },  // AHRQ HCUP (CA+NY+FL) — 3 states × $500
+  ds4: { goal: 3500,  funded: 100, sponsors: ['Andrew Rexroad (founder)'] },  // Turquoise Health HPT
+  ds5: { goal: 1200,  funded: 100, sponsors: ['Andrew Rexroad (founder)'] },  // Midpage legal research
+  ds6: { goal: 35000, funded: 100, sponsors: ['Andrew Rexroad (founder)'] },  // CMS VRDC (full Medicare)
 };
 // When a donation arrives (Stripe emails you), update two fields:
 //   funded:   add the dollar amount
