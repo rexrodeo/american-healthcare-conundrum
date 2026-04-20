@@ -47,7 +47,6 @@ MEDICAL_SUPPLY_ALTERNATIVES_RESEARCH.md
 MEDICAL_SUPPLY_SUMMARY_TABLE.md
 newsletter_issue_02.md
 dashboard.html
-docs/STRIPE_SETUP_INSTRUCTIONS.md
 
 # Root-level exploratory scripts (superseded by issue_XX/01_build_data.py pipelines)
 /analyze_*.py
