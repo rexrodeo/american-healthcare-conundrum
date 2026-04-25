@@ -621,7 +621,7 @@ Six datasets. Per-dataset crowdfunding via Stripe (no account required, any amou
 
 ## Up Next
 
-Issue #10 examines the Procedure Mill: roughly one-third of procedures performed in the United States each year are unnecessary by the criteria of the physicians who order them. The Lown Institute estimates $75 to $100 billion in low-value care annually. The Choosing Wisely initiative has named more than 600 procedures that evidence does not support for most patients. Medicare claims data lets us compute the volume, cost, and geographic distribution of overuse at the procedure level. Subscribe on Substack to get it when it drops.
+Issue #10 examines the Procedure Mill: physicians say roughly one in five medical decisions in the US is unnecessary, and for procedures specifically the figure is closer to one in nine (Lyu, Wick, Cabrera, Makary, *Overtreatment in the United States*, PLOS ONE, 2017). The Lown Institute estimates $75 to $100 billion in low-value care annually. The Choosing Wisely initiative has named more than 600 procedures that evidence does not support for most patients. Medicare claims data lets us compute the volume, cost, and geographic distribution of overuse at the procedure level. Subscribe on Substack to get it when it drops.
 
 ---
 
