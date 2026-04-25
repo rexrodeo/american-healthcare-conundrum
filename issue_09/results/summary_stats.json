@@ -1,0 +1,33 @@
+{
+  "data_sources": {
+    "form_5500_main": "f_5500_2023_latest.csv",
+    "form_5500_rows": 231046,
+    "schedule_a": "F_SCH_A_2023_latest.csv",
+    "schedule_a_rows": 338320,
+    "schedule_a_medical_rows": 77381,
+    "outliers_dropped": 13
+  },
+  "headline_aggregates": {
+    "total_broker_comp_medical_usd_bn": 3.736,
+    "broker_commissions_only_usd_bn": 2.772,
+    "broker_fees_only_usd_bn": 0.964,
+    "total_covered_lives_m": 45.19,
+    "total_premium_usd_bn": 32.36,
+    "n_plans_with_broker_data": 41680,
+    "n_plans_with_premium_data": 8286,
+    "n_plans_with_both": 7036
+  },
+  "reference_anchors": {
+    "nhe_2024_esi_total_premium_usd_bn": 1429.1,
+    "nhe_2024_esi_employer_contribution_usd_bn": 1047.0,
+    "nhe_2024_esi_employee_contribution_usd_bn": 382.1,
+    "nhe_2024_phi_non_medical_exp_usd_bn": 306.0,
+    "kff_ehbs_2024_single_premium": 8951,
+    "kff_ehbs_2024_family_premium": 25572
+  },
+  "savings_summary": {
+    "booked_usd_bn": 40.4,
+    "range_low_usd_bn": 21.8,
+    "range_high_usd_bn": 69.7
+  }
+}
