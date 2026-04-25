@@ -224,7 +224,7 @@ Denominator: $3.24 trillion US-Japan per-capita spending gap (US per-capita $15,
 
 ## What's Next
 
-Issue #10: The Procedure Mill. About one-third of the procedures performed in the United States each year are unnecessary by the criteria of the physicians who order them. The Lown Institute estimates $75 to $100 billion in low-value care annually. The Choosing Wisely initiative has named more than 600 procedures that evidence does not support for most patients. Medicare claims data lets us compute the volume, cost, and geographic distribution of overuse at the procedure level. Issue #10 builds that case: who performs low-value care, who pays for it, and what it would take to stop.
+Issue #10: The Procedure Mill. Physicians say roughly one in five medical decisions in the US is unnecessary, and for procedures specifically the figure is closer to one in nine (Lyu, Wick, Cabrera, Makary, Overtreatment in the United States, PLOS ONE, 2017). The Lown Institute estimates $75 to $100 billion in low-value care annually. The Choosing Wisely initiative has named more than 600 procedures that evidence does not support for most patients. Medicare claims data lets us compute the volume, cost, and geographic distribution of overuse at the procedure level. Issue #10 builds that case: who performs low-value care, who pays for it, and what it would take to stop.
 
 Every script is on GitHub. Every number can be verified. If you think we got something wrong, open an issue: **github.com/rexrodeo/american-healthcare-conundrum**
 
