@@ -1,6 +1,6 @@
 # The American Healthcare Conundrum
 
-The US spends ~$14,570 per person on healthcare. Japan spends ~$5,790 and has the highest life expectancy in the OECD. That gap is roughly **$3 trillion per year.**
+The US spends ~$15,474 per person on healthcare. Japan spends ~$5,790 and has the highest life expectancy in the OECD. That gap is roughly **$3.24 trillion per year.**
 
 This project finds it, one issue at a time. Each issue identifies one fixable problem, quantifies the waste from primary federal data, and recommends a specific policy fix. All code is open-source. Anyone can reproduce the analysis.
 
@@ -8,7 +8,7 @@ This project finds it, one issue at a time. Each issue identifies one fixable pr
 
 ---
 
-> **Latest Issue (#8): [The Denial Machine](issue_08/newsletter_issue_08.md)** — We extracted per-contract prior authorization data from 93 Medicare Advantage contracts using the new CMS-0057-F transparency rule. UnitedHealthcare's real denial rate: 13.5%. Appeal overturn rate: 58%. ~3M patients denied entitled care every year, and less than 1% appeal. **$32B/year in savings identified** from care suppression, vertical integration arbitrage, and AI-driven denial escalation. [Read it on Substack →](https://andrewrexroad.substack.com/p/issue-8-the-denial-machine)
+> **Latest Issue (#9): [The Employer Trap](issue_09/newsletter_issue_09.md)** — Plans paying their broker through one carrier-paid commission system, plans paying their administrator through another, and the worker paying for both in wages they never see. We pulled DOL Form 5500 Schedule A and Schedule C disclosures for plan year 2023, the first full year of post-CAA 2021 fiduciary transparency, and built peer-group fee benchmarks at plan level. **$6.6B/year in conservative savings identified** from broker commissions above the 3% DOL benchmark and admin fees above peer-group medians. [Read it on Substack →](https://andrewrexroad.substack.com/p/issue-9-the-employer-trap)
 
 ---
 
@@ -24,9 +24,12 @@ This project finds it, one issue at a time. Each issue identifies one fixable pr
 | 6 | [The Supply Closet](issue_06/newsletter_issue_06.md) | $28.0B/yr | Original HCRIS analysis of 5,480 hospitals reveals massive variance in per-discharge supply costs; CMI-adjusted P75/P25 ratios of 2.5–3.4× within same-size peer groups | CMS HCRIS FY2023 |
 | 7 | [The GLP-1 Gold Rush](issue_07/newsletter_issue_07.md) | $40.0B/yr | US GLP-1 spending grew 1,200-fold in 5 years ($57M→$71.7B); US pays 3–5× international prices; original 10-year BALANCE budget projection for Medicare GLP-1 coverage | CMS Part D, OECD, KFF, CBO |
 | 8 | [The Denial Machine](issue_08/newsletter_issue_08.md) | $32.0B/yr | Original CMS-0057-F extraction of 93 MA contracts (UHC denial rate 13.5%, appeal overturn 58–65%, ~3M denied entitled care annually); care suppression, vertical integration arbitrage, and AI-driven denial escalation | CMS-0057-F, UNH/HUM 10-K, Health Affairs, Stanford npj |
-| | **Running Total** | **$428.6B/yr** | **14.3% of the $3T gap** | |
+| 9 | [The Employer Trap](issue_09/newsletter_issue_09.md) | $6.6B/yr | First plan-level analysis of post-CAA 2021 broker and admin-fee disclosures (8,180 health welfare plans, 23.8M participants); per-plan broker commissions above 3% DOL benchmark and admin fees above peer-group medians | DOL Form 5500 Schedule A and Schedule C 2023, KFF EHBS 2024, JAMA Network Open |
+| | **Running Total** | **$435.2B/yr** | **13.4% of the $3.24T gap** | |
 
-![Savings Tracker](issue_08/figures/chart4_savings_tracker.png)
+*Issue #9 is the first issue at the revised $3.24T denominator (CMS NHE 2024 final, released April 18, 2026). Issues #1–#8 published using the prior $3T denominator and are not retrofitted.*
+
+![Savings Tracker](issue_09/figures/chart4_savings_tracker.png)
 
 ---
 
@@ -41,6 +44,78 @@ The same operations. Exposed to the same clinical evidence. Wildly different pri
 ---
 
 ## Published Issues
+
+### Issue #9 — The Employer Trap (~$6.6B/year)
+
+The employer-sponsored insurance system covers 136 million participants and converts system-level healthcare price excess into a hidden tax on wages. Premiums for employer-sponsored insurance climbed from 7.9 percent of total compensation in 1988 to 17.7 percent in 2019; the difference came out of wages that did not rise. The Consolidated Appropriations Act of 2021 changed this structurally: ERISA Section 408(b)(2)(B) now requires brokers and consultants to disclose all direct and indirect compensation above $1,000 to plan fiduciaries. Plan year 2023 is the first full post-CAA 2021 health-plan disclosure year. We pulled every Schedule A (broker compensation) and Schedule C (service-provider compensation) filed by 4A health welfare plans from DOL's "Latest" research file and built peer-group fee benchmarks at plan level — the public reference point that the *Lewandowski v. J&J* and *Navarro v. Wells Fargo* dismissals said was missing. Three booked components total **$6.6 billion per year** (range $6.6B to $12.2B): broker commissions above the 3 percent DOL benchmark, broker rate extension to self-insured plans, and admin-fee variance above peer-group medians at conservative 30 percent reducibility.
+
+![Admin Fees by Broker Rate Quartile](issue_09/figures/chart2_schedule_a_c_scatter.png)
+
+*Source: DOL Form 5500 Schedule A and Schedule C, 2023 Latest file. n=425 plans filing both disclosures.*
+
+**Read the full analysis →** [`issue_09/newsletter_issue_09.md`](issue_09/newsletter_issue_09.md)
+
+<details>
+<summary>Reproducing the analysis</summary>
+
+```bash
+cd issue_09
+
+# Build the Schedule A and Schedule C analysis datasets
+python 01_build_data.py
+python 02_build_data_schedule_c.py
+
+# Generate all four analysis charts (peer variance, broker-vs-admin boxplot, savings decomposition, running tracker)
+python generate_all_charts.py
+```
+
+**Key outputs:**
+- `results/savings_estimate_v2.json` — Booked components and range with all assumptions
+- `results/schedule_c_admin_variance.csv` — Per-peer-group admin fee P10/P25/P50/P75/P90
+- `results/schedule_a_c_linkage.csv` — 425 plans filing both Schedule A and Schedule C, with broker rate and admin fee per participant
+- `results/overlap_matrix.md` — Component-level overlap accounting against Issues #3, #4, #5, #8
+- `results/meps_ic_verification.md` — Cross-validation against MEPS-IC public tables
+- `figures/` — All analysis charts
+
+</details>
+
+<details>
+<summary>Data sources</summary>
+
+| Source | Description |
+|--------|-------------|
+| DOL Form 5500 Schedule A 2023 (Latest research file) | Broker and consultant commissions disclosed by fully insured plans (7,036 plans) |
+| DOL Form 5500 Schedule C 2023 (Latest research file) | Service-provider compensation disclosed by health welfare plans with trust funding (8,180 plans, 23.8M participants, $12.47B in disclosed fees) |
+| KFF Employer Health Benefits Survey 2024 | Self-insured share (65%), per-worker premium, plan-design distribution |
+| MEPS-IC 2024 (AHRQ) | State and national employer benefit verification tables |
+| BLS Employer Costs for Employee Compensation | Quarterly health benefit share of total compensation, 2014–2025 |
+| CMS National Health Expenditure 2024 final | Total private insurance spending; per-capita US figure for $3.24T denominator |
+| Hager K, Emanuel EJ, Mozaffarian D, *JAMA Network Open* (Jan 2024) | Premium-share-of-compensation trajectory 1988–2019 by income decile and race |
+| Baicker K, Chandra A, *Journal of Labor Economics* (2006) | Wage offset from premium growth, ~dollar-for-dollar over time |
+| RAND Corporation Round 5.1 (2023) | Commercial hospital prices = 254% of Medicare (referenced in The Fix section) |
+| *Lewandowski v. Johnson and Johnson* (D.N.J. Nov. 26, 2025) | Standing dismissal in ERISA fiduciary case for lack of public benchmark |
+| *Navarro v. Wells Fargo* (D. Minn. Mar. 24, 2025) | Companion dismissal on the same logic |
+| Marsh McLennan, Willis Towers Watson, Aon plc 10-K and DEF 14A filings | Broker-consulting firm financials and compensation structures |
+| OpenSecrets.org federal lobbying disclosure (2020–2024) | Industry lobbying expenditures |
+
+</details>
+
+<details>
+<summary>Key methodology notes</summary>
+
+- Three booked components, each computed from federal filings:
+  - Component A ($2.18B): per-plan broker commission above the 3% DOL benchmark, 7,036 fully insured plans
+  - Component B ($2.77B): Schedule A broker rate ($82.68 per life) extended at conservative 0.5 ratio to ~115M employer-sponsored self-insured lives
+  - Component C ($1.68B): above-peer-median admin fees, 8,180 plan Schedule C sample at 30% reducibility
+- 30% reducibility floor is conservative: post-*Tibble v. Edison* 401(k) reform compressed retirement plan administrative fees by 20–30% over five years; Ohio Medicaid PBM reform compressed by 12–18% in year one
+- Bias caveat: Schedule C is filed primarily by large, trust-funded plans. One cell (jumbo plans with mixed funding, 260 plans) accounts for 65% of in-sample lives and half the disclosed fees. Excluding the cell entirely drops Component C from $1.68B to $0.87B and the headline from $6.6B to $5.8B
+- Broker-admin correlation: 425 plans filed both Schedule A and Schedule C. Pearson r = 0.030 (linear), Spearman rho = 0.199 (rank). Admin medians do climb 3.2× across broker quartiles, but within-quartile spread is much larger than the between-quartile shift, so broker rate is a weak predictor of admin fee — Components A and C measure different mechanisms and add without double-counting
+- Range ceiling ($12.2B) reflects 50% reducibility on Component C plus a bounded extrapolation to the ~63 million ERISA-welfare participants in plans that file Form 5500 but skip Schedule C; the bounded extrapolation is described in the newsletter's CTA box but is not booked, pending matched plan-level claims data
+- No overlap with prior issues: Schedule C dollars flow to TPAs, consultants, brokers, and lawyers — not to hospitals (Issue #3), PBMs (Issue #4), insurer underwriting (Issue #8), or general administrative complexity (Issue #5). See `results/overlap_matrix.md` for the full accounting
+
+</details>
+
+---
 
 ### Issue #8 — The Denial Machine (~$32.0B/year)
 
@@ -522,13 +597,13 @@ python 05_visualize.py
 
 ---
 
-**Through 8 issues: ~$428.6 billion in identified savings (14.3% of the $3T gap)**
+**Through 9 issues: ~$435.2 billion in identified savings (13.4% of the $3.24T gap)**
 
 ---
 
 ## Fund the Data
 
-We've identified $428.6 billion in fixable waste using free federal datasets. To go deeper, we need claim-level data that costs money to access: Medicare claims with diagnosis codes, all-payer state databases, hospital price transparency records, and legal research tools. Issue #8 made this concrete: the deductible-delay extraction mechanism described in the MRI vignette, where an insurer denial pushes a patient to cash and captures the deductible spread on the next claim, cannot be measured rigorously without paired patient-level claims plus deductible-exposure data. That is why Component D stays out of our booked total and why this fund exists.
+We've identified $435.2 billion in fixable waste using free federal datasets. To go deeper, we need claim-level data that costs money to access: Medicare claims with diagnosis codes, all-payer state databases, hospital price transparency records, and legal research tools. Issue #8 made this concrete: the deductible-delay extraction mechanism described in the MRI vignette, where an insurer denial pushes a patient to cash and captures the deductible spread on the next claim, cannot be measured rigorously without paired patient-level claims plus deductible-exposure data. That is why Component D stays out of our booked total and why this fund exists.
 
 **[Visit the AHC Data Access Fund →](https://ahcdata.fund)** | **[Sponsor on GitHub →](https://github.com/sponsors/rexrodeo)**
 
@@ -546,7 +621,7 @@ Six datasets. Per-dataset crowdfunding via Stripe (no account required, any amou
 
 ## Up Next
 
-Issue #9 examines the Employer Trap: how the employer-sponsored insurance system converts system-level healthcare price excess into a hidden tax on wages. US premium growth has outpaced wage growth by 1.6× over the past decade. Subscribe on Substack to get it when it drops.
+Issue #10 examines the Procedure Mill: roughly one-third of procedures performed in the United States each year are unnecessary by the criteria of the physicians who order them. The Lown Institute estimates $75 to $100 billion in low-value care annually. The Choosing Wisely initiative has named more than 600 procedures that evidence does not support for most patients. Medicare claims data lets us compute the volume, cost, and geographic distribution of overuse at the procedure level. Subscribe on Substack to get it when it drops.
 
 ---
 

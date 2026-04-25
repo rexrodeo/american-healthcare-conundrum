@@ -1,0 +1,79 @@
+{
+  "methodology_version": "2026-04-18-v1",
+  "data_year": 2023,
+  "data_source": "DOL Form 5500 Latest (2023), CMS NHE 2024 Table 24",
+  "form_5500_scope": "ERISA-covered group health plans, 2023 plan year, Latest amended filings as of 2026-03-25",
+  "headline_booked_usd_bn": 40.4,
+  "range_low_usd_bn": 21.8,
+  "range_high_usd_bn": 69.7,
+  "components": {
+    "A_direct_broker_excess": {
+      "description": "Broker compensation above the 3% prudent benchmark on Schedule A fully-insured contracts, scaled up to full broker-comp pool",
+      "usd": 2.18,
+      "usd_aggressive_5pct_bench": 1.26,
+      "assumptions": {
+        "benchmark_reasonable_pct": 0.03,
+        "benchmark_upper_pct": 0.05,
+        "subsample_share_of_pool": 0.16
+      }
+    },
+    "B_self_insured_extension": {
+      "description": "Self-insured (ASO) broker/consultant fees at the same per-life rate as fully-insured, using CAA-2021 disclosure theory that such fees are systematically under-reported",
+      "per_life_broker_usd": 82.68,
+      "self_insured_lives_est": 115.0,
+      "usd_central": 5.55,
+      "usd_low": 2.77,
+      "usd_high": 8.32,
+      "assumptions": {
+        "self_insured_worker_share": 0.65,
+        "ratio_low": 0.5,
+        "ratio_mid": 1.0,
+        "ratio_high": 1.5,
+        "esi_total_lives": 176900000
+      }
+    },
+    "C_variance_tax": {
+      "description": "Above-median premium-per-life excess within same size band, scaled to national fully-insured ESI premium pool, 30-50% reducible, 40% overlap-discounted against Issue #3",
+      "sch_a_variance_excess_usd": 13.7,
+      "scale_factor_to_national": 14.4,
+      "national_variance_excess_usd": 197.17,
+      "usd_conservative_pre_overlap": 59.15,
+      "usd_aggressive_pre_overlap": 98.59,
+      "overlap_discount_vs_issue_3": 0.4,
+      "usd_conservative_netted": 35.49,
+      "usd_aggressive_netted": 59.15,
+      "assumptions": {
+        "reducible_fraction_conservative": 0.3,
+        "reducible_fraction_aggressive": 0.5,
+        "fully_insured_esi_premium_pool_usd_bn": 500.0
+      }
+    }
+  },
+  "cross_validation": {
+    "nhe_2024_esi_total_premium_usd_bn": 1429.1,
+    "nhe_2024_phi_non_medical_usd_bn": 306.0,
+    "sch_a_medical_broker_total_usd_bn": 3.74,
+    "sch_a_medical_covered_lives_m": 45.2,
+    "sch_a_broker_as_pct_of_nhe_non_medical": 1.22
+  },
+  "overlap_matrix": {
+    "vs_issue_3_hospital_pricing": {
+      "component_a_overlap": 0.0,
+      "component_b_overlap": 0.0,
+      "component_c_overlap": 0.4,
+      "justification": "Broker comp is paid BEFORE hospital negotiation, not from it. Component A and B are additive. Variance tax component C partially reflects hospital price variance and is discounted 40%."
+    },
+    "vs_issue_4_pbms": {
+      "component_a_overlap": 0.0,
+      "component_b_overlap": 0.0,
+      "component_c_overlap": 0.0,
+      "justification": "PBM spread pricing is a separate extraction layer inside claims. Broker comp on medical contracts does not include PBM fees. No double-count."
+    },
+    "vs_issue_8_denials": {
+      "component_a_overlap": 0.0,
+      "component_b_overlap": 0.0,
+      "component_c_overlap": 0.0,
+      "justification": "Insurer-side denial/admin savings operate post-claim. Broker fees are pre-claim gross-premium deductions. No overlap."
+    }
+  }
+}

@@ -15,9 +15,7 @@ reference_data/
 # Issue 6 (published 2026-04-05)
 # Issue 7 (published 2026-04-12)
 # Issue 8 (published 2026-04-19)
-# Issue 9 (in progress, target April 26)
-issue_09/
-newsletter_issue_09*.md
+# Issue 9 (published 2026-04-26)
 
 # Internal project files
 CLAUDE.md
@@ -36,6 +34,9 @@ policy-outreach/contacts/
 policy-outreach/rapid-response/
 **/STRATEGY.md
 states/**/contacts/
+
+# Monetization outreach — one-pagers, target lists, email templates, firm research
+outreach/
 
 # Internal project management / working docs
 PROJECT_JOURNAL.md
@@ -128,6 +129,20 @@ skills/ahc-growth-hacker/
 **/chunks/
 **/chunks_v*/
 **/thumbs/
+
+# Internal pre-draft / editorial / red-team / Substack-injection scratch
+**/DATA_HUNT.md
+**/PREDRAFT_HUNT.md
+**/STAGE_*_EDITOR*.md
+**/STAGE_*_APPROVAL.md
+**/red_team_report.md
+**/red_team_*.md
+**/substack_injection*.txt
+**/substack_injection*.md
+**/_probe_*.py
+**/_redteam_probe*.py
+**/promo_kit/
+**/_preview_*.png
 
 # Python
 .venv/

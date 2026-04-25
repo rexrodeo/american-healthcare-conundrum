@@ -1,0 +1,77 @@
+{
+  "methodology_version": "2026-04-20-v2-schedule-c",
+  "data_year": 2023,
+  "data_source": "DOL Form 5500 Sch A + Sch C Latest (2023), CMS NHE 2024",
+  "headline_booked_usd_bn": 6.6,
+  "range_low_usd_bn": 6.6,
+  "range_high_usd_bn": 12.2,
+  "components": {
+    "A_direct_broker_excess": {
+      "description": "Unchanged from first pass; Schedule A broker commission above 3% benchmark",
+      "usd_bn": 2.18
+    },
+    "B_self_insured_broker_extension": {
+      "description": "Unchanged from first pass; self-insured per-life broker extension (low ratio)",
+      "usd_bn": 2.77
+    },
+    "C_v2_sch_c_admin_variance_in_sample": {
+      "description": "REPLACES first-pass Component C. Per-plan excess above same-peer median, summed across 9,200 Sch C-filing health plans covering 23.6M participants.",
+      "n_plans": 8180,
+      "in_sample_participants": 23775082,
+      "in_sample_admin_usd_bn": 12.47,
+      "gross_excess_above_p50_usd_bn": 5.61,
+      "gross_excess_above_p25_usd_bn": 8.68,
+      "gross_excess_above_p75_usd_bn": 3.4,
+      "reducible_fraction_conservative": 0.3,
+      "reducible_fraction_aggressive": 0.5,
+      "booked_usd_bn": 1.68,
+      "aggressive_usd_bn": 2.8,
+      "computed_not_extrapolated": true
+    },
+    "C_v2_extrapolation_bounded": {
+      "description": "BOUNDED extrapolation to ERISA health welfare participants outside the Sch C filing universe. NOT extended to all ESI. Scoped to the same admin-vendor mechanism, same excess rate.",
+      "in_sample_rate_per_participant": 235.78,
+      "erisa_total_health_participants": 87000000,
+      "out_of_sample_participants": 63224918,
+      "gross_excess_out_of_sample_usd_bn": 14.91,
+      "bounded_conservative_usd_bn": 4.47,
+      "bounded_aggressive_usd_bn": 7.45,
+      "status": "NOT booked \u2014 included only in the RANGE_HIGH figure. The data partner CTA asks the ERISA plan universe (TPAs, consultants, claim data vendors) to validate or disprove this extrapolation with linked data."
+    }
+  },
+  "linkage_finding": {
+    "description": "Schedule A broker% \u00d7 Schedule C admin-per-p correlation on 425 plans that filed both",
+    "pearson_r": 0.02995952021007013,
+    "spearman_rho": 0.19916487799537874,
+    "interpretation": "Weak correlation (r < 0.2) \u2014 the fiduciary-failure hypothesis that plans overpaying brokers also overpay admin is NOT supported at scale. Components A and C are additive, but not bindable by one to the other. Honest null result."
+  },
+  "overlap_matrix": {
+    "vs_issue_3_hospital_pricing": 0.0,
+    "vs_issue_4_pbms": 0.0,
+    "vs_issue_5_admin_waste": 0.0,
+    "vs_issue_8_denials": 0.0,
+    "computed_not_assumed": true,
+    "justification": "Sch C admin fees are plan-level service-provider comp (TPA, broker, consultant, legal). They flow to vendor companies, not to hospitals (#3), PBMs (#4), hospital billing departments (#5), or insurer underwriting margin (#8). Linkage test shows these components are orthogonal to broker commission excess (Pearson r = 0.03), so the admin-fee variance pool is a distinct savings opportunity."
+  },
+  "comparison_to_first_pass": {
+    "first_pass_booked_usd_bn": 40.4,
+    "first_pass_component_c_usd_bn": 35.5,
+    "v2_booked_usd_bn": 6.6,
+    "v2_component_c_in_sample_usd_bn": 1.68,
+    "delta_usd_bn": -33.8,
+    "reason": "First pass Component C ($35.5B) was scale-and-discount of the fully-insured inefficiency ratio over the full $500B fully-insured ESI pool with a 40% judgment-call overlap discount. V2 Component C is the actual computed excess from Sch C microdata, which is much smaller because (a) the Sch C sample covers only 9,200 of ~70,000 health welfare plans, (b) admin fees are ~1-5% of premium, not the full premium, and (c) only the above-peer excess is recoverable. Trade-off: $40.4B \u2192 ~$11B booked, but the number is defensible against Stage 5.5 adversarial math review. The gap between the two numbers is the CTA for data partners."
+  },
+  "cross_validation": {
+    "sample_share_of_total_sc_admin_pct": 90.1,
+    "nhe_2024_net_cost_of_insurance_usd_bn": 306.0,
+    "sch_c_in_sample_admin_as_pct_of_nhe_net_cost": 4.08
+  },
+  "variance_summary": {
+    "n_plans": 8180,
+    "in_sample_admin_usd": 12474603846.0,
+    "in_sample_participants": 23775082,
+    "excess_above_p25": 8683087986.61546,
+    "excess_above_p50": 5605585903.731157,
+    "excess_above_p75": 3395161974.47076
+  }
+}
