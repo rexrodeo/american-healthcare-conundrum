@@ -1,0 +1,335 @@
+{
+  "issue": 10,
+  "title": "The Procedure Mill",
+  "booked_usd": 8616724111.156715,
+  "booked_usd_b": 8.616724111156715,
+  "range_high_usd": 15329158274.261883,
+  "range_high_usd_b": 15.329158274261882,
+  "components": {
+    "A_schwartz_medicare_ffs": 2672866407.3042736,
+    "B_state_variance_compression_p25": 754517316.607731,
+    "B_state_variance_compression_p10": 972028765.1087692,
+    "C_all_payer_extension": 4711983622.000973,
+    "D_wiser_pilot_savings_net": 31274081.85146949,
+    "E_defensive_medicine_booked": 1200600000.0,
+    "E_book_note": "Booked at low end: DiD persistence signal opposite-sign"
+  },
+  "component_a_summary": {
+    "component_a_medicare_paid": 2672866407.3042736,
+    "component_a_medicare_allowed": 3350261432.073041,
+    "component_a_patient_oop": 677395024.768767,
+    "n_measures": 31,
+    "n_hcpcs_codes": 233
+  },
+  "component_b_summary": {
+    "n_states": 51,
+    "per_bene_p10": 36.40747860368369,
+    "per_bene_p25": 44.14117343020395,
+    "per_bene_p50": 53.41682955119885,
+    "per_bene_p75": 70.35015485113541,
+    "per_bene_p90": 92.49783021766015,
+    "p90_p10_ratio": 2.540627194334223,
+    "compress_to_p25_savings": 754517316.607731,
+    "compress_to_p10_savings": 972028765.1087692
+  },
+  "component_c_summary": {
+    "component_a_phys_only": 1631745332.1940517,
+    "component_a_hopd_only": 458084255.42499954,
+    "component_a_ffs_total": 2089829587.6190512,
+    "ma_equivalent": 2003123891.9625163,
+    "commercial_total": 2273004391.9810452,
+    "medicaid_total": 435855338.05741155,
+    "medicare_total_inc_ma": 4092953479.581568,
+    "all_payer_total": 6801813209.620024,
+    "component_c_extension": 4711983622.000973
+  },
+  "component_d_summary": {
+    "n_wiser_codes_in_puf": 34,
+    "pilot_total_medicare_paid": 208493879.00979662,
+    "pilot_savings_low": 41698775.80195933,
+    "pilot_savings_central": 62548163.70293898,
+    "pilot_savings_high": 83397551.60391866,
+    "national_pool_extrapolation": 947699450.04453,
+    "national_savings_if_generalized": 284309835.013359,
+    "pilot_population_share": 0.22
+  },
+  "component_e_summary": {
+    "cap_states_studied": [
+      "TX",
+      "FL",
+      "OH",
+      "MS",
+      "MD",
+      "NV",
+      "GA",
+      "MA",
+      "SC",
+      "AK",
+      "MO",
+      "MT"
+    ],
+    "n_control_sets_tested": 3,
+    "mean_gap_pct_across_controls": -0.031196171811135,
+    "max_gap_pct": 0.015584856015533197,
+    "min_gap_pct": -0.05604733683103402,
+    "component_e_low": 1200600000.0,
+    "component_e_central": 6003000000.0,
+    "component_e_high": 6003000000.0,
+    "mello_2010_inflated_2024": 80040000000.0,
+    "procedural_share": 0.3,
+    "medicare_share": 0.25
+  },
+  "originality_gate": {
+    "headline_usd": 8616724111.156715,
+    "our_scope": [
+      "all_payer",
+      "schwartz_31_plus_defensive_med",
+      "2023"
+    ],
+    "checks": {
+      "a_script_ran": true,
+      "b_headline_produced": true,
+      "c_original_vs_curated_separated": true,
+      "d_headline_distinct_from_same_scope_priors": true,
+      "e_sensitivity_analysis_present": true,
+      "component_a_distinct_or_framed_as_extension": true
+    },
+    "all_pass": true,
+    "priors_checked": {
+      "Schwartz 2014 JAMA IM (narrow Medicare 2009 FFS)": 1900000000.0,
+      "Mafi 2017 broad measure (Medicare 2014 FFS)": 8500000000.0,
+      "Kim & Fendrick 2025 JAMA Health Forum (5% Medicare FFS CY2018-2020)": 3600000000.0,
+      "Mello 2010 Health Affairs (all-payer defensive med 2008)": 46000000000.0,
+      "CMS WISeR Fact Sheet 2022 (Medicare FFS unnecessary 17 services)": 5800000000.0,
+      "CMS-1832-F skin substitute reduction CY2026": 19600000000.0
+    },
+    "priors_scope": {
+      "Schwartz 2014 JAMA IM (narrow Medicare 2009 FFS)": [
+        "medicare_ffs",
+        "schwartz_narrow",
+        "2009"
+      ],
+      "Mafi 2017 broad measure (Medicare 2014 FFS)": [
+        "medicare_ffs",
+        "mafi_broad",
+        "2014"
+      ],
+      "Kim & Fendrick 2025 JAMA Health Forum (5% Medicare FFS CY2018-2020)": [
+        "medicare_ffs",
+        "47_services",
+        "2018_2020"
+      ],
+      "Mello 2010 Health Affairs (all-payer defensive med 2008)": [
+        "all_payer",
+        "defensive_medicine",
+        "2008"
+      ],
+      "CMS WISeR Fact Sheet 2022 (Medicare FFS unnecessary 17 services)": [
+        "medicare_ffs",
+        "wiser_17",
+        "2022"
+      ],
+      "CMS-1832-F skin substitute reduction CY2026": [
+        "medicare_ffs",
+        "skin_substitute",
+        "2026"
+      ]
+    },
+    "within_5pct_same_scope": [],
+    "within_5pct_any_scope_for_reference": [
+      [
+        "Mafi 2017 broad measure (Medicare 2014 FFS)",
+        8500000000.0
+      ]
+    ],
+    "component_a_value": 2672866407.3042736,
+    "component_a_kf_ratio": 0.7424628909178538
+  },
+  "gotcha_block": {
+    "FFS_ONLY": true,
+    "FFS_ONLY_NOTE": "Provider Utilization PUF and HOPD PUF are FFS by construction; no MA inflation multiplier applied to Component A.",
+    "SUPPRESSED_RECORDS_HANDLED": true,
+    "SUPPRESSION_THRESHOLD": "<=10 beneficiaries (CMS PUF rule)",
+    "SUPPRESSION_NOTE": "Geography & Service PUF aggregates within state; per-state HCPCS rows with <=10 benes are suppressed. National rows are unsuppressed. Suppression bias affects state-level Component B but not the national Component A.",
+    "SUPPRESSED_ROWS_DROPPED": 0,
+    "METRIC": "Medicare_Paid_Amount",
+    "METRIC_FORMULA": "Tot_Srvcs * Avg_Mdcr_Pymt_Amt",
+    "METRIC_NOTE": "Headline uses Medicare PAID, not allowed and not submitted charge. Patient OOP (allowed - paid) reported separately.",
+    "HRR_ATTRIBUTION": "PROVIDER",
+    "HRR_ATTRIBUTION_NOTE": "Provider HRR locked per editorial brief Round 1 decision. State-level Geography & Service PUF used as primary; per-NPI Provider & Service PUF (~3GB) flagged as Stage 5.5 sensitivity input.",
+    "DOLLAR_BASE": "CY2023_NOMINAL",
+    "DOLLAR_BASE_NOTE": "All Medicare paid figures are CY2023 nominal USD as published in the CY2023 Provider Utilization & Payment Data PUF released April 2025 (V20 Oct 2025 update). NOT inflation-adjusted to Kim & Fendrick 2018-2020 base; the comparison to Kim/Fendrick $3.6B preserves the 5%-to-100% scaling and the multi-year growth as a single combined uplift.",
+    "MEASURE_RESOLUTION_TABLE": {
+      "psa": {
+        "resolution": "HCPCS_PURE",
+        "low_value_share": 0.8,
+        "source_note": "USPSTF D for >=70; near-universal low-value when ordered as screen"
+      },
+      "colon": {
+        "resolution": "DX_FILTERED",
+        "low_value_share": 0.15,
+        "source_note": "Schwartz 2014: colon screen 86+; modest share of claims"
+      },
+      "cerv": {
+        "resolution": "DX_FILTERED",
+        "low_value_share": 0.2,
+        "source_note": "Schwartz 2014: Pap claims women >65 low-value share"
+      },
+      "cncr": {
+        "resolution": "DX_FILTERED",
+        "low_value_share": 0.1,
+        "source_note": "narrow population: dialysis patients with screen on day"
+      },
+      "bmd": {
+        "resolution": "DX_FILTERED",
+        "low_value_share": 0.3,
+        "source_note": "BMD <2yr after prior BMD; Schwartz 2014 reported 27%"
+      },
+      "pth": {
+        "resolution": "DX_FILTERED",
+        "low_value_share": 0.4,
+        "source_note": "PTH testing in non-dialysis CKD (Mafi 2017)"
+      },
+      "preopx": {
+        "resolution": "DX_FILTERED",
+        "low_value_share": 0.6,
+        "source_note": "Pre-op CXR before low-risk surgery (CW + Mafi 2017)"
+      },
+      "preopec": {
+        "resolution": "DX_FILTERED",
+        "low_value_share": 0.5,
+        "source_note": "Pre-op echo before low-risk surgery (CW)"
+      },
+      "pft": {
+        "resolution": "DX_FILTERED",
+        "low_value_share": 0.5,
+        "source_note": "Pre-op PFT before low-risk surgery (CW)"
+      },
+      "preopst": {
+        "resolution": "DX_FILTERED",
+        "low_value_share": 0.4,
+        "source_note": "Pre-op stress test before low-risk surgery (CW)"
+      },
+      "vert": {
+        "resolution": "DX_FILTERED",
+        "low_value_share": 0.55,
+        "source_note": "Vertebroplasty/kyphoplasty for vertebral fracture (Mafi 2017)"
+      },
+      "arth": {
+        "resolution": "DX_FILTERED",
+        "low_value_share": 0.55,
+        "source_note": "Knee scope for OA (NEJM Moseley 2002 + ESCAPE 2013)"
+      },
+      "rhinoct": {
+        "resolution": "DX_FILTERED",
+        "low_value_share": 0.5,
+        "source_note": "CT sinuses for uncomplicated rhinosinusitis (CW)"
+      },
+      "sync": {
+        "resolution": "DX_FILTERED",
+        "low_value_share": 0.6,
+        "source_note": "Head imaging for syncope w/o focal signs (ACEP CW)"
+      },
+      "renlstent": {
+        "resolution": "DX_FILTERED",
+        "low_value_share": 0.65,
+        "source_note": "Renal artery stent (CORAL trial 2014)"
+      },
+      "ivc": {
+        "resolution": "HCPCS_PURE",
+        "low_value_share": 0.55,
+        "source_note": "IVC filter; PREPIC/Decousus large evidence base"
+      },
+      "stress": {
+        "resolution": "DX_FILTERED",
+        "low_value_share": 0.4,
+        "source_note": "Stress test in stable CAD (ISCHEMIA 2020)"
+      },
+      "pci": {
+        "resolution": "DX_FILTERED",
+        "low_value_share": 0.4,
+        "source_note": "PCI for stable CAD (COURAGE 2007 + ISCHEMIA 2020)"
+      },
+      "head": {
+        "resolution": "DX_FILTERED",
+        "low_value_share": 0.4,
+        "source_note": "Head imaging for headache w/o red flags (CW + USPSTF)"
+      },
+      "backscan": {
+        "resolution": "DX_FILTERED",
+        "low_value_share": 0.5,
+        "source_note": "Back imaging for nonspecific LBP <6wk (ACR + CW)"
+      },
+      "eeg": {
+        "resolution": "DX_FILTERED",
+        "low_value_share": 0.55,
+        "source_note": "EEG for headache w/o seizure history (CW)"
+      },
+      "ctdsync": {
+        "resolution": "DX_FILTERED",
+        "low_value_share": 0.55,
+        "source_note": "Carotid imaging for syncope (CW)"
+      },
+      "ctdasym": {
+        "resolution": "DX_FILTERED",
+        "low_value_share": 0.55,
+        "source_note": "Carotid imaging in asymptomatic adults (USPSTF D)"
+      },
+      "cea": {
+        "resolution": "DX_FILTERED",
+        "low_value_share": 0.3,
+        "source_note": "Carotid endarterectomy in asymptomatic patients (CW)"
+      },
+      "homocy": {
+        "resolution": "HCPCS_PURE",
+        "low_value_share": 0.75,
+        "source_note": "Homocysteine in CV disease; widely overused (CW)"
+      },
+      "hyperco": {
+        "resolution": "DX_FILTERED",
+        "low_value_share": 0.35,
+        "source_note": "Hypercoag panel within 30d of DVT/PE (CW)"
+      },
+      "spinj": {
+        "resolution": "DX_FILTERED",
+        "low_value_share": 0.35,
+        "source_note": "Epidural/facet/trigger injections for LBP (CW)"
+      },
+      "t3": {
+        "resolution": "HCPCS_PURE",
+        "low_value_share": 0.5,
+        "source_note": "T3 in hypothyroidism (CW)"
+      },
+      "plant": {
+        "resolution": "DX_FILTERED",
+        "low_value_share": 0.35,
+        "source_note": "Imaging in plantar fasciitis (CW)"
+      },
+      "vitd": {
+        "resolution": "DX_FILTERED",
+        "low_value_share": 0.35,
+        "source_note": "1,25-OH vitamin D testing w/o hypercalcemia/CKD (CW)"
+      },
+      "rhcath": {
+        "resolution": "HCPCS_PURE",
+        "low_value_share": 0.55,
+        "source_note": "PA catheter in ICU; ESCAPE trial showed harm"
+      }
+    },
+    "MEASURE_RESOLUTION_NOTE": "Provider Utilization PUF carries no diagnosis codes. Each Schwartz measure resolved as HCPCS_PURE (apply unconditionally), DX_FILTERED (apply published low-value share multiplier), or MODIFIER_DEPENDENT (excluded). DX_FILTERED is the dominant path; multipliers anchored to Schwartz 2014 / Mafi 2017.",
+    "DATA_PARTNER_CTA": "Diagnosis-restricted exact resolution requires CMS LDS Carrier SAF or VRDC access ($4.8K-$15K/yr). Newsletter recruitment lever."
+  },
+  "framing": {
+    "kim_fendrick_2025": 3600000000.0,
+    "schwartz_2014": 1900000000.0,
+    "mafi_2017_broad": 8500000000.0,
+    "cms_wiser_factsheet_2022": 5800000000.0,
+    "mello_2010_inflated_2024": 80040000000.0
+  },
+  "locked_decisions": {
+    "ffs_only_headline": true,
+    "provider_hrr_attribution_via_state": "Geography & Service PUF",
+    "multiple_did_control_sets": true,
+    "framing_extends_kim_fendrick": true
+  }
+}

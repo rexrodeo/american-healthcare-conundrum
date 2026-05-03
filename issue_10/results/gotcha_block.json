@@ -1,0 +1,174 @@
+{
+  "FFS_ONLY": true,
+  "FFS_ONLY_NOTE": "Provider Utilization PUF and HOPD PUF are FFS by construction; no MA inflation multiplier applied to Component A.",
+  "SUPPRESSED_RECORDS_HANDLED": true,
+  "SUPPRESSION_THRESHOLD": "<=10 beneficiaries (CMS PUF rule)",
+  "SUPPRESSION_NOTE": "Geography & Service PUF aggregates within state; per-state HCPCS rows with <=10 benes are suppressed. National rows are unsuppressed. Suppression bias affects state-level Component B but not the national Component A.",
+  "SUPPRESSED_ROWS_DROPPED": 0,
+  "METRIC": "Medicare_Paid_Amount",
+  "METRIC_FORMULA": "Tot_Srvcs * Avg_Mdcr_Pymt_Amt",
+  "METRIC_NOTE": "Headline uses Medicare PAID, not allowed and not submitted charge. Patient OOP (allowed - paid) reported separately.",
+  "HRR_ATTRIBUTION": "PROVIDER",
+  "HRR_ATTRIBUTION_NOTE": "Provider HRR locked per editorial brief Round 1 decision. State-level Geography & Service PUF used as primary; per-NPI Provider & Service PUF (~3GB) flagged as Stage 5.5 sensitivity input.",
+  "DOLLAR_BASE": "CY2023_NOMINAL",
+  "DOLLAR_BASE_NOTE": "All Medicare paid figures are CY2023 nominal USD as published in the CY2023 Provider Utilization & Payment Data PUF released April 2025 (V20 Oct 2025 update). NOT inflation-adjusted to Kim & Fendrick 2018-2020 base; the comparison to Kim/Fendrick $3.6B preserves the 5%-to-100% scaling and the multi-year growth as a single combined uplift.",
+  "MEASURE_RESOLUTION_TABLE": {
+    "psa": {
+      "resolution": "HCPCS_PURE",
+      "low_value_share": 0.8,
+      "source_note": "USPSTF D for >=70; near-universal low-value when ordered as screen"
+    },
+    "colon": {
+      "resolution": "DX_FILTERED",
+      "low_value_share": 0.15,
+      "source_note": "Schwartz 2014: colon screen 86+; modest share of claims"
+    },
+    "cerv": {
+      "resolution": "DX_FILTERED",
+      "low_value_share": 0.2,
+      "source_note": "Schwartz 2014: Pap claims women >65 low-value share"
+    },
+    "cncr": {
+      "resolution": "DX_FILTERED",
+      "low_value_share": 0.1,
+      "source_note": "narrow population: dialysis patients with screen on day"
+    },
+    "bmd": {
+      "resolution": "DX_FILTERED",
+      "low_value_share": 0.3,
+      "source_note": "BMD <2yr after prior BMD; Schwartz 2014 reported 27%"
+    },
+    "pth": {
+      "resolution": "DX_FILTERED",
+      "low_value_share": 0.4,
+      "source_note": "PTH testing in non-dialysis CKD (Mafi 2017)"
+    },
+    "preopx": {
+      "resolution": "DX_FILTERED",
+      "low_value_share": 0.6,
+      "source_note": "Pre-op CXR before low-risk surgery (CW + Mafi 2017)"
+    },
+    "preopec": {
+      "resolution": "DX_FILTERED",
+      "low_value_share": 0.5,
+      "source_note": "Pre-op echo before low-risk surgery (CW)"
+    },
+    "pft": {
+      "resolution": "DX_FILTERED",
+      "low_value_share": 0.5,
+      "source_note": "Pre-op PFT before low-risk surgery (CW)"
+    },
+    "preopst": {
+      "resolution": "DX_FILTERED",
+      "low_value_share": 0.4,
+      "source_note": "Pre-op stress test before low-risk surgery (CW)"
+    },
+    "vert": {
+      "resolution": "DX_FILTERED",
+      "low_value_share": 0.55,
+      "source_note": "Vertebroplasty/kyphoplasty for vertebral fracture (Mafi 2017)"
+    },
+    "arth": {
+      "resolution": "DX_FILTERED",
+      "low_value_share": 0.55,
+      "source_note": "Knee scope for OA (NEJM Moseley 2002 + ESCAPE 2013)"
+    },
+    "rhinoct": {
+      "resolution": "DX_FILTERED",
+      "low_value_share": 0.5,
+      "source_note": "CT sinuses for uncomplicated rhinosinusitis (CW)"
+    },
+    "sync": {
+      "resolution": "DX_FILTERED",
+      "low_value_share": 0.6,
+      "source_note": "Head imaging for syncope w/o focal signs (ACEP CW)"
+    },
+    "renlstent": {
+      "resolution": "DX_FILTERED",
+      "low_value_share": 0.65,
+      "source_note": "Renal artery stent (CORAL trial 2014)"
+    },
+    "ivc": {
+      "resolution": "HCPCS_PURE",
+      "low_value_share": 0.55,
+      "source_note": "IVC filter; PREPIC/Decousus large evidence base"
+    },
+    "stress": {
+      "resolution": "DX_FILTERED",
+      "low_value_share": 0.4,
+      "source_note": "Stress test in stable CAD (ISCHEMIA 2020)"
+    },
+    "pci": {
+      "resolution": "DX_FILTERED",
+      "low_value_share": 0.4,
+      "source_note": "PCI for stable CAD (COURAGE 2007 + ISCHEMIA 2020)"
+    },
+    "head": {
+      "resolution": "DX_FILTERED",
+      "low_value_share": 0.4,
+      "source_note": "Head imaging for headache w/o red flags (CW + USPSTF)"
+    },
+    "backscan": {
+      "resolution": "DX_FILTERED",
+      "low_value_share": 0.5,
+      "source_note": "Back imaging for nonspecific LBP <6wk (ACR + CW)"
+    },
+    "eeg": {
+      "resolution": "DX_FILTERED",
+      "low_value_share": 0.55,
+      "source_note": "EEG for headache w/o seizure history (CW)"
+    },
+    "ctdsync": {
+      "resolution": "DX_FILTERED",
+      "low_value_share": 0.55,
+      "source_note": "Carotid imaging for syncope (CW)"
+    },
+    "ctdasym": {
+      "resolution": "DX_FILTERED",
+      "low_value_share": 0.55,
+      "source_note": "Carotid imaging in asymptomatic adults (USPSTF D)"
+    },
+    "cea": {
+      "resolution": "DX_FILTERED",
+      "low_value_share": 0.3,
+      "source_note": "Carotid endarterectomy in asymptomatic patients (CW)"
+    },
+    "homocy": {
+      "resolution": "HCPCS_PURE",
+      "low_value_share": 0.75,
+      "source_note": "Homocysteine in CV disease; widely overused (CW)"
+    },
+    "hyperco": {
+      "resolution": "DX_FILTERED",
+      "low_value_share": 0.35,
+      "source_note": "Hypercoag panel within 30d of DVT/PE (CW)"
+    },
+    "spinj": {
+      "resolution": "DX_FILTERED",
+      "low_value_share": 0.35,
+      "source_note": "Epidural/facet/trigger injections for LBP (CW)"
+    },
+    "t3": {
+      "resolution": "HCPCS_PURE",
+      "low_value_share": 0.5,
+      "source_note": "T3 in hypothyroidism (CW)"
+    },
+    "plant": {
+      "resolution": "DX_FILTERED",
+      "low_value_share": 0.35,
+      "source_note": "Imaging in plantar fasciitis (CW)"
+    },
+    "vitd": {
+      "resolution": "DX_FILTERED",
+      "low_value_share": 0.35,
+      "source_note": "1,25-OH vitamin D testing w/o hypercalcemia/CKD (CW)"
+    },
+    "rhcath": {
+      "resolution": "HCPCS_PURE",
+      "low_value_share": 0.55,
+      "source_note": "PA catheter in ICU; ESCAPE trial showed harm"
+    }
+  },
+  "MEASURE_RESOLUTION_NOTE": "Provider Utilization PUF carries no diagnosis codes. Each Schwartz measure resolved as HCPCS_PURE (apply unconditionally), DX_FILTERED (apply published low-value share multiplier), or MODIFIER_DEPENDENT (excluded). DX_FILTERED is the dominant path; multipliers anchored to Schwartz 2014 / Mafi 2017.",
+  "DATA_PARTNER_CTA": "Diagnosis-restricted exact resolution requires CMS LDS Carrier SAF or VRDC access ($4.8K-$15K/yr). Newsletter recruitment lever."
+}

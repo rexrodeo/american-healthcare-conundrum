@@ -1,0 +1,4 @@
+control_set,n_control_states,mean_gap_usd_pmpy,mean_gap_pct,national_persistence_savings,cpi_factor_pass1_2,cpi_factor_pass3_corrected,bls_series_id,component_e_central_pass3,component_e_booked_pass3,book_note
+neighboring_no_cap,10,156.84953126331084,0.0155848560155331,3302164318.003203,1.74,1.6,CUUR0000SAM,5520000000.0,1104000000.0,Booked at low end: DiD persistence signal opposite-sign
+all_no_cap_in_avraham_2014,29,-493.8416220379038,-0.0531260346179041,0.0,1.74,1.6,CUUR0000SAM,5520000000.0,1104000000.0,Booked at low end: DiD persistence signal opposite-sign
+midwest_no_cap,5,-517.9562831772998,-0.056047336831034,0.0,1.74,1.6,CUUR0000SAM,5520000000.0,1104000000.0,Booked at low end: DiD persistence signal opposite-sign

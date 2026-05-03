@@ -8,7 +8,7 @@ This project finds it, one issue at a time. Each issue identifies one fixable pr
 
 ---
 
-> **Latest Issue (#9): [The Employer Trap](issue_09/newsletter_issue_09.md)** — Plans paying their broker through one carrier-paid commission system, plans paying their administrator through another, and the worker paying for both in wages they never see. We pulled DOL Form 5500 Schedule A and Schedule C disclosures for plan year 2023, the first full year of post-CAA 2021 fiduciary transparency, and built peer-group fee benchmarks at plan level. **$6.6B/year in conservative savings identified** from broker commissions above the 3% DOL benchmark and admin fees above peer-group medians. [Read it on Substack →](https://andrewrexroad.substack.com/p/issue-9-the-employer-trap)
+> **Latest Issue (#10): [The Procedure Mill](issue_10/newsletter_issue_10.md)** — Medicare pays $106.72 per beneficiary per year for low-value services in New York. In Vermont it pays $16.00 — a 6.7x gap on services the evidence does not support for most patients. Using the full CY2023 CMS Provider Utilization PUF (268,634 rows), we operationalized the 31-service Schwartz/Mafi/Choosing Wisely list and extended Kim and Fendrick (JAMA Health Forum 2025) with state-level variance, an all-payer extension, the WISeR pilot pool, and a difference-in-differences defensive-medicine slice. **$7.6B/year in booked savings** (range $7.6–13.6B). Pass 3 methodology corrections caught a $583M double-count and a 1.74x→1.60x BLS Medical CPI overcorrection in our own earlier analyses. [Read it on Substack →](https://andrewrexroad.substack.com/p/issue-10-the-procedure-mill)
 
 ---
 
@@ -25,11 +25,12 @@ This project finds it, one issue at a time. Each issue identifies one fixable pr
 | 7 | [The GLP-1 Gold Rush](issue_07/newsletter_issue_07.md) | $40.0B/yr | US GLP-1 spending grew 1,200-fold in 5 years ($57M→$71.7B); US pays 3–5× international prices; original 10-year BALANCE budget projection for Medicare GLP-1 coverage | CMS Part D, OECD, KFF, CBO |
 | 8 | [The Denial Machine](issue_08/newsletter_issue_08.md) | $32.0B/yr | Original CMS-0057-F extraction of 93 MA contracts (UHC denial rate 13.5%, appeal overturn 58–65%, ~3M denied entitled care annually); care suppression, vertical integration arbitrage, and AI-driven denial escalation | CMS-0057-F, UNH/HUM 10-K, Health Affairs, Stanford npj |
 | 9 | [The Employer Trap](issue_09/newsletter_issue_09.md) | $6.6B/yr | First plan-level analysis of post-CAA 2021 broker and admin-fee disclosures (8,180 health welfare plans, 23.8M participants); per-plan broker commissions above 3% DOL benchmark and admin fees above peer-group medians | DOL Form 5500 Schedule A and Schedule C 2023, KFF EHBS 2024, JAMA Network Open |
-| | **Running Total** | **$435.2B/yr** | **13.4% of the $3.24T gap** | |
+| 10 | [The Procedure Mill](issue_10/newsletter_issue_10.md) | $7.6B/yr | Full CY2023 CMS PUF analysis (268,634 rows) of the 31-service Schwartz/Mafi/Choosing Wisely list; state-level P90/P10 spread of 6.7x in low-value Medicare spending per beneficiary, with an all-payer extension and a defensive-medicine difference-in-differences slice | CMS Provider Utilization, Hospital Outpatient, and Geographic Variation PUFs CY2023; Schwartz et al. 2014; Kim & Fendrick JAMA Health Forum 2025; Avraham DSTLR 7.1 |
+| | **Running Total** | **$442.8B/yr** | **13.7% of the $3.24T gap** | |
 
 *Issue #9 is the first issue at the revised $3.24T denominator (CMS NHE 2024 final, released April 18, 2026). Issues #1–#8 published using the prior $3T denominator and are not retrofitted.*
 
-![Savings Tracker](issue_09/figures/chart4_savings_tracker.png)
+![Savings Tracker](issue_10/figures/chart5_savings_tracker.png)
 
 ---
 
@@ -44,6 +45,91 @@ The same operations. Exposed to the same clinical evidence. Wildly different pri
 ---
 
 ## Published Issues
+
+### Issue #10 — The Procedure Mill (~$7.6B/year)
+
+Medicare pays $106.72 per beneficiary per year for a specific set of low-value services in New York and $16.00 for the same category in Vermont — a 6.7x gap on services the evidence does not support for most patients. Using the full 100% CY2023 CMS Provider Utilization PUF (268,634 rows) and the standard 31-service Schwartz/Mafi/Choosing Wisely measurement list, we computed Medicare-paid spending per beneficiary by state, applied published low-value-share multipliers from the peer-reviewed literature, and extended to Medicare Advantage, commercial, and Medicaid using MedPAC and RAND Round 5.1 multipliers. Five booked components total **$7.6 billion per year** (range $7.6–13.6B): a Medicare Schwartz-list pool computed from PUF spend (Component A), a state-variance compression scenario (Component B), an all-payer extension (Component C), the WISeR pilot 17-procedure pool for the six pilot states (Component D), and a defensive-medicine difference-in-differences slice using the Avraham DSTLR 7.1 tort-reform database (Component E). Pass 3 of our own methodology caught two errors in the earlier passes — a $583M double-count from max-share dedup of HCPCS that map to two measures, and a 1.74x → 1.60x BLS Medical CPI inflation overcorrection — and we report the $7.6B figure on the corrected math. The booked figure is materially below CMS's own November 2025 finalization of $19.6B in skin-substitute reductions alone, and below Lown Institute's $75–100B macro estimate, because we computed only what is detectable from public PUF data with peer-reviewed multipliers; the gap to those higher figures is the explicit data-partner ask.
+
+![State Low-Value Spending Variance](issue_10/figures/chart1_state_variance.png)
+
+*Source: CMS Provider Utilization and Payment Data PUF CY2023, applied to the Schwartz/Mafi 31-measure list. State-level Medicare-paid spending per beneficiary on the low-value-care subset.*
+
+**Read the full analysis →** [`issue_10/newsletter_issue_10.md`](issue_10/newsletter_issue_10.md)
+
+<details>
+<summary>Reproducing the analysis</summary>
+
+```bash
+cd issue_10
+
+# Pass 1: build the headline analysis from raw PUFs (re-downloads CMS files)
+python 01_build_data.py
+
+# Pass 2: PSPS modifier and place-of-service profiling, dedup pass
+python 02_component_a_pass2.py
+
+# Pass 3: adversarial-math corrections (mean-share dedup, BLS Medical CPI 1.60x)
+python 03_pass3_corrections.py
+
+# Generate all five charts plus hero
+python generate_all_charts.py
+```
+
+**Key outputs:**
+- `results/savings_estimate.json` — Pass 1 booked components and ranges, plus framing benchmarks (Kim & Fendrick, Schwartz, Mafi, Lown, CMS WISeR)
+- `results/component_a_schwartz_medicare.csv` — Per-measure Medicare paid and low-value share
+- `results/component_b_state_variance.csv` — State-level low-value spend per beneficiary
+- `results/component_c_all_payer.csv` — All-payer extension multipliers
+- `results/component_d_wiser_pilot.csv` — WISeR 17-procedure pool by pilot state
+- `results/component_e_defensive_medicine_did.csv` — Difference-in-differences output across three control-state specifications
+- `results/pass3/savings_estimate_v3.json` — Pass 3 corrected headline ($7.628B booked, $13.619B range high)
+- `results/pass3/methodology_v3.md` — Detailed Pass 3 methodology with both corrections documented
+- `figures/` — All five analysis charts plus hero
+
+</details>
+
+<details>
+<summary>Data sources</summary>
+
+| Source | Description |
+|--------|-------------|
+| CMS Medicare Provider Utilization and Payment Data PUF, CY2023 (V20, April 2025) | 268,634-row physician/supplier paid claims by HCPCS and geography |
+| CMS Hospital Outpatient PUF by Geography and Service, CY2023 | OPPS-paid HCPCS spending for facility-side measures |
+| CMS Medicare Geographic Variation HRR PUF CY2014–2021 | Per-beneficiary Medicare spending normalization at state/HRR level |
+| CMS Physician/Supplier Procedure Summary (PSPS) CY2023 | Modifier and place-of-service distribution at HCPCS level |
+| CMS WISeR Model Provider and Supplier Operational Guide v5.0 (March 12, 2026) | 17 procedures and 6 pilot states for the gold-carding pilot |
+| CMS-1832-F (CY2026 Physician Fee Schedule Final Rule, November 2025) | Skin substitute payment reductions ($19.6B annual baseline) |
+| Schwartz AL, Landon BE, Elshaug AG, Chernew ME, McWilliams JM, JAMA IM 174(7):1067–1076 (2014) | Original 31-service Medicare low-value care measurement framework |
+| Mafi JN et al., Health Affairs 36(10):1701–1704 (2017) | Volume-weighted prioritization of low-cost, high-volume low-value services |
+| Kim DD, Fendrick AM, JAMA Health Forum 6(8):e253050 (August 2025) | Most recent peer-reviewed Medicare-FFS low-value spending estimate ($3.6–4.4B); Issue #10 extends with full sample, state variance, all-payer, and WISeR |
+| Fleming JH et al., J Gen Internal Med 37(4):869–875 (2022); Harvard Dataverse DEW0UO | SAS replication archive for Schwartz/Mafi list |
+| Avraham R, Database of State Tort Law Reforms (DSTLR) 7.1 (UT Law, 2021) | Tort-reform natural-experiment data for defensive-medicine DiD |
+| Mello MM et al., Health Affairs 29(9):1569–1577 (2010) | National costs of medical liability system; Component E baseline |
+| BLS CPI-U Medical Care series (CUUR0000SAM) | Inflation factor 2008→2024 (1.60x, corrected from earlier 1.74x) |
+| MedPAC March 2024 Report to Congress | All-payer extension multipliers and Medicare Advantage adjustments |
+
+</details>
+
+<details>
+<summary>Key methodology notes</summary>
+
+- Five booked components, each computed from federal PUF data:
+  - Component A ($4.31B): Medicare Schwartz-list pool from PUF spend × measure-level low-value share
+  - Component B ($0.42B): state-variance compression to P25 (range to P10 included)
+  - Component C ($2.16B): all-payer extension using MedPAC and RAND multipliers
+  - Component D ($0.46B): WISeR pilot 17-procedure pool for six pilot states
+  - Component E ($0.27B): defensive-medicine difference-in-differences (booked at the conservative midpoint across three control-state specifications)
+- Pass 3 corrections (caught by our own adversarial-math review and committed to the published results):
+  - Mean-share dedup replaces max-share dedup for the 106 HCPCS that map to two measures (saved $583M from being double-counted)
+  - BLS Medical CPI factor corrected from 1.74x to 1.60x (CUUR0000SAM, 2008→2024 annual average)
+- Booked $7.628B sits below CMS's own November 2025 finalization of $19.6B in skin-substitute reductions alone, and well below Lown's $75–100B macro estimate. The gap is the explicit data-partner ask: licensed claims data (Optum Clinformatics, MarketScan, IQVIA Pharmetrics) or restricted Medicare extracts (CMS LDS/VRDC) would let us add diagnosis-code filtering, NPI-level analysis, and broader low-value-care detection that public PUF data cannot support
+- Range high $13.619B reflects Component A at upper-bound shares + Component B at P10 + Component C at the upper multiplier + the Mello inflation-corrected defensive-medicine ceiling
+- No overlap with Issue #5 (admin waste): #5 counts the *processing cost* of low-value care; #10 counts the *paid spending on services that should not have been ordered*
+- No overlap with Issue #11 (MA Overpayment): Component C's MA extension is a price-multiplier adjustment to the same volume of services, not a separate volume of upcoded patients
+
+</details>
+
+---
 
 ### Issue #9 — The Employer Trap (~$6.6B/year)
 
@@ -597,13 +683,13 @@ python 05_visualize.py
 
 ---
 
-**Through 9 issues: ~$435.2 billion in identified savings (13.4% of the $3.24T gap)**
+**Through 10 issues: ~$442.8 billion in identified savings (13.7% of the $3.24T gap)**
 
 ---
 
 ## Fund the Data
 
-We've identified $435.2 billion in fixable waste using free federal datasets. To go deeper, we need claim-level data that costs money to access: Medicare claims with diagnosis codes, all-payer state databases, hospital price transparency records, and legal research tools. Issue #8 made this concrete: the deductible-delay extraction mechanism described in the MRI vignette, where an insurer denial pushes a patient to cash and captures the deductible spread on the next claim, cannot be measured rigorously without paired patient-level claims plus deductible-exposure data. That is why Component D stays out of our booked total and why this fund exists.
+We've identified $442.8 billion in fixable waste using free federal datasets. To go deeper, we need claim-level data that costs money to access: Medicare claims with diagnosis codes, all-payer state databases, hospital price transparency records, and legal research tools. Issue #8 made this concrete: the deductible-delay extraction mechanism described in the MRI vignette, where an insurer denial pushes a patient to cash and captures the deductible spread on the next claim, cannot be measured rigorously without paired patient-level claims plus deductible-exposure data. That is why Component D stays out of our booked total and why this fund exists.
 
 **[Visit the AHC Data Access Fund →](https://ahcdata.fund)** | **[Sponsor on GitHub →](https://github.com/sponsors/rexrodeo)**
 
@@ -621,7 +707,7 @@ Six datasets. Per-dataset crowdfunding via Stripe (no account required, any amou
 
 ## Up Next
 
-Issue #10 examines the Procedure Mill: physicians say roughly one in five medical decisions in the US is unnecessary, and for procedures specifically the figure is closer to one in nine (Lyu, Wick, Cabrera, Makary, *Overtreatment in the United States*, PLOS ONE, 2017). The Lown Institute estimates $75 to $100 billion in low-value care annually. The Choosing Wisely initiative has named more than 600 procedures that evidence does not support for most patients. Medicare claims data lets us compute the volume, cost, and geographic distribution of overuse at the procedure level. Subscribe on Substack to get it when it drops.
+Issue #11 examines the MA Overpayment: MedPAC's March 2024 Report to Congress estimated that Medicare Advantage plans receive about $83 billion per year more than the same beneficiaries would cost in traditional Medicare. The mechanism: insurers send nurses into patients' homes specifically to find diagnoses, then bill Medicare for the higher-risk patient who is now "on the books" as having those conditions. The more conditions documented, the more Medicare pays the insurer for the rest of the year. Issue #11 replicates the Kronick (JAMA Internal Medicine, 2022) coding-intensity methodology on current CMS HCC public data and extends it to the most recent enrollment year. Subscribe on Substack to get it when it drops.
 
 ---
 

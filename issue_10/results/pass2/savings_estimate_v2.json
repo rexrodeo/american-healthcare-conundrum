@@ -1,0 +1,122 @@
+{
+  "issue": 10,
+  "pass": 2,
+  "title": "The Procedure Mill",
+  "booked_usd": 8104343242.619106,
+  "booked_usd_b": 8.104343242619107,
+  "range_high_usd": 14559271608.56157,
+  "range_high_usd_b": 14.55927160856157,
+  "components_v2": {
+    "A_schwartz_medicare_ffs": 2207493784.8323927,
+    "B_state_variance_compression_p25": 754517316.607731,
+    "C_all_payer_extension": 4664975375.935245,
+    "D_wiser_pilot_savings_net": 31274081.85146949,
+    "E_defensive_medicine_booked": 1200600000.0
+  },
+  "components_pass1": {
+    "A_schwartz_medicare_ffs": 2672866407.3042736,
+    "B_state_variance_compression_p25": 754517316.607731,
+    "B_state_variance_compression_p10": 972028765.1087692,
+    "C_all_payer_extension": 4711983622.000973,
+    "D_wiser_pilot_savings_net": 31274081.85146949,
+    "E_defensive_medicine_booked": 1200600000.0,
+    "E_book_note": "Booked at low end: DiD persistence signal opposite-sign"
+  },
+  "stage_5_5_finding_double_counting": {
+    "summary": "Pass 1 Component A double-counted HCPCS that map to multiple Schwartz/Mafi measures. The flags.sas detection logic distinguishes measures by diagnosis context, but Pass 1 operated at HCPCS level without diagnosis codes and summed per-measure totals. Pass 2 deduplicates by HCPCS, taking the max low-value share across the measures it appears in. Component A drops from $2.673B (overcounted) to $2.090B (dedup, Pass 1 multipliers) and $2.207B (dedup, V2 multipliers).",
+    "n_unique_hcpcs": 233,
+    "n_hcpcs_in_multiple_measures": 106,
+    "max_measures_per_hcpcs": 2,
+    "pass1_overcounted_a_usd": 2672866407.3042736,
+    "pass1_dedup_correct_a_usd": 2089829587.6190512,
+    "pass2_v2_a_usd": 2207493784.8323927,
+    "examples_hcpcs_in_multiple_measures": {
+      "0146T": 2,
+      "93015": 2,
+      "84153": 2,
+      "84152": 2,
+      "83090": 2,
+      "82270": 2,
+      "78492": 2,
+      "78491": 2
+    }
+  },
+  "delta_vs_pass1": {
+    "headline_usd": -512380868.5376091,
+    "headline_pct": -0.059463534160759696,
+    "component_a_usd": -465372622.4718809,
+    "component_a_pct": -0.17410994473952543,
+    "component_a_vs_dedup_baseline_usd": 117664197.21334147,
+    "component_a_vs_dedup_baseline_pct": 0.05630324975319956,
+    "component_c_usd": -47008246.06572819,
+    "component_c_pct": -0.009976317796657759
+  },
+  "psps_validation": {
+    "psps_total_paid": 6281642447.890001,
+    "psps_unique_hcpcs": 179,
+    "geography_unconditional_paid": 7466993482.366835,
+    "psps_geography_coverage_ratio": 0.8412545775919026,
+    "note": "PSPS = Carrier Part B claims; Geography PUF = Phys + HOPD. PSPS covers physician fee schedule services; HOPD-billed APCs are out of scope. PSPS-vs-Geography ratio confirms Pass 1 totals are not artifacts of double-counting."
+  },
+  "modifier_filtering_finding": "The canonical Schwartz/Mafi flags.sas detection logic operates on (HCPCS_CD, dgnsall, age, sex, claim dates) only. It does NOT use HCPCS modifiers. Pass 2 confirmed this directly by inspecting flags.sas (no matches for 'modifier', 'mdfr_cd', 'HCFAMOD'). Adding modifier filtering in Pass 2 would deviate from canonical methodology rather than align with it. Pass 2 therefore does NOT add modifier-based filtering. Modifier data was used for cross-validation: confirmed -26/-TC split billing does not double-count in the Geography PUF totals (the PUF aggregates by HCPCS regardless of modifier; per-HCPCS Avg_Mdcr_Pymt averages over modifier composition, so Tot_Srvcs * Avg_Mdcr_Pymt gives the correct paid total).",
+  "measure_resolution_v2_changes": {
+    "pci": {
+      "share_pass1": 0.4,
+      "share_pass2": 0.45,
+      "n_hcpcs_affected": 13,
+      "delta_usd": 55099965.92646664,
+      "note": "PCI for stable CAD (COURAGE + ISCHEMIA + ACC AUC ~45%)"
+    },
+    "preopst": {
+      "share_pass1": 0.4,
+      "share_pass2": 0.5,
+      "n_hcpcs_affected": 38,
+      "delta_usd": 48247184.05136468,
+      "note": "Pre-op stress test; Mafi 2017 + ASA/CW evidence ~50%"
+    },
+    "arth": {
+      "share_pass1": 0.55,
+      "share_pass2": 0.65,
+      "n_hcpcs_affected": 5,
+      "delta_usd": 12266030.769007463,
+      "note": "Knee scope for OA (Moseley 2002 + ESCAPE + BMJ 2017 evidence ~65%)"
+    },
+    "renlstent": {
+      "share_pass1": 0.65,
+      "share_pass2": 0.7,
+      "n_hcpcs_affected": 7,
+      "delta_usd": 2051016.466503147,
+      "note": "Renal artery stent (CORAL 2014 + ASTRAL ~70%)"
+    }
+  },
+  "originality_gate_v2": {
+    "headline_usd": 8104343242.619106,
+    "our_scope": [
+      "all_payer",
+      "schwartz_31_plus_defensive_med",
+      "2023"
+    ],
+    "checks": {
+      "a_script_ran": true,
+      "b_headline_produced": true,
+      "c_original_vs_curated_separated": true,
+      "d_headline_distinct_from_same_scope_priors": true,
+      "e_sensitivity_analysis_present": true
+    },
+    "all_pass": true,
+    "priors_within_5pct": [
+      [
+        "Mafi 2017 broad measure (Medicare 2014 FFS)",
+        8500000000.0
+      ]
+    ],
+    "priors_checked": {
+      "Schwartz 2014 JAMA IM (narrow Medicare 2009 FFS)": 1900000000.0,
+      "Mafi 2017 broad measure (Medicare 2014 FFS)": 8500000000.0,
+      "Kim & Fendrick 2025 JAMA Health Forum (5% Medicare FFS CY2018-2020)": 3600000000.0,
+      "Mello 2010 Health Affairs (all-payer defensive med 2008)": 46000000000.0,
+      "CMS WISeR Fact Sheet 2022 (Medicare FFS unnecessary 17 services)": 5800000000.0,
+      "CMS-1832-F skin substitute reduction CY2026": 19600000000.0
+    }
+  }
+}

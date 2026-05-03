@@ -1,0 +1,340 @@
+measure_key,measure_name,measure_desc,hcpcs_cd,diagnosis_restricted
+psa,PSA over 75,PSA testing for men over 75,84152,False
+psa,PSA over 75,PSA testing for men over 75,84153,False
+psa,PSA over 75,PSA testing for men over 75,84154,False
+psa,PSA over 75,PSA testing for men over 75,G0103,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,45330,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,45331,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,45332,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,45333,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,45334,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,45335,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,45336,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,45337,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,45338,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,45339,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,45340,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,45341,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,45342,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,45343,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,45344,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,45345,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,45378,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,45379,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,45380,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,45381,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,45382,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,45383,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,45384,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,45385,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,45386,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,45387,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,45388,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,45389,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,45390,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,45391,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,45392,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,82270,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,G0104,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,G0105,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,G0106,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,G0120,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,G0121,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,G0122,False
+colon,Colon cancer screen 85+,Colorectal cancer screening for adults older than 85,G0328,False
+cerv,Cervical screen over 65,Cervical cancer screening for women over 65,G0123,False
+cerv,Cervical screen over 65,Cervical cancer screening for women over 65,G0124,False
+cerv,Cervical screen over 65,Cervical cancer screening for women over 65,G0141,False
+cerv,Cervical screen over 65,Cervical cancer screening for women over 65,G0143,False
+cerv,Cervical screen over 65,Cervical cancer screening for women over 65,G0144,False
+cerv,Cervical screen over 65,Cervical cancer screening for women over 65,G0145,False
+cerv,Cervical screen over 65,Cervical cancer screening for women over 65,G0147,False
+cerv,Cervical screen over 65,Cervical cancer screening for women over 65,G0148,False
+cerv,Cervical screen over 65,Cervical cancer screening for women over 65,P3000,False
+cerv,Cervical screen over 65,Cervical cancer screening for women over 65,P3001,False
+cerv,Cervical screen over 65,Cervical cancer screening for women over 65,Q0091,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,45330,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,45331,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,45332,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,45333,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,45334,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,45335,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,45336,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,45337,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,45338,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,45339,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,45340,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,45341,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,45342,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,45343,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,45344,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,45345,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,45378,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,45379,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,45380,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,45381,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,45382,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,45383,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,45384,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,45385,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,45386,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,45387,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,45388,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,45389,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,45390,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,45391,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,45392,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,77057,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,82270,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,84152,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,84153,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,84154,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,G0102,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,G0103,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,G0104,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,G0105,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,G0106,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,G0120,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,G0121,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,G0122,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,G0123,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,G0124,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,G0141,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,G0143,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,G0144,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,G0145,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,G0147,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,G0148,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,G0202,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,G0328,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,P3000,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,P3001,False
+cncr,Cancer screen on dialysis,Cancer screening for dialysis patients,Q0091,False
+bmd,Frequent BMD test,Bone mineral density at frequent intervals,76070,True
+bmd,Frequent BMD test,Bone mineral density at frequent intervals,76071,True
+bmd,Frequent BMD test,Bone mineral density at frequent intervals,76075,True
+bmd,Frequent BMD test,Bone mineral density at frequent intervals,76076,True
+bmd,Frequent BMD test,Bone mineral density at frequent intervals,76078,True
+bmd,Frequent BMD test,Bone mineral density at frequent intervals,76977,True
+bmd,Frequent BMD test,Bone mineral density at frequent intervals,77078,True
+bmd,Frequent BMD test,Bone mineral density at frequent intervals,77079,True
+bmd,Frequent BMD test,Bone mineral density at frequent intervals,77080,True
+bmd,Frequent BMD test,Bone mineral density at frequent intervals,77081,True
+bmd,Frequent BMD test,Bone mineral density at frequent intervals,77083,True
+bmd,Frequent BMD test,Bone mineral density at frequent intervals,78350,True
+bmd,Frequent BMD test,Bone mineral density at frequent intervals,78351,True
+pth,PTH for non-dialysis CKD,Parathyroid hormone testing in non-dialysis CKD,83970,True
+preopx,Preop chest X-ray,Preoperative chest radiography,71010,True
+preopx,Preop chest X-ray,Preoperative chest radiography,71015,True
+preopx,Preop chest X-ray,Preoperative chest radiography,71020,True
+preopx,Preop chest X-ray,Preoperative chest radiography,71021,True
+preopx,Preop chest X-ray,Preoperative chest radiography,71022,True
+preopx,Preop chest X-ray,Preoperative chest radiography,71023,True
+preopx,Preop chest X-ray,Preoperative chest radiography,71030,True
+preopx,Preop chest X-ray,Preoperative chest radiography,71034,True
+preopx,Preop chest X-ray,Preoperative chest radiography,71035,True
+preopec,Preop echocardiogram,Preoperative echocardiography,93303,True
+preopec,Preop echocardiogram,Preoperative echocardiography,93304,True
+preopec,Preop echocardiogram,Preoperative echocardiography,93306,True
+preopec,Preop echocardiogram,Preoperative echocardiography,93307,True
+preopec,Preop echocardiogram,Preoperative echocardiography,93308,True
+preopec,Preop echocardiogram,Preoperative echocardiography,93312,True
+preopec,Preop echocardiogram,Preoperative echocardiography,93315,True
+preopec,Preop echocardiogram,Preoperative echocardiography,93318,True
+pft,Preop pulmonary function,Preoperative pulmonary function testing,94010,True
+preopst,Preop stress test,Routine preoperative stress tests,0146T,True
+preopst,Preop stress test,Routine preoperative stress tests,0147T,True
+preopst,Preop stress test,Routine preoperative stress tests,0148T,True
+preopst,Preop stress test,Routine preoperative stress tests,0149T,True
+preopst,Preop stress test,Routine preoperative stress tests,75552,True
+preopst,Preop stress test,Routine preoperative stress tests,75553,True
+preopst,Preop stress test,Routine preoperative stress tests,75554,True
+preopst,Preop stress test,Routine preoperative stress tests,75555,True
+preopst,Preop stress test,Routine preoperative stress tests,75556,True
+preopst,Preop stress test,Routine preoperative stress tests,75557,True
+preopst,Preop stress test,Routine preoperative stress tests,75558,True
+preopst,Preop stress test,Routine preoperative stress tests,75559,True
+preopst,Preop stress test,Routine preoperative stress tests,75560,True
+preopst,Preop stress test,Routine preoperative stress tests,75561,True
+preopst,Preop stress test,Routine preoperative stress tests,75562,True
+preopst,Preop stress test,Routine preoperative stress tests,75563,True
+preopst,Preop stress test,Routine preoperative stress tests,75564,True
+preopst,Preop stress test,Routine preoperative stress tests,75574,True
+preopst,Preop stress test,Routine preoperative stress tests,78451,True
+preopst,Preop stress test,Routine preoperative stress tests,78452,True
+preopst,Preop stress test,Routine preoperative stress tests,78453,True
+preopst,Preop stress test,Routine preoperative stress tests,78454,True
+preopst,Preop stress test,Routine preoperative stress tests,78460,True
+preopst,Preop stress test,Routine preoperative stress tests,78461,True
+preopst,Preop stress test,Routine preoperative stress tests,78464,True
+preopst,Preop stress test,Routine preoperative stress tests,78465,True
+preopst,Preop stress test,Routine preoperative stress tests,78472,True
+preopst,Preop stress test,Routine preoperative stress tests,78473,True
+preopst,Preop stress test,Routine preoperative stress tests,78481,True
+preopst,Preop stress test,Routine preoperative stress tests,78483,True
+preopst,Preop stress test,Routine preoperative stress tests,78491,True
+preopst,Preop stress test,Routine preoperative stress tests,78492,True
+preopst,Preop stress test,Routine preoperative stress tests,93015,True
+preopst,Preop stress test,Routine preoperative stress tests,93016,True
+preopst,Preop stress test,Routine preoperative stress tests,93017,True
+preopst,Preop stress test,Routine preoperative stress tests,93018,True
+preopst,Preop stress test,Routine preoperative stress tests,93350,True
+preopst,Preop stress test,Routine preoperative stress tests,93351,True
+vert,Vertebroplasty/kyphoplasty,Vertebroplasty or kyphoplasty for osteoporotic vertebral fractures,22520,True
+vert,Vertebroplasty/kyphoplasty,Vertebroplasty or kyphoplasty for osteoporotic vertebral fractures,22521,True
+vert,Vertebroplasty/kyphoplasty,Vertebroplasty or kyphoplasty for osteoporotic vertebral fractures,22523,True
+vert,Vertebroplasty/kyphoplasty,Vertebroplasty or kyphoplasty for osteoporotic vertebral fractures,22524,True
+arth,Arthroscopy for knee OA,Arthroscopic surgery for knee osteoarthritis,29877,True
+arth,Arthroscopy for knee OA,Arthroscopic surgery for knee osteoarthritis,29879,True
+arth,Arthroscopy for knee OA,Arthroscopic surgery for knee osteoarthritis,29880,True
+arth,Arthroscopy for knee OA,Arthroscopic surgery for knee osteoarthritis,29881,True
+arth,Arthroscopy for knee OA,Arthroscopic surgery for knee osteoarthritis,G0289,True
+rhinoct,CT for sinusitis,CT of sinuses for uncomplicated rhinosinusitis,70486,True
+rhinoct,CT for sinusitis,CT of sinuses for uncomplicated rhinosinusitis,70487,True
+rhinoct,CT for sinusitis,CT of sinuses for uncomplicated rhinosinusitis,70488,True
+sync,Head imaging for syncope,Head imaging in evaluation of syncope,70450,True
+sync,Head imaging for syncope,Head imaging in evaluation of syncope,70460,True
+sync,Head imaging for syncope,Head imaging in evaluation of syncope,70470,True
+sync,Head imaging for syncope,Head imaging in evaluation of syncope,70551,True
+sync,Head imaging for syncope,Head imaging in evaluation of syncope,70552,True
+sync,Head imaging for syncope,Head imaging in evaluation of syncope,70553,True
+renlstent,Renal artery stent,Renal artery angioplasty or stenting,35450,True
+renlstent,Renal artery stent,Renal artery angioplasty or stenting,35471,True
+renlstent,Renal artery stent,Renal artery angioplasty or stenting,37205,True
+renlstent,Renal artery stent,Renal artery angioplasty or stenting,37207,True
+renlstent,Renal artery stent,Renal artery angioplasty or stenting,37236,True
+renlstent,Renal artery stent,Renal artery angioplasty or stenting,75960,True
+renlstent,Renal artery stent,Renal artery angioplasty or stenting,75966,True
+ivc,IVC filter,Inferior vena cava filters for PE prevention,37191,False
+ivc,IVC filter,Inferior vena cava filters for PE prevention,37192,False
+ivc,IVC filter,Inferior vena cava filters for PE prevention,75940,False
+stress,Stress test stable CAD,Stress testing for stable coronary disease,0146T,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,0147T,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,0148T,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,0149T,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,75552,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,75553,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,75554,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,75555,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,75556,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,75557,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,75558,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,75559,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,75560,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,75561,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,75562,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,75563,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,75564,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,75574,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,78451,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,78452,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,78453,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,78454,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,78460,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,78461,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,78464,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,78465,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,78472,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,78473,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,78481,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,78483,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,78491,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,78492,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,93015,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,93016,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,93017,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,93018,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,93350,True
+stress,Stress test stable CAD,Stress testing for stable coronary disease,93351,True
+pci,PCI for stable CAD,Percutaneous coronary intervention for stable CAD,92920,True
+pci,PCI for stable CAD,Percutaneous coronary intervention for stable CAD,92924,True
+pci,PCI for stable CAD,Percutaneous coronary intervention for stable CAD,92928,True
+pci,PCI for stable CAD,Percutaneous coronary intervention for stable CAD,92933,True
+pci,PCI for stable CAD,Percutaneous coronary intervention for stable CAD,92937,True
+pci,PCI for stable CAD,Percutaneous coronary intervention for stable CAD,92943,True
+pci,PCI for stable CAD,Percutaneous coronary intervention for stable CAD,92980,True
+pci,PCI for stable CAD,Percutaneous coronary intervention for stable CAD,92982,True
+pci,PCI for stable CAD,Percutaneous coronary intervention for stable CAD,C9600,True
+pci,PCI for stable CAD,Percutaneous coronary intervention for stable CAD,C9602,True
+pci,PCI for stable CAD,Percutaneous coronary intervention for stable CAD,C9604,True
+pci,PCI for stable CAD,Percutaneous coronary intervention for stable CAD,C9607,True
+pci,PCI for stable CAD,Percutaneous coronary intervention for stable CAD,G0290,True
+head,Head imaging for headache,Head imaging for uncomplicated headache,70450,True
+head,Head imaging for headache,Head imaging for uncomplicated headache,70460,True
+head,Head imaging for headache,Head imaging for uncomplicated headache,70470,True
+head,Head imaging for headache,Head imaging for uncomplicated headache,70551,True
+head,Head imaging for headache,Head imaging for uncomplicated headache,70552,True
+head,Head imaging for headache,Head imaging for uncomplicated headache,70553,True
+backscan,Imaging for low back pain,Back imaging for non-specific low back pain,72010,True
+backscan,Imaging for low back pain,Back imaging for non-specific low back pain,72020,True
+backscan,Imaging for low back pain,Back imaging for non-specific low back pain,72052,True
+backscan,Imaging for low back pain,Back imaging for non-specific low back pain,72100,True
+backscan,Imaging for low back pain,Back imaging for non-specific low back pain,72110,True
+backscan,Imaging for low back pain,Back imaging for non-specific low back pain,72114,True
+backscan,Imaging for low back pain,Back imaging for non-specific low back pain,72120,True
+backscan,Imaging for low back pain,Back imaging for non-specific low back pain,72131,True
+backscan,Imaging for low back pain,Back imaging for non-specific low back pain,72132,True
+backscan,Imaging for low back pain,Back imaging for non-specific low back pain,72133,True
+backscan,Imaging for low back pain,Back imaging for non-specific low back pain,72141,True
+backscan,Imaging for low back pain,Back imaging for non-specific low back pain,72142,True
+backscan,Imaging for low back pain,Back imaging for non-specific low back pain,72146,True
+backscan,Imaging for low back pain,Back imaging for non-specific low back pain,72147,True
+backscan,Imaging for low back pain,Back imaging for non-specific low back pain,72148,True
+backscan,Imaging for low back pain,Back imaging for non-specific low back pain,72149,True
+backscan,Imaging for low back pain,Back imaging for non-specific low back pain,72156,True
+backscan,Imaging for low back pain,Back imaging for non-specific low back pain,72157,True
+backscan,Imaging for low back pain,Back imaging for non-specific low back pain,72158,True
+backscan,Imaging for low back pain,Back imaging for non-specific low back pain,72200,True
+backscan,Imaging for low back pain,Back imaging for non-specific low back pain,72202,True
+backscan,Imaging for low back pain,Back imaging for non-specific low back pain,72220,True
+eeg,EEG for headache,EEG for headache,95812,True
+eeg,EEG for headache,EEG for headache,95813,True
+eeg,EEG for headache,EEG for headache,95816,True
+eeg,EEG for headache,EEG for headache,95819,True
+eeg,EEG for headache,EEG for headache,95822,True
+eeg,EEG for headache,EEG for headache,95827,True
+eeg,EEG for headache,EEG for headache,95830,True
+eeg,EEG for headache,EEG for headache,95957,True
+ctdsync,Carotid imaging for syncope,Carotid imaging for syncope,3100F,True
+ctdsync,Carotid imaging for syncope,Carotid imaging for syncope,70498,True
+ctdsync,Carotid imaging for syncope,Carotid imaging for syncope,70547,True
+ctdsync,Carotid imaging for syncope,Carotid imaging for syncope,70548,True
+ctdsync,Carotid imaging for syncope,Carotid imaging for syncope,70549,True
+ctdsync,Carotid imaging for syncope,Carotid imaging for syncope,93880,True
+ctdsync,Carotid imaging for syncope,Carotid imaging for syncope,93882,True
+ctdasym,Carotid imaging asymptomatic,Carotid imaging in asymptomatic adults,3100F,True
+ctdasym,Carotid imaging asymptomatic,Carotid imaging in asymptomatic adults,70498,True
+ctdasym,Carotid imaging asymptomatic,Carotid imaging in asymptomatic adults,70547,True
+ctdasym,Carotid imaging asymptomatic,Carotid imaging in asymptomatic adults,70548,True
+ctdasym,Carotid imaging asymptomatic,Carotid imaging in asymptomatic adults,70549,True
+ctdasym,Carotid imaging asymptomatic,Carotid imaging in asymptomatic adults,93880,True
+ctdasym,Carotid imaging asymptomatic,Carotid imaging in asymptomatic adults,93882,True
+cea,Carotid endarterectomy asymp,Carotid endarterectomy in asymptomatic patients,35301,True
+homocy,Homocysteine testing,Homocysteine testing in cardiovascular disease,83090,True
+hyperco,Hypercoagulability after DVT,Hypercoagulability tests within 30d of DVT/PE,81240,True
+hyperco,Hypercoagulability after DVT,Hypercoagulability tests within 30d of DVT/PE,81241,True
+hyperco,Hypercoagulability after DVT,Hypercoagulability tests within 30d of DVT/PE,83090,True
+hyperco,Hypercoagulability after DVT,Hypercoagulability tests within 30d of DVT/PE,85300,True
+hyperco,Hypercoagulability after DVT,Hypercoagulability tests within 30d of DVT/PE,85303,True
+hyperco,Hypercoagulability after DVT,Hypercoagulability tests within 30d of DVT/PE,85306,True
+hyperco,Hypercoagulability after DVT,Hypercoagulability tests within 30d of DVT/PE,85613,True
+hyperco,Hypercoagulability after DVT,Hypercoagulability tests within 30d of DVT/PE,86147,True
+spinj,Spinal injection for low back,Epidural / facet / trigger point injections for low back pain,20552,True
+spinj,Spinal injection for low back,Epidural / facet / trigger point injections for low back pain,20553,True
+spinj,Spinal injection for low back,Epidural / facet / trigger point injections for low back pain,62311,True
+spinj,Spinal injection for low back,Epidural / facet / trigger point injections for low back pain,64475,True
+spinj,Spinal injection for low back,Epidural / facet / trigger point injections for low back pain,64483,True
+spinj,Spinal injection for low back,Epidural / facet / trigger point injections for low back pain,64493,True
+t3,T3 in hypothyroidism,Total or free T3 testing in hypothyroidism,84480,True
+t3,T3 in hypothyroidism,Total or free T3 testing in hypothyroidism,84481,True
+plant,Imaging for plantar fasciitis,Radiographic / MR / US imaging in plantar fasciitis,73620,True
+plant,Imaging for plantar fasciitis,Radiographic / MR / US imaging in plantar fasciitis,73630,True
+plant,Imaging for plantar fasciitis,Radiographic / MR / US imaging in plantar fasciitis,73650,True
+plant,Imaging for plantar fasciitis,Radiographic / MR / US imaging in plantar fasciitis,73718,True
+plant,Imaging for plantar fasciitis,Radiographic / MR / US imaging in plantar fasciitis,73719,True
+plant,Imaging for plantar fasciitis,Radiographic / MR / US imaging in plantar fasciitis,73720,True
+plant,Imaging for plantar fasciitis,Radiographic / MR / US imaging in plantar fasciitis,76880,True
+plant,Imaging for plantar fasciitis,Radiographic / MR / US imaging in plantar fasciitis,76881,True
+plant,Imaging for plantar fasciitis,Radiographic / MR / US imaging in plantar fasciitis,76882,True
+vitd,"1,25 vitamin D testing",Calcitriol testing without hypercalcemia,82652,True
+rhcath,PA catheter in ICU,Pulmonary artery catheterization in ICU,93503,True

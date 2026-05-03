@@ -1,5 +1,6 @@
 # Data files (too large for git; re-download with pipeline scripts)
 issue_*/data/
+issue_*/raw/
 **/raw_data/
 
 # DuckDB databases (regenerate with pipeline scripts)
@@ -16,6 +17,7 @@ reference_data/
 # Issue 7 (published 2026-04-12)
 # Issue 8 (published 2026-04-19)
 # Issue 9 (published 2026-04-26)
+# Issue 10 (published 2026-05-03)
 
 # Internal project files
 CLAUDE.md
@@ -72,6 +74,10 @@ skills/ahc-growth-hacker/
 **/EDITORIAL_FINAL_REVIEW.md
 **/EDITORIAL_BRIEF*.md
 **/EDITOR_*_ASSESSMENT.md
+**/STAGE_*_REVIEW.md
+**/STAGE_*_BRIEF.md
+**/DATA_INVENTORY.md
+**/hero_v*.py
 **/CHARTS_GENERATED.md
 **/CHARTS_REGENERATION_SUMMARY.md
 **/CHART_GENERATION_SUMMARY.md
@@ -149,6 +155,12 @@ skills/ahc-growth-hacker/
 __pycache__/
 *.pyc
 *.pyo
+
+# Node / npm
+node_modules/
+package-lock.json
+*.tmp
+.~lock.*
 
 # Jupyter
 .ipynb_checkpoints/
