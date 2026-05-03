@@ -1,0 +1,143 @@
+{
+  "issue": 10,
+  "pass": 3,
+  "title": "The Procedure Mill",
+  "booked_usd": 7628202842.977656,
+  "booked_usd_b": 7.6282028429776565,
+  "range_high_usd": 13619442541.17575,
+  "range_high_usd_b": 13.61944254117575,
+  "components_v3": {
+    "A_schwartz_medicare_ffs": 2085582277.6721745,
+    "A_schwartz_medicare_ffs_lower_bound_minshare": 1963670770.5119553,
+    "A_schwartz_medicare_ffs_upper_bound_maxshare": 2207493784.8323927,
+    "B_state_variance_compression_p25": 754517316.607731,
+    "C_all_payer_extension": 4407346483.454013,
+    "D_wiser_pilot_savings_net": 31274081.85146949,
+    "E_defensive_medicine_booked": 1104000000.0,
+    "E_book_note": "Booked at low end: DiD persistence signal opposite-sign"
+  },
+  "components_pass1": {
+    "A_schwartz_medicare_ffs": 2672866407.3042736,
+    "B_state_variance_compression_p25": 754517316.607731,
+    "B_state_variance_compression_p10": 972028765.1087692,
+    "C_all_payer_extension": 4711983622.000973,
+    "D_wiser_pilot_savings_net": 31274081.85146949,
+    "E_defensive_medicine_booked": 1200600000.0,
+    "E_book_note": "Booked at low end: DiD persistence signal opposite-sign"
+  },
+  "components_pass2": {
+    "A_schwartz_medicare_ffs": 2207493784.8323927,
+    "B_state_variance_compression_p25": 754517316.607731,
+    "C_all_payer_extension": 4664975375.935245,
+    "D_wiser_pilot_savings_net": 31274081.85146949,
+    "E_defensive_medicine_booked": 1200600000.0
+  },
+  "pass3_corrections": {
+    "C1_mean_share_dedup": {
+      "summary": "Pass 2 used max-share dedup on the 106 HCPCS that map to two Schwartz/Mafi measures and labeled it 'conservative.' That label was wrong: max-share applies the higher of the two published low-value shares to the unconditional Medicare paid for the HCPCS, when the paid pool is split between two clinical contexts whose true blended share is somewhere between min and max. Pass 3 replaces max-share with mean-share (50/50 prior), which is the maximum-entropy point estimate when per-context volume is unobservable from public PUF data. min-share and max-share are reported as bounds.",
+      "n_hcpcs_dual_mapped": 106,
+      "n_hcpcs_dual_mapped_with_paid": 78,
+      "dual_mapped_unconditional_paid_usd": 2241883073.5929985,
+      "component_a_min_share_lower_bound_usd": 1963670770.5119553,
+      "component_a_mean_share_booked_usd": 2085582277.6721745,
+      "component_a_max_share_upper_bound_usd": 2207493784.8323927,
+      "pass2_value_max_share_usd": 2207493784.8323927,
+      "delta_pass2_to_pass3_usd": -121911507.16021824
+    },
+    "C2_bls_corrected_medical_cpi": {
+      "summary": "Pass 1 hardcoded a 1.74x medical CPI factor to inflate Mello 2010's 2008-dollar $46B all-payer defensive-medicine baseline to 2024 dollars. The red team verified that the actual BLS CPI-U Medical Care (CUUR0000SAM) annual-average ratio 2008 -> 2024 is approximately 1.62x, NOT 1.74x. Pass 3 replaces 1.74 with 1.60 (a 1pp downward rounding from 1.62, on the conservative side) and documents the BLS series ID.",
+      "bls_series_id": "CUUR0000SAM",
+      "bls_medical_cpi_2008": 358.6,
+      "bls_medical_cpi_2024": 581.0,
+      "bls_ratio_2008_to_2024_computed": 1.6201896263245956,
+      "medical_cpi_factor_pass1_2": 1.74,
+      "medical_cpi_factor_pass3_booked": 1.6,
+      "mello_2008_baseline_usd": 46000000000.0,
+      "mello_2024_inflated_pass3_usd": 73600000000.0,
+      "mello_2024_inflated_pass1_2_usd": 80040000000.0,
+      "procedural_share": 0.3,
+      "medicare_share": 0.25,
+      "component_e_central_pass3": 5520000000.0,
+      "component_e_booked_pass3": 1104000000.0,
+      "pass2_value_e_usd": 1200600000.0,
+      "delta_pass2_to_pass3_usd": -96600000.0
+    }
+  },
+  "delta_vs_pass2": {
+    "headline_usd": -476140399.6414499,
+    "headline_pct": -0.058751262796659896,
+    "component_a_usd": -121911507.16021824,
+    "component_c_usd": -257628892.4812317,
+    "component_e_usd": -96600000.0
+  },
+  "delta_vs_pass1": {
+    "headline_usd": -988521268.179059,
+    "headline_pct": -0.11472123923512265
+  },
+  "originality_gate_v3": {
+    "headline_usd": 7628202842.977656,
+    "our_scope": [
+      "all_payer",
+      "schwartz_31_plus_defensive_med",
+      "2023"
+    ],
+    "checks": {
+      "a_script_ran": true,
+      "b_headline_produced": true,
+      "c_original_vs_curated_separated": true,
+      "d_headline_distinct_from_same_scope_priors": true,
+      "e_sensitivity_analysis_present": true
+    },
+    "priors_within_5pct_any_scope": [],
+    "priors_within_5pct_same_scope": [],
+    "priors_checked": {
+      "Schwartz 2014 JAMA IM (narrow Medicare 2009 FFS)": 1900000000.0,
+      "Mafi 2017 broad measure (Medicare 2014 FFS)": 8500000000.0,
+      "Kim & Fendrick 2025 JAMA Health Forum (5% Medicare FFS CY2018-2020)": 3600000000.0,
+      "Mello 2010 Health Affairs (all-payer defensive med 2008)": 46000000000.0,
+      "CMS WISeR Fact Sheet 2022 (Medicare FFS unnecessary 17 services)": 5800000000.0,
+      "CMS-1832-F skin substitute reduction CY2026": 19600000000.0
+    },
+    "priors_scope": {
+      "Schwartz 2014 JAMA IM (narrow Medicare 2009 FFS)": [
+        "medicare_ffs",
+        "schwartz_narrow",
+        "2009"
+      ],
+      "Mafi 2017 broad measure (Medicare 2014 FFS)": [
+        "medicare_ffs",
+        "mafi_broad",
+        "2014"
+      ],
+      "Kim & Fendrick 2025 JAMA Health Forum (5% Medicare FFS CY2018-2020)": [
+        "medicare_ffs",
+        "47_services",
+        "2018_2020"
+      ],
+      "Mello 2010 Health Affairs (all-payer defensive med 2008)": [
+        "all_payer",
+        "defensive_medicine",
+        "2008"
+      ],
+      "CMS WISeR Fact Sheet 2022 (Medicare FFS unnecessary 17 services)": [
+        "medicare_ffs",
+        "wiser_17",
+        "2022"
+      ],
+      "CMS-1832-F skin substitute reduction CY2026": [
+        "medicare_ffs",
+        "skin_substitute",
+        "2026"
+      ]
+    },
+    "all_pass": true
+  },
+  "component_a_vs_kim_fendrick": {
+    "kim_fendrick_usd": 3600000000.0,
+    "component_a_v3_usd": 2085582277.6721745,
+    "ratio": 0.5793284104644929,
+    "within_5pct": false,
+    "framed_as_extension": true,
+    "note": "Component A scope (Medicare FFS, 31 Schwartz/Mafi measures, CY2023) is the same scope-class as Kim & Fendrick (Medicare FFS, 47 services, CY2018-2020), but our list is narrower and our year is later. Component A at $1.97B is 0.55x of Kim & Fendrick's $3.6B, consistent with the narrower measure set. Headline is multi-payer + defensive-medicine, different scope from K&F."
+  }
+}

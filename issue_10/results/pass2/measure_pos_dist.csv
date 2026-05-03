@@ -1,0 +1,461 @@
+measure_key,measure_name,pos_group,paid,measure_total_paid,share
+arth,Arthroscopy for knee OA,asc,48942783.25,62020213.15,0.7891424547611379
+arth,Arthroscopy for knee OA,hopd_on_campus,12065753.16,62020213.15,0.1945454964951213
+arth,Arthroscopy for knee OA,other,598299.4500000001,62020213.15,0.009646846078277305
+arth,Arthroscopy for knee OA,inpatient,342194.74,62020213.15,0.00551747120204794
+arth,Arthroscopy for knee OA,office,63237.82,62020213.15,0.0010196324196283418
+arth,Arthroscopy for knee OA,er,5966.0,62020213.15,9.61944452782004e-05
+arth,Arthroscopy for knee OA,indep_clinic,1128.5,62020213.15,1.8195680773793018e-05
+arth,Arthroscopy for knee OA,home,850.23,62020213.15,1.3708917735314169e-05
+arth,Arthroscopy for knee OA,esrd,0.0,62020213.15,0.0
+arth,Arthroscopy for knee OA,nf,0.0,62020213.15,0.0
+arth,Arthroscopy for knee OA,snf,0.0,62020213.15,0.0
+backscan,Imaging for low back pain,office,215973566.52999997,339860401.98,0.6354772879445647
+backscan,Imaging for low back pain,hopd_on_campus,61582692.64,339860401.98,0.18119996410650982
+backscan,Imaging for low back pain,inpatient,20321893.26,339860401.98,0.0597948249975762
+backscan,Imaging for low back pain,er,17055898.27,339860401.98,0.050185011759633295
+backscan,Imaging for low back pain,indep_clinic,11955964.59,339860401.98,0.03517904563269357
+backscan,Imaging for low back pain,other,11129932.52,339860401.98,0.03274854162225987
+backscan,Imaging for low back pain,nf,873357.46,339860401.98,0.002569753507357397
+backscan,Imaging for low back pain,home,389804.39,339860401.98,0.0011469544193116652
+backscan,Imaging for low back pain,alf,327468.49,339860401.98,0.0009635382294971532
+backscan,Imaging for low back pain,snf,102609.28,339860401.98,0.0003019159613835751
+backscan,Imaging for low back pain,asc,79392.37999999999,339860401.98,0.0002336029132475164
+backscan,Imaging for low back pain,fqhc,27974.14,339860401.98,8.23106776694927e-05
+backscan,Imaging for low back pain,custodial,13641.039999999999,339860401.98,4.0137185504778936e-05
+backscan,Imaging for low back pain,rehab_inp,9810.16,339860401.98,2.8865263334141835e-05
+backscan,Imaging for low back pain,rural_hc,8372.73,339860401.98,2.4635791493275276e-05
+backscan,Imaging for low back pain,group_home,3383.8399999999997,339860401.98,9.956558576068331e-06
+backscan,Imaging for low back pain,phl_state,2656.72,339860401.98,7.817091913391962e-06
+backscan,Imaging for low back pain,indep_lab,759.5,339860401.98,2.234741074791922e-06
+backscan,Imaging for low back pain,rehab_outp,746.59,339860401.98,2.1967548900973024e-06
+backscan,Imaging for low back pain,inp_psy,460.76,339860401.98,1.3557331107585598e-06
+backscan,Imaging for low back pain,cmhc,8.37,339860401.98,2.4627758783421183e-08
+backscan,Imaging for low back pain,psy_partial,8.32,339860401.98,2.4480639555324283e-08
+bmd,Frequent BMD test,office,48544850.019999996,63890846.81,0.7598091501958604
+bmd,Frequent BMD test,hopd_on_campus,11251592.38,63890846.81,0.1761064838201352
+bmd,Frequent BMD test,other,2741633.71,63890846.81,0.0429112125897021
+bmd,Frequent BMD test,indep_clinic,1300781.59,63890846.81,0.020359435739962767
+bmd,Frequent BMD test,inpatient,30083.02,63890846.81,0.0004708502313243952
+bmd,Frequent BMD test,er,10702.02,63890846.81,0.00016750474495706564
+bmd,Frequent BMD test,asc,3023.74,63890846.81,4.732665398835711e-05
+bmd,Frequent BMD test,phl_state,2829.59,63890846.81,4.4287877548636925e-05
+bmd,Frequent BMD test,fqhc,2282.34,63890846.81,3.5722487867272644e-05
+bmd,Frequent BMD test,nf,1630.71,63890846.81,2.552337433951128e-05
+bmd,Frequent BMD test,home,839.6700000000001,63890846.81,1.3142258115579985e-05
+bmd,Frequent BMD test,rural_hc,189.54,63890846.81,2.966622129201984e-06
+bmd,Frequent BMD test,alf,149.39000000000001,63890846.81,2.3382066048405846e-06
+bmd,Frequent BMD test,snf,122.74999999999999,63890846.81,1.9212454698720242e-06
+bmd,Frequent BMD test,indep_lab,67.96,63890846.81,1.063689141608984e-06
+bmd,Frequent BMD test,custodial,59.09,63890846.81,9.248586135620198e-07
+bmd,Frequent BMD test,rehab_inp,9.29,63890846.81,1.4540423963430638e-07
+cea,Carotid endarterectomy asymp,inpatient,19114565.36,19875991.14,0.9616911793411073
+cea,Carotid endarterectomy asymp,hopd_on_campus,750630.17,19875991.14,0.03776567239906709
+cea,Carotid endarterectomy asymp,er,6672.27,19875991.14,0.00033569495744905026
+cea,Carotid endarterectomy asymp,other,2424.2400000000002,19875991.14,0.00012196825722674377
+cea,Carotid endarterectomy asymp,psy_partial,1699.1,19875991.14,8.548504514980378e-05
+cea,Carotid endarterectomy asymp,office,0.0,19875991.14,0.0
+cerv,Cervical screen over 65,office,17660672.65,27308961.65,0.646698797132772
+cerv,Cervical screen over 65,indep_lab,9104480.01,27308961.65,0.33338799646379086
+cerv,Cervical screen over 65,hopd_on_campus,374525.53,27308961.65,0.013714381923415241
+cerv,Cervical screen over 65,other,151736.29,27308961.65,0.005556281924765163
+cerv,Cervical screen over 65,indep_clinic,10746.71,27308961.65,0.0003935232008354298
+cerv,Cervical screen over 65,inpatient,2949.29,27308961.65,0.0001079971489871714
+cerv,Cervical screen over 65,fqhc,1657.1899999999998,27308961.65,6.068301026011364e-05
+cerv,Cervical screen over 65,rural_hc,702.27,27308961.65,2.5715734234076967e-05
+cerv,Cervical screen over 65,phl_state,656.31,27308961.65,2.4032770209701474e-05
+cerv,Cervical screen over 65,er,238.43,27308961.65,8.730833601650323e-06
+cerv,Cervical screen over 65,alf,218.25,27308961.65,7.991882034811822e-06
+cerv,Cervical screen over 65,home,167.01,27308961.65,6.1155748849206065e-06
+cerv,Cervical screen over 65,snf,135.4,27308961.65,4.958079392960003e-06
+cerv,Cervical screen over 65,asc,76.31,27308961.65,2.7943208159289354e-06
+cerv,Cervical screen over 65,custodial,0.0,27308961.65,0.0
+cerv,Cervical screen over 65,nf,0.0,27308961.65,0.0
+cncr,Cancer screen on dialysis,asc,744288015.2,1118846294.8,0.6652281181599173
+cncr,Cancer screen on dialysis,hopd_on_campus,179874544.83,1118846294.8,0.16076787818487043
+cncr,Cancer screen on dialysis,office,81910376.78999999,1118846294.8,0.07320967783572267
+cncr,Cancer screen on dialysis,indep_lab,78744237.42,1118846294.8,0.07037985269824393
+cncr,Cancer screen on dialysis,inpatient,20855716.11,1118846294.8,0.018640376436808128
+cncr,Cancer screen on dialysis,other,12933006.969999999,1118846294.8,0.01155923474931992
+cncr,Cancer screen on dialysis,er,105341.78,1118846294.8,9.415214626851889e-05
+cncr,Cancer screen on dialysis,indep_clinic,50659.399999999994,1118846294.8,4.5278247991209235e-05
+cncr,Cancer screen on dialysis,nf,31592.520000000004,1118846294.8,2.823669358948661e-05
+cncr,Cancer screen on dialysis,fqhc,20364.210000000003,1118846294.8,1.8201079178297874e-05
+cncr,Cancer screen on dialysis,home,15277.49,1118846294.8,1.3654681676119718e-05
+cncr,Cancer screen on dialysis,alf,9131.89,1118846294.8,8.16188071805911e-06
+cncr,Cancer screen on dialysis,rural_hc,3157.57,1118846294.8,2.8221660246588504e-06
+cncr,Cancer screen on dialysis,snf,2554.49,1118846294.8,2.283146498202981e-06
+cncr,Cancer screen on dialysis,phl_state,1071.69,1118846294.8,9.578527497305343e-07
+cncr,Cancer screen on dialysis,inp_psy,381.07000000000005,1118846294.8,3.405919130903664e-07
+cncr,Cancer screen on dialysis,rehab_inp,294.98,1118846294.8,2.6364658074211107e-07
+cncr,Cancer screen on dialysis,rehab_outp,249.67,1118846294.8,2.2314950781030194e-07
+cncr,Cancer screen on dialysis,custodial,223.63,1118846294.8,1.998755334305997e-07
+cncr,Cancer screen on dialysis,group_home,97.09,1118846294.8,8.677688834582537e-08
+cncr,Cancer screen on dialysis,ambulance_land,0.0,1118846294.8,0.0
+cncr,Cancer screen on dialysis,cmhc,0.0,1118846294.8,0.0
+cncr,Cancer screen on dialysis,esrd,0.0,1118846294.8,0.0
+cncr,Cancer screen on dialysis,psy_partial,0.0,1118846294.8,0.0
+colon,Colon cancer screen 85+,asc,744286872.5100001,1000110350.65,0.7442047490322113
+colon,Colon cancer screen 85+,hopd_on_campus,179487406.26000002,1000110350.65,0.17946760189347713
+colon,Colon cancer screen 85+,office,39120010.79,1000110350.65,0.03911569434770353
+colon,Colon cancer screen 85+,inpatient,20852712.96,1000110350.65,0.020850412103471615
+colon,Colon cancer screen 85+,other,12768969.379999999,1000110350.65,0.012767560471403065
+colon,Colon cancer screen 85+,indep_lab,3443146.5500000003,1000110350.65,0.0034427666384636477
+colon,Colon cancer screen 85+,er,105085.33,1000110350.65,0.00010507373504503985
+colon,Colon cancer screen 85+,indep_clinic,31634.33,1000110350.65,3.163083951629933e-05
+colon,Colon cancer screen 85+,fqhc,4213.1900000000005,1000110350.65,4.2127251230444016e-06
+colon,Colon cancer screen 85+,home,2261.32,1000110350.65,2.261070489401799e-06
+colon,Colon cancer screen 85+,rural_hc,2174.2,1000110350.65,2.1739601020896603e-06
+colon,Colon cancer screen 85+,nf,2076.48,1000110350.65,2.0762508843653474e-06
+colon,Colon cancer screen 85+,snf,1698.29,1000110350.65,1.6981026132728587e-06
+colon,Colon cancer screen 85+,alf,520.04,1000110350.65,5.199826195799406e-07
+colon,Colon cancer screen 85+,phl_state,415.38,1000110350.65,4.153341676046376e-07
+colon,Colon cancer screen 85+,inp_psy,381.07000000000005,1000110350.65,3.8102795331768326e-07
+colon,Colon cancer screen 85+,rehab_inp,294.98,1000110350.65,2.949474523569166e-07
+colon,Colon cancer screen 85+,rehab_outp,249.67,1000110350.65,2.49642451793177e-07
+colon,Colon cancer screen 85+,custodial,223.63,1000110350.65,2.23605325007042e-07
+colon,Colon cancer screen 85+,group_home,4.29,1000110350.65,4.289526647946207e-09
+colon,Colon cancer screen 85+,ambulance_land,0.0,1000110350.65,0.0
+colon,Colon cancer screen 85+,cmhc,0.0,1000110350.65,0.0
+colon,Colon cancer screen 85+,esrd,0.0,1000110350.65,0.0
+colon,Colon cancer screen 85+,psy_partial,0.0,1000110350.65,0.0
+ctdasym,Carotid imaging asymptomatic,office,152631484.35999998,223688659.74,0.6823389461826456
+ctdasym,Carotid imaging asymptomatic,er,25488754.63,223688659.74,0.11394746009755853
+ctdasym,Carotid imaging asymptomatic,hopd_on_campus,20689938.67,223688659.74,0.09249435663859104
+ctdasym,Carotid imaging asymptomatic,inpatient,18869940.04,223688659.74,0.0843580540110218
+ctdasym,Carotid imaging asymptomatic,other,2703755.2399999998,223688659.74,0.012087135946644121
+ctdasym,Carotid imaging asymptomatic,home,1573260.0399999998,223688659.74,0.007033257930145618
+ctdasym,Carotid imaging asymptomatic,indep_clinic,1270039.74,223688659.74,0.005677711786892572
+ctdasym,Carotid imaging asymptomatic,nf,245470.51,223688659.74,0.0010973757466530387
+ctdasym,Carotid imaging asymptomatic,alf,90981.43000000001,223688659.74,0.0004067324204353964
+ctdasym,Carotid imaging asymptomatic,indep_lab,77275.85,223688659.74,0.00034546163444235404
+ctdasym,Carotid imaging asymptomatic,snf,17729.95,223688659.74,7.926172931881325e-05
+ctdasym,Carotid imaging asymptomatic,custodial,16443.260000000002,223688659.74,7.350958255600661e-05
+ctdasym,Carotid imaging asymptomatic,fqhc,6151.97,223688659.74,2.750237766702442e-05
+ctdasym,Carotid imaging asymptomatic,asc,4540.28,223688659.74,2.0297318627047532e-05
+ctdasym,Carotid imaging asymptomatic,rehab_inp,1708.4099999999999,223688659.74,7.637445733662743e-06
+ctdasym,Carotid imaging asymptomatic,group_home,850.6999999999999,223688659.74,3.8030537667345045e-06
+ctdasym,Carotid imaging asymptomatic,rural_hc,146.35999999999999,223688659.74,6.543022796511838e-07
+ctdasym,Carotid imaging asymptomatic,inp_psy,127.94,223688659.74,5.719556822804896e-07
+ctdasym,Carotid imaging asymptomatic,rehab_outp,60.36,223688659.74,2.6983933861536935e-07
+ctdsync,Carotid imaging for syncope,office,152631484.35999998,223688659.74,0.6823389461826456
+ctdsync,Carotid imaging for syncope,er,25488754.63,223688659.74,0.11394746009755853
+ctdsync,Carotid imaging for syncope,hopd_on_campus,20689938.67,223688659.74,0.09249435663859104
+ctdsync,Carotid imaging for syncope,inpatient,18869940.04,223688659.74,0.0843580540110218
+ctdsync,Carotid imaging for syncope,other,2703755.2399999998,223688659.74,0.012087135946644121
+ctdsync,Carotid imaging for syncope,home,1573260.0399999998,223688659.74,0.007033257930145618
+ctdsync,Carotid imaging for syncope,indep_clinic,1270039.74,223688659.74,0.005677711786892572
+ctdsync,Carotid imaging for syncope,nf,245470.51,223688659.74,0.0010973757466530387
+ctdsync,Carotid imaging for syncope,alf,90981.43000000001,223688659.74,0.0004067324204353964
+ctdsync,Carotid imaging for syncope,indep_lab,77275.85,223688659.74,0.00034546163444235404
+ctdsync,Carotid imaging for syncope,snf,17729.95,223688659.74,7.926172931881325e-05
+ctdsync,Carotid imaging for syncope,custodial,16443.260000000002,223688659.74,7.350958255600661e-05
+ctdsync,Carotid imaging for syncope,fqhc,6151.97,223688659.74,2.750237766702442e-05
+ctdsync,Carotid imaging for syncope,asc,4540.28,223688659.74,2.0297318627047532e-05
+ctdsync,Carotid imaging for syncope,rehab_inp,1708.4099999999999,223688659.74,7.637445733662743e-06
+ctdsync,Carotid imaging for syncope,group_home,850.6999999999999,223688659.74,3.8030537667345045e-06
+ctdsync,Carotid imaging for syncope,rural_hc,146.35999999999999,223688659.74,6.543022796511838e-07
+ctdsync,Carotid imaging for syncope,inp_psy,127.94,223688659.74,5.719556822804896e-07
+ctdsync,Carotid imaging for syncope,rehab_outp,60.36,223688659.74,2.6983933861536935e-07
+eeg,EEG for headache,office,62184814.39,87808444.85000001,0.7081871737533681
+eeg,EEG for headache,custodial,10409945.72,87808444.85000001,0.11855289930009505
+eeg,EEG for headache,inpatient,9212855.8,87808444.85000001,0.10491992900839993
+eeg,EEG for headache,hopd_on_campus,3229376.9,87808444.85000001,0.03677752072157328
+eeg,EEG for headache,home,1538539.43,87808444.85000001,0.017521542861033825
+eeg,EEG for headache,alf,408381.93999999994,87808444.85000001,0.004650827613421739
+eeg,EEG for headache,nf,279051.32,87808444.85000001,0.0031779553831831698
+eeg,EEG for headache,other,167638.38999999998,87808444.85000001,0.001909137444426565
+eeg,EEG for headache,er,150512.59,87808444.85000001,0.0017141015338230305
+eeg,EEG for headache,indep_clinic,150207.47999999998,87808444.85000001,0.0017106268110839908
+eeg,EEG for headache,indep_lab,21787.13,87808444.85000001,0.0002481211236256167
+eeg,EEG for headache,snf,16415.68,87808444.85000001,0.0001869487613411479
+eeg,EEG for headache,group_home,16225.59,87808444.85000001,0.00018478393539160827
+eeg,EEG for headache,rehab_inp,8640.77,87808444.85000001,9.840477205536113e-05
+eeg,EEG for headache,asc,5739.1,87808444.85000001,6.53593172023932e-05
+eeg,EEG for headache,fqhc,4819.969999999999,87808444.85000001,5.489187296545087e-05
+eeg,EEG for headache,inp_psy,3220.7799999999997,87808444.85000001,3.6679615559778353e-05
+eeg,EEG for headache,phl_state,271.87,87808444.85000001,3.096171449846603e-06
+eeg,EEG for headache,ambulance_land,0.0,87808444.85000001,0.0
+eeg,EEG for headache,rural_hc,0.0,87808444.85000001,0.0
+head,Head imaging for headache,office,113314354.87,372049186.83,0.30456821001406087
+head,Head imaging for headache,er,101100955.31,372049186.83,0.2717408312901271
+head,Head imaging for headache,inpatient,74448356.31,372049186.83,0.20010353185912916
+head,Head imaging for headache,hopd_on_campus,66435478.54,372049186.83,0.17856638555255408
+head,Head imaging for headache,other,9463203.620000001,372049186.83,0.025435356278104195
+head,Head imaging for headache,indep_clinic,7237037.99,372049186.83,0.019451831226033056
+head,Head imaging for headache,snf,18192.57,372049186.83,4.889829260213572e-05
+head,Head imaging for headache,indep_lab,10271.88,372049186.83,2.7608930118945585e-05
+head,Head imaging for headache,asc,6593.219999999999,372049186.83,1.7721366511177546e-05
+head,Head imaging for headache,rehab_inp,4727.88,372049186.83,1.2707674596155764e-05
+head,Head imaging for headache,inp_psy,3816.67,372049186.83,1.025850918401267e-05
+head,Head imaging for headache,nf,2690.45,372049186.83,7.231436313363975e-06
+head,Head imaging for headache,fqhc,2482.19,372049186.83,6.671671617264371e-06
+head,Head imaging for headache,rural_hc,528.7,372049186.83,1.4210486643035679e-06
+head,Head imaging for headache,rehab_outp,290.69,372049186.83,7.813214227849519e-07
+head,Head imaging for headache,home,123.21,372049186.83,3.31165889784079e-07
+head,Head imaging for headache,alf,82.73,372049186.83,2.2236307168116922e-07
+head,Head imaging for headache,esrd,0.0,372049186.83,0.0
+head,Head imaging for headache,psy_partial,0.0,372049186.83,0.0
+homocy,Homocysteine testing,indep_lab,3883941.7399999998,4423413.67,0.8780417183998077
+homocy,Homocysteine testing,office,537961.77,4423413.67,0.12161688011422184
+homocy,Homocysteine testing,indep_clinic,368.76,4423413.67,8.336547913231909e-05
+homocy,Homocysteine testing,home,333.64,4423413.67,7.542590969114585e-05
+homocy,Homocysteine testing,nf,316.08,4423413.67,7.145612497055921e-05
+homocy,Homocysteine testing,alf,245.83999999999997,4423413.67,5.557698608821272e-05
+homocy,Homocysteine testing,hopd_on_campus,175.6,4423413.67,3.9697847205866235e-05
+homocy,Homocysteine testing,snf,70.24,4423413.67,1.5879138882346492e-05
+homocy,Homocysteine testing,er,0.0,4423413.67,0.0
+homocy,Homocysteine testing,inpatient,0.0,4423413.67,0.0
+homocy,Homocysteine testing,other,0.0,4423413.67,0.0
+hyperco,Hypercoagulability after DVT,indep_lab,12330500.04,13444093.459999999,0.9171685749349142
+hyperco,Hypercoagulability after DVT,office,1110342.1600000001,13444093.459999999,0.08258958949546014
+hyperco,Hypercoagulability after DVT,nf,1324.69,13444093.459999999,9.85332334933054e-05
+hyperco,Hypercoagulability after DVT,indep_clinic,688.3399999999999,13444093.459999999,5.1200179621482636e-05
+hyperco,Hypercoagulability after DVT,home,565.3,13444093.459999999,4.2048205160275644e-05
+hyperco,Hypercoagulability after DVT,alf,350.67999999999995,13444093.459999999,2.6084317328154008e-05
+hyperco,Hypercoagulability after DVT,hopd_on_campus,252.01,13444093.459999999,1.8745034817691605e-05
+hyperco,Hypercoagulability after DVT,snf,70.24,13444093.459999999,5.2245992047722645e-06
+hyperco,Hypercoagulability after DVT,er,0.0,13444093.459999999,0.0
+hyperco,Hypercoagulability after DVT,fqhc,0.0,13444093.459999999,0.0
+hyperco,Hypercoagulability after DVT,inpatient,0.0,13444093.459999999,0.0
+hyperco,Hypercoagulability after DVT,other,0.0,13444093.459999999,0.0
+ivc,IVC filter,inpatient,2615529.42,3880872.89,0.6739539000979751
+ivc,IVC filter,office,778707.4199999999,3880872.89,0.20065264750271167
+ivc,IVC filter,hopd_on_campus,448145.92,3880872.89,0.11547554704890114
+ivc,IVC filter,er,29633.47,3880872.89,0.007635774435271443
+ivc,IVC filter,other,6631.4,3880872.89,0.0017087392934428212
+ivc,IVC filter,asc,2225.26,3880872.89,0.0005733916216977671
+ivc,IVC filter,rehab_inp,0.0,3880872.89,0.0
+pci,PCI for stable CAD,hopd_on_campus,51012976.7,120761485.72,0.4224275347048952
+pci,PCI for stable CAD,inpatient,48116171.31,120761485.72,0.3984397096733566
+pci,PCI for stable CAD,asc,21217169.18,120761485.72,0.17569483394063695
+pci,PCI for stable CAD,er,178846.49,120761485.72,0.0014809894804927875
+pci,PCI for stable CAD,office,125786.84000000001,120761485.72,0.0010416138825225445
+pci,PCI for stable CAD,other,110077.45000000001,120761485.72,0.0009115277883813701
+pci,PCI for stable CAD,rehab_inp,457.75,120761485.72,3.7905297145925177e-06
+pci,PCI for stable CAD,alf,0.0,120761485.72,0.0
+pci,PCI for stable CAD,group_home,0.0,120761485.72,0.0
+pci,PCI for stable CAD,home,0.0,120761485.72,0.0
+pci,PCI for stable CAD,inp_psy,0.0,120761485.72,0.0
+pci,PCI for stable CAD,nf,0.0,120761485.72,0.0
+pft,Preop pulmonary function,office,12076586.67,13518506.8,0.8933373225806269
+pft,Preop pulmonary function,hopd_on_campus,1111649.65,13518506.8,0.08223168922768895
+pft,Preop pulmonary function,other,171894.56,13518506.8,0.012715499022421618
+pft,Preop pulmonary function,inpatient,88978.58,13518506.8,0.006581982856272262
+pft,Preop pulmonary function,home,29304.010000000002,13518506.8,0.002167695769476552
+pft,Preop pulmonary function,nf,21372.190000000002,13518506.8,0.0015809578910002103
+pft,Preop pulmonary function,indep_clinic,15373.44,13518506.8,0.001137214355656499
+pft,Preop pulmonary function,custodial,1957.8899999999999,13518506.8,0.0001448303447241673
+pft,Preop pulmonary function,er,612.88,13518506.8,4.533636806692289e-05
+pft,Preop pulmonary function,snf,203.20999999999998,13518506.8,1.5031985633206175e-05
+pft,Preop pulmonary function,indep_lab,195.27,13518506.8,1.4444642658314896e-05
+pft,Preop pulmonary function,rural_hc,119.75,13518506.8,8.858226856830075e-06
+pft,Preop pulmonary function,fqhc,74.67,13518506.8,5.523539034651371e-06
+pft,Preop pulmonary function,group_home,61.01,13518506.8,4.513072405304408e-06
+pft,Preop pulmonary function,phl_state,38.870000000000005,13518506.8,2.8753175609602092e-06
+pft,Preop pulmonary function,alf,38.42,13518506.8,2.8420298608719124e-06
+pft,Preop pulmonary function,rehab_inp,25.53,13518506.8,1.888522185009368e-06
+pft,Preop pulmonary function,asc,20.2,13518506.8,1.4942478706302089e-06
+plant,Imaging for plantar fasciitis,office,71932345.75,93600639.38,0.7685027177856015
+plant,Imaging for plantar fasciitis,hopd_on_campus,8166563.07,93600639.38,0.08724900945222583
+plant,Imaging for plantar fasciitis,inpatient,4993760.859999999,93600639.38,0.05335178149506354
+plant,Imaging for plantar fasciitis,other,2987195.0,93600639.38,0.03191425848997229
+plant,Imaging for plantar fasciitis,er,2400720.43,93600639.38,0.025648547337946616
+plant,Imaging for plantar fasciitis,indep_clinic,1199445.24,93600639.38,0.01281449836181664
+plant,Imaging for plantar fasciitis,nf,877811.22,93600639.38,0.00937826093725985
+plant,Imaging for plantar fasciitis,home,652987.6100000001,93600639.38,0.006976315699607566
+plant,Imaging for plantar fasciitis,alf,232476.65,93600639.38,0.0024837079269960003
+plant,Imaging for plantar fasciitis,snf,99849.79,93600639.38,0.001066763973637292
+plant,Imaging for plantar fasciitis,asc,18462.530000000002,93600639.38,0.00019724790473968666
+plant,Imaging for plantar fasciitis,fqhc,11347.54,93600639.38,0.00012123357356493307
+plant,Imaging for plantar fasciitis,rehab_inp,8994.52,93600639.38,9.609464272443734e-05
+plant,Imaging for plantar fasciitis,custodial,8704.22,93600639.38,9.299316818406118e-05
+plant,Imaging for plantar fasciitis,rural_hc,4458.92,93600639.38,4.7637708775659866e-05
+plant,Imaging for plantar fasciitis,group_home,4260.3,93600639.38,4.551571472395641e-05
+plant,Imaging for plantar fasciitis,phl_state,876.01,93600639.38,9.35901726529424e-06
+plant,Imaging for plantar fasciitis,indep_lab,211.56,93600639.38,2.260240970588977e-06
+plant,Imaging for plantar fasciitis,inp_psy,120.92,93600639.38,1.2918715171280917e-06
+plant,Imaging for plantar fasciitis,rehab_outp,40.71,93600639.38,4.3493292641651185e-07
+plant,Imaging for plantar fasciitis,psy_partial,6.53,93600639.38,6.976448070498213e-08
+preopec,Preop echocardiogram,office,366526495.53000003,618083087.09,0.5930052175600617
+preopec,Preop echocardiogram,inpatient,121519566.94,618083087.09,0.1966071705862829
+preopec,Preop echocardiogram,hopd_on_campus,106270209.76999998,618083087.09,0.17193515239242554
+preopec,Preop echocardiogram,other,14929057.57,618083087.09,0.024153803722874165
+preopec,Preop echocardiogram,er,3667961.38,618083087.09,0.0059344147358393945
+preopec,Preop echocardiogram,home,2040691.8,618083087.09,0.003301646400984358
+preopec,Preop echocardiogram,nf,1439264.68,618083087.09,0.0023285941810448317
+preopec,Preop echocardiogram,indep_clinic,726327.15,618083087.09,0.0011751286601606014
+preopec,Preop echocardiogram,alf,545228.2699999999,618083087.09,0.0008821277938003315
+preopec,Preop echocardiogram,indep_lab,159820.3,618083087.09,0.0002585741356432364
+preopec,Preop echocardiogram,snf,122059.93000000001,618083087.09,0.00019748142693027073
+preopec,Preop echocardiogram,custodial,46017.25,618083087.09,7.445155992967554e-05
+preopec,Preop echocardiogram,asc,45740.08,618083087.09,7.40031250739267e-05
+preopec,Preop echocardiogram,rehab_inp,26101.47,618083087.09,4.222971077058338e-05
+preopec,Preop echocardiogram,group_home,8853.32,618083087.09,1.432383474798244e-05
+preopec,Preop echocardiogram,fqhc,7040.84,618083087.09,1.1391413463761018e-05
+preopec,Preop echocardiogram,inp_psy,2381.0,618083087.09,3.852232895111235e-06
+preopec,Preop echocardiogram,rural_hc,251.17000000000002,618083087.09,4.0636931384506037e-07
+preopec,Preop echocardiogram,rehab_outp,18.64,618083087.09,3.015775773409215e-08
+preopec,Preop echocardiogram,esrd,0.0,618083087.09,0.0
+preopst,Preop stress test,office,397850064.45,479731468.92,0.8293182545344872
+preopst,Preop stress test,hopd_on_campus,60865293.510000005,479731468.92,0.12687367298839822
+preopst,Preop stress test,inpatient,10717363.889999999,479731468.92,0.022340339511451198
+preopst,Preop stress test,other,8778914.87,479731468.92,0.018299643527166592
+preopst,Preop stress test,er,916948.6,479731468.92,0.001911378884658722
+preopst,Preop stress test,indep_clinic,587168.33,479731468.92,0.0012239520816132161
+preopst,Preop stress test,asc,10861.01,479731468.92,2.263976975379779e-05
+preopst,Preop stress test,home,2519.46,479731468.92,5.251813072992602e-06
+preopst,Preop stress test,snf,899.0300000000001,479731468.92,1.8740275721831421e-06
+preopst,Preop stress test,alf,415.94,479731468.92,8.670267158758395e-07
+preopst,Preop stress test,indep_lab,415.28000000000003,479731468.92,8.656509462156048e-07
+preopst,Preop stress test,rehab_inp,266.42,479731468.92,5.553523528481059e-07
+preopst,Preop stress test,inp_psy,139.25,479731468.92,2.902665533146864e-07
+preopst,Preop stress test,rehab_outp,114.33,479731468.92,2.3832082614339745e-07
+preopst,Preop stress test,rural_hc,58.0,479731468.92,1.2090097014184425e-07
+preopst,Preop stress test,nf,26.55,479731468.92,5.5343461332171805e-08
+preopst,Preop stress test,custodial,0.0,479731468.92,0.0
+preopst,Preop stress test,esrd,0.0,479731468.92,0.0
+preopst,Preop stress test,fqhc,0.0,479731468.92,0.0
+preopst,Preop stress test,group_home,0.0,479731468.92,0.0
+preopst,Preop stress test,phl_state,0.0,479731468.92,0.0
+preopx,Preop chest X-ray,er,0.0,0.0,
+preopx,Preop chest X-ray,home,0.0,0.0,
+preopx,Preop chest X-ray,office,0.0,0.0,
+preopx,Preop chest X-ray,other,0.0,0.0,
+psa,PSA over 75,indep_lab,66196610.86,91293640.84,0.7250955296658097
+psa,PSA over 75,office,24999853.05,91293640.84,0.2738400267529521
+psa,PSA over 75,nf,29516.040000000005,91293640.84,0.00032330882773893763
+psa,PSA over 75,fqhc,14493.830000000002,91293640.84,0.00015876056499271063
+psa,PSA over 75,home,12849.16,91293640.84,0.00014074540002757984
+psa,PSA over 75,hopd_on_campus,11500.1,91293640.84,0.00012596824810782734
+psa,PSA over 75,other,11015.100000000002,91293640.84,0.00012065572036178201
+psa,PSA over 75,alf,8393.599999999999,91293640.84,9.19406863694976e-05
+psa,PSA over 75,indep_clinic,8278.359999999999,91293640.84,9.067838596237541e-05
+psa,PSA over 75,snf,720.8,91293640.84,7.895402060514425e-06
+psa,PSA over 75,rural_hc,281.1,91293640.84,3.0790753596151572e-06
+psa,PSA over 75,group_home,92.8,91293640.84,1.0165001542948651e-06
+psa,PSA over 75,asc,18.02,91293640.84,1.9738505151286065e-07
+psa,PSA over 75,er,18.02,91293640.84,1.9738505151286065e-07
+psa,PSA over 75,custodial,0.0,91293640.84,0.0
+psa,PSA over 75,inp_psy,0.0,91293640.84,0.0
+psa,PSA over 75,inpatient,0.0,91293640.84,0.0
+psa,PSA over 75,phl_state,0.0,91293640.84,0.0
+psa,PSA over 75,rehab_inp,0.0,91293640.84,0.0
+pth,PTH for non-dialysis CKD,indep_lab,55220671.05,69062552.08,0.7995747244618765
+pth,PTH for non-dialysis CKD,office,13701404.959999999,69062552.08,0.19839123442945897
+pth,PTH for non-dialysis CKD,nf,70180.75,69062552.08,0.0010161910888943795
+pth,PTH for non-dialysis CKD,alf,32954.3,69062552.08,0.0004771659750109832
+pth,PTH for non-dialysis CKD,home,15325.0,69062552.08,0.00022190028515378315
+pth,PTH for non-dialysis CKD,indep_clinic,9748.47,69062552.08,0.00014115421029775534
+pth,PTH for non-dialysis CKD,hopd_on_campus,9627.1,69062552.08,0.00013939681795784573
+pth,PTH for non-dialysis CKD,other,1791.0,69062552.08,2.593301211813544e-05
+pth,PTH for non-dialysis CKD,snf,768.5500000000001,69062552.08,1.112831739999609e-05
+pth,PTH for non-dialysis CKD,fqhc,80.9,69062552.08,1.1714018315785357e-06
+pth,PTH for non-dialysis CKD,er,0.0,69062552.08,0.0
+pth,PTH for non-dialysis CKD,group_home,0.0,69062552.08,0.0
+pth,PTH for non-dialysis CKD,inpatient,0.0,69062552.08,0.0
+renlstent,Renal artery stent,office,2133369.74,5530691.39,0.3857329200933774
+renlstent,Renal artery stent,hopd_on_campus,1410140.42,5530691.39,0.25496639037746055
+renlstent,Renal artery stent,inpatient,1312514.02,5530691.39,0.23731463707650485
+renlstent,Renal artery stent,asc,658960.65,5530691.39,0.11914616157962848
+renlstent,Renal artery stent,er,9423.66,5530691.39,0.0017038846204723782
+renlstent,Renal artery stent,other,5973.78,5530691.39,0.0010801145062624801
+renlstent,Renal artery stent,rehab_inp,309.12,5530691.39,5.589174629394753e-05
+rhcath,PA catheter in ICU,inpatient,3236977.54,3335745.54,0.9703910268886997
+rhcath,PA catheter in ICU,hopd_on_campus,94206.34,3335745.54,0.028241464725154063
+rhcath,PA catheter in ICU,er,2920.91,3335745.54,0.0008756393330889382
+rhcath,PA catheter in ICU,office,1292.46,3335745.54,0.00038745761164983827
+rhcath,PA catheter in ICU,asc,348.29,3335745.54,0.00010441144140748818
+rhcath,PA catheter in ICU,indep_lab,0.0,3335745.54,0.0
+rhcath,PA catheter in ICU,other,0.0,3335745.54,0.0
+rhinoct,CT for sinusitis,office,14003277.51,26244272.759999998,0.5335746064696822
+rhinoct,CT for sinusitis,er,7140536.26,26244272.759999998,0.27207979147675954
+rhinoct,CT for sinusitis,hopd_on_campus,2849302.9299999997,26244272.759999998,0.10856856107450394
+rhinoct,CT for sinusitis,inpatient,1303923.35,26244272.759999998,0.049684110583828586
+rhinoct,CT for sinusitis,other,603466.82,26244272.759999998,0.02299422908451741
+rhinoct,CT for sinusitis,indep_clinic,333773.33999999997,26244272.759999998,0.01271794966666853
+rhinoct,CT for sinusitis,indep_lab,9092.11,26244272.759999998,0.0003464416820822587
+rhinoct,CT for sinusitis,snf,302.44000000000005,26244272.759999998,1.1524038130748344e-05
+rhinoct,CT for sinusitis,asc,175.72,26244272.759999998,6.695556078346444e-06
+rhinoct,CT for sinusitis,fqhc,131.62,26244272.759999998,5.015189454996352e-06
+rhinoct,CT for sinusitis,home,101.43,26244272.759999998,3.864843233705212e-06
+rhinoct,CT for sinusitis,nf,94.44,26244272.759999998,3.59849940837149e-06
+rhinoct,CT for sinusitis,inp_psy,65.6,26244272.759999998,2.499592981672699e-06
+rhinoct,CT for sinusitis,rural_hc,29.19,26244272.759999998,1.1122426697412515e-06
+rhinoct,CT for sinusitis,rehab_inp,0.0,26244272.759999998,0.0
+spinj,Spinal injection for low back,asc,164531832.5,315345599.16,0.5217508439574572
+spinj,Spinal injection for low back,office,126107059.65,315345599.16,0.3999011243090658
+spinj,Spinal injection for low back,hopd_on_campus,19878738.490000002,315345599.16,0.06303794485463528
+spinj,Spinal injection for low back,other,4423106.0600000005,315345599.16,0.014026217812400182
+spinj,Spinal injection for low back,inpatient,229712.46000000002,315345599.16,0.0007284466966144294
+spinj,Spinal injection for low back,er,40199.91,315345599.16,0.00012747889968048478
+spinj,Spinal injection for low back,alf,35988.55,315345599.16,0.00011412415488233953
+spinj,Spinal injection for low back,home,34731.33,315345599.16,0.00011013735435825131
+spinj,Spinal injection for low back,indep_clinic,29202.21,315345599.16,9.260382918863372e-05
+spinj,Spinal injection for low back,snf,23872.86,315345599.16,7.570379946189575e-05
+spinj,Spinal injection for low back,nf,5327.530000000001,315345599.16,1.689425828104523e-05
+spinj,Spinal injection for low back,rehab_inp,4163.72,315345599.16,1.3203672450451456e-05
+spinj,Spinal injection for low back,group_home,844.47,315345599.16,2.677919090196445e-06
+spinj,Spinal injection for low back,phl_state,407.64,315345599.16,1.2926769902159683e-06
+spinj,Spinal injection for low back,inp_psy,182.46,315345599.16,5.786032863183337e-07
+spinj,Spinal injection for low back,custodial,181.06,315345599.16,5.741637127085252e-07
+spinj,Spinal injection for low back,rural_hc,48.26,315345599.16,1.5303844457811456e-07
+spinj,Spinal injection for low back,fqhc,0.0,315345599.16,0.0
+spinj,Spinal injection for low back,indep_lab,0.0,315345599.16,0.0
+stress,Stress test stable CAD,office,397850064.45,479731468.92,0.8293182545344872
+stress,Stress test stable CAD,hopd_on_campus,60865293.510000005,479731468.92,0.12687367298839822
+stress,Stress test stable CAD,inpatient,10717363.889999999,479731468.92,0.022340339511451198
+stress,Stress test stable CAD,other,8778914.87,479731468.92,0.018299643527166592
+stress,Stress test stable CAD,er,916948.6,479731468.92,0.001911378884658722
+stress,Stress test stable CAD,indep_clinic,587168.33,479731468.92,0.0012239520816132161
+stress,Stress test stable CAD,asc,10861.01,479731468.92,2.263976975379779e-05
+stress,Stress test stable CAD,home,2519.46,479731468.92,5.251813072992602e-06
+stress,Stress test stable CAD,snf,899.0300000000001,479731468.92,1.8740275721831421e-06
+stress,Stress test stable CAD,alf,415.94,479731468.92,8.670267158758395e-07
+stress,Stress test stable CAD,indep_lab,415.28000000000003,479731468.92,8.656509462156048e-07
+stress,Stress test stable CAD,rehab_inp,266.42,479731468.92,5.553523528481059e-07
+stress,Stress test stable CAD,inp_psy,139.25,479731468.92,2.902665533146864e-07
+stress,Stress test stable CAD,rehab_outp,114.33,479731468.92,2.3832082614339745e-07
+stress,Stress test stable CAD,rural_hc,58.0,479731468.92,1.2090097014184425e-07
+stress,Stress test stable CAD,nf,26.55,479731468.92,5.5343461332171805e-08
+stress,Stress test stable CAD,custodial,0.0,479731468.92,0.0
+stress,Stress test stable CAD,esrd,0.0,479731468.92,0.0
+stress,Stress test stable CAD,fqhc,0.0,479731468.92,0.0
+stress,Stress test stable CAD,group_home,0.0,479731468.92,0.0
+stress,Stress test stable CAD,phl_state,0.0,479731468.92,0.0
+sync,Head imaging for syncope,office,113314354.87,372049186.83,0.30456821001406087
+sync,Head imaging for syncope,er,101100955.31,372049186.83,0.2717408312901271
+sync,Head imaging for syncope,inpatient,74448356.31,372049186.83,0.20010353185912916
+sync,Head imaging for syncope,hopd_on_campus,66435478.54,372049186.83,0.17856638555255408
+sync,Head imaging for syncope,other,9463203.620000001,372049186.83,0.025435356278104195
+sync,Head imaging for syncope,indep_clinic,7237037.99,372049186.83,0.019451831226033056
+sync,Head imaging for syncope,snf,18192.57,372049186.83,4.889829260213572e-05
+sync,Head imaging for syncope,indep_lab,10271.88,372049186.83,2.7608930118945585e-05
+sync,Head imaging for syncope,asc,6593.219999999999,372049186.83,1.7721366511177546e-05
+sync,Head imaging for syncope,rehab_inp,4727.88,372049186.83,1.2707674596155764e-05
+sync,Head imaging for syncope,inp_psy,3816.67,372049186.83,1.025850918401267e-05
+sync,Head imaging for syncope,nf,2690.45,372049186.83,7.231436313363975e-06
+sync,Head imaging for syncope,fqhc,2482.19,372049186.83,6.671671617264371e-06
+sync,Head imaging for syncope,rural_hc,528.7,372049186.83,1.4210486643035679e-06
+sync,Head imaging for syncope,rehab_outp,290.69,372049186.83,7.813214227849519e-07
+sync,Head imaging for syncope,home,123.21,372049186.83,3.31165889784079e-07
+sync,Head imaging for syncope,alf,82.73,372049186.83,2.2236307168116922e-07
+sync,Head imaging for syncope,esrd,0.0,372049186.83,0.0
+sync,Head imaging for syncope,psy_partial,0.0,372049186.83,0.0
+t3,T3 in hypothyroidism,indep_lab,25749745.650000002,32457711.1,0.7933321475031553
+t3,T3 in hypothyroidism,office,6615145.8,32457711.1,0.20380814221986218
+t3,T3 in hypothyroidism,nf,40795.82,32457711.1,0.0012568914633046937
+t3,T3 in hypothyroidism,home,17539.39,32457711.1,0.0005403766749282576
+t3,T3 in hypothyroidism,alf,16451.78,32457711.1,0.0005068681506626633
+t3,T3 in hypothyroidism,other,7076.45,32457711.1,0.00021802061082489577
+t3,T3 in hypothyroidism,fqhc,6596.799999999999,32457711.1,0.0002032429206013852
+t3,T3 in hypothyroidism,indep_clinic,1865.0,32457711.1,5.74593813548362e-05
+t3,T3 in hypothyroidism,hopd_on_campus,1619.5,32457711.1,4.989569335343551e-05
+t3,T3 in hypothyroidism,snf,643.2,32457711.1,1.9816554470472196e-05
+t3,T3 in hypothyroidism,group_home,86.1,32457711.1,2.65268243144847e-06
+t3,T3 in hypothyroidism,phl_state,83.4,32457711.1,2.569497268092943e-06
+t3,T3 in hypothyroidism,er,29.01,32457711.1,8.93778366275495e-07
+t3,T3 in hypothyroidism,custodial,16.6,32457711.1,5.114347080376842e-07
+t3,T3 in hypothyroidism,rural_hc,16.6,32457711.1,5.114347080376842e-07
+t3,T3 in hypothyroidism,asc,0.0,32457711.1,0.0
+t3,T3 in hypothyroidism,inpatient,0.0,32457711.1,0.0
