@@ -1,0 +1,86 @@
+{
+  "issue": 11,
+  "topic": "MA Overpayment - coding-intensity slice (Path A)",
+  "anchor_year": 2025,
+  "headline_booked_usd_bn": 28.0,
+  "range_low_usd_bn": 19.2,
+  "range_high_usd_bn": 44.0,
+  "datasets": {
+    "ffs_gv_puf": {
+      "url": "https://data.cms.gov/sites/default/files/2025-03/a40ac71d-9f80-4d99-92d2-fd149433d7d8/2014-2023%20Medicare%20Fee-for-Service%20Geographic%20Variation%20Public%20Use%20File.csv",
+      "coverage_years": "2014-2023",
+      "rows_loaded": 13,
+      "geographic_levels": [
+        "National",
+        "State",
+        "County"
+      ],
+      "field_used": "BENE_AVG_RISK_SCRE"
+    },
+    "ma_gv_puf": {
+      "url": "https://data.cms.gov/sites/default/files/2025-06/a0f6cfe0-b67c-44ef-807d-a901921ed1ee/MA%20GV%20PUF%202016-2022_RY_2025.csv",
+      "coverage_years": "2016-2022",
+      "release": "RY2025 (June 2025)",
+      "geographic_levels": [
+        "National",
+        "State"
+      ],
+      "field_used": "BENES_MA_CNT, BENE_AVG_AGE, BENE_DUAL_PCT",
+      "critical_caveat": "MA GV PUF does NOT contain risk scores per CMS methodology paper June 2023."
+    }
+  },
+  "gotchas_confirmed": {
+    "hcc_model_version_mapping": {
+      "2017_2019": "V22",
+      "2020_2023": "V24 (V22 retired)",
+      "2024": "V24/V28 blend (67%/33%)",
+      "2025": "V24/V28 blend (33%/67%)",
+      "2026_onward": "V28 (100%)"
+    },
+    "statutory_coding_intensity_adjustment": {
+      "applied_in_payment_year": true,
+      "value_2018_2026_pct": 5.91,
+      "treatment": "MedPAC published $B is post-statutory; we book post-statutory."
+    },
+    "ma_payment_pool_definition": {
+      "scope": "Part C only",
+      "esrd_included": true,
+      "part_d_excluded": true,
+      "rebates_treatment": "Pool is gross of rebates (rebates are within payments, not outside)"
+    },
+    "real_vs_nominal_dollars": "Nominal (each year in its own dollars; not adjusted for inflation)",
+    "small_cell_suppression": {
+      "ffs_puf": "County-level present; some county-by-age cells suppressed but state and national rows are not.",
+      "ma_puf": "State-level only; no county. Small-cell suppression in source data documented in CMS methodology paper."
+    },
+    "encounter_vs_raps_data": {
+      "2022_onward": "CMS calculates risk scores for MA payment using ONLY encounter data + FFS claims (not RAPS).",
+      "rationale": "Eliminates double-submission ambiguity in coding-intensity attribution."
+    },
+    "chart_review_carve_out_2014": {
+      "applied": true,
+      "scope_excluded": "Chart reviews not linked to a clinical encounter.",
+      "scope_in_residual": "HRA-linked chart reviews ($1.29B in 2023 per OIG)."
+    },
+    "v24_v28_transition_handling": {
+      "handled": true,
+      "method": "Report V24-only, V28-only, and blended-payment-year scenarios for 2024-2026."
+    }
+  },
+  "gv_puf_specific_gotchas_discovered_this_issue": [
+    "MA GV PUF does NOT contain risk scores; CMS methodology paper states 'There is no payment information.' Any analysis claiming MA-side risk scores from the MA GV PUF is incorrect.",
+    "FFS GV PUF national BENE_AVG_RISK_SCRE is normalized to 1.000 every year by construction. State/county values are relative-to-national-mean. Year-over-year FFS risk-score GROWTH cannot be computed from this column. The MedPAC chapters provide the absolute FFS-side risk-score growth time series (curated reference data); the FFS PUF only provides state-relative levels.",
+    "FFS GV PUF risk scores are stratified by age (All / <65 / >=65). 'All' stratum is the closest match to MedPAC's whole-population framework.",
+    "MA GV PUF coverage lags FFS GV PUF by 1 year (MA: 2016-2022; FFS: 2014-2023). The 2024-2026 anchor years require projection from MedPAC published series.",
+    "Some BENE_AVG_RISK_SCRE values are dot-padded; numeric coercion required; non-numeric coerced to NaN."
+  ],
+  "qui_tam_treatment": {
+    "multiplier_applied": false,
+    "rationale": "Path A explicitly does not apply detection-rate multiplier. Qui tam is sidebar evidence only."
+  },
+  "computation_origin_log": {
+    "section_1_original": "FFS state-level risk-score trajectories; state-level decomposition allocation; HRA phase-out projection; V24/V28 sensitivity bands.",
+    "section_2_curated": "MedPAC March 2026 Fig 12-6; CMS Rate Announcement risk-score trends; Kronick 2025 Annals; OIG yield numbers; Part C payment pool totals."
+  },
+  "build_timestamp": "2026-05-04T17:50:23.646467"
+}

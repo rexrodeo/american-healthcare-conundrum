@@ -8,7 +8,7 @@ This project finds it, one issue at a time. Each issue identifies one fixable pr
 
 ---
 
-> **Latest Issue (#10): [The Procedure Mill](issue_10/newsletter_issue_10.md)** — Medicare pays $106.72 per beneficiary per year for low-value services in New York. In Vermont it pays $16.00 — a 6.7x gap on services the evidence does not support for most patients. Using the full CY2023 CMS Provider Utilization PUF (268,634 rows), we operationalized the 31-service Schwartz/Mafi/Choosing Wisely list and extended Kim and Fendrick (JAMA Health Forum 2025) with state-level variance, an all-payer extension, the WISeR pilot pool, and a difference-in-differences defensive-medicine slice. **$7.6B/year in booked savings** (range $7.6–13.6B). Pass 3 methodology corrections caught a $583M double-count and a 1.74x→1.60x BLS Medical CPI overcorrection in our own earlier analyses. [Read it on Substack →](https://andrewrexroad.substack.com/p/issue-10-the-procedure-mill)
+> **Latest Issue (#11): [The MA Overpayment](issue_11/newsletter_issue_11.md)** — Every March, MedPAC tells Congress how much Medicare Advantage costs more than traditional Medicare. In March 2026, the answer was $76 billion all in. This issue books the $28 billion coding-intensity slice for 2025, computed against a V24 vs. V28 sensitivity band of $19.2B–$44.8B that no other publication has put side-by-side. The mechanism is in-home Health Risk Assessments: nurses sent into patients' homes to find diagnoses that get the insurer paid more for the rest of the year, while CMS's 5.91% annual recapture fails to claw back the full difference. Cross-validation against Kronick et al. 2025 ($33B for 2021), OIG HRA audits, and the qui tam settlement track. **$28B/year in booked savings** (range $19.2–44B). [Read it on Substack →](https://andrewrexroad.substack.com/p/issue-11-the-ma-overpayment)
 
 ---
 
@@ -26,11 +26,12 @@ This project finds it, one issue at a time. Each issue identifies one fixable pr
 | 8 | [The Denial Machine](issue_08/newsletter_issue_08.md) | $32.0B/yr | Original CMS-0057-F extraction of 93 MA contracts (UHC denial rate 13.5%, appeal overturn 58–65%, ~3M denied entitled care annually); care suppression, vertical integration arbitrage, and AI-driven denial escalation | CMS-0057-F, UNH/HUM 10-K, Health Affairs, Stanford npj |
 | 9 | [The Employer Trap](issue_09/newsletter_issue_09.md) | $6.6B/yr | First plan-level analysis of post-CAA 2021 broker and admin-fee disclosures (8,180 health welfare plans, 23.8M participants); per-plan broker commissions above 3% DOL benchmark and admin fees above peer-group medians | DOL Form 5500 Schedule A and Schedule C 2023, KFF EHBS 2024, JAMA Network Open |
 | 10 | [The Procedure Mill](issue_10/newsletter_issue_10.md) | $7.6B/yr | Full CY2023 CMS PUF analysis (268,634 rows) of the 31-service Schwartz/Mafi/Choosing Wisely list; state-level P90/P10 spread of 6.7x in low-value Medicare spending per beneficiary, with an all-payer extension and a defensive-medicine difference-in-differences slice | CMS Provider Utilization, Hospital Outpatient, and Geographic Variation PUFs CY2023; Schwartz et al. 2014; Kim & Fendrick JAMA Health Forum 2025; Avraham DSTLR 7.1 |
-| | **Running Total** | **$442.8B/yr** | **13.7% of the $3.24T gap** | |
+| 11 | [The MA Overpayment](issue_11/newsletter_issue_11.md) | $28.0B/yr | $76B total MA-FFS payment gap (MedPAC March 2026); coding-intensity slice booked at $28B for 2025 with V24 vs. V28 sensitivity band of $19.2B–$44.8B computed from CMS Geographic Variation PUFs; HRA decomposition and state-level allocation original; cross-validated against Kronick et al. 2025 ($33B for 2021) and OIG HRA audits | MedPAC March 2026; Kronick et al. *Annals of Internal Medicine* 2025; CMS Geographic Variation PUFs (MA + FFS); HHS-OIG HRA audits 2020 and 2024; CMS HCC risk-adjustment model files; DOJ FCA settlement track |
+| | **Running Total** | **$470.8B/yr** | **14.5% of the $3.24T gap** | |
 
 *Issue #9 is the first issue at the revised $3.24T denominator (CMS NHE 2024 final, released April 18, 2026). Issues #1–#8 published using the prior $3T denominator and are not retrofitted.*
 
-![Savings Tracker](issue_10/figures/chart5_savings_tracker.png)
+![Savings Tracker](issue_11/figures/chart5_savings_tracker.png)
 
 ---
 
@@ -45,6 +46,73 @@ The same operations. Exposed to the same clinical evidence. Wildly different pri
 ---
 
 ## Published Issues
+
+### Issue #11 — The MA Overpayment (~$28.0B/year)
+
+Every March, the Medicare Payment Advisory Commission tells Congress how much Medicare Advantage costs more than traditional Medicare. In March 2026, the answer was $76 billion: the all-in MA-FFS payment gap for 2026, across coding intensity, favorable selection, and benchmark structure. This issue books the $28 billion coding-intensity slice for 2025 (the most recent settled-data year), computed against a V24-only-vs-V28-only sensitivity band of $19.2B–$44.8B that puts CMS's mid-flight risk-adjustment formula transition side-by-side for the first time in the public literature. The mechanism is the in-home Health Risk Assessment: nurses sent into Medicare Advantage patients' homes specifically to find diagnoses, after which the insurer gets paid more for the same patient for the rest of the year, while CMS's 5.91 percent annual coding-intensity recapture fails to claw back the full difference. We cross-validate against Kronick et al. (*Annals of Internal Medicine* 2025, $33B for 2021), HHS-OIG HRA audits (2020 and 2024), and the active DOJ False Claims Act settlement track (Kaiser $556M settled January 2026; UnitedHealth probe ongoing). The other $54 billion of the MedPAC gap, favorable selection and benchmark structure, is named here and reserved for future issues.
+
+![V24 vs V28 Coding-Intensity Sensitivity Band, 2023–2026](issue_11/figures/chart1_v24_v28_band.png)
+
+*Source: CMS Geographic Variation PUFs (MA + FFS) and CMS Rate Announcement trend factors, anchored to MedPAC March 2026 Fig 12-6. The band width ($23.5–25.6B at the 2024–2025 anchors) is the original analytical contribution.*
+
+**Read the full analysis →** [`issue_11/newsletter_issue_11.md`](issue_11/newsletter_issue_11.md)
+
+<details>
+<summary>Reproducing the analysis</summary>
+
+```bash
+cd issue_11
+
+# Build the V24/V28 sensitivity band, HRA decomposition, state allocation, and cross-validation
+python 01_build_data.py
+
+# Generate all five charts plus hero (V24/V28 band, HRA share trajectory, state allocation, qui tam timeline, savings tracker)
+python generate_all_charts.py
+```
+
+**Key outputs:**
+- `results/savings_estimate.json` — Headline central, V24/V28 band, range low/high, full Path A by-year structure
+- `results/coding_intensity_timeseries.csv` — Per-year MedPAC central plus V24-only and V28-only counterfactuals, 2023–2026
+- `results/pool_share_trajectory.csv` — Coding-intensity overpayment as a share of the MA Part C payment pool, 2021–2026 (original)
+- `results/hra_decomposition.csv` — Health Risk Assessment yield as a share of national coding-intensity overpayment (original)
+- `results/state_level_decomposition.csv` — State-level allocation of the 2025 anchor (original allocation, not estimation)
+- `results/qui_tam_settlements.csv` — MA risk-adjustment FCA settlement timeline, 2018–2026
+- `results/cross_validation.csv` — Cross-validation against Kronick 2025, OIG, and CMS Risk Adjustment Trend
+- `results/methodology.md` — What is original here vs. what is curated reference data, with the data-partner CTA
+
+</details>
+
+<details>
+<summary>Data sources</summary>
+
+| Source | Description |
+|--------|-------------|
+| MedPAC March 2026 Report to Congress, Chapter 12 (MA Status Report) | $76B total MA-FFS payment gap for 2026; $22B coding-intensity slice; per-year by-year central anchor |
+| Kronick R, Chua FM, Krauss RC, Johnson L, Waldo D. *Annals of Internal Medicine* 2025;178(5):655–662. PMID 40194284 | Insurer-level coding-intensity differential, $33B for 2021; UnitedHealth share 42% ($13.9B) |
+| Kronick R et al. *Health Affairs Scholar* 2025;3(1):qxae176. PMID 39822237 | Methodology paper for coding-intensity differential analysis |
+| CMS Geographic Variation Public Use Files, Medicare Advantage and Fee-for-Service | National and state risk-score and beneficiary counts (the public files used for the V24/V28 sensitivity band) |
+| CMS HCC risk-adjustment model files (V24 and V28) | Risk-adjustment factor weights for the model-transition counterfactual |
+| HHS Office of Inspector General, MA HRA audit reports (2020, 2024) | Health Risk Assessment yield and beneficiary-encounter share |
+| DOJ press release (January 14, 2026) | Kaiser Permanente $556M MA risk-adjustment FCA settlement |
+| CMS Rate Announcements 2024–2026 | V28 phase-in schedule; coding-intensity recapture factor (5.91%); Part C payment pool |
+
+</details>
+
+<details>
+<summary>Key methodology notes</summary>
+
+- Headline anchor ($28B for 2025) is curated from MedPAC March 2026 Fig 12-6: the issue does not claim the central as original. It is the cleanest public estimate of the coding-intensity slice.
+- V24-only-vs-V28-only sensitivity band is the original analytical contribution: the 2025 band is $19.2B (V28-only) to $44.8B (V24-only), a $25.6B spread that reflects how much of the answer hinges on which formula is in force.
+- The Kronick-style insurer-level decomposition is **not** replicable from CMS public files. Kronick used the CMS Chronic Conditions Warehouse, which requires a Data Use Agreement. The newsletter and the methodology file flag this explicitly. Insurer-level decomposition is the data-partner CTA.
+- HRA decomposition (HRA yield as share of national coding-intensity overpayment) is original to this analysis, computed from OIG audit yield rates against the MedPAC pool.
+- State-level allocation of the 2025 anchor is original, computed from CMS Geographic Variation PUF risk-score deltas; it is an allocation of MedPAC's central, not an independent state-level estimate.
+- Coding intensity is the slice booked. Favorable selection and benchmark structure (the rest of the $76B MedPAC gap for 2026) are named in the newsletter and reserved for future issues; not double-counted.
+- No overlap with Issue #8 (Denial Machine): #8 covers prior-authorization denial mechanics; #11 covers risk-score upcoding. Different dollars, different mechanisms.
+- No overlap with Issue #10 (Procedure Mill): Component C of #10 is a price-multiplier extension for MA volume of low-value procedures; #11's headline is risk-score-driven payment, not procedure-volume driven payment.
+
+</details>
+
+---
 
 ### Issue #10 — The Procedure Mill (~$7.6B/year)
 
@@ -683,13 +751,13 @@ python 05_visualize.py
 
 ---
 
-**Through 10 issues: ~$442.8 billion in identified savings (13.7% of the $3.24T gap)**
+**Through 11 issues: ~$470.8 billion in identified savings (14.5% of the $3.24T gap)**
 
 ---
 
 ## Fund the Data
 
-We've identified $442.8 billion in fixable waste using free federal datasets. To go deeper, we need claim-level data that costs money to access: Medicare claims with diagnosis codes, all-payer state databases, hospital price transparency records, and legal research tools. Issue #8 made this concrete: the deductible-delay extraction mechanism described in the MRI vignette, where an insurer denial pushes a patient to cash and captures the deductible spread on the next claim, cannot be measured rigorously without paired patient-level claims plus deductible-exposure data. That is why Component D stays out of our booked total and why this fund exists.
+We've identified $470.8 billion in fixable waste using free federal datasets. To go deeper, we need claim-level data that costs money to access: Medicare claims with diagnosis codes, all-payer state databases, hospital price transparency records, and legal research tools. Issue #8 made this concrete: the deductible-delay extraction mechanism described in the MRI vignette, where an insurer denial pushes a patient to cash and captures the deductible spread on the next claim, cannot be measured rigorously without paired patient-level claims plus deductible-exposure data. That is why Component D stays out of our booked total and why this fund exists.
 
 **[Visit the AHC Data Access Fund →](https://ahcdata.fund)** | **[Sponsor on GitHub →](https://github.com/sponsors/rexrodeo)**
 
@@ -707,7 +775,7 @@ Six datasets. Per-dataset crowdfunding via Stripe (no account required, any amou
 
 ## Up Next
 
-Issue #11 examines the MA Overpayment: MedPAC's March 2024 Report to Congress estimated that Medicare Advantage plans receive about $83 billion per year more than the same beneficiaries would cost in traditional Medicare. The mechanism: insurers send nurses into patients' homes specifically to find diagnoses, then bill Medicare for the higher-risk patient who is now "on the books" as having those conditions. The more conditions documented, the more Medicare pays the insurer for the rest of the year. Issue #11 replicates the Kronick (JAMA Internal Medicine, 2022) coding-intensity methodology on current CMS HCC public data and extends it to the most recent enrollment year. Subscribe on Substack to get it when it drops.
+Next from The American Healthcare Conundrum: a standalone interstitial post, *The Honest Math*, on May 17, 2026. It explains the booked / range / structural framing of the $3.24T target: roughly $1.0T booked from public data, roughly $2.5T methodologically supported but requiring licensed claims data to prove (the data-partner CTA), and roughly $700B in structural acknowledgment (US wage premium, cost of living, patient expectations) that is not extractable through healthcare policy alone. After that, Issue #12 (target May 24): The Consolidation Tax, an examination of horizontal and vertical hospital-system consolidation and the ~$25B/year price effect documented in the academic literature. Subscribe on Substack to get both when they drop.
 
 ---
 

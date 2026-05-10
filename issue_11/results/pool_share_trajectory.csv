@@ -1,0 +1,7 @@
+year,coding_intensity_usd_bn,ma_part_c_pool_usd_bn,coding_intensity_pct_of_pool,model_version,statutory_adjustment_pct,source_for_pool
+2021,13.0,348.0,3.74,V24 only,5.91,MedPAC Mar23 Ch12 (historical)
+2022,33.0,403.0,8.19,V24 only,5.91,MedPAC Mar24 Ch12 (historical)
+2023,38.0,448.0,8.48,V24 only,5.91,OIG OEI-03-23-00380 (FY2023 program cost cite); MedPAC
+2024,33.0,494.0,6.68,V24/V28 blend (67% V24 / 33% V28),5.91,MedPAC Mar25 Ch11 (projected)
+2025,28.0,538.0,5.2,V24/V28 blend (33% V24 / 67% V28),5.91,MedPAC Mar25 Ch11 (projected)
+2026,22.0,615.0,3.58,V28 only (full phase-in),5.91,"MedPAC Mar26 Ch12 p. 358 (projected, Part C, includes ESRD)"

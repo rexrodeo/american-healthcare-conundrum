@@ -1,0 +1,6 @@
+year,total_hra_yield_bn,in_home_hra_yield_bn,in_home_share_pct,phase_out_retained,national_coding_bn,hra_share_of_national_coding_pct,status
+2017,2.6,2.1,80.8,1.0,4.0,65.0,OIG observed (2017)
+2023,7.5,3.45,46.0,1.0,38.0,19.7,OIG observed (2023)
+2024,8.95,3.75,41.9,1.0,33.0,27.1,"Projected (CAGR), pre-rule"
+2025,5.34,2.04,38.1,0.5,28.0,19.1,"Projected (CAGR), CMS-4185-F2 phase-out at 50% retained"
+2026,2.55,0.88,34.7,0.2,22.0,11.6,"Projected (CAGR), CMS-4185-F2 phase-out at 20% retained"

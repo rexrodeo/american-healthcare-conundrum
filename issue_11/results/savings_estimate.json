@@ -1,0 +1,78 @@
+{
+  "anchor_year": 2025,
+  "headline_booked_usd_bn": 28.0,
+  "range_low_usd_bn": 19.2,
+  "range_high_usd_bn": 44.0,
+  "range_high_uncapped_usd_bn": 44.8,
+  "path_a_target_band_usd_bn": "$22-44B",
+  "path_a_full_range_usd_bn": "$22-60B",
+  "scope": "coding-intensity slice ONLY (favorable selection NOT booked)",
+  "headline_booked_origin": "CURATED - MedPAC March 2026 Fig 12-6 row for 2025 (this is the anchor; delta zero by construction)",
+  "originality_summary": {
+    "headline_central": "CURATED (MedPAC anchor)",
+    "headline_band_width": "ORIGINAL (V24/V28 counterfactual sensitivity computed here)",
+    "headline_pool_share_trajectory": "ORIGINAL (computed in this reframe - see pool_share_trajectory.csv)",
+    "headline_hra_share_of_coding": "ORIGINAL (computed in hra_decomposition.csv as hra_share_of_national_coding_pct)",
+    "headline_state_ordering": "ORIGINAL (state allocation in state_level_decomposition.csv; allocation, not estimation)",
+    "data_partner_cta_topic": "Insurer-level decomposition (Kronick used CCW, restricted)"
+  },
+  "by_year": {
+    "2023": {
+      "year": 2023,
+      "central_usd_bn": 38.0,
+      "central_origin": "CURATED - MedPAC March 2026 Fig 12-6 row for 2023 (historical V24 era)",
+      "note": "Historical (V24 era); no V24/V28 blend sensitivity"
+    },
+    "2024": {
+      "year": 2024,
+      "central_usd_bn": 33.0,
+      "central_origin": "CURATED - MedPAC March 2026 Fig 12-6 row for 2024 (anchor; delta zero by construction)",
+      "v24_only_usd_bn": 41.2,
+      "v24_only_origin": "ORIGINAL - V24-only counterfactual, computed in 01_build_data.py from CMS Rate Announcement trend + Part C payment pool",
+      "v28_only_usd_bn": 17.7,
+      "v28_only_origin": "ORIGINAL - V28-only counterfactual, same method",
+      "range_low_usd_bn": 17.7,
+      "range_high_usd_bn": 41.2,
+      "ma_part_c_pool_bn": 494.0,
+      "pool_origin": "CURATED - MedPAC March 2026 Ch 12",
+      "v24_v28_band_width_usd_bn": 23.5,
+      "v24_v28_band_origin": "ORIGINAL - band width $23.5B is computed by this pipeline; not present in MedPAC, OIG, Kronick, or CMS as a single side-by-side comparison"
+    },
+    "2025": {
+      "year": 2025,
+      "central_usd_bn": 28.0,
+      "central_origin": "CURATED - MedPAC March 2026 Fig 12-6 row for 2025 (anchor; delta zero by construction)",
+      "v24_only_usd_bn": 44.8,
+      "v24_only_origin": "ORIGINAL - V24-only counterfactual, computed in 01_build_data.py from CMS Rate Announcement trend + Part C payment pool",
+      "v28_only_usd_bn": 19.2,
+      "v28_only_origin": "ORIGINAL - V28-only counterfactual, same method",
+      "range_low_usd_bn": 19.2,
+      "range_high_usd_bn": 44.8,
+      "ma_part_c_pool_bn": 538.0,
+      "pool_origin": "CURATED - MedPAC March 2026 Ch 12",
+      "v24_v28_band_width_usd_bn": 25.6,
+      "v24_v28_band_origin": "ORIGINAL - band width $25.6B is computed by this pipeline; not present in MedPAC, OIG, Kronick, or CMS as a single side-by-side comparison"
+    },
+    "2026": {
+      "year": 2026,
+      "central_usd_bn": 22.0,
+      "central_origin": "CURATED - MedPAC March 2026 Fig 12-6 row for 2026 (anchor; delta zero by construction)",
+      "v24_only_usd_bn": 51.3,
+      "v24_only_origin": "ORIGINAL - V24-only counterfactual, computed in 01_build_data.py from CMS Rate Announcement trend + Part C payment pool",
+      "v28_only_usd_bn": 22.0,
+      "v28_only_origin": "ORIGINAL - V28-only counterfactual, same method",
+      "range_low_usd_bn": 22.0,
+      "range_high_usd_bn": 51.3,
+      "ma_part_c_pool_bn": 615.0,
+      "pool_origin": "CURATED - MedPAC March 2026 Ch 12",
+      "v24_v28_band_width_usd_bn": 29.3,
+      "v24_v28_band_origin": "ORIGINAL - band width $29.3B is computed by this pipeline; not present in MedPAC, OIG, Kronick, or CMS as a single side-by-side comparison"
+    }
+  },
+  "kronick_2021_anchor_bn": 33.0,
+  "medpac_2026_anchor_bn": 22.0,
+  "medpac_2025_anchor_bn": 28.0,
+  "medpac_2025_march_2025_anchor_bn": 44.0,
+  "qui_tam_total_recovered_usd_bn": 1.19,
+  "qui_tam_multiplier_applied": false
+}

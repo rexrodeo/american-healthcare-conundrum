@@ -1,0 +1,6 @@
+year,defendant,amount_usd_m,alleged_mechanism,source_url
+2018,DaVita / HealthCare Partners,270.0,One-way chart reviews; improper diagnosis-code guidance,https://www.justice.gov/archives/opa/pr/medicare-advantage-provider-pay-270-million-settle-false-claims-act-liabilities
+2021,Sutter Health,90.0,Diagnosis codes unsupported by medical record,https://www.fiercehealthcare.com/payer/sutter-health-pays-doj-90m-to-settle-false-claims-act-lawsuit-over-medicare-advantage
+2023,The Cigna Group,172.0,Inflated risk scores / improper diagnosis submissions,https://www.justice.gov/archives/opa/pr/cigna-group-pay-172-million-resolve-false-claims-act-allegations
+2024,Independent Health (and Betty Gaffney),98.0,Inflated risk scores,https://www.justice.gov/archives/opa/pr/medicare-advantage-provider-independent-health-pay-98m-settle-false-claims-act-suit
+2026,Kaiser Permanente affiliates,556.0,Pressure to add post-visit 'addenda' diagnoses 2009-2018; ~500K added diagnoses; ~$1B alleged improper payments,https://www.justice.gov/opa/pr/kaiser-permanente-affiliates-pay-556m-resolve-false-claims-act-allegations
