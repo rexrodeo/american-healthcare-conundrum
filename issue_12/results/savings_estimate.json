@@ -1,0 +1,24 @@
+{
+  "issue_number": 12,
+  "issue_title": "The Consolidation Tax",
+  "anchor_year": 2023,
+  "merger_panel_years": "2018-2025 (annual POS snapshots)",
+  "booked_bil": 13.03,
+  "range_lo_bil": 25.0,
+  "range_hi_bil": 50.0,
+  "raw_total_before_overlap_bil": 17.37,
+  "overlap_subtractions": {
+    "issue_3": 3.47,
+    "issue_15": 0.87
+  },
+  "sensitivity": {
+    "merger_market_commercial_spend_bil": 218.44,
+    "at_5pct_blended_uplift_bil": 8.19,
+    "at_10pct_blended_uplift_bil": 16.38,
+    "note": "5% and 10% are the scoping-brief reference uplifts; the booked figure uses the piecewise HHI-dependent coefficient applied to the actual computed HHI shift in each merger-market HSA"
+  },
+  "headline_status": "STAGE2_FULL_COMPLETE",
+  "headline_target": 25.0,
+  "headline_target_status": "OUT_OF_RANGE_NEEDS_REVIEW",
+  "generated_at": "2026-05-12T12:42:53.612058"
+}

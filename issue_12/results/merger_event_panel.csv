@@ -1,0 +1,1156 @@
+ccn,year,FAC_NAME,STATE_CD,zip5,prev_ctrl,new_ctrl,prev_cat,new_cat,chow_dt,prev_chow_dt,chow_cnt,prev_chow_cnt,event_kind,classified_layer,beds
+010006,2019,NORTH ALABAMA MEDICAL CENTER,AL,35630,08,04,government,forprofit,20100701,20100701,1,1.0,ctrl_change,government_transition,338.0
+010012,2024,DEKALB REGIONAL MEDICAL CENTER,AL,35968,04,04,forprofit,forprofit,20240401,20060401,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,134.0
+010018,2025,UAB CALLAHAN EYE HOSPITAL AUTHORITY,AL,35233,02,02,nonprofit,nonprofit,20130101,,3,2.0,chow_cnt_increment,consolidation_horizontal,106.0
+010022,2023,FLOYD CHEROKEE MEDICAL CENTER,AL,35960,02,04,nonprofit,forprofit,20180601,20180601,4,4.0,ctrl_change,tax_status_change,60.0
+010051,2023,GREENE COUNTY HOSPITAL,AL,35462,07,03,government,forprofit,,,4,4.0,ctrl_change,government_transition,20.0
+010062,2019,WIREGRASS MEDICAL CENTER,AL,36340,02,08,nonprofit,government,,,0,0.0,ctrl_change,government_transition,83.0
+010089,2023,WALKER BAPTIST MEDICAL CENTER,AL,35502,02,04,nonprofit,forprofit,20151003,20151003,2,2.0,ctrl_change,tax_status_change,267.0
+010090,2024,PROVIDENCE HOSPITAL,AL,36608,01,01,nonprofit,nonprofit,20231001,,1,0.0,chow_cnt_increment,consolidation_horizontal,349.0
+010097,2020,ELMORE COMMUNITY HOSPITAL,AL,36092,06,04,forprofit,forprofit,20000701,20000701,1,1.0,ctrl_change,consolidation_horizontal,38.0
+010102,2023,J PAUL JONES HOSPITAL,AL,36726,03,07,forprofit,government,,,7,7.0,ctrl_change,government_transition,30.0
+010120,2021,MONROE COUNTY HOSPITAL,AL,36460,07,08,government,government,,,0,0.0,ctrl_change,consolidation_horizontal,94.0
+010125,2023,LAKELAND COMMUNITY HOSPITAL,AL,35565,01,04,nonprofit,forprofit,20150101,20150101,4,4.0,ctrl_change,tax_status_change,49.0
+010128,2025,JACKSON MEDICAL CENTER,AL,36545,04,04,forprofit,forprofit,20240930,20070201,8,7.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,35.0
+010138,2021,HILL HOSPITAL OF SUMTER COUNTY,AL,36925,03,08,forprofit,government,,,5,5.0,ctrl_change,government_transition,33.0
+010157,2020,SHOALS HOSPITAL,AL,35661,08,04,government,forprofit,20100701,20100701,1,1.0,ctrl_change,government_transition,198.0
+011300,2021,WASHINGTON COUNTY HOSPITAL,AL,36518,08,07,government,government,,,3,3.0,ctrl_change,consolidation_horizontal,25.0
+012009,2020,"NOLAND HOSPITAL BIRMINGHAM II, LLC",AL,35235,05,05,forprofit,forprofit,20150401,,2,1.0,chow_cnt_increment,consolidation_horizontal,45.0
+012009,2023,"NOLAND HOSPITAL BIRMINGHAM II, LLC",AL,35235,05,04,forprofit,forprofit,20150401,20150401,2,2.0,ctrl_change,consolidation_horizontal,45.0
+014016,2023,"SANCTUARY AT THE WOODLANDS, THE",AL,35055,04,04,forprofit,forprofit,20230324,,1,0.0,chow_cnt_increment,consolidation_horizontal,40.0
+021305,2021,SEARHC WRANGELL MEDICAL CENTER-CAH,AK,99929,07,10,government,government,,,0,0.0,ctrl_change,consolidation_horizontal,8.0
+021312,2020,SAMUEL SIMMONDS MEMORIAL HOSPITAL,AK,99723,05,10,forprofit,government,,,0,0.0,ctrl_change,government_transition,10.0
+021314,2025,SOUTHEAST ALASKA REGIONAL HEALTH CONSORTIUM,AK,99835,02,10,nonprofit,government,,,0,0.0,ctrl_change,government_transition,25.0
+022001,2019,ST ELIAS SPECIALTY HOSPITAL,AK,99503,04,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,59.0
+030014,2019,JOHN C. LINCOLN NORTH MOUNTAIN HOSPITAL,AZ,85020,02,02,nonprofit,nonprofit,20150101,,4,3.0,chow_cnt_increment,consolidation_horizontal,262.0
+030030,2019,ABRAZO CENTRAL CAMPUS,AZ,85015,04,09,forprofit,government,,,3,3.0,ctrl_change,government_transition,206.0
+030036,2020,CHANDLER REGIONAL MEDICAL CENTER,AZ,85224,03,02,forprofit,nonprofit,20190201,20010930,3,2.0,"chow_dt_change,chow_cnt_increment,ctrl_change",tax_status_change,338.0
+030037,2025,HONORHEALTH TEMPE MEDICAL CENTER,AZ,85282,04,04,forprofit,forprofit,20241003,19991016,7,6.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,219.0
+030071,2022,FORT DEFIANCE INDIAN HOSPITAL,AZ,86504,05,10,forprofit,government,20100328,20100328,1,1.0,ctrl_change,government_transition,70.0
+030107,2019,ARIZONA SPINE AND JOINT HOSPITAL,AZ,85206,04,09,forprofit,government,,,0,0.0,ctrl_change,government_transition,23.0
+030108,2019,"CORE INSTITUTE SPECIALTY HOSPITAL, THE",AZ,85015,04,09,forprofit,government,20050510,20050510,1,1.0,ctrl_change,government_transition,32.0
+030121,2025,HONORHEALTH MOUNTAIN VISTA MEDICAL CENTER,AZ,85209,04,04,forprofit,forprofit,20241003,,2,1.0,chow_cnt_increment,consolidation_horizontal,178.0
+030123,2023,HONORHEALTH SCOTTSDALE THOMPSON PEAK MED CTR,AZ,85255,04,02,forprofit,nonprofit,,,3,3.0,ctrl_change,tax_status_change,120.0
+030137,2019,SANTA CRUZ VALLEY REGIONAL HOSPITAL,AZ,85614,04,04,forprofit,forprofit,20180725,,1,0.0,chow_cnt_increment,consolidation_horizontal,49.0
+031300,2021,WICKENBURG COMMUNITY HOSPITAL,AZ,85390,02,03,nonprofit,forprofit,20020101,20020101,1,1.0,ctrl_change,tax_status_change,19.0
+031302,2021,"NORTHERN COCHISE COMMUNITY HOSPITAL, INC.",AZ,85643,08,02,government,nonprofit,,,0,0.0,ctrl_change,government_transition,24.0
+032006,2019,"KPC PROMISE HOSPITAL OF PHOENIX, LLC",AZ,85203,04,04,forprofit,forprofit,20190615,,6,5.0,chow_cnt_increment,consolidation_horizontal,48.0
+032006,2025,PHOENIX SPECIALTY HOSPITAL,AZ,85203,04,04,forprofit,forprofit,20240519,20190615,7,6.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,48.0
+033036,2022,MOUNTAIN VALLEY REGIONAL REHABILITATION HOSPITAL,AZ,86314,04,05,forprofit,forprofit,,,1,1.0,ctrl_change,consolidation_horizontal,44.0
+034025,2020,WINDHAVEN PSYCHIATRIC HOSPITAL,AZ,86314,02,04,nonprofit,forprofit,,,0,0.0,ctrl_change,tax_status_change,16.0
+034026,2024,VALLEY HOSPITAL,AZ,85018,03,04,forprofit,forprofit,,,4,4.0,ctrl_change,consolidation_horizontal,122.0
+034028,2020,AURORA BEHAVIORAL HEALTHCARE-TEMPE,AZ,85283,02,04,nonprofit,forprofit,,,2,2.0,ctrl_change,tax_status_change,138.0
+034034,2023,DESTINY SPRINGS HEALTHCARE,AZ,85378,04,09,forprofit,government,,,0,0.0,ctrl_change,government_transition,92.0
+040001,2024,SILOAM SPRINGS REGIONAL HOSPITAL,AR,72761,03,04,forprofit,forprofit,20090202,20090202,1,1.0,ctrl_change,consolidation_horizontal,73.0
+040002,2023,JOHNSON REGIONAL MEDICAL CENTER,AR,72830,07,02,government,nonprofit,,,2,2.0,ctrl_change,government_transition,90.0
+040010,2021,MERCY HOSPITAL NORTHWEST ARKANSAS,AR,72758,01,02,nonprofit,nonprofit,,,3,3.0,ctrl_change,consolidation_horizontal,275.0
+040015,2021,MENA REGIONAL HEALTH SYSTEM,AR,71953,07,03,government,forprofit,,,0,0.0,ctrl_change,government_transition,65.0
+040017,2019,NORTH ARKANSAS REGIONAL MEDICAL CENTER,AR,72601,03,02,forprofit,nonprofit,,,3,3.0,ctrl_change,tax_status_change,174.0
+040018,2019,BAPTIST HEALTH - VAN BUREN,AR,72956,04,04,forprofit,forprofit,20181101,,5,4.0,chow_cnt_increment,consolidation_horizontal,103.0
+040018,2020,BAPTIST HEALTH - VAN BUREN,AR,72956,04,02,forprofit,nonprofit,20181101,20181101,5,5.0,ctrl_change,tax_status_change,103.0
+040026,2024,CHI ST. VINCENT HOSPITAL HOT SPRINGS,AR,71903,01,02,nonprofit,nonprofit,,,1,1.0,ctrl_change,consolidation_horizontal,282.0
+040051,2024,BAPTIST HEALTH MEDICAL CENTER-DREW COUNTY,AR,71655,02,02,nonprofit,nonprofit,20231203,20121001,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,60.0
+040055,2019,BAPTIST HEALTH - FORT SMITH,AR,72901,04,04,forprofit,forprofit,20181101,20091201,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,492.0
+040055,2020,BAPTIST HEALTH - FORT SMITH,AR,72901,04,02,forprofit,nonprofit,20181101,20181101,2,2.0,ctrl_change,tax_status_change,492.0
+040067,2020,MAGNOLIA REGIONAL MEDICAL CENTER,AR,71753,07,07,government,government,20201001,,2,1.0,chow_cnt_increment,consolidation_horizontal,70.0
+040088,2023,SOUTH ARKANSAS REGIONAL HOSPITAL LLC,AR,71730,04,04,forprofit,forprofit,20230701,,3,2.0,chow_cnt_increment,consolidation_horizontal,149.0
+040147,2021,ARKANSAS SURGICAL HOSPITAL,AR,72118,04,09,forprofit,government,,,0,0.0,ctrl_change,government_transition,47.0
+040153,2024,SOUTHWEST REGIONAL MEDICAL CENTER LLC,AR,71801,04,04,forprofit,forprofit,20240919,,1,0.0,chow_cnt_increment,consolidation_horizontal,48.0
+040780,2025,EUREKA SPRINGS HOSPITAL COMMISSION,AR,72632,02,07,nonprofit,government,,,0,0.0,ctrl_change,government_transition,1.0
+040782,2025,SOUTH MISSISSIPPI COUNTY REGIONAL MEDICAL CENTER,AR,72370,06,07,forprofit,government,,,0,0.0,ctrl_change,government_transition,1.0
+041300,2021,MERCY HOSPITAL PARIS,AR,72855,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,13.0
+041302,2019,DARDANELLE HOSPITAL,AR,72834,04,07,forprofit,government,,,0,0.0,ctrl_change,government_transition,35.0
+041302,2022,DARDANELLE REGIONAL MEDICAL CENTER,AR,72834,07,07,government,government,20220101,,1,0.0,chow_cnt_increment,consolidation_horizontal,35.0
+041304,2020,EUREKA SPRINGS HOSPITAL COMMISSION,AR,72632,04,02,forprofit,nonprofit,20071001,20071001,1,1.0,ctrl_change,tax_status_change,15.0
+041306,2019,"IZARD COUNTY MEDICAL CENTER, LLC",AR,72519,02,04,nonprofit,forprofit,20170703,20170703,2,2.0,ctrl_change,tax_status_change,25.0
+041306,2023,IZARD REGIONAL HOSPITAL LLC,AR,72519,04,04,forprofit,forprofit,20220815,20170703,3,2.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,25.0
+041306,2024,IZARD REGIONAL HOSPITAL LLC,AR,72519,04,02,forprofit,nonprofit,20220815,20220815,3,3.0,ctrl_change,tax_status_change,25.0
+041309,2019,LAWRENCE MEMORIAL HOSPITAL,AR,72476,07,07,government,government,20190101,,1,0.0,chow_cnt_increment,consolidation_horizontal,25.0
+041309,2020,LAWRENCE MEMORIAL HOSPITAL,AR,72476,07,02,government,nonprofit,20190101,20190101,1,1.0,ctrl_change,government_transition,25.0
+041320,2019,LITTLE RIVER MEMORIAL HOSPITAL,AR,71822,03,02,forprofit,nonprofit,20160701,20160701,2,2.0,ctrl_change,tax_status_change,25.0
+041322,2022,FULTON COUNTY HOSPITAL,AR,72576,03,07,forprofit,government,,,1,1.0,ctrl_change,government_transition,25.0
+041322,2025,BAXTER HEALTH FULTON COUNTY HOSPITAL,AR,72576,07,07,government,government,20241231,,2,1.0,chow_cnt_increment,consolidation_horizontal,25.0
+041329,2021,MERCY HOSPITAL BERRYVILLE,AR,72616,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,25.0
+041331,2024,OZARKS COMMUNITY HOSPITAL OF GRAVETTE,AR,72736,04,02,forprofit,nonprofit,,,7,7.0,ctrl_change,tax_status_change,25.0
+043026,2022,BAPTIST HEALTH REHABILITATION INSTITUTE,AR,72205,04,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,120.0
+043036,2023,ROGERS REHABILITATION HOSPITAL,AR,72758,04,04,forprofit,forprofit,20230301,,1,0.0,chow_cnt_increment,consolidation_horizontal,36.0
+044006,2020,VALLEY BEHAVIORAL HEALTH SYSTEM,AR,72923,03,04,forprofit,forprofit,20121001,20121001,2,2.0,ctrl_change,consolidation_horizontal,114.0
+044021,2022,PERIMETER BEHAVIORAL HOSPITAL OF WEST MEMPHIS,AR,72301,04,01,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,54.0
+050009,2025,PROVIDENCE QUEEN OF THE VALLEY MEDICAL CENTER,CA,94558,01,02,nonprofit,nonprofit,20180401,,2,1.0,"chow_cnt_increment,ctrl_change",consolidation_horizontal,147.0
+050017,2019,MERCY GENERAL HOSPITAL,CA,95819,01,02,nonprofit,nonprofit,,,2,2.0,ctrl_change,consolidation_horizontal,419.0
+050038,2025,SANTA CLARA VALLEY MEDICAL CENTER,CA,95128,07,07,government,government,20250401,,2,1.0,chow_cnt_increment,consolidation_horizontal,1337.0
+050058,2020,GLENDALE MEM HOSPITAL & HLTH CENTER,CA,91204,02,02,nonprofit,nonprofit,20190201,,6,5.0,chow_cnt_increment,consolidation_horizontal,304.0
+050071,2019,KAISER FOUNDATION HOSPITAL-SANTA CLARA,CA,95051,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,327.0
+050072,2019,KAISER FOUNDATION HOSPITAL - WALNUT CREEK,CA,94596,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,362.0
+050073,2025,KAISER FOUNDATION HOSPITAL AND REHAB CENTER,CA,94589,03,02,forprofit,nonprofit,,,1,1.0,ctrl_change,tax_status_change,248.0
+050075,2019,KAISER FOUNDATION HOSPITAL - OAKLAND/RICHMOND,CA,94611,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,348.0
+050076,2019,KAISER FOUNDATION HOSPITAL - SAN FRANCISCO,CA,94115,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,239.0
+050084,2019,ST JOSEPH'S MEDICAL CENTER OF STOCKTON,CA,95204,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,335.0
+050102,2019,"DOCTORS HOSPITAL OF RIVERSIDE, LLC",CA,92503,02,02,nonprofit,nonprofit,20181231,,2,1.0,chow_cnt_increment,consolidation_horizontal,193.0
+050102,2020,"DOCTORS HOSPITAL OF RIVERSIDE, LLC",CA,92503,02,04,nonprofit,forprofit,20190701,20181231,3,2.0,"chow_dt_change,chow_cnt_increment,ctrl_change",tax_status_change,193.0
+050104,2020,SAINT FRANCIS MEDICAL CENTER,CA,90262,01,01,nonprofit,nonprofit,20201027,20020101,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,448.0
+050116,2020,NORTHRIDGE HOSPITAL MEDICAL CENTER,CA,91325,02,02,nonprofit,nonprofit,20190201,,6,5.0,chow_cnt_increment,consolidation_horizontal,435.0
+050121,2019,ADVENTIST HEALTH HANFORD,CA,93230,01,02,nonprofit,nonprofit,20151201,20151201,2,2.0,ctrl_change,consolidation_horizontal,230.0
+050121,2024,ADVENTIST HEALTH HANFORD,CA,93230,02,01,nonprofit,nonprofit,20151201,20151201,2,2.0,ctrl_change,consolidation_horizontal,235.0
+050124,2021,USC VERDUGO HILLS HOSPITAL,CA,91208,02,02,nonprofit,nonprofit,20210101,20150529,3,2.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,116.0
+050127,2019,WOODLAND MEMORIAL HOSPITAL,CA,95695,03,03,forprofit,forprofit,20190201,,1,0.0,chow_cnt_increment,consolidation_horizontal,122.0
+050131,2025,NOVATO COMMUNITY HOSPITAL,CA,94945,03,02,forprofit,nonprofit,20100101,20100101,1,1.0,ctrl_change,tax_status_change,75.0
+050136,2025,PETALUMA VALLEY HOSPITAL,CA,94954,03,03,forprofit,forprofit,20210101,19970119,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,97.0
+050149,2020,CALIFORNIA HOSPITAL MEDICAL CENTER LA,CA,90015,03,03,forprofit,forprofit,20190201,19981201,5,4.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,290.0
+050179,2020,EMANUEL MEDICAL CENTER,CA,95382,01,04,nonprofit,forprofit,,,2,2.0,ctrl_change,tax_status_change,354.0
+050194,2023,WATSONVILLE COMMUNITY HOSPITAL,CA,95076,04,04,forprofit,forprofit,20220901,,3,2.0,chow_cnt_increment,consolidation_horizontal,106.0
+050232,2020,FRENCH HOSPITAL MEDICAL CENTER,CA,93401,02,02,nonprofit,nonprofit,20190201,,3,2.0,chow_cnt_increment,consolidation_horizontal,112.0
+050236,2024,ADVENTIST HEALTH SIMI VALLEY,CA,93065,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,149.0
+050242,2020,DOMINICAN HOSPITAL,CA,95065,04,02,forprofit,nonprofit,,,1,1.0,ctrl_change,tax_status_change,222.0
+050248,2021,NATIVIDAD MEDICAL CENTER,CA,93906,08,07,government,government,,,1,1.0,ctrl_change,consolidation_horizontal,172.0
+050272,2019,REDLANDS COMMUNITY HOSPITAL,CA,92373,05,02,forprofit,nonprofit,,,1,1.0,ctrl_change,tax_status_change,229.0
+050301,2025,ADVENTIST HEALTH UKIAH VALLEY,CA,95482,01,02,nonprofit,nonprofit,,,3,3.0,ctrl_change,consolidation_horizontal,111.0
+050309,2019,SUTTER ROSEVILLE MEDICAL CENTER,CA,95661,03,02,forprofit,nonprofit,19960531,19960531,2,2.0,ctrl_change,tax_status_change,328.0
+050313,2025,SUTTER TRACY COMMUNITY HOSPITAL,CA,95376,02,04,nonprofit,forprofit,20170501,,1,0.0,"chow_cnt_increment,ctrl_change",tax_status_change,82.0
+050315,2019,KERN MEDICAL CENTER,CA,93306,03,08,forprofit,government,20160701,20160701,2,2.0,ctrl_change,government_transition,222.0
+050342,2025,PIONEERS MEMORIAL HEALTHCARE DISTRICT,CA,92227,08,08,government,government,20250121,,2,1.0,chow_cnt_increment,consolidation_horizontal,99.0
+050360,2024,MARINHEALTH MEDICAL CENTER,CA,94904,07,08,government,government,,,4,4.0,ctrl_change,consolidation_horizontal,235.0
+050367,2021,NORTHBAY MEDICAL CENTER,CA,94533,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,123.0
+050390,2024,HEMET GLOBAL MEDICAL CENTER,CA,92543,09,04,government,forprofit,,,1,1.0,ctrl_change,government_transition,433.0
+050457,2025,UCSF HEALTH ST. MARY'S HOSPITAL,CA,94117,02,02,nonprofit,nonprofit,20240801,,5,4.0,chow_cnt_increment,consolidation_horizontal,275.0
+050481,2024,UCLA WEST VALLEY MEDICAL CENTER,CA,91307,04,04,forprofit,forprofit,20240329,,1,0.0,chow_cnt_increment,consolidation_horizontal,236.0
+050498,2019,SUTTER AUBURN FAITH HOSPITAL,CA,95603,03,02,forprofit,nonprofit,,,2,2.0,ctrl_change,tax_status_change,97.0
+050510,2019,KAISER FOUNDATION HOSPITAL,CA,94903,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,120.0
+050512,2019,KAISER FOUNDATION HOSPITAL - FREMONT,CA,94538,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,193.0
+050516,2020,MERCY SAN JUAN MEDICAL CENTER,CA,95608,03,02,forprofit,nonprofit,20051231,20051231,1,1.0,ctrl_change,tax_status_change,370.0
+050541,2019,KAISER FOUNDATION HOSPITAL - REDWOOD CITY,CA,94063,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,213.0
+050551,2024,UCI HEALTH ? LOS ALAMITOS,CA,90720,04,04,forprofit,forprofit,20240326,20020531,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,146.0
+050551,2025,UCI HEALTH-LOS ALAMITOS,CA,90720,04,04,forprofit,forprofit,20240327,20240326,3,2.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,146.0
+050570,2025,UCI HEALTH-FOUNTAIN VALLEY,CA,92708,04,04,forprofit,forprofit,20240327,,1,0.0,chow_cnt_increment,consolidation_horizontal,389.0
+050581,2025,UCI HEALTH-LAKEWOOD,CA,90712,04,04,forprofit,forprofit,20240327,20020531,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,170.0
+050589,2024,UCI HEALTH ? PLACENTIA LINDA,CA,92870,04,04,forprofit,forprofit,20240327,20020531,3,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,114.0
+050590,2019,METHODIST HOSPITAL OF SACRAMENTO,CA,95823,03,02,forprofit,nonprofit,20190201,,1,0.0,"chow_cnt_increment,ctrl_change",tax_status_change,154.0
+050599,2019,UNIVERSITY OF CALIFORNIA DAVIS MEDICAL CENTER,CA,95817,03,08,forprofit,government,,,1,1.0,ctrl_change,government_transition,631.0
+050604,2019,KAISER FOUNDATION HOSPITAL-SAN JOSE,CA,95119,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,247.0
+050660,2021,USC KENNETH NORRIS JR CANCER HOSPITAL,CA,90089,03,02,forprofit,nonprofit,20210101,20090401,3,2.0,"chow_dt_change,chow_cnt_increment,ctrl_change",tax_status_change,60.0
+050674,2019,KAISER FOUNDATION HOSP SO SACRAMENTO,CA,95823,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,241.0
+050684,2025,MENIFEE GLOBAL MEDICAL CENTER,CA,92585,09,04,government,forprofit,,,0,0.0,ctrl_change,government_transition,84.0
+050686,2024,"KAISER FOUNDATION HOSPITAL, RIVERSIDE",CA,92505,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,226.0
+050690,2019,KAISER FOUNDATION HOSPITAL-SANTA ROSA,CA,95403,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,173.0
+050696,2021,KECK HOSPITAL OF USC,CA,90033,03,03,forprofit,forprofit,20210101,20090401,4,3.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,261.0
+050697,2020,PATIENTS' HOSPITAL OF REDDING,CA,96001,09,04,government,forprofit,,,2,2.0,ctrl_change,government_transition,10.0
+050726,2019,STANISLAUS SURGICAL HOSPITAL,CA,95355,04,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,23.0
+050760,2019,KAISER FOUNDATION HOSPITAL - ANTIOCH,CA,94531,04,02,forprofit,nonprofit,,,1,1.0,ctrl_change,tax_status_change,150.0
+050761,2020,PROVIDENCE-CEDARS SINAI TARZANA MEDICAL CENTER,CA,91356,02,02,nonprofit,nonprofit,20191202,,1,0.0,chow_cnt_increment,consolidation_horizontal,245.0
+050763,2019,L A DOWNTOWN MEDICAL CENTER,CA,90026,04,04,forprofit,forprofit,20190301,,1,0.0,chow_cnt_increment,consolidation_horizontal,187.0
+050765,2025,KAISER FOUNDATION HOSPITAL-MORENO VALLEY,CA,92555,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,101.0
+050767,2019,KAISER FOUNDATION HOSPITAL - VACAVILLE,CA,95688,04,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,72.0
+050781,2019,SONOMA SPECIALTY HOSPITAL,CA,95472,07,07,government,government,20190401,,1,0.0,chow_cnt_increment,consolidation_horizontal,37.0
+051301,2024,ADVENTIST HEALTH TEHACHAPI VALLEY,CA,93561,08,02,government,nonprofit,20160801,20160801,3,3.0,ctrl_change,government_transition,25.0
+051305,2019,MAYERS MEMORIAL HOSPITAL,CA,96028,08,03,government,forprofit,,,0,0.0,ctrl_change,government_transition,22.0
+051305,2024,MAYERS MEMORIAL HOSPITAL,CA,96028,03,08,forprofit,government,,,0,0.0,ctrl_change,government_transition,22.0
+051306,2022,GLENN MEDICAL CENTER,CA,95988,05,05,forprofit,forprofit,20210701,20060701,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,47.0
+051306,2024,GLENN MEDICAL CENTER,CA,95988,05,04,forprofit,forprofit,20210701,20210701,2,2.0,ctrl_change,consolidation_horizontal,47.0
+051307,2019,CATALINA ISLAND MEDICAL CENTER,CA,90704,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,12.0
+051308,2020,SURPRISE VALLEY COMMUNITY HOSPITAL,CA,96104,07,08,government,government,,,0,0.0,ctrl_change,consolidation_horizontal,4.0
+051310,2025,ADVENTIST HEALTH HOWARD MEMORIAL,CA,95490,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,25.0
+051317,2019,ADVENTIST HEALTH CLEARLAKE,CA,95422,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,32.0
+051321,2021,HEALDSBURG HOSPITAL,CA,95448,08,02,government,nonprofit,20210101,,1,0.0,"chow_cnt_increment,ctrl_change",government_transition,26.0
+051325,2023,ADVENTIST HEALTH MENDOCINO COAST,CA,95437,08,08,government,government,20200701,,2,1.0,chow_cnt_increment,consolidation_horizontal,25.0
+051325,2025,ADVENTIST HEALTH MENDOCINO COAST,CA,95437,08,02,government,nonprofit,20200701,20200701,2,2.0,ctrl_change,government_transition,25.0
+051327,2023,SENECA DISTRICT HOSPITAL,CA,96020,03,08,forprofit,government,,,0,0.0,ctrl_change,government_transition,26.0
+052043,2024,KENTFIELD HOSPITAL,CA,94904,04,04,forprofit,forprofit,20230906,20030801,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,42.0
+052045,2023,KINDRED HOSPITAL BALDWIN PARK,CA,91706,04,03,forprofit,forprofit,20101101,20101101,1,1.0,ctrl_change,consolidation_horizontal,95.0
+052046,2019,KINDRED HOSPITAL PARAMOUNT,CA,90723,04,04,forprofit,forprofit,20190502,,2,1.0,chow_cnt_increment,consolidation_horizontal,177.0
+052057,2025,SONOMA SPECIALTY HOSPITAL,CA,95472,07,04,government,forprofit,,,0,0.0,ctrl_change,government_transition,37.0
+053308,2021,HEALTHBRIDGE CHILDREN'S HOSPITAL - ORANGE,CA,92866,04,04,forprofit,forprofit,20210401,,1,0.0,chow_cnt_increment,consolidation_horizontal,6.0
+054069,2023,AURORA CHARTER OAK,CA,91724,04,01,forprofit,nonprofit,,,2,2.0,ctrl_change,tax_status_change,95.0
+054096,2020,SUTTER CENTER FOR PSYCHIATRY,CA,95826,04,02,forprofit,nonprofit,,,4,4.0,ctrl_change,tax_status_change,73.0
+054123,2025,ST JOSEPH'S BEHAVIORAL HEALTH CENTER,CA,95204,02,04,nonprofit,forprofit,20160601,20160601,2,2.0,ctrl_change,tax_status_change,35.0
+054157,2022,GLENDORA  HOSPITAL,CA,91740,02,02,nonprofit,nonprofit,20210617,,1,0.0,chow_cnt_increment,consolidation_horizontal,44.0
+060044,2022,CENTURA ST ELIZABETH HOSPITAL,CO,80701,03,03,forprofit,forprofit,20220501,20050301,4,3.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,50.0
+060064,2019,CENTURA HEALTH-PORTER ADVENTIST HOSPITAL,CO,80210,01,02,nonprofit,nonprofit,,,1,1.0,ctrl_change,consolidation_horizontal,368.0
+060117,2021,"ANIMAS SURGICAL HOSPITAL, LLC",CO,81301,09,04,government,forprofit,,,0,0.0,ctrl_change,government_transition,12.0
+060117,2025,"ANIMAS SURGICAL HOSPITAL, LLC",CO,81301,04,09,forprofit,government,,,0,0.0,ctrl_change,government_transition,12.0
+061300,2019,WEISBROD MEMORIAL COUNTY HOSPITAL,CO,81036,08,07,government,government,,,0,0.0,ctrl_change,consolidation_horizontal,25.0
+061300,2023,WEISBROD MEMORIAL COUNTY HOSPITAL,CO,81036,07,08,government,government,,,0,0.0,ctrl_change,consolidation_horizontal,25.0
+061301,2024,RIO GRANDE HOSPITAL,CO,81132,02,04,nonprofit,forprofit,,,0,0.0,ctrl_change,tax_status_change,17.0
+061303,2022,EAST MORGAN COUNTY HOSPITAL,CO,80723,08,02,government,nonprofit,,,0,0.0,ctrl_change,government_transition,25.0
+061326,2023,UCHEALTH PIKES PEAK REGIONAL HOSPITAL,CO,80863,02,02,nonprofit,nonprofit,20180401,,5,4.0,chow_cnt_increment,consolidation_horizontal,15.0
+062012,2023,PAM SPECIALTY HOSPITAL OF DENVER,CO,80204,04,04,forprofit,forprofit,20190930,20130531,3,2.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,63.0
+063034,2023,ENCOMPASS HEALTH REHAB HOSPITAL OF LITTLETON,CO,80120,04,04,forprofit,forprofit,20181101,,1,0.0,chow_cnt_increment,consolidation_horizontal,40.0
+064026,2023,PEAK VIEW BEHAVIORAL HEALTH,CO,80923,04,04,forprofit,forprofit,20200117,,1,0.0,chow_cnt_increment,consolidation_horizontal,112.0
+070010,2019,BRIDGEPORT HOSPITAL,CT,06610,02,02,nonprofit,nonprofit,20190609,,6,5.0,chow_cnt_increment,consolidation_horizontal,497.0
+070016,2019,SAINT MARY'S HOSPITAL,CT,06706,03,01,forprofit,nonprofit,,,4,4.0,ctrl_change,tax_status_change,347.0
+070027,2019,MANCHESTER MEMORIAL HOSPITAL,CT,06040,02,04,nonprofit,forprofit,20161001,20161001,1,1.0,ctrl_change,tax_status_change,249.0
+070028,2019,ST VINCENT'S MEDICAL CENTER,CT,06606,01,01,nonprofit,nonprofit,20191001,,7,6.0,chow_cnt_increment,consolidation_horizontal,397.0
+070028,2020,ST VINCENT'S MEDICAL CENTER,CT,06606,01,02,nonprofit,nonprofit,20191001,20191001,7,7.0,ctrl_change,consolidation_horizontal,397.0
+070040,2024,HEBREW HOME AND HOSPITAL INC,CT,06117,02,03,nonprofit,forprofit,,,0,0.0,ctrl_change,tax_status_change,45.0
+090003,2024,HOWARD UNIVERSITY HOSPITAL CORP,DC,20060,03,03,forprofit,forprofit,20240101,,1,0.0,chow_cnt_increment,consolidation_horizontal,479.0
+090004,2020,MEDSTAR GEORGETOWN UNIVERSITY HOSPITAL,DC,20007,02,04,nonprofit,forprofit,20000701,20000701,1,1.0,ctrl_change,tax_status_change,535.0
+100012,2025,LEE MEMORIAL HOSPITAL,FL,33901,08,08,government,government,20241101,,3,2.0,chow_cnt_increment,consolidation_horizontal,895.0
+100026,2021,ASCENSION SACRED HEART BAY,FL,32401,08,02,government,nonprofit,20120401,20120401,2,2.0,ctrl_change,government_transition,323.0
+100029,2025,NORTH SHORE MEDICAL CENTER,FL,33150,04,04,forprofit,forprofit,20241030,19970111,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,816.0
+100034,2019,MOUNT SINAI MEDICAL CENTER,FL,33140,04,02,forprofit,nonprofit,,,1,1.0,ctrl_change,tax_status_change,672.0
+100050,2019,LARKIN COMMUNITY HOSPITAL PALM SPRINGS CAMPUS,FL,33012,02,02,nonprofit,nonprofit,20160201,,1,0.0,chow_cnt_increment,consolidation_horizontal,247.0
+100053,2025,HIALEAH HOSPITAL,FL,33013,04,04,forprofit,forprofit,20241030,19960601,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,356.0
+100071,2024,TAMPA GENERAL HOSPITAL BROOKSVILLE,FL,34601,01,01,nonprofit,nonprofit,20231201,,3,2.0,chow_cnt_increment,consolidation_horizontal,244.0
+100077,2025,ADVENTHEALTH PORT CHARLOTTE,FL,33952,04,04,forprofit,forprofit,20250301,20050131,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,254.0
+100079,2019,UNIV OF MIAMI HOSPITAL AND CLINICS-SYLVESTER COMPR,FL,33136,03,04,forprofit,forprofit,,,0,0.0,ctrl_change,consolidation_horizontal,700.0
+100092,2019,STEWARD ROCKLEDGE HOSPITAL,FL,32955,02,04,nonprofit,forprofit,20170501,20170501,2,2.0,ctrl_change,tax_status_change,298.0
+100092,2025,ORLANDO HEALTH ROCKLEDGE HOSPITAL,FL,32955,04,02,forprofit,nonprofit,20241023,20170501,3,2.0,"chow_dt_change,chow_cnt_increment,ctrl_change",tax_status_change,298.0
+100105,2019,CLEVELAND CLINIC INDIAN RIVER HOSPITAL,FL,32960,08,02,government,nonprofit,,,3,3.0,ctrl_change,government_transition,332.0
+100107,2025,HCA FLORIDA LEHIGH HOSPITAL,FL,33936,02,04,nonprofit,forprofit,20160201,20160201,6,6.0,ctrl_change,tax_status_change,53.0
+100109,2020,ADVENTHEALTH SEBRING,FL,33871,01,02,nonprofit,nonprofit,,,1,1.0,ctrl_change,consolidation_horizontal,204.0
+100134,2023,ED FRASER MEMORIAL HOSPITAL,FL,32063,01,02,nonprofit,nonprofit,,,4,4.0,ctrl_change,consolidation_horizontal,25.0
+100140,2019,BAPTIST MEDICAL CENTER - NASSAU,FL,32034,07,02,government,nonprofit,19940701,19940701,1,1.0,ctrl_change,government_transition,62.0
+100156,2019,LAKE CITY MEDICAL CENTER,FL,32055,02,04,nonprofit,forprofit,,,3,3.0,ctrl_change,tax_status_change,91.0
+100167,2019,PLANTATION GENERAL HOSPITAL,FL,33317,04,02,forprofit,nonprofit,,,4,4.0,ctrl_change,tax_status_change,752.0
+100183,2025,CORAL GABLES HOSPITAL,FL,33134,04,04,forprofit,forprofit,20241030,19951101,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,245.0
+100187,2025,PALMETTO GENERAL HOSPITAL,FL,33016,04,04,forprofit,forprofit,20241030,,6,5.0,chow_cnt_increment,consolidation_horizontal,360.0
+100217,2025,ORLANDO HEALTH SEBASTIAN RIVER HOSPITAL,FL,32958,04,02,forprofit,nonprofit,20241023,20170501,4,3.0,"chow_dt_change,chow_cnt_increment,ctrl_change",tax_status_change,145.0
+100220,2025,GULF COAST MEDICAL CENTER,FL,33912,08,08,government,government,20241101,20071001,3,2.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,699.0
+100244,2025,CAPE CORAL HOSPITAL,FL,33990,08,08,government,government,20241101,,4,3.0,chow_cnt_increment,consolidation_horizontal,303.0
+100249,2020,BAYFRONT HEALTH SEVEN RIVERS,FL,34428,04,02,forprofit,nonprofit,20031101,20031101,4,4.0,ctrl_change,tax_status_change,128.0
+100249,2024,TAMPA GENERAL HOSPITAL CRYSTAL RIVER,FL,34428,02,02,nonprofit,nonprofit,20231201,20031101,5,4.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,128.0
+100264,2020,OAK HILL HOSPITAL,FL,34613,03,04,forprofit,forprofit,,,3,3.0,ctrl_change,consolidation_horizontal,350.0
+100289,2019,CLEVELAND CLINIC HOSPITAL,FL,33331,04,02,forprofit,nonprofit,20061001,20061001,1,1.0,ctrl_change,tax_status_change,206.0
+100291,2025,ORLANDO HEALTH MELBOURNE HOSPITAL,FL,32935,04,02,forprofit,nonprofit,20241023,20170501,3,2.0,"chow_dt_change,chow_cnt_increment,ctrl_change",tax_status_change,119.0
+102017,2021,SELECT SPECIALTY HOSPITAL - PANAMA CITY,FL,32401,06,04,forprofit,forprofit,,,0,0.0,ctrl_change,consolidation_horizontal,30.0
+102026,2020,ADVENTHEALTH CONNERTON,FL,34637,04,02,forprofit,nonprofit,,,1,1.0,ctrl_change,tax_status_change,77.0
+103027,2019,ST ANTHONY'S REHABILITATION HOSPITAL,FL,33311,01,02,nonprofit,nonprofit,,,1,1.0,ctrl_change,consolidation_horizontal,26.0
+103039,2019,BROOKS REHABILITATION HOSPITAL,FL,32216,02,04,nonprofit,forprofit,,,1,1.0,ctrl_change,tax_status_change,160.0
+103039,2020,BROOKS REHABILITATION HOSPITAL,FL,32216,04,02,forprofit,nonprofit,,,1,1.0,ctrl_change,tax_status_change,160.0
+103300,2020,JOHNS HOPKINS ALL CHILDREN'S HOSPITAL,FL,33701,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,259.0
+104001,2024,SOUTH FLORIDA STATE HOSPITAL,FL,33025,06,07,forprofit,government,,,0,0.0,ctrl_change,government_transition,50.0
+104018,2022,LIFESTREAM BEHAVIORAL CENTER,FL,34748,02,04,nonprofit,forprofit,,,1,1.0,ctrl_change,tax_status_change,46.0
+104075,2020,NORTH TAMPA BEHAVIORAL HEALTH,FL,33543,02,04,nonprofit,forprofit,,,0,0.0,ctrl_change,tax_status_change,75.0
+110028,2019,UNIVERSITY HOSPITAL,GA,30901,03,08,forprofit,government,19841231,19841231,2,2.0,ctrl_change,government_transition,551.0
+110041,2024,NORTHEAST GEORGIA MEDICAL CENTER HABERSHAM,GA,30535,08,08,government,government,20230701,,1,0.0,chow_cnt_increment,consolidation_horizontal,53.0
+110051,2024,UNION GENERAL HOSPITAL,GA,30512,08,07,government,government,19960701,19960701,1,1.0,ctrl_change,consolidation_horizontal,45.0
+110073,2019,DORMINY MEDICAL CENTER,GA,31750,08,07,government,government,,,0,0.0,ctrl_change,consolidation_horizontal,75.0
+110079,2019,GRADY MEMORIAL HOSPITAL,GA,30303,03,02,forprofit,nonprofit,20080601,20080601,1,1.0,ctrl_change,tax_status_change,953.0
+110083,2025,"PIEDMONT HOSPITAL, INC",GA,30309,02,05,nonprofit,forprofit,,,0,0.0,ctrl_change,tax_status_change,458.0
+110104,2024,CRISP REGIONAL HOSPITAL,GA,31015,08,04,government,forprofit,19950701,19950701,1,1.0,ctrl_change,government_transition,73.0
+110129,2020,ST FRANCIS HOSPITAL- EMORY HEALTHCARE,GA,31995,02,02,nonprofit,nonprofit,20160101,,1,0.0,chow_cnt_increment,consolidation_horizontal,376.0
+110236,2022,CHI MEMORIAL HOSPITAL- GEORGIA,GA,30742,04,02,forprofit,nonprofit,20171129,20171129,1,1.0,ctrl_change,tax_status_change,179.0
+111308,2019,CLINCH MEMORIAL HOSPITAL,GA,31634,07,08,government,government,,,0,0.0,ctrl_change,consolidation_horizontal,25.0
+111310,2025,ATRIUM HEALTH NAVICENT PEACH,GA,31008,08,02,government,nonprofit,20130101,20130101,1,1.0,ctrl_change,government_transition,25.0
+111334,2024,CANDLER COUNTY HOSPITAL,GA,30439,08,04,government,forprofit,,,0,0.0,ctrl_change,government_transition,25.0
+113029,2025,ATRIUM HEALTH NAVICENT REHABILITATION HOSPITAL,GA,31210,02,04,nonprofit,forprofit,,,1,1.0,ctrl_change,tax_status_change,58.0
+113300,2019,CHILDREN'S HEALTHCARE OF ATLANTA AT EGLESTON,GA,30322,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,295.0
+114028,2019,GEORGIA REGIONAL HOSP SAVANNAH,GA,31416,04,06,forprofit,forprofit,,,1,1.0,ctrl_change,consolidation_horizontal,112.0
+114032,2024,SO CRESCENT BEH HLTH SYS - ANCHOR HOSPITAL CAMPUS,GA,30349,04,08,forprofit,government,,,8,8.0,ctrl_change,government_transition,92.0
+121305,2021,LANAI COMMUNITY HOSPITAL,HI,96763,06,02,forprofit,nonprofit,20170701,20170701,1,1.0,ctrl_change,tax_status_change,4.0
+121308,2021,KULA HOSPITAL,HI,96790,06,02,forprofit,nonprofit,20170701,20170701,3,3.0,ctrl_change,tax_status_change,9.0
+130003,2024,ST JOSEPH REGIONAL MEDICAL CENTER,ID,83501,02,02,nonprofit,nonprofit,20170501,,4,3.0,chow_cnt_increment,consolidation_horizontal,145.0
+130049,2024,KOOTENAI HEALTH,ID,83814,08,08,government,government,20240101,,3,2.0,chow_cnt_increment,consolidation_horizontal,321.0
+131312,2022,ST LUKE'S MCCALL,ID,83638,02,04,nonprofit,forprofit,20101001,20101001,1,1.0,ctrl_change,tax_status_change,15.0
+131315,2025,SYRINGA GENERAL HOSPITAL,ID,83530,08,02,government,nonprofit,,,0,0.0,ctrl_change,government_transition,16.0
+131322,2021,FRANKLIN COUNTY MEDICAL CENTER,ID,83263,07,03,government,forprofit,,,0,0.0,ctrl_change,government_transition,20.0
+134009,2019,LIFEWAYS HOSPITAL,ID,83704,04,02,forprofit,nonprofit,20130501,20130501,7,7.0,ctrl_change,tax_status_change,22.0
+140001,2019,GRAHAM HOSPITAL ASSOCIATION,IL,61520,03,02,forprofit,nonprofit,,,1,1.0,ctrl_change,tax_status_change,100.0
+140007,2025,SAINT JOSEPH MEDICAL CENTER,IL,60435,01,01,nonprofit,nonprofit,20250301,19971130,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,443.0
+140012,2025,OSF SAINT KATHARINE MEDICAL CENTER,IL,61021,02,02,nonprofit,nonprofit,20250101,,1,0.0,chow_cnt_increment,consolidation_horizontal,80.0
+140048,2024,ADVOCATE TRINITY HOSPITAL,IL,60617,03,01,forprofit,nonprofit,,,2,2.0,ctrl_change,tax_status_change,263.0
+140049,2019,WEST SUBURBAN MEDICAL CENTER,IL,60302,03,03,forprofit,forprofit,20190128,20100801,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,287.0
+140063,2025,RUSH OAK PARK HOSPITAL,IL,60304,01,02,nonprofit,nonprofit,,,2,2.0,ctrl_change,consolidation_horizontal,296.0
+140067,2019,SAINT FRANCIS MEDICAL CENTER,IL,61637,01,02,nonprofit,nonprofit,,,2,2.0,ctrl_change,consolidation_horizontal,730.0
+140068,2022,ROSELAND COMMUNITY HOSPITAL,IL,60628,03,02,forprofit,nonprofit,,,1,1.0,ctrl_change,tax_status_change,162.0
+140080,2025,SAINT FRANCIS HOSPITAL-EVANSTON,IL,60202,01,01,nonprofit,nonprofit,20250301,20160101,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,427.0
+140082,2019,LOUIS A WEISS MEMORIAL HOSPITAL,IL,60640,04,04,forprofit,forprofit,20190128,,6,5.0,chow_cnt_increment,consolidation_horizontal,236.0
+140084,2022,VISTA MEDICAL CENTER EAST,IL,60085,03,04,forprofit,forprofit,20060701,20060701,1,1.0,ctrl_change,consolidation_horizontal,388.0
+140103,2022,ST BERNARD HOSPITAL,IL,60621,02,01,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,210.0
+140117,2025,RESURRECTION MEDICAL CENTER,IL,60631,01,01,nonprofit,nonprofit,20250301,20160101,3,2.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,443.0
+140125,2019,GATEWAY REGIONAL MEDICAL CENTER,IL,62040,04,03,forprofit,forprofit,,,0,0.0,ctrl_change,consolidation_horizontal,406.0
+140125,2023,GATEWAY REGIONAL MEDICAL CENTER,IL,62040,03,03,forprofit,forprofit,20230301,,1,0.0,chow_cnt_increment,consolidation_horizontal,406.0
+140127,2020,CARLE BROMENN MEDICAL CENTER,IL,61761,01,01,nonprofit,nonprofit,20200701,20100106,3,2.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,176.0
+140137,2019,GREENVILLE REGIONAL HOSPITAL,IL,62246,02,01,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,44.0
+140155,2022,PRESENCE ST MARYS HOSPITAL,IL,60901,02,01,nonprofit,nonprofit,,,3,3.0,ctrl_change,consolidation_horizontal,182.0
+140155,2025,ST. MARY'S HOSPITAL-KANKAKEE,IL,60901,01,01,nonprofit,nonprofit,20250301,,4,3.0,chow_cnt_increment,consolidation_horizontal,182.0
+140158,2021,INSIGHT HOSPITAL AND MEDICAL CENTER CHICAGO,IL,60616,02,02,nonprofit,nonprofit,20210601,,1,0.0,chow_cnt_increment,consolidation_horizontal,480.0
+140160,2021,FHN MEMORIAL HOSPITAL,IL,61032,02,03,nonprofit,forprofit,,,3,3.0,ctrl_change,tax_status_change,203.0
+140160,2025,FHN MEMORIAL HOSPITAL,IL,61032,03,02,forprofit,nonprofit,,,3,3.0,ctrl_change,tax_status_change,203.0
+140174,2023,PRESENCE MERCY MEDICAL CENTER,IL,60506,01,02,nonprofit,nonprofit,19971130,19971130,1,1.0,ctrl_change,consolidation_horizontal,315.0
+140174,2025,MERCY MEDICAL CENTER,IL,60506,02,02,nonprofit,nonprofit,20250301,19971130,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,315.0
+140179,2020,OSF LITTLE COMPANY OF MARY MEDICAL CENTER,IL,60805,03,03,forprofit,forprofit,20200201,,6,5.0,chow_cnt_increment,consolidation_horizontal,298.0
+140180,2025,SAINT MARY OF NAZARETH HOSPITAL,IL,60622,01,01,nonprofit,nonprofit,20250301,20160101,3,2.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,493.0
+140182,2019,ADVOCATE ILLINOIS MASONIC MEDICAL CENTER,IL,60657,01,02,nonprofit,nonprofit,20001103,20001103,1,1.0,ctrl_change,consolidation_horizontal,997.0
+140191,2022,INGALLS MEMORIAL HOSPITAL,IL,60426,02,09,nonprofit,government,,,0,0.0,ctrl_change,government_transition,582.0
+140197,2020,METHODIST HOSPITAL OF CHICAGO,IL,60640,02,02,nonprofit,nonprofit,20191001,,2,0.0,chow_cnt_increment,consolidation_horizontal,245.0
+140217,2025,SAINT JOSEPH HOSPITAL-ELGIN,IL,60123,01,01,nonprofit,nonprofit,20250301,19971130,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,277.0
+140228,2021,SWEDISH AMERICAN HOSPITAL,IL,61104,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,397.0
+140234,2022,ST MARGARET'S HEALTH - PERU,IL,61354,02,01,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,49.0
+140240,2019,WESTLAKE HOSPITAL,IL,60160,03,03,forprofit,forprofit,20190128,20100801,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,282.0
+140251,2022,COMMUNITY FIRST MEDICAL CENTER,IL,60634,02,04,nonprofit,forprofit,20150101,20150101,1,1.0,ctrl_change,tax_status_change,299.0
+140258,2021,ALEXIAN BROTHERS MEDICAL CENTER 1,IL,60007,01,02,nonprofit,nonprofit,,,1,1.0,ctrl_change,consolidation_horizontal,483.0
+140280,2023,TRINITY ROCK ISLAND,IL,61201,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,314.0
+140288,2021,ADVOCATE GOOD SAMARITAN HOSPITAL,IL,60515,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,366.0
+140291,2025,ADVOCATE GOOD SHEPHERD HOSPITAL,IL,60010,01,02,nonprofit,nonprofit,,,2,2.0,ctrl_change,consolidation_horizontal,176.0
+140294,2023,CROSSROADS COMMUNITY HOSPITAL,IL,62864,04,04,forprofit,forprofit,20230114,,1,0.0,chow_cnt_increment,consolidation_horizontal,56.0
+141300,2022,THOMAS H BOYD MEMORIAL HOSPITAL,IL,62016,02,07,nonprofit,government,,,2,2.0,ctrl_change,government_transition,25.0
+141309,2020,CARLE EUREKA HOSPITAL,IL,61530,02,02,nonprofit,nonprofit,20200701,20100106,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,18.0
+141310,2020,OSF SAINT PAUL MEDICAL CENTER,IL,61342,02,01,nonprofit,nonprofit,,,1,1.0,ctrl_change,consolidation_horizontal,25.0
+141318,2019,OSF HOLY FAMILY MEDICAL CENTER,IL,61462,02,01,nonprofit,nonprofit,20070401,20070401,1,1.0,ctrl_change,consolidation_horizontal,23.0
+141320,2019,PARIS COMMUNITY HOSPITAL,IL,61944,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,15.0
+141323,2020,MASSAC MEMORIAL HOSPITAL,IL,62960,08,04,government,forprofit,,,3,3.0,ctrl_change,government_transition,25.0
+141323,2025,MASSAC MEMORIAL HOSPITAL,IL,62960,04,08,forprofit,government,,,3,3.0,ctrl_change,government_transition,25.0
+141325,2021,OSF SAINT LUKE MEDICAL CENTER,IL,61443,01,02,nonprofit,nonprofit,20140401,20140401,1,1.0,ctrl_change,consolidation_horizontal,25.0
+141337,2021,OSF SAINT CLARE MEDICAL CENTER,IL,61356,07,07,government,government,20210701,,1,0.0,chow_cnt_increment,consolidation_horizontal,25.0
+141337,2025,OSF SAINT CLARE MEDICAL CENTER,IL,61356,07,01,government,nonprofit,20210701,20210701,1,1.0,ctrl_change,government_transition,25.0
+141342,2023,UNION COUNTY HOSPITAL,IL,62906,04,04,forprofit,forprofit,20230114,20061101,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,25.0
+141346,2023,SARAH BUSH LINCOLN FAYETTE COUNTY HOSPITAL,IL,62471,03,03,forprofit,forprofit,20220701,,1,0.0,chow_cnt_increment,consolidation_horizontal,25.0
+141348,2023,RED BUD REGIONAL HOSPITAL,IL,62278,04,04,forprofit,forprofit,20230114,,2,1.0,chow_cnt_increment,consolidation_horizontal,25.0
+142006,2021,KINDRED HOSPITAL - SYCAMORE,IL,60178,04,04,forprofit,forprofit,20201216,,1,0.0,chow_cnt_increment,consolidation_horizontal,69.0
+142008,2021,KINDRED HOSPITAL - CHICAGO,IL,60164,04,04,forprofit,forprofit,20201216,,5,4.0,chow_cnt_increment,consolidation_horizontal,258.0
+142009,2021,KINDRED - CHICAGO - LAKESHORE,IL,60660,04,04,forprofit,forprofit,20201217,,1,0.0,chow_cnt_increment,consolidation_horizontal,94.0
+143025,2023,SCHWAB REHABILITATION HOSPITAL,IL,60608,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,125.0
+144029,2020,"PAVILION FOUNDATION, THE",IL,61820,04,02,forprofit,nonprofit,19951229,19951229,1,1.0,ctrl_change,tax_status_change,72.0
+150061,2019,DAVIESS COMMUNITY HOSPITAL,IN,47501,03,07,forprofit,government,,,2,2.0,ctrl_change,government_transition,80.0
+150086,2021,ST ELIZABETH DEARBORN HOSPITAL,IN,47025,07,07,government,government,20201101,,3,2.0,chow_cnt_increment,consolidation_horizontal,78.0
+150115,2019,MEMORIAL HOSPITAL AND HEALTH CARE CENTER,IN,47546,01,02,nonprofit,nonprofit,,,3,3.0,ctrl_change,consolidation_horizontal,93.0
+150157,2020,ASCENSION ST VINCENT CARMEL,IN,46032,01,02,nonprofit,nonprofit,,,3,3.0,ctrl_change,consolidation_horizontal,107.0
+151318,2019,DUKES MEMORIAL HOSPITAL,IN,46970,02,04,nonprofit,forprofit,20041001,20041001,1,1.0,ctrl_change,tax_status_change,25.0
+152028,2024,NW INDIANA-AMG SPECIALTY HOSPITAL,IN,46307,04,04,forprofit,forprofit,20240101,20101025,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,40.0
+153039,2019,COMMUNITY HOWARD SPECIALTY HOSPITAL,IN,46901,04,02,forprofit,nonprofit,20050201,20050201,2,2.0,ctrl_change,tax_status_change,30.0
+154011,2022,COMMUNITY MENTAL HEALTH CENTER INC,IN,47025,02,04,nonprofit,forprofit,,,1,1.0,ctrl_change,tax_status_change,16.0
+154011,2025,INCOMPASS HEALTHCARE,IN,47025,04,02,forprofit,nonprofit,,,1,1.0,ctrl_change,tax_status_change,16.0
+160005,2022,ST ANTHONY REGIONAL HOSPITAL & NURSING HOME,IA,51401,02,01,nonprofit,nonprofit,,,1,1.0,ctrl_change,consolidation_horizontal,63.0
+160029,2024,UNIVERSITY OF IOWA HEALTH CARE MEDICAL CENTER DOWN,IA,52245,01,01,nonprofit,nonprofit,20240131,,1,0.0,chow_cnt_increment,consolidation_horizontal,234.0
+160030,2019,MARY GREELEY MEDICAL CENTER,IA,50010,07,02,government,nonprofit,,,0,0.0,ctrl_change,government_transition,220.0
+160030,2020,MARY GREELEY MEDICAL CENTER,IA,50010,02,07,nonprofit,government,,,0,0.0,ctrl_change,government_transition,220.0
+160122,2021,FORT MADISON COMMUNITY HOSPITAL,IA,52627,02,02,nonprofit,nonprofit,20210701,,1,0.0,chow_cnt_increment,consolidation_horizontal,50.0
+160124,2020,LAKES REGIONAL HEALTHCARE,IA,51360,03,07,forprofit,government,,,1,1.0,ctrl_change,government_transition,49.0
+160146,2025,ST LUKES REGIONAL MEDICAL CENTER,IA,51104,02,02,nonprofit,nonprofit,20250901,,5,4.0,chow_cnt_increment,consolidation_horizontal,201.0
+161300,2021,MERCYONE PRIMGHAR MEDICAL CENTER,IA,51245,01,02,nonprofit,nonprofit,,,4,4.0,ctrl_change,consolidation_horizontal,14.0
+161304,2021,CHI HEALTH - MERCY CORNING,IA,50841,02,01,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,22.0
+161307,2019,HANCOCK COUNTY HEALTH SYSTEM,IA,50423,03,07,forprofit,government,,,0,0.0,ctrl_change,government_transition,25.0
+161314,2023,GUTHRIE COUNTY HOSPITAL,IA,50115,07,03,government,forprofit,,,0,0.0,ctrl_change,government_transition,25.0
+161315,2021,KEOKUK COUNTY HEALTH CENTER,IA,52591,03,08,forprofit,government,,,1,1.0,ctrl_change,government_transition,14.0
+161317,2020,COMPASS MEMORIAL HEALTHCARE,IA,52301,03,07,forprofit,government,,,0,0.0,ctrl_change,government_transition,25.0
+161317,2025,COMPASS MEMORIAL HEALTHCARE,IA,52301,07,02,government,nonprofit,,,0,0.0,ctrl_change,government_transition,25.0
+161321,2019,AVERA MERRILL PIONEER HOSPITAL,IA,51246,02,02,nonprofit,nonprofit,20190501,,1,0.0,chow_cnt_increment,consolidation_horizontal,25.0
+161322,2022,DALLAS COUNTY HOSPITAL,IA,50220,03,07,forprofit,government,,,0,0.0,ctrl_change,government_transition,25.0
+161323,2020,MITCHELL COUNTY REGIONAL HEALTH,IA,50461,03,07,forprofit,government,,,0,0.0,ctrl_change,government_transition,25.0
+161323,2025,MITCHELL COUNTY REGIONAL HEALTH,IA,50461,07,05,government,forprofit,,,0,0.0,ctrl_change,government_transition,25.0
+161324,2021,GEORGE C GRAPE COMMUNITY HOSPITAL,IA,51640,04,02,forprofit,nonprofit,,,1,1.0,ctrl_change,tax_status_change,25.0
+161325,2019,GREENE COUNTY MEDICAL CENTER,IA,50129,07,03,government,forprofit,,,0,0.0,ctrl_change,government_transition,25.0
+161325,2023,GREENE COUNTY MEDICAL CENTER,IA,50129,03,07,forprofit,government,,,0,0.0,ctrl_change,government_transition,25.0
+161328,2019,REGIONAL HEALTH SERVICES OF HOWARD COUNTY,IA,52136,03,07,forprofit,government,,,0,0.0,ctrl_change,government_transition,25.0
+161335,2021,BUCHANAN COUNTY HEALTH CENTER,IA,50644,03,07,forprofit,government,,,0,0.0,ctrl_change,government_transition,25.0
+161338,2024,MERCYONE OELWEIN MEDICAL CENTER,IA,50662,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,25.0
+161340,2019,DECATUR COUNTY HOSPITAL,IA,50144,08,07,government,government,,,1,1.0,ctrl_change,consolidation_horizontal,25.0
+161342,2021,MONROE COUNTY HOSPITAL,IA,52531,03,07,forprofit,government,,,3,3.0,ctrl_change,government_transition,25.0
+161343,2021,REGIONAL MEDICAL CENTER,IA,52057,04,07,forprofit,government,,,2,2.0,ctrl_change,government_transition,25.0
+161344,2021,WASHINGTON COUNTY HOSPITAL AND CLINICS,IA,52353,03,07,forprofit,government,,,2,2.0,ctrl_change,government_transition,25.0
+161347,2021,FLOYD COUNTY MEDICAL CENTER,IA,50616,03,07,forprofit,government,,,3,3.0,ctrl_change,government_transition,25.0
+161351,2021,AVERA HOLY FAMILY HOSPITAL,IA,51334,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,25.0
+161352,2021,CLARINDA REGIONAL HEALTH CENTER,IA,51632,03,07,forprofit,government,,,2,2.0,ctrl_change,government_transition,25.0
+161356,2021,HENRY COUNTY HEALTH CENTER,IA,52641,07,07,government,government,20210701,,1,0.0,chow_cnt_increment,consolidation_horizontal,25.0
+161356,2025,HENRY COUNTY HEALTH CENTER,IA,52641,07,09,government,government,20210701,20210701,1,1.0,ctrl_change,consolidation_horizontal,25.0
+161361,2022,VAN DIEST MEDICAL CENTER,IA,50595,07,03,government,forprofit,,,2,2.0,ctrl_change,government_transition,25.0
+161368,2020,FLOYD VALLEY HEALTHCARE,IA,51031,04,07,forprofit,government,,,0,0.0,ctrl_change,government_transition,25.0
+161369,2020,CRAWFORD COUNTY MEMORIAL HOSPITAL,IA,51442,03,07,forprofit,government,,,1,1.0,ctrl_change,government_transition,25.0
+161372,2025,BOONE COUNTY HOSPITAL,IA,50036,07,03,government,forprofit,,,3,3.0,ctrl_change,government_transition,25.0
+161373,2025,RINGGOLD COUNTY HOSPITAL,IA,50854,07,06,government,forprofit,,,0,0.0,ctrl_change,government_transition,25.0
+161374,2020,MYRTUE MEDICAL CENTER,IA,51537,03,07,forprofit,government,,,0,0.0,ctrl_change,government_transition,25.0
+161374,2025,MYRTUE MEDICAL CENTER,IA,51537,07,03,government,forprofit,,,0,0.0,ctrl_change,government_transition,25.0
+170006,2024,"MERCY HOSPITAL PITTSBURG, INC",KS,66762,02,01,nonprofit,nonprofit,,,1,1.0,ctrl_change,consolidation_horizontal,102.0
+170006,2025,"MERCY HOSPITAL PITTSBURG, INC",KS,66762,01,01,nonprofit,nonprofit,20240901,,2,1.0,chow_cnt_increment,consolidation_horizontal,102.0
+170014,2019,ADVENTHEALTH OTTAWA,KS,66067,07,07,government,government,20190501,,1,0.0,chow_cnt_increment,consolidation_horizontal,49.0
+170020,2019,HUTCHINSON REGIONAL MEDICAL CENTER INC,KS,67502,04,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,199.0
+170023,2024,CENTURA ST. CATHERINE HOSPITAL-GARDEN CITY,KS,67846,02,01,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,100.0
+170027,2019,PRATT REGIONAL MEDICAL CENTER,KS,67124,02,04,nonprofit,forprofit,,,1,1.0,ctrl_change,tax_status_change,69.0
+170039,2019,SUMNER COMMUNITY HOSPITAL,KS,67152,07,07,government,government,20181119,,1,0.0,chow_cnt_increment,consolidation_horizontal,62.0
+170074,2024,"STORMONT VAIL HEALTH FLINT HILLS, LLC",KS,66441,07,02,government,nonprofit,20230101,,1,0.0,"chow_cnt_increment,ctrl_change",government_transition,92.0
+170104,2025,ADVENTHEALTH SHAWNEE MISSION,KS,66204,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,504.0
+170110,2019,BOB WILSON MEMORIAL GRANT COUNTY HOSPITAL,KS,67880,07,04,government,forprofit,20160201,20160201,3,3.0,ctrl_change,government_transition,45.0
+170110,2024,BOB WILSON MEMORIAL GRANT COUNTY HOSPITAL,KS,67880,04,01,forprofit,nonprofit,20160201,20160201,3,3.0,ctrl_change,tax_status_change,25.0
+170122,2021,"ASCENSION VIA CHRISTI HOSPITALS WICHITA, INC.",KS,67214,01,02,nonprofit,nonprofit,,,2,2.0,ctrl_change,consolidation_horizontal,1268.0
+170142,2023,"ASCENSION VIA CHRISTI HOSPITAL MANHATTAN, INC",KS,66502,01,02,nonprofit,nonprofit,,,2,2.0,ctrl_change,consolidation_horizontal,150.0
+170145,2024,"COFFEYVILLE REGIONAL MEDICAL CENTER, INC",KS,67337,07,02,government,nonprofit,,,2,2.0,ctrl_change,government_transition,74.0
+170182,2021,MENORAH MEDICAL CENTER,KS,66209,03,04,forprofit,forprofit,20030401,20030401,1,1.0,ctrl_change,consolidation_horizontal,190.0
+170183,2025,KANSAS SURGERY & RECOVERY CENTER,KS,67226,09,02,government,nonprofit,,,0,0.0,ctrl_change,government_transition,28.0
+170191,2024,UNIVERSITY  OF KS HLTH SYSTEM GREAT BEND CAMPUS,KS,67530,04,08,forprofit,government,,,1,1.0,ctrl_change,government_transition,25.0
+170203,2023,MERCY SPECIALTY HOSPITAL SOUTHEAST KANSAS,KS,66739,07,02,government,nonprofit,20200126,,1,0.0,"chow_cnt_increment,ctrl_change",government_transition,16.0
+171303,2019,LANE COUNTY HOSPITAL,KS,67839,03,08,forprofit,government,,,0,0.0,ctrl_change,government_transition,25.0
+171323,2019,STAFFORD COUNTY HOSPITAL,KS,67578,03,07,forprofit,government,,,0,0.0,ctrl_change,government_transition,25.0
+171327,2019,ELLSWORTH COUNTY MEDICAL CENTER,KS,67439,07,04,government,forprofit,,,0,0.0,ctrl_change,government_transition,20.0
+171340,2019,HERINGTON MUNICIPAL HOSPITAL,KS,67449,07,03,government,forprofit,,,0,0.0,ctrl_change,government_transition,25.0
+171340,2021,HERINGTON HOSPITAL,KS,67449,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,25.0
+171345,2019,PAWNEE VALLEY COMMUNITY HOSPITAL,KS,67550,07,02,government,nonprofit,,,1,1.0,ctrl_change,government_transition,25.0
+171352,2019,DECATUR COUNTY HOSPITAL,KS,67749,07,02,government,nonprofit,,,0,0.0,ctrl_change,government_transition,25.0
+171373,2024,ALLEN COUNTY REGIONAL HOSPITAL,KS,66749,06,07,forprofit,government,20130701,20130701,1,1.0,ctrl_change,government_transition,25.0
+172004,2019,KPC PROMISE HOSPITAL OF OVERLAND PARK,KS,66212,06,06,forprofit,forprofit,20190615,20030830,4,3.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,56.0
+172004,2025,HIGHCREST HOSPITAL OF OVERLAND PARK,KS,66212,06,04,forprofit,forprofit,20240825,20190615,5,4.0,"chow_dt_change,chow_cnt_increment,ctrl_change",consolidation_horizontal,56.0
+173028,2022,"ASCENSION VIA CHRISTI REHABILITATION HOSPITAL, INC",KS,67206,01,02,nonprofit,nonprofit,,,3,3.0,ctrl_change,consolidation_horizontal,30.0
+174016,2022,PRAIRIE VIEW INC,KS,67114,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,30.0
+180053,2019,FLEMING COUNTY HOSPITAL,KY,41041,03,03,forprofit,forprofit,20150801,,1,0.0,chow_cnt_increment,consolidation_horizontal,52.0
+180066,2024,THE MEDICAL CENTER AT RUSSELLVILLE,KY,42276,04,04,forprofit,forprofit,20240701,,7,6.0,chow_cnt_increment,consolidation_horizontal,92.0
+180095,2019,CRITTENDEN COMMUNITY HOSPITAL,KY,42064,04,07,forprofit,government,,,0,0.0,ctrl_change,government_transition,48.0
+181322,2020,CALDWELL MEDICAL CENTER,KY,42445,08,02,government,nonprofit,,,0,0.0,ctrl_change,government_transition,25.0
+184006,2020,SUN BEHAVIORAL HEALTH,KY,41018,02,04,nonprofit,forprofit,20180220,20180220,3,3.0,ctrl_change,tax_status_change,197.0
+190004,2020,THIBODAUX REGIONAL MEDICAL CENTER,LA,70301,08,08,government,government,20191001,,1,0.0,chow_cnt_increment,consolidation_horizontal,210.0
+190004,2021,THIBODAUX REGIONAL MEDICAL CENTER,LA,70301,08,02,government,nonprofit,20191001,20191001,1,1.0,ctrl_change,government_transition,210.0
+190011,2021,OCHSNER LSU HEALTH MONROE,LA,71202,04,02,forprofit,nonprofit,20131001,20131001,6,6.0,ctrl_change,tax_status_change,247.0
+190014,2020,OCHSNER ST MARY,LA,70380,04,04,forprofit,forprofit,20191001,20011207,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,164.0
+190014,2023,OCHSNER ST MARY,LA,70380,04,02,forprofit,nonprofit,20191001,20191001,2,2.0,ctrl_change,tax_status_change,164.0
+190017,2023,OPELOUSAS GENERAL HEALTH SYSTEM,LA,70570,08,03,government,forprofit,,,0,0.0,ctrl_change,government_transition,181.0
+190017,2025,OPELOUSAS GENERAL HEALTH SYSTEM,LA,70570,03,08,forprofit,government,,,0,0.0,ctrl_change,government_transition,171.0
+190025,2019,SAVOY MEDICAL CENTER,LA,70554,08,03,government,forprofit,20100101,20100101,6,6.0,ctrl_change,government_transition,60.0
+190053,2022,OCHSNER AMERICAN LEGION HOSPITAL,LA,70546,02,02,nonprofit,nonprofit,20220401,,2,1.0,chow_cnt_increment,consolidation_horizontal,49.0
+190054,2023,IBERIA MEDICAL CENTER,LA,70562,08,02,government,nonprofit,,,1,1.0,ctrl_change,government_transition,166.0
+190060,2021,LAKE CHARLES MEMORIAL HOSPITAL,LA,70601,02,04,nonprofit,forprofit,,,0,0.0,ctrl_change,tax_status_change,407.0
+190060,2023,LAKE CHARLES MEMORIAL HOSPITAL,LA,70601,04,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,407.0
+190086,2020,NORTHERN LOUISIANA MEDICAL CENTER,LA,71270,04,04,forprofit,forprofit,20200701,20150301,4,3.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,139.0
+190146,2021,EAST JEFFERSON GENERAL HOSPITAL,LA,70006,08,08,government,government,20201001,,1,0.0,chow_cnt_increment,consolidation_horizontal,407.0
+190146,2022,EAST JEFFERSON GENERAL HOSPITAL,LA,70006,08,02,government,nonprofit,20201001,20201001,1,1.0,ctrl_change,government_transition,407.0
+190160,2025,GLENWOOD REGIONAL MEDICAL CENTER,LA,71291,04,04,forprofit,forprofit,20241030,,4,3.0,chow_cnt_increment,consolidation_horizontal,257.0
+190176,2019,TULANE MEDICAL CENTER,LA,70112,04,02,forprofit,nonprofit,,,3,3.0,ctrl_change,tax_status_change,514.0
+190176,2022,TULANE MEDICAL CENTER,LA,70112,02,04,nonprofit,forprofit,,,3,3.0,ctrl_change,tax_status_change,506.0
+190176,2023,EAST JEFFERSON GENERAL HOSPITAL,LA,70006,04,04,forprofit,forprofit,20230101,,4,3.0,chow_cnt_increment,consolidation_horizontal,875.0
+190176,2025,EAST JEFFERSON GENERAL HOSPITAL,LA,70006,04,02,forprofit,nonprofit,20230101,20230101,4,4.0,ctrl_change,tax_status_change,641.0
+190190,2019,"CALDWELL MEMORIAL HOSPITAL, INC",LA,71418,04,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,47.0
+190190,2023,"CALDWELL MEMORIAL HOSPITAL, INC",LA,71418,02,04,nonprofit,forprofit,,,0,0.0,ctrl_change,tax_status_change,47.0
+190245,2023,MONROE SURGICAL HOSPITAL,LA,71201,09,04,government,forprofit,,,1,1.0,ctrl_change,government_transition,10.0
+190255,2019,PARK PLACE SURGICAL HOSPITAL,LA,70508,04,09,forprofit,government,,,0,0.0,ctrl_change,government_transition,10.0
+190255,2025,PARK PLACE SURGICAL HOSPITAL,LA,70508,09,04,government,forprofit,,,0,0.0,ctrl_change,government_transition,10.0
+190259,2022,LAFAYETTE SURGICAL SPECIALTY HOSPITAL,LA,70508,04,09,forprofit,government,,,0,0.0,ctrl_change,government_transition,20.0
+190266,2021,THE SPINE HOSPITAL OF LOUISIANA,LA,70810,02,09,nonprofit,government,,,0,0.0,ctrl_change,government_transition,23.0
+190278,2021,SPECIALISTS HOSPITAL SHREVEPORT,LA,71101,09,04,government,forprofit,,,1,1.0,ctrl_change,government_transition,15.0
+190298,2023,CHRISTUS CENTRAL LOUISIANA SURGICAL HOSPITAL,LA,71301,09,04,government,forprofit,,,1,1.0,ctrl_change,government_transition,24.0
+190302,2020,"OMEGA HOSPITAL, LLC",LA,70002,04,09,forprofit,government,,,1,1.0,ctrl_change,government_transition,16.0
+190307,2023,SOUTH CAMERON MEMORIAL HOSPITAL,LA,70631,04,04,forprofit,forprofit,20230302,20140101,4,3.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,49.0
+190312,2020,OUR LADY OF THE ANGELS HOSPITAL,LA,70427,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,92.0
+190317,2021,OCHSNER LSU HEALTH SHREVEPORT-ST MARY MEDICAL CENT,LA,71101,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,94.0
+191307,2019,DEQUINCY MEMORIAL HOSPITAL,LA,70633,04,04,forprofit,forprofit,20190401,,3,2.0,chow_cnt_increment,consolidation_horizontal,25.0
+191322,2019,ABROM KAPLAN MEMORIAL HOSPITAL,LA,70548,08,02,government,nonprofit,20150601,20150601,1,1.0,ctrl_change,government_transition,35.0
+191324,2019,OCHSNER ST ANNE GENERAL HOSPITAL,LA,70394,03,02,forprofit,nonprofit,20060501,20060501,1,1.0,ctrl_change,tax_status_change,35.0
+191324,2023,OCHSNER ST ANNE GENERAL HOSPITAL,LA,70394,02,03,nonprofit,forprofit,20060501,20060501,1,1.0,ctrl_change,tax_status_change,35.0
+192004,2019,KPC PROMISE HOSPITAL OF BATON ROUGE,LA,70809,04,04,forprofit,forprofit,20190615,20060929,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,54.0
+192004,2025,BATON ROUGE SPECIALTY HOSPITAL,LA,70809,04,04,forprofit,forprofit,20240519,20190615,3,2.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,54.0
+192006,2025,CORNERSTONE POST ACUTE CARE OF BOSSIER,LA,71112,04,04,forprofit,forprofit,20250201,20150201,3,2.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,86.0
+192010,2019,INTENSIVE SPECIALTY HOSPITAL,LA,71101,04,04,forprofit,forprofit,20190830,,2,1.0,chow_cnt_increment,consolidation_horizontal,196.0
+192010,2025,INTENSIVE SPECIALTY HOSPITAL,LA,71101,04,02,forprofit,nonprofit,20190830,20190830,2,2.0,ctrl_change,tax_status_change,220.0
+192011,2020,PAM SPECIALTY HOSPITAL OF SHREVEPORT SOUTH,LA,71115,04,04,forprofit,forprofit,20190930,20130531,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,54.0
+192013,2025,SAGE SPECIALTY HOSPITAL OF LAKE CHARLES,LA,70601,04,04,forprofit,forprofit,20250301,20150201,3,2.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,33.0
+192023,2021,NORTHSHORE EXTENDED CARE HOSPITAL,LA,70445,02,04,nonprofit,forprofit,20080912,20080912,2,2.0,ctrl_change,tax_status_change,30.0
+192029,2019,LAFAYETTE - A M G SPECIALTY HOSPITAL,LA,70506,04,02,forprofit,nonprofit,20090215,20090215,2,2.0,ctrl_change,tax_status_change,46.0
+192029,2022,LAFAYETTE - A M G SPECIALTY HOSPITAL,LA,70506,02,04,nonprofit,forprofit,20090215,20090215,2,2.0,ctrl_change,tax_status_change,46.0
+192030,2019,"BLIANT SPECIALTY HOSPITAL, LLC",LA,70128,04,04,forprofit,forprofit,20181231,20071220,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,42.0
+192031,2025,CORNERSTONE SPECIALTY HOSPITALS WEST MONROE,LA,71291,04,04,forprofit,forprofit,20250701,20150201,3,2.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,47.0
+192036,2023,P A M SPECIALTY HOSPITAL OF HAMMOND,LA,70403,04,02,forprofit,nonprofit,20121214,20121214,2,2.0,ctrl_change,tax_status_change,40.0
+193050,2019,TRI PARISH REHABILITATION HOSPITAL L L C,LA,71446,03,04,forprofit,forprofit,,,0,0.0,ctrl_change,consolidation_horizontal,36.0
+193069,2023,STERLINGTON REHABILITATION HOSPITAL,LA,71220,09,04,government,forprofit,,,1,1.0,ctrl_change,government_transition,10.0
+193079,2024,OASIS POINT REHABILITATION HOSPITAL,LA,70403,04,04,forprofit,forprofit,20240101,,1,0.0,chow_cnt_increment,consolidation_horizontal,44.0
+193092,2021,BETHESDA REHABILITATION HOSPITAL,LA,70812,02,04,nonprofit,forprofit,,,1,1.0,ctrl_change,tax_status_change,14.0
+194080,2020,"BEACON BEHAVIORAL HOSPITAL - NORTHSHORE, INC",LA,70445,02,04,nonprofit,forprofit,20150412,20150412,2,2.0,ctrl_change,tax_status_change,22.0
+194083,2021,CYPRESS GROVE BEHAVIORAL HEALTH,LA,71220,04,04,forprofit,forprofit,20200522,20170926,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,60.0
+194088,2019,"ST JAMES BEHAVIORAL HEALTH HOSPITAL, INC",LA,70737,02,04,nonprofit,forprofit,,,3,3.0,ctrl_change,tax_status_change,32.0
+194088,2022,"ST JAMES BEHAVIORAL HEALTH HOSPITAL, INC",LA,70737,04,09,forprofit,government,,,3,3.0,ctrl_change,government_transition,32.0
+194103,2020,SEASIDE HEALTH SYSTEM,LA,70806,05,04,forprofit,forprofit,,,1,1.0,ctrl_change,consolidation_horizontal,64.0
+194103,2021,SEASIDE HEALTH SYSTEM,LA,70806,04,02,forprofit,nonprofit,,,1,1.0,ctrl_change,tax_status_change,64.0
+194103,2023,SEASIDE HEALTH SYSTEM,LA,70806,02,05,nonprofit,forprofit,,,1,1.0,ctrl_change,tax_status_change,64.0
+194106,2019,"COMPASS BEHAVIORAL CENTER OF ALEXANDRIA, INC",LA,71301,04,04,forprofit,forprofit,20171231,,1,0.0,chow_cnt_increment,consolidation_horizontal,36.0
+194107,2022,BATON ROUGE BEHAVIORAL HOSPITAL,LA,70806,04,03,forprofit,forprofit,,,0,0.0,ctrl_change,consolidation_horizontal,53.0
+194107,2024,BATON ROUGE BEHAVIORAL HOSPITAL,LA,70806,03,04,forprofit,forprofit,,,0,0.0,ctrl_change,consolidation_horizontal,53.0
+194109,2019,"COMPASS BEHAVIORAL CENTER OF HOUMA, LLC",LA,70364,04,04,forprofit,forprofit,20171231,,1,0.0,chow_cnt_increment,consolidation_horizontal,20.0
+194115,2022,REGIONS BEHAVIORAL HOSPITAL,LA,70806,04,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,24.0
+194115,2025,REGIONS BEHAVIORAL HOSPITAL,LA,70806,02,04,nonprofit,forprofit,,,0,0.0,ctrl_change,tax_status_change,24.0
+200021,2021,MID COAST HOSPITAL,ME,04011,02,02,nonprofit,nonprofit,20210101,,3,2.0,chow_cnt_increment,consolidation_horizontal,92.0
+200034,2019,ST MARY'S REGIONAL MEDICAL CENTER,ME,04243,02,01,nonprofit,nonprofit,,,2,2.0,ctrl_change,consolidation_horizontal,233.0
+201301,2019,CHARLES A DEAN MEMORIAL HOSPITAL,ME,04441,02,08,nonprofit,government,,,2,2.0,ctrl_change,government_transition,25.0
+201305,2021,CALAIS COMMUNITY HOSPITAL,ME,04619,02,02,nonprofit,nonprofit,20210701,,3,2.0,chow_cnt_increment,consolidation_horizontal,25.0
+201309,2020,NORTHERN LIGHT MAYO HOSPITAL,ME,04426,08,08,government,government,20200301,,2,1.0,chow_cnt_increment,consolidation_horizontal,25.0
+201314,2025,REDINGTON FAIRVIEW GENERAL HOSPITAL,ME,04976,04,02,forprofit,nonprofit,,,3,3.0,ctrl_change,tax_status_change,25.0
+210002,2024,UNIVERSITY OF MARYLAND MEDICAL CENTER,MD,21201,02,02,nonprofit,nonprofit,20240201,,3,2.0,chow_cnt_increment,consolidation_horizontal,816.0
+210060,2022,ADVENTIST HEALTHCARE FORT WASHINGTON MEDICAL CTR,MD,20744,03,03,forprofit,forprofit,20191027,,1,0.0,chow_cnt_increment,consolidation_horizontal,37.0
+220020,2024,BROWN UNIVERSITY HEALTH SAINT ANNE'S HOSPITAL,MA,02721,04,04,forprofit,forprofit,20241001,20101106,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,160.0
+220073,2024,BROWN UNIVERSITY HEALTH MORTON HOSPITAL,MA,02780,04,04,forprofit,forprofit,20241001,20111001,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,133.0
+220101,2020,NEWTON-WELLESLEY HOSPITAL,MA,02462,03,02,forprofit,nonprofit,,,1,1.0,ctrl_change,tax_status_change,224.0
+220111,2024,GOOD SAMARITAN MEDICAL CENTER,MA,02301,04,04,forprofit,forprofit,20241001,20101106,3,2.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,231.0
+224039,2019,WHITTIER PAVILION,MA,01830,04,04,forprofit,forprofit,20190215,,1,0.0,chow_cnt_increment,consolidation_horizontal,71.0
+230047,2019,HENRY FORD MACOMB HOSPITAL,MI,48038,04,02,forprofit,nonprofit,,,2,2.0,ctrl_change,tax_status_change,361.0
+230093,2023,CORWELL HEALTH BIG RAPIDS HOSPITAL,MI,49307,07,02,government,nonprofit,,,0,0.0,ctrl_change,government_transition,74.0
+230259,2019,ST JOSEPH MERCY CHELSEA,MI,48118,02,02,nonprofit,nonprofit,20180701,,2,1.0,chow_cnt_increment,consolidation_horizontal,83.0
+231315,2019,ASCENSION BORGESS LEE HOSPITAL,MI,49047,02,01,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,25.0
+231328,2020,ALLEGAN GENERAL HOSPITAL,MI,49010,03,02,forprofit,nonprofit,,,1,1.0,ctrl_change,tax_status_change,25.0
+232034,2019,ASCENSION BORGESS PIPP HOSPITAL,MI,49080,01,02,nonprofit,nonprofit,,,1,1.0,ctrl_change,consolidation_horizontal,43.0
+234011,2025,HENRY FORD HEALTH BEHAVIORAL HEALTH HOSPITAL,MI,48322,02,02,nonprofit,nonprofit,20250223,,3,2.0,chow_cnt_increment,consolidation_horizontal,100.0
+240052,2025,LAKE REGION HEALTHCARE CORPORATION,MN,56537,02,02,nonprofit,nonprofit,20251001,,3,2.0,chow_cnt_increment,consolidation_horizontal,100.0
+240066,2022,LAKEVIEW MEMORIAL HOSPITAL,MN,55082,02,03,nonprofit,forprofit,20200318,,2,1.0,"chow_cnt_increment,ctrl_change",tax_status_change,97.0
+240078,2019,FAIRVIEW SOUTHDALE HOSPITAL,MN,55435,03,02,forprofit,nonprofit,,,1,1.0,ctrl_change,tax_status_change,390.0
+241306,2020,OLIVIA HOSPITAL & CLINIC,MN,56277,07,07,government,government,20200501,,3,2.0,chow_cnt_increment,consolidation_horizontal,16.0
+241306,2024,OLIVIA HOSPITAL & CLINIC,MN,56277,07,02,government,nonprofit,20200501,20200501,3,3.0,ctrl_change,government_transition,16.0
+241329,2025,LAKEWOOD HEALTH SYSTEM,MN,56479,03,02,forprofit,nonprofit,,,2,2.0,ctrl_change,tax_status_change,25.0
+241333,2020,MAYO CLINIC HEALTH SYSTEM - ST JAMES,MN,56081,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,25.0
+241343,2020,AVERA GRANITE FALLS,MN,56241,07,07,government,government,20200101,,1,0.0,chow_cnt_increment,consolidation_horizontal,25.0
+241343,2025,AVERA GRANITE FALLS,MN,56241,07,02,government,nonprofit,20200101,20200101,1,1.0,ctrl_change,government_transition,25.0
+241351,2019,"CARRIS HEALTH - REDWOOD, LLC",MN,56283,07,07,government,government,20190101,,1,0.0,chow_cnt_increment,consolidation_horizontal,25.0
+241356,2024,MILLE LACS HEALTH SYSTEM,MN,56359,02,03,nonprofit,forprofit,,,0,0.0,ctrl_change,tax_status_change,28.0
+241365,2023,CENTRACARE - BENSON,MN,56215,08,08,government,government,20230101,,2,1.0,chow_cnt_increment,consolidation_horizontal,25.0
+241367,2021,WELIA HEALTH,MN,55051,07,07,government,government,20210701,,2,1.0,chow_cnt_increment,consolidation_horizontal,25.0
+241379,2025,"PRAIRIE RIDGE HOSPITAL AND HEALTH SERVICES, INC.",MN,56531,02,02,nonprofit,nonprofit,20251001,,3,2.0,chow_cnt_increment,consolidation_horizontal,10.0
+250017,2024,PROGRESSIVE HEALTH GROUP OF HOUSTON,MS,38851,04,04,forprofit,forprofit,20240122,,5,4.0,chow_cnt_increment,consolidation_horizontal,39.0
+250027,2019,WINSTON MEDICAL CENTER & SWINGBED,MS,39339,02,04,nonprofit,forprofit,,,5,5.0,ctrl_change,tax_status_change,41.0
+250027,2023,WINSTON MEDICAL CENTER & SWINGBED,MS,39339,04,02,forprofit,nonprofit,,,5,5.0,ctrl_change,tax_status_change,41.0
+250038,2025,UMMC- MADISON,MS,39046,04,04,forprofit,forprofit,20250501,20030101,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,67.0
+250042,2024,NORTHWEST MISSISSISSIPPI REGIONAL MEDICAL CENTER,MS,38614,04,04,forprofit,forprofit,20240201,20171101,4,3.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,195.0
+250085,2023,MARION GENERAL HOSPITAL,MS,39429,03,07,forprofit,government,20120101,20120101,1,1.0,ctrl_change,government_transition,79.0
+250117,2021,HIGHLAND COMMUNITY  HOSPITAL,MS,39466,08,07,government,government,20060501,20060501,3,3.0,ctrl_change,consolidation_horizontal,60.0
+250124,2023,MAGEE GENERAL HOSPITAL,MS,39111,07,02,government,nonprofit,,,0,0.0,ctrl_change,government_transition,64.0
+250141,2021,BAPTIST MEMORIAL HOSPITAL DESOTO,MS,38671,02,04,nonprofit,forprofit,,,0,0.0,ctrl_change,tax_status_change,131.0
+250172,2023,HIGHLAND HILLS MEDICAL CENTER,MS,38668,02,02,nonprofit,nonprofit,20230501,,1,0.0,chow_cnt_increment,consolidation_horizontal,15.0
+250780,2024,JEFFERSON COUNTY HOSPITAL,MS,39069,07,04,government,forprofit,,,0,0.0,ctrl_change,government_transition,30.0
+251306,2022,PERRY COUNTY GENERAL HOSPITAL,MS,39476,04,07,forprofit,government,20020301,20020301,1,1.0,ctrl_change,government_transition,30.0
+251307,2023,NOXUBEE GENERAL CRITICAL ACCESS HOSP,MS,39341,07,06,government,forprofit,,,1,1.0,ctrl_change,government_transition,25.0
+251312,2022,TYLER HOLMES MEMORIAL HOSPITAL CAH,MS,38967,02,07,nonprofit,government,,,1,1.0,ctrl_change,government_transition,25.0
+251316,2023,OCHSNER WATKINS HOSPITAL,MS,39355,03,02,forprofit,nonprofit,20060801,20060801,1,1.0,ctrl_change,tax_status_change,25.0
+251326,2021,JEFFERSON DAVIS COMMUNITY HOSPITAL CAH,MS,39474,07,06,government,forprofit,20110701,20110701,1,1.0,ctrl_change,government_transition,29.0
+251326,2025,JEFFERSON DAVIS COMMUNITY HOSPITAL CAH,MS,39474,06,07,forprofit,government,20110701,20110701,1,1.0,ctrl_change,government_transition,29.0
+251336,2020,BAPTIST MEDICAL CENTER-ATTALA,MS,39090,03,03,forprofit,forprofit,20150601,,1,0.0,chow_cnt_increment,consolidation_horizontal,25.0
+260004,2020,COOPER COUNTY COMMUNITY HOSPITAL,MO,65233,03,04,forprofit,forprofit,,,3,3.0,ctrl_change,consolidation_horizontal,46.0
+260024,2020,TEXAS COUNTY MEMORIAL HOSPITAL,MO,65483,03,04,forprofit,forprofit,,,2,2.0,ctrl_change,consolidation_horizontal,66.0
+260024,2023,TEXAS COUNTY MEMORIAL HOSPITAL,MO,65483,04,03,forprofit,forprofit,,,2,2.0,ctrl_change,consolidation_horizontal,66.0
+260024,2025,TEXAS COUNTY MEMORIAL HOSPITAL,MO,65483,03,07,forprofit,government,,,2,2.0,ctrl_change,government_transition,66.0
+260025,2020,HANNIBAL REGIONAL HOSPITAL,MO,63401,02,03,nonprofit,forprofit,,,0,0.0,ctrl_change,tax_status_change,91.0
+260047,2025,CAPITAL REGION MEDICAL CENTER,MO,65102,02,03,nonprofit,forprofit,,,0,0.0,ctrl_change,tax_status_change,135.0
+260050,2019,MOSAIC MEDICAL CENTER - MARYVILLE,MO,64468,01,01,nonprofit,nonprofit,20190401,,1,0.0,chow_cnt_increment,consolidation_horizontal,90.0
+260064,2021,NOBLE HEALTH AUDRAIN COMMUNITY HOSPITAL,MO,65265,02,02,nonprofit,nonprofit,20210316,,3,2.0,chow_cnt_increment,consolidation_horizontal,70.0
+260070,2019,PEMISCOT COUNTY MEMORIAL HOSPITAL,MO,63851,08,07,government,government,,,1,1.0,ctrl_change,consolidation_horizontal,102.0
+260070,2024,PEMISCOT COUNTY MEMORIAL HOSPITAL,MO,63851,07,03,government,forprofit,,,1,1.0,ctrl_change,government_transition,102.0
+260078,2021,OZARKS HEALTHCARE,MO,65775,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,112.0
+260085,2019,ST JOSEPH MEDICAL CENTER,MO,64114,02,04,nonprofit,forprofit,,,2,2.0,ctrl_change,tax_status_change,300.0
+260097,2021,WESTERN MISSOURI MEDICAL CENTER,MO,64093,08,07,government,government,,,0,0.0,ctrl_change,consolidation_horizontal,104.0
+260104,2020,SSM HEALTH DEPAUL HOSPITAL ST LOUIS,MO,63044,02,01,nonprofit,nonprofit,,,1,1.0,ctrl_change,consolidation_horizontal,538.0
+260105,2020,SSM HEALTH SAINT LOUIS UNIVERSITY HOSPITAL,MO,63110,04,01,forprofit,nonprofit,,,2,2.0,ctrl_change,tax_status_change,356.0
+260113,2021,MISSOURI DELTA MEDICAL CENTER,MO,63801,03,02,forprofit,nonprofit,,,1,1.0,ctrl_change,tax_status_change,188.0
+260138,2019,ST LUKES HOSPITAL OF KANSAS CITY,MO,64111,08,02,government,nonprofit,20121101,20121101,1,1.0,ctrl_change,government_transition,642.0
+260141,2024,UNIVERSITY OF MISSOURI HEALTH CARE,MO,65212,06,06,forprofit,forprofit,20240101,,1,0.0,chow_cnt_increment,consolidation_horizontal,368.0
+260142,2021,FITZGIBBON HOSPITAL,MO,65340,02,03,nonprofit,forprofit,,,0,0.0,ctrl_change,tax_status_change,60.0
+260142,2023,FITZGIBBON HOSPITAL,MO,65340,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,60.0
+260176,2022,ST LUKE'S DES PERES HOSPITAL,MO,63122,04,04,forprofit,forprofit,20180501,19970701,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,143.0
+260177,2024,LIBERTY HOSPITAL,MO,64069,08,02,government,nonprofit,20240701,,1,0.0,"chow_cnt_increment,ctrl_change",government_transition,250.0
+260183,2020,SAINT FRANCIS MEDICAL CENTER,MO,63703,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,308.0
+260193,2022,ST MARY'S MEDICAL CENTER,MO,64014,01,04,nonprofit,forprofit,20150213,20150213,5,5.0,ctrl_change,tax_status_change,146.0
+260209,2021,NOBLE HEALTH CALLAWAY COMMUNITY HOSPITAL,MO,65251,02,02,nonprofit,nonprofit,20210105,20041230,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,49.0
+261305,2019,PUTNAM COUNTY MEMORIAL HOSPITAL,MO,63565,03,07,forprofit,government,,,2,2.0,ctrl_change,government_transition,15.0
+261311,2023,MERCY HOSPITAL PERRY,MO,63775,07,02,government,nonprofit,20231001,,2,1.0,"chow_cnt_increment,ctrl_change",government_transition,25.0
+261330,2023,STE GENEVIEVE COUNTY MEMORIAL HOSPITAL,MO,63670,07,08,government,government,,,0,0.0,ctrl_change,consolidation_horizontal,25.0
+261338,2019,MERCY HOSPITAL CARTHAGE,MO,64836,07,02,government,nonprofit,,,0,0.0,ctrl_change,government_transition,49.0
+263303,2024,RANKEN JORDAN PEDIATRIC BRIDGE HOSPITAL,MO,63043,02,03,nonprofit,forprofit,,,0,0.0,ctrl_change,tax_status_change,60.0
+271305,2022,MCCONE COUNTY HEALTH CENTER,MT,59215,02,03,nonprofit,forprofit,,,0,0.0,ctrl_change,tax_status_change,25.0
+271307,2021,BENEFIS TETON MEDICAL CENTER,MT,59422,02,02,nonprofit,nonprofit,20150501,,1,0.0,chow_cnt_increment,consolidation_horizontal,25.0
+271313,2019,PIONEER MEDICAL CENTER,MT,59011,07,02,government,nonprofit,20160701,,2,1.0,"chow_cnt_increment,ctrl_change",government_transition,25.0
+271317,2024,LIVINGSTON HEALTHCARE,MT,59047,02,09,nonprofit,government,,,3,3.0,ctrl_change,government_transition,25.0
+271319,2019,RUBY VALLEY MEDICAL CENTER,MT,59749,08,02,government,nonprofit,,,3,3.0,ctrl_change,government_transition,10.0
+271319,2024,RUBY VALLEY MEDICAL CENTER,MT,59749,02,08,nonprofit,government,,,3,3.0,ctrl_change,government_transition,10.0
+271321,2024,WHEATLAND MEMORIAL HOSPITAL,MT,59036,07,02,government,nonprofit,,,2,2.0,ctrl_change,government_transition,25.0
+271328,2023,MARIAS MEDICAL CENTER,MT,59474,07,02,government,nonprofit,,,0,0.0,ctrl_change,government_transition,21.0
+271329,2024,MADISON VALLEY MEDICAL CENTER,MT,59729,08,02,government,nonprofit,,,0,0.0,ctrl_change,government_transition,16.0
+271331,2024,MINERAL COMMUNITY HOSPITAL,MT,59872,02,08,nonprofit,government,,,2,2.0,ctrl_change,government_transition,25.0
+271332,2023,GLENDIVE MEDICAL CENTER,MT,59330,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,25.0
+271338,2023,BIG HORN HOSPITAL,MT,59034,07,02,government,nonprofit,,,0,0.0,ctrl_change,government_transition,25.0
+271342,2019,DANIELS MEMORIAL HOSPITAL,MT,59263,08,02,government,nonprofit,,,0,0.0,ctrl_change,government_transition,25.0
+271344,2019,SIDNEY HEALTH CENTER,MT,59270,02,03,nonprofit,forprofit,,,0,0.0,ctrl_change,tax_status_change,25.0
+271344,2024,SIDNEY HEALTH CENTER,MT,59270,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,25.0
+271346,2023,ROUNDUP MEMORIAL HEALTHCARE,MT,59072,08,02,government,nonprofit,,,0,0.0,ctrl_change,government_transition,25.0
+280077,2019,METHODIST FREMONT HEALTH,NE,68025,07,02,government,nonprofit,,,4,4.0,ctrl_change,government_transition,90.0
+280134,2021,KEARNEY REGIONAL MEDICAL CENTER,NE,68845,04,04,forprofit,forprofit,20220101,,1,0.0,chow_cnt_increment,consolidation_horizontal,44.0
+281302,2019,PAWNEE COUNTY MEMORIAL HOSPITAL,NE,68420,07,04,government,forprofit,,,0,0.0,ctrl_change,government_transition,17.0
+281302,2023,PAWNEE COUNTY MEMORIAL HOSPITAL,NE,68420,04,07,forprofit,government,,,0,0.0,ctrl_change,government_transition,17.0
+281315,2021,BRODSTONE HEALTHCARE,NE,68978,02,04,nonprofit,forprofit,,,4,4.0,ctrl_change,tax_status_change,25.0
+281315,2025,BRODSTONE HEALTHCARE,NE,68978,04,02,forprofit,nonprofit,,,4,4.0,ctrl_change,tax_status_change,25.0
+281328,2020,MERRICK MEDICAL CENTER,NE,68826,07,02,government,nonprofit,20170701,20170701,5,5.0,ctrl_change,government_transition,20.0
+281349,2020,PENDER COMMUNITY HOSPITAL,NE,68047,08,07,government,government,,,0,0.0,ctrl_change,consolidation_horizontal,25.0
+290007,2020,UNIVERSITY MEDICAL CENTER,NV,89102,07,03,government,forprofit,,,0,0.0,ctrl_change,government_transition,541.0
+290009,2020,SAINT MARY'S REGIONAL MEDICAL CENTER,NV,89503,02,04,nonprofit,forprofit,20070101,20070101,1,1.0,ctrl_change,tax_status_change,380.0
+290012,2020,SAINT ROSE DOMINICAN HOSPITALS - ROSE DE LIMA,NV,89015,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,130.0
+290032,2025,NORTHERN NEVADA MEDICAL CENTER,NV,89434,04,02,forprofit,nonprofit,20240901,20060101,2,1.0,"chow_dt_change,chow_cnt_increment,ctrl_change",tax_status_change,108.0
+290042,2020,HARMON HOSPITAL,NV,89119,02,04,nonprofit,forprofit,,,0,0.0,ctrl_change,tax_status_change,116.0
+290047,2019,SOUTHERN HILLS HOSPITAL AND MEDICAL CENTER,NV,89148,02,04,nonprofit,forprofit,,,0,0.0,ctrl_change,tax_status_change,246.0
+290053,2019,SAINT ROSE DOMINICAN HOSPITALS - SAN MARTIN CAMPUS,NV,89113,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,147.0
+290054,2020,CENTENNIAL HILLS HOSPITAL MEDICAL CENTER,NV,89149,04,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,262.0
+290054,2023,CENTENNIAL HILLS HOSPITAL MEDICAL CENTER,NV,89149,02,04,nonprofit,forprofit,,,0,0.0,ctrl_change,tax_status_change,339.0
+291312,2019,GROVER C DILS MEDICAL CENTER,NV,89008,08,07,government,government,,,0,0.0,ctrl_change,consolidation_horizontal,4.0
+291312,2021,GROVER C DILS MEDICAL CENTER,NV,89008,07,02,government,nonprofit,,,0,0.0,ctrl_change,government_transition,4.0
+291313,2019,BANNER CHURCHILL COMMUNITY HOSPITAL,NV,89406,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,25.0
+291314,2022,SOUTH LYON MEDICAL CENTER,NV,89447,08,02,government,nonprofit,,,0,0.0,ctrl_change,government_transition,14.0
+292004,2020,PAM SPECIALTY HOSPITAL OF SPARKS LLC,NV,89434,04,04,forprofit,forprofit,20130531,,1,0.0,chow_cnt_increment,consolidation_horizontal,60.0
+292004,2021,PAM SPECIALTY HOSPITAL OF SPARKS LLC,NV,89434,04,04,forprofit,forprofit,20190930,20130531,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,21.0
+292006,2019,COMPLEX CARE HOSPITAL AT TENAYA,NV,89128,04,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,70.0
+293035,2023,DIGNITY HEALTH REHABILITATION HOSPITAL,NV,89052,02,04,nonprofit,forprofit,,,0,0.0,ctrl_change,tax_status_change,60.0
+294003,2019,BHC WEST HILLS HOSPITAL,NV,89512,02,04,nonprofit,forprofit,,,2,2.0,ctrl_change,tax_status_change,95.0
+294011,2025,SPRING MOUNTAIN TREATMENT CENTER,NV,89117,04,04,forprofit,forprofit,20240801,,2,1.0,chow_cnt_increment,consolidation_horizontal,12.0
+294016,2025,"THRIVE BEHAVIORAL HOSPITAL, LLC",NV,89103,04,04,forprofit,forprofit,20240801,,1,0.0,chow_cnt_increment,consolidation_horizontal,48.0
+300005,2021,CONCORD HOSPITAL- LACONIA,NH,03246,02,02,nonprofit,nonprofit,20210501,,4,3.0,chow_cnt_increment,consolidation_horizontal,143.0
+300014,2020,FRISBIE MEMORIAL HOSPITAL,NH,03867,02,02,nonprofit,nonprofit,20200301,,1,0.0,chow_cnt_increment,consolidation_horizontal,122.0
+300014,2022,FRISBIE MEMORIAL HOSPITAL,NH,03867,02,04,nonprofit,forprofit,20200301,20200301,1,1.0,ctrl_change,tax_status_change,122.0
+300034,2025,CATHOLIC MEDICAL CENTER,NH,03102,02,02,nonprofit,nonprofit,20250201,19940225,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,330.0
+301309,2019,MONADNOCK COMMUNITY HOSPITAL,NH,03458,02,04,nonprofit,forprofit,,,2,2.0,ctrl_change,tax_status_change,25.0
+301309,2023,MONADNOCK COMMUNITY HOSPITAL,NH,03458,04,02,forprofit,nonprofit,,,2,2.0,ctrl_change,tax_status_change,25.0
+304001,2025,HAMPSTEAD HOSPITAL & RESIDENTIAL TREATMENT FACILIT,NH,03841,04,04,forprofit,forprofit,20220608,,2,1.0,chow_cnt_increment,consolidation_horizontal,111.0
+310029,2021,VIRTUA OUR LADY OF LOURDES HOSPITAL,NJ,08103,02,06,nonprofit,forprofit,,,2,2.0,ctrl_change,tax_status_change,340.0
+310051,2021,OVERLOOK MEDICAL CENTER,NJ,07902,03,02,forprofit,nonprofit,,,3,3.0,ctrl_change,tax_status_change,504.0
+310052,2019,OCEAN MEDICAL CENTER,NJ,08724,03,03,forprofit,forprofit,20180101,,3,2.0,chow_cnt_increment,consolidation_horizontal,436.0
+310054,2023,"HACKENSACK MERIDIAN HEALTH, MOUNTAINSIDE MEDICAL",NJ,07042,02,04,nonprofit,forprofit,20070601,20070601,1,1.0,ctrl_change,tax_status_change,328.0
+310058,2023,BERGEN NEW BRIDGE MEDICAL CENTER,NJ,07652,07,02,government,nonprofit,,,2,2.0,ctrl_change,government_transition,496.0
+310060,2023,ST LUKE'S WARREN HOSPITAL,NJ,08865,03,02,forprofit,nonprofit,,,1,1.0,ctrl_change,tax_status_change,214.0
+310064,2021,ATLANTICARE REGIONAL MEDICAL CENTER - CITY CAMPUS,NJ,08401,03,02,forprofit,nonprofit,,,2,2.0,ctrl_change,tax_status_change,593.0
+310070,2020,SAINT PETER'S UNIVERSITY HOSPITAL,NJ,08901,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,416.0
+310076,2023,COOPERMAN BARNABAS MEDICAL CENTER,NJ,07039,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,597.0
+310083,2022,EAST ORANGE GENERAL HOSPITAL,NJ,07018,02,04,nonprofit,forprofit,20160301,20160301,1,1.0,ctrl_change,tax_status_change,211.0
+310096,2021,SAINT MICHAEL'S MEDICAL CENTER,NJ,07102,02,04,nonprofit,forprofit,20160501,,4,3.0,"chow_cnt_increment,ctrl_change",tax_status_change,358.0
+310096,2024,SAINT MICHAEL'S MEDICAL CENTER,NJ,07102,04,02,forprofit,nonprofit,20160501,20160501,4,4.0,ctrl_change,tax_status_change,358.0
+310115,2020,HACKETTSTOWN MEDICAL CENTER,NJ,07840,01,03,nonprofit,forprofit,,,0,0.0,ctrl_change,tax_status_change,111.0
+310115,2021,HACKETTSTOWN MEDICAL CENTER,NJ,07840,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,148.0
+310118,2020,HUDSON REGIONAL HOSPITAL,NJ,07094,04,04,forprofit,forprofit,20180101,20101207,6,5.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,200.0
+312017,2021,SPECIALTY HOSPITAL OF CENTRAL JERSEY,NJ,08701,04,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,50.0
+313027,2023,LAWRENCE REHABILITATION HOSPITAL,NJ,08648,01,04,nonprofit,forprofit,,,1,1.0,ctrl_change,tax_status_change,60.0
+313027,2024,LAWRENCE REHABILITATION HOSPITAL,NJ,08648,04,04,forprofit,forprofit,20230201,,2,1.0,chow_cnt_increment,consolidation_horizontal,60.0
+313032,2020,"KESSLER INSTITUTE FOR REHABILITATION,INC",NJ,08053,04,04,forprofit,forprofit,20161101,20030501,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,61.0
+314001,2020,SUMMIT OAKS HOSPITAL,NJ,07901,04,03,forprofit,forprofit,20040423,20040423,3,3.0,ctrl_change,consolidation_horizontal,126.0
+314018,2019,NORTHBROOK BEHAVIORAL HEALTH HOSPITAL,NJ,08012,02,04,nonprofit,forprofit,,,0,0.0,ctrl_change,tax_status_change,150.0
+314027,2023,CORNERSTONE BEHAVIORAL HEALTH HOSPITAL OF UNION CO,NJ,07922,03,07,forprofit,government,,,2,2.0,ctrl_change,government_transition,44.0
+314027,2025,MOUNTAINVIEW BEHAVIORAL HOSPITAL,NJ,07922,07,04,government,forprofit,20241015,,3,2.0,"chow_cnt_increment,ctrl_change",government_transition,44.0
+320001,2020,UNM HOSPITAL,NM,87106,03,06,forprofit,forprofit,,,1,1.0,ctrl_change,consolidation_horizontal,527.0
+320003,2021,ALTA VISTA REGIONAL HOSPITAL,NM,87701,08,04,government,forprofit,,,2,2.0,ctrl_change,government_transition,62.0
+320009,2020,LOVELACE MEDICAL CENTER,NM,87102,02,04,nonprofit,forprofit,20031001,20031001,2,2.0,ctrl_change,tax_status_change,254.0
+320016,2020,GILA REGIONAL MEDICAL CENTER,NM,88061,08,07,government,government,,,0,0.0,ctrl_change,consolidation_horizontal,25.0
+320017,2020,LOVELACE WOMEN'S HOSPITAL,NM,87109,06,04,forprofit,forprofit,20031001,20031001,2,2.0,ctrl_change,consolidation_horizontal,120.0
+320022,2020,PLAINS REGIONAL MEDICAL CENTER,NM,88101,05,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,106.0
+320030,2025,ARTESIA GENERAL HOSPITAL,NM,88210,03,02,forprofit,nonprofit,,,4,4.0,ctrl_change,tax_status_change,49.0
+320063,2020,CARLSBAD MEDICAL CENTER,NM,88220,04,03,forprofit,forprofit,,,3,3.0,ctrl_change,consolidation_horizontal,116.0
+320065,2021,COVENANT HEALTH HOBBS HOSPITAL,NM,88240,04,04,forprofit,forprofit,20210101,,4,3.0,chow_cnt_increment,consolidation_horizontal,84.0
+320065,2023,COVENANT HEALTH HOBBS HOSPITAL,NM,88240,04,02,forprofit,nonprofit,20210101,20210101,4,4.0,ctrl_change,tax_status_change,84.0
+320084,2020,ROOSEVELT GENERAL HOSPITAL,NM,88130,06,08,forprofit,government,,,0,0.0,ctrl_change,government_transition,24.0
+320086,2020,LOVELACE REGIONAL HOSPITAL - ROSWELL,NM,88201,02,04,nonprofit,forprofit,20120201,20120201,3,3.0,ctrl_change,tax_status_change,26.0
+321300,2019,SIERRA VISTA HOSPITAL,NM,87901,04,07,forprofit,government,,,2,2.0,ctrl_change,government_transition,15.0
+321301,2021,SOCORRO GENERAL HOSPITAL,NM,87801,04,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,24.0
+321304,2021,UNION COUNTY GENERAL HOSPITAL,NM,88415,03,07,forprofit,government,,,0,0.0,ctrl_change,government_transition,25.0
+321308,2021,CIBOLA GENERAL HOSPITAL,NM,87020,07,02,government,nonprofit,,,2,2.0,ctrl_change,government_transition,25.0
+322003,2022,"ALBUQUERQUE - AMG SPECIALTY HOSPITAL, LLC",NM,87108,06,04,forprofit,forprofit,20120401,20120401,2,2.0,ctrl_change,consolidation_horizontal,32.0
+322004,2019,ADVANCED CARE HOSPITAL OF SOUTHERN NEW MEXICO LLC,NM,88011,06,04,forprofit,forprofit,,,0,0.0,ctrl_change,consolidation_horizontal,20.0
+330009,2024,BRONXCARE HOSPITAL CENTER,NY,10456,04,02,forprofit,nonprofit,,,1,1.0,ctrl_change,tax_status_change,579.0
+330027,2024,NASSAU UNIVERSITY MEDICAL CENTER,NY,11554,07,06,government,forprofit,,,2,2.0,ctrl_change,government_transition,530.0
+330046,2025,MOUNT SINAI WEST,NY,10019,02,01,nonprofit,nonprofit,,,1,1.0,ctrl_change,consolidation_horizontal,1028.0
+330056,2023,BROOKLYN HOSPITAL CENTER - DOWNTOWN CAMPUS,NY,11201,02,03,nonprofit,forprofit,,,3,3.0,ctrl_change,tax_status_change,464.0
+330058,2023,GENEVA GENERAL HOSPITAL,NY,14456,02,03,nonprofit,forprofit,,,3,3.0,ctrl_change,tax_status_change,132.0
+330065,2025,NIAGARA FALLS MEMORIAL MEDICAL CENTER,NY,14302,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,171.0
+330102,2024,KENMORE MERCY HOSPITAL,NY,14217,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,184.0
+330107,2023,PECONIC BAY MEDICAL CENTER,NY,11901,02,03,nonprofit,forprofit,,,1,1.0,ctrl_change,tax_status_change,122.0
+330111,2019,BERTRAND CHAFFEE HOSPITAL,NY,14141,02,01,nonprofit,nonprofit,,,1,1.0,ctrl_change,consolidation_horizontal,49.0
+330111,2024,BERTRAND CHAFFEE HOSPITAL,NY,14141,01,02,nonprofit,nonprofit,,,1,1.0,ctrl_change,consolidation_horizontal,49.0
+330115,2024,ONEIDA HEALTH,NY,13421,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,101.0
+330135,2025,BON SECOURS COMMUNITY HOSPITAL,NY,12771,01,02,nonprofit,nonprofit,,,1,1.0,ctrl_change,consolidation_horizontal,141.0
+330140,2025,ST JOSEPH'S HOSPITAL HEALTH CENTER,NY,13203,02,01,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,431.0
+330144,2023,IRA DAVENPORT MEMORIAL HOSPITAL,NY,14810,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,66.0
+330151,2024,ST JAMES HOSPITAL,NY,14843,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,157.0
+330158,2025,GOOD SAMARITAN HOSPITAL OF SUFFERN,NY,10901,01,02,nonprofit,nonprofit,,,2,2.0,ctrl_change,consolidation_horizontal,269.0
+330188,2024,MOUNT ST MARY'S HOSPITAL AND HEALTH CENTER,NY,14092,01,02,nonprofit,nonprofit,,,3,3.0,ctrl_change,consolidation_horizontal,179.0
+330196,2024,SOUTH BROOKLYN HEALTH,NY,11235,07,03,government,forprofit,,,3,3.0,ctrl_change,government_transition,371.0
+330219,2023,ERIE COUNTY MEDICAL CENTER,NY,14215,02,03,nonprofit,forprofit,,,3,3.0,ctrl_change,tax_status_change,526.0
+330223,2023,"SLHS MASSENA, INC",NY,13662,07,02,government,nonprofit,,,0,0.0,ctrl_change,government_transition,25.0
+330224,2024,HEALTHALLIANCE HOSPITAL MARYS AVENUE CAMPUS,NY,12401,01,02,nonprofit,nonprofit,,,2,2.0,ctrl_change,consolidation_horizontal,222.0
+330231,2023,QUEENS HOSPITAL CENTER,NY,11432,07,03,government,forprofit,,,2,2.0,ctrl_change,government_transition,581.0
+330234,2024,WESTCHESTER MEDICAL CENTER,NY,10595,08,03,government,forprofit,,,2,2.0,ctrl_change,government_transition,895.0
+330240,2025,HARLEM HOSPITAL CENTER,NY,10037,07,03,government,forprofit,,,1,1.0,ctrl_change,government_transition,268.0
+330246,2022,ST CHARLES HOSPITAL,NY,11777,02,01,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,231.0
+330259,2023,MERCY MEDICAL CENTER,NY,11570,02,01,nonprofit,nonprofit,,,2,2.0,ctrl_change,consolidation_horizontal,375.0
+330261,2023,PHELPS HOSPITAL,NY,10591,03,02,forprofit,nonprofit,,,2,2.0,ctrl_change,tax_status_change,235.0
+330264,2025,MONTEFIORE ST LUKE'S CORNWALL,NY,12550,03,02,forprofit,nonprofit,20020101,20020101,1,1.0,ctrl_change,tax_status_change,244.0
+330286,2024,GOOD SAMARITAN HOSPITAL MEDICAL CENTER,NY,11795,01,02,nonprofit,nonprofit,,,2,2.0,ctrl_change,consolidation_horizontal,437.0
+330354,2025,ROSWELL PARK CANCER INSTITUTE,NY,14203,08,06,government,forprofit,,,0,0.0,ctrl_change,government_transition,133.0
+330395,2023,ST JOHN'S EPISCOPAL HOSPITAL AT SOUTH SHORE,NY,11691,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,257.0
+330401,2023,ST CATHERINE OF SIENA HOSPITAL MEDICAL CENTER,NY,11787,02,01,nonprofit,nonprofit,,,2,2.0,ctrl_change,consolidation_horizontal,318.0
+330405,2023,HELEN HAYES HOSPITAL,NY,10993,07,06,government,forprofit,,,1,1.0,ctrl_change,government_transition,130.0
+331303,2024,GARNET HEALTH MEDICAL CENTER-CATSKILLS,NY,12723,05,02,forprofit,nonprofit,,,2,2.0,ctrl_change,tax_status_change,15.0
+331314,2021,SOLDIERS AND SAILORS MEMORIAL HOSPITAL OF YATES,NY,14527,03,02,forprofit,nonprofit,,,2,2.0,ctrl_change,tax_status_change,35.0
+331317,2024,LEWIS COUNTY GENERAL HOSPITAL,NY,13367,03,07,forprofit,government,,,0,0.0,ctrl_change,government_transition,25.0
+334012,2023,GREATER BINGHAMTON HEALTH CENTER,NY,13901,07,06,government,forprofit,,,0,0.0,ctrl_change,government_transition,154.0
+334020,2023,ROCHESTER PSYCHIATRIC CENTER,NY,14620,07,06,government,forprofit,,,0,0.0,ctrl_change,government_transition,247.0
+334021,2025,MOHAWK VALLEY PSYCHIATRIC CENTER,NY,13502,07,06,government,forprofit,,,2,2.0,ctrl_change,government_transition,189.0
+340002,2019,MEMORIAL MISSION HOSPITAL AND ASHEVILLE SURGERY CE,NC,28801,02,02,nonprofit,nonprofit,20190201,,2,1.0,chow_cnt_increment,consolidation_horizontal,730.0
+340032,2019,CAROMONT REGIONAL MEDICAL CENTER,NC,28052,07,02,government,nonprofit,,,3,3.0,ctrl_change,government_transition,442.0
+340047,2025,NORTH CAROLINA BAPTIST HOSPITAL,NC,27157,02,02,nonprofit,nonprofit,20240302,,3,2.0,chow_cnt_increment,consolidation_horizontal,830.0
+340084,2019,ATRIUM HEALTH ANSON,NC,28170,08,08,government,government,20190101,,1,0.0,chow_cnt_increment,consolidation_horizontal,15.0
+340098,2019,ATRIUM HEALTH PINEVILLE,NC,28210,08,08,government,government,20190101,,1,0.0,chow_cnt_increment,consolidation_horizontal,344.0
+340129,2025,DUKE HEALTH LAKE NORMAN HOSPITAL,NC,28117,04,04,forprofit,forprofit,20250401,20080401,4,3.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,105.0
+344036,2025,IREDELL DAVIS BEHAVIORAL HEALTH HOSPITAL,NC,28625,04,04,forprofit,forprofit,20241001,,1,0.0,chow_cnt_increment,consolidation_horizontal,144.0
+351304,2019,CHI ST ALEXIUS HEALTH TURTLE LAKE,ND,58575,02,01,nonprofit,nonprofit,,,2,2.0,ctrl_change,consolidation_horizontal,25.0
+351315,2025,CHI OAKES HOSPITAL,ND,58474,02,01,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,20.0
+351322,2019,ASHLEY MEDICAL CENTER,ND,58413,07,02,government,nonprofit,,,1,1.0,ctrl_change,government_transition,20.0
+351332,2019,HEART OF AMERICA MEDICAL CENTER,ND,58368,03,02,forprofit,nonprofit,,,2,2.0,ctrl_change,tax_status_change,25.0
+353026,2021,PAM REHABILITATION HOSPITAL OF FARGO,ND,58104,04,04,forprofit,forprofit,20201001,,1,0.0,chow_cnt_increment,consolidation_horizontal,42.0
+354005,2020,RED RIVER BEHAVIORAL HEALTH SYSTEM,ND,58201,04,04,forprofit,forprofit,20161112,,3,2.0,chow_cnt_increment,consolidation_horizontal,70.0
+360012,2019,MOUNT CARMEL ST ANN'S,OH,43081,01,02,nonprofit,nonprofit,20120701,20120701,3,3.0,ctrl_change,consolidation_horizontal,392.0
+360035,2019,MOUNT CARMEL WEST,OH,43222,03,02,forprofit,nonprofit,20120701,20120701,1,1.0,ctrl_change,tax_status_change,937.0
+360068,2019,TOLEDO HOSPITAL THE,OH,43606,02,02,nonprofit,nonprofit,20181202,,1,0.0,chow_cnt_increment,consolidation_horizontal,794.0
+360080,2020,EAST OHIO REGIONAL HOSPITAL,OH,43935,03,03,forprofit,forprofit,20200514,20170601,3,2.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,161.0
+360081,2022,MERCY HEALTH - ST CHARLES HOSPITAL,OH,43616,01,01,nonprofit,nonprofit,20220301,,1,0.0,chow_cnt_increment,consolidation_horizontal,342.0
+360131,2020,ALLIANCE COMMUNITY HOSPITAL,OH,44601,03,02,forprofit,nonprofit,,,1,1.0,ctrl_change,tax_status_change,207.0
+360134,2020,GOOD SAMARITAN HOSPITAL,OH,45220,01,02,nonprofit,nonprofit,,,1,1.0,ctrl_change,consolidation_horizontal,672.0
+360134,2021,GOOD SAMARITAN HOSPITAL,OH,45220,02,02,nonprofit,nonprofit,20201001,,2,1.0,chow_cnt_increment,consolidation_horizontal,672.0
+360148,2019,POMERENE HOSPITAL,OH,44654,07,02,government,nonprofit,20160101,20160101,3,3.0,ctrl_change,government_transition,55.0
+360161,2019,MH ST JOSEPH WARREN HOSPITAL,OH,44481,01,02,nonprofit,nonprofit,19960101,19960101,1,1.0,ctrl_change,consolidation_horizontal,219.0
+360170,2019,BERGER HOSPITAL,OH,43113,07,07,government,government,20190401,,1,0.0,chow_cnt_increment,consolidation_horizontal,94.0
+360192,2023,UH GEAUGA MEDICAL CENTER,OH,44024,02,02,nonprofit,nonprofit,20220201,,1,0.0,chow_cnt_increment,consolidation_horizontal,126.0
+360245,2024,GLENBEIGH HEALTH SOURCES,OH,44084,02,04,nonprofit,forprofit,,,2,2.0,ctrl_change,tax_status_change,114.0
+360262,2022,MERCY ST ANNE HOSPITAL,OH,43623,01,01,nonprofit,nonprofit,20220301,20120701,3,2.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,128.0
+360362,2021,TRIHEALTH EVENDALE HOSPITAL,OH,45241,02,02,nonprofit,nonprofit,20201001,,1,0.0,chow_cnt_increment,consolidation_horizontal,29.0
+361326,2020,ADAMS COUNTY REGIONAL MEDICAL CENTER,OH,45679,07,07,government,government,20191001,,1,0.0,chow_cnt_increment,consolidation_horizontal,25.0
+361331,2021,ADENA FAYETTE MEDICAL CENTER,OH,43160,07,07,government,government,20210502,,2,1.0,chow_cnt_increment,consolidation_horizontal,25.0
+362020,2020,KINDRED HOSPITAL LIMA,OH,45801,04,04,forprofit,forprofit,20190930,,2,1.0,chow_cnt_increment,consolidation_horizontal,12.0
+362022,2019,"SELECT SPECIALTY HOSPITAL-COLUMBUS, INC",OH,43201,03,04,forprofit,forprofit,,,0,0.0,ctrl_change,consolidation_horizontal,186.0
+362028,2020,PAM SPECIALTY HOSPITAL OF DAYTON,OH,45342,02,02,nonprofit,nonprofit,20190930,20130531,3,2.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,44.0
+363026,2025,INSIGHT REHABILITATION HOSPITAL HILLSIDE,OH,44484,03,03,forprofit,forprofit,20241030,20170501,4,3.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,120.0
+363045,2023,LIBERTY REHABILITATION HOSPITAL,OH,45044,02,02,nonprofit,nonprofit,20230301,,1,0.0,chow_cnt_increment,consolidation_horizontal,36.0
+364055,2025,SOJOURN AT SENECA SENIOR BEHAVIORAL HEALTH HOSPITA,OH,44883,02,02,nonprofit,nonprofit,20240620,,1,0.0,chow_cnt_increment,consolidation_horizontal,24.0
+364056,2021,ASSURANCE HEALTH CINCINNATI LLC,OH,45242,04,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,28.0
+370002,2024,INTEGRIS HEALTH WOODWARD,OK,73801,04,04,forprofit,forprofit,20231101,20031201,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,87.0
+370004,2019,INTEGRIS MIAMI HOSPITAL,OK,74355,02,03,nonprofit,forprofit,,,0,0.0,ctrl_change,tax_status_change,114.0
+370006,2023,INTEGRIS HEALTH PONCA CITY,OK,74601,04,03,forprofit,forprofit,20060501,20060501,1,1.0,ctrl_change,consolidation_horizontal,140.0
+370006,2024,INTEGRIS HEALTH PONCA CITY,OK,74601,03,03,forprofit,forprofit,20231101,20060501,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,140.0
+370015,2023,HILLCREST HOSPITAL PRYOR,OK,74361,04,08,forprofit,government,20170501,20170501,2,2.0,ctrl_change,government_transition,48.0
+370015,2024,HILLCREST HOSPITAL PRYOR,OK,74361,08,04,government,forprofit,20170501,20170501,2,2.0,ctrl_change,government_transition,48.0
+370022,2025,JACKSON COUNTY MEMORIAL HOSPITAL AUTHORITY,OK,73521,08,03,government,forprofit,,,1,1.0,ctrl_change,government_transition,49.0
+370030,2021,STILLWATER MEDICAL-BLACKWELL,OK,74631,02,08,nonprofit,government,20200101,20120401,5,4.0,"chow_dt_change,chow_cnt_increment,ctrl_change",government_transition,25.0
+370034,2023,MCALESTER REGIONAL HEALTH CENTER,OK,74501,03,08,forprofit,government,,,0,0.0,ctrl_change,government_transition,182.0
+370037,2019,SSM HEALTH ST ANTHONY HOSPITAL - OKLAHOMA CITY,OK,73101,02,01,nonprofit,nonprofit,20030101,20030101,1,1.0,ctrl_change,consolidation_horizontal,615.0
+370047,2024,"MERCY HOSPITAL ARDMORE, INC",OK,73401,02,01,nonprofit,nonprofit,19960808,19960808,1,1.0,ctrl_change,consolidation_horizontal,175.0
+370049,2025,STILLWATER MEDICAL CENTER,OK,74076,03,08,forprofit,government,,,0,0.0,ctrl_change,government_transition,130.0
+370054,2020,GRADY MEMORIAL HOSPITAL,OK,73018,08,07,government,government,,,1,1.0,ctrl_change,consolidation_horizontal,57.0
+370054,2025,GRADY MEMORIAL HOSPITAL,OK,73018,07,08,government,government,,,1,1.0,ctrl_change,consolidation_horizontal,57.0
+370056,2025,MEMORIAL HEALTH,OK,73505,08,08,government,government,20251201,,1,0.0,chow_cnt_increment,consolidation_horizontal,265.0
+370078,2019,OKLAHOMA STATE UNIVERSITY MEDICAL CENTER,OK,74127,06,03,forprofit,forprofit,20131206,20131206,5,5.0,ctrl_change,consolidation_horizontal,195.0
+370078,2025,OKLAHOMA STATE UNIVERSITY MEDICAL CENTER,OK,74127,03,08,forprofit,government,20131206,20131206,5,5.0,ctrl_change,government_transition,195.0
+370089,2020,NORTHEASTERN HEALTH SYSTEM,OK,74465,07,08,government,government,,,1,1.0,ctrl_change,consolidation_horizontal,98.0
+370094,2021,SSM HEALTH ST ANTHONY HOSPITAL - MIDWEST,OK,73110,04,04,forprofit,forprofit,20210401,,3,2.0,chow_cnt_increment,consolidation_horizontal,255.0
+370094,2023,SSM HEALTH ST ANTHONY HOSPITAL - MIDWEST,OK,73110,04,02,forprofit,nonprofit,20210401,20210401,3,3.0,ctrl_change,tax_status_change,255.0
+370112,2021,SEQUOYAH COUNTY-CITY OF SALLISAW HOSPITAL AUTHORIT,OK,74955,08,07,government,government,,,1,1.0,ctrl_change,consolidation_horizontal,41.0
+370149,2023,SSM HEALTH ST ANTHONY HOSPITAL - SHAWNEE,OK,74804,02,02,nonprofit,nonprofit,20220701,20120701,4,3.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,96.0
+370170,2025,LAWTON INDIAN HOSPITAL,OK,73507,05,10,forprofit,government,,,0,0.0,ctrl_change,government_transition,26.0
+370173,2021,CLAREMORE INDIAN HOSPITAL,OK,74017,10,05,government,forprofit,,,2,2.0,ctrl_change,government_transition,60.0
+370199,2023,"LAKESIDE WOMEN'S HOSPITAL, A MEMBER OF INTEGRIS HE",OK,73120,09,02,government,nonprofit,,,0,0.0,ctrl_change,government_transition,23.0
+370201,2019,"SURGICAL HOSPITAL OF OKLAHOMA, LLC",OK,73129,04,09,forprofit,government,,,0,0.0,ctrl_change,government_transition,12.0
+370212,2022,OKLAHOMA CENTER FOR ORTHOPAEDIC & MULTI-SP,OK,73139,04,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,9.0
+370212,2025,OKLAHOMA CENTER FOR ORTHOPAEDIC & MULTI-SP,OK,73139,02,09,nonprofit,government,,,0,0.0,ctrl_change,government_transition,6.0
+370216,2019,TULSA SPINE & SPECIALTY HOSPITAL,OK,74132,09,04,government,forprofit,,,1,1.0,ctrl_change,government_transition,38.0
+370220,2019,ONECORE HEALTH,OK,73109,09,03,government,forprofit,,,0,0.0,ctrl_change,government_transition,8.0
+370220,2025,ONECORE HEALTH,OK,73114,03,04,forprofit,forprofit,,,0,0.0,ctrl_change,consolidation_horizontal,8.0
+370229,2022,ALLIANCEHEALTH SEMINOLE,OK,74868,04,02,forprofit,nonprofit,20120401,20120401,1,1.0,ctrl_change,tax_status_change,32.0
+371300,2025,ATOKA COUNTY MEDICAL CENTER,OK,74525,08,07,government,government,,,0,0.0,ctrl_change,consolidation_horizontal,25.0
+371301,2019,PRAGUE COMMUNITY HOSPITAL,OK,74864,04,03,forprofit,forprofit,20081201,20081201,4,4.0,ctrl_change,consolidation_horizontal,25.0
+371301,2020,PRAGUE COMMUNITY HOSPITAL,OK,74864,03,03,forprofit,forprofit,20200504,20081201,5,4.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,25.0
+371301,2021,PRAGUE REGIONAL MEMORIAL HOSPITAL,OK,74864,03,03,forprofit,forprofit,20210101,20200504,7,5.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,25.0
+371301,2024,PRAGUE REGIONAL MEMORIAL HOSPITAL,OK,74864,03,07,forprofit,government,20210101,20210101,7,7.0,ctrl_change,government_transition,25.0
+371302,2019,"MERCY HOSPITAL WATONGA, INC",OK,73772,01,02,nonprofit,nonprofit,20120701,20120701,1,1.0,ctrl_change,consolidation_horizontal,25.0
+371302,2024,"MERCY HOSPITAL WATONGA, INC",OK,73772,02,04,nonprofit,forprofit,20120701,20120701,1,1.0,ctrl_change,tax_status_change,25.0
+371303,2024,ROGER MILLS MEMORIAL HOSPITAL,OK,73628,08,02,government,nonprofit,,,0,0.0,ctrl_change,government_transition,15.0
+371307,2020,CIMARRON MEMORIAL HOSPITAL,OK,73933,08,07,government,government,,,0,0.0,ctrl_change,consolidation_horizontal,25.0
+371307,2025,CIMARRON MEMORIAL HOSPITAL,OK,73933,07,08,government,government,,,0,0.0,ctrl_change,consolidation_horizontal,25.0
+371309,2019,"PAWHUSKA HOSPITAL, INC",OK,74056,07,02,government,nonprofit,,,0,0.0,ctrl_change,government_transition,25.0
+371311,2019,JEFFERSON COUNTY HOSPITAL,OK,73573,08,02,government,nonprofit,20170201,20170201,1,1.0,ctrl_change,government_transition,25.0
+371313,2019,"MERCY HOSPITAL KINGFISHER, INC",OK,73750,02,01,nonprofit,nonprofit,20131101,,2,1.0,"chow_cnt_increment,ctrl_change",consolidation_horizontal,25.0
+371313,2024,"MERCY HOSPITAL KINGFISHER, INC",OK,73750,01,02,nonprofit,nonprofit,20131101,20131101,2,2.0,ctrl_change,consolidation_horizontal,25.0
+371314,2022,THE PHYSICIANS' HOSPITAL IN ANADARKO,OK,73005,02,02,nonprofit,nonprofit,20211101,20071029,3,2.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,25.0
+371314,2023,THE PHYSICIANS' HOSPITAL IN ANADARKO,OK,73005,02,04,nonprofit,forprofit,20211101,20211101,3,3.0,ctrl_change,tax_status_change,25.0
+371316,2021,STROUD REGIONAL MEDICAL CENTER,OK,74079,02,04,nonprofit,forprofit,20071029,20071029,1,1.0,ctrl_change,tax_status_change,25.0
+371316,2022,STROUD REGIONAL MEDICAL CENTER,OK,74079,04,04,forprofit,forprofit,20211101,20071029,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,25.0
+371318,2019,FAIRFAX COMMUNITY HOSPITAL,OK,74637,04,03,forprofit,forprofit,20100128,20100128,2,2.0,ctrl_change,consolidation_horizontal,15.0
+371318,2020,FAIRFAX COMMUNITY HOSPITAL,OK,74637,03,03,forprofit,forprofit,20200320,20100128,3,2.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,15.0
+371318,2024,RURAL WELLNESS FAIRFAX HOSPITAL,OK,74637,03,04,forprofit,forprofit,20200320,20200320,3,3.0,ctrl_change,consolidation_horizontal,25.0
+371319,2019,MARY HURLEY HOSPITAL,OK,74538,02,04,nonprofit,forprofit,20040801,20040801,1,1.0,ctrl_change,tax_status_change,20.0
+371319,2025,"COAL COUNTY GENERAL HOSPITAL, INC.",OK,74538,04,02,forprofit,nonprofit,20040801,20040801,1,1.0,ctrl_change,tax_status_change,20.0
+371320,2019,CLEVELAND AREA HOSPITAL,OK,74020,08,07,government,government,20090101,20090101,1,1.0,ctrl_change,consolidation_horizontal,14.0
+371320,2024,CLEVELAND AREA HOSPITAL,OK,74020,07,08,government,government,20090101,20090101,1,1.0,ctrl_change,consolidation_horizontal,14.0
+371325,2021,CORDELL MEMORIAL HOSPITAL,OK,73632,07,08,government,government,,,0,0.0,ctrl_change,consolidation_horizontal,14.0
+371326,2023,ALLIANCEHEALTH MADILL,OK,73446,04,03,forprofit,forprofit,20120401,20120401,1,1.0,ctrl_change,consolidation_horizontal,25.0
+371327,2021,OKEENE MUNICIPAL HOSPITAL,OK,73763,08,07,government,government,,,0,0.0,ctrl_change,consolidation_horizontal,17.0
+371330,2021,MANGUM REGIONAL MEDICAL CENTER,OK,73554,04,08,forprofit,government,20051001,20051001,1,1.0,ctrl_change,government_transition,18.0
+371331,2020,DRUMRIGHT REGIONAL HOSPITAL,OK,74030,04,04,forprofit,forprofit,20200413,20071022,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,15.0
+371331,2021,DRUMRIGHT REGIONAL HOSPITAL,OK,74030,04,07,forprofit,government,20200413,20200413,2,2.0,ctrl_change,government_transition,15.0
+371332,2023,SEILING MUNICIPAL HOSPITAL,OK,73663,07,08,government,government,20141001,20141001,2,2.0,ctrl_change,consolidation_horizontal,18.0
+371335,2020,"HASKELL REGIONAL HOSPITAL, INC",OK,74462,04,04,forprofit,forprofit,20200515,20100801,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,25.0
+371335,2021,"HASKELL REGIONAL HOSPITAL, INC",OK,74462,04,02,forprofit,nonprofit,20200515,20200515,2,2.0,ctrl_change,tax_status_change,25.0
+371336,2025,NEWMAN MEMORIAL HOSPITAL,OK,73858,07,08,government,government,,,0,0.0,ctrl_change,consolidation_horizontal,79.0
+371337,2024,EASTERN OKLAHOMA MEDICAL CENTER,OK,74953,08,07,government,government,,,0,0.0,ctrl_change,consolidation_horizontal,25.0
+371338,2019,HARMON MEMORIAL HOSPITAL,OK,73550,08,08,government,government,20190301,,1,0.0,chow_cnt_increment,consolidation_horizontal,31.0
+371338,2021,HARMON MEMORIAL HOSPITAL,OK,73550,08,03,government,forprofit,20190301,20190301,1,1.0,ctrl_change,government_transition,22.0
+371340,2019,MEMORIAL HOSPITAL OF TEXAS COUNTY AUTHORITY,OK,73942,08,08,government,government,20180401,,1,0.0,chow_cnt_increment,consolidation_horizontal,25.0
+372019,2022,CORNERSTONE SPECIALTY HOSPITALS SHAWNEE,OK,74801,03,04,forprofit,forprofit,,,0,0.0,ctrl_change,consolidation_horizontal,34.0
+373025,2019,"VALIR REHABILITATION HOSPITAL OF OKC, LLC",OK,73102,02,04,nonprofit,forprofit,20050701,20050701,5,5.0,ctrl_change,tax_status_change,50.0
+373025,2025,SSM HEALTH REHABILITATION HOSPITAL-OKC,OK,73102,04,04,forprofit,forprofit,20241210,20050701,6,5.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,50.0
+373033,2019,MERCY REHABILITATION HOSPITAL OKLAHOMA CITY,OK,73142,02,03,nonprofit,forprofit,,,0,0.0,ctrl_change,tax_status_change,50.0
+373033,2022,MERCY REHABILITATION HOSPITAL OKLAHOMA CITY,OK,73142,03,04,forprofit,forprofit,,,0,0.0,ctrl_change,consolidation_horizontal,50.0
+380061,2019,PROVIDENCE PORTLAND MEDICAL CENTER,OR,97213,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,483.0
+381301,2025,PEACEHEALTH COTTAGE GROVE COMMUNITY MEDICAL CENTER,OR,97424,02,01,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,11.0
+390006,2025,GEISINGER MEDICAL CENTER,PA,17822,02,02,nonprofit,nonprofit,20250201,,4,3.0,chow_cnt_increment,consolidation_horizontal,393.0
+390012,2022,LANSDALE HOSPITAL,PA,19446,03,02,forprofit,nonprofit,20081101,20081101,2,2.0,ctrl_change,tax_status_change,109.0
+390013,2020,EVANGELICAL COMMUNITY HOSPITAL,PA,17837,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,120.0
+390026,2023,TEMPLE HEALTH - CHESTNUT HILL HOSPITAL,PA,19118,04,02,forprofit,nonprofit,20230902,20171001,4,2.0,"chow_dt_change,chow_cnt_increment,ctrl_change",tax_status_change,134.0
+390032,2024,ALLEGHENY VALLEY HOSPITAL,PA,15065,03,02,forprofit,nonprofit,19970301,19970301,1,1.0,ctrl_change,tax_status_change,212.0
+390035,2025,ST LUKE'S HOSPITAL - UPPER BUCKS CAMPUS,PA,18951,02,04,nonprofit,forprofit,,,0,0.0,ctrl_change,tax_status_change,113.0
+390041,2024,UNIONTOWN HOSPITAL,PA,15401,03,02,forprofit,nonprofit,,,1,1.0,ctrl_change,tax_status_change,144.0
+390044,2020,READING HOSPITAL,PA,19611,03,02,forprofit,nonprofit,,,1,1.0,ctrl_change,tax_status_change,564.0
+390045,2019,WILLIAMSPORT REGIONAL MEDICAL CENTER,PA,17701,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,222.0
+390056,2025,PENN HIGHLANDS HUNTINGDON,PA,16652,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,77.0
+390058,2024,UPMC CARLISLE,PA,17015,04,02,forprofit,nonprofit,20170701,20170701,6,6.0,ctrl_change,tax_status_change,131.0
+390062,2021,CONEMAUGH NASON MEDICAL CENTER,PA,16673,02,03,nonprofit,forprofit,20150201,,1,0.0,"chow_cnt_increment,ctrl_change",tax_status_change,41.0
+390065,2024,GETTYSBURG HOSPITAL,PA,17325,03,02,forprofit,nonprofit,,,2,2.0,ctrl_change,tax_status_change,68.0
+390066,2024,WELLSPAN GOOD SAMARITAN HOSPITAL,PA,17042,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,145.0
+390067,2022,UPMC PINNACLE HOSPITALS,PA,17105,03,02,forprofit,nonprofit,,,2,2.0,ctrl_change,tax_status_change,628.0
+390068,2024,UPMC LITITZ,PA,17543,04,03,forprofit,forprofit,20170701,20170701,4,4.0,ctrl_change,consolidation_horizontal,127.0
+390070,2025,LOWER BUCKS HOSPITAL,PA,19007,04,02,forprofit,nonprofit,20121002,20121002,4,4.0,ctrl_change,tax_status_change,128.0
+390071,2020,LOCK HAVEN HOSPITAL,PA,17745,04,02,forprofit,nonprofit,20171001,20171001,2,2.0,ctrl_change,tax_status_change,25.0
+390079,2019,ROBERT PACKER HOSPITAL,PA,18840,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,229.0
+390081,2022,DELAWARE COUNTY MEMORIAL HOSPITAL,PA,19026,02,04,nonprofit,forprofit,20160701,20160701,3,3.0,ctrl_change,tax_status_change,215.0
+390086,2024,PENN HIGHLANDS DUBOIS,PA,15801,03,02,forprofit,nonprofit,,,2,2.0,ctrl_change,tax_status_change,202.0
+390093,2021,CLARION HOSPITAL,PA,16214,03,02,forprofit,nonprofit,,,1,1.0,ctrl_change,tax_status_change,60.0
+390096,2023,PENN STATE HEALTH ST. JOSEPH,PA,19605,01,02,nonprofit,nonprofit,19970301,19970301,1,1.0,ctrl_change,consolidation_horizontal,166.0
+390100,2020,LANCASTER GENERAL HOSPITAL,PA,17602,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,537.0
+390123,2019,POTTSTOWN HOSPITAL,PA,19464,04,02,forprofit,nonprofit,20171001,20171001,2,2.0,ctrl_change,tax_status_change,194.0
+390127,2025,PHOENIXVILLE HOSPITAL,PA,19460,04,02,forprofit,nonprofit,20171001,20171001,3,3.0,ctrl_change,tax_status_change,116.0
+390137,2020,WILKES-BARRE GENERAL HOSPITAL,PA,18764,02,04,nonprofit,forprofit,20090501,20090501,1,1.0,ctrl_change,tax_status_change,332.0
+390157,2023,HERITAGE VALLEY KENNEDY,PA,15136,02,02,nonprofit,nonprofit,20200701,,2,1.0,chow_cnt_increment,consolidation_horizontal,129.0
+390160,2021,CANONSBURG GENERAL HOSPITAL,PA,15317,02,03,nonprofit,forprofit,19970719,19970719,1,1.0,ctrl_change,tax_status_change,96.0
+390160,2024,CANONSBURG GENERAL HOSPITAL,PA,15317,03,02,forprofit,nonprofit,19970719,19970719,1,1.0,ctrl_change,tax_status_change,96.0
+390162,2020,ST LUKE'S HOSPITAL - EASTON CAMPUS,PA,18042,04,04,forprofit,forprofit,20200701,20170501,3,2.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,222.0
+390162,2021,ST LUKE'S HOSPITAL - EASTON CAMPUS,PA,18042,04,02,forprofit,nonprofit,20200701,20200701,3,3.0,ctrl_change,tax_status_change,140.0
+390185,2024,LEHIGH VALLEY HOSPITAL - HAZLETON,PA,18201,07,03,government,forprofit,,,2,2.0,ctrl_change,government_transition,138.0
+390211,2025,SHARON REGIONAL MEDICAL CENTER,PA,16146,04,04,forprofit,forprofit,20250121,20170501,3,2.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,193.0
+390231,2020,ABINGTON MEMORIAL HOSPITAL,PA,19001,02,04,nonprofit,forprofit,,,2,2.0,ctrl_change,tax_status_change,475.0
+390231,2025,JEFFERSON ABINGTON HOSPITAL,PA,19001,04,02,forprofit,nonprofit,,,2,2.0,ctrl_change,tax_status_change,557.0
+390237,2023,REGIONAL HOSPITAL OF SCRANTON,PA,18501,04,04,forprofit,forprofit,20221113,20110501,3,2.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,241.0
+390256,2019,MILTON S HERSHEY MEDICAL CENTER,PA,17033,03,02,forprofit,nonprofit,20000701,20000701,1,1.0,ctrl_change,tax_status_change,363.0
+390272,2021,VALLEY FORGE MEDICAL CENTER,PA,19403,04,04,forprofit,forprofit,20210614,,2,1.0,chow_cnt_increment,consolidation_horizontal,67.0
+390314,2020,LVH- COORDINATED BETHLEHEM,PA,18017,09,02,government,nonprofit,20191219,,1,0.0,"chow_cnt_increment,ctrl_change",government_transition,20.0
+390316,2020,SURGICAL INSTITUTE OF READING,PA,19610,04,09,forprofit,government,,,1,1.0,ctrl_change,government_transition,15.0
+390321,2019,SURGICAL SPECIALTY CENTER AT COORDINATED HEALTH,PA,18104,09,04,government,forprofit,,,0,0.0,ctrl_change,government_transition,20.0
+390321,2020,LVH- COORDINATED ALLENTOWN,PA,18104,04,04,forprofit,forprofit,20191219,,1,0.0,chow_cnt_increment,consolidation_horizontal,20.0
+391308,2019,LECOM HEALTH CORRY MEMORIAL HOSPITAL,PA,16407,02,08,nonprofit,government,,,0,0.0,ctrl_change,government_transition,20.0
+391308,2021,LECOM HEALTH CORRY MEMORIAL HOSPITAL,PA,16407,08,02,government,nonprofit,,,0,0.0,ctrl_change,government_transition,20.0
+391308,2022,LECOM HEALTH CORRY MEMORIAL HOSPITAL,PA,16407,02,08,nonprofit,government,,,0,0.0,ctrl_change,government_transition,20.0
+391313,2020,UPMC COLE,PA,16915,03,02,forprofit,nonprofit,,,1,1.0,ctrl_change,tax_status_change,25.0
+392045,2019,"SELECT SPECIALTY HOSPITAL - MCKEESPORT, INC",PA,15132,02,04,nonprofit,forprofit,,,0,0.0,ctrl_change,tax_status_change,30.0
+393039,2019,ENCOMPASS HEALTH REHABILITATION HOSPITAL OF NITTAN,PA,16823,03,04,forprofit,forprofit,,,6,6.0,ctrl_change,consolidation_horizontal,73.0
+393039,2020,ENCOMPASS HEALTH REHABILITATION HOSPITAL OF NITTAN,PA,16823,04,03,forprofit,forprofit,,,6,6.0,ctrl_change,consolidation_horizontal,73.0
+393039,2024,ENCOMPASS HEALTH REHABILITATION HOSPITAL OF NITTAN,PA,16823,03,04,forprofit,forprofit,,,6,6.0,ctrl_change,consolidation_horizontal,73.0
+393307,2020,ST CHRISTOPHER'S HOSPITAL FOR CHILDREN,PA,19134,04,04,forprofit,forprofit,20191215,20180112,5,4.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,133.0
+394049,2019,BROOKE GLEN BEHAVIORAL HOSPITAL,PA,19034,04,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,146.0
+394054,2020,EAST END BEHAVIORAL HEALTH HOSPITAL,PA,15221,04,04,forprofit,forprofit,20190930,,1,0.0,chow_cnt_increment,consolidation_horizontal,49.0
+400001,2022,PRESBYTERIAN COMMUNITY HOSP,PR,00907,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,207.0
+400003,2021,HOSPITAL METROPOLITANO DR PILA,PR,00733,02,04,nonprofit,forprofit,20100507,20100507,1,1.0,ctrl_change,tax_status_change,183.0
+400004,2022,"ASOCIACION HOSPITAL DEL MAESTRO, INC",PR,00936,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,280.0
+400005,2023,HIMA SAN PABLO HUMACAO,PR,00791,04,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,105.0
+400005,2024,HOPE MEDICAL CENTER,PR,00791,02,03,nonprofit,forprofit,20231213,,1,0.0,"chow_cnt_increment,ctrl_change",tax_status_change,106.0
+400006,2024,DOCTORS' CENTER HOSPITAL SAN JUAN,PR,00909,04,04,forprofit,forprofit,20230601,20070427,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,160.0
+400011,2023,"HOSPITAL MENONITA HUMACAO, INC",PR,00792,04,04,forprofit,forprofit,20200229,,1,0.0,chow_cnt_increment,consolidation_horizontal,71.0
+400015,2023,SAN JUAN MUNICIPAL HOSPITAL,PR,00936,03,07,forprofit,government,,,0,0.0,ctrl_change,government_transition,450.0
+400019,2025,HOSPITAL PAVIA SANTURCE,PR,00910,02,04,nonprofit,forprofit,20060812,20060812,1,1.0,ctrl_change,tax_status_change,197.0
+400021,2025,HOSPITAL DE LA CONCEPCION,PR,00683,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,187.0
+400044,2024,HOSPITAL EPISCOPAL SAN LUCAS II,PR,00716,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,427.0
+400048,2023,HOSPITAL MENONITA GUAYAMA,PR,00785,01,02,nonprofit,nonprofit,,,5,5.0,ctrl_change,consolidation_horizontal,161.0
+400079,2023,HOSPITAL  BUEN SAMARITANO,PR,00603,03,02,forprofit,nonprofit,,,3,3.0,ctrl_change,tax_status_change,230.0
+400102,2023,DOCTORS CENTER HOSPITAL BAYAMON INC,PR,00960,04,04,forprofit,forprofit,20230601,,1,0.0,chow_cnt_increment,consolidation_horizontal,146.0
+400109,2021,HIMA SAN PABLO BAYAMON,PR,00961,04,04,forprofit,forprofit,20050401,,1,0.0,chow_cnt_increment,consolidation_horizontal,430.0
+400109,2024,HOSPITAL  ESPANOL AUXILIO MUTUO SAN PABLO,PR,00961,04,04,forprofit,forprofit,20231215,20050401,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,430.0
+400109,2025,HOSPITAL ESPANOL AUXILIO MUTUO SAN PABLO,PR,00961,04,02,forprofit,nonprofit,20231215,20231215,2,2.0,ctrl_change,tax_status_change,436.0
+400112,2024,"HOSPITAL UPR, DR  FEDERICO TRILLA",PR,00984,04,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,250.0
+400113,2023,HOSPITAL MENONITA PONCE,PR,00780,02,02,nonprofit,nonprofit,20221130,,1,0.0,chow_cnt_increment,consolidation_horizontal,138.0
+400113,2024,HOSPITAL MENONITA PONCE,PR,00780,02,02,nonprofit,nonprofit,20221201,20221130,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,138.0
+400114,2023,MANATI MEDICAL CENTER DR OTERO LOPEZ,PR,00674,04,02,forprofit,nonprofit,,,2,2.0,ctrl_change,tax_status_change,285.0
+400118,2023,"DOCTORS' CENTER HOSPITAL, INC",PR,00674,04,04,forprofit,forprofit,20230601,,1,0.0,chow_cnt_increment,consolidation_horizontal,235.0
+400120,2024,HOSPITAL PAVIA CAGUAS,PR,00725,04,04,forprofit,forprofit,20231220,,1,0.0,chow_cnt_increment,consolidation_horizontal,390.0
+400127,2023,ASEM,PR,00935,07,06,government,forprofit,,,0,0.0,ctrl_change,government_transition,92.0
+400128,2023,"HOSPITAL PAVIA HATO REY, INC",PR,00919,02,04,nonprofit,forprofit,20060812,20060812,1,1.0,ctrl_change,tax_status_change,224.0
+400132,2023,DOCTORS CENTER HOSPITAL  CAROLINA LLC,PR,00979,06,04,forprofit,forprofit,20230601,,1,0.0,"chow_cnt_increment,ctrl_change",consolidation_horizontal,109.0
+400134,2025,THE SAN JORGE HOSPITAL INC,PR,00912,04,04,forprofit,forprofit,20240608,,1,0.0,chow_cnt_increment,consolidation_horizontal,167.0
+410004,2019,ROGER WILLIAMS MEDICAL CENTER,RI,02908,02,04,nonprofit,forprofit,20140620,20140620,2,2.0,ctrl_change,tax_status_change,220.0
+410005,2019,OUR LADY OF FATIMA HOSPITAL,RI,02904,02,04,nonprofit,forprofit,20140620,20140620,2,2.0,ctrl_change,tax_status_change,312.0
+410007,2023,RHODE ISLAND HOSPITAL,RI,02903,02,10,nonprofit,government,,,1,1.0,ctrl_change,government_transition,719.0
+410007,2025,RHODE ISLAND HOSPITAL,RI,02903,10,02,government,nonprofit,,,1,1.0,ctrl_change,government_transition,719.0
+420004,2023,MUSC MEDICAL CENTER,SC,29425,06,08,forprofit,government,,,1,1.0,ctrl_change,government_transition,713.0
+420015,2019,PRISMA HEALTH BAPTIST EASLEY HOSPITAL,SC,29640,02,02,nonprofit,nonprofit,20181001,20091001,4,3.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,109.0
+420018,2019,PRISMA HEALTH RICHLAND HOSPITAL,SC,29203,02,04,nonprofit,forprofit,,,4,4.0,ctrl_change,tax_status_change,649.0
+420018,2024,PRISMA HEALTH RICHLAND HOSPITAL,SC,29203,04,02,forprofit,nonprofit,,,4,4.0,ctrl_change,tax_status_change,649.0
+420019,2019,MUSC HEALTH CHESTER MEDICAL CENTER,SC,29706,04,04,forprofit,forprofit,20190301,20080401,3,2.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,82.0
+420026,2020,PROVIDENCE HEALTH,SC,29203,04,02,forprofit,nonprofit,20160201,20160201,2,2.0,ctrl_change,tax_status_change,258.0
+420043,2019,CHEROKEE MEDICAL CENTER,SC,29340,02,08,nonprofit,government,20190101,,7,6.0,"chow_cnt_increment,ctrl_change",government_transition,125.0
+420051,2019,MCLEOD REGIONAL MEDICAL CENTER-PEE DEE,SC,29506,03,02,forprofit,nonprofit,,,2,2.0,ctrl_change,tax_status_change,461.0
+420055,2019,MUSC HEALTH MARION MEDICAL CENTER,SC,29574,04,06,forprofit,forprofit,20100707,20100707,2,2.0,ctrl_change,consolidation_horizontal,124.0
+420073,2025,LEXINGTON MEDICAL CENTER,SC,29169,08,02,government,nonprofit,,,1,1.0,ctrl_change,government_transition,460.0
+420080,2020,HILTON HEAD REGIONAL MEDICAL CENTER,SC,29925,04,03,forprofit,forprofit,,,2,2.0,ctrl_change,consolidation_horizontal,93.0
+420080,2025,HILTON HEAD REGIONAL MEDICAL CENTER,SC,29926,03,03,forprofit,forprofit,20240131,,3,2.0,chow_cnt_increment,consolidation_horizontal,93.0
+420089,2025,EAST COOPER MEDICAL CENTER,SC,29464,04,04,forprofit,forprofit,20240131,,4,3.0,chow_cnt_increment,consolidation_horizontal,130.0
+420091,2021,MUSC HEALTH FLORENCE MEDICAL CENTER,SC,29505,04,06,forprofit,forprofit,,,5,5.0,ctrl_change,consolidation_horizontal,310.0
+420101,2025,SOUTH CAROLINA COASTAL MEDICAL CENTER LLC,SC,29927,04,04,forprofit,forprofit,20240131,,2,1.0,chow_cnt_increment,consolidation_horizontal,41.0
+421301,2022,ABBEVILLE AREA MEDICAL CENTER,SC,29620,07,03,government,forprofit,,,0,0.0,ctrl_change,government_transition,25.0
+421304,2019,EDGEFIELD COUNTY HEALTHCARE AN AFFILIATE OF SELF R,SC,29824,07,07,government,government,20190101,,1,0.0,chow_cnt_increment,consolidation_horizontal,25.0
+421304,2024,EDGEFIELD COUNTY HEALTHCARE AN AFFILIATE OF SELF R,SC,29824,07,02,government,nonprofit,20190101,20190101,1,1.0,ctrl_change,government_transition,25.0
+422004,2019,SPARTANBURG HOSP FOR RESTORATIVE CARE,SC,29303,08,04,government,forprofit,,,2,2.0,ctrl_change,government_transition,97.0
+422004,2023,SPARTANBURG HOSP FOR RESTORATIVE CARE,SC,29303,04,08,forprofit,government,,,2,2.0,ctrl_change,government_transition,97.0
+422005,2025,CHARLESTON-AMG SPECIALITY HOSPITAL INC,SC,29464,04,04,forprofit,forprofit,20250101,20130901,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,59.0
+423029,2020,ANMED HEALTHSOUTH REHABILITATION HOSPITAL,SC,29621,04,02,forprofit,nonprofit,,,1,1.0,ctrl_change,tax_status_change,55.0
+424011,2019,PATRICK B HARRIS PSYCHIATRIC HOSPITAL,SC,29622,09,06,government,forprofit,,,0,0.0,ctrl_change,government_transition,200.0
+431302,2022,AVERA MISSOURI RIVER HEALTH CENTER,SD,57442,01,02,nonprofit,nonprofit,,,2,2.0,ctrl_change,consolidation_horizontal,7.0
+431308,2019,EUREKA COMMUNITY HEALTH SERVICES - CAH,SD,57437,07,02,government,nonprofit,,,0,0.0,ctrl_change,government_transition,4.0
+431308,2024,EUREKA COMMUNITY HEALTH SERVICES - CAH,SD,57437,02,03,nonprofit,forprofit,,,0,0.0,ctrl_change,tax_status_change,4.0
+431312,2022,MARSHALL COUNTY HEALTHCARE CENTER - CAH,SD,57430,04,02,forprofit,nonprofit,,,2,2.0,ctrl_change,tax_status_change,20.0
+431314,2024,BENNETT COUNTY HOSPITAL AND NURSING HOME - CAH,SD,57551,03,02,forprofit,nonprofit,20050101,20050101,1,1.0,ctrl_change,tax_status_change,14.0
+431315,2023,WAGNER COMMUNITY MEMORIAL HOSPITAL - CAH,SD,57380,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,20.0
+431317,2020,LANDMANN-JUNGMAN MEMORIAL HOSPITAL - CAH,SD,57059,07,02,government,nonprofit,,,3,3.0,ctrl_change,government_transition,20.0
+440007,2021,UNITY MEDICAL CENTER,TN,37355,09,02,government,nonprofit,,,3,3.0,ctrl_change,government_transition,49.0
+440082,2020,SAINT THOMAS WEST HOSPITAL,TN,37205,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,571.0
+440132,2025,WEST TENNESSEE HEALTHCARE HENRY COUNTY HOSPITAL,TN,38242,08,08,government,government,20241001,,1,0.0,chow_cnt_increment,consolidation_horizontal,142.0
+440151,2019,SAINT THOMAS RIVER PARK HOSPITAL,TN,37110,04,02,forprofit,nonprofit,20150801,20150801,3,3.0,ctrl_change,tax_status_change,152.0
+440153,2021,TENNOVA HEALTHCARE - NEWPORT MEDICAL CENTER,TN,37821,01,04,nonprofit,forprofit,20111001,20111001,4,4.0,ctrl_change,tax_status_change,74.0
+440185,2025,BRADLEY MEDICAL CENTER,TN,37311,04,04,forprofit,forprofit,20240801,,4,3.0,chow_cnt_increment,consolidation_horizontal,351.0
+440192,2019,SAINT THOMAS HIGHLANDS HOSPITAL,TN,38583,04,04,forprofit,forprofit,20150801,20090831,4,3.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,60.0
+440194,2019,TRISTAR HENDERSONVILLE MEDICAL CENTER,TN,37075,03,04,forprofit,forprofit,,,5,5.0,ctrl_change,consolidation_horizontal,148.0
+441304,2019,JOHNSON COUNTY COMMUNITY HOSPITAL,TN,37683,02,08,nonprofit,government,,,2,2.0,ctrl_change,government_transition,2.0
+441304,2021,JOHNSON COUNTY COMMUNITY HOSPITAL,TN,37683,08,02,government,nonprofit,,,2,2.0,ctrl_change,government_transition,2.0
+441313,2019,HANCOCK COUNTY HOSPITAL,TN,37869,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,10.0
+441313,2020,HANCOCK COUNTY HOSPITAL,TN,37869,02,03,nonprofit,forprofit,,,0,0.0,ctrl_change,tax_status_change,10.0
+443025,2021,SISKIN HOSPITAL FOR PHYSICAL REHABILITATION,TN,37403,04,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,88.0
+444005,2024,UNITY PSYCHIATRIC CARE-MARTIN,TN,38237,02,04,nonprofit,forprofit,,,2,2.0,ctrl_change,tax_status_change,16.0
+450021,2025,BAYLOR UNIVERSITY MEDICAL CENTER,TX,75246,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,914.0
+450024,2024,UNIVERSITY MEDICAL CENTER OF EL PASO,TX,79905,08,09,government,government,,,1,1.0,ctrl_change,consolidation_horizontal,354.0
+450034,2019,CHRISTUS SOUTHEAST TEXAS- ST ELIZABETH,TX,77702,01,02,nonprofit,nonprofit,,,2,2.0,ctrl_change,consolidation_horizontal,553.0
+450035,2021,ST JOSEPH MEDICAL CENTER,TX,77002,04,09,forprofit,government,20060820,20060820,2,2.0,ctrl_change,government_transition,314.0
+450035,2025,ST JOSEPH MEDICAL CENTER,TX,77002,09,09,government,government,20241030,20060820,4,2.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,314.0
+450040,2019,COVENANT MEDICAL CENTER,TX,79410,01,01,nonprofit,nonprofit,20190101,19990401,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,381.0
+450040,2021,COVENANT MEDICAL CENTER,TX,79410,01,02,nonprofit,nonprofit,20190101,20190101,2,2.0,ctrl_change,consolidation_horizontal,381.0
+450056,2019,ASCENSION SETON MEDICAL CENTER AUSTIN,TX,78705,02,09,nonprofit,government,,,0,0.0,ctrl_change,government_transition,524.0
+450056,2021,ASCENSION SETON MEDICAL CENTER AUSTIN,TX,78705,09,02,government,nonprofit,,,0,0.0,ctrl_change,government_transition,521.0
+450078,2019,ANSON GENERAL HOSPITAL,TX,79501,07,08,government,government,20160401,20160401,1,1.0,ctrl_change,consolidation_horizontal,25.0
+450082,2024,CHRISTUS SPOHN HOSPITAL BEEVILLE,TX,78102,01,02,nonprofit,nonprofit,,,5,5.0,ctrl_change,consolidation_horizontal,69.0
+450083,2020,UT HEALTH EAST TEXAS TYLER REGIONAL HOSPITAL,TX,75701,02,04,nonprofit,forprofit,20180301,20180301,2,2.0,ctrl_change,tax_status_change,397.0
+450090,2019,NORTH TEXAS MEDICAL CENTER,TX,76240,08,08,government,government,20181201,,3,2.0,chow_cnt_increment,consolidation_horizontal,60.0
+450090,2025,NORTH TEXAS MEDICAL CENTER,TX,76240,08,02,government,nonprofit,20181201,20181201,3,3.0,ctrl_change,government_transition,60.0
+450104,2022,GUADALUPE REGIONAL MEDICAL CENTER,TX,78155,03,07,forprofit,government,,,2,2.0,ctrl_change,government_transition,153.0
+450133,2021,MIDLAND MEMORIAL HOSPITAL,TX,79701,07,08,government,government,,,0,0.0,ctrl_change,consolidation_horizontal,540.0
+450135,2025,TEXAS HEALTH HARRIS METHODIST FORT WORTH,TX,76104,01,02,nonprofit,nonprofit,,,1,1.0,ctrl_change,consolidation_horizontal,610.0
+450143,2022,SETON SMITHVILLE REGIONAL HOSPITAL,TX,78957,01,02,nonprofit,nonprofit,20110701,20110701,1,1.0,ctrl_change,consolidation_horizontal,36.0
+450148,2025,TEXAS HEALTH HARRIS METHODIST HOSPITAL CLEBURNE,TX,76033,01,02,nonprofit,nonprofit,,,2,2.0,ctrl_change,consolidation_horizontal,137.0
+450152,2019,ADVENTHEALTH CENTRAL TEXAS,TX,76542,02,01,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,232.0
+450154,2021,VAL VERDE REGIONAL MEDICAL CENTER,TX,78840,04,08,forprofit,government,20000131,20000131,1,1.0,ctrl_change,government_transition,93.0
+450162,2022,GRACE SURGICAL HOSPITAL,TX,79412,03,02,forprofit,nonprofit,20080915,20080915,2,2.0,ctrl_change,tax_status_change,123.0
+450194,2022,UT HEALTH EAST TEXAS JACKSONVILLE HOSPITAL,TX,75766,02,04,nonprofit,forprofit,20180301,20180301,2,2.0,ctrl_change,tax_status_change,65.0
+450209,2019,NORTHWEST TEXAS HOSPITAL,TX,79106,04,02,forprofit,nonprofit,19960507,19960507,1,1.0,ctrl_change,tax_status_change,495.0
+450210,2022,UT HEALTH EAST TEXAS CARTHAGE HOSPITAL,TX,75633,02,04,nonprofit,forprofit,20180301,20180301,2,2.0,ctrl_change,tax_status_change,36.0
+450236,2019,CHRISTUS MOTHER FRANCES HOSPITAL SULPHUR SPRINGS,TX,75482,04,02,forprofit,nonprofit,20160712,20160712,2,2.0,ctrl_change,tax_status_change,70.0
+450237,2025,CHRISTUS SANTA ROSA MEDICAL CENTER,TX,78229,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,407.0
+450271,2024,MEDICAL CITY DECATUR,TX,76234,08,08,government,government,20231201,,1,0.0,chow_cnt_increment,consolidation_horizontal,85.0
+450272,2020,CHRISTUS SANTA ROSA HOSPITAL-SAN MARCOS,TX,78666,02,02,nonprofit,nonprofit,20200401,,1,0.0,chow_cnt_increment,consolidation_horizontal,170.0
+450272,2022,CHRISTUS SANTA ROSA HOSPITAL-SAN MARCOS,TX,78666,02,01,nonprofit,nonprofit,20200401,20200401,1,1.0,ctrl_change,consolidation_horizontal,170.0
+450299,2020,CHI ST JOSEPH HEALTH COLLEGE STATION HOSPITAL,TX,77842,04,04,forprofit,forprofit,20190731,19970701,3,2.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,142.0
+450330,2021,OAKBEND MEDICAL CENTER,TX,77469,08,04,government,forprofit,,,3,3.0,ctrl_change,government_transition,243.0
+450330,2024,OAKBEND MEDICAL CENTER,TX,77469,04,08,forprofit,government,,,3,3.0,ctrl_change,government_transition,168.0
+450347,2020,HUNTSVILLE MEMORIAL HOSPITAL,TX,77340,02,02,nonprofit,nonprofit,20200228,,2,1.0,chow_cnt_increment,consolidation_horizontal,123.0
+450351,2024,TEXAS HEALTH HARRIS METHODIST HOSPITAL STEPHENVILL,TX,76401,02,03,nonprofit,forprofit,,,2,2.0,ctrl_change,tax_status_change,98.0
+450351,2025,TEXAS HEALTH HARRIS METHODIST HOSPITAL STEPHENVILL,TX,76401,03,02,forprofit,nonprofit,,,2,2.0,ctrl_change,tax_status_change,98.0
+450389,2021,UT HEALTH EAST TEXAS ATHENS HOSPITAL,TX,75751,02,04,nonprofit,forprofit,20180301,20180301,3,3.0,ctrl_change,tax_status_change,100.0
+450419,2025,TEXAS HEALTH HARRIS METHODIST HOSPITAL AZLE,TX,76020,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,36.0
+450431,2019,ST DAVID'S MEDICAL CENTER,TX,78705,03,04,forprofit,forprofit,19960501,19960501,1,1.0,ctrl_change,consolidation_horizontal,607.0
+450431,2022,ST DAVID'S MEDICAL CENTER,TX,78705,04,02,forprofit,nonprofit,19960501,19960501,1,1.0,ctrl_change,tax_status_change,625.0
+450431,2025,ST DAVID'S MEDICAL CENTER,TX,78705,02,04,nonprofit,forprofit,19960501,19960501,1,1.0,ctrl_change,tax_status_change,625.0
+450447,2019,NAVARRO REGIONAL HOSPITAL,TX,75110,03,08,forprofit,government,19990201,19990201,5,5.0,ctrl_change,government_transition,147.0
+450469,2025,AHS SHERMAN MEDICAL CENTER,TX,75091,04,04,forprofit,forprofit,20240101,20100415,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,241.0
+450475,2020,UT HEALTH EAST TEXAS HENDERSON HOSPITAL,TX,75652,02,04,nonprofit,forprofit,20180301,20180301,2,2.0,ctrl_change,tax_status_change,96.0
+450508,2021,NACOGDOCHES MEMORIAL HOSPITAL,TX,75961,08,08,government,government,20210716,,1,0.0,chow_cnt_increment,consolidation_horizontal,163.0
+450508,2023,NACOGDOCHES MEMORIAL HOSPITAL,TX,75961,08,04,government,forprofit,20210716,20210716,1,1.0,ctrl_change,government_transition,163.0
+450508,2024,NACOGDOCHES MEMORIAL HOSPITAL,TX,75961,04,04,forprofit,forprofit,20240311,20210716,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,163.0
+450518,2019,THE MEDICAL CENTER OF SOUTHEAST TEXAS,TX,77640,04,09,forprofit,government,20030801,20030801,7,7.0,ctrl_change,government_transition,174.0
+450518,2025,"HSA PORT ARTHUR, LLC",TX,77640,09,09,government,government,20241030,20030801,8,7.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,174.0
+450571,2025,SHANNON MEDICAL CENTER,TX,76903,02,02,nonprofit,nonprofit,20240917,19950825,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,616.0
+450573,2019,CHRISTUS JASPER MEMORIAL HOSPITAL,TX,75951,07,02,government,nonprofit,19990201,19990201,2,2.0,ctrl_change,government_transition,49.0
+450587,2021,HENDRICK MEDICAL CENTER BROWNWOOD,TX,76801,04,04,forprofit,forprofit,20201027,,3,2.0,chow_cnt_increment,consolidation_horizontal,216.0
+450604,2023,HILL COUNTRY MEMORIAL HOSPITAL,TX,78624,02,02,nonprofit,nonprofit,20230401,,2,1.0,chow_cnt_increment,consolidation_horizontal,84.0
+450604,2024,HILL COUNTRY MEMORIAL HOSPITAL,TX,78624,02,04,nonprofit,forprofit,20230401,20230401,2,2.0,ctrl_change,tax_status_change,84.0
+450634,2025,MEDICAL CITY DENTON,TX,76210,04,04,forprofit,forprofit,20240601,19970601,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,208.0
+450653,2025,SCENIC MOUNTAIN MEDICAL CENTER,TX,79720,04,04,forprofit,forprofit,20241017,,4,3.0,chow_cnt_increment,consolidation_horizontal,146.0
+450656,2021,NACOGDOCHES MEDICAL CENTER,TX,75965,09,03,government,forprofit,,,0,0.0,ctrl_change,government_transition,140.0
+450661,2025,ODESSA REGIONAL MEDICAL CENTER,TX,79761,04,04,forprofit,forprofit,20241017,19991016,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,230.0
+450694,2022,EL CAMPO MEMORIAL HOSPITAL,TX,77437,02,03,nonprofit,forprofit,20111101,20111101,2,2.0,ctrl_change,tax_status_change,49.0
+450730,2020,CARROLLTON REGIONAL MEDICAL CENTER,TX,75010,04,04,forprofit,forprofit,20200301,20140401,4,3.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,197.0
+450742,2020,BAYLOR SCOTT AND WHITE MEDICAL CENTER LAKE POINTE,TX,75088,04,02,forprofit,nonprofit,20080101,20080101,2,2.0,ctrl_change,tax_status_change,112.0
+450747,2023,PALESTINE REGIONAL MEDICAL CENTER,TX,75801,04,02,forprofit,nonprofit,19991001,19991001,1,1.0,ctrl_change,tax_status_change,144.0
+450747,2024,PALESTINE REGIONAL MEDICAL CENTER,TX,75801,02,04,nonprofit,forprofit,19991001,19991001,1,1.0,ctrl_change,tax_status_change,71.0
+450788,2022,"CORPUS CHRISTI MEDICAL CENTER,THE",TX,78414,04,03,forprofit,forprofit,,,0,0.0,ctrl_change,consolidation_horizontal,421.0
+450801,2025,CHRISTUS ST MICHAEL HEALTH SYSTEM,TX,75503,01,02,nonprofit,nonprofit,19990201,19990201,1,1.0,ctrl_change,consolidation_horizontal,527.0
+450803,2021,UNITED MEMORIAL MEDICAL CENTER,TX,77091,09,04,government,forprofit,,,1,1.0,ctrl_change,government_transition,117.0
+450808,2023,NORTHWEST HILLS SURGICAL HOSPITAL,TX,78731,04,02,forprofit,nonprofit,,,1,1.0,ctrl_change,tax_status_change,8.0
+450825,2020,CORNERSTONE REGIONAL HOSPITAL,TX,78539,04,09,forprofit,government,,,0,0.0,ctrl_change,government_transition,14.0
+450825,2023,CORNERSTONE REGIONAL HOSPITAL,TX,78539,09,04,government,forprofit,,,0,0.0,ctrl_change,government_transition,14.0
+450840,2025,TEXAS HEALTH PRESBYTERIAN HOSPITAL ALLEN,TX,75013,05,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,29.0
+450851,2025,BAYLOR SCOTT & WHITE  HEART AND VASCULAR HOSPITAL,TX,75226,04,04,forprofit,forprofit,20250201,,1,0.0,chow_cnt_increment,consolidation_horizontal,61.0
+450856,2022,SOUTH TEXAS SPINE AND SURGICAL HOSPITAL,TX,78258,08,09,government,government,,,0,0.0,ctrl_change,consolidation_horizontal,30.0
+450871,2023,ARISE AUSTIN MEDICAL CENTER,TX,78746,03,09,forprofit,government,20130701,20130701,1,1.0,ctrl_change,government_transition,23.0
+450876,2020,LUBBOCK HEART HOSPITAL LP,TX,79416,04,08,forprofit,government,,,1,1.0,ctrl_change,government_transition,74.0
+450880,2019,BAYLOR SCOTT AND WHITE SURGICAL HOSPITAL FORTWORTH,TX,76110,02,09,nonprofit,government,,,0,0.0,ctrl_change,government_transition,34.0
+450888,2025,TEXAS HEALTH HARRIS METHODIST HOSPITAL SOUTHLAKE,TX,76092,06,04,forprofit,forprofit,,,0,0.0,ctrl_change,consolidation_horizontal,17.0
+450889,2024,TEXAS INSTITUTE FOR SURGERY AT PRESBYTERIAN HOSPIT,TX,75231,04,09,forprofit,government,,,0,0.0,ctrl_change,government_transition,9.0
+451305,2024,BURLESON ST JOSEPH HEALTH CENTER,TX,77836,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,25.0
+451306,2020,KIMBLE HOSPITAL,TX,76849,08,04,government,forprofit,20080601,20080601,1,1.0,ctrl_change,government_transition,15.0
+451308,2025,YOAKUM COUNTY HOSPITAL,TX,79323,07,03,government,forprofit,,,0,0.0,ctrl_change,government_transition,24.0
+451314,2025,WINKLER COUNTY MEMORIAL HOSPITAL,TX,79745,07,08,government,government,20171001,20171001,2,2.0,ctrl_change,consolidation_horizontal,24.0
+451316,2022,MADISON ST JOSEPH HEALTH CENTER,TX,77864,01,03,nonprofit,forprofit,,,0,0.0,ctrl_change,tax_status_change,25.0
+451316,2025,MADISON ST JOSEPH HEALTH CENTER,TX,77864,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,25.0
+451320,2025,BAYSIDE COMMUNITY HOSPITAL,TX,77514,08,03,government,forprofit,,,0,0.0,ctrl_change,government_transition,14.0
+451322,2019,GRIMES ST JOSEPH HEALTH CENTER,TX,77868,02,01,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,25.0
+451322,2022,GRIMES ST JOSEPH HEALTH CENTER,TX,77868,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,25.0
+451323,2022,ADVENTHEALTH ROLLINS BROOK,TX,76550,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,25.0
+451323,2025,ADVENTHEALTH ROLLINS BROOK,TX,76550,02,01,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,25.0
+451325,2022,CONCHO COUNTY HOSPITAL,TX,76837,08,07,government,government,,,1,1.0,ctrl_change,consolidation_horizontal,16.0
+451337,2025,W J MANGOLD MEMORIAL HOSPITAL,TX,79241,08,09,government,government,,,1,1.0,ctrl_change,consolidation_horizontal,25.0
+451338,2021,CULBERSON HOSPITAL,TX,79855,04,03,forprofit,forprofit,20040801,20040801,2,2.0,ctrl_change,consolidation_horizontal,25.0
+451340,2021,SHAMROCK GENERAL HOSPITAL,TX,79079,08,08,government,government,20211001,,2,1.0,chow_cnt_increment,consolidation_horizontal,25.0
+451340,2025,SHAMROCK GENERAL HOSPITAL,TX,79079,08,04,government,forprofit,20211001,20211001,2,2.0,ctrl_change,government_transition,25.0
+451344,2020,HANSFORD COUNTY HOSPITAL,TX,79081,08,07,government,government,,,0,0.0,ctrl_change,consolidation_horizontal,25.0
+451344,2025,HANSFORD COUNTY HOSPITAL,TX,79081,07,08,government,government,,,0,0.0,ctrl_change,consolidation_horizontal,14.0
+451347,2023,COLEMAN COUNTY MEDICAL CENTER COMPANY,TX,76834,08,04,government,forprofit,20120301,20120301,1,1.0,ctrl_change,government_transition,25.0
+451350,2022,PLAINS MEMORIAL HOSPITAL,TX,79027,08,07,government,government,,,0,0.0,ctrl_change,consolidation_horizontal,25.0
+451366,2023,COCHRAN MEMORIAL HOSPITAL,TX,79346,08,07,government,government,,,0,0.0,ctrl_change,consolidation_horizontal,18.0
+451367,2022,UT HEALTH EAST TEXAS PITTSBURG HOSPITAL,TX,75686,03,04,forprofit,forprofit,20180301,20180301,2,2.0,ctrl_change,consolidation_horizontal,25.0
+451372,2024,MULESHOE AREA MEDICAL CENTER,TX,79347,04,04,forprofit,forprofit,20240301,20150301,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,25.0
+451377,2022,REEVES COUNTY HOSPITAL DISTRICT,TX,79772,07,08,government,government,,,0,0.0,ctrl_change,consolidation_horizontal,25.0
+451380,2023,UT HEALTH EAST TEXAS QUITMAN HOSPITAL,TX,75783,02,04,nonprofit,forprofit,20180301,20180301,2,2.0,ctrl_change,tax_status_change,25.0
+451389,2024,PECOS COUNTY MEMORIAL HOSPITAL,TX,79735,07,07,government,government,20230701,,1,0.0,chow_cnt_increment,consolidation_horizontal,25.0
+451390,2025,DIMMIT REGIONAL HOSPITAL,TX,78834,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,25.0
+451393,2021,CROCKETT MEDICAL CENTER,TX,75835,04,09,forprofit,government,,,0,0.0,ctrl_change,government_transition,25.0
+451394,2025,KNOX COUNTY HOSPITAL,TX,79529,08,07,government,government,,,0,0.0,ctrl_change,consolidation_horizontal,25.0
+451396,2024,MID COAST MEDICAL CENTER - CENTRAL,TX,78643,02,09,nonprofit,government,,,0,0.0,ctrl_change,government_transition,25.0
+452018,2025,TEXAS HEALTH SPECIALTY HOSPITAL FORT WORTH,TX,76104,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,15.0
+452032,2021,CORNERSTONE SPECIALTY HOSPITALS CLEAR LAKE,TX,77598,04,09,forprofit,government,20150601,20150601,3,3.0,ctrl_change,government_transition,148.0
+452032,2024,VIBRA HOSPITAL OF  CLEAR LAKE,TX,77598,09,04,government,forprofit,20150601,20150601,3,3.0,ctrl_change,government_transition,148.0
+452042,2019,CHRISTUS DUBUIS HOSPITAL OF BEAUMONT,TX,77702,01,02,nonprofit,nonprofit,20170901,20170901,3,3.0,ctrl_change,consolidation_horizontal,53.0
+452042,2024,MID-JEFFERSON SPECIALTY HOSPITAL-NORTH,TX,77702,02,04,nonprofit,forprofit,20170901,20170901,3,3.0,ctrl_change,tax_status_change,53.0
+452044,2020,LIFECARE HOSPITALS OF NORTH TEXAS,TX,75235,04,04,forprofit,forprofit,20190930,20130531,7,6.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,206.0
+452051,2022,UT HEALTH EAST TEXAS SPECIALTY HOSPITAL,TX,75701,02,04,nonprofit,forprofit,20180301,20180301,1,1.0,ctrl_change,tax_status_change,36.0
+452060,2023,KPC PROMISE HOSPITAL OF AMARILLO,TX,79124,04,04,forprofit,forprofit,20230123,20130901,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,37.0
+452060,2024,TEXAS SPECIALTY HOSPITAL,TX,79124,04,04,forprofit,forprofit,20240519,20230123,3,2.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,37.0
+452067,2019,KPC PROMISE HOSPITAL OF DALLAS,TX,75235,04,04,forprofit,forprofit,20190615,20140318,3,2.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,66.0
+452068,2022,KPC PROMISE HOSPITAL OF WICHITA FALLS LLC,TX,76301,04,04,forprofit,forprofit,20190615,20140318,3,2.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,31.0
+452068,2025,HIGHCREST HOSPITAL OF WICHITA FALLS,TX,76301,04,04,forprofit,forprofit,20240801,20190615,4,3.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,31.0
+452073,2019,KINDRED HOSPITAL- SAN ANTONIO CENTRAL,TX,78205,02,04,nonprofit,forprofit,20160628,20160628,1,1.0,ctrl_change,tax_status_change,44.0
+452100,2025,MESQUITE SPECIALTY HOSPITAL,TX,75149,02,04,nonprofit,forprofit,,,0,0.0,ctrl_change,tax_status_change,40.0
+452101,2020,SOLARA SPECIALTY HOSPITALS HARLINGEN-BROWNVILLE,TX,78526,04,09,forprofit,government,,,1,1.0,ctrl_change,government_transition,82.0
+452101,2021,SOLARA SPECIALTY HOSPITALS HARLINGEN-BROWNVILLE,TX,78526,09,04,government,forprofit,,,1,1.0,ctrl_change,government_transition,82.0
+452105,2020,BAYLOR SCOTT & WHITE CONTINUING CARE HOSPITAL,TX,76502,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,50.0
+452111,2025,BAYLOR SCOTT WHITE THE HEART HOSPITAL CORINTH,TX,76208,04,04,forprofit,forprofit,20241101,,1,0.0,chow_cnt_increment,consolidation_horizontal,60.0
+452112,2020,SE TEXAS ER & HOSPITAL,TX,77338,09,09,government,government,20180502,,1,0.0,chow_cnt_increment,consolidation_horizontal,54.0
+452114,2020,ATRIUM MEDICAL CENTER,TX,77477,09,09,government,government,20190831,,1,0.0,chow_cnt_increment,consolidation_horizontal,68.0
+452122,2022,EL PASO LTAC HOSPTIAL,TX,79902,09,02,government,nonprofit,,,0,0.0,ctrl_change,government_transition,33.0
+452122,2025,EL PASO LTAC HOSPTIAL,TX,79902,02,09,nonprofit,government,,,0,0.0,ctrl_change,government_transition,33.0
+453057,2022,HEALTHSOUTH REHABILITATION OF MIDLAND ODESSA,TX,79707,03,04,forprofit,forprofit,,,3,3.0,ctrl_change,consolidation_horizontal,80.0
+453065,2019,CHRISTUS ST MICHAEL REHAB HOSPITAL,TX,75503,04,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,50.0
+453072,2023,UT HEALTH EAST TEXAS REHABILITATION HOSPITAL,TX,75701,02,04,nonprofit,forprofit,20180301,20180301,1,1.0,ctrl_change,tax_status_change,49.0
+453096,2024,AMARILLO REHABILITATION HOSPITAL,TX,79106,04,04,forprofit,forprofit,20231101,20130901,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,44.0
+453309,2023,HEALTHBRIDGE CHILDRENS'S HOSPITAL OF HOUSTON,TX,77082,04,02,forprofit,nonprofit,,,1,1.0,ctrl_change,tax_status_change,40.0
+453309,2025,HEALTHBRIDGE CHILDRENS'S HOSPITAL OF HOUSTON,TX,77082,02,02,nonprofit,nonprofit,20230901,,2,1.0,chow_cnt_increment,consolidation_horizontal,40.0
+453315,2019,CHILDREN'S HOSPITAL OF SAN ANTONIO,TX,78207,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,652.0
+453315,2022,CHILDREN'S HOSPITAL OF SAN ANTONIO,TX,78207,02,01,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,652.0
+454000,2021,BIG SPRING STATE HOSPITAL,TX,79721,06,03,forprofit,forprofit,,,0,0.0,ctrl_change,consolidation_horizontal,160.0
+454000,2024,BIG SPRING STATE HOSPITAL,TX,79721,03,06,forprofit,forprofit,,,0,0.0,ctrl_change,consolidation_horizontal,160.0
+454069,2019,AUSTIN LAKES HOSPITAL,TX,78705,03,04,forprofit,forprofit,19960501,19960501,2,2.0,ctrl_change,consolidation_horizontal,58.0
+454126,2025,DALLAS BEHAVIORAL HEALTHCARE HOSPITAL LLC,TX,75115,04,03,forprofit,forprofit,,,0,0.0,ctrl_change,consolidation_horizontal,116.0
+454128,2020,WELLBRIDGE HEALTHCARE FORT WORTH,TX,76132,04,04,forprofit,forprofit,20200701,,1,0.0,chow_cnt_increment,consolidation_horizontal,48.0
+454131,2021,WESTPARK SPRINGS LLC,TX,77407,03,04,forprofit,forprofit,,,0,0.0,ctrl_change,consolidation_horizontal,72.0
+460003,2023,HOLY CROSS HOSPITAL - SALT LAKE,UT,84102,04,04,forprofit,forprofit,20230501,19991008,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,158.0
+460041,2023,HOLY CROSS HOSPITAL-DAVIS,UT,84041,04,02,forprofit,nonprofit,20230501,20031001,3,2.0,"chow_dt_change,chow_cnt_increment,ctrl_change",tax_status_change,220.0
+460042,2019,LAKEVIEW HOSPITAL,UT,84010,04,03,forprofit,forprofit,,,0,0.0,ctrl_change,consolidation_horizontal,117.0
+460051,2021,JORDAN VALLEY MEDICAL CENTER,UT,84088,03,02,forprofit,nonprofit,20030401,20030401,4,4.0,ctrl_change,tax_status_change,172.0
+460051,2023,HOLY CROSS HOSPITAL-JORDAN VALLEY,UT,84088,02,02,nonprofit,nonprofit,20230501,20030401,5,4.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,172.0
+461300,2022,DELTA COMMUNITY HOSPITAL,UT,84624,04,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,18.0
+461305,2020,MILFORD MEMORIAL HOSPITAL,UT,84751,08,03,government,forprofit,,,0,0.0,ctrl_change,government_transition,23.0
+461306,2023,GUNNISON VALLEY HOSPITAL,UT,84634,04,03,forprofit,forprofit,,,2,2.0,ctrl_change,consolidation_horizontal,25.0
+461308,2021,SAN JUAN HOSPITAL,UT,84535,07,03,government,forprofit,,,2,2.0,ctrl_change,government_transition,25.0
+461309,2019,KANE COUNTY HOSPITAL,UT,84741,07,08,government,government,,,1,1.0,ctrl_change,consolidation_horizontal,25.0
+461333,2022,GARFIELD MEMORIAL HOSPITAL,UT,84759,07,03,government,forprofit,,,0,0.0,ctrl_change,government_transition,15.0
+461335,2021,BEAVER VALLEY HOSPITAL,UT,84713,06,07,forprofit,government,,,0,0.0,ctrl_change,government_transition,25.0
+462003,2022,WESTERN PEAKS SPECIALTY HOSPITAL,UT,84010,02,04,nonprofit,forprofit,,,0,0.0,ctrl_change,tax_status_change,43.0
+490019,2025,UVA HEALTH CULPEPER MEDICAL CENTER,VA,22701,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,70.0
+490023,2021,FAUQUIER HOSPITAL,VA,20186,02,04,nonprofit,forprofit,20131101,20131101,3,3.0,ctrl_change,tax_status_change,97.0
+490033,2020,WARREN MEMORIAL HOSPITAL,VA,22630,03,02,forprofit,nonprofit,,,1,1.0,ctrl_change,tax_status_change,196.0
+490048,2019,LEWISGALE MEDICAL CENTER,VA,24153,04,02,forprofit,nonprofit,,,1,1.0,ctrl_change,tax_status_change,506.0
+490048,2021,LEWISGALE MEDICAL CENTER,VA,24153,02,04,nonprofit,forprofit,,,1,1.0,ctrl_change,tax_status_change,506.0
+490059,2024,BON SECOURS ST MARYS HOSPITAL,VA,23226,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,391.0
+490090,2024,"SOUTHSIDE COMMUNITY HOSPITAL, INC",VA,23901,03,02,forprofit,nonprofit,,,3,3.0,ctrl_change,tax_status_change,116.0
+490092,2024,BON SECOURS SOUTHAMPTON MEMORIAL HOSPITAL,VA,23851,04,02,forprofit,nonprofit,20000201,20000201,1,1.0,ctrl_change,tax_status_change,221.0
+490097,2022,SOUTHERN VIRGINIA REGIONAL MEDICAL CENTER,VA,23847,04,04,forprofit,forprofit,20200101,19990312,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,80.0
+490098,2025,COMMUNITY MEMORIAL HOSPITAL,VA,23970,02,08,nonprofit,government,,,2,2.0,ctrl_change,government_transition,70.0
+490111,2021,WYTHE COUNTY COMMUNITY HOSPITAL,VA,24382,01,04,nonprofit,forprofit,20050601,20050601,1,1.0,ctrl_change,tax_status_change,100.0
+490126,2024,LEWISGALE HOSPITAL ALLEGHANY,VA,24457,02,04,nonprofit,forprofit,,,7,7.0,ctrl_change,tax_status_change,205.0
+492009,2023,SELECT SPECIALITY HOSPITAL - RICHMOND INC,VA,23230,04,04,forprofit,forprofit,20230613,20130901,4,3.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,60.0
+494023,2023,DOMINION HOSPITAL,VA,22044,02,04,nonprofit,forprofit,,,0,0.0,ctrl_change,tax_status_change,116.0
+500033,2025,SAMARITAN HOSPITAL,WA,98837,08,04,government,forprofit,,,2,2.0,ctrl_change,government_transition,50.0
+500037,2019,ASTRIA TOPPENISH HOSPITAL,WA,98948,04,02,forprofit,nonprofit,20170901,20030816,2,1.0,"chow_dt_change,chow_cnt_increment,ctrl_change",tax_status_change,63.0
+500119,2019,MULTICARE VALLEY HOSPITAL,WA,99216,04,02,forprofit,nonprofit,20170701,20170701,5,5.0,ctrl_change,tax_status_change,123.0
+501314,2022,OCEAN BEACH HOSPITAL,WA,98624,06,08,forprofit,government,,,2,2.0,ctrl_change,government_transition,15.0
+501318,2023,OTHELLO COMMUNITY HOSPITAL,WA,99344,08,07,government,government,,,2,2.0,ctrl_change,consolidation_horizontal,16.0
+501321,2021,NORTH VALLEY HOSPITAL,WA,98855,07,08,government,government,,,1,1.0,ctrl_change,consolidation_horizontal,25.0
+501330,2023,ASTRIA SUNNYSIDE HOSPITAL,WA,98944,02,03,nonprofit,forprofit,,,2,2.0,ctrl_change,tax_status_change,25.0
+501335,2023,ST ELIZABETH HOSPITAL,WA,98022,01,02,nonprofit,nonprofit,20070501,20070501,1,1.0,ctrl_change,consolidation_horizontal,5.0
+510002,2023,"CAMC GREENBRIER VALLEY MEDICAL CENTER, INC",WV,24970,04,04,forprofit,forprofit,20230101,20001101,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,122.0
+510072,2022,WETZEL COUNTY HOSPITAL,WV,26155,07,07,government,government,20200701,,2,1.0,chow_cnt_increment,consolidation_horizontal,58.0
+511301,2019,WEBSTER COUNTY MEMORIAL HOSPITAL,WV,26288,07,03,government,forprofit,,,2,2.0,ctrl_change,government_transition,15.0
+511301,2022,WEBSTER MEMORIAL HOSPITAL,WV,26288,03,02,forprofit,nonprofit,,,2,2.0,ctrl_change,tax_status_change,15.0
+511304,2021,SISTERSVILLE GENERAL HOSPITAL,WV,26175,07,02,government,nonprofit,20201001,,3,2.0,"chow_cnt_increment,ctrl_change",government_transition,25.0
+511304,2024,SISTERSVILLE GENERAL HOSPITAL,WV,26175,02,04,nonprofit,forprofit,20201001,20201001,3,3.0,ctrl_change,tax_status_change,25.0
+511307,2024,"GRAFTON CITY HOSPITAL, INC",WV,26354,02,07,nonprofit,government,,,2,2.0,ctrl_change,government_transition,25.0
+511312,2023,PRESTON MEMORIAL HOSPITAL,WV,26537,02,04,nonprofit,forprofit,,,2,2.0,ctrl_change,tax_status_change,25.0
+511314,2023,POCAHONTAS MEMORIAL HOSPITAL,WV,24924,03,07,forprofit,government,,,2,2.0,ctrl_change,government_transition,25.0
+511316,2019,GRANT MEMORIAL HOSPITAL,WV,26847,07,03,government,forprofit,,,1,1.0,ctrl_change,government_transition,25.0
+511316,2021,GRANT MEMORIAL HOSPITAL,WV,26847,03,07,forprofit,government,,,1,1.0,ctrl_change,government_transition,25.0
+511316,2024,GRANT MEMORIAL HOSPITAL,WV,26847,07,03,government,forprofit,,,1,1.0,ctrl_change,government_transition,25.0
+511318,2025,MONTGOMERY GENERAL HOSPITAL,WV,25136,02,03,nonprofit,forprofit,,,3,3.0,ctrl_change,tax_status_change,25.0
+511320,2021,JACKSON GENERAL HOSPITAL,WV,25271,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,25.0
+511322,2021,SUMMERSVILLE REGIONAL MEDICAL CENTER,WV,26651,07,02,government,nonprofit,20190701,20190701,1,1.0,ctrl_change,government_transition,25.0
+513025,2024,SENECA REHABILITATION HOSPITAL,WV,26003,04,04,forprofit,forprofit,20240409,20040101,2,1.0,"chow_dt_change,chow_cnt_increment",consolidation_horizontal,22.0
+520062,2019,OCONOMOWOC MEMORIAL HOSPITAL,WI,53066,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,156.0
+520095,2019,SAUK PRAIRIE HOSPITAL,WI,53578,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,36.0
+520194,2022,ORTHOPAEDIC HOSPITAL OF WISCONSIN,WI,53212,03,09,forprofit,government,,,2,2.0,ctrl_change,government_transition,25.0
+520202,2020,MARSHFIELD MEDICAL CENTER - WESTON,WI,54476,02,02,nonprofit,nonprofit,20200801,,2,1.0,chow_cnt_increment,consolidation_horizontal,86.0
+521311,2022,ASPIRUS STANLEY HOSPITAL,WI,54768,03,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,24.0
+521312,2023,MEMORIAL HOSPITAL OF LAFAYETTE COUNTY,WI,53530,07,03,government,forprofit,,,0,0.0,ctrl_change,government_transition,25.0
+521313,2021,ASPIRUS TOMAHAWK HOSPITAL,WI,54487,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,18.0
+521323,2021,MARSHFIELD MEDICAL CENTER - NEILLSVILLE,WI,54456,01,02,nonprofit,nonprofit,,,2,2.0,ctrl_change,consolidation_horizontal,25.0
+521327,2019,WAUPUN MEMORIAL HOSPITAL,WI,53963,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,15.0
+521328,2023,MARSHFIELD MEDICAL CENTER - LADYSMITH,WI,54848,07,08,government,government,20180901,20180901,2,2.0,ctrl_change,consolidation_horizontal,25.0
+521358,2022,DOOR COUNTY MEDICAL CENTER,WI,54235,01,02,nonprofit,nonprofit,,,0,0.0,ctrl_change,consolidation_horizontal,25.0
+524001,2021,MILWAUKEE COUNTY BEHAVIORAL HEALTH DIVISION,WI,53226,07,02,government,nonprofit,,,0,0.0,ctrl_change,government_transition,234.0
+524025,2020,FOND DU LAC COUNTY ACUTE PSYCH UNIT,WI,54935,07,03,government,forprofit,,,1,1.0,ctrl_change,government_transition,25.0
+524025,2023,FOND DU LAC COUNTY ACUTE PSYCH UNIT,WI,54935,03,07,forprofit,government,,,1,1.0,ctrl_change,government_transition,25.0
+530011,2025,MEMORIAL HOSPITAL SWEETWATER COUNTY,WY,82901,07,03,government,forprofit,,,0,0.0,ctrl_change,government_transition,99.0
+530025,2019,IVINSON MEMORIAL HOSPITAL,WY,82072,08,08,government,government,20180101,,3,2.0,chow_cnt_increment,consolidation_horizontal,99.0
+530032,2025,EVANSTON REGIONAL HOSPITAL,WY,82930,04,02,forprofit,nonprofit,19991101,19991101,1,1.0,ctrl_change,tax_status_change,42.0
+531304,2022,HOT SPRINGS COUNTY MEMORIAL HOSPITAL,WY,82443,07,08,government,government,,,0,0.0,ctrl_change,consolidation_horizontal,25.0
+660001,2024,COMMONWEALTH HEALTH CENTER,MP,96950,04,03,forprofit,forprofit,,,0,0.0,ctrl_change,consolidation_horizontal,86.0
+660001,2025,COMMONWEALTH HEALTH CENTER,MP,96950,03,06,forprofit,forprofit,,,0,0.0,ctrl_change,consolidation_horizontal,86.0
+670006,2022,THE HOSPITAL AT WESTLAKE MEDICAL CENTER,TX,78746,04,09,forprofit,government,,,0,0.0,ctrl_change,government_transition,23.0
+670025,2025,BAYLOR SCOTT & WHITE THE HEART HOSPITAL PLANO,TX,75093,04,09,forprofit,government,,,0,0.0,ctrl_change,government_transition,68.0
+670031,2022,ST LUKE'S PATIENTS MEDICAL CENTER,TX,77505,09,02,government,nonprofit,20101029,20101029,1,1.0,ctrl_change,government_transition,61.0
+670031,2025,ST LUKE'S PATIENTS MEDICAL CENTER,TX,77505,02,04,nonprofit,forprofit,20101029,20101029,1,1.0,ctrl_change,tax_status_change,61.0
+670043,2023,CEDAR PARK REGIONAL MEDICAL CENTER,TX,78613,04,03,forprofit,forprofit,,,0,0.0,ctrl_change,consolidation_horizontal,126.0
+670053,2022,ST LUKE'S SUGAR LAND HOSPITAL,TX,77478,02,04,nonprofit,forprofit,20120101,20120101,3,3.0,ctrl_change,tax_status_change,100.0
+670053,2025,ST LUKE'S SUGAR LAND HOSPITAL,TX,77478,04,02,forprofit,nonprofit,20120101,20120101,3,3.0,ctrl_change,tax_status_change,100.0
+670069,2025,METHODIST MCKINNEY HOSPITAL,TX,75070,04,09,forprofit,government,,,0,0.0,ctrl_change,government_transition,23.0
+670071,2025,TEXAS HEALTH HEART & VASCULAR HOSPITAL ARLINGTON,TX,76012,04,09,forprofit,government,,,0,0.0,ctrl_change,government_transition,48.0
+670075,2020,ST LUKE'S HOSPITAL AT THE VINTAGE,TX,77070,04,02,forprofit,nonprofit,20140101,20140101,1,1.0,ctrl_change,tax_status_change,24.0
+670109,2020,ALTUS BAYTOWN HOSPITAL,TX,77521,09,09,government,government,20201217,,1,0.0,chow_cnt_increment,consolidation_horizontal,14.0
+670109,2024,ALTUS BAYTOWN HOSPITAL,TX,77521,09,04,government,forprofit,20201217,20201217,1,1.0,ctrl_change,government_transition,147.0
+670115,2020,CLEVELAND EMERGENCY HOSPITAL,TX,77327,04,09,forprofit,government,,,0,0.0,ctrl_change,government_transition,16.0
+670115,2021,CLEVELAND EMERGENCY HOSPITAL,TX,77327,09,04,government,forprofit,,,0,0.0,ctrl_change,government_transition,16.0
+670132,2021,METHODIST SOUTHLAKE MEDICAL CENTER,TX,76092,04,04,forprofit,forprofit,20210601,,1,0.0,chow_cnt_increment,consolidation_horizontal,54.0
+670266,2021,TOWNSEN MEMORIAL HOSPITAL,TX,77338,02,02,nonprofit,nonprofit,20210101,,1,0.0,chow_cnt_increment,consolidation_horizontal,5.0
+670266,2024,TOWNSEN MEMORIAL HOSPITAL,TX,77338,02,04,nonprofit,forprofit,20210101,20210101,1,1.0,ctrl_change,tax_status_change,5.0
+670267,2023,THE WOODLANDS SPECIALTY HOSPITAL,TX,77386,09,04,government,forprofit,,,0,0.0,ctrl_change,government_transition,6.0
+670285,2024,ELITE HOSPITAL KINGWOOD,TX,77339,09,04,government,forprofit,,,0,0.0,ctrl_change,government_transition,6.0
+673032,2020,RELIANT REHABILITATION HOSPITAL OF CENTRAL TEXAS,TX,78681,04,02,forprofit,nonprofit,,,1,1.0,ctrl_change,tax_status_change,75.0
+673038,2022,MEMORIAL HERMANN REHABILITATION HOSPITAL KATY,TX,77450,04,09,forprofit,government,,,0,0.0,ctrl_change,government_transition,118.0
+673041,2025,CARRUS REHABILITATION HOSPITAL,TX,75092,09,04,government,forprofit,,,1,1.0,ctrl_change,government_transition,24.0
+673049,2021,NEW BRAUNFELS REGIONAL REHABILITATION HOSPITAL,TX,78130,04,03,forprofit,forprofit,,,1,1.0,ctrl_change,consolidation_horizontal,40.0
+673049,2024,NEW BRAUNFELS REGIONAL REHABILITATION HOSPITAL,TX,78130,03,04,forprofit,forprofit,,,1,1.0,ctrl_change,consolidation_horizontal,40.0
+673061,2020,PAM REHABILITATION HOSPITAL OF CLEAR LAKE,TX,77598,04,02,forprofit,nonprofit,,,0,0.0,ctrl_change,tax_status_change,45.0
+673061,2022,PAM REHABILITATION HOSPITAL OF CLEAR LAKE,TX,77598,02,04,nonprofit,forprofit,,,0,0.0,ctrl_change,tax_status_change,45.0
+673068,2022,PAM HEALTH REHABILITATION HOSPITAL OF SUGAR LAND,TX,77479,04,04,forprofit,forprofit,20211230,,1,0.0,chow_cnt_increment,consolidation_horizontal,41.0
+673073,2023,LONGVIEW REHABILITATION HOSPITAL,TX,75605,04,04,forprofit,forprofit,20230301,,1,0.0,chow_cnt_increment,consolidation_horizontal,36.0
+673074,2022,EVEREST REHABILITATION HOSPITAL TEMPLE,TX,76504,04,03,forprofit,forprofit,,,0,0.0,ctrl_change,consolidation_horizontal,36.0
+673074,2023,TEMPLE REHABILITATION HOSPITAL,TX,76504,03,03,forprofit,forprofit,20230301,,1,0.0,chow_cnt_increment,consolidation_horizontal,36.0
+673074,2025,TEMPLE REHABILITATION HOSPITAL,TX,76504,03,04,forprofit,forprofit,20230301,20230301,1,1.0,ctrl_change,consolidation_horizontal,36.0

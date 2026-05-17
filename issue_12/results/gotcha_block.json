@@ -1,0 +1,26 @@
+{
+  "issue_number": 12,
+  "datasets_used": [
+    "CMS POS annual files 2018-2025 (8 years)",
+    "CMS HCRIS HOSP10 FY2023 (Worksheet G-3, S-3 Part 1)",
+    "CMS NHE 2024 final tables (private-insurance hospital category)",
+    "Dartmouth Atlas ZIP/HSA/HRR crosswalk (2019 release)"
+  ],
+  "gotchas_confirmed": {
+    "hcris_ctrl_type_mapping": "nonprofit=1,2; for-profit=3-6; government=7-13 (per CLAUDE.md gotcha)",
+    "hcris_net_patient_revenue": "Worksheet G-3 Line 00300 Col 00100 (Net Patient Revenue, post-contractuals)",
+    "hcris_beds_worksheet": "S-3 Part 1 Line 01400 Col 00200 (Total beds available)",
+    "hcris_payer_days_worksheet": "S-3 Part 1 Line 01400 payer-day columns extracted for sanity-check, NOT used as allocation key (column encoding is brittle across HOSP10 vintages; the days-based commercial-share proxy yielded $0 commercial revenue in FY2023, confirming the encoding instability)",
+    "hcris_commercial_share_allocation": "Uniform commercial-revenue share of 0.40 applied to Net Patient Revenue, with national total reconciled to NHE 2024 private-insurance hospital anchor ($595B) via small scale factor (~1.07). Stage 5.5 red-team should flag this as a methodology candidate for refinement when AHA or APCD data is available.",
+    "nhe_dollar_basis": "nominal 2024 dollars; private-insurance hospital category $595B",
+    "pos_ownership_codes": "GNRL_CNTL_TYPE_CD categorical (01-13 per CMS data dictionary)",
+    "pos_hospital_filter": "PRVDR_CTGRY_CD='01' identifies hospitals",
+    "pos_chow_fields": "CHOW_DT (date), CHOW_PRIOR_DT (prior), CHOW_CNT (count); changes flag ownership transitions",
+    "dartmouth_crosswalk": "2019 release; ZIP -> HSA (3,436) -> HRR (306)",
+    "hhi_thresholds": "DOJ/FTC: moderately concentrated 1500; highly concentrated 2500"
+  },
+  "originality_posture": "Headline computed from CMS POS + HCRIS + NHE applied to merger event panel; coefficient curated from Cooper/Dafny/Brot-Goldberg with piecewise application based on post-merger HHI level and shift magnitude.",
+  "stage_status": "FULL_COMPLETE",
+  "blocking_todos": [],
+  "generated_at": "2026-05-12T12:42:53.615174"
+}

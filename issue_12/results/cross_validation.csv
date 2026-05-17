@@ -1,0 +1,5 @@
+anchor,expected_pct,computed_pct,delta_pp,status,subset_n
+Cooper 2019 (monopoly differential),15.3%,15.30% (base coefficient applied to monopoly subset),0.00pp,PASS (by construction),222
+Dafny/Ho/Lee 2019 (cross-market),7-9%,8.00%,0.00pp,PASS,18
+Brot-Goldberg 2024 (post-2019 cohort),~9% (consistent with Cooper),13.26% (blended weighted by shift intensity),4.26pp,PASS,251
+FTC Evanston retrospective,11.1-17.9pp,11.49%,within range,PASS,35

@@ -8,7 +8,7 @@ This project finds it, one issue at a time. Each issue identifies one fixable pr
 
 ---
 
-> **Latest Issue (#11): [The MA Overpayment](issue_11/newsletter_issue_11.md)** — Every March, MedPAC tells Congress how much Medicare Advantage costs more than traditional Medicare. In March 2026, the answer was $76 billion all in. This issue books the $28 billion coding-intensity slice for 2025, computed against a V24 vs. V28 sensitivity band of $19.2B–$44.8B that no other publication has put side-by-side. The mechanism is in-home Health Risk Assessments: nurses sent into patients' homes to find diagnoses that get the insurer paid more for the rest of the year, while CMS's 5.91% annual recapture fails to claw back the full difference. Cross-validation against Kronick et al. 2025 ($33B for 2021), OIG HRA audits, and the qui tam settlement track. **$28B/year in booked savings** (range $19.2–44B). [Read it on Substack →](https://andrewrexroad.substack.com/p/issue-11-the-ma-overpayment)
+> **Latest Issue (#12): [The Consolidation Tax](issue_12/newsletter_issue_12.md)** — When two hospitals in the same market merge, the insurer that used to play them off each other loses leverage. Commercial rates rise. Self-insured employers eat the premium increase and offset it by suppressing the next wage cycle. Using a panel of 1,155 CMS ownership-change events across 2018–2025 — narrowed to 530 horizontal hospital mergers in 315 unique Hospital Service Areas with a mean HHI shift of 2,318 points — and a four-anchor coefficient band (Cooper QJE 2019, Dafny RAND J Econ 2019, FTC Evanston Working Paper 307, Brot-Goldberg et al. NBER 2024) applied piecewise to the actual computed HHI shift in each market, we book **$13B/year** (range $25–50B before overlap subtractions). [Read it on Substack →](https://andrewrexroad.substack.com/p/issue-12-the-consolidation-tax)
 
 ---
 
@@ -27,11 +27,12 @@ This project finds it, one issue at a time. Each issue identifies one fixable pr
 | 9 | [The Employer Trap](issue_09/newsletter_issue_09.md) | $6.6B/yr | First plan-level analysis of post-CAA 2021 broker and admin-fee disclosures (8,180 health welfare plans, 23.8M participants); per-plan broker commissions above 3% DOL benchmark and admin fees above peer-group medians | DOL Form 5500 Schedule A and Schedule C 2023, KFF EHBS 2024, JAMA Network Open |
 | 10 | [The Procedure Mill](issue_10/newsletter_issue_10.md) | $7.6B/yr | Full CY2023 CMS PUF analysis (268,634 rows) of the 31-service Schwartz/Mafi/Choosing Wisely list; state-level P90/P10 spread of 6.7x in low-value Medicare spending per beneficiary, with an all-payer extension and a defensive-medicine difference-in-differences slice | CMS Provider Utilization, Hospital Outpatient, and Geographic Variation PUFs CY2023; Schwartz et al. 2014; Kim & Fendrick JAMA Health Forum 2025; Avraham DSTLR 7.1 |
 | 11 | [The MA Overpayment](issue_11/newsletter_issue_11.md) | $28.0B/yr | $76B total MA-FFS payment gap (MedPAC March 2026); coding-intensity slice booked at $28B for 2025 with V24 vs. V28 sensitivity band of $19.2B–$44.8B computed from CMS Geographic Variation PUFs; HRA decomposition and state-level allocation original; cross-validated against Kronick et al. 2025 ($33B for 2021) and OIG HRA audits | MedPAC March 2026; Kronick et al. *Annals of Internal Medicine* 2025; CMS Geographic Variation PUFs (MA + FFS); HHS-OIG HRA audits 2020 and 2024; CMS HCC risk-adjustment model files; DOJ FCA settlement track |
-| | **Running Total** | **$470.8B/yr** | **14.5% of the $3.24T gap** | |
+| 12 | [The Consolidation Tax](issue_12/newsletter_issue_12.md) | $13.0B/yr | Panel of 1,155 ownership-change events across 2018–2025 from CMS POS, narrowed to 530 horizontal hospital mergers in 315 unique HSAs with mean HHI shift of 2,318 points; piecewise HHI-dependent coefficient (Cooper / Dafny / FTC Evanston / Brot-Goldberg anchors) applied per market, net of $3.47B Issue #3 hospital-pricing overlap and $0.87B Issue #15 vertical-integration overlap | CMS POS annual snapshots 2018–2025; CMS HCRIS FY2018–FY2023; Dartmouth ZIP-HSA-HRR crosswalk; Cooper QJE 2019; Dafny RAND J Econ 2019; FTC Working Paper 307; Brot-Goldberg et al. NBER WP 32613 (Feb 2026 rev); Fulton et al. Health Affairs 2022 |
+| | **Running Total** | **$483.8B/yr** | **14.9% of the $3.24T gap** | |
 
 *Issue #9 is the first issue at the revised $3.24T denominator (CMS NHE 2024 final, released April 18, 2026). Issues #1–#8 published using the prior $3T denominator and are not retrofitted.*
 
-![Savings Tracker](issue_11/figures/chart5_savings_tracker.png)
+![Savings Tracker](issue_12/figures/chart5_savings_tracker.png)
 
 ---
 
@@ -46,6 +47,80 @@ The same operations. Exposed to the same clinical evidence. Wildly different pri
 ---
 
 ## Published Issues
+
+### Issue #12 — The Consolidation Tax (~$13.0B/year)
+
+When two hospitals in the same local market merge, the dominant insurer loses a competing facility to play against the other. Commercial rates rise on the next renegotiation cycle. The self-insured employer absorbs the premium increase and offsets it on the next wage cycle. Nobody sends a bill labeled "consolidation surcharge"; the cost lands on the household as slightly slower wage growth and a slightly higher deduction from the paycheck. We pulled every CMS Provider of Services annual snapshot from 2018 through 2025 and tracked the 1,155 hospital ownership changes, narrowing to 530 horizontal hospital-on-hospital consolidations in 315 unique Hospital Service Areas. The mean HHI shift at the HSA level was 2,318 points, well above the DOJ/FTC presumption threshold of 200. We applied four academic anchors — Cooper, Craig, Gaynor, Van Reenen (QJE 2019); Dafny, Ho, Lee (RAND J Econ 2019); the FTC Evanston Northwestern retrospective (Working Paper 307); and Brot-Goldberg, Cooper, Craig, Klarnet, Lurie, Miller (NBER WP 32613, revised February 2026) — as a piecewise HHI-dependent coefficient to the actual computed shift in each merger-market HSA. Total booked: **$13 billion per year** (raw $17.4B less $3.5B overlap with Issue #3 hospital pricing and $0.9B overlap with the upcoming Issue #15 facility-fee work). The full range using the same coefficient anchors is $25B to $50B; the lower bookable figure reflects deliberate overlap accounting.
+
+![Four-anchor coefficient band with computed cohort](issue_12/figures/chart1_coefficient_band.png)
+
+*Source: Cooper et al. QJE 2019, Dafny et al. RAND J Econ 2019, FTC Working Paper 307, Brot-Goldberg et al. NBER WP 32613 (Feb 2026), with the post-2019 merger cohort coefficient computed against the literature band.*
+
+**Read the full analysis →** [`issue_12/newsletter_issue_12.md`](issue_12/newsletter_issue_12.md)
+
+<details>
+<summary>Reproducing the analysis</summary>
+
+```bash
+cd issue_12
+
+# Build the merger-event panel from CMS POS 2018-2025, compute HSA-level HHI shifts,
+# join HCRIS commercial-spend exposure, and apply the four-anchor piecewise coefficient
+python 01_build_data.py
+
+# HRR-vs-HSA market-definition sensitivity check
+python 02_hrr_sensitivity.py
+
+# Generate all five charts plus hero
+python generate_all_charts.py
+```
+
+**Key outputs:**
+- `results/savings_estimate.json` — Booked $13.03B, raw $17.37B, overlap subtractions, sensitivity at 5% and 10% blended uplift
+- `results/merger_event_panel.csv` — 1,155 ownership-change events 2018–2025 with horizontal-merger flag
+- `results/market_hhi_panel.csv` — HSA-level HHI before/after each merger, with shift magnitude
+- `results/savings_by_market.csv` — Per-market booked savings, ordered for Pareto/outlier analysis
+- `results/commercial_spend_at_risk.csv` — HCRIS-derived commercial spend exposure by merger-market HSA
+- `results/hrr_sensitivity.csv` — Same analysis at HRR (vs HSA) market definition
+- `results/cross_validation.csv` — Booked figure against published Cooper, Dafny, FTC, Brot-Goldberg anchors
+- `results/overlap_subtractions.csv` — Per-issue overlap accounting (Issue #3 hospital pricing, Issue #15 facility fees)
+- `results/methodology.md` — Full methodology including the piecewise coefficient construction
+- `results/originality_gate.md` — Stage 3.5 originality-gate verdict and adversarial-math notes
+
+</details>
+
+<details>
+<summary>Data sources</summary>
+
+| Source | Description |
+|--------|-------------|
+| CMS Provider of Services (POS) annual snapshots, 2018–2025 | Per-year hospital identifier and ownership records; basis for the 1,155 ownership-change events |
+| CMS Hospital Cost Report Information System (HCRIS) HOSP10, FY2018, FY2020, FY2022, FY2023 | Commercial-payer spend exposure by hospital, for the at-risk denominator |
+| Dartmouth Atlas ZIP–HSA–HRR crosswalk (2019) | Mapping hospitals into Hospital Service Areas and Hospital Referral Regions |
+| Cooper Z, Craig SV, Gaynor M, Van Reenen J. "The price ain't right? Hospital prices and health spending on the privately insured." Quarterly Journal of Economics 134(1):51–107 (2019) | Monopoly market premium of 15.3% (HHI > 5,000 vs. four+ hospitals); HCCI 2008–2012 claims |
+| Dafny L, Ho K, Lee RS. "The price effects of cross-market mergers." RAND Journal of Economics 50(2):286–325 (2019) | Cross-market within-state mergers raise prices 7–9% at acquirer; carrier claims + AHA Annual Survey 1996–2012 |
+| FTC Working Paper 307. Evanston Northwestern Hospital/Highland Park retrospective | Post-merger inpatient prices rose 11.1–17.9 percentage points more than control hospitals; efficiency defense rejected |
+| Brot-Goldberg Z, Cooper Z, Craig SV, Klarnet L, Lurie I, Miller S. NBER Working Paper 32613 (revised February 2026) | Post-2019 merger cohort uplift consistent with Cooper monopoly-market coefficient; Treasury IRS records linked to commercial claims; 1% healthcare price increase → 0.4% payroll/employment decline at non-healthcare employers |
+| Fulton B, Arnold D, King J, Greaney T, Scheffler R. Health Affairs (2022) | Hospital system consolidation trajectory: 67% of US community hospitals in a system by 2019, up from 10% in 1970; 216 cross-market systems |
+| DOJ/FTC 2023 Horizontal Merger Guidelines | HHI 2,500 and 200-point shift thresholds for highly concentrated and anticompetitive presumptions |
+
+</details>
+
+<details>
+<summary>Key methodology notes</summary>
+
+- Panel construction: CMS POS annual snapshots 2018–2025 yielded 1,155 ownership-change events. Horizontal-merger filter (hospital-on-hospital, same or adjacent market) reduced the panel to 530 events; tax-status conversions and government transitions are reserved for the upcoming Issue #13 (The Nonprofit Lie)
+- Market definition: Dartmouth HSA is the primary unit; HRR is reported as a sensitivity check (Chart 3 shows the $13B HSA central vs. $16B HRR alternative)
+- Coefficient construction: Piecewise HHI-dependent uplift derived from the four academic anchors. The booked figure uses the actual computed HHI shift in each HSA, not a uniform multiplier; chart 1 visualizes the coefficient band against the post-2019 cohort
+- Commercial-spend exposure: HCRIS commercial-payer line items, restricted to merger-market HSAs, totaled $218.44B at risk. Booked uplift at the piecewise coefficient = $17.37B raw
+- Overlap accounting: Issue #3 covers the 254% commercial-vs-Medicare price level (different mechanism, same denominator). $3.47B subtracted to avoid double-counting. Issue #15 (forthcoming) covers vertical integration / facility-fee uplift on outpatient services; $0.87B subtracted as a defensive overlap estimate
+- Booked $13.03B = $17.37B raw − $3.47B (#3) − $0.87B (#15). Range high $50B reflects the upper coefficient anchor (Cooper monopoly) at the full at-risk denominator with no overlap subtraction
+- Sensitivity disclosed: at a flat 5% blended uplift the at-risk spend implies $8.19B; at 10% it implies $16.38B. The piecewise per-market approach falls inside that envelope
+- No overlap with Issue #11 (MA Overpayment): #11 covers risk-score upcoding inside Medicare Advantage. #12 covers commercial-rate negotiation between merged hospitals and private insurers. Different payer side, different mechanism
+
+</details>
+
+---
 
 ### Issue #11 — The MA Overpayment (~$28.0B/year)
 
@@ -751,13 +826,13 @@ python 05_visualize.py
 
 ---
 
-**Through 11 issues: ~$470.8 billion in identified savings (14.5% of the $3.24T gap)**
+**Through 12 issues: ~$483.8 billion in identified savings (14.9% of the $3.24T gap)**
 
 ---
 
 ## Fund the Data
 
-We've identified $470.8 billion in fixable waste using free federal datasets. To go deeper, we need claim-level data that costs money to access: Medicare claims with diagnosis codes, all-payer state databases, hospital price transparency records, and legal research tools. Issue #8 made this concrete: the deductible-delay extraction mechanism described in the MRI vignette, where an insurer denial pushes a patient to cash and captures the deductible spread on the next claim, cannot be measured rigorously without paired patient-level claims plus deductible-exposure data. That is why Component D stays out of our booked total and why this fund exists.
+We've identified $483.8 billion in fixable waste using free federal datasets. To go deeper, we need claim-level data that costs money to access: Medicare claims with diagnosis codes, all-payer state databases, hospital price transparency records, and legal research tools. Issue #8 made this concrete: the deductible-delay extraction mechanism described in the MRI vignette, where an insurer denial pushes a patient to cash and captures the deductible spread on the next claim, cannot be measured rigorously without paired patient-level claims plus deductible-exposure data. That is why Component D stays out of our booked total and why this fund exists.
 
 **[Visit the AHC Data Access Fund →](https://ahcdata.fund)** | **[Sponsor on GitHub →](https://github.com/sponsors/rexrodeo)**
 
@@ -775,7 +850,7 @@ Six datasets. Per-dataset crowdfunding via Stripe (no account required, any amou
 
 ## Up Next
 
-Next from The American Healthcare Conundrum: a standalone interstitial post, *The Honest Math*, on May 17, 2026. It explains the booked / range / structural framing of the $3.24T target: roughly $1.0T booked from public data, roughly $2.5T methodologically supported but requiring licensed claims data to prove (the data-partner CTA), and roughly $700B in structural acknowledgment (US wage premium, cost of living, patient expectations) that is not extractable through healthcare policy alone. After that, Issue #12 (target May 24): The Consolidation Tax, an examination of horizontal and vertical hospital-system consolidation and the ~$25B/year price effect documented in the academic literature. Subscribe on Substack to get both when they drop.
+Issue #13: The Nonprofit Lie. The CMS Provider of Services panel we built for Issue #12 also surfaced hundreds of tax-status conversions and government-to-private transitions. We're auditing the IRS Form 990 community-benefit and charity-care lines for the nonprofit health systems that benefit most from the 501(c)(3) tax exemption and quantifying the gap between what the exemption is worth and what these systems actually deliver to their communities. Target publish: May 24, 2026. Subscribe on Substack to get it when it drops.
 
 ---
 

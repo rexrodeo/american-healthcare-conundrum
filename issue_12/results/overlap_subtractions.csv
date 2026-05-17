@@ -1,0 +1,5 @@
+source,amount_bil,kind
+Raw HHI-shift gross savings (pre-overlap),17.369424412862504,gross
+Issue #3 commercial-vs-Medicare gap (20% subtraction),-3.473884882572501,subtract
+Issue #15 facility-fee differential (5% subtraction),-0.8684712206431252,subtract
+Issue #12 booked total,13.027068309646879,booked
