@@ -1,0 +1,987 @@
+best_candidate,best_jaccard,ein,filer_name,filer_state,form990_total_expenses,hospital_facilities_cnt,reason
+,0,270565499,CAHRMC,TX,12185327,1,no_match_above_threshold
+,0,260328929,GPCH,TX,36419465,1,no_match_above_threshold
+,,391536207,MEDICAL SERVICES INC,WI,81607919,1,no_tokens
+,0,660613484,Cdt Gmsp Inc,PR,6854327,1,no_match_above_threshold
+,0,231352159,JC BLAIR MEMORIAL HOSPITAL,PA,62811465,1,no_match_above_threshold
+,0,382873485,HELEN NEWBERRY JOY HOSPITAL & HEALTHCARE CENTER,MI,38745168,1,no_match_above_threshold
+,0,932484732,NORTH ADAMS REGIONAL HOSPITAL,MA,26781394,1,no_match_above_threshold
+,0,610668290,RIVERVALLEY BEHAVIORAL HEALTH INC,KY,47041596,1,no_match_above_threshold
+,0,361703630,ROSELAND COMMUNITY HOSPITAL ASSOCIATION,IL,78205484,1,no_match_above_threshold
+,0,920019395,VALLEY HOSPITAL ASSOCIATION INC,AK,26660762,1,no_match_above_threshold
+,0,873801572,ABH Pennsylvania Childrens Services Inc,PA,57987183,1,no_match_above_threshold
+,0,362548549,ROCHELLE COMMUNITY HOSPITAL ASSOCIATION,IL,49934797,1,no_match_above_threshold
+,0,593051173,CALHOUN-LIBERTY HOSPITAL,FL,14063151,1,no_match_above_threshold
+,0,816016152,Phillips County Hospital Association,MT,11033919,1,no_match_above_threshold
+,0,201649466,BARBARA ANN KARMANOS CANCER HOSPITAL,MI,434686052,1,no_match_above_threshold
+,0,452750258,EL CAMPO MEMORIAL HOSPITAL,TX,54225141,1,no_match_above_threshold
+,0,381976271,MCLAREN BAY REGION,MI,346398853,1,no_match_above_threshold
+,0,590973502,MEMORIAL HEALTH SYSTEMS INC,FL,604329353,1,no_match_above_threshold
+,0,381474929,HURON MEMORIAL HOSPITAL,MI,47807576,1,no_match_above_threshold
+,0,260792328,SCOTT REGIONAL MEDICAL CENTER INC,MS,15690657,1,no_match_above_threshold
+,0,510069243,TIDALHEALTH NANTICOKE INC,DE,164103378,1,no_match_above_threshold
+,0,660961410,HEALTHCARE INTEGRATED PROGRAM,PR,4922810,1,no_match_above_threshold
+,0,660258919,RYDER MEMORIAL HOSPITAL INC,,62561205,1,no_match_above_threshold
+,0,201835779,LAIRD HOSPITAL INC,MS,35282077,1,no_match_above_threshold
+,0,660571457,HOSPITAL COMUNITARIO BUEN,PR,33401736,1,no_match_above_threshold
+,0,251925187,UNIVERSITY MEDICAL CENTER MANAGEMENT,LA,851513146,1,no_match_above_threshold
+,0,640655993,RUSH HOSPITAL - BUTLER INC,MS,19194063,1,no_match_above_threshold
+,0,271757642,KEMPER CAH INC,MS,23152867,1,no_match_above_threshold
+,0,370661223,METHODIST MEDICAL CENTER OF ILLINOIS,IL,532811590,1,no_match_above_threshold
+,0,720423603,THE RAPIDES FOUNDATION,LA,20101051,1,no_match_above_threshold
+,0,593149293,SOUTHWEST VOLUSIA HEALTHCARE CORPORATION,FL,252015979,1,no_match_above_threshold
+,0,593256803,MEMORIAL HOSPITAL - WEST VOLUSIA INC,FL,209429429,1,no_match_above_threshold
+,0,208488713,Pasco-Pinellas Hillsborough Community,FL,333923372,1,no_match_above_threshold
+,0,593284221,GENESIS REHABILITATION HOSPITAL INC,FL,159963245,1,no_match_above_threshold
+,0,592951990,MEMORIAL HOSPITAL FLAGLER INC,FL,265655150,1,no_match_above_threshold
+,0,593140669,FLORIDA HOSPITAL WATERMAN INC,FL,392036337,1,no_match_above_threshold
+,0,742842747,West Central Kansas Association Inc,KS,22542158,1,no_match_above_threshold
+,0,911286274,SUNNYSIDE COMMUNITY HOSPITAL ASSOCIATION,WA,118425016,1,no_match_above_threshold
+,0,941049467,ORCHARD HOSPITAL,CA,32581660,1,no_match_above_threshold
+,0,814670687,SHC MEDICAL CENTER - TOPPENISH,WA,64221821,1,no_match_above_threshold
+,0,310949874,MONROE MEDICAL FOUNDATION INC,KY,21844909,1,no_match_above_threshold
+,0,710855633,UNITED METHODIST BEHAVIORAL HEALTH,AR,20391520,1,no_match_above_threshold
+,0,630288856,MOBILE INFIRMARY ASSOCIATION,AL,558030730,1,no_match_above_threshold
+,0,310787073,MENTAL HEALTH SERVICES FOR CLARK CO INC,OH,12956649,1,no_match_above_threshold
+,0,410307617,Hendricks Community Hospital Assn,MN,16099547,1,no_match_above_threshold
+,0,580603148,HILLSIDE INC,GA,22081226,1,no_match_above_threshold
+,0,742557820,SID PETERSON MEMORIAL HOSPITAL,TX,174830522,1,no_match_above_threshold
+,0,300975387,IVINSON MEMORIAL HOSPITAL,WY,126708145,1,no_match_above_threshold
+,0,550404900,Herbert J Thomas Memorial Hospital,WV,200639180,1,no_match_above_threshold
+,0,810373589,CULBERTSON FROID BAINVILLE,MT,8239353,1,no_match_above_threshold
+,0,611272692,Charleston Hospital Inc,WV,41647787,1,no_match_above_threshold
+,0,586025393,UNION COUNTY HOSPITAL AUTHORITY,GA,107433777,1,no_match_above_threshold
+,0,460246437,EUREKA COMMUNITY BENEVOLENT,SD,5099735,1,no_match_above_threshold
+,0,450308379,Hazen Memorial Hospital Association,ND,16321958,1,no_match_above_threshold
+,0,381738615,MCKENZIE MEMORIAL HOSPITAL,MI,30049066,1,no_match_above_threshold
+,0,951816005,BEVERLY COMMUNITY HOSPITAL ASSOCIATION,CA,140904897,1,no_match_above_threshold
+,0,450232743,PR Health Corporation,ND,19043767,1,no_match_above_threshold
+,0,820226453,ST MARY'S HOSPITAL INC,ID,25279392,1,no_match_above_threshold
+,0,610523304,ROCKCASTLE HOSPITAL & RESPIRATORY CARE,KY,84661051,1,no_match_above_threshold
+,0,450226419,Good Samaritan Hospital Association,ND,31320176,1,no_match_above_threshold
+,0,840563230,VAIL CLINIC INC,CO,405698317,1,no_match_above_threshold
+,0,840446259,VALLEY VIEW HOSPITAL ASSOCIATION,CO,317169101,1,no_match_above_threshold
+,0,820497771,CLEARWATER VALLEY HOSPITAL AND CLINICS,ID,23775111,1,no_match_above_threshold
+,0,742517055,Schoolcraft Memorial Hospital,MI,56882816,1,no_match_above_threshold
+,0,410682405,HAZELDEN BETTY FORD FOUNDATION,MN,226955255,1,no_match_above_threshold
+,0,840447998,LOWER VALLEY HOSPITAL ASSOCIATION,CO,81943020,1,no_match_above_threshold
+,0,344477047,HENRY COUNTY HOSPITAL INC,OH,35183615,1,no_match_above_threshold
+,0,720491106,West Louisiana Health Services Inc,LA,67221084,1,no_match_above_threshold
+,0,362256036,REHABILITATION INSTITUTE OF CHICAGO,IL,397654683,1,no_match_above_threshold
+,0,610654587,Baptist Health Deaconess,KY,235716737,1,no_match_above_threshold
+,0,800202027,SAVOY MEDICAL MANAGMENT GROUP INC,LA,43720003,1,no_match_above_threshold
+,0,560530233,SOUTHEASTERN REGIONAL MEDICAL,NC,336545602,1,no_match_above_threshold
+,0,042121377,THE SHRINERS' HOSPITAL FOR CHILDREN,FL,58430102,1,no_match_above_threshold
+,0,371396010,BLESSINGCARE CORPORATION,IL,34749645,1,no_match_above_threshold
+,0,381359265,MARY FREE BED REHABILITATION HOSPITAL,MI,172470892,1,no_match_above_threshold
+,0,431704371,FREEMAN HEALTH SYSTEM,MO,628958111,1,no_match_above_threshold
+,0,841465990,ARKANSAS VALLEY REGIONAL MEDICAL,CO,38805522,1,no_match_above_threshold
+,0,382800065,HOLLAND COMMUNITY HOSPITAL,MI,296828134,1,no_match_above_threshold
+,0,520698850,BROOK LANE HEALTH SERVICES INC,MD,27834327,1,no_match_above_threshold
+,0,810241755,St John's Lutheran Hospital Inc,MT,42297640,1,no_match_above_threshold
+,0,742826278,RURAL HEALTH RESOURCES OF JACKSON CO INC,KS,27443862,1,no_match_above_threshold
+,0,560949273,FELLOWSHIP HALL INC,NC,13434621,1,no_match_above_threshold
+,0,810530457,LOGAN HEALTH - CUT BANK,MT,11794029,1,no_match_above_threshold
+,0,201244058,FERRELL HOSPITAL COMMUNITY FOUNDATION,IL,47649963,1,no_match_above_threshold
+,0,237293874,KALISPELL REGIONAL MEDICAL CENTER,MT,615083455,1,no_match_above_threshold
+,0,481226830,GREAT PLAINS OF SMITH CO INC,KS,25451383,1,no_match_above_threshold
+,0,203713023,INFIRMARY HEALTH HOSPITALSINC,AL,12022911,1,no_match_above_threshold
+,0,381507046,MUNISING MEMORIAL HOSPITAL ASSOCIATION,MI,13543407,1,no_match_above_threshold
+,0,843390470,LCMC HEALTH HOLDINGS INC,LA,422487028,1,no_match_above_threshold
+,0,450340688,WEST RIVER HEALTH SERVICES,ND,29532555,1,no_match_above_threshold
+,0,930386823,LEGACY EMANUEL HOSPITAL & HEALTH CENTER,OR,1259178060,1,no_match_above_threshold
+,0,880256932,SOUTH LYON HEALTH CENTER INC,NV,17226127,1,no_match_above_threshold
+,0,381368347,ELLA E M BROWN CHARITABLE CIRCLE,MI,184829698,1,no_match_above_threshold
+,0,476028103,Cambridge Memorial Hospital Inc,NE,26311260,1,no_match_above_threshold
+,0,860096775,Community Hospital Association Inc,AZ,49427078,1,no_match_above_threshold
+,0,870543342,MOAB VALLEY HEALTHCARE INC,UT,51605332,1,no_match_above_threshold
+,0,043794775,SHARON S RICHARDSON COMMUNITY,WI,14838504,1,no_match_above_threshold
+,0,300078435,GREELEY COUNTY HEALTH SERVICES INC,KS,15693243,1,no_match_above_threshold
+,0,860208451,NORTHERN COCHISE COMMUNITY,AZ,19232759,1,no_match_above_threshold
+,0,480637331,SHAWNEE MISSION MEDICAL CENTER INC,KS,602263218,1,no_match_above_threshold
+,0,830279242,WYOMING MEDICAL CENTER INC,AZ,259007711,1,no_match_above_threshold
+,0,450358986,WISHEK HOSPITAL CLINIC ASSOCIATION,ND,10201952,1,no_match_above_threshold
+,0,810475376,PLAINS HOSPITAL CORPORATION,MT,30427273,1,no_match_above_threshold
+,0,371453409,THE MENNINGER CLINIC,TX,71899777,1,no_match_above_threshold
+,0,842280561,PLATTE VALLEY HEALTHCARE PROJECT,WY,7533485,1,no_match_above_threshold
+,0,932949739,INTEGRIS Health Ponca City Hospital Inc,OK,35853369,1,no_match_above_threshold
+,0,201673011,MERCY CRYSTAL LAKE HOSPITAL,IL,36522333,1,no_match_above_threshold
+,0,842569909,MEDICAL CENTER OF DELTONA INC,FL,63620795,1,no_match_above_threshold
+,0,460239781,PLATTE COMMUNITY MEMORIAL HOSPITAL INC,SD,16690297,1,no_match_above_threshold
+,0,810233121,ST PETER'S HEALTH,MT,322501180,1,no_match_above_threshold
+,0,020483054,Southern New Hampshire Medical Center,NH,294741343,1,no_match_above_threshold
+,0,460228038,MADISON COMMUNITY HOSPITAL,SD,34307837,1,no_match_above_threshold
+,0,560554202,Caldwell Memorial Hospital Inc,NC,188862859,1,no_match_above_threshold
+,0,550540374,Northwood Health System,WV,35779976,1,no_match_above_threshold
+,0,610624096,CUMBERLAND COUNTY HOSPITAL ASSOCIATION,KY,19776676,1,no_match_above_threshold
+,0,850289839,TAOS HEALTH SYSTEMS INC,NM,87516328,1,no_match_above_threshold
+,0,823745228,UNC Rockingham Health Care Inc,NC,79762409,1,no_match_above_threshold
+,0,591162148,APALACHEE CENTER INC,FL,42826706,1,no_match_above_threshold
+,0,741153067,CLARITY CHILD GUIDANCE CENTER,TX,30704051,1,no_match_above_threshold
+,0,370645239,Carlinville Area Hospital Association,IL,43655716,1,no_match_above_threshold
+,0,942219349,TARZANA TREATMENT CENTERS INC,CA,126409520,1,no_match_above_threshold
+,0,231390618,The Devereux Foundation,PA,521394233,1,no_match_above_threshold
+,0,520619000,CALVERTHEALTH MEDICAL CENTER INC,MD,160772991,1,no_match_above_threshold
+,0,610461767,TJ SAMSON COMMUNITY HOSPITAL,KY,230365766,1,no_match_above_threshold
+,0,710236870,CROSSETT HEALTH FOUNDATION DBA,AR,41688092,1,no_match_above_threshold
+,0,060646844,SAINT MARY'S HOSPITAL INC,CT,325248513,1,no_match_above_threshold
+,0,814446403,REHAB JV LLC,VA,83857904,1,no_match_above_threshold
+,0,390286215,FORT HEALTHCARE INC,WI,144901304,1,no_match_above_threshold
+,0,941668344,HAYWARD SISTERS HOSPITAL,CA,129964916,1,no_match_above_threshold
+,0,410745522,AITKIN COMMUNITY HOSPITAL DBA,MN,94718075,1,no_match_above_threshold
+,0,410743546,COMMUNITY MEMORIAL HOSPITAL ASSOCIATION,MN,72634322,1,no_match_above_threshold
+,0,815056290,Vassar Health Connecticut Inc,CT,73683904,1,no_match_above_threshold
+,0,264572436,SOUTHEASTERN REGIONAL MEDICAL CENTER INC,CA,212793953,1,no_match_above_threshold
+,0,830893719,SELF REGIONAL HEALTHCARE PARTNERS,SC,21052463,1,no_match_above_threshold
+,0,631143638,ESCAMBIA COUNTY ALABAMA COMMUNITY,AL,24052022,1,no_match_above_threshold
+,0,043229679,BETH ISRAEL DEACONESS HOSPITAL - NEEDHAM,MA,140022676,1,no_match_above_threshold
+,0,480545183,Lindsborg Community Hospital Association,KS,14802405,1,no_match_above_threshold
+,0,640682111,BAPTIST MEMORIAL HOSPITAL-DESOTO INC,MS,321636055,1,no_match_above_threshold
+,0,821162805,St Luke's Nampa Medical Center Ltd,ID,236025490,1,no_match_above_threshold
+,0,841421665,St Luke's Wood River Medical Center,ID,88153100,1,no_match_above_threshold
+,0,208459270,ADVANCED CARE HOSPITAL OF WHITE COUNTY,AR,7220243,1,no_match_above_threshold
+,0,481226856,Great Plains of Ottawa Co Inc,KS,8803732,1,no_match_above_threshold
+,0,750818178,Texas Scottish Rite Hospital for Crippled Children,TX,276836732,1,no_match_above_threshold
+,0,481226976,Great Plains of Ellinwood Inc,KS,10626747,1,no_match_above_threshold
+,0,610492356,EPHRAIM MCDOWELL REGIONAL MEDICAL CENTER,KY,254289997,1,no_match_above_threshold
+,0,720500565,Desoto Hospital Association Inc,LA,33499116,1,no_match_above_threshold
+,0,010198331,Maine Coast Regional Health Facilities,ME,111529894,1,no_match_above_threshold
+,0,390808526,BALDWIN AREA MEDICAL CENTER INC,WI,67165744,1,no_match_above_threshold
+,0,560538020,COLUMBUS REGIONAL HEALTHCARE SYSTEM,NC,129893199,1,no_match_above_threshold
+,0,030185556,NORTH COUNTRY HOSPITAL & HEALTH CENTER INC,VT,108080771,1,no_match_above_threshold
+,0,710835247,ST BERNARDS COMMUNITY HOSPITAL,AR,19124186,1,no_match_above_threshold
+,0,066068853,The Norwalk Hospital Association,CT,443344321,1,no_match_above_threshold
+,0,560554222,ST LUKE'S HOSPITAL INC,NC,42091076,1,no_match_above_threshold
+,0,592650456,Lakeland Regional Medical Center Inc,FL,1039271249,1,no_match_above_threshold
+,0,852354189,Cook Children's Medical Center - Prosper,TX,92976629,1,no_match_above_threshold
+,0,050258806,Emma Pendleton Bradley Hospital,RI,104334472,1,no_match_above_threshold
+,0,390929538,ST JOSEPH'S HEALTH SERVICES INC,WI,26919971,1,no_match_above_threshold
+,0,920574426,Deaconess Illinois Union County,IL,21791254,1,no_match_above_threshold
+,0,884142509,Deaconess Illinois Red Bud Regional,IL,29121380,1,no_match_above_threshold
+,0,621519754,BAPTIST MEMORIAL HOSPITAL-,MS,222713288,1,no_match_above_threshold
+,0,273311774,St Luke's McCall Ltd,ID,55160604,1,no_match_above_threshold
+,0,660486907,HOSPITAL ESPAOL AUXILIO MUTUO,PR,253418995,1,no_match_above_threshold
+,0,750703337,Parmer County Community Hospital,TX,12942467,1,no_match_above_threshold
+,0,263091251,Dimmit Regional Hospital,TX,37234794,1,no_match_above_threshold
+,0,236000204,CITY OF PHILADELPHIA TRUSTEE,PA,53983793,1,no_match_above_threshold
+,0,222592333,SOUTHCOAST HOSPITALS GROUP INC,MA,1034147962,1,no_match_above_threshold
+,0,560525657,ALLEGHANY COUNTY MEMORIAL HOSPITAL INC,NC,17122522,1,no_match_above_threshold
+,0,390794174,PROHEALTH OCONOMOWOC MEMORIAL,WI,128919712,1,no_match_above_threshold
+,0,843689003,MRH Corp,ME,61056425,1,no_match_above_threshold
+,0,592319288,MADISON COUNTY HOSPITAL HEALTH,FL,15135325,1,no_match_above_threshold
+,0,596031176,HOLMES COUNTY HOSPITAL CORPORATION,FL,27078865,1,no_match_above_threshold
+,0,237314364,NAVAJO HEALTH FOUNDATION - SAGE MEMORIAL,AZ,48751493,1,no_match_above_threshold
+,0,362604009,Ottawa Regional Hospital & Healthcare Center,IL,137922102,1,no_match_above_threshold
+,0,030183483,Rutland Hospital Inc,VT,338672122,1,no_match_above_threshold
+,0,582510435,JASPER HEALTH SERVICES INC,GA,15056317,1,no_match_above_threshold
+,0,030177161,Carlos G Otis Health Care Center,VT,34616276,1,no_match_above_threshold
+,0,510160156,Rehabilitation Hospital of the Pacific,HI,50061472,1,no_match_above_threshold
+,0,320197974,WESTERN REGIONAL MEDICAL CENTER INC,CA,134761934,1,no_match_above_threshold
+,0,410693877,SAINT ELIZABETH'S HOSPITAL OF WABASHA,MN,34918975,1,no_match_above_threshold
+,0,832550272,SVMC Holdings Inc,CT,637943962,1,no_match_above_threshold
+,0,920573933,Deaconess Illinois Crossroads Inc,IL,42372338,1,no_match_above_threshold
+,0,593322533,South Lake Hospital Inc,FL,335040644,1,no_match_above_threshold
+,0,640772726,BAPTIST MEMORIAL HOSPITAL-,MS,230650477,1,no_match_above_threshold
+,0,581645396,BAPTIST MEMORIAL REGIONAL REHABILITATION,TN,14018934,1,no_match_above_threshold
+,0,813257997,BAPTIST MEMORIAL HOSPITAL-CALHOUN INC,TN,15368141,1,no_match_above_threshold
+,0,621166050,BAPTIST MEMORIAL HOSPITAL-,TN,28236514,1,no_match_above_threshold
+,0,621138045,BAPTIST MEMORIAL HOSPITAL-UNION CITY,TN,49485513,1,no_match_above_threshold
+,0,390813416,Gundersen Lutheran Medical Center Inc,WI,1105612047,1,no_match_above_threshold
+,0,720652905,WOMAN'S HOSPITAL FOUNDATION,LA,782416209,1,no_match_above_threshold
+,0,610461753,METHODIST HEALTH INC,KY,122208405,1,no_match_above_threshold
+,0,862614124,DEACONESS UNION COUNTY HOSPITAL INC,KY,22895067,1,no_match_above_threshold
+,,370860281,HOSPITAL & MEDICAL FOUNDATION,IL,127061635,1,no_tokens
+,0,582257925,EVANS MEMORIAL HOSPITAL INC,GA,19707065,1,no_match_above_threshold
+,0,390944012,MOUNDVIEW MEMORIAL HOSPITAL & CLINICS,WI,24246342,1,no_match_above_threshold
+,0,450226426,St Andrew's Hospital,ND,15705703,1,no_match_above_threshold
+,0,460543230,LMW HEALTHCARE INC,CT,145612405,1,no_match_above_threshold
+,0,273970823,FIVE RIVERS MEDICAL CENTER INC,AR,21565308,1,no_match_above_threshold
+,0,420738969,COMMUNITY HOSPITAL INC,IA,14695481,1,no_match_above_threshold
+,0,036013761,Northeastern Vermont Regional Hosp Inc,VT,121233162,1,no_match_above_threshold
+,0,440584290,SKAGGS COMMUNITY HOSPITAL ASSOCIATION,MO,237735325,1,no_match_above_threshold
+,0,593234721,Baptist Medical Center of Nassau Inc,FL,82810276,1,no_match_above_threshold
+,0,640663760,BAPTIST MEMORIAL HOSPITAL-BOONEVILLE,MS,24550517,1,no_match_above_threshold
+,0,640881013,MISSISSIPPI BAPTIST MEDICAL CENTER INC,MS,501146127,1,no_match_above_threshold
+,0,621113167,BAPTIST MEMORIAL HOSPITAL-TIPTON INC,TN,206478618,1,no_match_above_threshold
+,0,640926753,Marion Regional Medical Center Inc,MS,23302301,1,no_match_above_threshold
+,0,481226977,Great Plains of Republic Co Inc,KS,20734472,1,no_match_above_threshold
+,0,030183721,Windsor Hospital Corporation,VT,68441823,1,no_match_above_threshold
+,0,630307951,MIZELL MEMORIAL HOSPITAL INC,AL,26088332,1,no_match_above_threshold
+,0,620988604,MACON HOSPITAL INC,TN,19927902,1,no_match_above_threshold
+,0,391030310,GREATER WATERTOWN COMMUNITY HEALTH,WI,26379805,1,no_match_above_threshold
+,0,593202547,BAKER COUNTY MEDICAL SERVICES INC,FL,33650632,1,no_match_above_threshold
+,0,586001667,STEPHENS COUNTY HOSPITAL AUTHORITY,GA,51155298,1,no_match_above_threshold
+,0,591945163,ST JOHN'S REHABILITATION HOSPITAL,FL,29135914,1,no_match_above_threshold
+,0,222519813,BAYSTATE WING HOSPITAL CORPORATION,MA,108219048,1,no_match_above_threshold
+,0,590910342,Baptist Hospital of Miami Inc,FL,1893361379,1,no_match_above_threshold
+,0,362167884,St Margaret's Health-Spring Valley,IL,77297391,1,no_match_above_threshold
+,0,593458145,FLORIDA HEALTH SCIENCES CENTER INC,FL,2174424743,1,no_match_above_threshold
+,0,845074208,OHI West Inc,FL,342974365,1,no_match_above_threshold
+,0,042704686,LAHEY CLINIC HOSPITAL INC,MA,1082538400,1,no_match_above_threshold
+,0,020222156,The Memorial Hospital at North Conway,NH,105333975,1,no_match_above_threshold
+,0,852862205,MARIETTA MEMORIAL HOSPITAL,WV,20129206,1,no_match_above_threshold
+,0,050258937,WOMEN & INFANTS HOSPITAL OF RI,RI,529850153,1,no_match_above_threshold
+,0,823844150,BAPTIST MEMORIAL HOSPITAL-CRITTENDEN,TN,22174382,1,no_match_above_threshold
+,0,630997281,BAPTIST MEMORIAL HOSPITAL-UNION COUNTY,MS,120928726,1,no_match_above_threshold
+,0,640306253,MISSISSIPPI BAPTIST HEALTH SYSTEMS INC,MS,18472257,1,no_match_above_threshold
+,0,261214372,BAPTIST MEMORIAL HOSPITAL-,TN,251683694,1,no_match_above_threshold
+,0,020222152,Littleton Hospital Association,NH,117934604,1,no_match_above_threshold
+,0,350877575,GIBSON GENERAL HOSPITAL,IN,42719920,1,no_match_above_threshold
+,0,361564290,HUMBOLDT PARK HEALTH,IL,146666772,1,no_match_above_threshold
+,0,611388556,EMHFL INC,KY,28719014,1,no_match_above_threshold
+,0,540794913,Smyth County Community Hospital,TN,47496954,1,no_match_above_threshold
+,0,836000182,Hot Springs County Hospital District,WY,38254836,1,no_match_above_threshold
+,0,845099016,ESSENTIA HEALTH MOOSE LAKE,MN,41041517,1,no_match_above_threshold
+,0,520491660,HARBOR HOSPITAL INC,MD,202148217,1,no_match_above_threshold
+,0,522218584,THE MEDSTAR-GEORGETOWN MEDICAL,DC,1348071151,1,no_match_above_threshold
+,0,251550350,CARBON-SCHUYLKILL COMMUNITY HOSPITAL INC,PA,117235432,1,no_match_above_threshold
+,0,421470935,MERCY MEDICAL CENTER - NEWTON,IA,41812801,1,no_match_above_threshold
+,0,561509260,REX HOSPITAL INC,NC,1623015427,1,no_match_above_threshold
+,0,521169362,LUMINIS HEALTH ANNE ARUNDEL MEDICAL,MD,637871673,1,no_match_above_threshold
+,0,232899911,WELLSPAN SURGERY & REHABILITATION,PA,117582525,1,no_match_above_threshold
+,0,990073524,THE QUEEN'S MEDICAL CENTER,HI,1418990527,1,no_match_above_threshold
+,0,522093120,HOWARD COUNTY GENERAL HOSPITAL INC,MD,332054923,1,no_match_above_threshold
+,0,370673461,THOMAS H BOYD MEMORIAL HOSPITAL,IL,15565164,1,no_match_above_threshold
+,0,843654542,Huntsville Community Hospital Inc,TX,90174323,1,no_match_above_threshold
+,0,350868157,SAINT JOSEPH REGIONAL MEDICAL CENTER-,IN,398351244,1,no_match_above_threshold
+,0,371208459,St Joseph's Hospital - Hospital Sisters - Third Order of St Francis,IL,56909327,1,no_match_above_threshold
+,0,231512747,PENN STATE HEALTH HOLY,PA,299403740,1,no_match_above_threshold
+,0,620646012,ST JUDE CHILDREN'S RESEARCH HOSPITAL,TN,1519049173,1,no_match_above_threshold
+,0,370792770,HSHS Holy Family Hospital,IL,28009557,1,no_match_above_threshold
+,0,390810545,St Joseph's Hospital of the Hospital Sisters of the Third Order of St Franc,WI,48582155,1,no_match_above_threshold
+,0,370661244,St Mary's Hospital Decatur of the Hospital Sisters of the Third Order of St,IL,193199982,1,no_match_above_threshold
+,0,581737573,Saint Thomas Hickman Hospital,MO,20694545,1,no_match_above_threshold
+,0,383160564,ASCENSION RIVER DISTRICT HOSPITAL,MO,37045561,1,no_match_above_threshold
+,0,380997730,ASCENSION ST MARY'S HOSPITAL,MO,349979155,1,no_match_above_threshold
+,0,383833117,St John Broken Arrow Inc,MO,63139624,1,no_match_above_threshold
+,0,730606129,Jane Phillips Memorial Medical Center Inc,MO,129538483,1,no_match_above_threshold
+,0,731440267,Jane Phillips Nowata Hospital Inc,MO,5950638,1,no_match_above_threshold
+,0,520610538,Shore Health System Inc,MD,278861142,1,no_match_above_threshold
+,0,200925675,ContinueCare Hospital at Baptist Health LLC,TX,11964445,1,no_match_above_threshold
+,0,263734606,ST LUKE'S HOSPITAL AT THE VINTAGE,TX,114363819,1,no_match_above_threshold
+,0,274658935,MARTIN LUTHER KING JR-LOS ANGELES,CA,412570722,1,no_match_above_threshold
+,0,250987222,CORRY MEMORIAL HOSPITAL ASSOCIATION,PA,29723064,1,no_match_above_threshold
+,0,760536232,ST LUKE'S HEALTH SYSTEM CORPORATION,TX,213517795,1,no_match_above_threshold
+,0,481186704,ASCENSION VIA CHRISTI HOSPITAL MANHATTAN INC,MO,96720784,1,no_match_above_threshold
+,0,271965272,ASCENSION VIA CHRISTI HOSPITAL ST TERESA INC,MO,45418176,1,no_match_above_threshold
+,0,810469886,POWELL COUNTY MEMORIAL HOSPITAL ASSOC,MT,23369558,1,no_match_above_threshold
+,0,680008034,SURPRISE VALLEY HEALTH CARE,CA,10835030,1,no_match_above_threshold
+,0,520607913,LEVINDALE HEBREW GERIATRIC CENTER AND,MD,81154998,1,no_match_above_threshold
+,0,381459366,MUNSON HEALTHCARE CHARLEVOIX,MI,72864245,1,no_match_above_threshold
+,0,850141285,CIBOLA GENERAL HOSPITAL,NM,50334189,1,no_match_above_threshold
+,0,043398280,THE MERCY HOSPITAL INC,CT,313637089,1,no_match_above_threshold
+,0,843196350,U OF L HEALTH - SHELBYVILLE INC,KY,37979925,1,no_match_above_threshold
+,0,581581103,UNIVERSITY HEALTH SERVICES INC,GA,499946431,1,no_match_above_threshold
+,0,381576680,ASCENSION BRIGHTON CENTER FOR RECOVERY,MO,14658064,1,no_match_above_threshold
+,0,582322328,FAYETTE COMMUNITY HOSPITAL INC,GA,536308338,1,no_match_above_threshold
+,0,824757260,ST JOSEPH MERCY CHELSEA INC,MI,193829833,1,no_match_above_threshold
+,0,362179802,SCHWAB REHABILITATION HOSPITAL AND CARE,IL,47700354,1,no_match_above_threshold
+,0,581509251,Baptist Health Care Affiliates inc,MO,0,1,no_match_above_threshold
+,0,810286525,STILLWATER HOSPITAL ASSOCIATION,MT,13836535,1,no_match_above_threshold
+,0,410853163,Avera Tyler,MN,12739104,1,no_match_above_threshold
+,0,820200896,SAINT ALPHONSUS MEDICAL CENTER - NAMPA,ID,241093008,1,no_match_above_threshold
+,0,521362793,University of Maryland Medical System Corporation,MD,2149624123,1,no_match_above_threshold
+,0,541489410,VCU Health Tappahannock Hospital,VA,67304916,1,no_match_above_threshold
+,0,314391798,SOUTHEASTERN OHIO REGIONAL MEDICAL CENTER INC,OH,47972935,1,no_match_above_threshold
+,0,351107009,Munster Medical Research Foundation Inc,IN,637952531,1,no_match_above_threshold
+,0,250965274,BUTLER HEALTHCARE PROVIDERS,PA,361808591,1,no_match_above_threshold
+,0,464088182,MYMICHIGAN MEDICAL CENTER WEST BRANCH,MI,75824793,1,no_match_above_threshold
+,0,381437919,MYMICHIGAN MEDICAL CENTER ALMA,MI,159426759,1,no_match_above_threshold
+,0,383236977,ASPIRUS IRON RIVER HOSPITAL & CLINICS,MI,41025587,1,no_match_above_threshold
+,0,851634852,USC VERDUGO HILLS HOSPITAL,CA,191423873,1,no_match_above_threshold
+,0,390806429,LANGLADE HOSPITAL - HOTEL DIEU OF,WI,97629613,1,no_match_above_threshold
+,0,390807065,ASPIRUS STANLEY HOSPITAL & CLINICS INC,WI,20764733,1,no_match_above_threshold
+,0,430715842,GENERAL JOHN J PERSHING MEMORIAL,MO,22542655,1,no_match_above_threshold
+,0,631058174,CULLMAN REGIONAL MEDICAL CENTER INC,AL,177312584,1,no_match_above_threshold
+,0,381358172,SPARROW CLINTON HOSPITAL,MI,26333312,1,no_match_above_threshold
+,0,810851756,WELLSTAR NORTH FULTON HOSPITAL,GA,287116184,1,no_match_above_threshold
+,0,475348597,TANNER MEDICAL CENTER ALABAMA INC,GA,22201413,1,no_match_above_threshold
+,0,951644036,Pasadena Hospital Association Ltd,CA,802495430,1,no_match_above_threshold
+,0,520607945,UNION HOSPITAL OF CECIL COUNTY INC,DE,192419807,1,no_match_above_threshold
+,0,810421823,MISSOULA COMMUNITY HEALTH SERVICES,MT,11369287,1,no_match_above_threshold
+,0,920037099,SOUTH PENINSULA HOSPITAL INC,AK,110793354,1,no_match_above_threshold
+,0,521638026,LUMINIS HEALTH DOCTORS COMMUNITY MEDICAL,MD,246853240,1,no_match_above_threshold
+,0,580568702,SAINT JOSEPH'S HOSPITAL INC,GA,328281339,1,no_match_above_threshold
+,0,831683025,Gainesville Community Hospital Inc,TX,44916248,1,no_match_above_threshold
+,0,741303720,Baptist Hospitals of Southeast Texas,TX,344607263,1,no_match_above_threshold
+,0,300255522,PATHWAYS PSYCHIATRIC HOSPITAL INC,MO,26703238,1,no_match_above_threshold
+,0,450310159,CHRISTIAN UNITY HOSPITAL CORPORATION,ND,26282350,1,no_match_above_threshold
+,0,460726303,MEDSTAR SOUTHERN MD HOSPITAL CENTER INC,MD,307154942,1,no_match_above_threshold
+,0,810245848,ROUNDUP MEMORIAL HOSPITAL ASSOCIATION,MT,15089380,1,no_match_above_threshold
+,0,230794160,THE GOOD SAMARITAN HOSPITAL OF LEBANON,PA,293910564,1,no_match_above_threshold
+,0,273128197,HIGHLAND-CLARKSBURG HOSPITAL INC,WV,22065925,1,no_match_above_threshold
+,0,201890414,HEARTLAND HEALTH SYSTEM INC,IL,39898941,1,no_match_above_threshold
+,0,410695603,ST JOSEPH'S AREA HEALTH SERVICES,MN,50077928,1,no_match_above_threshold
+,0,450227012,MERCY HOSPITAL OF DEVILS LAKE,ND,28188280,1,no_match_above_threshold
+,0,530196602,LUCY WEBB HAYES NATIONAL TRAINING SCHOOL,DC,520156222,1,no_match_above_threshold
+,0,521341890,JOHNS HOPKINS BAYVIEW,MD,767179381,1,no_match_above_threshold
+,0,743019849,St Mark's Medical Center,TX,27910201,1,no_match_above_threshold
+,0,350869065,ST MARY'S HEALTH INC,MO,596433275,1,no_match_above_threshold
+,0,352112529,St Vincent Clay Hospital Inc,MO,20364798,1,no_match_above_threshold
+,0,370663567,St Elizabeth's Hospital of the Hospital Sisters of the Third Order of St Fr,IL,304298439,1,no_match_above_threshold
+,0,231352166,THE CHILDREN'S HOSPITAL OF PHILADELPHIA,PA,3303766853,1,no_match_above_threshold
+,0,454243702,St Vincent Fishers Hospital Inc,MO,60695855,1,no_match_above_threshold
+,0,390818682,St Mary's Hospital Medical Center of Green Bay Inc - Hospital Sisters,WI,133483030,1,no_match_above_threshold
+,0,390808480,St Nicholas Hospital of the Hospital Sisters of the Third Order of St Franc,WI,123028970,1,no_match_above_threshold
+,0,260479484,St Luke's-St Vincent's Healthcare Inc,MO,245278689,1,no_match_above_threshold
+,0,381443395,ASCENSION ST JOSEPH HOSPITAL,MO,56611949,1,no_match_above_threshold
+,0,620475842,Saint Thomas Rutherford Hospital,MO,443036397,1,no_match_above_threshold
+,0,730662663,St John Sapulpa Inc,MO,26363300,1,no_match_above_threshold
+,0,261861676,Humphreys County Community Health Services Inc,MO,11574398,1,no_match_above_threshold
+,0,480543778,ASCENSION VIA CHRISTI HOSPITAL PITTSBURG INC,MO,104505968,1,no_match_above_threshold
+,0,203749695,Scott & White Hospital Round Rock,TX,460670566,1,no_match_above_threshold
+,0,751008430,Baylor All Saints Medical Center,TX,537231911,1,no_match_above_threshold
+,0,260194016,Lake Pointe Operating Company LLC,TX,226566831,1,no_match_above_threshold
+,0,751777119,Baylor Regional Medical Center at,TX,301467414,1,no_match_above_threshold
+,0,952321786,CHILDREN'S HOSPITAL OF ORANGE COUNTY,CA,1299747345,1,no_match_above_threshold
+,0,521289729,Dimensions Health Corporation,MD,457814414,1,no_match_above_threshold
+,0,462097818,UMSJ Health System LLC,MD,540066530,1,no_match_above_threshold
+,0,250965600,The Washington Hospital,PA,259349143,1,no_match_above_threshold
+,0,463607347,ContinueCare Hospital at Hendrick Medical Center Inc,TX,10253483,1,no_match_above_threshold
+,0,020222171,The New London Hospital Association Inc,NH,86687314,1,no_match_above_threshold
+,0,753054855,Mercy Restorative Care Hospital Inc,TX,20305144,1,no_match_above_threshold
+,0,231894907,MONTGOMERY COUNTY EMERGENCY SERVICE INC,PA,18499148,1,no_match_above_threshold
+,0,731308273,Laureate Psychiatric Clinic and HospitalInc,OK,48099103,1,no_match_above_threshold
+,0,364251846,ST ALEXIUS MEDICAL CENTER,MO,386330917,1,no_match_above_threshold
+,0,752663904,MEMORIAL MEDICAL CENTER - SAN AUGUSTINE,TX,11261243,1,no_match_above_threshold
+,0,390902199,SACRED HEART REHABILITATION INSTITUTE INC,MO,8003658,1,no_match_above_threshold
+,0,481158274,ASCENSION VIA CHRISTI REHABILITATION HOSPITAL INC,MO,26404019,1,no_match_above_threshold
+,0,736617937,McCurtain Memorial Medical Management Inc,OK,24955087,1,no_match_above_threshold
+,0,381303843,MUNSON HEALTHCARE OTSEGO MEMORIAL,MI,117451869,1,no_match_above_threshold
+,0,843467958,STC HEALTHCARE PARTNERS LLC,PA,334818262,1,no_match_above_threshold
+,0,470533373,COMMUNITY HOSPITAL ASSOCIATION OF MCCOOK,NE,60120323,1,no_match_above_threshold
+,0,330420041,SAN GORGONIO MEMORIAL HOSPITAL,CA,102284843,1,no_match_above_threshold
+,0,820912090,UPMC Memorial,PA,194486243,1,no_match_above_threshold
+,0,460226738,St Benedict Health Center,SD,23596492,1,no_match_above_threshold
+,0,271790052,SAINT ALPHONSUS MEDICAL CENTER -,OR,38584583,1,no_match_above_threshold
+,0,232523395,ALLIED SERVICES INSTITUTE OF REHABILITATION MEDICINE,PA,31299843,1,no_match_above_threshold
+,0,231529076,Riddle Memorial Hospital,PA,265509038,1,no_match_above_threshold
+,0,222807681,MEMORIAL HOSPITAL OF WILLIAM F AND,NY,74067556,1,no_match_above_threshold
+,0,730579295,Farmers Union Hospital Association,OK,59432690,1,no_match_above_threshold
+,0,382908586,ASPIRUS IRONWOOD HOSPITAL & CLINICS INC,MI,69805416,1,no_match_above_threshold
+,0,390808503,ASPIRUS MERRILL HOSPITAL & CLINICS INC,WI,23542139,1,no_match_above_threshold
+,0,381490180,SPARROW CARSON HOSPITAL,MI,24961794,1,no_match_above_threshold
+,0,850138775,OTERO COUNTY HOSPITAL ASSOCIATION,NM,279588075,1,no_match_above_threshold
+,0,810864789,WELLSTAR SPALDING REGIONAL HOSPITAL INC,GA,171028562,1,no_match_above_threshold
+,0,860206928,WEST YAVAPAI GUIDANCE CLINIC,AZ,37976320,1,no_match_above_threshold
+,0,590683252,JOHNS HOPKINS ALL CHILDREN'S HOSPITAL,MD,638863498,1,no_match_above_threshold
+,0,311551871,Mercy Harvard Hospital Inc,IL,29721024,1,no_match_above_threshold
+,0,362170143,La Rabida Children's Hospital,IL,71067686,1,no_match_above_threshold
+,0,450231181,Lutheran Charity Association,ND,73982858,1,no_match_above_threshold
+,0,710294390,MERCY HOSPITAL ROGERS,AR,371327452,1,no_match_above_threshold
+,0,520608007,FRANKLIN SQUARE HOSPITAL CENTER INC,MD,568154973,1,no_match_above_threshold
+,0,510603966,Takoma Regional Hospital Inc,TN,104261724,1,no_match_above_threshold
+,0,824432109,GSL HOSPITAL,PA,78543017,1,no_match_above_threshold
+,0,861248931,ST LUKE'S HOSPITAL - CARBON CAMPUS,PA,85432328,1,no_match_above_threshold
+,0,716044543,JOHN ED CHAMBERS MEMORIAL HOSPITAL INC,AR,23307288,1,no_match_above_threshold
+,0,386005550,HILLSDALE COMMUNITY HEALTH CENTER,MI,84425894,1,no_match_above_threshold
+,0,751976930,Mother Frances Hospital - Jacksonville,TX,76557504,1,no_match_above_threshold
+,0,951691011,GATEWAYS HOSPITAL & MENTAL HEALTH CENTER,CA,40733076,1,no_match_above_threshold
+,0,990260423,QUEEN'S NORTH HAWAII COMMUNITY HOSPITAL,HI,94897769,1,no_match_above_threshold
+,0,470379836,SAINT ELIZABETH REGIONAL MEDICAL CENTER,NE,185997105,1,no_match_above_threshold
+,0,430666765,THE RANKEN-JORDAN HOME FOR CONVALESCENT CRIPPLED CHILDREN,MO,52340897,1,no_match_above_threshold
+,0,390807060,Sacred Heart Hospital of Hospital Sisters of Third Order of St Francis,WI,244515097,1,no_match_above_threshold
+,0,350876389,ST VINCENT MADISON COUNTY HEALTH SYSTEM INC,MO,24039029,1,no_match_above_threshold
+,0,730579285,MERCY HOSPITAL OKLAHOMA CITY,OK,635710966,1,no_match_above_threshold
+,0,420776568,ALEGENT HEALTH-COMMUNITY MEMORIAL,IA,31129047,1,no_match_above_threshold
+,0,362596381,Alexian Brothers Medical Center,MO,496872668,1,no_match_above_threshold
+,0,520591657,St Agnes Healthcare Inc,MO,531081437,1,no_match_above_threshold
+,0,351712001,St Vincent Seton Specialty Hospital Inc,MO,18408725,1,no_match_above_threshold
+,0,630909073,ST VINCENT'S BLOUNT,MO,33471464,1,no_match_above_threshold
+,0,203700131,Owasso Medical Facility Inc,MO,38028059,1,no_match_above_threshold
+,0,311538725,PENNSYLVANIA HOSPITAL OF THE,PA,797396322,1,no_match_above_threshold
+,0,824314522,ST LUKE'S DES PERES EPISCOPAL-,MO,95205379,1,no_match_above_threshold
+,0,610965365,RUSSELL COUNTY KENTUCKY HOSPITAL,KY,34927030,1,no_match_above_threshold
+,0,465033192,ContinueCare Hospital at Baptist Health Madisonville Inc,TX,7605094,1,no_match_above_threshold
+,0,473884840,TGCH Inc,PA,19948196,1,no_match_above_threshold
+,0,362183812,Rush Oak Park Hospital Inc,IL,188436826,1,no_match_above_threshold
+,0,474393589,EFFINGHAM HOSPITAL INC,GA,76225497,1,no_match_above_threshold
+,0,421178403,MERCY HOSPITAL OF FRANCISCAN SISTERS,IA,15128106,1,no_match_above_threshold
+,0,237429117,MADERA COMMUNITY HOSPITAL,CA,74049913,1,no_match_above_threshold
+,0,630288861,Providence Hospital,MO,262989010,1,no_match_above_threshold
+,0,580566223,ST MARY'S HOSPITAL INC (FKA ST,GA,280228135,1,no_match_above_threshold
+,0,834569993,BLUESTONE CHILD AND ADOLESCENT,OH,3828856,1,no_match_above_threshold
+,0,460877261,ST VINCENT ANDERSON REGIONAL HOSPITAL INC,MO,185032634,1,no_match_above_threshold
+,0,232794121,NAZARETH HOSPITAL,PA,178779337,1,no_match_above_threshold
+,,581685139,The Medical Center Inc,GA,492732330,1,no_tokens
+,0,952459796,KEDREN COMMUNITY HEALTH CENTERINC,CA,51231316,1,no_match_above_threshold
+,0,630288864,St Vincent's Birmingham,MO,506896181,1,no_match_above_threshold
+,0,953522679,SEVENTH-DAY ADVENTISTS LOMA LINDA,CA,1632799483,1,no_match_above_threshold
+,0,382007629,SPARROW EATON HOSPITAL,MI,33134632,1,no_match_above_threshold
+,0,204474637,JANE TODD CRAWFORD MEMORIAL HOSP,KY,28884967,1,no_match_above_threshold
+,0,390868982,ASPIRUS RIVERVIEW HOSPITAL,WI,142925260,1,no_match_above_threshold
+,0,453215312,PORTSMOUTH HOSPITAL CORPORATION,OH,20919363,1,no_match_above_threshold
+,0,370808925,THE HOPEDALE MEDICAL FOUNDATION,IL,35065424,1,no_match_above_threshold
+,0,810875069,WELLSTAR SYLVAN GROVE HOSPITAL,GA,17333692,1,no_match_above_threshold
+,0,593527036,The Villages Tri-County Medical Center Inc,FL,214256965,1,no_match_above_threshold
+,0,420680391,Mercy Hospital Iowa City Iowa,IA,193174817,1,no_match_above_threshold
+,0,205497506,WEST GEORGIA MEDICAL CENTER INC,GA,252246496,1,no_match_above_threshold
+,0,630578923,St Vincent's East,MO,299490032,1,no_match_above_threshold
+,0,232610538,NORTH PHILADELPHIA HEALTH SYSTEM,PA,51023445,1,no_match_above_threshold
+,0,731089149,INTEGRIS SO OKLAHOMA CITY HOSPCORP,OK,304637122,1,no_match_above_threshold
+,0,942916102,KINGMAN HEALTHCARE INC,AZ,391433427,1,no_match_above_threshold
+,0,264230898,Barrett Hospital Development Corporation,MT,40903943,1,no_match_above_threshold
+,0,540544705,Johnston Memorial Hospital Inc,TN,175985686,1,no_match_above_threshold
+,0,810264548,DAHL MEMORIAL HEALTHCARE,MT,8913551,1,no_match_above_threshold
+,0,812946322,UCF ACADEMIC HEALTH INC,FL,1733999,1,no_match_above_threshold
+,0,370661202,FAIRFIELD MEMORIAL HOSPITAL ASSOCIATION,IL,52092469,1,no_match_above_threshold
+,0,520646893,MONTGOMERY GENERAL HOSPITAL INC,MD,198219487,1,no_match_above_threshold
+,0,844475996,ST LUKE'S HOSPITAL - EASTON CAMPUS,PA,60914414,1,no_match_above_threshold
+,0,221494454,ST LUKE'S WARREN HOSPITAL INC,PA,164768775,1,no_match_above_threshold
+,0,720408982,Christus Health Northern Louisiana,LA,317607686,1,no_match_above_threshold
+,0,454394739,ST LUKE'S HOSPITAL ANDERSON CAMPUS,PA,392794468,1,no_match_above_threshold
+,0,860334996,BISBEE HOSPITAL ASSOCIATION INC,AZ,62988785,1,no_match_above_threshold
+,0,020232673,The Elliot Hospital of the City,NH,580261281,1,no_match_above_threshold
+,0,410695604,ST MARY'S MEDICAL CENTER,MN,510786332,1,no_match_above_threshold
+,0,410695602,ST JOSEPH'S MEDICAL CENTER,MN,263747087,1,no_match_above_threshold
+,0,910715805,ENUMCLAW REGIONAL HOSPITAL ASSOCIATION,WA,66588120,1,no_match_above_threshold
+,0,141347719,ST MARY'S HEALTHCARE,NY,185684320,1,no_match_above_threshold
+,0,421336618,MERCY MEDICAL CENTER - CLINTON INC,IA,143685978,1,no_match_above_threshold
+,0,470443636,ST MARY'S COMMUNITY HOSPITAL,NE,38155965,1,no_match_above_threshold
+,0,520607971,KENNEDY KRIEGER CHILDREN'S HOSPITAL INC,MD,224795566,1,no_match_above_threshold
+,0,810243720,SHERIDAN MEMORIAL HOSPITAL ASSOCIATION,MT,19114895,1,no_match_above_threshold
+,0,231352211,ST JOSEPH REGIONAL HEALTH NETWORK,PA,318344311,1,no_match_above_threshold
+,0,351343019,ST MARYS WARRICK HOSPITAL INC,MO,20437294,1,no_match_above_threshold
+,0,370663568,St Joseph's Hospital of the Hospital Sisters of the Third Order of St Franc,IL,44427510,1,no_match_above_threshold
+,0,350992717,St Joseph Hospital & Health Center Inc,MO,159290910,1,no_match_above_threshold
+,0,370661238,St John's Hospital of the Hospital Sisters of the Third Order of St Francis,IL,647884389,1,no_match_above_threshold
+,0,420782518,ALEGENT HEALTH-MERCY HOSPITAL CORNING,IA,21659636,1,no_match_above_threshold
+,0,883577015,CHH Community Health,PA,81436322,1,no_match_above_threshold
+,0,390817529,St Vincent Hospital of the Hospital Sisters of the Third Order of St Franci,WI,641307176,1,no_match_above_threshold
+,0,382377821,ASCENSION GENESYS HOSPITAL,MO,400589700,1,no_match_above_threshold
+,0,480958974,ASCENSION VIA CHRISTI HEALTH PARTNERS INC,MO,35409508,1,no_match_above_threshold
+,0,730579286,St John Medical Center Inc,MO,559459768,1,no_match_above_threshold
+,0,274434451,Scott & White Hospital-College Station,TX,278707834,1,no_match_above_threshold
+,0,742519752,Scott & White Hospital Brenham,TX,38518141,1,no_match_above_threshold
+,0,751844139,Baylor Medical Center at Waxahachie,TX,230741533,1,no_match_above_threshold
+,0,473539943,ContinueCare Hospital at Odessa Inc,TX,10664485,1,no_match_above_threshold
+,0,520591483,Mt Washington Pediatric Hospital Inc,MD,69785395,1,no_match_above_threshold
+,0,465032999,ContinueCare Hospital at Baptist Health Paducah Inc,TX,9293978,1,no_match_above_threshold
+,0,813048423,ContinueCare Hospital at Palmetto Health Baptist Inc,TX,12771233,1,no_match_above_threshold
+,0,760436439,MEMORIAL MEDICAL CENTER - LIVINGSTON,TX,51679243,1,no_match_above_threshold
+,0,160743037,HIGHLAND HOSPITAL OF ROCHESTER,NY,493417256,1,no_match_above_threshold
+,0,352103153,St Vincent Randolph Hospital Inc,MO,24596383,1,no_match_above_threshold
+,0,381359247,ASCENSION PROVIDENCE ROCHESTER HOSPITAL,MO,260778832,1,no_match_above_threshold
+,0,520591612,FREDERICK HEALTH HOSPITAL INC,MD,412262165,1,no_match_above_threshold
+,0,233009874,THE ALLENTOWN SPECIALTY HOSPITAL INC,PA,17710137,1,no_match_above_threshold
+,0,473752176,ST MARY'S SACRED HEART HOSPITAL INC,GA,51200346,1,no_match_above_threshold
+,0,237169043,Central Montana Medical Facilities Inc,MT,48009450,1,no_match_above_threshold
+,0,381671120,ASCENSION STANDISH HOSPITAL,MO,25415157,1,no_match_above_threshold
+,0,421264647,COVENANT MEDICAL CENTER INC,IA,335820032,1,no_match_above_threshold
+,0,940382330,CHILDREN'S HOSPITAL & RESEARCH CENTER AT,CA,736282682,1,no_match_above_threshold
+,0,582179986,PIEDMONT ATHENS REGIONAL MEDICAL CENTER INC,GA,684307461,1,no_match_above_threshold
+,0,210635009,PRINCETON HEALTHCARE SYSTEM A NEW JERSEY,NJ,565429689,1,no_match_above_threshold
+,0,582200195,PIEDMONT HENRY HOSPITAL INC,GA,496914757,1,no_match_above_threshold
+,0,510064326,ST FRANCIS HOSPITAL INC,DE,165338418,1,no_match_above_threshold
+,0,410919153,Avera Marshall,MN,134851280,1,no_match_above_threshold
+,0,810224734,MEMORIAL HOSPITAL ASSOCIATION,MT,20053755,1,no_match_above_threshold
+,0,411924645,CENTRACARE HEALTH SYSTEM - LONG PRAIRIE,MN,40660224,1,no_match_above_threshold
+,0,452438973,CENTRACARE HEALTH SYSTEM - SAUK CENTRE,MN,39986521,1,no_match_above_threshold
+,0,610444716,ASHLAND HOSPITAL CORPORATION,KY,566525812,1,no_match_above_threshold
+,0,363332852,GOTTLIEB COMMUNITY HEALTH SERVICES,IL,257408502,1,no_match_above_threshold
+,0,141885340,SPARROW SPECIALTY HOSPITAL,MI,8620562,1,no_match_above_threshold
+,0,141348692,ST PETER'S HOSPITAL,NY,714355584,1,no_match_above_threshold
+,0,556000526,GRAFTON CITY HOSPITAL,WV,18908767,1,no_match_above_threshold
+,0,363616314,Genesis Health System (IL),IL,162920403,1,no_match_above_threshold
+,0,660205634,LIGA PUERTORRIQUENA CONTRA EL CANCER,PR,23336324,1,no_match_above_threshold
+,0,344440884,WOOD COUNTY HOSPITAL ASSOCIATION,OH,138075799,1,no_match_above_threshold
+,0,370661218,MARSHALL BROWNING HOSPITAL ASSOCIATION,IL,34380002,1,no_match_above_threshold
+,0,660561027,SERVICIOS MDICOS,PR,60018674,1,no_match_above_threshold
+,0,770599553,Dickenson Community Hospital Inc,TN,10600306,1,no_match_above_threshold
+,0,411620386,ST MARY'S REGIONAL HEALTH CENTER,MN,161193410,1,no_match_above_threshold
+,0,237067206,MISSISSIPPI METHODIST HOSPITAL,MS,69541125,1,no_match_above_threshold
+,0,850442957,Clayton Health Systems Inc,NM,15339336,1,no_match_above_threshold
+,0,390806302,ST JOSEPH'S COMMUNITY HOSPITAL OF,WI,149344437,1,no_match_above_threshold
+,0,465143606,ST LUKE'S HOSPITAL MONROE CAMPUS,PA,235178585,1,no_match_above_threshold
+,0,520591685,THE UNION MEMORIAL HOSPITAL,MD,444743707,1,no_match_above_threshold
+,0,812677745,LITTLE RIVER MEDICAL CENTER INC,AR,11943126,1,no_match_above_threshold
+,0,810231789,MONTANA CHILDREN'S HOME AND HOSPITAL,MT,36952570,1,no_match_above_threshold
+,0,741385192,COMMUNITY HOSPITAL OF BRAZOSPORT,TX,92119450,1,no_match_above_threshold
+,0,752771569,Mother Frances Hospital - Winnsboro,TX,21439412,1,no_match_above_threshold
+,0,710329353,Jefferson Hospital Association Inc,AR,244028278,1,no_match_above_threshold
+,0,351142669,SAINT JOSEPH REGIONAL MEDICAL,IN,61283305,1,no_match_above_threshold
+,0,420818642,CENTRAL COMMUNITY HOSPITAL,IA,12325449,1,no_match_above_threshold
+,0,370661233,St Anthony's Memorial Hospital of the Hospital Sisters of The Third Order o,IL,161674162,1,no_match_above_threshold
+,0,851620990,PENN STATE HEALTH LANCASTER MEDICAL,PA,141665788,1,no_match_above_threshold
+,0,381490190,ASCENSION BORGESS-LEE HOSPITAL,MO,21826534,1,no_match_above_threshold
+,0,851608328,PENN STATE HEALTH HAMPDEN MEDICAL CENTER,PA,137588524,1,no_match_above_threshold
+,0,390907740,ASCENSION ST FRANCIS HOSPITAL INC,MO,156635594,1,no_match_above_threshold
+,0,202850920,Scott & White Continuing Care Hospital,TX,23260449,1,no_match_above_threshold
+,0,593238634,H LEE MOFFITT CANCER CENTER AND,FL,1622473343,1,no_match_above_threshold
+,0,261947374,ST LUKE'S COMMUNITY DEVELOPMENT,TX,105309112,1,no_match_above_threshold
+,0,420758901,SARTORI MEMORIAL HOSPITAL INC,IA,34115133,1,no_match_above_threshold
+,0,381359063,ASCENSION ST JOHN HOSPITAL,MO,1018377239,1,no_match_above_threshold
+,0,351841606,St Vincent Jennings Hospital Inc,MO,18328408,1,no_match_above_threshold
+,0,750755367,MEMORIAL HEALTH SYSTEM OF EAST TEXAS,TX,175786573,1,no_match_above_threshold
+,0,721526400,Wamego Hospital Association,MO,14237038,1,no_match_above_threshold
+,0,530204670,THE HOSPITAL FOR SICK CHILDREN,DC,40148051,1,no_match_above_threshold
+,0,261720984,GOOD SAMARITAN HOSPITAL INC,GA,33107244,1,no_match_above_threshold
+,0,621220402,SISKIN HOSPITAL FOR PHYSICAL,TN,49863981,1,no_match_above_threshold
+,0,331216751,Hughston Hospital,GA,114483100,1,no_match_above_threshold
+,0,593650609,St Vincent's Health System Inc,MO,136902071,1,no_match_above_threshold
+,0,391568865,WHEATON FRANCISCAN HEALTHCARE - SOUTHEAST WISCONSIN INC,MO,34463400,1,no_match_above_threshold
+,0,454166209,UNIVERSITY MCDUFFIE COUNTY REGIONAL MEDICAL,GA,28370954,1,no_match_above_threshold
+,0,381359180,Ascension Borgess Allegan Hospital,MO,40152856,1,no_match_above_threshold
+,0,440629397,CARROLL COUNTY MEMORIAL HOSPITAL,MO,40751770,1,no_match_above_threshold
+,0,943028978,SAINT ALPHONSUS DIVERSIFIED CARE INC,ID,1791358,1,no_match_above_threshold
+,0,540551711,Community Memorial Hospital,VA,189106009,1,no_match_above_threshold
+,0,470463911,Avera St Anthony's Hospital,NE,40399808,1,no_match_above_threshold
+,0,741109636,ASCENSION PROVIDENCE,MO,322905352,1,no_match_above_threshold
+,0,201645949,CFHS HOLDINGS INC,CA,171480514,1,no_match_above_threshold
+,0,271789847,SAINT ALPHONSUS MEDICAL CENTER -,OR,79799895,1,no_match_above_threshold
+,0,232262852,JOHN HEINZ INSTITUTE OF REHABILITATION MEDICINE,PA,25525475,1,no_match_above_threshold
+,0,810384618,BIG HORN HOSPITAL ASSOCIATION,MT,19934514,1,no_match_above_threshold
+,0,411865315,CENTRACARE HEALTH SYSTEM - MELROSE,MN,52399778,1,no_match_above_threshold
+,0,421500277,BAUM HARMON MERCY HOSPITAL,IA,8907289,1,no_match_above_threshold
+,0,134343743,CRAIG AND FRANCES LINDNER CENTER OF HOPE,OH,29889102,1,no_match_above_threshold
+,0,141338386,SUNNYVIEW HOSPITAL AND REHABILITATION,NY,64400582,1,no_match_above_threshold
+,0,150532254,ST JOSEPH'S HOSPITAL HEALTH CENTER,NY,623184343,1,no_match_above_threshold
+,0,540622371,UVA CULPEPER MEDICAL CENTER,VA,146065021,1,no_match_above_threshold
+,0,582026750,DOUGLAS HOSPITAL INC,GA,200411891,1,no_match_above_threshold
+,0,582095884,PAULDING MEDICAL CENTER INC,GA,250396992,1,no_match_above_threshold
+,0,350985964,LITTLE COMPANY OF MARY HOSPITAL,IN,279851186,1,no_match_above_threshold
+,0,580968382,COBB HOSPITAL INC,GA,793674723,1,no_match_above_threshold
+,0,420843389,IDA COUNTY IOWA COMMUNITY HOSPITAL INC,IA,28498206,1,no_match_above_threshold
+,0,860171900,White Mountain Regional Medical Center,AZ,24027087,1,no_match_above_threshold
+,0,352087092,COMMUNITY HOSPITAL OF NOBLE COUNTY INC,IN,67082561,1,no_match_above_threshold
+,0,432040599,BENNETT COUNTY HOSPITAL AND NURSING HOME,SD,14020963,1,no_match_above_threshold
+,0,480684878,Southwest Medical Center,KS,79126128,1,no_match_above_threshold
+,0,770258013,Adventist Health Delano,CA,104447923,1,no_match_above_threshold
+,0,946050274,Barton Healthcare System,CA,224697918,1,no_match_above_threshold
+,0,840482695,BRIGHTON COMMUNITY HOSPITAL ASSOCIATION,CO,224254565,1,no_match_above_threshold
+,0,452230827,Swisher Memorial Healthcare System,TX,12857013,1,no_match_above_threshold
+,0,111839362,NEWYORK-PRESBYTERIANQUEENS,NY,1059552480,1,no_match_above_threshold
+,0,752426010,METHODIST HOSPITAL PLAINVIEW,WA,79276009,1,no_match_above_threshold
+,0,822913146,COVENANT MEDICAL CENTER,WA,578474728,1,no_match_above_threshold
+,0,112837244,THE LONG ISLAND HOME,NY,116872472,1,no_match_above_threshold
+,0,752771437,Texas Health Presbyterian Hospital Kaufman,TX,41908008,1,no_match_above_threshold
+,0,756001743,Texas Health Harris Methodist Hospital,TX,1135773705,1,no_match_above_threshold
+,0,350895832,NORTON - KING'S DAUGHTERS' HEALTH INC,IN,164006778,1,no_match_above_threshold
+,0,131725076,PHELPS MEMORIAL HOSPITAL ASSOCIATION,NY,377256518,1,no_match_above_threshold
+,0,386108110,COMMUNITY HEALTH CENTER OF BRANCH COUNTY,OH,86496732,1,no_match_above_threshold
+,0,831954982,Texas Health Hospital Frisco,TX,151308639,1,no_match_above_threshold
+,0,131739937,The Winifred Masterson Burke Rehabilitation Hospital,NY,130456446,1,no_match_above_threshold
+,0,930110095,ALBANY GENERAL HOSPITAL,OR,251133228,1,no_match_above_threshold
+,0,931329784,SAMARITAN PACIFIC HEALTH SERVICES,OR,133617806,1,no_match_above_threshold
+,0,590855412,Trustees of Mease Hospital Inc,FL,517741973,1,no_match_above_threshold
+,0,382027689,WA FOOTE MEMORIAL HOSPITAL,MI,784110011,1,no_match_above_threshold
+,0,350867958,Indiana University Health Ball Memorial Hospital Inc,IN,545895599,1,no_match_above_threshold
+,0,262772226,Indiana University Health Tipton Hospital Inc,IN,44996878,1,no_match_above_threshold
+,0,841276376,Valley Citizens Foundation for Health,CO,31677416,1,no_match_above_threshold
+,0,951684082,PROVIDENCE SAINT JOHN'S HEALTH CENTER,WA,557013467,1,no_match_above_threshold
+,0,310536662,The Fort Hamilton Hospital,OH,178968523,1,no_match_above_threshold
+,0,420860039,STEWART MEMORIAL COMMUNITY HOSPITAL,IA,37279281,1,no_match_above_threshold
+,0,843480493,Wetzel County Hospital Inc,WV,36703718,1,no_match_above_threshold
+,0,741461220,Frio Hospital Association,TX,30957610,1,no_match_above_threshold
+,0,131624135,NEW YORK SOCIETY FOR THE RELIEF OF THE,NY,1549857093,1,no_match_above_threshold
+,0,940760193,COMMUNITY HOSPITAL OF THE MONTEREY,CA,933598710,1,no_match_above_threshold
+,0,610601267,MARSHALL COUNTY HOSPITAL DISTRICT,KY,28830698,1,no_match_above_threshold
+,0,462916938,Montefiore Mount Vernon Hospital,NY,93535039,1,no_match_above_threshold
+,0,421019872,NORTHWEST IOWA HOSPITAL CORPORATION,IA,225855407,1,no_match_above_threshold
+,0,480577658,HIAWATHA HOSPITAL ASSOCIATION INC,KS,33904849,1,no_match_above_threshold
+,0,480561974,AMBERWELL ATCHISON ASSOCIATION,KS,62034227,1,no_match_above_threshold
+,0,562488077,Saint Lukes East Hospital,MO,364519724,1,no_match_above_threshold
+,0,742849611,Saint Lukes Hospital of Garnett Inc,KS,34377789,1,no_match_above_threshold
+,0,840469270,Colorado West Healthcare System,CO,262576929,1,no_match_above_threshold
+,0,590624424,MOUNT SINAI MEDICAL CENTER OF,FL,972412617,1,no_match_above_threshold
+,0,351786005,Rehabilitation Hospital of Indiana Inc,IN,45535971,1,no_match_above_threshold
+,0,560543238,LEXINGTON MEDICAL CENTER,NC,135551068,1,no_match_above_threshold
+,0,480576046,JEFFERSON COUNTY MEMORIAL HOSPITAL INC,KS,8300159,1,no_match_above_threshold
+,0,430653587,GOOD SAMARITAN REGIONAL HEALTH CENTER,MO,214043528,1,no_match_above_threshold
+,0,390773970,LADD MEMORIAL HOSPITAL INC,WI,50362090,1,no_match_above_threshold
+,0,941623075,Siskiyou Hospital Inc,CA,114326679,1,no_match_above_threshold
+,0,311072406,PIKE HEALTH SERVICES INC,OH,28679966,1,no_match_above_threshold
+,0,440579850,SSM REGIONAL HEALTH SERVICES,MO,172355444,1,no_match_above_threshold
+,0,862358048,Insight Chicago Inc,IL,172473673,1,no_match_above_threshold
+,0,210634462,THE COOPER HEALTH SYSTEM A NEW JERSEY,NJ,2065135564,1,no_match_above_threshold
+,0,720551963,SOUTHWEST LOUISIANA HOSPITAL ASSOCIATION,LA,387969570,1,no_match_above_threshold
+,0,461629800,Conway Community Services,AR,108020359,1,no_match_above_threshold
+,0,941201197,DAMERON HOSPITAL ASSOCIATION,CA,190050421,1,no_match_above_threshold
+,0,481236156,GREAT PLAINS OF SABETHA INC,KS,19250501,1,no_match_above_threshold
+,0,262525968,ADVOCATE CONDELL MEDICAL CENTER,IL,522956538,1,no_match_above_threshold
+,0,590898901,Tarpon Springs Hospital Foundation Inc,FL,173318037,1,no_match_above_threshold
+,0,560554209,GOOD HOPE HOSPITAL INC,NC,4247222,1,no_match_above_threshold
+,0,410726171,INTERNATIONAL FALLS MEMORIAL,MN,34222539,1,no_match_above_threshold
+,0,311118357,NORTH CENTRAL HEALTH SERVICES INC,IN,16629352,1,no_match_above_threshold
+,0,311657206,MADISON COUNTY COMMUNITY HOSPITAL,OH,64197558,1,no_match_above_threshold
+,0,956064971,Simi Valley Hosp and Hlth Care Services,CA,231102943,1,no_match_above_threshold
+,0,930622075,Northwest Medical Foundation Tillamook,OR,106952718,1,no_match_above_threshold
+,0,840425720,ST MARY'S HOSPITAL & MEDICAL,CO,525368427,1,no_match_above_threshold
+,0,421707837,HENNEPIN HEALTHCARE SYSTEM INC,MN,1609599129,1,no_match_above_threshold
+,0,351972384,PARKVIEW HEALTH SYSTEM INC,IN,1200583793,1,no_match_above_threshold
+,0,752765566,COVENANT HEALTH SYSTEM,WA,93736511,1,no_match_above_threshold
+,0,751438726,Texas Health Harris Methodist Hospital,TX,310630803,1,no_match_above_threshold
+,0,751752253,Texas Health Harris Methodist Hospital,TX,61225175,1,no_match_above_threshold
+,0,751748586,Texas Health Harris Methodist Hospital Azle,TX,44708893,1,no_match_above_threshold
+,0,432008974,Texas Health Presbyterian Hospital Denton,TX,268648065,1,no_match_above_threshold
+,0,710561765,Baxter County Regional Hospital Inc,AR,291789835,1,no_match_above_threshold
+,0,930396847,MID-VALLEY HEALTHCARE INC,OR,159124980,1,no_match_above_threshold
+,0,263162145,Indiana University Health Arnett Inc,IN,622302384,1,no_match_above_threshold
+,0,815174295,Indiana University Health Frankfort Inc,IN,32364224,1,no_match_above_threshold
+,0,486005089,William Newton Memorial Hospital,KS,50951930,1,no_match_above_threshold
+,0,113438973,WSNCHS NORTH INC,NY,183597889,1,no_match_above_threshold
+,0,922332099,SARH HOLDINGS INC,AR,41190302,1,no_match_above_threshold
+,0,620545814,Morristown-Hamblen Hospital Association,TN,127016752,1,no_match_above_threshold
+,0,752428911,METHODIST CHILDREN'S HOSPITAL,WA,361156138,1,no_match_above_threshold
+,0,344427944,THE SHELBY COUNTY MEMORIAL HOSPITAL,OH,121607594,1,no_match_above_threshold
+,0,884128022,CAMC GREENBRIER VALLEY,WV,103246231,1,no_match_above_threshold
+,0,237441353,MONONGALIA COUNTY GENERAL HOSPITAL CO,WV,349531870,1,no_match_above_threshold
+,0,680273974,SUTTER VALLEY MEDICAL FOUNDATION,CA,1895336160,1,no_match_above_threshold
+,0,871846814,GRMC Inc,MD,59713312,1,no_match_above_threshold
+,0,111986351,The New York Community Hospital of Brooklyn Inc,NY,149384269,1,no_match_above_threshold
+,0,431279063,CH ALLIED SERVICES INC,MO,436756503,1,no_match_above_threshold
+,0,550356996,St Joseph's Hospital of Buckhannon Inc,WV,102153519,1,no_match_above_threshold
+,0,640770155,INDEPENDENT HEALTHCARE MANAGEMENT,MS,49055561,1,no_match_above_threshold
+,0,431707306,Saint Lukes Hospital of Trenton,MO,39164112,1,no_match_above_threshold
+,0,560532309,HIGH POINT REGIONAL HEALTH,NC,458452649,1,no_match_above_threshold
+,0,823914925,NAVICENT HEALTH BALDWIN INC,GA,76968224,1,no_match_above_threshold
+,0,453765471,THE MEDICAL CENTER OF PEACH COUNTY INC,GA,32133186,1,no_match_above_threshold
+,0,582149127,NAVICENT HEALTH INC,GA,188064628,1,no_match_above_threshold
+,0,852985806,ADENA FAYETTE MEDICAL CENTER,OH,57167818,1,no_match_above_threshold
+,0,430738490,SSM CARDINAL GLENNON CHILDREN'S HOSPITAL,MO,391185591,1,no_match_above_threshold
+,0,420670596,SUMNER COMMUNITY CLUB,IA,17804817,1,no_match_above_threshold
+,0,952294234,San Joaquin Community Hospital,CA,592911178,1,no_match_above_threshold
+,0,941415069,Sonora Community Hospital,CA,312218163,1,no_match_above_threshold
+,0,980224967,EZRATH NASHIM - SARAH HERZOG,,53069671,1,no_match_above_threshold
+,0,351064295,DEKALB MEMORIAL HOSPITAL INC,IN,79571392,1,no_match_above_threshold
+,0,941387866,Rideout Memorial Hospital,CA,532121681,1,no_match_above_threshold
+,0,486099245,Labette County Medical Center,KS,99539868,1,no_match_above_threshold
+,0,356001540,Goshen Hospital Association Inc,IN,296198168,1,no_match_above_threshold
+,0,810232124,SCL HEALTH - MONTANA,MT,573951457,1,no_match_above_threshold
+,0,411384358,Warren Community Hospital Inc,MN,16357496,1,no_match_above_threshold
+,,813021580,FOUNDATION HEALTH LLC,AK,364535798,1,no_tokens
+,0,141338465,NATHAN LITTAUER HOSPITAL ASSOCIATION,NY,132050301,1,no_match_above_threshold
+,0,264021016,LUBBOCK HERITAGE HOSPITAL LLC,WA,102203796,1,no_match_above_threshold
+,0,752246348,METHODIST HOSPITAL LEVELLAND,WA,32807021,1,no_match_above_threshold
+,0,752770738,Texas Health Presbyterian Hospital Plano,TX,451744572,1,no_match_above_threshold
+,0,451502252,Texas Health Harris Methodist Hospital,TX,162773388,1,no_match_above_threshold
+,0,111630914,Huntington Hospital Association,NY,672286752,1,no_match_above_threshold
+,0,832099849,BAYCARE PASCO INC,FL,64541273,1,no_match_above_threshold
+,0,590774199,St Joseph's Hospital Inc,FL,1504621129,1,no_match_above_threshold
+,0,592043026,St Anthony's Hospital Inc,FL,473317743,1,no_match_above_threshold
+,0,931305493,SAMARITAN NORTH LINCOLN HOSPITAL,OR,91518850,1,no_match_above_threshold
+,0,351814660,Indiana University Health West Hospital Inc,IN,301026427,1,no_match_above_threshold
+,0,351932442,Indiana University Health North Hospital Inc,IN,338536431,1,no_match_above_threshold
+,0,822736786,Indiana University Health Jay Inc,IN,44942806,1,no_match_above_threshold
+,0,730570773,NEWMAN MEMORIAL HOSPITAL INC,OK,13427233,1,no_match_above_threshold
+,0,390806828,MEMORIAL HOSPITAL INC,WI,41096760,1,no_match_above_threshold
+,0,390872080,SAUK PRAIRIE HEALTHCARE INC,WI,117995485,1,no_match_above_threshold
+,0,210634964,BACHARACH INSTITUTE FOR REHABILITATION,NJ,24411976,1,no_match_above_threshold
+,0,237221763,THE UNITY HOSPITAL OF ROCHESTER,NY,736488329,1,no_match_above_threshold
+,0,881740605,Grant Memorial Hospital Inc,WV,27682868,1,no_match_above_threshold
+,0,560653348,PENDER MEMORIAL HOSPITAL INCORPORATED,NC,36656326,1,no_match_above_threshold
+,0,420504780,ST LUKE'S METHODIST HOSPITAL,IA,471616586,1,no_match_above_threshold
+,0,611297707,CCMH Corporation,KY,24820038,1,no_match_above_threshold
+,0,340714583,CITY HOSPITAL ASSOCIATION,OH,69875374,1,no_match_above_threshold
+,0,540560500,Shore Health Services Inc,VA,99372931,1,no_match_above_threshold
+,0,221487330,SAINT PETER'S UNIVERSITY HOSPITAL,NJ,565533375,1,no_match_above_threshold
+,0,843362602,Saint Luke's Hospital of Allen County Inc,KS,33418290,1,no_match_above_threshold
+,0,363965251,Naperville Psychiatric Ventures,IL,57050836,1,no_match_above_threshold
+,0,990298651,SUTTER HEALTH PACIFIC,HI,25824735,1,no_match_above_threshold
+,0,311626179,UNIVERSITY HEALTH SYSTEM INC,TN,1458694623,1,no_match_above_threshold
+,0,390807236,AGNESIAN HEALTHCARE INC,WI,532077240,1,no_match_above_threshold
+,0,231996150,GEISINGER WYOMING VALLEY MEDICAL,PA,781867667,1,no_match_above_threshold
+,0,870741588,SIMPSON COMMUNITY HEALTHCARE INC,MS,19982557,1,no_match_above_threshold
+,0,942823538,MARIN GENERAL HOSPITAL,CA,580104407,1,no_match_above_threshold
+,0,611570855,Baptist Health Hospitals,AR,31110019,1,no_match_above_threshold
+,0,810515463,LIBERTY COUNTY HOSPITAL & NURSING HOME,MT,8760063,1,no_match_above_threshold
+,0,860320447,SUMMIT HEALTHCARE ASSOCIATION,AZ,284527293,1,no_match_above_threshold
+,0,362181997,FREEPORT MEMORIAL HOSPITAL,IL,154123019,1,no_match_above_threshold
+,0,810232121,Bozeman Deaconess Health Services,MT,179362860,1,no_match_above_threshold
+,0,391365168,CHIPPEWA VALLEY HOSPITAL AND,WI,17469099,1,no_match_above_threshold
+,0,952282647,White Memorial Medical Center,CA,594078714,1,no_match_above_threshold
+,0,042103543,AUSTEN RIGGS CENTER INC,MA,25281439,1,no_match_above_threshold
+,0,160743024,THE FREDERICK FERRIS THOMPSON HOSPITAL,NY,212205452,1,no_match_above_threshold
+,0,141338470,HealthAlliance Hospital,NY,218664174,1,no_match_above_threshold
+,0,237379161,SISTERS OF CHARITY OF LEAVENWORTH HEALTH,CO,838962584,1,no_match_above_threshold
+,0,134111638,WESTCHESTER-ELLENVILLE HOSPITAL INC,NY,28854523,1,no_match_above_threshold
+,0,131740120,HUDSON VALLEY HOSPITAL CENTER,NY,301298952,1,no_match_above_threshold
+,0,411456897,Healtheast St John's Hospital,MN,444306642,1,no_match_above_threshold
+,0,810693478,Deaconess Regional Healthcare Services,IL,77219345,1,no_match_above_threshold
+,0,111661359,Central Suffolk Hospital,NY,344846614,1,no_match_above_threshold
+,0,752678857,Texas Health Harris Methodist Hospital,TX,351650789,1,no_match_above_threshold
+,0,841337350,SOUTHWEST HEALTH SYSTEM INC,CO,78930715,1,no_match_above_threshold
+,0,474654897,ALLIANCE FOR SOUTH SOUND HEALTH,WA,41796935,1,no_match_above_threshold
+,0,382796005,EMMA L BIXBY MEDICAL CENTER,OH,130303035,1,no_match_above_threshold
+,0,810231793,PROVIDENCE HEALTH & SERVICES - MONTANA,WA,505938934,1,no_match_above_threshold
+,0,273532963,Indiana University Health White Memorial Hospital Inc,IN,46930451,1,no_match_above_threshold
+,0,352090919,Indiana University Health Paoli Inc,IN,36322449,1,no_match_above_threshold
+,0,951643359,ST JOSEPH HOSPITAL OF ORANGE,WA,955590803,1,no_match_above_threshold
+,0,550420956,Potomac Valley Hospital of W VA Inc,WV,75042321,1,no_match_above_threshold
+,0,951643360,MISSION HOSPITAL REGIONAL MEDICAL CENTER,WA,838407589,1,no_match_above_threshold
+,0,341623770,JOINT TOWNSHIP DISTRICT,OH,96470628,1,no_match_above_threshold
+,0,270712680,Beavercreek Medical Center,OH,277088779,1,no_match_above_threshold
+,0,844261122,HEALTHPARTNERS RC,MN,31002755,1,no_match_above_threshold
+,0,340719172,Barnesville Hospital Association Inc,OH,25966733,1,no_match_above_threshold
+,0,161576637,MVHS INC,NY,480980012,1,no_match_above_threshold
+,0,390830664,ThedaCare Regional Medical Center - Neenah Inc,WI,230804573,1,no_match_above_threshold
+,0,390808442,WESTFIELDS HOSPITAL INC,MN,89123318,1,no_match_above_threshold
+,0,381984289,MERCY MEMORIAL HOSPITAL CORPORATION,OH,172776811,1,no_match_above_threshold
+,0,010211551,St Mary's Regional Medical Center,ME,267748843,1,no_match_above_threshold
+,0,420680337,UNITY HEALTHCARE,IA,57310435,1,no_match_above_threshold
+,0,431735565,Saint Luke's Hospital of Chillicothe,MO,75948827,1,no_match_above_threshold
+,0,742206635,MISSION HOSPITAL INC,TX,132257728,1,no_match_above_threshold
+,0,951115230,Pomona Valley Hospital Medical Center,CA,819935624,1,no_match_above_threshold
+,0,582149128,MEDICAL CENTER OF CENTRAL GEORGIA INC,GA,960553273,1,no_match_above_threshold
+,0,830343789,WRMC HOSPITAL OPERATING CORPORATION,NC,136791307,1,no_match_above_threshold
+,0,481226831,GREAT PLAINS OF CHEYENNE COUNTY INC,KS,20127868,1,no_match_above_threshold
+,0,420707096,SIOUX VALLEY MEMORIAL HOSPITAL,IA,49591240,1,no_match_above_threshold
+,0,910511770,KAISER FOUNDATION HEALTH PLAN OF WASHINGTON,CA,4536063596,1,no_match_above_threshold
+,0,455055149,ST ANTHONY SHAWNEE HOSPITAL INC,MO,180339975,1,no_match_above_threshold
+,0,746083124,Create Healthy Management,TX,32504204,1,no_match_above_threshold
+,0,873486516,Bryan Hospital Kearney,NE,174468418,1,no_match_above_threshold
+,0,240792115,GEISINGER JERSEY SHORE HOSPITAL,PA,40280785,1,no_match_above_threshold
+,0,640324402,MAGEE BENEVOLENT ASSOCIATION,MS,18254389,1,no_match_above_threshold
+,0,940382780,CHINESE HOSPITAL ASSOCIATION,CA,157836015,1,no_match_above_threshold
+,0,610594620,Memorial Hospital Inc,KY,87531600,1,no_match_above_threshold
+,0,860732836,Cobre Valley Regional Medical Center,AZ,89784044,1,no_match_above_threshold
+,0,370662580,ST MARY'S HOSPITAL CENTRALIA ILLINOIS,MO,101930158,1,no_match_above_threshold
+,0,470408242,CHEYENNE COUNTY HOSPITAL,NE,78259704,1,no_match_above_threshold
+,0,592108057,FLORIDA HOSPITAL ZEPHYRHILLS INC,FL,223927055,1,no_match_above_threshold
+,0,131740122,ST BARNABAS HOSPITAL,NY,549725172,1,no_match_above_threshold
+,0,990107330,Castle Medical Center,HI,247242412,1,no_match_above_threshold
+,0,202401676,COMMUNITY HOSPITAL OF LAGRANGE COUNTY,IN,39767259,1,no_match_above_threshold
+,0,470662290,NORTH PLATTE NEBRASKA HOSPITAL CORP,NE,278922817,1,no_match_above_threshold
+,0,540505913,BATH COMMUNITY HOSPITAL,VA,28472790,1,no_match_above_threshold
+,0,590638499,Variety Children's Hospital,FL,818128603,1,no_match_above_threshold
+,0,150552726,Margaretville Memorial Hospital,NY,18529256,1,no_match_above_threshold
+,0,410714079,ST LUKE'S HOSPITAL OF DULUTH,MN,569937564,1,no_match_above_threshold
+,0,376062326,PANA COMMUNITY HOSPITAL ASSOCIATION,IL,38293735,1,no_match_above_threshold
+,0,150532054,AUBURN COMMUNITY HOSPITAL,NY,167100241,1,no_match_above_threshold
+,0,350835006,Community Hospital of Bremen Inc,IN,28034953,1,no_match_above_threshold
+,0,341883284,LIMA MEMORIAL JOINT OPERATING COMPANY,OH,277790859,1,no_match_above_threshold
+,0,844273963,COVENANT HOSPITAL HOBBS,WA,59813796,1,no_match_above_threshold
+,0,951914489,ST MARY MEDICAL CENTER,WA,386055659,1,no_match_above_threshold
+,0,131740118,NORTHERN WESTCHESTER HOSPITAL ASSOCIATION,NY,460312097,1,no_match_above_threshold
+,0,111639818,John T Mather Memorial Hospital,NY,431660292,1,no_match_above_threshold
+,0,752890358,Texas Health Presbyterian Hospital Allen,TX,121449228,1,no_match_above_threshold
+,0,581734026,UPSON COUNTY HOSPITAL INC,GA,118951025,1,no_match_above_threshold
+,0,833972614,TARZANA MEDICAL CENTER LLC,WA,403744679,1,no_match_above_threshold
+,0,351720796,Indiana University Health Bloomington Inc,IN,779648435,1,no_match_above_threshold
+,0,952413054,EMANATE HEALTH FOOTHILL PRESBYTERIAN,CA,126133188,1,no_match_above_threshold
+,0,811244422,PROVIDENCE ST JOSEPH HEALTH,WA,38993403,1,no_match_above_threshold
+,0,390837206,LAKEVIEW MEDICAL CENTER INC,WI,147611243,1,no_match_above_threshold
+,0,141340054,St Luke's Cornwall Hospital,NY,264121853,1,no_match_above_threshold
+,0,834538290,Dardanelle Regional LLC,AR,19571785,1,no_match_above_threshold
+,0,390973724,FLAMBEAU HOSPITAL INC,WI,37399624,1,no_match_above_threshold
+,0,210634562,VIRTUA-MEMORIAL HOSPITAL BURLINGTON,NJ,383847195,1,no_match_above_threshold
+,0,951643325,ST JUDE HOSPITAL,WA,906306761,1,no_match_above_threshold
+,0,131739922,BLYTHEDALE CHILDREN'S HOSPITAL,NY,102042862,1,no_match_above_threshold
+,0,810463482,PROVIDENCE ST JOSEPH MEDICAL CENTER,WA,55318685,1,no_match_above_threshold
+,0,550483245,Princeton Community Hospital Association,WV,291126914,1,no_match_above_threshold
+,0,550462730,Community Health Association,WV,47778758,1,no_match_above_threshold
+,0,396089134,ThedaCare Medical Center - Wild Rose Inc,WI,13087272,1,no_match_above_threshold
+,0,840586742,TRINIDAD AREA HEALTH ASSOCIATION,CO,47126509,1,no_match_above_threshold
+,0,390824015,ThedaCare Regional Medical Center - Appleton Inc,WI,370297738,1,no_match_above_threshold
+,0,150532245,ST ELIZABETH COMMUNITY HEALTH SUPPORT,NY,217590223,1,no_match_above_threshold
+,0,921715117,CAMC PLATEAU MEDICAL CENTER INC,WV,33743126,1,no_match_above_threshold
+,0,843134268,MASSENA HOSPITAL INC,NY,59894640,1,no_match_above_threshold
+,0,160743966,CLIFTON SPRINGS SANITARIUM CO,NY,124993057,1,no_match_above_threshold
+,0,472540179,KAPLAN GENERAL HOSPITAL,LA,27683708,1,no_match_above_threshold
+,0,880405927,Washoe Barton Medical Clinic,NV,89241730,1,no_match_above_threshold
+,0,221487173,ENGLEWOOD HOSPITAL AND MEDICAL CENTER,NJ,1079153438,1,no_match_above_threshold
+,0,221546163,Christian Health Care Center,NJ,89131913,1,no_match_above_threshold
+,0,743177454,RICHMOND MEDICAL CENTER,NY,452422497,1,no_match_above_threshold
+,0,824971362,SALEM COUNTY HOSPITAL CORP,NJ,44532296,1,no_match_above_threshold
+,0,560543246,FLETCHER HOSPITAL INC,NC,265953729,1,no_match_above_threshold
+,0,391028081,BELOIT HEALTH SYSTEM INC,WI,273155219,1,no_match_above_threshold
+,0,912154267,MEMORIAL SLOAN-KETTERING CANCER CENTER,NY,7188709398,1,no_match_above_threshold
+,0,314379443,ADENA HEALTH SYSTEM,OH,684454300,1,no_match_above_threshold
+,0,880770775,CLARK COUNTY HOSPITAL SERVICES,OH,31387753,1,no_match_above_threshold
+,0,160755799,ORLEANS COMMUNITY HEALTH,NY,34142048,1,no_match_above_threshold
+,0,640889822,Methodist Healthcare-Olive Branch Hospital,MS,110763881,1,no_match_above_threshold
+,0,450233470,Banner Health,AZ,8672348619,32,no_match_above_threshold
+,0,942854057,IHC HEALTH SERVICES INC,UT,8793797318,23,no_match_above_threshold
+,0,611740292,COREWELL HEALTH GROUP RETURN,MI,10229587760,21,no_match_above_threshold
+,0,383952644,MAYO CLINIC GROUP RETURN,MN,13778960002,19,no_match_above_threshold
+,0,010649794,Hackensack Meridian Health Inc-Subordinates,NJ,7143661248,18,no_match_above_threshold
+,0,541547408,SENTARA HOSPITALS,VA,3500319133,15,no_match_above_threshold
+,0,851296795,RWJ BARNABAS HEALTH INC - SUBORDINATES,NJ,7170718931,15,no_match_above_threshold
+,0,900059117,UNIVERSITY HOSPITALS HEALTH SYSTEM INC,OH,5327693875,15,no_match_above_threshold
+,0,370813229,OSF Healthcare System,IL,3012001625,13,no_match_above_threshold
+,0,741152597,Memorial Hermann Health System,TX,6952309636,13,no_match_above_threshold
+,0,362193608,SHRINERS HOSPITALS FOR CHILDREN,FL,1035044060,10,no_match_above_threshold
+,0,910939479,PEACEHEALTH,WA,3555611223,10,no_match_above_threshold
+,0,941156621,SUTTER VALLEY HOSPITALS,CA,4221939186,10,no_match_above_threshold
+,0,741287016,Methodist Healthcare Ministries of South Texas Inc,TX,139706747,10,no_match_above_threshold
+,0,208065139,PRIME HEALTHCARE FOUNDATION INC,CA,817213812,10,no_match_above_threshold
+,0,520795508,APPALACHIAN REGIONAL HEALTHCARE,KY,901932107,9,no_match_above_threshold
+,0,363261413,ALLINA HEALTH SYSTEM,MN,5578317306,9,no_match_above_threshold
+,0,911352172,MULTICARE HEALTH SYSTEM,WA,4497628502,9,no_match_above_threshold
+,0,811723202,Prisma Health-Upstate,SC,2274451398,8,no_match_above_threshold
+,0,620476282,Mountain States Health Alliance,TN,957777045,8,no_match_above_threshold
+,0,561376950,NOVANT HEALTH INC,NC,3902611082,8,no_match_above_threshold
+,0,741109665,Christus Santa Rosa Health Care Corporation,TX,1114345446,7,no_match_above_threshold
+,0,741109836,Christus Spohn Health System Corporation,TX,893214241,7,no_match_above_threshold
+,0,741356589,ST DAVID'S FOUNDATION,TX,97060491,7,no_match_above_threshold
+,0,340714585,THE CLEVELAND CLINIC FOUNDATION,OH,8518490199,7,no_match_above_threshold
+,0,742427148,GEORGETOWN HEALTHCARE SYSTEM INC,TX,4309339,7,no_match_above_threshold
+,0,311373080,MERCY HEALTH SERVICES - IOWA CORP,IA,967106603,6,no_match_above_threshold
+,0,320007056,OhioHealth Corporation Group Return,OH,2012252247,6,no_match_above_threshold
+,0,621636465,Wellmont Health System,TN,813767456,6,no_match_above_threshold
+,0,362169147,ADVOCATE HEALTH AND HOSPITALS CORP,IL,7524374137,6,no_match_above_threshold
+,0,810977948,MCHS HOSPITALS INC,WI,1683214057,6,no_match_above_threshold
+,0,043651340,TUBA CITY REGIONAL,AZ,240306876,5,no_match_above_threshold
+,0,951684089,SCRIPPS HEALTH,CA,4090065520,5,no_match_above_threshold
+,0,411813221,CENTRACARE HEALTH SYSTEM,MN,522159955,5,no_match_above_threshold
+,0,840438224,Portercare Adventist Health System,CO,1468547151,5,no_match_above_threshold
+,0,232829095,THOMAS JEFFERSON UNIVERSITY HOSPITALS INC,PA,2490851477,5,no_match_above_threshold
+,0,731444504,INTEGRIS RURAL HEALTH INC,OK,316307800,5,no_match_above_threshold
+,0,231352160,Main Line Hospitals Inc,PA,1673232141,5,no_match_above_threshold
+,0,350869066,ST VINCENT HOSPITAL AND HEALTH CARE CENTER INC,MO,1344839298,5,no_match_above_threshold
+,0,731192765,INTEGRIS AMBULATORY CARE CORP,OK,287905583,5,no_match_above_threshold
+,0,752702388,Texas Health Resources,TX,917939921,5,no_match_above_threshold
+,0,320483994,AULTMAN HEALTH FOUNDATION GROUP RETURN,OH,978429267,5,no_match_above_threshold
+,0,521988421,Bon Secours - Richmond Health System Inc,OH,1813035806,5,no_match_above_threshold
+,0,620479367,Methodist Healthcare-Memphis Hospitals,TN,2024744712,5,no_match_above_threshold
+,0,410991680,Fairview Health Services,MN,4384272662,5,no_match_above_threshold
+,0,560845796,CUMBERLAND COUNTY HOSPITAL SYSTEM INC,NC,1096544980,4,no_match_above_threshold
+,0,912155626,UMass Memorial Health Care Inc & Affiliates,MA,3580384522,4,no_match_above_threshold
+,0,561936354,FIRSTHEALTH OF THE CAROLINAS INC,NC,1096646867,4,no_match_above_threshold
+,0,042121317,NORTHEAST HOSPITAL CORPORATION,MA,441021888,4,no_match_above_threshold
+,0,392014409,FROEDTERT HEALTH INC,WI,990329085,4,no_match_above_threshold
+,0,352391110,MEMORIAL HEALTH SERVICES GROUP RETURN,CA,2904359316,4,no_match_above_threshold
+,0,751037226,Baylor Institute for Rehabilitation,TX,544,4,no_match_above_threshold
+,0,364195126,Presence Central and Suburban Hospitals Network,MO,875395401,4,no_match_above_threshold
+,0,590634434,Sacred Heart Health System Inc,MO,1534567941,4,no_match_above_threshold
+,0,231352213,ST LUKE'S HOSPITAL OF BETHLEHEM PA,PA,1410835435,4,no_match_above_threshold
+,0,460360899,Monument Health Network Inc,SD,200759854,4,no_match_above_threshold
+,0,391834639,COLUMBIA ST MARY'S INC,MO,198377369,4,no_match_above_threshold
+,0,843178470,U OF L HEALTH - LOUISVILLE INC,KY,1176817380,4,no_match_above_threshold
+,0,760591590,Christus Health Southeast Texas,TX,447133545,4,no_match_above_threshold
+,0,814791043,ST JOSEPH HEALTH NORTHERN CALIFORNIA,WA,1532418565,4,no_match_above_threshold
+,0,310621866,Kettering Medical Center,OH,1008666396,4,no_match_above_threshold
+,0,362167060,Endeavor Health Clinical Operations,IL,2138844757,4,no_match_above_threshold
+,0,210634484,INSPIRA MEDICAL CENTERS INC,NJ,1083547264,4,no_match_above_threshold
+,0,223548695,CAPITAL HEALTH SYSTEM INC,NJ,1140860407,4,no_match_above_threshold
+,0,370618939,Southern Illinois Hospital Services,IL,656827300,3,no_match_above_threshold
+,0,610920842,BOWLING GREEN WARREN COUNTY COMMUNITY,KY,478554310,3,no_match_above_threshold
+,0,660219758,MENNONITE GENERAL HOSPITAL INC,PR,269723513,3,no_match_above_threshold
+,0,930223960,ASANTE,OR,1097915984,3,no_match_above_threshold
+,0,582296052,Prisma Health-Midlands,SC,1408612955,3,no_match_above_threshold
+,0,581694090,NORTHEAST GEORGIA HEALTH SYSTEM INC,GA,351638024,3,no_match_above_threshold
+,0,440577118,LESTER E COX MEDICAL CENTERS,MO,1611918444,3,no_match_above_threshold
+,0,752796815,Christus Health Ark-La-Tex,TX,434603547,3,no_match_above_threshold
+,0,831605004,OCHSNER LSU HEALTH SYSTEM OF NORTH,LA,1064566596,3,no_match_above_threshold
+,0,480543721,St Catherine Hospital,KS,175346825,3,no_match_above_threshold
+,0,470376601,SAINT FRANCIS MEDICAL CENTER,NE,145221139,3,no_match_above_threshold
+,0,581716804,Saint Thomas Health,MO,172803809,3,no_match_above_threshold
+,0,271672159,KVC HOSPITALS INC,KS,47067786,3,no_match_above_threshold
+,0,582032904,KENNESTONE HOSPITAL INC,GA,1374071696,3,no_match_above_threshold
+,0,221773439,KENNEDY UNIVERSITY HOSPITAL INC,PA,782911904,3,no_match_above_threshold
+,0,470484764,ALEGENT HEALTH - BERGAN MERCY HEALTH,NE,685216987,3,no_match_above_threshold
+,0,820551704,Baylor Regional Medical Center at Plano,TX,254902000,3,no_match_above_threshold
+,0,273850988,UC HEALTHCARE SYSTEM,OH,2492934682,3,no_match_above_threshold
+,0,470757164,ALEGENT CREIGHTON HEALTH,NE,500282312,3,no_match_above_threshold
+,0,813040663,Baylor Scott & White Medical Centers-,TX,110586630,3,no_match_above_threshold
+,0,232201344,TOWER HEALTH,PA,619770704,3,no_match_above_threshold
+,0,540506321,CHILDREN'S HOSPITAL OF THE KING'S,VA,622022674,3,no_match_above_threshold
+,0,251801532,VALLEY MEDICAL FACILITIES INC,PA,475038986,3,no_match_above_threshold
+,0,452696517,ARH MARY BRECKINRIDGE HEALTH SERVICE,KY,88885232,3,no_match_above_threshold
+,0,231352156,The American Oncologic Hospital,PA,295262904,3,no_match_above_threshold
+,0,230596940,JEFFERSON HEALTH - NORTHEAST,PA,654563468,3,no_match_above_threshold
+,0,591113901,University Community Hospital Inc,FL,1108019538,3,no_match_above_threshold
+,0,420680452,CENTRAL IOWA HOSPITAL CORPORATION,IA,1093018768,3,no_match_above_threshold
+,0,720535375,LAFAYETTE GENERAL MEDICAL CENTER INC,LA,632536734,3,no_match_above_threshold
+,0,452964467,BON SECOURS CHARITY HEALTH SYSTEM AFFILIATED GROUP,NY,698641924,3,no_match_above_threshold
+,0,430688874,SSM HEALTH CARE OF WISCONSIN INC,MO,751943258,3,no_match_above_threshold
+,0,636000090,THE HEALTH CARE AUTHORITY OF THE CITY OF,AL,284966671,2,no_match_above_threshold
+,0,640362400,ANDERSON REGIONAL MEDICAL CENTER,MS,298831964,2,no_match_above_threshold
+,0,943480131,LOUISIANA CHILDREN'S MEDICAL CENTER,LA,1689417616,2,no_match_above_threshold
+,0,560603898,HARNETT HEALTH SYSTEM INC,NC,129542076,2,no_match_above_threshold
+,0,591009537,CENTERSTONE OF FLORIDA INC,TN,56657367,2,no_match_above_threshold
+,0,581911751,SOUTHEAST GEORGIA HEALTH SYSTEM INC,GA,412118561,2,no_match_above_threshold
+,0,941156276,FRESNO COMMUNITY HOSPITAL,CA,2349133160,2,no_match_above_threshold
+,0,364113692,RML Health Providers Limited Partnership,IL,116129140,2,no_match_above_threshold
+,0,630891904,GULF HEALTH HOSPITALS INC DBA,AL,308148442,2,no_match_above_threshold
+,0,010234189,Northern Maine Medical Center,ME,72165102,2,no_match_above_threshold
+,0,146049030,Garnet Health Medical Center - Catskills,NY,106115092,2,no_match_above_threshold
+,0,840255530,LUTHERAN HOSPITAL ASSOC OF THE SAN LUIS,CO,123277692,2,no_match_above_threshold
+,0,611286361,Owensboro Health Inc,KY,681442951,2,no_match_above_threshold
+,0,042103590,THE LOWELL GENERAL HOSPITAL,MA,590309347,2,no_match_above_threshold
+,0,341048666,COMMUNITY HOSPITALS & WELLNESS CENTERS,OH,122376813,2,no_match_above_threshold
+,0,566017737,WakeMed,NC,2092838776,2,no_match_above_threshold
+,0,390910727,PROHEALTH WAUKESHA MEMORIAL,WI,551613171,2,no_match_above_threshold
+,0,591284678,VILLA MARIA NURSING &,FL,45146020,2,no_match_above_threshold
+,0,900054984,CAPE COD HEALTHCARE INC & AFFILIATES,MA,1058856363,2,no_match_above_threshold
+,0,480543789,Stormont-Vail Heathcare Inc,KS,949139008,2,no_match_above_threshold
+,0,590624371,HOLMES REGIONAL MEDICAL CENTER INC,FL,818945818,2,no_match_above_threshold
+,0,820161600,St Luke's Regional Medical Center Ltd,ID,2372886232,2,no_match_above_threshold
+,0,800764192,Orlando Health Central Inc,FL,362606275,2,no_match_above_threshold
+,0,562570686,St Luke's Magic Valley Regional Medical,ID,575105839,2,no_match_above_threshold
+,0,710240352,MERCY HOSPITAL FORT SMITH,AR,409948523,2,no_match_above_threshold
+,0,750818167,Mother Frances Hospital Regional Health Care Center,TX,1176636779,2,no_match_above_threshold
+,0,860098923,YAVAPAI COMMUNITY HOSPITAL ASSOCIATION,AZ,479180916,2,no_match_above_threshold
+,0,752586857,Baylor Medical Center at Irving,TX,280828367,2,no_match_above_threshold
+,0,030240129,NORTHEAST WASHINGTON COUNTY,VT,11312741,2,no_match_above_threshold
+,0,630931008,St Vincent's Health System,MO,118823465,2,no_match_above_threshold
+,0,460225483,Sacred Heart Health Services,SD,144472709,2,no_match_above_threshold
+,0,540696355,UVA PRINCE WILLIAM MEDICAL CENTER,VA,321086555,2,no_match_above_threshold
+,0,800785570,TANNER MEDICAL CENTER GROUP RETURN,GA,398924775,2,no_match_above_threshold
+,0,231352203,ST LUKE'S QUAKERTOWN HOSPITAL,PA,162526501,2,no_match_above_threshold
+,0,430653493,MERCY HOSPITALS EAST COMMUNITIES,MO,1486584712,2,no_match_above_threshold
+,0,381358212,ASCENSION PROVIDENCE HOSPITAL,MO,904524555,2,no_match_above_threshold
+,0,240795623,LEHIGH VALLEY HOSPITAL - POCONO,PA,341116612,2,no_match_above_threshold
+,0,421418847,Genesis Health System,IA,626348697,2,no_match_above_threshold
+,0,362276984,ADVENTIST MIDWEST HEALTH,IL,295395406,2,no_match_above_threshold
+,0,470376615,ALEGENT HEALTH-IMMANUEL MEDICAL CENTER,NE,199520605,2,no_match_above_threshold
+,0,520591684,SHEPPARD PRATT HEALTH SYSTEM INC,MD,283693596,2,no_match_above_threshold
+,0,440661018,TRUMAN MEDICAL CENTER INCORPORATED,MO,767269440,2,no_match_above_threshold
+,0,465322209,PORT CITY OPERATING COMPANY LLC,CA,726724303,2,no_match_above_threshold
+,0,510064318,BAYHEALTH MEDICAL CENTER INC,DE,980864877,2,no_match_above_threshold
+,0,391390638,ASPIRUS RHINELANDER & TOMAHAWK HOSPITALS,WI,240856228,2,no_match_above_threshold
+,0,750974351,CHRISTUS Good Shepherd Medical Center,TX,548167173,2,no_match_above_threshold
+,0,720408984,Christus Health Central Louisiana,LA,388522556,2,no_match_above_threshold
+,0,470379755,GOOD SAMARITAN HOSPITAL,NE,176723845,2,no_match_above_threshold
+,0,390806315,COLUMBIA ST MARY'S HOSPITAL MILWAUKEE INC,MO,984564500,2,no_match_above_threshold
+,0,430652680,ST LUKE'S EPISCOPAL-PRESBYTERIAN,MO,581965046,2,no_match_above_threshold
+,0,741161938,CHI ST LUKE'S HEALTH BAYLOR COLLEGE OF,TX,1207202796,2,no_match_above_threshold
+,0,720423635,OUR LADY OF LOURDES REGIONAL MEDICAL,LA,525120005,2,no_match_above_threshold
+,0,621113169,SHELBY COUNTY HEALTH CARE CORPORATION,TN,729281763,2,no_match_above_threshold
+,0,396105970,FROEDTERT MEMORIAL LUTHERAN HOSPITAL,WI,2387419901,2,no_match_above_threshold
+,0,720411322,Christus Health Southwestern Louisiana,LA,331433752,2,no_match_above_threshold
+,0,620347580,Saint Thomas West Hospital,MO,1052532589,2,no_match_above_threshold
+,0,204943109,LANCASTER GENERAL HEALTH HOLDINGS INC,PA,2905283,2,no_match_above_threshold
+,0,760536234,ST LUKE'S COMMUNITY HEALTH SERVICES,TX,319428503,2,no_match_above_threshold
+,0,390816848,Mercy Health System Corporation,WI,626620672,2,no_match_above_threshold
+,0,341369963,BLANCHARD VALLEY REGIONAL HEALTH CENTER,OH,314615141,2,no_match_above_threshold
+,0,161523353,Mount St Mary's Hospital,NY,131469122,2,no_match_above_threshold
+,0,850513259,NORTON HEALTHCARE-INDIANA INC,KY,54667607,2,no_match_above_threshold
+,0,111562701,NORTH SHORE UNIVERSITY HOSPITAL,NY,3610393010,2,no_match_above_threshold
+,0,590624462,Morton Plant Hospital Association Inc,FL,943916546,2,no_match_above_threshold
+,0,454171900,WESTERN HEALTHCONNECT,WA,165234134,2,no_match_above_threshold
+,0,131740127,ST JOSEPH'S HOSPITAL YONKERS,NY,295086030,2,no_match_above_threshold
+,0,460517825,Renown South Meadows Medical Center,NV,166213931,2,no_match_above_threshold
+,0,742225672,METROPLEX ADVENTIST HOSPITAL INC,TX,176998050,2,no_match_above_threshold
+,0,900779996,CHILDREN'S HEALTHCARE OF ATLANTA GROUP RETURN,GA,2186845577,2,no_match_above_threshold
+,0,205126945,BMH INC,ID,176545912,2,no_match_above_threshold
+,0,910171250,Central Washington Health Services,WA,621962150,2,no_match_above_threshold
+,0,581425000,ADVENTIST HEALTH SYSTEM GEORGIA INC,GA,254401243,2,no_match_above_threshold
+,0,161165049,UNITED HEALTH SERVICES HOSPITALS INC,NY,1008162476,2,no_match_above_threshold
+,0,940535360,Hanford Community Hospital,CA,388688527,2,no_match_above_threshold
+,0,112868878,STATEN ISLAND UNIVERSITY HOSPITAL,NY,1435469278,2,no_match_above_threshold
+,0,210634532,VIRTUA - WEST JERSEY HEALTH SYSTEM INC,NJ,913724423,2,no_match_above_threshold
+,0,390812532,CHILDREN'S HOSPITAL OF WISCONSIN INC,WI,924379791,2,no_match_above_threshold
+,0,160743102,OLEAN GENERAL HOSPITAL,NY,210475779,2,no_match_above_threshold
+,0,711045290,HOUSTON HOSPITALS INC,GA,305974548,2,no_match_above_threshold
+,0,540853898,POTOMAC HOSPITAL CORPORATION,VA,311653202,2,no_match_above_threshold
+,0,160756336,Mercy Hospital of Buffalo,NY,497065337,2,no_match_above_threshold
+,0,473448483,BENEFIS COMMUNITY HOSPITALS INC,MT,15628748,2,no_match_above_threshold
+,0,262037695,GRADY MEMORIAL HOSPITAL CORPORATION,GA,2185617947,2,no_match_above_threshold
+,0,941461843,JOHN MUIR HEALTH,CA,1857908955,2,no_match_above_threshold
+,0,730657693,SSM HEALTH CARE OF OKLAHOMA INC,MO,1018287789,2,no_match_above_threshold
+,0,951683892,COMMUNITY MEMORIAL HEALTH SYSTEM,CA,620423696,2,no_match_above_threshold
+,0,310785684,Community Mercy Health Partners,OH,362101100,2,no_match_above_threshold
+,0,540261840,MARTHA JEFFERSON HOSPITAL,VA,419971946,2,no_match_above_threshold
+,0,751047527,Texas Health Presbyterian Hospital Dallas,TX,761823477,2,no_match_above_threshold
+,0,310564121,Dayton Osteopathic Hospital,OH,719623772,2,no_match_above_threshold
+,0,590634433,THE NEMOURS FOUNDATION,FL,1828571024,2,no_match_above_threshold
+,0,381901104,MADISON COMMUNITY HOSPITAL INC,MI,17421675,2,no_match_above_threshold
+,0,581973570,FLOYD HEALTHCARE MANAGEMENT INC,GA,681589679,2,no_match_above_threshold
+,0,941279779,St Helena Hospital,CA,314367879,2,no_match_above_threshold
+,0,132997301,ST LUKE'S-ROOSEVELT HOSPITAL CENTER,NY,1725289600,2,no_match_above_threshold
+,0,135564934,BETH ISRAEL MEDICAL CENTER,NY,1216012722,2,no_match_above_threshold
+,0,941044474,Lodi Memorial Hospital Association Inc,CA,299101595,2,no_match_above_threshold
+,0,750800628,CHILDREN'S HEALTH SYSTEM OF TEXAS,TX,2098331314,2,no_match_above_threshold
+,0,201486678,ADVENTIST REHABILITATION HOSPITAL OF,MD,64053308,2,no_match_above_threshold
+,0,430654874,SOUTHEAST HOSPITAL,MO,532335708,2,no_match_above_threshold

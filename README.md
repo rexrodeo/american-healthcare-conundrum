@@ -8,7 +8,7 @@ This project finds it, one issue at a time. Each issue identifies one fixable pr
 
 ---
 
-> **Latest Issue (#12): [The Consolidation Tax](issue_12/newsletter_issue_12.md)** — When two hospitals in the same market merge, the insurer that used to play them off each other loses leverage. Commercial rates rise. Self-insured employers eat the premium increase and offset it by suppressing the next wage cycle. Using a panel of 1,155 CMS ownership-change events across 2018–2025 — narrowed to 530 horizontal hospital mergers in 315 unique Hospital Service Areas with a mean HHI shift of 2,318 points — and a four-anchor coefficient band (Cooper QJE 2019, Dafny RAND J Econ 2019, FTC Evanston Working Paper 307, Brot-Goldberg et al. NBER 2024) applied piecewise to the actual computed HHI shift in each market, we book **$13B/year** (range $25–50B before overlap subtractions). [Read it on Substack →](https://andrewrexroad.substack.com/p/issue-12-the-consolidation-tax)
+> **Latest Issue (#13): [The Nonprofit Lie](issue_13/newsletter_issue_13.md)** — Two-thirds of US hospitals operate as 501(c)(3) nonprofits and pay no federal income tax, no state income tax, no property tax, and no sales tax. In exchange they owe a community-benefit obligation. We pulled FY2023 Form 990 Schedule H filings directly from IRS bulk XML for 2,103 nonprofit hospital filers (76% of panel expenses) and joined them to CMS HCRIS audited charity care for a panel of 3,005 nonprofit hospitals. The total tax exemption value is $46.4B per year; the audited charity care delivered is $17.2B. Eighty-six percent of nonprofit hospitals fail the narrow Herring 2018 test (audited charity care below tax-exemption value); the aggregate gap on the failing hospitals is $31.3B. After overlap subtractions with Issues #3 and #12 and a conservative 53% recoverability factor, we book **$5.4B/year** (range $4.1–7.1B). [Read it on Substack →](https://andrewrexroad.substack.com/p/issue-13-the-nonprofit-lie)
 
 ---
 
@@ -28,11 +28,12 @@ This project finds it, one issue at a time. Each issue identifies one fixable pr
 | 10 | [The Procedure Mill](issue_10/newsletter_issue_10.md) | $7.6B/yr | Full CY2023 CMS PUF analysis (268,634 rows) of the 31-service Schwartz/Mafi/Choosing Wisely list; state-level P90/P10 spread of 6.7x in low-value Medicare spending per beneficiary, with an all-payer extension and a defensive-medicine difference-in-differences slice | CMS Provider Utilization, Hospital Outpatient, and Geographic Variation PUFs CY2023; Schwartz et al. 2014; Kim & Fendrick JAMA Health Forum 2025; Avraham DSTLR 7.1 |
 | 11 | [The MA Overpayment](issue_11/newsletter_issue_11.md) | $28.0B/yr | $76B total MA-FFS payment gap (MedPAC March 2026); coding-intensity slice booked at $28B for 2025 with V24 vs. V28 sensitivity band of $19.2B–$44.8B computed from CMS Geographic Variation PUFs; HRA decomposition and state-level allocation original; cross-validated against Kronick et al. 2025 ($33B for 2021) and OIG HRA audits | MedPAC March 2026; Kronick et al. *Annals of Internal Medicine* 2025; CMS Geographic Variation PUFs (MA + FFS); HHS-OIG HRA audits 2020 and 2024; CMS HCC risk-adjustment model files; DOJ FCA settlement track |
 | 12 | [The Consolidation Tax](issue_12/newsletter_issue_12.md) | $13.0B/yr | Panel of 1,155 ownership-change events across 2018–2025 from CMS POS, narrowed to 530 horizontal hospital mergers in 315 unique HSAs with mean HHI shift of 2,318 points; piecewise HHI-dependent coefficient (Cooper / Dafny / FTC Evanston / Brot-Goldberg anchors) applied per market, net of $3.47B Issue #3 hospital-pricing overlap and $0.87B Issue #15 vertical-integration overlap | CMS POS annual snapshots 2018–2025; CMS HCRIS FY2018–FY2023; Dartmouth ZIP-HSA-HRR crosswalk; Cooper QJE 2019; Dafny RAND J Econ 2019; FTC Working Paper 307; Brot-Goldberg et al. NBER WP 32613 (Feb 2026 rev); Fulton et al. Health Affairs 2022 |
-| | **Running Total** | **$483.8B/yr** | **14.9% of the $3.24T gap** | |
+| 13 | [The Nonprofit Lie](issue_13/newsletter_issue_13.md) | $5.4B/yr | Panel of 3,005 nonprofit hospitals from CMS HCRIS FY2023 joined to per-filer Form 990 Schedule H pulled directly from IRS bulk XML (2,103 filers, 76% of panel expenses); 86% of nonprofit hospitals deliver less audited charity care than the value of their tax exemption (narrow Herring 2018 test); aggregate tax exemption $46.4B vs. audited charity care $17.2B; booked figure net of overlap with Issues #3 and #12 at 53% recoverability | CMS HCRIS FY2023 (Worksheet S-10, charity at cost); IRS Form 990 Schedule H 2023 (per-filer XML); Plummer, Socal, Bai *JAMA* 2024 (tax-exemption valuation method); Bai/Yehia/Chen/Anderson *Health Affairs* 2021 (broad-subset community benefit); Herring et al. *Health Affairs* 2018 (narrow-test benchmark); HHS OIG Schedule H studies |
+| | **Running Total** | **$489.2B/yr** | **15.1% of the $3.24T gap** | |
 
 *Issue #9 is the first issue at the revised $3.24T denominator (CMS NHE 2024 final, released April 18, 2026). Issues #1–#8 published using the prior $3T denominator and are not retrofitted.*
 
-![Savings Tracker](issue_12/figures/chart5_savings_tracker.png)
+![Savings Tracker](issue_13/figures/chart5_savings_tracker.png)
 
 ---
 
@@ -47,6 +48,87 @@ The same operations. Exposed to the same clinical evidence. Wildly different pri
 ---
 
 ## Published Issues
+
+### Issue #13 — The Nonprofit Lie (~$5.4B/year)
+
+Sixty-seven percent of US hospitals operate as 501(c)(3) nonprofit, tax-exempt entities. In exchange for that exemption — no federal income tax, no state income tax, no property tax, no sales tax, and the ability to issue tax-exempt municipal bonds — the law requires a community-benefit obligation. We computed both sides of that exchange, hospital by hospital, for a panel of 3,005 nonprofit hospitals filing complete FY2023 Medicare cost reports. The aggregate value of the federal, state, and local tax exemption is $46.4 billion per year (federal income $17.0B; sales $11.4B; property $9.7B; state income $4.8B; tax-exempt bond subsidy $2.4B; charitable-deduction pass-through $1.0B; FUTA $0.1B), valued using the Plummer/Socal/Bai *JAMA* 2024 method. The audited charity care those hospitals deliver, from CMS HCRIS Worksheet S-10, is $17.2 billion per year. To close the data gap that has bounded prior nonprofit-hospital research, we pulled Form 990 Schedule H Part I directly from the IRS bulk XML for 2,103 filers (76 percent of panel expenses), with the remaining 24 percent falling back to HCRIS S-10 charity care uplifted to the Schedule H broad subset at the sector ratio. Under the narrow Herring 2018 test (audited charity care vs. tax-exemption value), 86 percent of the 3,005 hospitals fail, with an aggregate failing-hospital gap of $31.3 billion per year. Under the broad Bai 2021 Schedule H test (which adds Medicaid shortfall, community health, and subsidized services), 44 percent of hospitals fail with an aggregate gap of $11.9 billion. After deducting overlaps with Issues #3 (hospital pricing, $0.60B) and #12 (consolidation tax, $1.19B) and applying a 53 percent recoverability factor reflecting state revocation precedent (Provena, UPMC consent decree) and IRS enforcement realism, we book **$5.4 billion per year** (range $4.1B–$7.1B). The headline ownership comparison: government hospitals deliver 3.56 percent of operating expenses in charity care, for-profit hospitals 3.14 percent, and nonprofits 1.86 percent.
+
+![Charity Care Share by Ownership Type, FY2023](issue_13/figures/chart1_charity_share_by_ownership.png)
+
+*Source: CMS HCRIS FY2023 Worksheet S-10, 3,005 nonprofit hospitals plus 1,576 for-profit and 911 government hospitals for comparison.*
+
+**Read the full analysis →** [`issue_13/newsletter_issue_13.md`](issue_13/newsletter_issue_13.md)
+
+<details>
+<summary>Reproducing the analysis</summary>
+
+```bash
+cd issue_13
+
+# Pull per-filer Form 990 Schedule H Part I from IRS bulk XML (2,103 filers)
+python 02_schedule_h_pull.py
+python 02b_run_batches.py
+
+# Build the EIN to CCN crosswalk (joins IRS filers to CMS hospital identifiers)
+python 03_build_crosswalk.py
+
+# Main analysis: tax-exemption valuation, narrow + broad community-benefit tests,
+# state-level decomposition, overlap subtractions, recoverability sensitivity
+python 01_build_data.py
+
+# Generate all five charts plus hero
+python generate_all_charts.py
+```
+
+**Key outputs:**
+- `results/savings_estimate.json` — Booked $5.38B, range $4.06–$7.11B, overlap subtractions, recoverability sensitivity
+- `results/gap_panel.csv` — 3,005-hospital panel with narrow- and broad-test gaps
+- `results/per_hospital_tax_exemption.csv` — Per-hospital tax-exemption valuation (7 components)
+- `results/per_hospital_community_benefit.csv` — Per-hospital audited charity care plus Schedule H broad subset
+- `results/per_filer_schedule_h.csv` — Per-filer Schedule H Part I pulled from IRS bulk XML (2,103 filers)
+- `results/ein_ccn_crosswalk.csv` — IRS EIN to CMS CCN matched on filer name and state
+- `results/savings_by_state.csv` — State-level decomposition of failing-hospital gap
+- `results/overlap_subtractions.csv` — Overlap accounting against Issues #3 and #12
+- `results/cross_validation.csv` — Cross-validation against Herring 2018, Bai 2021, Plummer 2024
+- `results/methodology.md` — Full methodology including the v3 Schedule H pull patch and recoverability rationale
+- `results/originality_gate.md` — Stage 3.5 originality-gate verdict and adversarial-math notes
+- `results/schedule_h_pull_coverage.json` — Match coverage statistics for the IRS bulk pull
+
+</details>
+
+<details>
+<summary>Data sources</summary>
+
+| Source | Description |
+|--------|-------------|
+| CMS HCRIS HOSP10-REPORTS FY2023, Worksheet S-10 (charity at cost) and Worksheet A | Audited charity care and operating expenses for 3,005 nonprofit hospitals (plus for-profit and government for ownership comparison) |
+| IRS Form 990 Schedule H Part I, FY2023 (bulk XML, IRS DOWNLOAD-990 archive) | Per-filer community-benefit reporting for 2,103 nonprofit hospital filers covering 76% of panel expenses |
+| Plummer/Socal/Bai *JAMA* 2024 (DOI 10.1001/jama.2024.0349) | Tax-exemption valuation methodology (federal income, state income, property, sales, FUTA, charitable deduction pass-through, tax-exempt bond subsidy) |
+| Bai/Yehia/Chen/Anderson *Health Affairs* 2021;40(4):629–636 (DOI 10.1377/hlthaff.2020.01627) | Broad-subset community-benefit test and ownership comparison framework |
+| Herring/Gaskin/Zare/Anderson *Health Affairs* 2018;37(3):485–493 (DOI 10.1377/hlthaff.2017.1207) | Narrow-test benchmark (audited charity care vs. tax-exemption value) |
+| HHS OIG Schedule H studies (2020, 2023) | Schedule H reliability and Medicaid shortfall composition |
+| ProPublica Nonprofit Explorer NTEE-E top-10K filer universe | Filer universe for the EIN-CCN crosswalk |
+| *Provena Covenant Medical Center v. IDOR*, 236 Ill. 2d 368 (2010); *Pennsylvania OAG v. UPMC* consent decree (2019) | State revocation precedent for the 53% recoverability factor |
+
+</details>
+
+<details>
+<summary>Key methodology notes</summary>
+
+- 3,005-hospital FY2023 panel after removing partial-year filings and extreme outliers (operating-expense range filters)
+- Tax-exemption valuation follows the seven-component Plummer/Socal/Bai *JAMA* 2024 method applied to each hospital's federal Form 990 + CMS HCRIS financial line items; aggregate $46.4B; federal income tax forgone is the largest component at $17.0B (36.6%)
+- Schedule H pull (v3 patch, May 2026): per-filer Schedule H Part I from IRS bulk XML for 2,103 matched filers (76% of panel expenses); the remaining 24% (975 hospitals) fall back to HCRIS S-10 charity x 2.5 sector uplift to approximate the Schedule H broad subset
+- Narrow test (Herring 2018): audited HCRIS charity care vs. tax-exemption value, 86% fail, $31.3B aggregate failing-hospital gap. This 86% replicates Herring 2018 to within rounding on FY2023 data, the calibration check for the per-hospital tax-exemption math
+- Broad test (Bai 2021): audited charity + Medicaid shortfall + community health + subsidized services vs. tax-exemption value, 44% fail, $11.9B aggregate gap. Medicaid shortfall ($44.1B in aggregate across matched filers) is the largest broad-subset component and tilts the broad test toward Medicaid-heavy hospitals
+- Recoverability factor (0.53 central, 0.40–0.70 sensitivity range): reflects what the literature on state revocation cases and consent decrees (Provena, UPMC, Pittsburgh, Boston) suggests is realistic to redirect into actual charity care through enforcement or 501(r) tightening
+- Booked $5.4B = $10.15B post-overlap × 0.53 recoverability; range $4.1–7.1B from the 0.40–0.70 recoverability sensitivity
+- Overlap subtractions: Issue #3 hospital pricing (commercial-vs-Medicare price levels) — $0.60B; Issue #12 consolidation tax (HHI-driven commercial premium) — $1.19B. Different mechanisms but partial overlap on the at-risk commercial spend
+- Ownership comparison (charity care share of operating expenses): government 3.56%, for-profit 3.14%, nonprofit 1.86%. This ordering — for-profit hospitals paying full taxes delivering more charity care per dollar of expenses than tax-exempt nonprofit hospitals — reproduces Bai 2021 on FY2023 data
+- No overlap with Issue #5 (admin waste counts processing cost, not exemption value) or Issue #6 (supply purchasing variance is operationally distinct)
+
+</details>
+
+---
 
 ### Issue #12 — The Consolidation Tax (~$13.0B/year)
 

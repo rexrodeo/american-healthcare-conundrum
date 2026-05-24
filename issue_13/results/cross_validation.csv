@@ -1,0 +1,13 @@
+anchor,expected_value,computed_value,delta_pct,pass_fail,notes
+"Plummer/Socal/Bai 2024 JAMA (tax exemption aggregate, 2021 inflated to 2023)",$42.6B,$46.4B,+8.8%,PASS,Plummer 2024 $37.4B (2021) inflated +14% nominal hospital spend growth
+"Lown Institute 2024 (% with deficit, broad subset)",80%,52%,-28.3pp,REVIEW,Lown threshold is approximate match to broad subset
+Bai/Anderson 2021 (nonprofit charity share of expenses),2.3%,1.86%,-0.44pp,PASS,FY2023 HCRIS S-10 audited charity vs Bai 2018 data; downward trend documented
+Bai/Anderson 2021 (for-profit charity share of expenses),3.8%,3.14%,-0.66pp,PASS,For-profit > nonprofit charity share replicated (key Bai/Anderson finding)
+Bai/Anderson 2021 (government charity share of expenses),4.1%,3.56%,-0.54pp,PASS,"Government hospitals (trauma, safety-net) deliver more per dollar"
+Herring/Gaskin/Zare/Anderson 2018 Inquiry (tax exemption as % of expenses),5.9%,5.01%,-0.89pp,PASS,Component method aggregates to ~6% of nonprofit hospital expenses
+Herring 2018 (% fail charity-only test),86%,86%,-0.2pp,PASS,Vast majority of nonprofits fail the charity-only test
+Plummer 2024 component shares (federal income tax share),31%,36.6%,n/a,PASS,Federal income tax component share of total
+Plummer 2024 component shares (property tax share),21%,20.9%,n/a,PASS,Property tax component share of total
+Plummer 2024 component shares (sales tax share),24%,24.6%,n/a,PASS,Sales tax component share of total
+Plummer 2024 concentration (top 7% of hospitals receive 50% of tax benefit),50%,45.5%,-4.5pp,PASS,Top 210 hospitals by tax exemption value (of 3005 total)
+EY/AHA 2024 full Schedule H aggregate ($129B 2020 inflated to $147B 2023),$147B,$100B,-32.3%,REVIEW,"Our ~2,100 filer panel; EY/AHA covers broader universe — shortfall expected ±30%"

@@ -1,0 +1,21 @@
+{
+  "propublica_universe": 10000,
+  "filings_indexed": 9449,
+  "filings_extracted": 9449,
+  "filings_with_schedule_h": 2103,
+  "batches_total": 30,
+  "batches_complete": 30,
+  "crosswalk_version": "v3",
+  "crosswalk_matches": 1384,
+  "crosswalk_unique_eins_matched": 1117,
+  "crosswalk_unique_ccns_matched": 1384,
+  "crosswalk_unmatched_filers": 986,
+  "crosswalk_match_types": {
+    "single_facility_jaccard": 963,
+    "system_keyword": 317,
+    "multi_facility_jaccard": 104
+  },
+  "panel_coverage_matched_pct_by_count": 45.9,
+  "panel_coverage_fallback_pct_by_count": 54.1,
+  "v2_to_v3_delta_notes": "v3 same-state enforcement + jaccard floor 0.70 same-state / 0.85 cross-state + single-facility-first ordering + expanded CROSS_STATE_SYSTEM_SUBSTRINGS allowlist. Eliminated ~$1.3B of v2 false-positive cross-state allocations (e.g., Cleveland UH EIN allocated to 15 unrelated AMCs). Trade-off: fewer matched filers (1,384 vs v2's 2,047), more fallback share (54.1% vs v2's 32.4% by count). Vanderbilt, Duke, Cooper, NY Presbyterian, Indiana University Health now matched to their own correct EINs."
+}

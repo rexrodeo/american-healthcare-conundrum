@@ -1,0 +1,9 @@
+step,amount_bil,note
+Raw gap (narrow / charity-only test),31.311533435177235,Bai/Anderson 86% fail rate test
+Raw gap (broad / conservative subset test),11.943146394655082,Booking base
+Issue #3 overlap subtraction (5%),-0.5971573197327541,Commercial pricing overlap
+Issue #12 overlap subtraction (10%),-1.1943146394655082,Consolidation pricing power overlap
+After overlap (recoverable base),10.15167443545682,Pre-recoverability
+Booked (53% recoverability),5.3803874507921154,Central / headline
+Range low (40% recoverability),4.0606697741827285,Sensitivity floor
+Range high (70% recoverability),7.106172104819774,Sensitivity ceiling

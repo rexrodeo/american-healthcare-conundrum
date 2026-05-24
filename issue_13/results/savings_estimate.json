@@ -1,0 +1,51 @@
+{
+  "issue_number": 13,
+  "issue_title": "The Nonprofit Lie",
+  "version": "v3",
+  "anchor_year": 2023,
+  "n_hospitals_in_panel": 3005,
+  "n_fails_narrow_test": 2579,
+  "n_fails_broad_test": 1330,
+  "headline_status": "COMPUTED_PER_FILER_SCHEDULE_H_V3_PATCHED",
+  "schedule_h_coverage": {
+    "matched_count": 1378,
+    "matched_pct": 45.9,
+    "fallback_count": 1627,
+    "fallback_pct": 54.1
+  },
+  "booked_bil": 5.38,
+  "range_lo_bil": 4.06,
+  "range_hi_bil": 7.11,
+  "raw_gap_narrow_bil": 31.31,
+  "raw_gap_broad_bil": 11.94,
+  "after_overlap_bil": 10.15,
+  "recoverability_factor_central": 0.53,
+  "sensitivity": {
+    "recoverability_low_bil": 4.06,
+    "recoverability_central_bil": 5.38,
+    "recoverability_high_bil": 7.11
+  },
+  "overlap_subtractions_bil": {
+    "issue_3_commercial_pricing": 0.6,
+    "issue_12_consolidation": 1.19
+  },
+  "tax_exemption_components_bil": {
+    "fed_income_tax": 16.96,
+    "state_income_tax": 4.8,
+    "property_tax": 9.67,
+    "sales_tax": 11.43,
+    "futa": 0.11,
+    "charitable_deduction": 1.01,
+    "bond_interest_subsidy": 2.4,
+    "total": 46.38
+  },
+  "community_benefit_components_bil": {
+    "s10_charity_at_cost_audited": 17.18,
+    "broad_subset_uplifted": 70.64
+  },
+  "headline_target": 20.0,
+  "headline_target_status": "COMPUTED_FROM_DATA_SUPPORTS_BOOKING",
+  "cross_validation_pass_count": "10/12",
+  "data_partner_cta": "v2 closes most of the v1 data gap by pulling per-filer Schedule H Part I directly from IRS bulk XML for 2,103 nonprofit hospital filers (76% of panel expenses). The remaining 24% (975 hospitals) fall back to HCRIS S-10 charity x 2.5 sector uplift because their filer EIN is outside the ProPublica top-10K NTEE-E universe or our fuzzy name-state crosswalk failed. AHA Annual Survey (gated, ~$2,500-5,000) carries a definitive system-affiliation flag that would close the matching gap. State-level adjudicated community benefit data (MA CHIA, NJ DOH, CA HCAI, IL DOR, TX DSHS, NY DOH, PA AG) would let us replace self-reported Schedule H with audited or contested numbers. Schedule H Part V facility-level breakdowns would let us decompose multi-facility consolidated filings (Kaiser 43 facilities, Cleveland Clinic 26, CommonSpirit 137) into per-facility numbers rather than expense-share allocations.",
+  "generated_at": "2026-05-18T18:55:16.958476"
+}
