@@ -1,0 +1,17 @@
+canonical_specialty,bls_occ_code,primary_care_flag,npi_count_puf,medicare_payment_total_usd,bls_oews_a_mean_2024,doximity_2025_mean_comp,us_comp_per_fte_anchor,puf_specialties,bls_tot_emp_2024,fte_count,medicare_payment_per_npi
+Anesthesiology,29-1211,False,43918,1798457574.2499948,336640,477000,336640,Anesthesiology; Pain Management,41890,41890,40950.35234414123
+Cardiology,29-1212,False,19764,3699996769.8499994,432490,614000,432490,Cardiology,18020,18020,187208.9035544424
+Dermatology,29-1213,False,12616,3266719398.2800207,347810,547000,347810,Dermatology,10080,10080,258934.6384178837
+Emergency Medicine,29-1214,False,50101,2022982546.4600089,320700,412000,320700,Emergency Medicine,33680,33680,40378.087193070176
+Family Medicine,29-1215,True,83639,5265332572.459993,256830,286000,256830,Family Practice,107950,107950,62953.07897583655
+Internal Medicine,29-1216,True,121958,9496714636.399927,262710,311000,262710,Critical Care (Intensivists); Geriatric Medicine; Hospitalist; Internal Medicine; Sleep Medicine,66640,66640,77868.73051706265
+Neurology,29-1217,False,16581,1665147401.9899876,286310,376000,286310,Neurology,7700,7700,100425.028767263
+OB/GYN,29-1218,False,22815,406261826.85000145,281130,374000,281130,Obstetrics & Gynecology,19900,19900,17806.786186719328
+Ophthalmology,29-1241,False,17519,8245418771.75994,301500,463000,301500,Ophthalmology,12110,12110,470655.7892436749
+Orthopedic Surgery,29-1242,False,21674,2797377647.200002,365060,705000,365060,Orthopedic Surgery,14160,14160,129066.0536679894
+Pathology,29-1222,False,12265,1106506477.5099933,266020,372000,266020,Pathology,11800,11800,90216.59009457752
+Pediatrics,29-1221,True,1774,87440041.75000016,222340,264000,222340,Pediatric Medicine,42960,42960,49289.764233371
+"Physicians, all other",29-1229,False,77512,17636669711.370007,253470,410000,253470,Endocrinology; Gastroenterology; Hematology; Hematology-Oncology; Hospice and Palliative Care; Infectious Disease; Medical Oncology; Nephrology; Physical Medicine and Rehabilitation; Preventive Medicine; Pulmonary Disease; Rheumatology,315360,315360,227534.7005801683
+Psychiatry,29-1223,False,20222,670789972.4499958,269120,314000,269120,Addiction Medicine; Geriatric Psychiatry; Psychiatry,24800,24800,33171.29722332092
+Radiology,29-1224,False,40993,6155699296.730026,359820,547000,359820,Diagnostic Radiology; Interventional Radiology; Nuclear Medicine; Radiation Oncology,26290,26290,150164.6451035549
+"Surgeons, all other",29-1249,False,60206,6674209635.409989,371280,470000,371280,Colorectal Surgery (Proctology); General Surgery; Hand Surgery; Maxillofacial Surgery; Neurosurgery; Otolaryngology; Plastic and Reconstructive Surgery; Surgical Oncology; Thoracic Surgery; Urology; Vascular Surgery,24080,24080,110856.22089841527

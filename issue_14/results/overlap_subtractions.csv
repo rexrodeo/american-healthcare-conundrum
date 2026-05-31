@@ -1,0 +1,7 @@
+source,fraction,subtraction_bil
+Issue #3 hospital labor flow-through,0.15,6.243916838349695
+Issue #10 Procedure Mill physician-labor share,0.2,1.52
+Issue #11 MA coding intensity (mostly insurer),0.05,2.081305612783232
+Issue #12 consolidation flow-through,0.1,4.162611225566464
+TOTAL overlap subtractions,,14.007833676699391
+BOOKED Issue #14,,27.618278578965246

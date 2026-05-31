@@ -1,0 +1,24 @@
+OCC_CODE,OCC_TITLE,TOT_EMP,A_MEAN,A_MEDIAN
+29-1210,Physicians,727050,272320,#
+29-1211,Anesthesiologists,41890,336640,#
+29-1212,Cardiologists,18020,432490,#
+29-1213,Dermatologists,10080,347810,#
+29-1214,Emergency Medicine Physicians,33680,320700,#
+29-1215,Family Medicine Physicians,107950,256830,238380
+29-1216,General Internal Medicine Physicians,66640,262710,236350
+29-1217,Neurologists,7700,286310,#
+29-1218,Obstetricians and Gynecologists,19900,281130,#
+29-1221,"Pediatricians, General",42960,222340,210130
+29-1222,"Physicians, Pathologists",11800,266020,#
+29-1223,Psychiatrists,24800,269120,#
+29-1224,Radiologists,26290,359820,#
+29-1229,"Physicians, All Other",315360,253470,#
+29-1240,Surgeons,51400,354760,#
+29-1241,"Ophthalmologists, Except Pediatric",12110,301500,#
+29-1242,"Orthopedic Surgeons, Except Pediatric",14160,365060,#
+29-1243,Pediatric Surgeons,1050,450810,#
+29-1249,"Surgeons, All Other",24080,371280,#
+29-1290,Miscellaneous Healthcare Diagnosing or Treating Practitioners,258380,97910,94920
+29-1291,Acupuncturists,8440,89750,78140
+29-1292,Dental Hygienists,219070,93890,94260
+29-1299,"Healthcare Diagnosing or Treating Practitioners, All Other",30870,128680,113730

@@ -1,0 +1,47 @@
+{
+  "issue_number": 14,
+  "datasets_used": [
+    "CMS PFS Relative Value File CY2025 (RVU25D, released 2025-09-11)",
+    "Medicare Physician & Other Practitioners - by Geography and Service PUF (service year 2024, release 2026-05)",
+    "Medicare Physician & Other Practitioners - by Provider PUF (service year 2024, release 2026-05)",
+    "BLS OEWS May 2024 national (29-1xxx physician occupation series)",
+    "OECD Health at a Glance 2025 DSD_HEALTH_REAC_EMP@DF_REMUN (specialist + GP, USD_PPP, 2020-2023)",
+    "MedPAC June 2025 Report to Congress Chapter 1 (qualitative RVU revaluation directional)",
+    "AAMC U.S. Physician Workforce Data Dashboard 2024 (curated counts)",
+    "AAMC Report on Residents 2024 (referenced for GME slot allocation)",
+    "AAMC GME explainer (federal outlay decomposition)"
+  ],
+  "gotchas_confirmed": {
+    "cms_pfs_rvu_quarterly_releases": "Used RVU25D (CY2025 final) \u2014 released 2025-09-11; CY2026 RVU26A also available but not used as anchor year.",
+    "cms_pfs_conversion_factor_cy2025": "$32.3465 per RVU (per PPRRVU2025_Oct.csv; matches CMS-1807-F Final Rule $32.35).",
+    "puf_specialty_field": "Rndrng_Prvdr_Type is text-based; normalized via SPECIALTY_BLS_CROSSWALK dictionary to BLS 29-12xx detail codes.",
+    "puf_facility_flag": "Place_Of_Srvc 'F' vs 'O' handled via separate facility/non-facility RVU columns in PPRRVU2025_Oct.csv.",
+    "aamc_dashboard_transition": "AAMC moved to dashboard format in 2023; we use BLS OEWS TOT_EMP as the FTE anchor (broader, more reliably annual).",
+    "oecd_remuneration_comparability": "OECD applies its own gross-vs-net comparability adjustments; we use USD_PPP. NOTE: OECD does NOT collect US physician remuneration via DF_REMUN; US anchor uses BLS OEWS A_MEAN (observed wage data).",
+    "oecd_ppp_conversion": "All OECD comparison values in USD_PPP (purchasing power parity), not market exchange rates.",
+    "peer_oecd_comparator_choice": "Component A uses the OECD-18 high-income peer set (AUS, AUT, BEL, CAN, CHE, DEU, DNK, FIN, FRA, GBR, IRL, ISL, ITA, NLD, NOR, NZL, SWE, KOR) as the comparator group, NOT the full OECD median. The full OECD median is dragged down by lower-income members (Bulgaria, Mexico, Costa Rica, Colombia, Poland, Slovakia, Czech Republic, Hungary, Estonia, Latvia, Lithuania, Croatia, Slovenia, Portugal, Greece, Israel, Turkey, Chile) whose physician compensation reflects different cost structures and is not a defensible benchmark for the US. Aggregation is median-of-country-medians (each country gets one vote, per-country median taken first across multi-year and salaried/self-employed observations). Stage 5.5 patch, 2026-05-25.",
+    "pc_share_basis_canonical": "Primary-care share is reported on the BLS-FTE basis (28.0% PC / 72.0% specialty per BLS OEWS May 2024 29-12xx series). The AAMC headcount basis (34.2% PC) is sometimes cited in policy discussion but uses a different denominator (active physician headcount); the two are not interchangeable for per-FTE compensation analysis. Components B and D both compute on the BLS-FTE basis. Stage 5.5 patch, 2026-05-25, resolved a prior inconsistency where methodology.md referenced the AAMC basis while the script computed on the BLS basis.",
+    "range_ceiling_derivation": "range_hi_bil is derived empirically from the aggressive recoverability band (A=0.70, B=0.70, C=0.95, D=0.80) post-overlap, NOT a hard-coded ceiling. range_lo_bil similarly = conservative band booked. See recoverability_sensitivity.csv. Stage 5.5 patch, 2026-05-25.",
+    "ruc_composition_count": "31 voting members; 22 specialty-society seats.",
+    "ruc_cms_adoption_rate": "87.4% of RUC work-value recommendations adopted unchanged (Laugesen et al. 2012, Health Affairs).",
+    "gme_outlay_components": "Medicare DGME ($5.88B FY2022) + Medicare IME (~$7B est) + Medicaid GME (varies by state) + VA + HRSA Title VII \u2248 $21B aggregate.",
+    "drozda_2024_resolved": "The 'Drozda 2024 JAMA' citation referenced in earlier CLAUDE.md / scoping_brief could not be verified by data-hunter. Replaced with JAMA Network Open 2020 trends paper (Wiltshire et al.) + Doximity 2025 + Medscape 2025 as cross-validation anchors.",
+    "bls_topcoding": "BLS OEWS A_MEDIAN is top-coded at $239,200 for physician occupations; we use A_MEAN instead (which is reported uncoded for all 29-1211 through 29-1249 codes).",
+    "medpac_no_numerical_rvu_table": "MedPAC June 2025 Ch 1 publishes directional reform recommendations (procedural overvalued, E&M undervalued) but does NOT publish a numerical corrected-RVU table. We operationalize as 10% downward on procedural families, 10% upward on E&M, with 5-15% sensitivity."
+  },
+  "originality_posture": "Headline computed from CMS PFS RVU CY2025 + Medicare Geo+Svc PUF CY2024 + Medicare by-Provider PUF CY2024 + BLS OEWS May 2024 + OECD DF_REMUN 2025 + MedPAC June 2025 directional reval, applied to four-component aggregation with explicit overlap subtractions against Issues #3, #10, #11, #12 and per-component recoverability factors (55%/55%/80%/60%). Coefficient anchors (Laugesen/Glied 2011 multiples, OECD published medians, MedPAC directional recommendations) are CURATED reference data, used for cross-validation.",
+  "editorial_guardrail": "Issue #14 is the project's most physician-sensitive issue. The analysis is computed against system-level counterfactuals (RVU schedule, GME allocation, workforce mix), NOT against individual physician compensation. The villain is the payment system, not the people who chose medicine. See methodology.md and scoping_brief.md Section 1.",
+  "stage_status": "STAGE2_RECOMPUTED",
+  "stage_5_5_patches_applied": [
+    "Defect 1 (peer OECD comparator): Component A restricted to OECD-18 high-income peer set with median-of-country-medians aggregation. Component A raw dropped from $83.7B to $64.2B; recoverable from $46.05B to $35.30B.",
+    "Defect 2 (PC share consistency): methodology.md now uses 28.0% (BLS-FTE basis) consistently. AAMC 34.2% headcount basis is referenced as context only. Components B and D already computed on BLS-FTE basis; the patch was a methodology.md labeling fix, not a value change.",
+    "Defect 3 (range ceiling derivation): range_hi_bil now derived empirically from aggressive recoverability band (post-overlap), not a hard-coded $60B. range_lo_bil similarly derived from conservative band."
+  ],
+  "blocking_todos": [],
+  "non_blocking_optional_followups": [
+    "Confirm CY2026 PFS conversion factor (CMS-1832-F Final Rule) for forward sensitivity",
+    "Pull AAMC dashboard specialty composition counts for direct AAMC vs BLS reconciliation in Stage 5 fact-check",
+    "Consider partner outreach to MGMA (license) for production-adjusted Component A refinement"
+  ],
+  "generated_at": "2026-05-25T22:30:59.040864"
+}

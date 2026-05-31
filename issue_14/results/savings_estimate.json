@@ -1,0 +1,108 @@
+{
+  "issue_number": 14,
+  "issue_title": "The Specialist Tax",
+  "anchor_year": 2024,
+  "computation_date": "2026-05-25",
+  "framing": "The savings estimate is computed against system-level counterfactuals (different RVU schedule, different GME allocation, different workforce mix), NOT against any individual physician's compensation level. The villain is the payment system, not the people who chose medicine. See methodology.md for the full editorial guardrail.",
+  "booked_bil": 27.62,
+  "range_lo_bil": 19.65,
+  "range_hi_bil": 35.49,
+  "raw_total_before_overlap_bil": 41.63,
+  "components": {
+    "A_intl_compensation_gap_recoverable_bil": 35.3,
+    "A_intl_compensation_gap_raw_bil": 64.18,
+    "B_workforce_mix_counterfactual_recoverable_bil": 2.6,
+    "B_workforce_mix_counterfactual_raw_bil": 4.72,
+    "C_rvu_revaluation_residual_recoverable_bil": 2.32,
+    "C_rvu_revaluation_residual_raw_bil": 2.89,
+    "C_rvu_medicare_only_bil": 0.0,
+    "D_gme_allocation_counterfactual_recoverable_bil": 1.42,
+    "D_gme_allocation_counterfactual_raw_bil": 2.36
+  },
+  "overlap_subtractions": {
+    "issue_3_hospital_labor_flow_through": 6.24,
+    "issue_10_procedure_mill_physician_labor": 1.52,
+    "issue_11_ma_coding_intensity": 2.08,
+    "issue_12_consolidation_flow_through": 4.16,
+    "total_overlap_subtractions_bil": 14.01
+  },
+  "recoverability_factors": {
+    "component_a": 0.55,
+    "component_b": 0.55,
+    "component_c": 0.8,
+    "component_d": 0.6
+  },
+  "headline_status": "STAGE2_RECOMPUTED",
+  "headline_target": 30.0,
+  "headline_band_acceptable": "central booked within sensitivity range",
+  "recoverability_bands": {
+    "conservative_booked_bil": 19.65,
+    "central_booked_bil": 27.62,
+    "aggressive_booked_bil": 35.49,
+    "note": "range_lo and range_hi are conservative and aggressive recoverability bands respectively (each computed post-overlap). central band matches booked headline."
+  },
+  "stage_5_5_patch_notes": {
+    "applied_date": "2026-05-25",
+    "patch_1_oecd_peer_set": "Component A comparator restricted to OECD-18 high-income peers (AUS, AUT, BEL, CAN, CHE, DEU, DNK, FIN, FRA, GBR, IRL, ISL, ITA, NLD, NOR, NZL, SWE, KOR). Full OECD median included lower-income members (Bulgaria, Mexico, Costa Rica, Colombia, Poland, Slovakia, etc.) and was not a defensible peer benchmark.",
+    "patch_2_per_country_aggregation": "Component A median computed as median-of-country-medians (each country one vote) rather than pooled across all observations. Handles within-country salaried/self-employed and multi-year observation duplicates principled-ly.",
+    "patch_3_pc_share_canonical": "Canonical PC share is 28.0% (BLS-FTE basis from BLS OEWS May 2024). AAMC 34.2% (headcount basis) is referenced for context but not used for analysis. Components B and D both compute on the 28.0% BLS-FTE basis.",
+    "patch_4_range_ceiling": "range_hi_bil is now derived empirically from the aggressive recoverability band (post-overlap booked), not a hard-coded $60B. range_lo_bil is similarly the conservative band booked."
+  },
+  "key_observations": {
+    "oecd_comparator_set": "OECD-18 (high-income peers; see stage_5_5_patch_notes)",
+    "oecd_specialist_median_usd_ppp": 176673.0,
+    "oecd_gp_median_usd_ppp": 154664.0,
+    "oecd_specialist_median_full_pooled_ref_usd_ppp": 148562.0,
+    "oecd_gp_median_full_pooled_ref_usd_ppp": 110508.0,
+    "oecd_peer_countries_specialist": [
+      "AUS",
+      "AUT",
+      "BEL",
+      "CAN",
+      "CHE",
+      "DEU",
+      "DNK",
+      "FIN",
+      "FRA",
+      "GBR",
+      "IRL",
+      "ISL",
+      "ITA",
+      "KOR",
+      "NLD",
+      "NOR",
+      "NZL",
+      "SWE"
+    ],
+    "oecd_peer_countries_gp": [
+      "AUS",
+      "AUT",
+      "BEL",
+      "CAN",
+      "CHE",
+      "DEU",
+      "FIN",
+      "GBR",
+      "IRL",
+      "ISL",
+      "KOR",
+      "NLD",
+      "SWE"
+    ],
+    "productivity_norm_factor": 0.7714,
+    "total_us_physician_fte_bls_basis": 777420,
+    "current_pc_share_bls_fte_basis": 0.28,
+    "current_pc_share_aamc_headcount_basis_reference": 0.342,
+    "cogme_target_pc_share": 0.45,
+    "delta_fte_to_pc_under_cogme": 132289,
+    "cy2025_pfs_conversion_factor": 32.3465
+  },
+  "data_partner_cta_for_unbooked_range": [
+    "MGMA Physician Compensation Survey full microdata ($1,500-3,000 license): true production-adjusted compensation by specialty and region",
+    "AHA Annual Survey physician-employment flag: would let us measure how much of specialty pay premium flows through hospital-employed physician arrangements",
+    "Sullivan Cotter executive compensation database: hospital-employed physician system-level compensation",
+    "IRS Form 990 Schedule J non-cash compensation: nonprofit hospital physician employer-side data",
+    "OECD: US does not currently report physician remuneration to DF_REMUN dataset; the OECD comparison would be tighter if US submitted data"
+  ],
+  "generated_at": "2026-05-25T22:30:59.039224"
+}

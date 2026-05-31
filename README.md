@@ -8,7 +8,7 @@ This project finds it, one issue at a time. Each issue identifies one fixable pr
 
 ---
 
-> **Latest Issue (#13): [The Nonprofit Lie](issue_13/newsletter_issue_13.md)** — Two-thirds of US hospitals operate as 501(c)(3) nonprofits and pay no federal income tax, no state income tax, no property tax, and no sales tax. In exchange they owe a community-benefit obligation. We pulled FY2023 Form 990 Schedule H filings directly from IRS bulk XML for 2,103 nonprofit hospital filers (76% of panel expenses) and joined them to CMS HCRIS audited charity care for a panel of 3,005 nonprofit hospitals. The total tax exemption value is $46.4B per year; the audited charity care delivered is $17.2B. Eighty-six percent of nonprofit hospitals fail the narrow Herring 2018 test (audited charity care below tax-exemption value); the aggregate gap on the failing hospitals is $31.3B. After overlap subtractions with Issues #3 and #12 and a conservative 53% recoverability factor, we book **$5.4B/year** (range $4.1–7.1B). [Read it on Substack →](https://andrewrexroad.substack.com/p/issue-13-the-nonprofit-lie)
+> **Latest Issue (#14): [The Specialist Tax](issue_14/newsletter_issue_14.md)** — US physicians earn more than physicians in any other OECD country, but the gap is not the product of a free labor market. It is the output of an administered price cascade: the AMA's Relative Value Scale Update Committee (RUC) recommends payment values, CMS adopts roughly 87% of them unchanged, commercial insurers benchmark their physician rates as multiples of Medicare, and employers pay premiums that reflect those rates. Procedural specialties are systematically overvalued relative to primary care and international peers. Using a defensible 18-country high-income OECD peer set, the CMS Physician Fee Schedule RVU file, Medicare PUF service data, and BLS OEWS wage anchors, we compute a productivity-normalized international compensation gap of $64.2B, plus workforce-mix, RVU-misvaluation, and GME-allocation components. After overlap subtractions with Issues #3, #10, #11, and #12, we book **$27.6B/year** (range $19.7–35.5B). The fix is not "pay doctors less"; it is to fix the payment architecture that overpays procedural work relative to office visits. [Read it on Substack →](https://andrewrexroad.substack.com/p/issue-14-the-specialist-tax)
 
 ---
 
@@ -29,11 +29,12 @@ This project finds it, one issue at a time. Each issue identifies one fixable pr
 | 11 | [The MA Overpayment](issue_11/newsletter_issue_11.md) | $28.0B/yr | $76B total MA-FFS payment gap (MedPAC March 2026); coding-intensity slice booked at $28B for 2025 with V24 vs. V28 sensitivity band of $19.2B–$44.8B computed from CMS Geographic Variation PUFs; HRA decomposition and state-level allocation original; cross-validated against Kronick et al. 2025 ($33B for 2021) and OIG HRA audits | MedPAC March 2026; Kronick et al. *Annals of Internal Medicine* 2025; CMS Geographic Variation PUFs (MA + FFS); HHS-OIG HRA audits 2020 and 2024; CMS HCC risk-adjustment model files; DOJ FCA settlement track |
 | 12 | [The Consolidation Tax](issue_12/newsletter_issue_12.md) | $13.0B/yr | Panel of 1,155 ownership-change events across 2018–2025 from CMS POS, narrowed to 530 horizontal hospital mergers in 315 unique HSAs with mean HHI shift of 2,318 points; piecewise HHI-dependent coefficient (Cooper / Dafny / FTC Evanston / Brot-Goldberg anchors) applied per market, net of $3.47B Issue #3 hospital-pricing overlap and $0.87B Issue #15 vertical-integration overlap | CMS POS annual snapshots 2018–2025; CMS HCRIS FY2018–FY2023; Dartmouth ZIP-HSA-HRR crosswalk; Cooper QJE 2019; Dafny RAND J Econ 2019; FTC Working Paper 307; Brot-Goldberg et al. NBER WP 32613 (Feb 2026 rev); Fulton et al. Health Affairs 2022 |
 | 13 | [The Nonprofit Lie](issue_13/newsletter_issue_13.md) | $5.4B/yr | Panel of 3,005 nonprofit hospitals from CMS HCRIS FY2023 joined to per-filer Form 990 Schedule H pulled directly from IRS bulk XML (2,103 filers, 76% of panel expenses); 86% of nonprofit hospitals deliver less audited charity care than the value of their tax exemption (narrow Herring 2018 test); aggregate tax exemption $46.4B vs. audited charity care $17.2B; booked figure net of overlap with Issues #3 and #12 at 53% recoverability | CMS HCRIS FY2023 (Worksheet S-10, charity at cost); IRS Form 990 Schedule H 2023 (per-filer XML); Plummer, Socal, Bai *JAMA* 2024 (tax-exemption valuation method); Bai/Yehia/Chen/Anderson *Health Affairs* 2021 (broad-subset community benefit); Herring et al. *Health Affairs* 2018 (narrow-test benchmark); HHS OIG Schedule H studies |
-| | **Running Total** | **$489.2B/yr** | **15.1% of the $3.24T gap** | |
+| 14 | [The Specialist Tax](issue_14/newsletter_issue_14.md) | $27.6B/yr | US specialist pay is set by an administered RVU cascade (RUC → CMS → commercial multiples), not a free market; productivity-normalized gap to an 18-country high-income OECD peer set, plus workforce-mix, RVU-misvaluation, and GME-allocation components | CMS PFS RVU File CY2025, Medicare PUF 2024, BLS OEWS May 2024, OECD Health at a Glance 2025 |
+| | **Running Total** | **$516.8B/yr** | **16.0% of the $3.24T gap** | |
 
 *Issue #9 is the first issue at the revised $3.24T denominator (CMS NHE 2024 final, released April 18, 2026). Issues #1–#8 published using the prior $3T denominator and are not retrofitted.*
 
-![Savings Tracker](issue_13/figures/chart5_savings_tracker.png)
+![Savings Tracker](issue_14/figures/chart5_savings_tracker.png)
 
 ---
 
@@ -48,6 +49,78 @@ The same operations. Exposed to the same clinical evidence. Wildly different pri
 ---
 
 ## Published Issues
+
+### Issue #14 — The Specialist Tax (~$27.6B/year)
+
+US physicians earn more than physicians in any other OECD country, but the gap between what the US pays specialists and what peer nations pay is not the product of a free labor market. It is the output of an administered price cascade. The American Medical Association's Specialty Society Relative Value Scale Update Committee (RUC) recommends the relative value units (RVUs) that determine physician payment; CMS adopted roughly 87% of RUC work-value recommendations unchanged between 1994 and 2010; commercial insurers benchmark their physician rates as multiples of Medicare (roughly 2.8–3.5× for procedural codes versus 1.4× for evaluation-and-management codes); and employers pay premiums that reflect those commercial rates. Procedural specialties are systematically overvalued relative to primary care and international peers. We computed the booked figure from four components: a productivity-normalized international compensation gap against an 18-country high-income OECD peer set ($64.2B raw, $35.3B recoverable), a workforce-mix counterfactual toward the COGME 45% primary-care target ($4.7B raw, $2.6B recoverable), an RVU-misvaluation residual that flows through the commercial cascade ($2.9B raw, $2.3B recoverable; Medicare itself nets $0 by statutory budget neutrality), and a GME-allocation counterfactual ($2.4B raw, $1.4B recoverable). Pre-overlap recoverable sum: $41.6B. After overlap subtractions against Issues #3 (hospital labor flow-through, $6.2B), #10 (physician-labor share of low-value volume, $1.5B), #11 (MA coding-intensity physician-billing share, $2.1B), and #12 (consolidation employed-specialist flow-through, $4.2B), we book **$27.6B/year** (range $19.7B–$35.5B). The savings show up in the commercial market, not inside Medicare. The fix targets the payment architecture, never any individual physician's income.
+
+![US-vs-OECD Specialist Compensation](issue_14/figures/chart1_oecd18_comp.png)
+
+*Source: CMS PFS Relative Value File CY2025, Medicare Physician and Other Practitioners PUF 2024, BLS OEWS May 2024, OECD Health at a Glance 2025 Indicator 8.6, restricted to 18 high-income OECD peer countries.*
+
+**Read the full analysis →** [`issue_14/newsletter_issue_14.md`](issue_14/newsletter_issue_14.md)
+
+<details>
+<summary>Reproducing the analysis</summary>
+
+```bash
+cd issue_14
+
+# Build the four-component analysis: international compensation gap (OECD-18 peers),
+# workforce-mix counterfactual, RVU-misvaluation residual, GME-allocation counterfactual,
+# overlap subtractions, and recoverability sensitivity bands
+python 01_build_data.py
+
+# Generate all five charts plus hero
+python generate_all_charts.py
+```
+
+**Key outputs:**
+- `results/savings_estimate.json` — Booked $27.62B, range $19.65–35.49B, four components, overlap subtractions, recoverability bands
+- `results/per_specialty_savings.csv` — Per-specialty international compensation gap
+- `results/savings_by_component.csv` — Component A–D raw and recoverable totals
+- `results/rvu_panel_full.csv` — RVU misvaluation residual by code family
+- `results/international_compensation_panel.csv` — US (BLS anchor) vs. OECD-18 specialist and GP medians, PPP-USD
+- `results/specialty_workforce_panel.csv` — BLS-FTE workforce mix vs. OECD median
+- `results/overlap_subtractions.csv` — Overlap accounting against Issues #3, #10, #11, #12
+- `results/recoverability_sensitivity.csv` — Conservative/central/aggressive recoverability bands
+- `results/cross_validation.csv` — Against Laugesen/Glied 2011 and MedPAC
+- `results/methodology.md` — Full methodology, editorial guardrail, and OECD-18 peer-set rationale
+- `results/originality_gate.md` — Stage 3.5 originality-gate verdict and adversarial-math notes
+
+</details>
+
+<details>
+<summary>Data sources</summary>
+
+| Source | Description |
+|--------|-------------|
+| CMS Physician Fee Schedule Relative Value File CY2025 | RVU values by HCPCS code; basis for the RVU-misvaluation residual |
+| CMS Medicare Physician and Other Practitioners by Geography and Service PUF, service year 2024 | Medicare-paid service volume by specialty and code |
+| BLS Occupational Employment and Wage Statistics (OEWS) May 2024, 29-1xxx physician series | US physician FTE counts and wage anchors |
+| OECD Health at a Glance 2025, Indicator 8.6 (Remuneration of Doctors), DF_REMUN dataset, PPP-USD | Country-by-country specialist and GP compensation for the 18-country high-income peer set |
+| Laugesen MJ, Glied SA. Health Affairs 2011 | Cross-validation: US orthopedic surgeons ~2.2× peers on 2008 data (updated to 2.46×) |
+| Laugesen, Wada, Chen. Health Affairs | CMS adoption of ~87% of RUC work-value recommendations 1994–2010 |
+| MedPAC June 2025 Report; Bodenheimer, Berenson, Rudolf, Annals of Internal Medicine 2007 | E&M undervaluation / procedural overvaluation |
+| GAO-15-434 (2015) | CMS lacks independent capacity to evaluate RUC recommendations at scale |
+| AAMC March 2024 Physician Workforce Projections; COGME primary-care target | Workforce shortage projection and 45% primary-care target |
+
+</details>
+
+<details>
+<summary>Key methodology notes</summary>
+
+- Four components, each computed from public data: Component A (international compensation gap, productivity-normalized, OECD-18 high-income peers) $35.3B recoverable from $64.2B raw; Component B (workforce-mix counterfactual, BLS-FTE 28% PC share canonical, toward COGME 45%) $2.6B recoverable from $4.7B raw; Component C (RVU misvaluation residual, commercial cascade only; Medicare = $0 by statutory budget neutrality under SSA Sec. 1848(c)(2)(B)) $2.3B recoverable from $2.9B raw; Component D (GME allocation counterfactual) $1.4B recoverable from $2.4B raw
+- Productivity normalization: raw compensation gap discounted by ~23% (2.7/3.5 = 0.77 physicians per 1,000) so each US physician's higher throughput is not counted as excess pay; this makes the estimate conservative
+- OECD-18 peer set: AUS, AUT, BEL, CAN, CHE, DEU, DNK, FIN, FRA, GBR, IRL, ISL, ITA, NLD, NOR, NZL, SWE, KOR. Median computed as median-of-country-medians (one vote per country). Lower-income OECD members excluded as non-comparable
+- US side anchored on BLS OEWS observed wages (the US does not submit to the OECD DF_REMUN dataset); Doximity/Medscape self-employed data run 10–25% higher, so Component A is conservative on the US side
+- Pre-overlap recoverable sum $41.6B; overlap subtractions total $14.0B (Issue #3 $6.2B, Issue #10 $1.5B, Issue #11 $2.1B, Issue #12 $4.2B); booked $27.6B
+- Range $19.7–35.5B from conservative and aggressive recoverability bands (each computed post-overlap)
+- Editorial guardrail: the savings estimate is computed against system-level counterfactuals (different RVU schedule, different GME allocation, different workforce mix), never against any individual physician's compensation. The target is the payment system, not the people who chose medicine
+
+</details>
+
+---
 
 ### Issue #13 — The Nonprofit Lie (~$5.4B/year)
 
@@ -932,7 +1005,7 @@ Six datasets. Per-dataset crowdfunding via Stripe (no account required, any amou
 
 ## Up Next
 
-Issue #13: The Nonprofit Lie. The CMS Provider of Services panel we built for Issue #12 also surfaced hundreds of tax-status conversions and government-to-private transitions. We're auditing the IRS Form 990 community-benefit and charity-care lines for the nonprofit health systems that benefit most from the 501(c)(3) tax exemption and quantifying the gap between what the exemption is worth and what these systems actually deliver to their communities. Target publish: May 24, 2026. Subscribe on Substack to get it when it drops.
+Issue #15: The Facility Fee Scam. The same procedure, performed by the same physician, costs Medicare two to four times more when it is billed in a hospital outpatient department than in an independent physician office. The difference is the facility fee, a billing add-on that exists because CMS treats the hospital as a separate cost center even when it is the same building, equipment, and staff. We quantify the site-of-service differential across the most-billed HCPCS codes, identify which are eligible for site-neutral payment, and book the recoverable share net of overlap with the consolidation and specialist-payment issues. Target publish: June 7, 2026. Subscribe on Substack to get it when it drops.
 
 ---
 

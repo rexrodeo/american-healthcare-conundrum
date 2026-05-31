@@ -1,0 +1,7 @@
+component,raw_bil,recoverability_factor,recoverable_bil,policy_lever
+A: International compensation gap (productivity-normalized),64.17681131512288,0.55,35.297246223317586,International rate benchmarking; medical-education debt reform; CMS independent revaluation
+B: Workforce-mix counterfactual (constant US per-FTE comp),4.721650777826996,0.55,2.596907927804848,GME slot reallocation toward COGME target; primary-care payment uplift
+C: RVU misvaluation residual (MedPAC June 2025 directional),2.8943285889926296,0.8,2.3154628711941037,RUC reform; CMS independent revaluation unit; commercial benchmark decoupling
+D: GME allocation counterfactual (downstream physician spending),2.360825388913501,0.6,1.4164952333481007,Federal GME formula reweighting toward COGME 45% primary care target
+Sum of recoverable components (pre-overlap),,,41.62611225566464,
+Booked (post-overlap),,,27.618278578965246,
