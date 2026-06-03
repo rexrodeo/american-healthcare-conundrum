@@ -32,6 +32,8 @@ The United States, meanwhile, ranks **last among high-income countries** on the 
 
 The gap between what the US spends per person and what Japan spends per person, multiplied across 335 million Americans, is nearly **$3 trillion a year**.
 
+![US vs Japan per-capita healthcare spending](figures/00_us_vs_japan.png)
+
 That's not a statistic. That's a crime scene.
 
 ---
@@ -72,11 +74,15 @@ After running validation checks and removing false matches (more on that below),
 - **28 million beneficiaries** affected
 - **Estimated savings** if those patients had used the OTC version: **$600 million**
 
+![Medicare Part D spending on OTC-equivalent drugs, 2019–2023](figures/01_trend_spending.png)
+
 The trend over five years tells a more complicated story. Medicare has consistently spent around $2 billion a year on these drugs since 2019. The overall savings opportunity has declined — from $1.05 billion in 2019 to $600 million in 2023 — but that headline number obscures two very different things happening underneath it.
 
 Almost the entire decline is attributable to a single drug: esomeprazole (Nexium). The potential savings on esomeprazole fell by roughly $217 million between 2019 and 2023, likely because generic esomeprazole pricing has dropped sharply and Medicare volumes have shifted. That is credit where it is due — market forces appear to be doing some of the work on that one drug, even without a formal OTC-steering policy.
 
 The rest of the picture is not as encouraging. The gaps are actually growing for famotidine (+$92 million), nasal steroids like fluticasone and mometasone (+$35–66 million each), and several others. If you strip esomeprazole out, the remaining savings opportunity is expanding, not contracting. The policy window is narrowing on Nexium; it is widening on Flonase and Pepcid. That distinction matters enormously for which drugs a reform should target first.
+
+![Savings opportunity trend by drug, 2019–2023](figures/05_gap_trends.png)
 
 The drugs where the gap is largest include:
 
@@ -85,6 +91,10 @@ The drugs where the gap is largest include:
 **Allergy and nasal sprays:** Azelastine (Astepro), mometasone (Nasonex), and cetirizine (Zyrtec) are all available without a prescription. Medicare pays unit prices ranging from 5× to 679× the OTC equivalent, depending on formulation.
 
 **NSAIDs:** Ibuprofen and naproxen — both available in 500-count bottles at Costco for under $20 — appear on Medicare Part D claims at higher per-unit costs than retail.
+
+![Top OTC-equivalent drugs by Medicare Part D spending](figures/02_top10_drugs.png)
+
+![Medicare-to-OTC unit price markup multiples](figures/03_markup_multiples.png)
 
 ---
 
@@ -108,7 +118,7 @@ Medicare Part D is legally required to cover prescription drugs. When a physicia
 
 The fact that a patient could walk to the next aisle and buy the same molecule for a dollar is, from Medicare's legal standpoint, irrelevant.
 
-There's also a structural incentive problem. Pharmacy benefit managers — the intermediaries who negotiate between insurers and drug manufacturers — earn administrative fees and rebates based on the transaction. A prescription filled through Part D generates that revenue. A patient buying Prilosec OTC generates nothing for anyone in the chain except the pharmacy and the patient.
+There's also a structural incentive problem. Pharmacy Benefit Managers (PBMs) — the intermediaries who negotiate between insurers and drug manufacturers — earn administrative fees and rebates based on the transaction. A prescription filled through Part D generates that revenue. A patient buying Prilosec OTC generates nothing for anyone in the chain except the pharmacy and the patient.
 
 The result is a system that has no financial reason to route patients toward the OTC shelf, even when the OTC version is clinically identical and substantially cheaper.
 
@@ -123,6 +133,8 @@ In practice, this means: if your doctor prescribes omeprazole, the Part D plan d
 A complementary fix: CMS could update its formulary guidance to make OTC-equivalent alternatives a required first line of treatment, without new legislation. Congress passed the Inflation Reduction Act in 2022 to let Medicare negotiate a small list of high-cost drugs. CMS can act on OTC equivalents today through administrative guidance.
 
 **Estimated annual savings from this fix: $600 million.**
+
+![Savings tracker progress toward the US–Japan gap](figures/04_progress_bar.png)
 
 That's about 3,600 additional nurses at median salary, every year, indefinitely. Or — since this newsletter has a Japanese benchmark — it's the kind of administrative efficiency that doesn't require you to build a new system. It just requires looking at what's on the shelf.
 

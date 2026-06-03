@@ -149,7 +149,7 @@ The bigger structural issue is Medicaid shortfall, the largest single piece of t
 
 We book $5.38 billion per year. Here is the math.
 
-The raw gap on the broad test is $11.9 billion: that is the sum of how much each individual nonprofit's exemption exceeds its individual community benefit, for the hospitals where exemption is the larger number. From that we subtract two overlaps with prior issues: 5 percent goes to commercial-pricing reform already booked in [Issue #3: The 254% Problem](https://andrewrexroad.substack.com/p/issue-3-the-254-problem), and 10 percent goes to merger-power pricing already booked in [Issue #12: The Consolidation Tax](https://andrewrexroad.substack.com/p/issue-12-the-consolidation-tax). That leaves $10.1 billion in non-overlapping gap. We then multiply by 53 percent, our central estimate of what would actually be recovered if the fixes below were enacted: a fix that requires Congress, fifty state legislatures, and IRS enforcement does not pull back 100 percent. The result is $5.38 billion.
+The raw gap on the broad test is $11.9 billion: that is the sum of how much each individual nonprofit's exemption exceeds its individual community benefit, for the hospitals where exemption is the larger number. From that we subtract two overlaps with prior issues: 5 percent goes to commercial-pricing reform already booked in [Issue #3: The 254% Problem](https://americanhealthcareconundrum.com/issue-3-the-254-problem), and 10 percent goes to merger-power pricing already booked in [Issue #12: The Consolidation Tax](https://americanhealthcareconundrum.com/issue-12-the-consolidation-tax). That leaves $10.1 billion in non-overlapping gap. We then multiply by 53 percent, our central estimate of what would actually be recovered if the fixes below were enacted: a fix that requires Congress, fifty state legislatures, and IRS enforcement does not pull back 100 percent. The result is $5.38 billion.
 
 Sensitivity: at 40 percent recoverability, $4.06 billion. At 70 percent, $7.11 billion.
 
@@ -179,7 +179,7 @@ Five systems carry an outsized share of the $46.4 billion tax shield. Four are l
 >
 > FY2024 Revenue: ~$28B | Operating Margin: ~3-5% | CEO Comp (Leslie Davis): ~$11M
 >
-> **Mechanism:** In February 2019, Pennsylvania Attorney General Josh Shapiro petitioned the Commonwealth Court to modify the consent decrees governing UPMC, alleging it was avoiding roughly $40 million per year in property taxes that its charitable mission did not justify. The case settled in July 2019 with a 10-year consent decree on insurance access, but with no quantitative community-benefit floor. UPMC also owns its own insurance arm, which raises the same vertical-integration questions covered in [Issue #8: The Denial Machine](https://andrewrexroad.substack.com/p/issue-8-the-denial-machine).
+> **Mechanism:** In February 2019, Pennsylvania Attorney General Josh Shapiro petitioned the Commonwealth Court to modify the consent decrees governing UPMC, alleging it was avoiding roughly $40 million per year in property taxes that its charitable mission did not justify. The case settled in July 2019 with a 10-year consent decree on insurance access, but with no quantitative community-benefit floor. UPMC also owns its own insurance arm, which raises the same vertical-integration questions covered in [Issue #8: The Denial Machine](https://americanhealthcareconundrum.com/issue-8-the-denial-machine).
 
 > **Ascension Health** (private nonprofit Catholic, 140 hospitals)
 >
@@ -220,12 +220,6 @@ The property-tax piece is the most locally contested ($9.7 billion in our panel)
 The structural fix is to replace the categorical 501(c)(3) property-tax exemption with explicit public funding. A federal or state grant program that pays hospitals directly for documented charity care (at, say, Medicaid cost plus a fixed overhead) would convert the implicit subsidy into a transparent appropriation. Hospitals that deliver get the grant. Hospitals that do not, do not. This is the heaviest political lift, because appropriations are visible in the budget in a way that tax forgone is not. It is also the cleanest: the subsidy goes where the benefit goes, and the benefit is auditable.
 
 The three tiers stack. Tier 1 needs an act of Congress to change the penalty schedule. Tier 2 needs fifty state legislatures, in sequence, though the legal precedent already exists in Illinois and the enforcement template exists in Pennsylvania and Massachusetts. Tier 3 needs Congress and state budget reforms together. None of them require new legal authority that does not already exist somewhere in the system. They require political will to use the authority.
-
-## Savings Tracker: $489.2 Billion and Counting
-
-**Cumulative savings identified: $489.2 billion per year.** That's 15.1% of the $3.24 trillion gap between US and Japan per-capita healthcare spending.
-
-*[Chart 5: Savings tracker, $489.2B of $3.24T]*
 
 ## What's Next
 

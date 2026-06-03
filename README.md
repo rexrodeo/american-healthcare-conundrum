@@ -4,11 +4,11 @@ The US spends ~$15,474 per person on healthcare. Japan spends ~$5,790 and has th
 
 This project finds it, one issue at a time. Each issue identifies one fixable problem, quantifies the waste from primary federal data, and recommends a specific policy fix. All code is open-source. Anyone can reproduce the analysis.
 
-**[Subscribe on Substack](https://andrewrexroad.substack.com)** | **[MIT License](LICENSE)** | **[Contributing](CONTRIBUTING.md)**
+**[Read the newsletter](https://americanhealthcareconundrum.com)** | **[MIT License](LICENSE)** | **[Contributing](CONTRIBUTING.md)**
 
 ---
 
-> **Latest Issue (#14): [The Specialist Tax](issue_14/newsletter_issue_14.md)** — US physicians earn more than physicians in any other OECD country, but the gap is not the product of a free labor market. It is the output of an administered price cascade: the AMA's Relative Value Scale Update Committee (RUC) recommends payment values, CMS adopts roughly 87% of them unchanged, commercial insurers benchmark their physician rates as multiples of Medicare, and employers pay premiums that reflect those rates. Procedural specialties are systematically overvalued relative to primary care and international peers. Using a defensible 18-country high-income OECD peer set, the CMS Physician Fee Schedule RVU file, Medicare PUF service data, and BLS OEWS wage anchors, we compute a productivity-normalized international compensation gap of $64.2B, plus workforce-mix, RVU-misvaluation, and GME-allocation components. After overlap subtractions with Issues #3, #10, #11, and #12, we book **$27.6B/year** (range $19.7–35.5B). The fix is not "pay doctors less"; it is to fix the payment architecture that overpays procedural work relative to office visits. [Read it on Substack →](https://andrewrexroad.substack.com/p/issue-14-the-specialist-tax)
+> **Latest Issue (#14): [The Specialist Tax](issue_14/newsletter_issue_14.md)** — US physicians earn more than physicians in any other OECD country, but the gap is not the product of a free labor market. It is the output of an administered price cascade: the AMA's Relative Value Scale Update Committee (RUC) recommends payment values, CMS adopts roughly 87% of them unchanged, commercial insurers benchmark their physician rates as multiples of Medicare, and employers pay premiums that reflect those rates. Procedural specialties are systematically overvalued relative to primary care and international peers. Using a defensible 18-country high-income OECD peer set, the CMS Physician Fee Schedule RVU file, Medicare PUF service data, and BLS OEWS wage anchors, we compute a productivity-normalized international compensation gap of $64.2B, plus workforce-mix, RVU-misvaluation, and GME-allocation components. After overlap subtractions with Issues #3, #10, #11, and #12, we book **$27.6B/year** (range $19.7–35.5B). The fix is not "pay doctors less"; it is to fix the payment architecture that overpays procedural work relative to office visits. [Read it →](https://americanhealthcareconundrum.com/issue-14-the-specialist-tax)
 
 ---
 
@@ -1005,7 +1005,7 @@ Six datasets. Per-dataset crowdfunding via Stripe (no account required, any amou
 
 ## Up Next
 
-Issue #15: The Facility Fee Scam. The same procedure, performed by the same physician, costs Medicare two to four times more when it is billed in a hospital outpatient department than in an independent physician office. The difference is the facility fee, a billing add-on that exists because CMS treats the hospital as a separate cost center even when it is the same building, equipment, and staff. We quantify the site-of-service differential across the most-billed HCPCS codes, identify which are eligible for site-neutral payment, and book the recoverable share net of overlap with the consolidation and specialist-payment issues. Target publish: June 7, 2026. Subscribe on Substack to get it when it drops.
+Issue #15: The Facility Fee Scam. The same procedure, performed by the same physician, costs Medicare two to four times more when it is billed in a hospital outpatient department than in an independent physician office. The difference is the facility fee, a billing add-on that exists because CMS treats the hospital as a separate cost center even when it is the same building, equipment, and staff. We quantify the site-of-service differential across the most-billed HCPCS codes, identify which are eligible for site-neutral payment, and book the recoverable share net of overlap with the consolidation and specialist-payment issues. Target publish: June 7, 2026. Subscribe at [americanhealthcareconundrum.com](https://americanhealthcareconundrum.com) to get it when it drops.
 
 ---
 
@@ -1015,6 +1015,6 @@ Every analysis uses primary sources: CMS cost reports, Part D claims data, OECD 
 
 No institutional affiliations. No university. No think tank. No funder who might find the analysis inconvenient. Funded by readers and data sponsors who want the numbers to be public.
 
-Built by [Andrew Rexroad](https://andrewrexroad.substack.com). Questions, corrections, or data tips: vonrexroad@gmail.com
+Built by [Andrew Rexroad](https://americanhealthcareconundrum.com). Questions, corrections, or data tips: vonrexroad@gmail.com
 
-**[Subscribe on Substack](https://andrewrexroad.substack.com)** | **[Sponsor the Data](https://github.com/sponsors/rexrodeo)** | **[View the Code](https://github.com/rexrodeo/american-healthcare-conundrum)**
+**[Subscribe](https://americanhealthcareconundrum.com)** | **[Sponsor the Data](https://github.com/sponsors/rexrodeo)** | **[View the Code](https://github.com/rexrodeo/american-healthcare-conundrum)**

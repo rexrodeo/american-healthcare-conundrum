@@ -28,8 +28,6 @@ Zoomed (first $100B):
 
 ---
 
-## Issue #3: The $29,000 Hip Replacement
-
 A quick number to keep in mind: **254.**
 
 That's the percentage of Medicare rates that commercial insurers — your employer's health plan, your marketplace plan — pay US hospitals for the same inpatient procedures that Medicare covers. Not 254 dollars. **254 percent.** The government pays hospitals $15,000 for a hip replacement. Your private insurer pays $29,000 for the identical operation at the same hospital, performed by the same surgeon.

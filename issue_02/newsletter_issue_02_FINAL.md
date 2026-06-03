@@ -37,7 +37,11 @@ Same drug. Same dose. Same active ingredient synthesized the same way. Thirty-ni
 
 And that's Japan. In the United Kingdom, apixaban has been available as a generic since 2017. The NHS reimburses pharmacies roughly £1.17 — about $1.48 — for a 30-day supply. In the US, Bristol-Myers Squibb and Pfizer have used a thicket of secondary patents and pay-for-delay settlements to block generic entry, so Medicare still pays the branded price: 581 times more for the same molecule.
 
+![Apixaban: Medicare vs international vs NHS price per 30-day supply](figures/01_three_price_comparison.png)
+
 Eliquis is the single most expensive drug in Medicare Part D, the federal program that covers prescription drugs for roughly 50 million Americans over 65 and those with disabilities. In 2023, it cost the program $18.3 billion. (By 2024, that figure had risen to $20.8 billion — and the drug showed no signs of slowing down.) The National Cancer Institute — the federal agency responsible for cancer research, prevention, and treatment — had a total budget of $7.2 billion that year. Eliquis cost Medicare more than twice what the country invests in fighting cancer. The National Science Foundation, which funds basic scientific research across every discipline, received $9.5 billion. One blood thinner cost more than the NCI and NSF combined. One drug. One year.
+
+![Eliquis: annual Medicare Part D spending in context](figures/05_eliquis_deep_dive.png)
 
 This is not an argument against pharmaceutical innovation. The companies that developed apixaban invested real capital and took real risk. But the original patents on apixaban expired years ago in most of the world. What keeps the American price at $862 while the rest of the world pays $22–$59 is not ongoing R&D — it is a system of secondary patents, legal settlements, and regulatory strategies designed to extend market exclusivity long after the original invention was paid for. That system is the story of this issue.
 
@@ -60,6 +64,8 @@ For the nine drugs examined:
 
 The conservative figure accounts for manufacturer rebates — payments from drug companies back to Medicare Part D plans that reduce the net cost below the gross figures in public data. CMS publishes gross spending by drug, but individual rebate amounts are legally protected as trade secrets under contracts between manufacturers and pharmacy benefit managers. No public dataset shows the exact net price of Eliquis or Jardiance. So we triangulate. MedPAC — Congress's independent advisory body, which has statutory access to confidential rebate data under the Consolidated Appropriations Act of 2021 — reports that aggregate Part D rebates reached approximately $70 billion in 2023, or 25 percent of gross spending. That average includes generics, which carry near-zero rebates. For brand drugs specifically, the rebate share is substantially higher: Feldman et al. (JAMA Health Forum, 2021) estimated brand-name Part D discounts at 37 percent as of 2018 and rising, with some therapeutic classes exceeding 50 percent. The $25 billion figure in this analysis applies a 49 percent net adjustment — consistent with CMS's own gross-to-net reconciliation for top-spend branded products and with MedPAC's brand-specific ranges. Even after that adjustment, the gap between what Medicare pays and what peer nations pay is measured in the tens of billions.
 
+![Medicare spending vs international-reference savings across nine brand drugs](figures/04_spending_and_savings.png)
+
 A note on why these numbers are hard to pin down: the rebate system's opacity is not incidental — it is structural, and it is the subject of Issue #4 in this series. The companies that negotiate rebates on behalf of Medicare plans are called pharmacy benefit managers. They process 80 percent of American prescriptions, and the confidentiality provisions that keep rebate data hidden are the mechanism by which they retain billions in value. More on that soon.
 
 The nine drugs — Eliquis, Jardiance, Xarelto, Farxiga, Januvia, Entresto, Stelara, Imbruvica, and Enbrel — are not obscure. They are the drugs filling the most Medicare claims for the most common conditions: heart disease, diabetes, heart failure, autoimmune disease. They are, collectively, the financial center of gravity of Medicare Part D.
@@ -77,6 +83,8 @@ Eliquis is the most dramatic example, but every drug on the list tells the same 
 **Farxiga (dapagliflozin)** — $1,010 per Medicare claim, $9.00 in the UK. 112 times more expensive.
 
 For each of these drugs, the molecule is off-patent in the United Kingdom. Generic manufacturers entered the market years ago. British patients pay commodity prices for what American Medicare still treats as a branded luxury.
+
+![NHS-to-Medicare price ratios by drug](figures/02_nhs_vs_medicare_ratio.png)
 
 The drugs where the gap is smaller — Entresto at 8.6 times the NHS price, Stelara and Enbrel at 7–11 times the international average — are either still under active patent globally, or are biologics with genuine manufacturing complexity. Even there, the premium that the US pays over peer nations has no equivalent anywhere else in the developed world.
 
@@ -104,6 +112,8 @@ The RAND Corporation — a nonprofit research institution founded in 1948, origi
 
 US brand-name drug prices are, on average, **10.3 times** what France pays, **10.1 times** what the United Kingdom pays, **8.2 times** what Japan pays, and **7.1 times** what Germany pays. The overall multiple across all countries is 2.78×. For brand drugs specifically, the ratio rises to at least 3.22× — and that accounts for estimated US rebates.
 
+![US brand-drug prices vs peer OECD nations (RAND 2022 data)](figures/03_rand_country_ratios.png)
+
 These are not generic-versus-brand comparisons. Every country on that list pays for the same branded molecules. The difference is that every country on that list negotiates. The United States, for most drugs, does not — or did not, until recently.
 
 ---
@@ -112,7 +122,7 @@ These are not generic-versus-brand comparisons. Every country on that list pays 
 
 The Inflation Reduction Act of 2022 authorized Medicare to negotiate drug prices for the first time. The first ten drugs — a list that includes nine of the drugs analyzed in this issue — had negotiated prices take effect January 1, 2026.
 
-The results are real. Eliquis's negotiated price fell to $231 — down substantially from the pre-IRA benchmark CMS used in negotiations. Jardiance to $197. Januvia to $113. These are the largest reductions in Medicare Part D pricing history.
+The results are real. Eliquis dropped from a $521 per-unit list price to $231 negotiated. Jardiance from $573 to $197. Januvia from $527 to $113. These are the largest reductions in Medicare Part D pricing history.
 
 They are also still far above what peer countries pay.
 
@@ -146,11 +156,17 @@ For comparison: that is roughly 2.5 times the annual budget of the CDC. Or, sinc
 
 Several important caveats apply to the price comparisons in this issue.
 
-The Medicare figures are gross costs from the Part D Public Use File — the price before manufacturer rebates flow back to Part D plans. Actual net Medicare spending is lower. For the high-spend brand drugs in this analysis, manufacturer rebates on the top-spend products are estimated at 40–50 percent; the conservative $25 billion savings figure uses a ~49 percent net adjustment to the $48.9 billion gross difference. For lower-spend branded drugs, the 25–30 percent figure is more typical. All estimates in this issue use conservative net-cost figures where possible.
+The Medicare figures are gross costs from the Part D Public Use File — the price before manufacturer rebates flow back to Part D plans. Actual net Medicare spending is lower, typically by 25–30 percent for branded drugs. All estimates in this issue assume the rebate discount and use conservative net-cost figures where possible.
 
 International prices come from two sources: Peterson-KFF's published comparison of eleven OECD countries (2024), and the NHS Drug Tariff Part VIIIA (March 2026), downloaded directly. Exchange rates use current GBP/USD. For drugs available as generics in the UK, the NHS price reflects generic reimbursement — the price of the same active ingredient after patent expiry, not the original branded price. This is intentional: the UK NHS prices show what the molecule actually costs when manufacturers compete on price rather than exclusivity.
 
 All code, crosswalk logic, and supporting data files are published at [github.com/rexrodeo/american-healthcare-conundrum](https://github.com/rexrodeo/american-healthcare-conundrum).
+
+---
+
+## If You Missed Issue #1
+
+This issue is part of an ongoing series. [Issue #1 covered the $2 billion Medicare Part D spends every year on prescription drugs with over-the-counter equivalents](https://americanhealthcareconundrum.com/medicare-otc-drug-problem-part-d) — 83 million claims for heartburn pills, allergy sprays, and pain relievers you can buy off the shelf for a fraction of the price. The fix there is administrative: OTC-equivalent step therapy through CMS guidance, no new legislation required. If you found this issue through search or a share, it's worth a read.
 
 ---
 

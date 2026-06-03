@@ -56,15 +56,13 @@ Those who do appeal have strong odds: CMS-0057-F disclosures show a 57.9 percent
 
 ### The Price Behind the Paperwork
 
-I need to break the fourth wall for a moment, because a woman very close to me just lived through this.
-
-She needed a brain MRI. Her physician ordered the scan to investigate recurring migraines. She scheduled it at Touchstone Imaging in Denver, an in-network provider under her Anthem BlueCross PPO. The day before the appointment, Touchstone cancelled: Anthem had not returned the prior authorization.
+Consider a case I watched unfold personally just last week. A woman very close to me needed a brain MRI. Her physician ordered the scan to investigate recurring migraines. She scheduled it at Touchstone, an in-network imaging center, in Denver, under her Anthem BlueCross PPO. The day before the appointment, Touchstone cancelled: Anthem had not returned the prior authorization.
 
 Touchstone offered an alternative. Self-pay: $450. Same machine, same technicians, same radiologist reading the images. No authorization needed. Treatment for anything the MRI found would still go through insurance.
 
 Here is where it gets interesting. Anthem's contract rate for the same scan is $3,000. That is 6.7 times the cash price. The insurer "negotiated" a rate that is 567 percent of what the imaging center charges a person who walks in and pays.
 
-But the $450 cash price does not count toward her $3,400 annual deductible. Her family has already applied roughly $2,150 this year. If she pays $3,000 through insurance, only $850 comes out of pocket (the remaining balance to hit the deductible), and every claim after that is covered at 100 percent. If she pays $450 cash, it saves money today but the deductible clock stays where it is. The next claim starts from the same $2,150 mark.
+But the $450 cash price does not count toward her $3,400 annual deductible. Her family has already applied roughly $2,150 this year. If she pays $3,000 through insurance, only $850 comes out of pocket (the remaining balance to hit the deductible), and every claim after that is covered at 100 percent for the rest of the year. If she pays $450 cash, it saves money today but the deductible clock stays where it is. The next claim starts from the same $2,150 mark.
 
 The insurer has built a trap with three walls. The prior authorization requirement creates friction that delays or prevents care. The inflated contract rate (6.7 times the cash price) means every dollar that does flow through insurance maximizes premium justification. And the deductible structure makes the patient financially rational to pay $850 instead of $450, because only the inflated price counts toward the threshold that unlocks full coverage.
 
@@ -130,7 +128,7 @@ This count is the marginal impact of AI beyond the human reviewer baseline. It i
 
 ### Component D: Deductible-Delay Extraction (we can see it, we cannot yet measure it)
 
-The MRI vignette above is not anecdote. It is a measurable category of insurer extraction. But measuring it honestly requires data we do not yet have access to, and we would rather publish a gap we can explain than a number we cannot defend.
+The MRI vignette above is not merely anecdote. It is a measurable category of insurer extraction. But measuring it honestly requires data we do not yet have access to, and we would rather publish a gap we can explain than a number we cannot defend.
 
 > **📍 The gap we can't yet measure, and how you can help close it**
 >

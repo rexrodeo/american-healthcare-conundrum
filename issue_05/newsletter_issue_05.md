@@ -166,7 +166,7 @@ Second, the for-profit hospital mix skews toward specialty surgical centers and 
 
 Third, A&G as a percentage of total hospital costs tells a different story than the per-discharge figure. For-profit small hospitals spend 21.0% of total costs on A&G; nonprofit small hospitals spend 18.5%. For-profits spend less in absolute terms per discharge but a larger share of their (smaller) total budget on administration.
 
-What the ownership data does establish is that the range is wide enough to imply variation in administrative efficiency. The most informative comparison is within ownership types: nonprofit medium hospitals show a P75/P25 ratio of 1.9x, meaning the most administratively expensive nonprofit hospitals spend nearly twice as much on A&G per discharge as the most efficient nonprofits of the same size. That gap, within the same ownership model and the same size class, is the clearest signal of addressable waste.
+What the ownership data does establish is that the range is wide enough to imply variation in administrative efficiency. The most informative comparison is within ownership types: nonprofit medium hospitals show a P75/P25 ratio of 1.9x, meaning the most administratively expensive nonprofit hospitals spend nearly twice as much on A&G per discharge as the most efficient nonprofits of the same size. **That gap, within the same ownership model and the same size class, is the clearest signal of addressable waste.**
 
 ---
 
@@ -270,7 +270,7 @@ Issue #6 asks where that operational variance shows up in the physical supply ch
 
 If you want to follow the code: [github.com/rexrodeo/american-healthcare-conundrum](https://github.com/rexrodeo/american-healthcare-conundrum)
 
-If you want to check our numbers: the hospital-level CSV (4,518 rows, 22 columns) is in the repository under `issue_05/results/hospital_admin_costs_fy2023.csv`.
+If you want to check our numbers: the hospital-level CSV (4,518 rows, 22 columns) is in the repository under `issue_05/hospital_admin_costs_fy2023.csv`.
 
 If you want to push back on the methodology: reply to this email, or leave a comment below.
 
