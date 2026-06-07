@@ -8,7 +8,7 @@ This project finds it, one issue at a time. Each issue identifies one fixable pr
 
 ---
 
-> **Latest Issue (#14): [The Specialist Tax](issue_14/newsletter_issue_14.md)** — US physicians earn more than physicians in any other OECD country, but the gap is not the product of a free labor market. It is the output of an administered price cascade: the AMA's Relative Value Scale Update Committee (RUC) recommends payment values, CMS adopts roughly 87% of them unchanged, commercial insurers benchmark their physician rates as multiples of Medicare, and employers pay premiums that reflect those rates. Procedural specialties are systematically overvalued relative to primary care and international peers. Using a defensible 18-country high-income OECD peer set, the CMS Physician Fee Schedule RVU file, Medicare PUF service data, and BLS OEWS wage anchors, we compute a productivity-normalized international compensation gap of $64.2B, plus workforce-mix, RVU-misvaluation, and GME-allocation components. After overlap subtractions with Issues #3, #10, #11, and #12, we book **$27.6B/year** (range $19.7–35.5B). The fix is not "pay doctors less"; it is to fix the payment architecture that overpays procedural work relative to office visits. [Read it →](https://americanhealthcareconundrum.com/issue-14-the-specialist-tax)
+> **Latest Issue (#15): [The Facility Fee Scam](issue_15/newsletter_issue_15.md)** — When a hospital system buys a physician practice and converts it to provider-based status, the same office visit in the same building starts generating two Medicare claims instead of one: the physician's professional fee plus a hospital facility fee that flows to the hospital. A chest X-ray Medicare pays $25.23 for at an independent office costs $96.46 at a hospital-owned clinic, 3.8 times more for an identical study. Applying CY2025 CMS rates to 2023 utilization across the two categories public data can cleanly isolate (clinic visits and minor procedures), the computation produces $1.967B/year in Medicare counterfactual savings. Extended conservatively to commercial insurance (1.5x Medicare) and netted against overlap with Issues #3 and #12 at 60% recoverability, we book **$2.55B/year** (range $0.93B to $4.13B). Diagnostic imaging and drug administration, both larger and both on MedPAC's site-neutral list, are excluded because public files cannot isolate hospital-outpatient volume from inpatient, ER, and ASC settings; they are the explicit data-partner ask. The fix is site-neutral payment, which MedPAC has recommended every year since 2014 and Congress has passed only in part. [Read it →](https://americanhealthcareconundrum.com/issue-15-the-facility-fee-scam)
 
 ---
 
@@ -30,11 +30,12 @@ This project finds it, one issue at a time. Each issue identifies one fixable pr
 | 12 | [The Consolidation Tax](issue_12/newsletter_issue_12.md) | $13.0B/yr | Panel of 1,155 ownership-change events across 2018–2025 from CMS POS, narrowed to 530 horizontal hospital mergers in 315 unique HSAs with mean HHI shift of 2,318 points; piecewise HHI-dependent coefficient (Cooper / Dafny / FTC Evanston / Brot-Goldberg anchors) applied per market, net of $3.47B Issue #3 hospital-pricing overlap and $0.87B Issue #15 vertical-integration overlap | CMS POS annual snapshots 2018–2025; CMS HCRIS FY2018–FY2023; Dartmouth ZIP-HSA-HRR crosswalk; Cooper QJE 2019; Dafny RAND J Econ 2019; FTC Working Paper 307; Brot-Goldberg et al. NBER WP 32613 (Feb 2026 rev); Fulton et al. Health Affairs 2022 |
 | 13 | [The Nonprofit Lie](issue_13/newsletter_issue_13.md) | $5.4B/yr | Panel of 3,005 nonprofit hospitals from CMS HCRIS FY2023 joined to per-filer Form 990 Schedule H pulled directly from IRS bulk XML (2,103 filers, 76% of panel expenses); 86% of nonprofit hospitals deliver less audited charity care than the value of their tax exemption (narrow Herring 2018 test); aggregate tax exemption $46.4B vs. audited charity care $17.2B; booked figure net of overlap with Issues #3 and #12 at 53% recoverability | CMS HCRIS FY2023 (Worksheet S-10, charity at cost); IRS Form 990 Schedule H 2023 (per-filer XML); Plummer, Socal, Bai *JAMA* 2024 (tax-exemption valuation method); Bai/Yehia/Chen/Anderson *Health Affairs* 2021 (broad-subset community benefit); Herring et al. *Health Affairs* 2018 (narrow-test benchmark); HHS OIG Schedule H studies |
 | 14 | [The Specialist Tax](issue_14/newsletter_issue_14.md) | $27.6B/yr | US specialist pay is set by an administered RVU cascade (RUC → CMS → commercial multiples), not a free market; productivity-normalized gap to an 18-country high-income OECD peer set, plus workforce-mix, RVU-misvaluation, and GME-allocation components | CMS PFS RVU File CY2025, Medicare PUF 2024, BLS OEWS May 2024, OECD Health at a Glance 2025 |
-| | **Running Total** | **$516.8B/yr** | **16.0% of the $3.24T gap** | |
+| 15 | [The Facility Fee Scam](issue_15/newsletter_issue_15.md) | $2.55B/yr | Hospital-owned clinics bill Medicare 2–4x the office rate for the same procedure once converted to provider-based status; CY2025 site-of-service differential on 2023 utilization for clinic visits and minor procedures ($1.967B Medicare base), extended to commercial and netted for overlap; imaging and drug administration excluded as the data-partner ask | CMS OPPS Addendum B CY2025, CMS PFS RVU25D CY2025, Medicare Physician PUF DY2023, MedPAC |
+| | **Running Total** | **$519.35B/yr** | **16.0% of the $3.24T gap** | |
 
 *Issue #9 is the first issue at the revised $3.24T denominator (CMS NHE 2024 final, released April 18, 2026). Issues #1–#8 published using the prior $3T denominator and are not retrofitted.*
 
-![Savings Tracker](issue_14/figures/chart5_savings_tracker.png)
+![Savings Tracker](issue_15/figures/chart5_savings_tracker.png)
 
 ---
 
@@ -49,6 +50,75 @@ The same operations. Exposed to the same clinical evidence. Wildly different pri
 ---
 
 ## Published Issues
+
+### Issue #15 — The Facility Fee Scam (~$2.55B/year)
+
+When a hospital system acquires a physician practice and converts it to provider-based status (42 C.F.R. Section 413.65), the same service in the same building stops billing under the Physician Fee Schedule (PFS) and starts billing under the Outpatient Prospective Payment System (OPPS): one professional claim plus a separate hospital facility fee. Medicare pays two to four times the office rate for clinically identical work. A chest X-ray Medicare reimburses at $25.23 in an independent office is reimbursed at $96.46 at a hospital-owned clinic. Using CMS OPPS Addendum B CY2025 facility rates, the CMS PFS RVU25D CY2025 office rates, and Medicare Physician PUF DY2023 volume, the analysis computes a per-procedure site-of-service differential for the two categories public data can cleanly isolate: clinic visits (9 codes, 18.5M HOPD visits/year, $1.821B) and minor procedures (6 codes, 0.5M services/year, $0.146B), a $1.967B Medicare counterfactual base. Extended to commercial insurance at a conservative 1.5x Medicare multiplier, netted against Issue #3 (15% of the commercial layer) and Issue #12 (5% of gross) overlap, and discounted to 60% recoverability for legislative grandfathering friction, we book **$2.55 billion per year** (range $0.93B to $4.13B). Diagnostic imaging (358 codes, gross $4.68B) and drug administration are excluded because the public Physician PUF facility flag cannot separate hospital-outpatient volume from inpatient, emergency-department, and ambulatory-surgery-center settings; both are the explicit data-partner ask. The fix is site-neutral payment, recommended by MedPAC every year since 2014 and enacted only partially by Section 603 of the Bipartisan Budget Act of 2015.
+
+![Same Code, Different Building](issue_15/figures/chart1_site_differential.png)
+
+*Source: CMS OPPS Addendum B CY2025, CMS PFS RVU25D CY2025, Medicare Physician and Other Practitioners by Geography and Service DY2023.*
+
+**Read the full analysis →** [`issue_15/newsletter_issue_15.md`](issue_15/newsletter_issue_15.md)
+
+<details>
+<summary>Reproducing the analysis</summary>
+
+```bash
+cd issue_15
+
+# Download CMS OPPS Addendum B, PFS RVU25D, and Medicare Physician PUF;
+# join by HCPCS; compute per-procedure site-of-service differential for the
+# two clean categories; build commercial extension, overlap subtractions,
+# and recoverability sensitivity
+python 01_build_data.py
+
+# Generate all five charts plus hero
+python generate_all_charts.py
+```
+
+**Key outputs:**
+- `results/savings_estimate.json` — Booked $2.55B, range $0.93–$4.13B, components, overlap subtractions, recoverability
+- `results/medicare_counterfactual_savings.csv` — Per-category Medicare counterfactual savings
+- `results/per_hcpcs_savings.csv` — Per-HCPCS site-of-service differential
+- `results/savings_by_component.csv` — Component build (Medicare base, commercial extension, overlaps, recoverability)
+- `results/commercial_extrapolation.csv` — Commercial extension at 1.5x (range to 2.54x RAND ratio)
+- `results/cross_validation.csv` — Against MedPAC ambulatory aggregate and CBO clinic-visit scoring
+- `results/methodology.md` — Full methodology, exclusion rationale for imaging and drug administration
+- `results/originality_gate.md` — Stage 3.5 originality-gate verdict and adversarial-math notes
+
+</details>
+
+<details>
+<summary>Data sources</summary>
+
+| Source | Description |
+|--------|-------------|
+| CMS OPPS Addendum B CY2025 | Hospital Outpatient Prospective Payment System facility rates by HCPCS |
+| CMS PFS Relative Value File RVU25D CY2025 | Physician Fee Schedule non-facility (office) allowed amounts by HCPCS |
+| CMS Medicare Physician and Other Practitioners by Geography and Service DY2023 | Service volume by HCPCS and place of service |
+| MedPAC March 2014, March 2023, March 2025 Reports | Site-neutral payment recommendations and ambulatory aggregate |
+| Capps, Dranove, Ody, J Health Econ 59:139–152 (2018) | Hospital-acquired physician prices rose 14.1%, ~half from site-of-service shift |
+| Bipartisan Budget Act of 2015 Section 603; 42 C.F.R. 413.65 | Provider-based status and partial site-neutral fix |
+| Health Affairs 45(2):218–225 (2026) | Optum ASC acquisitions associated with 11% commercial price increase |
+
+</details>
+
+<details>
+<summary>Key methodology notes</summary>
+
+- Two booked Medicare categories computed per HCPCS: clinic visits ($1.821B) and minor procedures ($0.146B), a $1.967B base. Rates are CY2025; volume is DY2023 (a 2025-rate counterfactual on 2023 use)
+- Commercial extension at a conservative 1.5x Medicare (full RAND 5.1 ratio of 2.54x forms the range ceiling), not the inpatient-weighted hospital-wide average
+- Overlap subtractions: Issue #3 (15% of the commercial layer, hospital-pricing transmission), Issue #12 (5% of gross, consolidation premium). Issue #14 distinct mechanism (0%)
+- Recoverability factor 0.60 central (range 0.50–0.70) for legislative grandfathering delays
+- Booked $2.55B; range $0.93–$4.13B
+- Imaging (358 codes, gross $4.68B) and drug administration excluded: the Physician PUF facility flag cannot isolate HOPD-outpatient volume from inpatient, ER, ASC, and SNF settings, and drug-administration HOPD volume is packaged into Comprehensive APCs. Both require claims-level data (CMS LDS/VRDC, state APCD, MarketScan) and form the data-partner ask
+- Cross-validation: MedPAC ambulatory aggregate (~$6.6B) includes imaging and drug administration; the booked base is a clean conservative subset; CBO clinic-visit scoring (~$3–7B over ten years) is consistent
+- Editorial framing: the target is the provider-based billing architecture, not individual hospitals or physicians
+
+</details>
+
+---
 
 ### Issue #14 — The Specialist Tax (~$27.6B/year)
 

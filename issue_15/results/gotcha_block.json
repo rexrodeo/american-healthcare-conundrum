@@ -1,0 +1,26 @@
+{
+  "issue_number": 15,
+  "stage_status": "COMPUTED",
+  "datasets_used": [
+    "CMS OPPS Addendum B CY2025 (January release)",
+    "CMS PFS Relative Value File RVU25D (CY2025)",
+    "Medicare Physician & Other Practitioners by Geography and Service DY2023 (POS=F volume)",
+    "Medicare Outpatient Hospitals by Geography and Service DY2023 (blocker audit only)"
+  ],
+  "gotchas_confirmed": {
+    "opps_addendum_b_has_rate_directly": "Addendum B 'Payment Rate' column gives the per-HCPCS OPPS facility payment directly; no separate Addendum A APC join required. Rate strings carry a '$' prefix that must be stripped.",
+    "pfs_office_rate_formula": "Office (non-facility) = (work + non-facility PE + MP) RVU x CF; CF read from file = 32.3465. Use blank-modifier (global) rows with payable status (A/R/T).",
+    "hopd_professional_fee_is_mod26": "For prof/tech-split services (PCTC indicator 1, imaging), the HOPD professional fee is the mod-26 rate, NOT the global facility rate; using the global rate double-counts the technical component already paid via the OPPS facility fee. Material: the naive sketch overstated imaging savings by ~75%.",
+    "place_of_service_codes": "Physician PUF Place_Of_Srvc is a BINARY flag: F (facility) / O (office), the only two values present. It is NOT an HOPD indicator. POS=F is the HOPD-setting volume proxy only for the booked categories (clinic visits, minor procedures), where the inpatient/ER/ASC share is modest and the booked volume is already a conservative subset.",
+    "pos_f_imaging_contamination": "MATERIAL (Stage 5.5 defect C1). Using POS=F as an HOPD proxy for diagnostic imaging is wrong: for the top imaging dollar drivers the facility share is the MAJORITY of POS=F volume and is dominated by inpatient/ER films (chest X-ray 71045: 12.3M POS=F vs 0.72M POS=O, 0.945 facility share; head CT 70450: 0.952), none site-neutral-eligible to a physician office. Public per-HCPCS files cannot isolate the HOPD-outpatient fraction (the Outpatient PUF suppresses packaged imaging via C-APC bundling). RESOLUTION 2026-06-01: imaging is EXCLUDED from the booked figure entirely and reported as an unbooked data-partner CTA gross, rather than downweighted by a judgmental eligibility fraction. The booked Medicare base is clinic visits + minor procedures only.",
+    "outpatient_puf_capc_suppression": "Medicare Outpatient PUF reports CAPC_Srvcs = comprehensive-APC PRIMARY service counts only. Packaged clinic visits, drug administration, and most imaging are suppressed (G0463 shows ~1,920 vs tens of millions). Hence HOPD volume is taken from the Physician PUF, and drug admin is not computable -> data-partner CTA.",
+    "rate_vs_volume_year": "CY2025 rates applied to DY2023 volume (most recent PUF). 2025-rate counterfactual on 2023 utilization; documented limitation.",
+    "bba_2015_carve_out": "Section 603 of BBA 2015 already pays PFS at post-Nov-2015 off-campus HOPDs. The booked figure is conservative on this axis because the computable categories (clinic visits, imaging) are dominated by on-campus and grandfathered off-campus volume that remains at OPPS; no explicit carve-out fraction is applied to a quantity already understated by the volume source.",
+    "commercial_multiplier_uncertainty": "Issue #3's 254% is hospital-wide (inpatient-weighted). Booked uses a conservative 1.5x outpatient blend; full 2.54x is the range ceiling."
+  },
+  "originality_posture": "Booked headline computed per-HCPCS from CMS OPPS Addendum B + PFS RVU25D + Physician PUF POS=F volume for the CLEAN categories (clinic visits + minor procedures), applying the MedPAC site-neutral framework with the corrected total-payment-across-settings differential. MedPAC categories are curated; the per-HCPCS application to current rate and utilization files is original. Imaging is computed but EXCLUDED from the booked figure (POS=F contamination, C1) and reported as a data-partner CTA gross.",
+  "headline_booked_bil": 2.5504,
+  "generated_at": "2026-06-01T14:54:11.122495",
+  "headline_medicare_computed_bil": 1.9667,
+  "headline_imaging_unbooked_cta_gross_bil": 4.6823
+}

@@ -1,0 +1,55 @@
+{
+  "issue_number": 15,
+  "issue_title": "The Facility Fee Scam",
+  "anchor_year_rates": 2025,
+  "anchor_year_volume": 2023,
+  "headline_status": "STAGE2_COMPUTED",
+  "booked_bil": 2.5504,
+  "range_lo_bil": 0.9342,
+  "range_hi_bil": 4.1316,
+  "scoping_target_bil": 15.0,
+  "vs_scoping_target": "Computed booked (~$2.6B) is well below the $15B scoping target. The booked Medicare base is clinic visits + minor procedures only (~$1.967B); diagnostic imaging (gross ~$4.68B) and drug administration are BOTH moved to the data-partner CTA because public per-HCPCS files cannot isolate HOPD-outpatient volume (imaging POS=F is contaminated by inpatient/ER/ASC; drug admin is C-APC packaged). The 60% recoverability factor further reduces the booked figure. Reported as computed, not forced to target.",
+  "components": {
+    "medicare_counterfactual_savings_bil": 1.9667,
+    "commercial_extension_net_bil": 2.5076,
+    "gross_total_before_12_overlap_bil": 4.4743,
+    "after_12_overlap_bil": 4.2506,
+    "by_category": {
+      "clinic_visit": {
+        "codes": 9,
+        "volume": 18530110,
+        "medicare_savings_bil": 1.8212
+      },
+      "minor_proc": {
+        "codes": 6,
+        "volume": 524871,
+        "medicare_savings_bil": 0.1455
+      }
+    }
+  },
+  "overlap_subtractions": {
+    "issue_3_on_commercial_extension_fraction": 0.15,
+    "issue_12_on_full_booked_fraction": 0.05,
+    "issue_14_distinct_mechanism_fraction": 0.0
+  },
+  "recoverability_factor": 0.6,
+  "commercial_extension_multiplier_booked": 1.5,
+  "commercial_extension_multiplier_range_hi": 2.54,
+  "not_computable_data_partner_cta": {
+    "diagnostic_imaging": {
+      "unbooked_gross_bil": 4.6823,
+      "codes": 358,
+      "pos_f_volume": 55348463,
+      "why_not_booked": "HOPD volume proxy was the Physician PUF Place_Of_Srvc=='F' service count. POS in this PUF is a BINARY facility/non-facility flag (only 'O' and 'F'), NOT an HOPD indicator: POS=F sweeps in inpatient (POS 21), ER (POS 23), ASC (POS 24), and SNF imaging, none site-neutral-eligible to a physician office. For the top dollar drivers the facility share is the majority of volume (chest X-ray 71045: 12.3M POS=F vs 0.72M POS=O, 0.945 facility share, dominated by inpatient/ER portable films; head CT 70450: 0.952). Public per-HCPCS files cannot isolate the HOPD-outpatient fraction and the Outpatient PUF suppresses packaged imaging via C-APC bundling. Rather than apply a judgmental eligibility fraction to the single largest line, the entire imaging gross is reported UNBOOKED and offered as a data-partner CTA. (Stage 5.5 defect C1; compounded by C2 radiopharmaceutical bundling and C3 Q3 conditional packaging, both same direction.) Computing a defensible imaging figure requires claims-level data with a true HOPD-outpatient site flag (CMS LDS/VRDC, state APCD, MarketScan)."
+    },
+    "drug_administration_96360_96549": "HOPD drug-admin volume packaged into Comprehensive APCs; not separable from public per-HCPCS PUFs. MedPAC's largest single site-neutral category. Requires claims-level data.",
+    "full_clinic_visit_universe": "Booked clinic-visit volume (~18.5M, Physician PUF POS=F with a separate professional claim) is a conservative subset of CMS's full institutional G0463 clinic-visit count (~75M).",
+    "outpatient_puf_audit": {
+      "outpatient_puf_national_apc_hcpcs_rows": 3241,
+      "total_capc_srvcs": 5556838,
+      "g0463_capc_srvcs_in_outpatient_puf": 1920,
+      "note": "The Outpatient PUF reports CAPC_Srvcs = comprehensive-APC PRIMARY service counts only; packaged/secondary lines (most clinic visits, drug administration, packaged imaging) are not separately counted. G0463 shows only ~1,920 services here vs the tens of millions of actual HOPD clinic visits, confirming the suppression. This is why HOPD volume for the booked categories is taken from the Physician PUF POS=F counts instead, and why drug administration is not computable and becomes the data-partner CTA."
+    }
+  },
+  "generated_at": "2026-06-01T14:54:11.119613"
+}

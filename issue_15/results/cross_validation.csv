@@ -1,0 +1,6 @@
+anchor,expected_bil,computed_bil,delta_pct,verdict
+CBO clinic-visit-only site-neutral score (~$3-7B/10yr),~0.3-0.7/yr to low-single-digit (clinic visit only),1.821,n/a (order-of-magnitude check),"CONSISTENT: clinic-visit Medicare slice is low-single-digit $B/yr, in line with CBO clinic-visit-only scope"
+MedPAC ambulatory site-neutral aggregate (INCLUDES imaging + drug admin),6.6,1.967,-70.2,"SUBSET (expected): booked base is clinic visits + minor proc only; MedPAC's larger aggregate includes imaging + drug admin, the two categories we move to the CTA. Base correctly sits below MedPAC."
+MedPAC scope reconciliation (base + CTA imaging gross vs MedPAC),6.6,6.649,0.7,"Booked base + unbooked imaging gross approaches the MedPAC aggregate; residual gap is drug administration (MedPAC's largest single category), also a CTA. Reconciliation, not a booked figure."
+Capps/Dranove/Ody 2018 post-acq price increase (14.1%),0.141,0.785,n/a (mechanism direction check),DIRECTIONALLY CONSISTENT
+Health Affairs Feb 2026 Optum ASC price increase (11%),0.11,n/a,n/a,"CURATED reference (commercial ASC mechanism, not booked)"

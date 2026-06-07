@@ -1,0 +1,3 @@
+scenario,commercial_multiplier,medicare_bil,commercial_gross_bil,commercial_net_bil
+conservative_booked,1.5,1.967,2.95,2.508
+full_issue3_ratio,2.54,1.967,4.995,4.246
