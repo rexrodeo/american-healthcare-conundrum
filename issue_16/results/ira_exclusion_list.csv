@@ -1,0 +1,46 @@
+brand_key,generic_key,brand_name,generic_name,ira_round,mfp_per_30d_usd,effective_date,reason
+eliquis,apixaban,Eliquis,apixaban,1,231.0,2026-01-01,IRA Round 1
+jardiance,empagliflozin,Jardiance,empagliflozin,1,197.0,2026-01-01,IRA Round 1
+xarelto,rivaroxaban,Xarelto,rivaroxaban,1,197.0,2026-01-01,IRA Round 1
+farxiga,dapagliflozin,Farxiga,dapagliflozin,1,178.5,2026-01-01,IRA Round 1
+januvia,sitagliptin,Januvia,sitagliptin,1,113.0,2026-01-01,IRA Round 1
+entresto,sacubitril,Entresto,sacubitril,1,295.0,2026-01-01,IRA Round 1
+stelara,ustekinumab,Stelara,ustekinumab,1,4695.0,2026-01-01,IRA Round 1
+imbruvica,ibrutinib,Imbruvica,ibrutinib,1,9319.0,2026-01-01,IRA Round 1
+enbrel,etanercept,Enbrel,etanercept,1,2355.0,2026-01-01,IRA Round 1
+novolog,insulin aspart,Novolog,insulin aspart,1,119.0,2026-01-01,IRA Round 1
+fiasp,insulin aspart,Fiasp,insulin aspart,1,119.0,2026-01-01,IRA Round 1
+ozempic,semaglutide,Ozempic,semaglutide,2,274.0,2027-01-01,IRA Round 2
+rybelsus,semaglutide,Rybelsus,semaglutide,2,274.0,2027-01-01,IRA Round 2
+wegovy,semaglutide,Wegovy,semaglutide,2,274.0,2027-01-01,IRA Round 2
+trelegy,umeclidinium,Trelegy,umeclidinium,2,175.0,2027-01-01,IRA Round 2
+xtandi,enzalutamide,Xtandi,enzalutamide,2,7004.0,2027-01-01,IRA Round 2
+pomalyst,pomalidomide,Pomalyst,pomalidomide,2,8650.0,2027-01-01,IRA Round 2
+ofev,nintedanib,Ofev,nintedanib,2,6350.0,2027-01-01,IRA Round 2
+ibrance,palbociclib,Ibrance,palbociclib,2,7871.0,2027-01-01,IRA Round 2
+linzess,linaclotide,Linzess,linaclotide,2,136.0,2027-01-01,IRA Round 2
+calquence,acalabrutinib,Calquence,acalabrutinib,2,8600.0,2027-01-01,IRA Round 2
+austedo,deutetrabenazine,Austedo,deutetrabenazine,2,4093.0,2027-01-01,IRA Round 2
+breo,fluticasone/vilanterol,Breo,fluticasone/vilanterol,2,67.0,2027-01-01,IRA Round 2
+xifaxan,rifaximin,Xifaxan,rifaximin,2,1000.0,2027-01-01,IRA Round 2
+vraylar,cariprazine,Vraylar,cariprazine,2,770.0,2027-01-01,IRA Round 2
+tradjenta,linagliptin,Tradjenta,linagliptin,2,78.0,2027-01-01,IRA Round 2
+janumet,sitagliptin,Janumet,sitagliptin,2,80.0,2027-01-01,IRA Round 2
+otezla,apremilast,Otezla,apremilast,2,1650.0,2027-01-01,IRA Round 2
+anoro,umeclidinium/vilanterol,Anoro,umeclidinium/vilanterol,3,,2028-01-01,IRA Round 3
+biktarvy,bictegravir,Biktarvy,bictegravir,3,,2028-01-01,IRA Round 3
+botox,onabotulinumtoxin,Botox,onabotulinumtoxin,3,,2028-01-01,IRA Round 3
+cimzia,certolizumab,Cimzia,certolizumab,3,,2028-01-01,IRA Round 3
+cosentyx,secukinumab,Cosentyx,secukinumab,3,,2028-01-01,IRA Round 3
+entyvio,vedolizumab,Entyvio,vedolizumab,3,,2028-01-01,IRA Round 3
+erleada,apalutamide,Erleada,apalutamide,3,,2028-01-01,IRA Round 3
+kisqali,ribociclib,Kisqali,ribociclib,3,,2028-01-01,IRA Round 3
+lenvima,lenvatinib,Lenvima,lenvatinib,3,,2028-01-01,IRA Round 3
+orencia,abatacept,Orencia,abatacept,3,,2028-01-01,IRA Round 3
+rexulti,brexpiprazole,Rexulti,brexpiprazole,3,,2028-01-01,IRA Round 3
+trulicity,dulaglutide,Trulicity,dulaglutide,3,,2028-01-01,IRA Round 3
+verzenio,abemaciclib,Verzenio,abemaciclib,3,,2028-01-01,IRA Round 3
+xeljanz,tofacitinib,Xeljanz,tofacitinib,3,,2028-01-01,IRA Round 3
+xolair,omalizumab,Xolair,omalizumab,3,,2028-01-01,IRA Round 3
+mounjaro,tirzepatide,Mounjaro,tirzepatide,7,,,Issue #7 GLP-1 overlap (ROADMAP rule #5)
+zepbound,tirzepatide,Zepbound,tirzepatide,7,,,Issue #7 GLP-1 overlap (ROADMAP rule #5)

@@ -1,0 +1,28 @@
+{
+  "issue_number": 16,
+  "stage_status": "COMPUTED",
+  "datasets_used": [
+    "CMS Medicare Part D Spending by Drug PUF (CY2023 annual)",
+    "NHS Drug Tariff Part VIIIA April 2026",
+    "RAND RR-A788-3 brand ratios (Feb 2024)",
+    "CMS IRA Round 1/2/3 fact sheets (exclusion lists + MFPs)"
+  ],
+  "gotchas_confirmed": {
+    "partd_overall_row_dedup": "HONORED. PUF carries an Mftr_Name=='Overall' row AND per-manufacturer rows per drug. Summing all rows double-counts (Eliquis $36.5B vs true $18.3B). Filtered to Overall before aggregation.",
+    "partd_gross_vs_net": "HONORED (Stage 5.5 Challenge 1 net-to-net correction). PUF is GROSS. Tiered rebate (0.49 top / 0.275 mid / 0.20 biologic / 0.70 insulin) applied ONCE to convert gross->net; RAND's rebate-adjusted NET ratio 3.22x (net gap 0.689) is then applied to the net base. Rebate appears exactly once; net price gap applied to net dollars (internally consistent). Prior central applied the 4.22x GROSS gap (0.763) to a net base (inconsistent, +~11%); now retained only as an upper-method sensitivity.",
+    "insulin_rebate_repair": "HONORED (2026-06-08). Insulin SKUs (glargine/lispro/aspart/degludec/detemir) moved to a single 0.70 rebate tier (ASPE HP-2022-22 + SSR Health: insulin gross-to-net 65-84%). Fixes the Lantus Solostar 0.49 vs sibling-SKU 0.20 inconsistency; reduces insulin savings.",
+    "rand_brand_only_ratio": "HONORED. RAND RR-A788-3 brand-name originator ratios: 4.22x GROSS, 3.22x rebate-adjusted NET (NOT the 2.78x all-drugs ratio). The CENTRAL now uses the 3.22x NET ratio applied to the net spend base (net-to-net, Challenge 1). The 4.22x gross ratio is retained as an upper-method sensitivity. Brand-only ratio applied to a brand-only universe.",
+    "multisource_brand_leak": "HONORED (Stage 5.5 Challenge 3). Dropped distinct-trade-name brands with US generic/biosimilar competition by CY2023 (Symbicort, Restasis, Advair Diskus/HFA, Vascepa, Flovent HFA, Copaxone + audit additions Latuda, Multaq) that the programmatic screens could not catch; backfilled to 100.",
+    "residual_pool_selection_caveat": "DISCLOSED (Stage 5.5 Challenge 2). Universe excludes the highest-gap off-patent-abroad blockbusters (sent to IRA); the on-patent biologic/specialty residual's true US-vs-OECD ratio may sit below the 3.22 net average, so the central may be overstated. Named downward-uncertainty limitation; per-drug intl prices are the data-partner CTA.",
+    "issue7_glp1_overlap": "HONORED. Tirzepatide (Mounjaro/Zepbound) excluded on Issue #7 GLP-1 overlap basis (ROADMAP rule #5); not an IRA selection, so added explicitly to the exclusion list. Liraglutide (Victoza) reviewed and kept (not in Issue #7's booked scope).",
+    "generic_leak_filter": "HONORED. Multi-source/authorized-generic rows that leaked the naive brand flag (CMS '*' flag, punctuation variants, AG distributors Prasco/Cipla/Aurobindo/Amneal/Upsher-Smith) removed; brand flag tightened; universe backfilled to 100 single-source brands.",
+    "vaccines_excluded": "HONORED. RSV/shingles vaccines (Arexvy/Shingrix/Abrysvo) excluded; vaccine international pricing is tender-based, RAND therapeutic-brand ratio a poor fit (Stage 3 Counter 6 / Red-Team flag #4).",
+    "no_days_supply_field": "HONORED. PUF has no Tot_Day_Suply; per-30-day not computable. Used Avg_Spnd_Per_Dsg_Unt_Wghtd (per dosage unit) for the scale-invariant ratio.",
+    "ira_match_brand_and_generic": "HONORED. Semaglutide (Ozempic/Rybelsus/Wegovy) and all IRA R1/2/3 drugs excluded by brand+generic substring match.",
+    "nhs_off_patent_floor": "HONORED. NHS Drug Tariff = off-patent UK generic price; used only as an illustrative gap and an upper-bound floor, NOT as the headline reference.",
+    "exchange_rate_gbp_usd": "GBP/USD=1.3; headline is RAND-based so insensitive to this rate (NHS gaps only)."
+  },
+  "originality_posture": "Headline computed from CMS Part D PUF top-100 brands minus IRA R1+2+3, RAND OECD-33 brand reference, tiered rebate, recoverability. Distinguished from curated RAND/IRA inputs.",
+  "computed_booked_bil": 16.36,
+  "generated_at": "2026-06-08T14:01:42.753450"
+}

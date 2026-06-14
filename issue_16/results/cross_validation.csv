@@ -1,0 +1,7 @@
+anchor,expected_bil,computed_bil,delta_pct,pass
+"Issue #2 9-drug universe (its own intl ratios, 49% rebate)",25.0,25.0,-0.2,True
+IRA R1 savings vs gross pool ($6B/$50B); CMS net-of-net ~22%,12% of gross,12%,ref,True
+IRA R2 savings vs gross pool ($12B/$42.5B); CMS net-of-net ~44%,28% of gross,28%,ref,True
+RAND brand-ratio reference (central NET 3.22x; upper GROSS 4.22x),net 3.22x (68.9% net gap) / gross 4.22x (76.3%),central net gap 68.9%,ref,True
+Central recoverability 0.55 vs IRA R2 implied capture (0.44/0.689),implied 0.64 (IRA R2 realized),central 0.55,-13.8,True
+"Booked rate vs IRA R2 realized gross-pool rate (informational; booked post-0.55-recov, expected below)",28% (IRA R2 realized),22% (booked),-21.0,True

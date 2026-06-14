@@ -8,7 +8,7 @@ This project finds it, one issue at a time. Each issue identifies one fixable pr
 
 ---
 
-> **Latest Issue (#15): [The Facility Fee Scam](issue_15/newsletter_issue_15.md)** — When a hospital system buys a physician practice and converts it to provider-based status, the same office visit in the same building starts generating two Medicare claims instead of one: the physician's professional fee plus a hospital facility fee that flows to the hospital. A chest X-ray Medicare pays $25.23 for at an independent office costs $96.46 at a hospital-owned clinic, 3.8 times more for an identical study. Applying CY2025 CMS rates to 2023 utilization across the two categories public data can cleanly isolate (clinic visits and minor procedures), the computation produces $1.967B/year in Medicare counterfactual savings. Extended conservatively to commercial insurance (1.5x Medicare) and netted against overlap with Issues #3 and #12 at 60% recoverability, we book **$2.55B/year** (range $0.93B to $4.13B). Diagnostic imaging and drug administration, both larger and both on MedPAC's site-neutral list, are excluded because public files cannot isolate hospital-outpatient volume from inpatient, ER, and ASC settings; they are the explicit data-partner ask. The fix is site-neutral payment, which MedPAC has recommended every year since 2014 and Congress has passed only in part. [Read it →](https://americanhealthcareconundrum.com/issue-15-the-facility-fee-scam)
+> **Latest Issue (#16): [The Other 100 Drugs](issue_16/newsletter_issue_16.md)** — Issue #2 covered nine flagship Medicare Part D brand drugs; the Inflation Reduction Act now covers 25 drugs across three negotiation rounds. The next 100 highest-gross single-source brand products (about 85 molecules) that no IRA round has touched still carry the same international price gap. Using the CY2023 CMS Part D Spending by Drug PUF, removing every IRA-listed drug plus the nine from Issue #2 and the Issue #7 GLP-1 molecule, the residual universe is $73.4B gross ($43.1B net after rebates). Applying RAND RR-A788-3's rebate-adjusted 3.22x net brand ratio (net-to-net), netting category rebates once, and discounting to 55% recoverability, we book **$16.4B/year** (range $13.4B to $28.3B). For the 11 products with a direct NHS Drug Tariff match, the median gap is 12.9x, so the 3.22x blanket is conservative for the molecules that can be priced directly. The fix uses tools already in statute: expand the IRA per-cycle negotiation cap or set an international reference ceiling for non-selected Part D drugs. [Read it →](https://americanhealthcareconundrum.com/issue-16-the-other-100-drugs)
 
 ---
 
@@ -31,11 +31,12 @@ This project finds it, one issue at a time. Each issue identifies one fixable pr
 | 13 | [The Nonprofit Lie](issue_13/newsletter_issue_13.md) | $5.4B/yr | Panel of 3,005 nonprofit hospitals from CMS HCRIS FY2023 joined to per-filer Form 990 Schedule H pulled directly from IRS bulk XML (2,103 filers, 76% of panel expenses); 86% of nonprofit hospitals deliver less audited charity care than the value of their tax exemption (narrow Herring 2018 test); aggregate tax exemption $46.4B vs. audited charity care $17.2B; booked figure net of overlap with Issues #3 and #12 at 53% recoverability | CMS HCRIS FY2023 (Worksheet S-10, charity at cost); IRS Form 990 Schedule H 2023 (per-filer XML); Plummer, Socal, Bai *JAMA* 2024 (tax-exemption valuation method); Bai/Yehia/Chen/Anderson *Health Affairs* 2021 (broad-subset community benefit); Herring et al. *Health Affairs* 2018 (narrow-test benchmark); HHS OIG Schedule H studies |
 | 14 | [The Specialist Tax](issue_14/newsletter_issue_14.md) | $27.6B/yr | US specialist pay is set by an administered RVU cascade (RUC → CMS → commercial multiples), not a free market; productivity-normalized gap to an 18-country high-income OECD peer set, plus workforce-mix, RVU-misvaluation, and GME-allocation components | CMS PFS RVU File CY2025, Medicare PUF 2024, BLS OEWS May 2024, OECD Health at a Glance 2025 |
 | 15 | [The Facility Fee Scam](issue_15/newsletter_issue_15.md) | $2.55B/yr | Hospital-owned clinics bill Medicare 2–4x the office rate for the same procedure once converted to provider-based status; CY2025 site-of-service differential on 2023 utilization for clinic visits and minor procedures ($1.967B Medicare base), extended to commercial and netted for overlap; imaging and drug administration excluded as the data-partner ask | CMS OPPS Addendum B CY2025, CMS PFS RVU25D CY2025, Medicare Physician PUF DY2023, MedPAC |
-| | **Running Total** | **$519.35B/yr** | **16.0% of the $3.24T gap** | |
+| 16 | [The Other 100 Drugs](issue_16/newsletter_issue_16.md) | $16.4B/yr | After removing all 25 IRA-negotiated drugs and the nine from Issue #2, the next 100 single-source brand products (~85 molecules) in the CY2023 Part D PUF carry $73.4B gross ($43.1B net) at US net prices ~3.22x international; net-to-net method with category rebates netted once, booked at 55% recoverability; 11 NHS-matched products show a 12.9x median gap, confirming the blanket ratio is conservative | CMS Part D Spending by Drug PUF CY2023, RAND RR-A788-3, NHS Drug Tariff Part VIIIA |
+| | **Running Total** | **$535.71B/yr** | **16.5% of the $3.24T gap** | |
 
 *Issue #9 is the first issue at the revised $3.24T denominator (CMS NHE 2024 final, released April 18, 2026). Issues #1–#8 published using the prior $3T denominator and are not retrofitted.*
 
-![Savings Tracker](issue_15/figures/chart5_savings_tracker.png)
+![Savings Tracker](issue_16/figures/chart5_savings_tracker.png)
 
 ---
 
@@ -50,6 +51,71 @@ The same operations. Exposed to the same clinical evidence. Wildly different pri
 ---
 
 ## Published Issues
+
+### Issue #16 — The Other 100 Drugs (~$16.4B/year)
+
+Issue #2 covered nine flagship Medicare Part D brand drugs; the Inflation Reduction Act (IRA) now covers 25 drugs across three negotiation rounds. The next 100 highest-gross single-source brand products in the CY2023 CMS Part D Spending by Drug Public Use File (about 85 molecules), after removing every IRA-listed drug, the nine drugs from Issue #2, and the Issue #7 GLP-1 molecule tirzepatide, represent $73.4 billion in annual Medicare spending ($43.1 billion net after rebates). The analysis applies the same international reference framework as Issue #2 on a net-to-net basis: each product's gross spend is marked down by a category rebate (49% top-brand, 27.5% mid-brand, 20% biologic, 70% insulin), the rebate-adjusted gap is taken from RAND RR-A788-3's 3.22x net brand ratio (a 68.9% gap), and the result is discounted to a 0.55 recoverability factor. Booked: **$16.4 billion per year** ($16.36B; range $13.4B to $28.3B). For the 11 products with a direct NHS Drug Tariff Part VIIIA match the median US-to-UK gap is 12.9x (ticagrelor/Brilinta is 107x), confirming the 3.22x blanket reference is conservative for the molecules that can be priced directly. The fix uses tools already in statute: CMS can prioritize high-savings candidates within the existing IRA cap, Congress can expand the per-cycle negotiation cap beyond 20 drugs, or a flat international reference-price ceiling can be set for non-selected Part D brands.
+
+![Top Drugs by Booked Savings](issue_16/figures/chart2_top10_booked_savings.png)
+
+*Source: CMS Medicare Part D Spending by Drug PUF CY2023, RAND RR-A788-3 (Mulcahy/Schwam/Lovejoy, Feb 2024), NHS Drug Tariff Part VIIIA April 2026.*
+
+**Read the full analysis →** [`issue_16/newsletter_issue_16.md`](issue_16/newsletter_issue_16.md)
+
+<details>
+<summary>Reproducing the analysis</summary>
+
+```bash
+cd issue_16
+
+# Download CMS Part D PUF + NHS Drug Tariff; build the 100-product residual universe
+# (removing IRA Rounds 1-3, Issue #2 drugs, GLP-1, and generic leakers); compute the
+# net-to-net per-molecule savings; print the headline
+python 01_build_data.py
+
+# Generate all five charts plus hero
+python generate_all_charts.py
+```
+
+**Key outputs:**
+- `results/savings_estimate.json` — Booked $16.36B, range $13.4-$28.3B, components, rebate tiers, recoverability
+- `results/top_100_drugs_panel.csv` — The 100-product residual universe with per-product gross, net, and booked savings
+- `results/per_drug_savings.csv` — Per-drug net-to-net savings build
+- `results/savings_by_therapeutic_class.csv` — Booked savings by rebate tier / therapeutic class
+- `results/ira_exclusion_list.csv` — IRA Rounds 1-3 and Issue #2 exclusions applied to the universe
+- `results/cross_validation.csv` — Issue #2 nine-drug reproduction (within 0.2% of published $25B)
+- `results/methodology.md` — Full methodology, exclusion rationale, and the per-molecule international-price data-partner ask
+- `results/originality_gate.md` — Stage 3.5 originality-gate verdict and adversarial-math notes
+
+</details>
+
+<details>
+<summary>Data sources</summary>
+
+| Source | Description |
+|--------|-------------|
+| CMS Medicare Part D Spending by Drug PUF CY2023 | Gross Part D spending by drug; basis for the 100-product residual universe |
+| RAND RR-A788-3 (Mulcahy/Schwam/Lovejoy, Feb 2024) | US-vs-OECD brand-name net price ratio (3.22x rebate-adjusted); blanket reference for the 89 products without a direct international match |
+| NHS Drug Tariff Part VIIIA, April 2026 | UK reimbursement rates for the 11 directly-matched molecules (median gap 12.9x) |
+| CMS IPAY 2026/2027/2028 selected-drug lists | IRA Round 1-3 exclusions |
+| ASPE HP-2022-22; SSR Health net-price tracking | Insulin gross-to-net rebate (70%) |
+
+</details>
+
+<details>
+<summary>Key methodology notes</summary>
+
+- Universe: top 100 single-source brand products (~85 molecules) in the CY2023 Part D PUF after removing all 25 IRA-negotiated drugs, the nine Issue #2 drugs, tirzepatide (Issue #7 overlap), multi-source generic leakers, and tender-procured vaccines; backfilled to 100 from rank 101+ after each exclusion
+- Net-to-net method: `net_spend = gross × (1 − rebate_fraction)`; `net_savings = net_spend × 0.689` (RAND 3.22x net gap); `booked = net_savings × 0.55`. Rebate applied once
+- Rebate tiers: top-brand 0.49, mid-brand 0.275, biologic 0.20, insulin 0.70 (ASPE HP-2022-22, SSR Health, Trustees Report)
+- Booked $16.36B; range $13.4B (recoverability 0.45) to $28.3B (NHS-floor reference on the 11 matched molecules, recoverability 0.85). Gross-gap method (RAND 4.22x list ratio) would give $18.1B; the lower net-to-net figure is used
+- Cross-validation: the same method applied to Issue #2's nine drugs reproduces the published $25B to within 0.2%
+- Overlap: Issue #2 nine drugs and all IRA drugs excluded by construction; Issue #4 PBM insulin layer netted out by the 70% insulin rebate; Issue #7 GLP-1 excluded; Issue #17 Part B is a separate Medicare program
+- The 3.22x blanket applied to 89 products is the most consequential assumption; the data-partner ask is per-molecule international pricing (IQVIA, Australia PBS, Health Canada PMPRB) to replace it
+
+</details>
+
+---
 
 ### Issue #15 — The Facility Fee Scam (~$2.55B/year)
 

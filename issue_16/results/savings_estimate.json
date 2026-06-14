@@ -1,0 +1,70 @@
+{
+  "issue_number": 16,
+  "issue_title": "The Other 100 Drugs (Part D)",
+  "anchor_year": 2023,
+  "headline_status": "COMPUTED",
+  "booked_bil": 16.36,
+  "booked_target_bil": 35.0,
+  "range_lo_bil": 13.39,
+  "range_hi_bil": 28.32,
+  "central_method": "RAND OECD-33 brand NET ratio 3.22x applied net-to-net (rebate applied once, gross->net; net price gap 0.689 on net spend), recoverability 0.55",
+  "net_total_before_recoverability_bil": 29.75,
+  "universe_n": 100,
+  "universe_label": "100 brand products (~85 molecules)",
+  "distinct_molecules": 85,
+  "universe_gross_bil": 73.36,
+  "universe_net_spend_bil": 43.15,
+  "recoverability": {
+    "lower": 0.45,
+    "central": 0.55,
+    "upper": 0.85
+  },
+  "rebate_fractions": {
+    "top_brand": 0.49,
+    "mid_brand": 0.275,
+    "biologic": 0.2,
+    "insulin": 0.7,
+    "generic": 0.025
+  },
+  "upper_method_grossgap_4.22_on_net_recov0.55_bil": 18.11,
+  "stage55_corrections_2026_06_08": {
+    "challenge_1_gross_net_inconsistency": "CORRECTED. Central switched from GROSS gap 0.763 (4.22x) on a net base to NET-TO-NET: NET gap 0.689 (3.22x rebate-adjusted) on the net spend base. Rebate applied once. Prior central was internally inconsistent (gross price gap on net dollars).",
+    "challenge_1_central_was_bil": 19.48,
+    "challenge_1_central_now_label": "net-to-net 3.22x",
+    "challenge_2_residual_pool_selection": "DISCLOSED (not recomputed). Universe excludes the highest-gap off-patent-abroad blockbusters (sent to IRA), leaving an on-patent biologic/specialty residual whose true US-vs-OECD ratio may sit below the all-brand 3.22 average; NHS Drug Tariff check covers only the oral-solid minority. Downward-uncertainty caveat on the central.",
+    "challenge_3_multisource_leak": "CORRECTED. Dropped multi-source brands with US generic/biosimilar competition by CY2023 (Symbicort, Restasis, Advair Diskus/HFA, Vascepa, Flovent HFA, Copaxone + audit additions Latuda, Multaq); universe backfilled to 100 with next-ranked genuine single-source brands.",
+    "relabel_100_brand_products": "100 brand products (~85 molecules)",
+    "grossgap_retained_as_upper_sensitivity": true
+  },
+  "stage3_corrections_2026_06_08": {
+    "excluded_tirzepatide_issue7_overlap": true,
+    "dropped_multisource_generics_brand_filter_tightened": true,
+    "excluded_rsv_shingles_vaccines": true,
+    "insulin_rebate_repaired_to": 0.7,
+    "rand_brand_only_ratio_confirmed": true,
+    "universe_backfilled_to_100_single_source_brands": true
+  },
+  "sensitivity_bil": {
+    "recov_0.45": 13.39,
+    "recov_0.55": 16.36,
+    "recov_0.85": 25.29,
+    "central_net_to_net_3.22_recov0.55": 16.36,
+    "grossgap_4.22_on_net_recov0.55": 18.11,
+    "nhs_floor_upper_recov0.85": 28.32
+  },
+  "nhs_gap_distribution": {
+    "n_matched": 11,
+    "median": 12.9,
+    "p25": 9.6,
+    "p75": 18.9,
+    "p90": 30.8,
+    "max": 107.0
+  },
+  "ira_exclusion_counts": {
+    "round_1": 11,
+    "round_2": 17,
+    "round_3": 15
+  },
+  "vs_target": "central $16.4B is below the $35B target; the computed net-to-net central is reported as-is, not tuned",
+  "generated_at": "2026-06-08T14:01:42.752044"
+}
