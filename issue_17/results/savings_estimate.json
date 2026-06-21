@@ -1,0 +1,82 @@
+{
+  "issue_number": 17,
+  "issue_title": "The Part B Pharmacy Premium",
+  "anchor_year": 2023,
+  "headline_status": "COMPUTED",
+  "booked_bil": 6.17,
+  "booked_target_bil": 15.0,
+  "range_lo_bil": 2.85,
+  "range_hi_bil": 14.06,
+  "central_method": "MedPAC June 2019 / ASPE 2018 EX-MANUFACTURER 1.8x (Part-B-channel-appropriate published ratio) applied to the ASP+6% allowed-charge payment base via the proportional-add-on algebra (the statutory add-on rides down with the ingredient price, so the ex-manufacturer gap fraction on the payment base yields the correct system saving). 340B-acquired volume removed (non340B share 0.65; reserved for Issue #19), recoverability 0.55. RAND's 3.22x (US-net/intl-gross, retail-calibrated) is the aggressive ceiling only; 1.5x is the conservative stress floor. Biosimilar-competed-by-CY2023 originators carry a half-gap (Stage 5.5 Challenge 3); true generics, Q5xxx biosimilars, and non-Q5 follow-ons (tbo-filgrastim) carry zero gap.",
+  "waterfall": {
+    "total_partb_separately_paid_bil": 50.79,
+    "universe_spend_base_bil": 41.8,
+    "gross_intl_gap_savings_bil": 17.27,
+    "after_340b_netting_bil": 11.22,
+    "after_recoverability_booked_bil": 6.17
+  },
+  "biosimilar_product_adjustment": {
+    "screen": "HCPCS Q5xxx (biosimilar code block)",
+    "n_codes": 27,
+    "spend_bil": 1.435,
+    "gap_treatment": "zeroed (biosimilar is the cheaper competitor, not the brand originator)",
+    "booked_removed_bil": 0.228,
+    "note": "Q5xxx biosimilar PRODUCTS keep zero brand-originator gap; the Issue #16 red-team defect (brand-originator ratio on a biosimilar/generic line). Novel originators with 4-letter suffixes (Darzalex Faspro, Vabysmo, Ultomiris, Enhertu) are NOT Q5 and retain the full gap."
+  },
+  "universe_n_codes": 597,
+  "spend_weighted_avg_ratio": 1.8,
+  "pct_spend_on_class_proxy": 95.0,
+  "pct_spend_per_molecule_override": 5.0,
+  "params": {
+    "intl_ratio_central": 1.8,
+    "intl_ratio_conservative": 1.5,
+    "intl_ratio_aggressive_ceiling": 3.22,
+    "medpac_2019_exmfr_ratio": 1.8,
+    "aspe_2018_ratio": 1.8,
+    "rand_brand_ratio_net": 3.22,
+    "rand_brand_ratio_gross": 4.22,
+    "biosim_competed_gap_factor": 0.5,
+    "share_340b": {
+      "lower": 0.25,
+      "central": 0.35,
+      "upper": 0.45
+    },
+    "recoverability": {
+      "lower": 0.4,
+      "central": 0.55,
+      "upper": 0.7
+    }
+  },
+  "stage_5_5_corrections": {
+    "challenge_1_intl_ratio": "CORRECTED: central re-anchored from RAND 3.22x (US-net/intl-gross, retail-calibrated) to MedPAC/ASPE ex-manufacturer 1.8x; 3.22x demoted to aggressive ceiling; 1.5x conservative floor.",
+    "challenge_2_payment_base": "REBUTTED: base is ASP+6% payment limit, but the add-on is proportional, so under reference pricing it rides down and the ex-manufacturer gap on the payment base is the correct system saving; base NOT deflated; paired with ex-mfr 1.8x (not payment-rate 2.05x).",
+    "challenge_3_biosim_originators": "CORRECTED (partial): half-gap applied to genuinely biosimilar-competed-by-CY2023 originators; substring false positives (Enhertu/Kadcyla/Phesgo ADCs; Eylea/Prolia/Soliris post-2023 entrants) keep the full gap.",
+    "challenge_4_non_q5_followon": "CORRECTED (immaterial): tbo-filgrastim (Granix J1447) gap-zeroed; blended '*' codes correctly kept (multi-HCPCS marker).",
+    "challenge_5_additivity": "REBUTTED for #17 (340B removal is conservative); #17/#19 additivity overlap caveat strengthened at project-tracker level.",
+    "challenge_6_conservative_corner": "CORRECTED: conservative corner now uses a genuine sub-central 1.5x ratio; range re-centered to $3.51-11.59B."
+  },
+  "scenarios_bil": {
+    "conservative": 2.85,
+    "central": 6.17,
+    "aggressive": 14.06
+  },
+  "ipay2028": {
+    "selections_in_universe_spend_bil": 2.9,
+    "booked_if_ipay2028_excluded_bil": 5.71,
+    "note": "CY2023 pre-negotiation ASP is the correct present-day baseline; IPAY-2028 Maximum Fair Prices take effect 2028 and would offset part of this gap for the flagged drugs."
+  },
+  "distinct_from_published": true,
+  "curated_priors_bil": {
+    "mfn_2020_gov_7yr": 87.8,
+    "mfn_2020_period_years": 7,
+    "mfn_2020_annualized": 12.54,
+    "globe_2025_7yr": 11.9,
+    "globe_2025_annualized": 1.7,
+    "medpac_2019_payment_ratio": 2.05,
+    "medpac_2019_exmfr_ratio": 1.8,
+    "aspe_2018_ratio": 1.8
+  },
+  "data_partner_cta": "No symmetric net-to-net international ratio is published for Part B biologics: the US ASP side is near-net for this physician-administered channel, but per-molecule international NET prices for patented biologics (Keytruda, Eylea, Opdivo, Darzalex, Vabysmo, etc.) are confidential. We use the MedPAC/ASPE ex-manufacturer 1.8x class ratio as the central. EURIPID full access, national procurement net prices (NHS commercial framework, German AMNOG post-rebate net), or licensed IQVIA MIDAS would let us compute per-molecule net gaps and replace the class ratio. The precise 340B-acquired share of our specific J-codes needs JG/TB-modifier claims (CMS RIF/LDS, restricted).",
+  "vs_target": "central $6.2B is below the $15B scoping target; the computed central is reported as-is, not tuned (came in below target after the Stage 5.5 ratio re-anchoring to the Part-B-appropriate 1.8x ex-manufacturer figure)",
+  "generated_at": "2026-06-09T23:36:20.562830"
+}

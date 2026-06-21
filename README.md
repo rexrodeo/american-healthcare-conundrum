@@ -8,7 +8,7 @@ This project finds it, one issue at a time. Each issue identifies one fixable pr
 
 ---
 
-> **Latest Issue (#16): [The Other 100 Drugs](issue_16/newsletter_issue_16.md)** — Issue #2 covered nine flagship Medicare Part D brand drugs; the Inflation Reduction Act now covers 25 drugs across three negotiation rounds. The next 100 highest-gross single-source brand products (about 85 molecules) that no IRA round has touched still carry the same international price gap. Using the CY2023 CMS Part D Spending by Drug PUF, removing every IRA-listed drug plus the nine from Issue #2 and the Issue #7 GLP-1 molecule, the residual universe is $73.4B gross ($43.1B net after rebates). Applying RAND RR-A788-3's rebate-adjusted 3.22x net brand ratio (net-to-net), netting category rebates once, and discounting to 55% recoverability, we book **$16.4B/year** (range $13.4B to $28.3B). For the 11 products with a direct NHS Drug Tariff match, the median gap is 12.9x, so the 3.22x blanket is conservative for the molecules that can be priced directly. The fix uses tools already in statute: expand the IRA per-cycle negotiation cap or set an international reference ceiling for non-selected Part D drugs. [Read it →](https://americanhealthcareconundrum.com/issue-16-the-other-100-drugs)
+> **Latest Issue (#17): [The Part B Pharmacy Premium](issue_17/newsletter_issue_17.md)** — Issue #16 covered what the Inflation Reduction Act left behind in Medicare Part D; Issue #17 turns to Medicare Part B, the program that pays for physician-administered drugs (oncology biologics, infused autoimmune therapies, intravitreal eye injections), reimbursed at the Average Sales Price plus a 6 percent add-on. From the CY2023 CMS Part B Spending by Drug PUF ($50.79B across 734 codes), excluding skin substitutes, vaccines, and immune globulins leaves a $41.80B universe of 597 single-source brand drugs. Applying the MedPAC June 2019 / ASPE 2018 ex-manufacturer 1.8x international ratio (zeroing biosimilars, half-counting biosimilar-competed originators), netting the 340B-acquired share, and discounting to 55% recoverability, we book **$6.2B/year** (range $2.9B to $14.1B). The percentage add-on points the wrong way: a costlier originator pays the provider more in absolute dollars than a cheaper biosimilar. The fix uses tools already in statute: extend IRA Part B negotiation, replace ASP+6% with a flat add-on, apply least-costly-alternative pricing where biosimilars exist, or revive international reference pricing. [Read it →](https://americanhealthcareconundrum.com/issue-17-the-part-b-pharmacy-premium-2)
 
 ---
 
@@ -32,11 +32,12 @@ This project finds it, one issue at a time. Each issue identifies one fixable pr
 | 14 | [The Specialist Tax](issue_14/newsletter_issue_14.md) | $27.6B/yr | US specialist pay is set by an administered RVU cascade (RUC → CMS → commercial multiples), not a free market; productivity-normalized gap to an 18-country high-income OECD peer set, plus workforce-mix, RVU-misvaluation, and GME-allocation components | CMS PFS RVU File CY2025, Medicare PUF 2024, BLS OEWS May 2024, OECD Health at a Glance 2025 |
 | 15 | [The Facility Fee Scam](issue_15/newsletter_issue_15.md) | $2.55B/yr | Hospital-owned clinics bill Medicare 2–4x the office rate for the same procedure once converted to provider-based status; CY2025 site-of-service differential on 2023 utilization for clinic visits and minor procedures ($1.967B Medicare base), extended to commercial and netted for overlap; imaging and drug administration excluded as the data-partner ask | CMS OPPS Addendum B CY2025, CMS PFS RVU25D CY2025, Medicare Physician PUF DY2023, MedPAC |
 | 16 | [The Other 100 Drugs](issue_16/newsletter_issue_16.md) | $16.4B/yr | After removing all 25 IRA-negotiated drugs and the nine from Issue #2, the next 100 single-source brand products (~85 molecules) in the CY2023 Part D PUF carry $73.4B gross ($43.1B net) at US net prices ~3.22x international; net-to-net method with category rebates netted once, booked at 55% recoverability; 11 NHS-matched products show a 12.9x median gap, confirming the blanket ratio is conservative | CMS Part D Spending by Drug PUF CY2023, RAND RR-A788-3, NHS Drug Tariff Part VIIIA |
-| | **Running Total** | **$535.71B/yr** | **16.5% of the $3.24T gap** | |
+| 17 | [The Part B Pharmacy Premium](issue_17/newsletter_issue_17.md) | $6.2B/yr | $41.80B universe of 597 single-source physician-administered Part B drugs (CY2023 Part B PUF, after excluding skin substitutes, vaccines, immune globulins); MedPAC June 2019 / ASPE 2018 ex-manufacturer 1.8x ratio (RAND 3.22x as aggressive ceiling), biosimilars zeroed and biosimilar-competed originators half-counted, netted to the non-340B share and 55% recoverability; ASP+6% buy-and-bill add-on rewards costlier originators over biosimilars | CMS Part B Spending by Drug PUF CY2023, MedPAC June 2019, ASPE 2018, RAND RR-A788-3 |
+| | **Running Total** | **$541.88B/yr** | **16.7% of the $3.24T gap** | |
 
 *Issue #9 is the first issue at the revised $3.24T denominator (CMS NHE 2024 final, released April 18, 2026). Issues #1–#8 published using the prior $3T denominator and are not retrofitted.*
 
-![Savings Tracker](issue_16/figures/chart5_savings_tracker.png)
+![Savings Tracker](issue_17/figures/chart5_savings_tracker.png)
 
 ---
 
@@ -51,6 +52,72 @@ The same operations. Exposed to the same clinical evidence. Wildly different pri
 ---
 
 ## Published Issues
+
+### Issue #17 — The Part B Pharmacy Premium (~$6.2B/year)
+
+Issue #16 covered what the Inflation Reduction Act (IRA) left behind in Medicare Part D, the pharmacy benefit. Issue #17 turns to Medicare Part B, the program that pays for physician-administered drugs: oncology biologics, infused autoimmune therapies, and intravitreal eye injections, given by a provider in a clinic or hospital outpatient department, billed under a J-code, and reimbursed at the Average Sales Price (ASP) plus a 6 percent add-on. Starting from the CY2023 CMS Part B Spending by Drug Public Use File ($50.79 billion across 734 codes), the analysis removes skin-graft products ($3.64B), vaccines ($2.50B), and immune globulins and blood products ($2.86B), leaving a $41.80 billion universe of 597 single-source brand drugs. Because ASP is already net of manufacturer rebates by statute (Social Security Act Section 1847A(c)(3)), no Part D-style rebate haircut applies. The international gap uses the MedPAC June 2019 / ASPE 2018 ex-manufacturer ratio of 1.8x (the published Part-B-channel figure from two independent federal analyses), with RAND RR-A788-3's broader 3.22x brand ratio kept only as an aggressive ceiling. Biosimilars are zeroed out, biosimilar-competed originators are half-counted, the 340B-acquired share (reserved for Issue #19) is netted out, and the result is discounted to 55 percent recoverability. Booked: **$6.2 billion per year** ($6.17B; range $2.9B to $14.1B). The mechanism is the percentage add-on, which pays a provider more in absolute dollars to administer a costlier originator than a cheaper biosimilar. The fix uses tools already in statute: extend IRA Part B negotiation (IPAY 2028 selected the first five Part B drugs), replace ASP+6% with a flat per-administration add-on, apply least-costly-alternative pricing where biosimilars exist, or revive international reference pricing (the rescinded MFN model, or the narrower GLOBE demonstration announced December 2025).
+
+![From $50.8B to $6.2B Booked: The Part B Gap Waterfall](issue_17/figures/chart1_waterfall.png)
+
+*Source: CMS Medicare Part B Spending by Drug PUF CY2023, MedPAC June 2019 Report, ASPE 2018, RAND RR-A788-3.*
+
+**Read the full analysis →** [`issue_17/newsletter_issue_17.md`](issue_17/newsletter_issue_17.md)
+
+<details>
+<summary>Reproducing the analysis</summary>
+
+```bash
+cd issue_17
+
+# Download the CMS Part B Spending by Drug PUF CY2023; build the 597-drug universe
+# (excluding skin substitutes, vaccines, immune globulins); apply the ex-manufacturer
+# ratio with biosimilar zeroing, 340B netting, and recoverability; print the headline
+python 01_build_data.py
+
+# Generate all five charts plus hero
+python generate_all_charts.py
+```
+
+**Key outputs:**
+- `results/savings_estimate.json` — Booked $6.17B, range $2.85–$14.06B, waterfall components, ratio/340B/recoverability assumptions
+- `results/universe_part_b_drugs.csv` — The 597-drug Part B universe with per-drug spend, gap fraction, and booked savings
+- `results/exclusions_accounting.csv` — Skin substitute, vaccine, immune globulin, biosimilar, and generic exclusions applied
+- `results/manufacturer_rollup.csv` — Booked savings by manufacturer (Merck, Regeneron, BMS, Roche)
+- `results/sensitivity_grid.csv` — Conservative/central/aggressive scenarios across ratio, 340B share, and recoverability
+- `results/cross_validation.csv` — Against MedPAC/ASPE ex-manufacturer ratio and MFN/GLOBE scoring
+- `methodology.md` — Full methodology, exclusion rationale, and the per-molecule international-net-price data-partner ask
+
+</details>
+
+<details>
+<summary>Data sources</summary>
+
+| Source | Description |
+|--------|-------------|
+| CMS Medicare Part B Spending by Drug PUF CY2023 (dataset 76a714ad-3a2c-43ac-b76d-9dadf8f7d890) | Separately-paid Part B drug spend by HCPCS J-code; basis for the 597-drug universe |
+| MedPAC June 2019 Report, Chapter 3 | Part B payment-rate 2.05x and ex-manufacturer 1.8x vs. 19 OECD countries |
+| ASPE 2018, "Comparison of US and International Prices for Top Spending Part B Drugs" | Independent ex-manufacturer 1.8x finding; biologics 78.9% of Part B |
+| RAND RR-A788-3 (Mulcahy/Schwam/Lovejoy, Feb 2024) | Brand-originator 3.22x net ratio (aggressive ceiling only; US-net/international-gross asymmetric) |
+| MedPAC April 2024 340B ceiling-price analysis | 22.5%–28.7% 340B discount anchors; non-340B share estimate |
+| CMS MFN Model IFR 2020; GLOBE Model (Dec 2025); IPAY 2028 selected-drug list | Policy timeline and recoverability anchoring |
+
+</details>
+
+<details>
+<summary>Key methodology notes</summary>
+
+- Universe: 597 single-source brand drugs ($41.80B) after excluding skin substitutes (56 codes, $3.64B), vaccines (34 codes, $2.50B), and immune globulins/blood products (47 codes, $2.86B) from the 734-code, $50.79B CY2023 Part B PUF
+- ASP is net of rebates by statute (SSA 1847A(c)(3); excludes 340B and Medicaid rebates), so no Part D-style rebate adjustment applies on the US side
+- Central international ratio: MedPAC June 2019 / ASPE 2018 ex-manufacturer 1.8x (gap fraction 0.444). RAND 3.22x is the aggressive ceiling only (broader basket, US-net vs. international-gross asymmetry)
+- Biosimilar handling: 27 Q5xxx biosimilar product codes ($1.435B) and non-Q5 follow-ons carry zero gap; 15 biosimilar-competed-by-CY2023 originator lines ($2.075B) carry a half-gap; monopoly-priced originators (Eylea, Prolia, Soliris) and novel suffixed biologics (Darzalex Faspro, Vabysmo, Ultomiris, Enhertu, Reblozyl) retain the full gap. Gap-bearing spend $39.70B (95.0% of universe)
+- Waterfall: $41.80B universe × 0.444 spend-weighted gap = $17.27B gross gap × 0.65 non-340B share = $11.22B × 0.55 recoverability = $6.17B booked
+- 340B netting reserves the domestic acquisition spread for the upcoming Issue #19; recoverability 0.55 (range 0.40–0.70) reflects MFN/GLOBE history and buy-and-bill provider resistance
+- Scenarios: conservative $2.85B (1.5x, 340B 0.45, recov 0.40); central $6.17B; aggressive $14.06B (3.22x, 340B 0.25, recov 0.70). IPAY-2028 sensitivity: five in-universe drugs ($2.90B) carry a Maximum Fair Price from Jan 2028; excluding them entirely lowers booked to $5.71B
+- Overlap: Issues #2 and #16 cover Part D (mechanically separate program); no dollar double-count. Issue #15 facility-fee components contain zero J-code ingredient spend. The booked figure is a system-spend gap, not a federal-budget-savings figure
+
+</details>
+
+---
 
 ### Issue #16 — The Other 100 Drugs (~$16.4B/year)
 

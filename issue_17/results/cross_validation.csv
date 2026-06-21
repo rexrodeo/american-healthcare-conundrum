@@ -1,0 +1,5 @@
+check,value_bil,note
+MedPAC 2019 2.05x naive gross gap on universe,21.41,order-of-magnitude anchor; we are net-to-net + 340B-netted + recov-haircut
+CMS GLOBE Model $11.9B/7yr annualized,1.7,different counterfactual: partial mandatory subset + phased rebate vs our full-universe one-year net gap
+CMS MFN 2020 $87.8B gov/7yr annualized,12.54,"2020 top-~50, index blend, GDP-adjusted; rescinded. We differ in year, exclusions, one-year"
+"DISTINCT-FROM-PUBLISHED (booked vs GLOBE annualized, >5% apart)",6.17,263% apart from GLOBE annualized; PASS

@@ -1,0 +1,19 @@
+scenario,intl_ratio,gap_fraction,share_340b,non340b_share,recoverability,booked_bil,kind,vary,value
+conservative,1.5,0.3333,0.45,0.55,0.4,2.85,scenario,,
+central,1.8,0.4444,0.35,0.65,0.55,6.17,scenario,,
+aggressive,3.22,0.6894,0.25,0.75,0.7,14.06,scenario,,
+,,,,,,4.63,one_at_a_time,intl_ratio,1.5
+,,,,,,6.17,one_at_a_time,intl_ratio,1.8
+,,,,,,7.11,one_at_a_time,intl_ratio,2.05
+,,,,,,9.58,one_at_a_time,intl_ratio,3.22
+,,,,,,7.12,one_at_a_time,share_340b,0.25
+,,,,,,6.17,one_at_a_time,share_340b,0.35
+,,,,,,5.22,one_at_a_time,share_340b,0.45
+,,,,,,4.49,one_at_a_time,recoverability,0.4
+,,,,,,6.17,one_at_a_time,recoverability,0.55
+,,,,,,7.86,one_at_a_time,recoverability,0.7
+,,,,,,6.31,one_at_a_time,biosim_competed_gap_factor,1.0
+,,,,,,6.17,one_at_a_time,biosim_competed_gap_factor,0.5
+,,,,,,6.04,one_at_a_time,biosim_competed_gap_factor,0.0
+,,,,,,6.17,one_at_a_time,biosimilar_product_gap,zeroed (central)
+,,,,,,6.4,one_at_a_time,biosimilar_product_gap,full_brand_gap (pre-patch)
