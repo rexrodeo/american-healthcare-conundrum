@@ -1,0 +1,10 @@
+component,value_bil
+"FFS IPPS pool DY2024 (full, computed)",107.04
+Operating-netted pool (outlier+capital 11% removed),95.27
+Gross excess (floor: Crespin CI-low 1.7% x op-pool),1.62
+Gross excess (CENTRAL: Crespin 2.0% controlled share x op-pool),1.905
+"Gross excess (high: risk-net residual x op-pool, cruder control)",6.874
+Already-recouped subtraction (Crespin path already net),-0.0
+Recoverable central (gross_central x 0.55),1.048
+"Overlap subtraction #24 (FCA-confirmed slice, annualized)",-0.0031
+BOOKED Issue #18 central,1.045

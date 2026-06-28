@@ -1,0 +1,9 @@
+mechanism,label,base_year,anchor_year,base_top_tier_share,anchor_top_tier_share,top_share_shift_pp,anchor_family_discharges,anchor_top_tier_pay,anchor_lower_tier_pay,tier_pay_gap,excess_top_tier_discharges,shift_value_bil
+heart_failure,Heart failure & shock (291 MCC / 292 CC / 293 none),2013,2024,0.4224,0.954,53.2,320900,10027.0,6497.0,3530.0,170596,0.602
+sepsis,Severe sepsis (871 w/MCC / 872 w/o MCC),2013,2024,0.7596,0.8434,8.4,685387,15525.0,7700.0,7825.0,57486,0.45
+simple_pneumonia,Simple pneumonia & pleurisy (193 MCC / 194 CC / 195 none),2013,2024,0.3743,0.7104,33.6,195725,9899.0,5740.0,4159.0,65781,0.274
+nutrition_metab,Nutrition/metabolic disorders (640 w/MCC / 641 w/o MCC),2013,2024,0.3489,0.538,18.9,144606,10630.0,5891.0,4740.0,27343,0.13
+kidney_uti,Kidney & UTI (689 w/MCC / 690 w/o MCC),2013,2024,0.3031,0.4679,16.5,179654,8893.0,6019.0,2874.0,29609,0.085
+renal_failure,Renal failure (682 MCC / 683 CC / 684 none),2013,2024,0.3834,0.4653,8.2,166661,11496.0,6495.0,5001.0,13643,0.068
+copd,COPD (190 MCC / 191 CC / 192 none),2013,2024,0.4098,0.7006,29.1,79265,8496.0,6089.0,2407.0,23050,0.055
+cellulitis,Cellulitis (602 w/MCC / 603 w/o MCC),2013,2024,0.1683,0.2428,7.4,79671,11331.0,6505.0,4826.0,5929,0.029

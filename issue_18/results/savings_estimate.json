@@ -1,0 +1,67 @@
+{
+  "issue_number": 18,
+  "issue_title": "Coding for Dollars",
+  "anchor_year": 2024,
+  "headline_status": "COMPUTED",
+  "booked_bil": 1.045,
+  "booked_target_bil": 20.0,
+  "range_lo_bil": 0.726,
+  "range_hi_bil": 5.153,
+  "central_method": "Crespin 2024 fully patient-level-controlled Medicare coding-intensity share (2.0% of MS-DRG payment weights, Exhibit 4; CI 1.7-2.2%) applied to our computed DY2024 FFS IPPS Medicare pool NET of non-scaling outlier+capital add-ons (operating-base pool), recoverability 0.55, less the tiny annualized DOJ FCA-confirmed hospital-upcoding overlap. FLOOR = Crespin CI-low (1.7%) at recoverability 0.45. HIGH = our HCC-risk-net residual on the (plain Fisher) migration (a cruder single-proxy control that over-attributes to coding) at recoverability 0.75. CORRECTED 2026-06-10: the prior build misread Crespin's national $4.6B Medicare figure as five-state and double-scaled it by a 0.176 population share, manufacturing a 21.8% pool share (~11x Crespin's actual 2.0%); that error is fixed.",
+  "gross_excess_floor_bil": 1.62,
+  "gross_excess_central_bil": 1.905,
+  "gross_excess_high_bil": 6.874,
+  "ffs_ipps_pool_anchor_full_bil": 107.04,
+  "ffs_ipps_pool_operating_netted_bil": 95.266,
+  "pool_nonscaling_addon_haircut": 0.11,
+  "crespin_med_weight_share_central": 0.02,
+  "crespin_med_weight_share_ci": [
+    0.017,
+    0.022
+  ],
+  "crespin_national_medicare_2019_bil": 4.6,
+  "crespin_national_medicare_2024_priceinfl_bil": 5.739,
+  "case_mix_migration_fisher_2013_2024_pct": 15.53,
+  "case_mix_migration_fisher_2013_2019_pct": 9.91,
+  "case_mix_migration_paasche_2013_2024_pct": 18.87,
+  "case_mix_migration_laspeyres_2013_2024_pct": 12.29,
+  "covid_robust_fisher_migration_2013_2024_pct": 18.91,
+  "hcc_risk_growth_2013_2024_pct": 7.76,
+  "risk_net_residual_share_pct": 7.22,
+  "mechanism_family_shift_value_bil": 1.69,
+  "fca_confirmed_annualized_bil": 0.0125,
+  "recoverability": {
+    "lo": 0.45,
+    "central": 0.55,
+    "hi": 0.75
+  },
+  "sensitivity_bil": {
+    "central_crespin_2pct_recov_0_55": 1.045,
+    "central_crespin_2pct_recov_0_45": 0.854,
+    "central_crespin_2pct_recov_0_75": 1.426,
+    "floor_crespin_ci_low_1_7pct_recov_0_45": 0.726,
+    "high_risk_net_ceiling_recov_0_75": 5.153
+  },
+  "overlap_subtractions": {
+    "issue_11_ma": 0.0,
+    "issue_5_admin": 0.0,
+    "issue_15_facility_fee": 0.0,
+    "issue_24_fraud_fca_annualized_x25pct": 0.0031
+  },
+  "vs_target": "computed central $1.04B is below the $20B scoping target; reported as-is, not tuned (Issue #16/#17 precedent). The gap to target is the data-partner CTA: a national patient-level replication of Crespin could push the controlled share above 2.0% and the recoverable figure toward the risk-net ceiling.",
+  "data_partner_cta": "Full Crespin five-state regression replication on HCUP NIS/SID microdata (patient-level controls for demographics, LOS, principal diagnosis, hospital characteristics) requires a DUA workflow not run here. CMS LDS/VRDC claim-level files would allow per-discharge coding-intensity audit. These are the explicit recruitment asks for closing the gap from the controlled 2.0% central toward the risk-net ceiling.",
+  "ma_selection_test": {
+    "ffs_share_base": 0.7175,
+    "ffs_share_anchor": 0.4988,
+    "ma_share_base": 0.2825,
+    "ma_share_anchor": 0.5012,
+    "ffs_avg_risk_growth_2013_2024_pct": 7.76,
+    "casemix_migration_fisher_2013_2024_pct": 15.53,
+    "risk_net_residual_pct": 7.22,
+    "max_acuity_capturable_fraction_of_migration": 0.4994,
+    "ffs_avg_risk_growth_2019_2024_pct": -2.64,
+    "medpac_ma_favorable_selection_pct": 0.11,
+    "verdict": "After the Crespin correction (Stage 5.5 C1), the CENTRAL is anchored to Crespin's fully patient-level-controlled Medicare coding-intensity share (2.0% of MS-DRG weights; regression on demographics, length-of-stay, Elixhauser comorbidity, hospital fixed effects). Those controls already net out genuine acuity AND compositional selection at the patient level, so the central is selection-robust by Crespin's design, not by ours. Our own risk-net residual (Fisher migration net of the HCC risk-score rise) is a CRUDER single-proxy control and OVER-attributes to coding, so it defines the HIGH/ceiling, not the floor. Selection mechanics still hold: any selection making remaining FFS patients sicker raises the FFS average HCC risk score, which the risk-net method divides out; even if 100% of the FFS risk rise were selection it is netted. And measured FFS acuity FELL 2019->2024 (HCC recalibration + COVID mortality), so post-2019 selection did not inflate measured FFS acuity over the calibration-transfer window. The corrected central is ~$1.0B; the risk-net ceiling is ~$5B."
+  },
+  "generated_at": "2026-06-10T04:56:44.785066"
+}

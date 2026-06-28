@@ -8,7 +8,7 @@ This project finds it, one issue at a time. Each issue identifies one fixable pr
 
 ---
 
-> **Latest Issue (#17): [The Part B Pharmacy Premium](issue_17/newsletter_issue_17.md)** — Issue #16 covered what the Inflation Reduction Act left behind in Medicare Part D; Issue #17 turns to Medicare Part B, the program that pays for physician-administered drugs (oncology biologics, infused autoimmune therapies, intravitreal eye injections), reimbursed at the Average Sales Price plus a 6 percent add-on. From the CY2023 CMS Part B Spending by Drug PUF ($50.79B across 734 codes), excluding skin substitutes, vaccines, and immune globulins leaves a $41.80B universe of 597 single-source brand drugs. Applying the MedPAC June 2019 / ASPE 2018 ex-manufacturer 1.8x international ratio (zeroing biosimilars, half-counting biosimilar-competed originators), netting the 340B-acquired share, and discounting to 55% recoverability, we book **$6.2B/year** (range $2.9B to $14.1B). The percentage add-on points the wrong way: a costlier originator pays the provider more in absolute dollars than a cheaper biosimilar. The fix uses tools already in statute: extend IRA Part B negotiation, replace ASP+6% with a flat add-on, apply least-costly-alternative pricing where biosimilars exist, or revive international reference pricing. [Read it →](https://americanhealthcareconundrum.com/issue-17-the-part-b-pharmacy-premium-2)
+> **Latest Issue (#18): [Coding for Dollars](issue_18/newsletter_issue_18.md)** — Hospitals shift Medicare inpatient discharges into higher-paying severity tiers through documentation intensity, not necessarily sicker patients. Across all Medicare fee-for-service inpatient stays, coded severity rose about 15.5% from 2013 to 2024 (price-held-constant Fisher index) while patients' independently-measured sickness (the HCC risk score) rose about 7.8%. Applying Crespin et al. 2024's patient-level-controlled coding-intensity share (2.0% of MS-DRG payment weights) to the operating-netted FFS IPPS pool ($95.3B), discounting to 55% recoverability, and netting confirmed-fraud overlap, we book **$1.04B/year** (range $0.73B to $5.15B). Budget-neutral weight recalibration does not erase it: more discharges landing in higher-weight tiers raises total payments regardless. The fix shortens the documentation-and-coding adjustment cycle (CMS rulemaking), expands OIG audit coverage for high-yield DRG pairs, and moves toward bundled/population payment that removes the per-discharge severity incentive. [Read it →](https://americanhealthcareconundrum.com/issue-18-coding-for-dollars)
 
 ---
 
@@ -33,11 +33,12 @@ This project finds it, one issue at a time. Each issue identifies one fixable pr
 | 15 | [The Facility Fee Scam](issue_15/newsletter_issue_15.md) | $2.55B/yr | Hospital-owned clinics bill Medicare 2–4x the office rate for the same procedure once converted to provider-based status; CY2025 site-of-service differential on 2023 utilization for clinic visits and minor procedures ($1.967B Medicare base), extended to commercial and netted for overlap; imaging and drug administration excluded as the data-partner ask | CMS OPPS Addendum B CY2025, CMS PFS RVU25D CY2025, Medicare Physician PUF DY2023, MedPAC |
 | 16 | [The Other 100 Drugs](issue_16/newsletter_issue_16.md) | $16.4B/yr | After removing all 25 IRA-negotiated drugs and the nine from Issue #2, the next 100 single-source brand products (~85 molecules) in the CY2023 Part D PUF carry $73.4B gross ($43.1B net) at US net prices ~3.22x international; net-to-net method with category rebates netted once, booked at 55% recoverability; 11 NHS-matched products show a 12.9x median gap, confirming the blanket ratio is conservative | CMS Part D Spending by Drug PUF CY2023, RAND RR-A788-3, NHS Drug Tariff Part VIIIA |
 | 17 | [The Part B Pharmacy Premium](issue_17/newsletter_issue_17.md) | $6.2B/yr | $41.80B universe of 597 single-source physician-administered Part B drugs (CY2023 Part B PUF, after excluding skin substitutes, vaccines, immune globulins); MedPAC June 2019 / ASPE 2018 ex-manufacturer 1.8x ratio (RAND 3.22x as aggressive ceiling), biosimilars zeroed and biosimilar-competed originators half-counted, netted to the non-340B share and 55% recoverability; ASP+6% buy-and-bill add-on rewards costlier originators over biosimilars | CMS Part B Spending by Drug PUF CY2023, MedPAC June 2019, ASPE 2018, RAND RR-A788-3 |
-| | **Running Total** | **$541.88B/yr** | **16.7% of the $3.24T gap** | |
+| 18 | [Coding for Dollars](issue_18/newsletter_issue_18.md) | $1.0B/yr | Hospitals shift Medicare FFS inpatient discharges into higher-paying MS-DRG severity tiers via documentation intensity; coded severity rose +15.5% (price-held Fisher case-mix index) vs. +7.8% in measured sickness (HCC risk score) 2013–2024; Crespin et al. 2024 patient-level-controlled coding-intensity share (2.0% of MS-DRG weights) applied to the $95.3B operating-netted FFS IPPS pool at 55% recoverability, net of confirmed-fraud overlap | CMS Medicare Inpatient IPPS Geographic Variation and by-Provider PUFs DY2013–DY2024, Crespin et al. *Health Affairs* 2024, MedPAC March 2026 |
+| | **Running Total** | **$542.92B/yr** | **16.8% of the $3.24T gap** | |
 
 *Issue #9 is the first issue at the revised $3.24T denominator (CMS NHE 2024 final, released April 18, 2026). Issues #1–#8 published using the prior $3T denominator and are not retrofitted.*
 
-![Savings Tracker](issue_17/figures/chart5_savings_tracker.png)
+![Savings Tracker](issue_18/figures/chart5_savings_tracker.png)
 
 ---
 
@@ -52,6 +53,73 @@ The same operations. Exposed to the same clinical evidence. Wildly different pri
 ---
 
 ## Published Issues
+
+### Issue #18 — Coding for Dollars (~$1.0B/year)
+
+A US hospital inpatient stay is sorted into one of about 770 Medicare Severity Diagnosis-Related Groups (MS-DRGs), and Medicare pays whatever that bucket is worth. The same clinical condition can land in a higher-paying or lower-paying tier depending on what the medical record documents (a complication or comorbidity, or a major one), which creates a standing incentive to maximize coded severity. We built a 12-year national panel from the CMS Medicare Inpatient IPPS Public Use Files (DY2013–DY2024). Holding DRG prices constant at 2024 values and re-weighting each year's discharge mix, coded severity rose 15.5 percent (a Fisher case-mix migration index), while patients' independently-measured sickness, tracked through the Hierarchical Condition Category (HCC) risk-adjustment model, rose only 7.8 percent. The best published patient-level estimate of how much of that gap is coding intensity rather than genuine complexity is Crespin et al. 2024 (Health Affairs): 2.0 percent of MS-DRG payment weights (95% CI 1.7–2.2%), after controlling for demographics, length of stay, principal diagnosis, hospital characteristics, and comorbidity scores. Applied to the DY2024 FFS IPPS pool netted of non-scaling add-ons ($95.3B), that is $1.9 billion gross; at a 0.55 recoverability factor and net of $3M in confirmed-fraud (DOJ FCA) overlap, we book **$1.04 billion per year** (range $0.73B to $5.15B). Budget-neutral weight recalibration does not erase it: rebalancing applies to the weights, not to how many discharges migrate into higher-weight tiers, so total payments rise regardless. The fix shortens the documentation-and-coding adjustment cycle (CMS rulemaking), expands HHS OIG audit coverage for high-yield DRG pairs, and moves toward bundled and population payment that removes the per-discharge severity incentive.
+
+![Coded Severity vs. Measured Sickness, Medicare FFS 2013-2024](issue_18/figures/chart1_cmi_vs_hcc.png)
+
+*Source: CMS Medicare Inpatient IPPS Geographic Variation and by-Provider PUFs DY2013–DY2024; Crespin/Dworsky et al. Health Affairs 2024.*
+
+**Read the full analysis →** [`issue_18/newsletter_issue_18.md`](issue_18/newsletter_issue_18.md)
+
+<details>
+<summary>Reproducing the analysis</summary>
+
+```bash
+cd issue_18
+
+# Download the CMS Medicare Inpatient IPPS PUFs DY2013-DY2024; build the fixed-weight
+# Fisher case-mix migration index and the FFS HCC risk-score counterfactual; apply the
+# Crespin coding-intensity share to the operating-netted IPPS pool; print the headline
+python 01_build_data.py
+
+# Generate all five charts plus hero
+python generate_all_charts.py
+```
+
+**Key outputs:**
+- `results/savings_estimate.json` — Booked $1.04B, range $0.73–$5.15B, waterfall components, recoverability and overlap assumptions
+- `results/drg_complexity_trend.csv` — Fixed-weight Fisher/Laspeyres/Paasche case-mix migration index by year
+- `results/risk_score_counterfactual.csv` — FFS HCC risk-score index by year
+- `results/ffs_ipps_pool_panel.csv` — FFS IPPS pool by year, full and operating-netted
+- `results/mechanism_specific_upcoding.csv` — Top-tier (MCC) share by condition family, 2013 vs. 2024
+- `results/ma_selection_test.csv` — FFS-vs-MA enrollment shift and the selection counter-test
+- `results/fca_settlement_panel.csv` — DOJ FCA confirmed hospital DRG-upcoding settlements 2018–2025
+- `results/savings_by_component.csv` — Component build (pool, Crespin share, recoverability, overlap)
+- `results/methodology.md` — Full methodology, ceiling/floor construction, and the patient-level data-partner ask
+
+</details>
+
+<details>
+<summary>Data sources</summary>
+
+| Source | Description |
+|--------|-------------|
+| CMS Medicare Inpatient IPPS Geographic Variation and by-Provider PUFs DY2013–DY2024 | National discharge mix by MS-DRG and FFS HCC risk score; basis for the case-mix migration index |
+| Crespin/Dworsky et al. *Health Affairs* 2024 (43(12):1619-1627, DOI 10.1377/hlthaff.2024.00596) | Patient-level-controlled coding-intensity share (2.0% of MS-DRG weights, CI 1.7–2.2%) |
+| CMS FY2026 IPPS Final Rule (CMS-1833-F); CMS MS-DRG Classifications and Software V25–V44 | Payment weights, standardized amounts, 770 payable MS-DRGs |
+| MedPAC March 2026 Report | FFS IPPS spending cross-check and documentation-and-coding adjustment history |
+| Silverman/Skinner 2004 (J Health Econ 23(2):369-389); Geruso/Layton 2020 (JPE 128(3):984-1026) | For-profit upcoding gradient; MA risk-score upcoding comparison |
+| DOJ FCA hospital DRG-upcoding settlements 2018–2025; ATRA 2012 Section 631 | Confirmed-fraud overlap netting; documentation-and-coding recoupment history |
+
+</details>
+
+<details>
+<summary>Key methodology notes</summary>
+
+- Case-mix migration: national fixed-weight index, each DRG's relative weight held at DY2024 value; Fisher (geometric mean of 2013-anchor Laspeyres +12.3% and 2024-anchor Paasche +18.9%) = +15.5% over 2013–2024, +9.9% over the pre-COVID 2013–2019 window
+- Acuity counterfactual: FFS beneficiary-weighted HCC risk score rose +7.8%; the HCC score is itself partly coding-driven, so the risk-net method over-attributes the residual to coding and is used only as the ceiling
+- Pool: full DY2024 FFS IPPS = $107.04B; operating-netted (removing ~11% non-scaling outlier + capital add-ons; IME and DSH retained as proportional) = $95.27B
+- Central: Crespin 2.0% × $95.27B = $1.91B gross × 0.55 recoverability − $3M FCA overlap = $1.04B booked
+- Floor $0.73B (Crespin CI-low 1.7% × pool × 0.45); ceiling $5.15B (Fisher risk-net residual 7.2% × pool × 0.75, over-attributing by construction)
+- Selection counter (MA enrollment doubled, FFS share 71.8% → 49.9%): Crespin's patient-level controls absorb it; FFS average HCC risk score actually fell 2.6% 2019–2024, so selection did not inflate measured FFS acuity
+- Overlap: Issue #11 MA coding intensity = zero (insurer-side, different program); Issue #5 admin = zero; Issue #15 facility fee = zero (outpatient HCPCS vs. inpatient MS-DRG); Issue #10 Procedure Mill = additive; Issue #24 confirmed fraud netting = negligible
+
+</details>
+
+---
 
 ### Issue #17 — The Part B Pharmacy Premium (~$6.2B/year)
 
@@ -1208,7 +1276,7 @@ Six datasets. Per-dataset crowdfunding via Stripe (no account required, any amou
 
 ## Up Next
 
-Issue #15: The Facility Fee Scam. The same procedure, performed by the same physician, costs Medicare two to four times more when it is billed in a hospital outpatient department than in an independent physician office. The difference is the facility fee, a billing add-on that exists because CMS treats the hospital as a separate cost center even when it is the same building, equipment, and staff. We quantify the site-of-service differential across the most-billed HCPCS codes, identify which are eligible for site-neutral payment, and book the recoverable share net of overlap with the consolidation and specialist-payment issues. Target publish: June 7, 2026. Subscribe at [americanhealthcareconundrum.com](https://americanhealthcareconundrum.com) to get it when it drops.
+Issue #19: The 340B Spread. The 340B Drug Pricing Program lets covered entities buy outpatient drugs at 25 to 50 percent below average wholesale price, then bill Medicare and commercial payers at the full price and keep the spread. Created in 1992 to help safety-net providers serve uninsured patients, it has since expanded to more than 50,000 contract pharmacies and 12,000 covered entities. We join Health Resources and Services Administration (HRSA) registration data to drug spending, isolate the charity-care share from the spread flowing elsewhere, and book the recoverable portion. Target publish: July 5, 2026. Subscribe at [americanhealthcareconundrum.com](https://americanhealthcareconundrum.com) to get it when it drops.
 
 ---
 

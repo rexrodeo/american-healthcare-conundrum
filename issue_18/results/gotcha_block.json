@@ -1,0 +1,25 @@
+{
+  "issue_number": 18,
+  "datasets_used": [
+    "CMS Medicare Inpatient Hospitals - by Geography and Service PUF (DY2013-DY2024)",
+    "CMS Medicare Inpatient Hospitals - by Provider PUF (DY2013-DY2024)",
+    "Crespin et al. 2024 Health Affairs (calibration)",
+    "DOJ FCA press releases (settlement panel)"
+  ],
+  "gotchas_confirmed": {
+    "ma_migration_shrinks_ffs_denominator": "Total FFS inpatient discharges fall 9.9M (2013) -> 6.9M (2024) as beneficiaries move to Medicare Advantage. ALL analysis is in shares and per-discharge dollars; absolute volumes are never compared across years.",
+    "drg_weight_budget_neutrality": "CMS recalibrates relative weights budget-neutrally; pure weight rescaling is not extra money. The fixed-weight index measures discharge-MIX migration, the un-neutralized component, which raises payment via the standardized amount.",
+    "hcc_risk_score_is_coding_contaminated": "Bene_Avg_Risk_Scre moves with diagnosis coding, so the risk-net residual UNDER-corrects for coding contamination -> used as the CEILING, not the floor.",
+    "fixed_weight_anchor_fisher": "C2: the fixed-weight index value depends on which year's weights are fixed. End-year (Paasche) over-weights the DRGs whose share grew (+18.9%); base-year (Laspeyres) understates (+12.3%). Reported as a Fisher index (geometric mean, +15.5%), anchor-neutral. The Paasche/Laspeyres band is disclosed.",
+    "pool_operating_netted_c4": "C4: the PUF Avg_Mdcr_Pymt is TOTAL payment per discharge (incl IME, DSH, outlier, capital add-ons). IME/DSH ride the DRG-adjusted operating base and scale with CMI (kept). Outlier (charge-driven) and capital (separate prospective amount) do not scale with a coding share -> removed (~11%) before applying the share. Coding share is applied to the operating-netted pool.",
+    "doc_coding_recoupment_finite": "ATRA 2012 MS-DRG-transition recoupment ($11B) completed ~FY2017; no standing annual reduction after. Crespin's 2019 figure is already net of in-effect recoupment, so already-recouped = 0 on the Crespin path (no double subtraction).",
+    "puf_lt11_discharge_suppression": "Geo PUF suppresses DRGs with <11 discharges per geography, so the computed FFS IPPS pool (~$107B DY2024 full) is slightly below the true pool (~$110-125B); this makes the per-share dollar valuation mildly conservative.",
+    "fca_panel_hospital_side_only": "MA insurer risk-adjustment FCA cases (Issue #11) are excluded by construction; only hospital-side DRG/inpatient upcoding settlements counted.",
+    "crespin_calibration_corrected_c1": "C1 (DEFECT, corrected 2026-06-10): the prior build read Crespin's NATIONAL Medicare $4.6B (2019, NHE-based) as a five-state figure and divided by a 0.176 population share, manufacturing a 21.8% pool share (~11x Crespin's actual Exhibit 4 figure). Crespin's true Medicare coding-intensity effect is 2.0% of MS-DRG payment weights (CI 1.7-2.2%), fully patient-level-controlled. The central now uses 2.0% x operating-netted pool x 0.55.",
+    "ma_migration_selection_robustness": "MA enrollment nearly doubled 2013-2024 (FFS share 71.8% -> 49.9%). The CENTRAL is anchored to Crespin's patient-level-controlled share, which nets genuine acuity AND selection by his regression design. The risk-net residual (our cruder single-proxy control) is the CEILING. Measured FFS risk FELL 2019->2024, so post-2019 selection did not inflate measured FFS acuity over the calibration-transfer window. See results/ma_selection_test.csv."
+  },
+  "international_ratio_used": "N/A (domestic coding-intensity issue; no international price ratio)",
+  "originality_posture": "Headline computed from CMS Geo + Provider PUFs (Fisher case-mix migration vs HCC acuity, operating-netted FFS IPPS pool) calibrated by Crespin's controlled 2.0% Medicare share; mechanism layer and FCA panel original; full NIS/SID regression replication is the data-partner CTA.",
+  "stage_status": "COMPUTED_FULL_BUILD",
+  "generated_at": "2026-06-10T04:56:44.786243"
+}

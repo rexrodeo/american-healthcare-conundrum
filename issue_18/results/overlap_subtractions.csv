@@ -1,0 +1,6 @@
+source,basis,subtraction_bil
+Issue #11 MA coding intensity,separate program (insurer risk-adjustment vs hospital DRG),0.0
+Issue #5 admin paperwork,separate mechanism (compliance cost vs coding revenue),0.0
+Issue #15 facility fee,separate setting/code system (outpatient HCPCS vs inpatient DRG),0.0
+Issue #24 fraud (FCA-confirmed),25% of annualized confirmed hospital DRG-upcoding settlements,0.0031
+BOOKED Issue #18 central,after all subtractions,1.045
