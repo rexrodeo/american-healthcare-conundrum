@@ -1,7 +1,7 @@
 """
-The American Healthcare Conundrum — Savings Tracker v11 (Issue #8, Path C 2026-04-17)
+The American Healthcare Conundrum — Savings Tracker v12 (Issue #8, restatement 2026-07-06)
 Eight issues: OTC drugs, drug pricing, hospital pricing, PBMs, admin waste, supply waste, GLP-1 pricing, denial machine.
-Total: $428.6B = 14.3% of $3T gap. (Issue #8 = $32B after Component D dropped from booked total pending claims data.)
+Total: $420.6B = 14.0% of $3T gap. (Issue #8 restated $32B -> $24B: AI-denial component removed from booked total.)
 Cloned from issue_07/generate_chart5.py — Issue #8 line updated.
 """
 import matplotlib
@@ -28,7 +28,7 @@ ISSUES = [
     {"num": 5, "title": "Admin\nWaste",             "savings_billions": 200.0},
     {"num": 6, "title": "Supply\nWaste",            "savings_billions": 28.0},
     {"num": 7, "title": "GLP-1\nPricing",           "savings_billions": 40.0},
-    {"num": 8, "title": "Denial\nMachine",          "savings_billions": 32.0},
+    {"num": 8, "title": "Denial\nMachine",          "savings_billions": 24.0},
 ]
 
 # ── Palette ──────────────────────────────────────────────────────────────────
@@ -222,11 +222,15 @@ ax_zoom.text(total_b + ZOOM_B * 0.01, ZM_Y + ZM_H / 2,
              ha='left', va='center', fontsize=9,
              fontweight='bold', color=DARK, zorder=6)
 
-# Remaining space label — only when there's enough breathing room (>15% of zoom)
+# Remaining space label — placed to the RIGHT of the running-total annotation.
+# The running-total text box occupies ~ZOOM_B*0.09 of x-space after total_b, so
+# start the remaining label past it to avoid a collision, and only draw it if the
+# leftover room past that clearance is wide enough to read.
 remaining = ZOOM_B - total_b
-if remaining > ZOOM_B * 0.15:
-    ax_zoom.text(total_b + remaining / 2, ZM_Y + ZM_H / 2,
-                 f'...{remaining:.0f}B more\nto fill this window',
+label_start = total_b + ZOOM_B * 0.10
+if (ZOOM_B - label_start) > ZOOM_B * 0.06:
+    ax_zoom.text((label_start + ZOOM_B) / 2, ZM_Y + ZM_H / 2,
+                 f'...${remaining:.0f}B more\nto fill this window',
                  ha='center', va='center', fontsize=8, color=MID,
                  style='italic', zorder=3)
 
@@ -272,7 +276,7 @@ fig.text(0.50, 0.01,
          'Issue #1: OTC step therapy ($0.6B)  |  Issue #2: International drug reference pricing ($25.0B)  |  '
          'Issue #3: Commercial hospital reference pricing ($73.0B)  |  Issue #4: PBM reform ($30.0B)  |  '
          'Issue #5: Admin waste reduction ($200.0B)  |  Issue #6: Hospital supply waste ($28.0B)  |  '
-         'Issue #7: GLP-1 pricing ($40.0B)  |  Issue #8: Denial machine ($32.0B; deductible-delay component excluded pending claims-level data)  |  Savings are non-overlapping; conservative estimates.',
+         'Issue #7: GLP-1 pricing ($40.0B)  |  Issue #8: Denial machine ($24.0B; AI-denial and deductible-delay mechanisms excluded, not yet measurable)  |  Savings are non-overlapping; conservative estimates.',
          ha='center', va='bottom', fontsize=6.0, color=MID, style='italic')
 
 # ── Save ─────────────────────────────────────────────────────────────────────

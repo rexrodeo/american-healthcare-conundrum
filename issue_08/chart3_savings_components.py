@@ -1,7 +1,8 @@
 """
-Issue #8 Chart 3 — Savings Components (v3, Path C, 2026-04-17)
-4-segment horizontal stacked bar: A+B+C+E = $30B midpoint, booked $32B.
-Component D (Deductible-Delay Extraction) dropped pending claims-level data.
+Issue #8 Chart 3 — Savings Components (v4, restatement, 2026-07-06)
+3-segment horizontal stacked bar: A+B+E = $24.3B midpoint, booked $24B.
+AI-denial (former Component C) removed from booked total: direction documented,
+national dollar figure never measured. Deductible-delay also unbooked (CTA).
 """
 import matplotlib
 matplotlib.rcParams['text.usetex'] = False
@@ -21,16 +22,15 @@ GREY  = '#666666'
 MID   = '#888888'
 WHITE = '#FFFFFF'
 
-# Component midpoints (from newsletter Consolidated Estimate, Path C)
+# Component midpoints (from newsletter Consolidated Estimate, restatement)
 components = [
     ('A', 'Care Suppression',          13.7, RED),
     ('B', 'Vertical Integration',      10.3, GOLD),
-    ('C', 'AI Denial Escalation',       5.7, TEAL),
     ('E', 'Risk Adjustment',            0.3, GREY),
 ]
-total_mid = sum(c[2] for c in components)   # 30.0
-booked    = 32.0
-range_lo, range_hi = 22.3, 37.5
+total_mid = sum(c[2] for c in components)   # 24.3
+booked    = 24.0
+range_lo, range_hi = 17.4, 31.1
 
 # ── Figure ────────────────────────────────────────────────────────────────────
 fig, ax = plt.subplots(figsize=(10, 6), dpi=100)
@@ -97,8 +97,8 @@ ax.text(cumulative / 2, BAR_Y - 1.35,
         ha='center', va='center', fontsize=9, style='italic', color=MID)
 
 ax.text(cumulative / 2, BAR_Y - 1.85,
-        'Component D (deductible-delay extraction) excluded pending claims-level data',
-        ha='center', va='center', fontsize=8, style='italic', color=RED)
+        'AI-denial and deductible-delay mechanisms excluded: documented but not yet measurable from public data',
+        ha='center', va='center', fontsize=7.5, style='italic', color=RED)
 
 # ── Styling ──────────────────────────────────────────────────────────────────
 ax.set_xlim(-2, cumulative + 3)
@@ -110,17 +110,17 @@ for spine in ax.spines.values():
 
 # ── Title ────────────────────────────────────────────────────────────────────
 ax.text(0.5, 1.15,
-        'Issue #8: $32 Billion in Recoverable Denial Extraction',
+        'Issue #8: $24 Billion in Recoverable Denial Extraction',
         transform=ax.transAxes, fontsize=14, fontweight='bold',
         ha='center', color=NAVY)
 ax.text(0.5, 1.07,
-        'Three measurable mechanisms plus risk adjustment; deductible-delay (D) described but not booked',
+        'Two measurable mechanisms plus risk adjustment; AI-denial and deductible-delay described but not booked',
         transform=ax.transAxes, fontsize=9, style='italic', ha='center', color=MID)
 
 # ── Footnote ─────────────────────────────────────────────────────────────────
 fig.text(0.08, 0.02,
-         'Sources: CMS-0057-F per-contract PA data (2026), AMA PA Survey (2024), Health Affairs Nov 2025 (Optum premium),\n'
-         'Stanford npj Digital Medicine Jan 2026 (AI denial escalation), HHS OIG Oct 2024 (risk adjustment overpayments).',
+         'Sources: CMS-0057-F per-contract PA data (2026); ADA 2024 and Bansal 2022 (care-suppression escalation); Arnold/Fulton\n'
+         'Health Affairs 2025 (Optum payment premium); HHS OIG Oct 2024 (risk adjustment overpayments).',
          fontsize=6, ha='left', style='italic', color=MID)
 
 plt.tight_layout(rect=[0, 0.06, 1, 0.93])

@@ -158,7 +158,7 @@ If you know a CMS official who should read this: forward it.
 
 *The Healthcare Conundrum publishes when the data is ready. All analysis uses publicly available CMS data. Code is open-source. Figures are validated before publication.*
 
-*Sources: CMS National Health Expenditure Fact Sheet (2023); CMS Medicare Part D Spending by Drug dataset, 2019–2023; OECD Health at a Glance 2025; Commonwealth Fund Mirror, Mirror 2024; Peterson-KFF Health System Tracker; Socal et al., JAMA Health Forum, December 2023.*
+*Sources: CMS National Health Expenditure Fact Sheet (2023); CMS Medicare Part D Spending by Drug dataset, 2019–2023; OECD Health at a Glance 2025; Commonwealth Fund Mirror, Mirror 2024; Peterson-KFF Health System Tracker; Socal et al., JAMA, December 2023 (DOI 10.1001/jama.2023.23126).*
 
 ---
 

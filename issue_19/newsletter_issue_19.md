@@ -13,8 +13,8 @@ Target: ~$3.24T US-Japan per-capita spending gap
  mortality in OECD, ~half US per-capita spend)
 
 Full scale: $0 ─────────────────────────── $3.24T
-            █████░░░░░░░░░░░░░░░░░░░░░░░░  17.1%
-            ↑ $553.25B identified
+            █████░░░░░░░░░░░░░░░░░░░░░░░░  16.8%
+            ↑ $545.25B identified
 
 Per-issue savings (1 block ≈ $8B; max bar = $200B):
  #1 ▏                          $0.6B   OTC Drug Overspending
@@ -24,7 +24,7 @@ Per-issue savings (1 block ≈ $8B; max bar = $200B):
  #5 █████████████████████████ $200.0B  Admin Waste
  #6 ███                       $28.0B   Supply Waste
  #7 █████                     $40.0B   GLP-1 Pricing
- #8 ████                      $32.0B   Denial Machine
+ #8 ███                       $24.0B   Denial Machine
  #9 █                          $6.6B   Employer Trap
 #10 █                          $7.6B   Procedure Mill
 #11 ████                      $28.0B   MA Overpayment
@@ -37,7 +37,7 @@ Per-issue savings (1 block ≈ $8B; max bar = $200B):
 #18 ▏                          $1.0B   Coding for Dollars
 #19 █                         $10.3B   The 340B Spread (this issue)
    ──────────────────────────────────────────────────
-   Total: $553.25B  ·  $2,686.75B remaining
+   Total: $545.25B  ·  $2,694.75B remaining
    Scale: $3.24T (CMS NHE 2024; Japan OECD 2023)
 ```
 
@@ -193,9 +193,9 @@ If this issue was useful, forward it to someone who pays for drugs or hospital c
 
 ---
 
-**Running total after Issue #19: $553.25B / $3.24T (17.1%)**
+**Running total after Issue #19: $545.25B / $3.24T (16.8%)**
 
-*[Chart 5: Savings tracker bar chart showing all 19 issues with savings amounts. Issue #19 "The 340B Spread" highlighted. Running total $553.25B shown against the $3.24T full-scale bar. Standard series format with navy background, teal/gold bars, percentage labeled.]*
+*[Chart 5: Savings tracker bar chart showing all 19 issues with savings amounts. Issue #19 "The 340B Spread" highlighted. Running total $545.25B shown against the $3.24T full-scale bar. Standard series format with navy background, teal/gold bars, percentage labeled.]*
 
 **Methodology footnotes:** Waterfall: $81.4B in CY2024 program purchases (discounted acquisition price, Drug Channels) x 78% DSH share = $63.49B pool; gross discount on the WAC basis (composite 45% off list, IQVIA $147.8B list value / $66.4B gap) = $51.95B; minus $2.34B in contract-pharmacy fees = $49.61B net spread; minus $16.18B charity care = $34.86B raw gap; minus $9.03B overlap = $25.83B; x 0.40 recoverability = $10.33B booked. Allocation: HRSA publishes no per-entity 340B purchase volumes, so the DSH pool is allocated across the 1,986 short-term acute nonprofit and government hospitals in the universe by bed count; uniform and charity-weighted allocations were also run, and even the adversarial charity-weighted version leaves a positive raw gap ($33.43B), so the direction does not depend on the proxy. Charity measure: Schedule H line 7a financial assistance at cost where a real IRS Form 990 match exists (758 of 1,986 hospitals), HCRIS S-10 charity-care-at-cost for the rest; bad-debt-inclusive uncompensated care is not used. Overlap subtractions (no dollar counted twice): $6.89B with Issue #13 (Nonprofit Lie, direct CCN join), $0.40B with Issue #17 (Part B Pharmacy Premium, which reserved the 340B-acquired Part B share for this issue), $1.74B with Issue #4 (PBM contract-pharmacy fees). Range $1.95B to $26.23B: the floor stacks the most conservative choice on every lever at once (broad community-benefit charity definition, 38% discount, high contract-pharmacy fee, 0.74 DSH share, 0.25 recoverability); the ceiling stacks the most generous choice on each. Denominator: $3.24T US-Japan per-capita spending gap (CMS NHE 2024 final; OECD Health at a Glance 2025). Full methodology, code, and the per-hospital panel are at github.com/rexrodeo/american-healthcare-conundrum.
 

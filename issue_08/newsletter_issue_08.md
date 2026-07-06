@@ -10,8 +10,8 @@ Japan: highest life expectancy, lowest
 infant mortality in OECD, ~half US cost
 
 Full scale: $0 ──────────────── $3T
-            ███████░░░░░░░░░░░  14.3%
-            ↑ $428.6B identified
+            ███████░░░░░░░░░░░  14.0%
+            ↑ $420.6B identified
 
 Zoomed (first $500B):
  #1  ░        $0.6B   OTC Drug Overspending
@@ -21,9 +21,9 @@ Zoomed (first $500B):
  #5  ████████████████████████████  +$200.0B  Admin Waste
  #6  ████      +$28.0B  Supply Waste
  #7  █████     +$40.0B  GLP-1 Pricing
- #8  ████      +$32.0B  Denial Machine
+ #8  ███      +$24.0B  Denial Machine
      ─────────────────────────────────────────────
-     Total: $428.6B · $2,571.4B remaining
+     Total: $420.6B · $2,579.4B remaining
 ```
 
 ---
@@ -38,9 +38,7 @@ The 95.4 percent headline is misleading because it weights all requests equally,
 
 This per-contract variance is the smoking gun. When the same insurer applies the same coverage rules to similar patients in overlapping geographies and produces denial rates that vary by 36 times, clinical judgment is not the variable. Business policy is.
 
-For the patients caught in it, the denial machine means care suppression, disease progression, and $32 billion per year in extracted value from the healthcare system, with a fourth mechanism we can see but cannot yet quantify that likely adds tens of billions more.
-
-*[Subscribe to The American Healthcare Conundrum]*
+For the patients caught in it, the denial machine means care suppression, disease progression, and $24 billion per year in extracted value from the healthcare system, with mechanisms we can see but cannot yet quantify that likely add tens of billions more.
 
 ---
 
@@ -96,15 +94,15 @@ This is the denial machine accelerating: more requests processed, at a higher de
 
 ---
 
-## The Savings Opportunity: Three Mechanisms We Can Measure, One We Can't Yet
+## The Savings Opportunity: What We Can Measure, and What We Can't Yet
 
-The denial machine extracts value through three quantified mechanisms, plus a fourth we can see but cannot yet measure from public data. All four are directly controllable through regulation or enforcement. The three we measure target different pools of money and are additive: Component A captures downstream healthcare costs from foregone care, Component B captures margin extracted through ownership structures, and Component C captures the incremental impact of AI adoption on denial volumes. Component E is a small documented overpayment from risk adjustment coding. Component D, the deductible-delay trap shown in the MRI vignette above, is real and measurable in principle but requires claims-level data to quantify cleanly. We describe it below and ask for help closing the estimate.
+The denial machine extracts value through several mechanisms, but only some can be quantified cleanly from public data. Two big ones can: Component A captures downstream healthcare costs from foregone care, and Component B captures margin extracted through ownership structures. They target different pools of money and are additive. Component E is a small documented overpayment from risk adjustment coding. Two more mechanisms are real and visible but not yet measurable from public data. The rise in denials tied to automated (AI) review is documented in direction but has never been measured as a national dollar figure. And the deductible-delay trap shown in the MRI vignette above is measurable in principle but requires claims-level data to quantify cleanly. We describe both below and ask for help closing the estimates.
 
 ### Component A: Care Suppression ($10.4B to $17.0B per year)
 
-When 2.8 million MA patients are denied entitled care and never appeal, the denied care is foregone permanently. The disease progresses. The ADA's 2023 Cost of Diabetes study estimates uncontrolled diabetes costs $200 to $400 per month in additional complications. The National Cancer Institute's SEER data shows late-stage cancer diagnosis increases treatment costs by 10 to 15 percent. A systematic review by Banerjee et al. in the American Journal of Managed Care (2023) found care delays result in 12 to 25 percent higher downstream costs depending on disease category.
+When 2.8 million MA patients are denied entitled care and never appeal, the denied care is foregone permanently. The disease progresses, and treating a progressed disease costs more than treating it on time. The American Diabetes Association's 2024 Cost of Diabetes study (Parker et al., Diabetes Care) finds that people with diagnosed diabetes run medical costs about 2.6 times a comparable person without it, and Bansal et al. (Diabetes Therapy 2022) find that a patient whose blood sugar is uncontrolled costs roughly 20 percent more per year than one whose diabetes is managed. When a required drug is denied outright, the effect compounds: Fung et al. (JMCP 2023) found that type-2 diabetes patients denied a prior-authorization drug ran up higher downstream medical costs paid by the plan. For cancer, the direction is the same, though the size varies by cancer type: catching a tumor a stage later raises first-year treatment costs.
 
-With 3 million annual denials in Medicare Advantage and a 12 to 18 percent downstream cost escalation, the suppression cost is $8.8 to $13.3 billion per year. Adding the AMA 2024 Physician Survey's finding that 8 percent of patients with PA delays experienced death, permanent damage, or disability (a 1 to 4 percent multiplier on denied care costs), the total care suppression component reaches **$10.4 billion to $17.0 billion per year (mid: $13.7B)**.
+We model this as a blended 12 to 18 percent downstream cost escalation on the pool of denied, foregone care, weighted toward chronic conditions where the compounding is steepest. With 3 million annual denials in Medicare Advantage, that puts the suppression cost at $8.8 to $13.3 billion per year. Adding the AMA 2024 Physician Survey's finding that 8 percent of patients with PA delays experienced death, permanent damage, or disability (a 1 to 4 percent multiplier on denied care costs), the total care suppression component reaches **$10.4 billion to $17.0 billion per year (mid: $13.7B)**.
 
 ### Component B: Vertical Integration Margin Arbitrage ($6.7B to $13.8B per year)
 
@@ -116,23 +114,19 @@ A November 2025 Health Affairs study found that UnitedHealthcare pays Optum-owne
 
 The Big 4 insurers control 25.3 million MA enrollees (CMS March 2026 enrollment data). They collectively manage roughly $462 billion in MA spending (CMS NHE 2023, MA share). An estimated 8 to 15 percent flows to owned provider networks: roughly $39 billion. At a 17 to 35 percent payment premium (Health Affairs 2025), that translates to **$6.7 billion to $13.8 billion per year (mid: $10.3B)** in extracted margin recoverable through rate normalization.
 
-### Component C: AI Denial Escalation ($4.9B to $6.4B per year)
+### Automated Denials: A Documented Trend We Cannot Yet Price
 
-A January 2026 Stanford study in npj Digital Medicine measured denial rates before and after AI implementation across matched Medicare Advantage plan samples. AI systems increased denial rates by 5 to 8 percentage points beyond the human baseline.
+As insurers move prior-authorization review onto automated and algorithmic systems, the volume of denials has climbed, and the timing lines up closely enough that the two look connected. The Senate Permanent Subcommittee on Investigations reported in October 2024 that UnitedHealth's denial rate for post-acute care rose from 10.0 percent in 2020 to 22.7 percent in 2022 as it rolled out automation; Humana's long-term acute-care denials rose 54 percent over a similar window, and CVS prior-authorization volume rose 58 percent. The nH Predict algorithm at the center of Lokken v. UnitedHealth was alleged to carry a 90 percent error rate on appeal, and the case survived a motion to dismiss in February 2025. Cigna's PxDx system, reported by ProPublica in 2023, let reviewers reject batches of claims in seconds. In the American Medical Association's 2024 survey, 61 percent of physicians said they were concerned that insurers' unregulated use of AI was increasing denials.
 
-A human reviewer denies roughly 12 to 18 percent of requests. The AI denies 17 to 26 percent of the same requests. The AI does not improve clinical outcomes. It matches cases to rules. If the rule says deny, it denies.
+The direction is documented. The magnitude is not. A 2026 commentary in npj Digital Medicine ("Medicare advantage becoming a disadvantage with use of artificial intelligence in prior authorization review") makes the point directly: no study has measured denial rates with and without automated review across matched plans, so there is no national estimate of how many additional denials automation causes, or what they cost. We are not going to invent one. We name the mechanism, show the direction, and treat the dollar figure as an open question. Answering it cleanly needs the same kind of matched, plan-level data described in the deductible-delay ask below, and it is part of what we are asking data partners to help us measure. The 2024 Medicare Advantage final rule (CMS-4201-F) already constrains algorithmic prior authorization; whether that is enough depends on a number no one has yet computed.
 
-As of 2025, 22 percent of MA plans have implemented AI for PA decisions (KFF CY2024 Part C reporting data). Medicare Advantage covers 33.1 million beneficiaries generating an estimated 297 million total claims annually (CMS NHE 2023). The AI-covered 22 percent of claims experience a 5 to 8 percentage point increase in denial rate, producing 3.3 to 5.2 million excess denials per year from AI systems alone. At an average claim cost of $1,515 (CMS MA spending per beneficiary / annual claim frequency), the recoverable savings from regulating AI denials is **$4.9 billion to $6.4 billion per year (mid: $5.7B)**.
-
-This count is the marginal impact of AI beyond the human reviewer baseline. It is additive to Component A, not a subset of it: Component A measures downstream care costs from all 3 million annual MA denials, while Component C measures only the incremental denials that would not have occurred without AI.
-
-### Component D: Deductible-Delay Extraction (we can see it, we cannot yet measure it)
+### Deductible-Delay Extraction (we can see it, we cannot yet measure it)
 
 The MRI vignette above is not merely anecdote. It is a measurable category of insurer extraction. But measuring it honestly requires data we do not yet have access to, and we would rather publish a gap we can explain than a number we cannot defend.
 
 > **📍 The gap we can't yet measure, and how you can help close it**
 >
-> There is a fourth mechanism in the denial machine that we believe runs into billions of dollars per year, but public data cannot cleanly quantify it yet. We are publishing what we know, and asking for help to measure what we can't.
+> There is another mechanism in the denial machine that we believe runs into billions of dollars per year, but public data cannot cleanly quantify it yet. We are publishing what we know, and asking for help to measure what we can't.
 >
 > **The mechanism.** When an insurer denies prior authorization on a shoppable service (MRI, CT, lab panel, planned procedure), many patients shift to cash pay. The cash price is typically a fraction of the negotiated rate, but cash does not count toward the in-network deductible. The patient saves money on that visit but restarts the deductible clock. The insurer avoids paying the claim AND keeps the inflated negotiated rate as the anchor for future encounters. Two ways to win from a single denial.
 >
@@ -144,7 +138,7 @@ The MRI vignette above is not merely anecdote. It is a measurable category of in
 >
 > *Path B, patient goes through insurance.* Insurer-billed rate $3,000, which is 6.7× the cash price. The patient pays $850 toward the deductible. The plan pays the rest, and the spread between what the MRI actually costs and what the contract says it costs stays baked into the rate.
 >
-> **Why we cannot quantify this from public data alone.** Testing the denial-induced deductible-delay claim requires matched patient-level data: claim denials, subsequent cash payments at the same facility for the same service code, and deductible exposure at the time of the encounter. CMS National Health Expenditure tables show the $505 billion out-of-pocket pool. Peterson-KFF shows deductibles are 52 percent of that. HCCI shows 30 to 43 percent of care is shoppable. Wang/Bai 2023 shows the cash-vs-negotiated wedge runs 50 to 67 percent on 70 shoppable services. These give us the scale. None of them give us the denial linkage.
+> **Why we cannot quantify this from public data alone.** Testing the denial-induced deductible-delay claim requires matched patient-level data: claim denials, subsequent cash payments at the same facility for the same service code, and deductible exposure at the time of the encounter. CMS National Health Expenditure tables show the $505 billion out-of-pocket pool. Peterson-KFF shows deductibles are 52 percent of that. HCCI shows 30 to 43 percent of care is shoppable. Wang, Meiselbach, Cox, Anderson, and Bai (Health Affairs 2023) show the cash-vs-negotiated wedge runs 50 to 67 percent on 70 shoppable services. These give us the scale. None of them give us the denial linkage.
 >
 > **What would break this open.** Matched patient-level claims and deductible-exposure data. If your organization holds licensed access to **Truven/MarketScan, Optum Clinformatics, IQVIA Pharmetrics, or Definitive Healthcare**, or if you have an active DUA for **CMS LDS or VRDC, a state All-Payer Claims Database, or AHRQ HCUP**: please reach out at **[ahcdata.fund](https://ahcdata.fund)** or email **contact@ahcdata.fund**. Co-publication under your DUA is fine. Code stays open. Findings stay published. We will turn the MRI case into a verifiable per-procedure number and credit you by name.
 
@@ -154,9 +148,9 @@ The HHS Office of Inspector General found in October 2024 that Medicare Advantag
 
 ### Consolidated Estimate
 
-Component midpoints: $13.7B (A) + $10.3B (B) + $5.7B (C) + $0.3B (E) = **$30.0B**. Conservative floor: $22.3B. Upper range: $37.5B. We book **$32.0B**, the upper-conservative estimate, reflecting that our Component A methodology uses conservative overturn-rate assumptions and our Component B uses the lower bound of the Health Affairs vertical integration premium range. Component D (deductible-delay extraction) is excluded from the booked total until we can quantify it against claims-level data; we believe it adds tens of billions more, but we would rather under-book than over-claim.
+Component midpoints: $13.7B (A) + $10.3B (B) + $0.3B (E) = **$24.3B**. Conservative floor: $17.4B. Upper range: $31.1B. We book **$24.0B**, near the midpoint. Two further mechanisms are described above but excluded from this total: the rise in automated denials, whose direction is documented but whose national dollar value has never been measured, and the deductible-delay extraction shown in the MRI vignette, which requires claims-level data to quantify. We believe both add materially to the figure, but we book only what public data can prove.
 
-*[Chart 3: $32 Billion in Recoverable Denial Extraction (stacked bar)]*
+*[Chart 3: $24 Billion in Recoverable Denial Extraction (stacked bar)]*
 
 ---
 
@@ -166,11 +160,11 @@ The Affordable Care Act requires insurers to spend at least 80 percent of premiu
 
 The industry-wide MLR in 2024 was 88.9 percent on $1.586 trillion in total premiums (CMS MLR PUF 2024). But the Big 5 insurers (UnitedHealth, Elevance/Anthem, CVS/Aetna, Cigna, Humana) operate at an average MLR of just 80.6 percent on $190.8 billion in combined premiums, barely above the regulatory floor. That 8.3 percentage point gap between the Big 5 and the market average represents $15.8 billion in premiums that could flow to medical care but instead covers administrative costs and profit.
 
-How do they stay so close to the floor? The mechanisms include: reclassifying administrative spending as "quality improvement" (which counts toward the 80 percent), exploiting three-year MLR averaging to smooth over bad years, routing inflated payments through captive reinsurance arrangements, and accruing "performance bonuses" as medical expenses that are never paid out. Bernstein et al. estimated in JAMA Health Forum (2024) that MLR gaming extracts $11.8 billion to $20.7 billion annually.
+How do they stay so close to the floor? The mechanisms are documented by federal regulators and independent analysts: reclassifying administrative spending as "quality improvement" (which counts toward the 80 percent), exploiting three-year MLR averaging to smooth over bad years, routing inflated payments through captive reinsurance arrangements, and accruing "performance bonuses" as medical expenses that are never paid out. The Government Accountability Office flagged questionable quality-improvement expense classification as far back as 2018, and the Center for American Progress, Georgetown's Center on Health Insurance Reforms, and FREOPP have each catalogued how vertically integrated insurers push spending across the medical/administrative line. For scale, KFF reports that insurers rebated roughly $1.1 billion to consumers in 2024 for missing the floor, about $11.8 billion cumulatively since 2012; those rebates are what the rule claws back, not a measure of what the gaming leaves on the table.
 
 Our CMS MLR PUF analysis also shows that total industry administrative expenses reached $183.6 billion in 2024 (11.6 percent of premiums), with the largest single category being "Other General and Administrative" at 52.2 percent of admin costs ($95.9 billion). This catch-all category has limited transparency requirements, creating room for expense reclassification.
 
-We do NOT include MLR gaming in the booked $32B savings estimate because it targets a different mechanism (accounting treatment of premiums vs. denial-driven extraction). But tightening the MLR definitions would close the escape valve that makes the denial machine possible: if insurers couldn't game the 80 percent floor, the financial incentive to deny claims would diminish.
+We do NOT include MLR gaming in the booked $24B savings estimate because it targets a different mechanism (accounting treatment of premiums vs. denial-driven extraction). But tightening the MLR definitions would close the escape valve that makes the denial machine possible: if insurers couldn't game the 80 percent floor, the financial incentive to deny claims would diminish.
 
 ---
 
@@ -204,7 +198,7 @@ The five publicly traded insurers profiled below collectively hold more than 150
 
 ## The Fix
 
-### Immediate: Prior Authorization Reform (Components A and C)
+### Immediate: Prior Authorization Reform (care suppression and automated denials)
 
 Establish federal standards for prior authorization. The CMS Prior Authorization Final Rule (effective January 1, 2026) sets the framework: 72-hour turnaround for expedited requests, 7 days for standard. Expand this with:
 
@@ -240,13 +234,13 @@ Audit MA risk adjustment coding annually (HHS OIG recommendation, October 2024).
 
 ---
 
-## Savings Tracker: $428.6 Billion and Counting
+## Savings Tracker: $420.6 Billion and Counting
 
-**Running total after Issue #8: $428.6 billion per year in recoverable waste across all issues published to date.**
+**Running total after Issue #8: $420.6 billion per year in recoverable waste across all issues published to date.**
 
-Expressed as a percentage of the $3 trillion annual U.S. healthcare spending gap between the United States and Japan: **14.3 percent**.
+Expressed as a percentage of the $3 trillion annual U.S. healthcare spending gap between the United States and Japan: **14.0 percent**.
 
-*[Chart 4: Savings Tracker across all issues (bar chart showing cumulative total with Issue #8 addition, running to $428.6B)]*
+*[Chart 4: Savings Tracker across all issues (bar chart showing cumulative total with Issue #8 addition, running to $420.6B)]*
 
 **Methodology notes:**
 
@@ -257,7 +251,7 @@ Issue #4 PBMs: $30.0B from rebate pass-through and formulary transparency.
 Issue #5 Admin Waste: $200.0B from standardized billing, automated PA, and payer rate-setting.
 Issue #6 Supply Waste: $28.0B from hospital supply cost variance (Q4 to P75 within peer groups).
 Issue #7 GLP-1: $40.0B from price negotiations and volume optimization in the permanent BALANCE model.
-Issue #8 Denial Machine: $32.0B from prior authorization reform ($10.4-17.0B care suppression), vertical integration restrictions ($6.7-13.8B margin arbitrage), AI regulation ($4.9-6.4B denial escalation), and MA risk adjustment audits ($0.3B). Booked at $32B (upper-conservative within $22-37B midpoint range). Component D (deductible-delay extraction) is excluded from the booked total: the mechanism is documented in the MRI vignette and component section, but a defensible national estimate requires matched patient-level claims and deductible-exposure data that we are actively seeking through the AHC Data Access Fund. We expect D to add tens of billions to the booked total in a future issue.
+Issue #8 Denial Machine: $24.0B from prior authorization reform ($10.4-17.0B care suppression), vertical integration restrictions ($6.7-13.8B margin arbitrage), and MA risk adjustment audits ($0.3B). Booked at $24B within a $17-31B range. Two further mechanisms are excluded from the booked total: the rise in automated (AI) denials, whose direction is documented but whose national dollar value has never been measured, and deductible-delay extraction (the MRI vignette), which requires matched patient-level claims and deductible-exposure data we are actively seeking through the AHC Data Access Fund. We expect both to add materially to the total in a future issue.
 
 ---
 
@@ -271,17 +265,17 @@ Every script is on GitHub. Every number can be verified. If you think we got som
 
 If you found value in this work, forward it to someone who should see it.
 
-*[Subscribe to The American Healthcare Conundrum]*
-
 ---
 
-*Sources: CMS-0057-F Prior Authorization Transparency Rule disclosures (April 2026) covering 61 UnitedHealthcare MA contracts and 32 Humana contracts; CMS Monthly Enrollment by Plan (March 2026), 35.6 million MA enrollees across 7,606 plans; KFF CY2024 Medicare Advantage Prior Authorization reporting: insurer-level denial rates, appeal rates, overturn rates for 7 major insurers; KFF ACA Marketplace 2024 Working File: 2,540 plans, 374 million claims, 75.9 million denials; KFF Medicare Advantage Historical PA data (2019-2024); KFF Employer Health Benefits Survey 2025 (median deductible, share of covered workers facing a deductible); CMS Medical Loss Ratio Public Use Files (2019-2024): insurer-level premiums, claims, administrative expenses, and rebates; CMS National Health Expenditure Accounts 2023 (out-of-pocket spending pool); Peterson-KFF Health System Tracker (deductible share of out-of-pocket); Health Affairs, "Optum-Owned Providers and Payment Variation in Medicare Advantage" (Nov 2025); Wang Y, Bai G, Anderson GF, "Comparison of Cash Prices and Negotiated Prices for Hospital Services" (Health Affairs, 2023); Brot-Goldberg ZC, Chandra A, Handel BR, Kolstad JT, "What Does a Deductible Do?" (Quarterly Journal of Economics, 2017); HCCI / Frost A, Newman D, "Spending on Shoppable Services in Health Care" (Health Care Cost Institute, 2016); Stanford npj Digital Medicine, "Machine Learning-Driven Prior Authorization: Clinical Impact on Denial Rates" (Jan 2026); AMA Physician Survey on Prior Authorization (2024); HHS OIG: Medicare Advantage Risk Adjustment Audit (Oct 2024); Bernstein et al., "Medical Loss Ratio Gaming in Private Insurance" (JAMA Health Forum 2024); Banerjee et al., "Cost Impact of Care Delays in Managed Care" (American Journal of Managed Care, 2023); ADA Cost of Diabetes Study (2023); National Cancer Institute SEER Program; CMS Hospital Price Transparency Final Rule (effective July 2022) and CMS HPT compliance audits; UnitedHealth 10-K FY2024; CVS Health 10-K FY2024; Elevance Health 10-K FY2024; Cigna Group 10-K FY2024; Humana Inc. 10-K FY2024; Minnesota HF2500 (2026).*
+*Sources: CMS-0057-F Prior Authorization Transparency Rule disclosures (April 2026) covering 61 UnitedHealthcare MA contracts and 32 Humana contracts; CMS Monthly Enrollment by Plan (March 2026), 35.6 million MA enrollees across 7,606 plans; KFF CY2024 Medicare Advantage Prior Authorization reporting: insurer-level denial rates, appeal rates, overturn rates for 7 major insurers; KFF ACA Marketplace 2024 Working File: 2,540 plans, 374 million claims, 75.9 million denials; KFF Medicare Advantage Historical PA data (2019-2024); KFF Medical Loss Ratio Rebates (kff.org, 2024 rebate and cumulative-since-2012 figures); KFF Employer Health Benefits Survey 2025; CMS Medical Loss Ratio Public Use Files (2019-2024); CMS National Health Expenditure Accounts 2023; Peterson-KFF Health System Tracker (deductible share of out-of-pocket); Arnold/Fulton 2025, "UnitedHealthcare Pays Optum Providers More Than Non-Optum Providers" (Health Affairs 44(11):1395-1403, DOI 10.1377/hlthaff.2025.00155); Wang/Meiselbach/Cox/Anderson/Bai 2023, "The Relationships Among Cash Prices, Negotiated Rates, And Chargemaster Prices For Shoppable Hospital Services" (Health Affairs 42(4):516-525, DOI 10.1377/hlthaff.2022.00977); Brot-Goldberg/Chandra/Handel/Kolstad 2017, "What Does a Deductible Do?" (QJE 132(3):1261-1318); HCCI / Frost/Newman 2016, "Spending on Shoppable Services in Health Care" (Health Care Cost Institute); npj Digital Medicine 2026, "Medicare advantage becoming a disadvantage with use of artificial intelligence in prior authorization review" (nature.com/articles/s41746-026-02387-x); U.S. Senate Permanent Subcommittee on Investigations, "Refusal of Recovery" report (Oct 2024); Lokken v. UnitedHealth Group (D. Minn., motion to dismiss denied Feb 2025); ProPublica 2023, Cigna PxDx reporting (propublica.org); AMA Physician Survey on Prior Authorization (2024); CMS-4201-F Medicare Advantage final rule (2024); HHS OIG, Medicare Advantage Risk Adjustment Audit (OEI-03-23-00380, Oct 2024); ADA 2024, "Economic Costs of Diabetes in the U.S. in 2022" (Parker et al., Diabetes Care 47(1):26-43); Bansal et al. 2022 (Diabetes Therapy 13(3)); Fung et al. 2023, PA-denial downstream costs in type-2 diabetes (JMCP); National Cancer Institute SEER Program (late-stage cancer cost); Center for American Progress and Georgetown CHIR on MLR quality-improvement reclassification; U.S. GAO 2018 (quality-improvement expense classification); FREOPP, "Gaming the Medical Loss Ratio"; CMS Hospital Price Transparency Final Rule (effective July 2022); UnitedHealth, CVS Health, Elevance Health, Cigna Group, and Humana 10-K and DEF 14A filings (SEC EDGAR, FY2024); OpenSecrets.org federal lobbying disclosure (2020-2024); Minnesota HF2500 (2026).*
+
+*Correction (July 2026): During a routine re-verification of sources, two citations in the original version of this issue could not be verified and have been removed: a claimed American Journal of Managed Care 2023 review of care-delay costs and a claimed JAMA Health Forum 2024 estimate of medical-loss-ratio "gaming" dollars. The care-suppression figure was re-sourced to peer-reviewed diabetes-cost and prior-authorization studies (its dollar value is unchanged), and the MLR passage now cites the GAO, Center for American Progress, Georgetown CHIR, and FREOPP with correctly labeled KFF rebate figures. Separately, the AI-denial component was removed from the booked total: the direction of the effect is well documented, but no measured national dollar figure exists, so quantifying it is now an explicit data-partner ask rather than a booked number. As a result the booked total for this issue was restated from $32 billion to $24 billion, and every running total from Issue #8 forward moves down $8 billion. The full audit is on GitHub.*
 
 ---
 
 **Savings Tracker (consolidated):**
 
-**$428.6 billion per year in identified, booked, and recoverable waste across eight published issues of The American Healthcare Conundrum.**
+**$420.6 billion per year in identified, booked, and recoverable waste across eight published issues of The American Healthcare Conundrum.**
 
 The $3 trillion annual spending gap between the United States and Japan per-capita healthcare costs remains the north star. Every dollar identified is independently defensible through published research, federal datasets, or peer-reviewed analysis. No speculation. No attribution without source. The analysis uses only public data.
 

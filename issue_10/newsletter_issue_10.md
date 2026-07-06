@@ -313,7 +313,7 @@ Issue #11: The MA Overpayment.
 
 MedPAC's March 2024 Report to Congress estimated that Medicare Advantage plans receive about $83 billion per year more than the same beneficiaries would cost in traditional Medicare. The mechanism: insurers send nurses into patients' homes specifically to find diagnoses, then bill Medicare for the higher-risk patient who is now "on the books" as having those conditions. The more conditions documented, the more Medicare pays the insurer for the rest of the year.
 
-Issue #11 replicates the Kronick (JAMA Internal Medicine, 2022) coding-intensity methodology on current CMS HCC public data and extends it to the most recent enrollment year. We also track the qui tam settlement record: Kaiser Foundation Health Plan's $556 million settlement in 2026 for alleged upcoding, and ongoing DOJ investigations into UnitedHealth.
+Issue #11 replicates the Kronick et al. (Annals of Internal Medicine, 2025) coding-intensity methodology on current CMS HCC public data and extends it to the most recent enrollment year. We also track the qui tam settlement record: Kaiser Foundation Health Plan's $556 million settlement in 2026 for alleged upcoding, and ongoing DOJ investigations into UnitedHealth.
 
 The MA overpayment story follows directly from the denial machine (#8) and the employer trap (#9): the same insurers collecting $83B in overpayments from Medicare also run the prior authorization machinery and manage the employer health plans. The arc is the same company, the same incentives, and three different ways of extracting margin.
 

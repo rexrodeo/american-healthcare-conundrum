@@ -23,7 +23,7 @@ This project finds it, one issue at a time. Each issue identifies one fixable pr
 | 5 | [The Paper Chase](issue_05/newsletter_issue_05.md) | $200.0B/yr | US spends $4,983/person on healthcare admin vs. $884 in peer nations; original HCRIS analysis of 4,518 hospitals reveals 6.2× variance in overhead costs | CMS HCRIS, CMS NHE, OECD, AMA |
 | 6 | [The Supply Closet](issue_06/newsletter_issue_06.md) | $28.0B/yr | Original HCRIS analysis of 5,480 hospitals reveals massive variance in per-discharge supply costs; CMI-adjusted P75/P25 ratios of 2.5–3.4× within same-size peer groups | CMS HCRIS FY2023 |
 | 7 | [The GLP-1 Gold Rush](issue_07/newsletter_issue_07.md) | $40.0B/yr | US GLP-1 spending grew 1,200-fold in 5 years ($57M→$71.7B); US pays 3–5× international prices; original 10-year BALANCE budget projection for Medicare GLP-1 coverage | CMS Part D, OECD, KFF, CBO |
-| 8 | [The Denial Machine](issue_08/newsletter_issue_08.md) | $32.0B/yr | Original CMS-0057-F extraction of 93 MA contracts (UHC denial rate 13.5%, appeal overturn 58–65%, ~3M denied entitled care annually); care suppression, vertical integration arbitrage, and AI-driven denial escalation | CMS-0057-F, UNH/HUM 10-K, Health Affairs, Stanford npj |
+| 8 | [The Denial Machine](issue_08/newsletter_issue_08.md) | $24.0B/yr | Original CMS-0057-F extraction of 93 MA contracts (UHC denial rate 13.5%, appeal overturn 58–65%, ~3M denied entitled care annually); care suppression and vertical integration arbitrage (restated from $32B on 2026-07-06, see below) | CMS-0057-F, UNH/HUM 10-K, Health Affairs |
 | 9 | [The Employer Trap](issue_09/newsletter_issue_09.md) | $6.6B/yr | First plan-level analysis of post-CAA 2021 broker and admin-fee disclosures (8,180 health welfare plans, 23.8M participants); per-plan broker commissions above 3% DOL benchmark and admin fees above peer-group medians | DOL Form 5500 Schedule A and Schedule C 2023, KFF EHBS 2024, JAMA Network Open |
 | 10 | [The Procedure Mill](issue_10/newsletter_issue_10.md) | $7.6B/yr | Full CY2023 CMS PUF analysis (268,634 rows) of the 31-service Schwartz/Mafi/Choosing Wisely list; state-level P90/P10 spread of 6.7x in low-value Medicare spending per beneficiary, with an all-payer extension and a defensive-medicine difference-in-differences slice | CMS Provider Utilization, Hospital Outpatient, and Geographic Variation PUFs CY2023; Schwartz et al. 2014; Kim & Fendrick JAMA Health Forum 2025; Avraham DSTLR 7.1 |
 | 11 | [The MA Overpayment](issue_11/newsletter_issue_11.md) | $28.0B/yr | $76B total MA-FFS payment gap (MedPAC March 2026); coding-intensity slice booked at $28B for 2025 with V24 vs. V28 sensitivity band of $19.2B–$44.8B computed from CMS Geographic Variation PUFs; HRA decomposition and state-level allocation original; cross-validated against Kronick et al. 2025 ($33B for 2021) and OIG HRA audits | MedPAC March 2026; Kronick et al. *Annals of Internal Medicine* 2025; CMS Geographic Variation PUFs (MA + FFS); HHS-OIG HRA audits 2020 and 2024; CMS HCC risk-adjustment model files; DOJ FCA settlement track |
@@ -35,7 +35,7 @@ This project finds it, one issue at a time. Each issue identifies one fixable pr
 | 17 | [The Part B Pharmacy Premium](issue_17/newsletter_issue_17.md) | $6.2B/yr | $41.80B universe of 597 single-source physician-administered Part B drugs (CY2023 Part B PUF, after excluding skin substitutes, vaccines, immune globulins); MedPAC June 2019 / ASPE 2018 ex-manufacturer 1.8x ratio (RAND 3.22x as aggressive ceiling), biosimilars zeroed and biosimilar-competed originators half-counted, netted to the non-340B share and 55% recoverability; ASP+6% buy-and-bill add-on rewards costlier originators over biosimilars | CMS Part B Spending by Drug PUF CY2023, MedPAC June 2019, ASPE 2018, RAND RR-A788-3 |
 | 18 | [Coding for Dollars](issue_18/newsletter_issue_18.md) | $1.0B/yr | Hospitals shift Medicare FFS inpatient discharges into higher-paying MS-DRG severity tiers via documentation intensity; coded severity rose +15.5% (price-held Fisher case-mix index) vs. +7.8% in measured sickness (HCC risk score) 2013–2024; Crespin et al. 2024 patient-level-controlled coding-intensity share (2.0% of MS-DRG weights) applied to the $95.3B operating-netted FFS IPPS pool at 55% recoverability, net of confirmed-fraud overlap | CMS Medicare Inpatient IPPS Geographic Variation and by-Provider PUFs DY2013–DY2024, Crespin et al. *Health Affairs* 2024, MedPAC March 2026 |
 | 19 | [The 340B Spread](issue_19/newsletter_issue_19.md) | $10.33B/yr | Per-entity panel of 1,986 acute DSH hospitals: net 340B spread captured ~$49.6B/yr vs. documented charity care ~$16.2B/yr; only 98 of 1,986 hospitals deliver charity ≥ spread; waterfall from $81.4B CY2024 purchases (78% DSH, gross discount on WAC basis, minus contract-pharmacy fees) net of Issue #13/#17/#4 overlaps at 40% recoverability | HRSA/Drug Channels CY2024 program purchases, CMS HCRIS DSH universe, IRS Form 990 Schedule H, Cassidy Senate HELP contract-pharmacy benchmark |
-| | **Running Total** | **$553.25B/yr** | **17.1% of the $3.24T gap** | |
+| | **Running Total** | **$545.25B/yr** | **16.8% of the $3.24T gap** | |
 
 *Issue #9 is the first issue at the revised $3.24T denominator (CMS NHE 2024 final, released April 18, 2026). Issues #1–#8 published using the prior $3T denominator and are not retrofitted.*
 
@@ -783,9 +783,11 @@ python generate_all_charts.py
 
 ---
 
-### Issue #8 — The Denial Machine (~$32.0B/year)
+### Issue #8 — The Denial Machine (~$24.0B/year)
 
-Insurance companies use claim denials, prior authorization, and vertical integration as profit tools. We extracted per-contract prior authorization data from 93 Medicare Advantage contracts (61 UnitedHealthcare, 32 Humana) using the new CMS-0057-F transparency rule, covering 18.4 million prior authorization requests. UnitedHealthcare's volume-weighted denial rate: 13.5% (contradicting its headline "95.4% approved"). Per-contract variance: 0.7% to 25.2% (a 36× spread). Appeal overturn rates: 57.9% (UHC) and 64.7% (Humana). National extrapolation: approximately 3 million MA patients are denied entitled care every year and never appeal. Eliminating care suppression, vertical integration arbitrage, and AI-driven denial escalation would save approximately **$32 billion per year**.
+Insurance companies use claim denials, prior authorization, and vertical integration as profit tools. We extracted per-contract prior authorization data from 93 Medicare Advantage contracts (61 UnitedHealthcare, 32 Humana) using the new CMS-0057-F transparency rule, covering 18.4 million prior authorization requests. UnitedHealthcare's volume-weighted denial rate: 13.5% (contradicting its headline "95.4% approved"). Per-contract variance: 0.7% to 25.2% (a 36× spread). Appeal overturn rates: 57.9% (UHC) and 64.7% (Humana). National extrapolation: approximately 3 million MA patients are denied entitled care every year and never appeal. Eliminating care suppression and vertical integration arbitrage would save approximately **$24 billion per year**.
+
+- **Correction (2026-07-06):** Restated from $32B to $24B per a citation audit (`issue_08/CITATION_AUDIT_2026-07-06.md`). The AI-denial-escalation component ($5.7B mid) rested on a misattributed source with no measured magnitude and was moved from the booked total to a qualitative, direction-only treatment; the care-suppression and vertical-integration components (re-sourced to real evidence) and the risk-adjustment component are retained. Every running total from Issue #8 forward drops $8B accordingly.
 
 **Read the full analysis →** [`issue_08/newsletter_issue_08.md`](issue_08/newsletter_issue_08.md)
 
@@ -817,7 +819,7 @@ python generate_all_charts.py
 | UnitedHealth Group 10-K FY2024 | Revenue, operating margins, Optum segment |
 | CVS Health, Elevance, Cigna, Humana 10-K filings | Insurer financials and MA enrollment |
 | Health Affairs Nov 2025 | Optum vertical integration premium: 17% (61% in concentrated markets) |
-| Stanford npj Digital Medicine Jan 2026 | AI increases denial rates 5–8 percentage points |
+| Senate PSI Oct 2024; Lokken v. UnitedHealth; AMA 2024 survey; CMS-4201-F | Directional (not magnitude-measured) evidence that algorithmic prior authorization raises denials |
 | AMA Physician Survey on Prior Authorization 2024 | 93% report PA delays care; 8% report PA contributed to death/disability |
 | KFF CY2024 Part C PA Reporting Data | MA plan prior authorization volumes |
 
@@ -828,9 +830,9 @@ python generate_all_charts.py
 
 - Original CMS-0057-F per-contract extraction: 93 MA contracts, 18.4M PA requests
 - Volume-weighted denial rates computed from per-contract data (not headline averages)
-- Savings components: Care Suppression ($13.7B mid), Vertical Integration Arbitrage ($10.3B mid), AI Denial Escalation ($5.7B mid), Risk Adjustment ($0.3B)
-- MLR Gaming ($11.8–20.7B) documented but excluded from booked savings
-- Booked: $32B (upper-conservative within component ranges A+B+C+E); full range $22–37B
+- Savings components (restated 2026-07-06): Care Suppression ($13.7B mid), Vertical Integration Arbitrage ($10.3B mid), Risk Adjustment ($0.3B). AI Denial Escalation (previously $5.7B mid) moved out of the booked total — its magnitude rested on a misattributed source with no measured effect size — and is now treated qualitatively
+- MLR Gaming (mechanisms real; the prior $11.8–20.7B range rested on a fabricated citation and is dropped) documented but excluded from booked savings
+- Booked: $24B (Care Suppression + Vertical Integration + Risk Adjustment); restated from $32B on 2026-07-06 (see `issue_08/CITATION_AUDIT_2026-07-06.md`)
 - Component D (deductible-delay extraction) described in the newsletter's MRI vignette but excluded from booked total pending matched patient-level claims + deductible-exposure data
 - No overlap with Issue #5 (admin waste counts processing cost of PA; this counts the denied-care cost)
 

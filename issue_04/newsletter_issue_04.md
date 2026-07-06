@@ -106,7 +106,7 @@ Annualized: $1.46 billion per year. Given that specialty drug spending is growin
 
 A formulary is a tiered list: Tier 1 drugs have low copays; Tier 3 drugs have high copays or require prior authorization; excluded drugs are not covered at all. PBMs design formularies.
 
-Chea, Sydor, and Popovian's 2023 analysis of Express Scripts' national formulary examined every drug ESI excluded from coverage and asked a simple question: is there a legitimate reason this drug isn't covered? A legitimate reason would be either clinical (the drug has safety issues, or a better alternative exists) or economic (a cheaper equivalent is available). For 57.4% of ESI's formulary exclusions, the answer was no. The excluded drug had equivalent or better clinical standing than the drugs that remained covered, and it wasn't more expensive. It was cut anyway.
+Chea, Sydor, and Popovian's 2023 analysis of Express Scripts' national formulary (Health Science Journal, an industry-funded study) examined every drug ESI excluded from coverage and asked a simple question: is there a legitimate reason this drug isn't covered? A legitimate reason would be either clinical (the drug has safety issues, or a better alternative exists) or economic (a cheaper equivalent is available). For 57.4% of ESI's formulary exclusions, the answer was no. The excluded drug had equivalent or better clinical standing than the drugs that remained covered, and it wasn't more expensive. It was cut anyway.
 
 That figure was 48.4% the prior year. The trend is going in the wrong direction.
 
@@ -122,17 +122,17 @@ Conservative annual savings from fixing formulary policy to systematically favor
 
 This is the structural version of specialty markup. PBMs direct patients to their own pharmacies through network design: the PBM's mail-order pharmacy is "preferred," meaning your copay is lower if you use it. Independent pharmacies pay access fees to be included in narrow networks. Specialty drugs often require "mandatory specialty pharmacy" dispensing, at the PBM's own specialty pharmacy.
 
-Motheral and Fairman's 2020 analysis of Florida Medicaid data documented the result: five specialty pharmacies, all owned by managed care organizations or PBMs, collected 28% of prescription drug profit while dispensing only 0.4% of claims. That's a 70-to-one profit-per-claim advantage over independent pharmacies. Not because PBM pharmacies are 70 times more efficient. Because they set their own reimbursement rates.
+A 2020 analysis of Florida Medicaid claims by the Florida Pharmacy Association and 3 Axis Advisors documented the result: five specialty pharmacies, all owned by managed care organizations or PBMs, collected 28% of prescription drug profit while dispensing only 0.4% of claims. That's a 70-to-one profit-per-claim advantage over independent pharmacies. Not because PBM pharmacies are 70 times more efficient. Because they set their own reimbursement rates.
 
 The self-preferencing savings are embedded within the specialty markup figure above. They are not separately booked to avoid double-counting.
 
 **6. Independent Pharmacy Destruction**
 
-The last mechanism is not an extraction. It is the consequence of the others. Knox, Gagneja, and Kraschel documented in *JAMA Health Forum* in 2021 that between 2003 and 2018, 16.1% of independent pharmacies in rural areas closed. Some pharmacies reported that 80% of their reimbursements were below their cost of acquiring and dispensing the drug. When the MAC list (the PBM's maximum allowable cost for generic drugs) fails to update when acquisition costs rise, the pharmacy absorbs the loss. Chains can negotiate better terms. Independent pharmacies take the MAC list or exit the network, which means their patients lose coverage for the pharmacy entirely.
+The last mechanism is not an extraction. It is the consequence of the others. The RUPRI Center for Rural Health Policy Analysis (Salako, Ullrich, and Mueller, 2018) documented that between 2003 and 2018, 16.1% of independently owned pharmacies in rural areas closed (1,231 pharmacies), leaving 630 rural communities with no pharmacy at all. Some pharmacies reported that 80% of their reimbursements were below their cost of acquiring and dispensing the drug. When the MAC list (the PBM's maximum allowable cost for generic drugs) fails to update when acquisition costs rise, the pharmacy absorbs the loss. Chains can negotiate better terms. Independent pharmacies take the MAC list or exit the network, which means their patients lose coverage for the pharmacy entirely.
 
 Rural pharmacy deserts do not have a dollar value that fits neatly into a savings model. But when the nearest pharmacy is 45 miles away, patients skip doses. Skipped doses produce hospitalizations. Hospitalizations cost money. The harm is real and it is downstream of the extraction documented above.
 
-*[Chart 2: chart2_harm_spread.png: The Spread Pricing Audit: independent pharmacy closures in rural areas 2003–2018 (left panel); Ohio and Kentucky Medicaid spread audit results vs. estimated national extraction (right panel). Sources: Knox, Gagneja & Kraschel, JAMA Health Forum 2021; Ohio State Auditor 2018; Kentucky Auditor 2018.]*
+*[Chart 2: chart2_harm_spread.png: The Spread Pricing Audit: independent pharmacy closures in rural areas 2003–2018 (left panel); Ohio and Kentucky Medicaid spread audit results vs. estimated national extraction (right panel). Sources: RUPRI Center (Salako, Ullrich & Mueller) 2018; Ohio State Auditor 2018; Kentucky Auditor 2018.]*
 
 *[Chart 3: chart3_six_mechanisms.png: Five Mechanisms of PBM Extraction: horizontal bar chart showing booked savings potential of each mechanism, totaling $30B/year. Source: Ohio State Auditor 2018; FTC Interim Reports I & II (2024–2025); Senate Finance Committee 2022; Mattingly et al. JAMA Health Forum 2023.]*
 
@@ -256,6 +256,8 @@ The PBM industry's lobbying budget in Washington is substantial. The three Big 3
 > **This issue's mechanism:** Express Scripts processes 24% of US prescriptions through Cigna's Evernorth division. The FTC's 2024 lawsuit names Express Scripts alongside the other Big 3 PBMs for maintaining high-list-price brand insulins as preferred formulary drugs specifically because manufacturers paid the largest rebates, while excluding lower-cost biosimilars that would save plans and patients money.
 
 *Sources: CVS Health 10-K, UnitedHealth Group 10-K, The Cigna Group 10-K, and DEF 14A proxy statements (SEC EDGAR); FTC v. CVS Caremark et al. (September 2024); company earnings releases; OpenSecrets.org federal lobbying disclosure database (2020–2024); company cash flow statements.*
+
+*Correction (July 2026): The Florida Medicaid specialty-pharmacy figure (28% of profit, 0.4% of claims) is re-attributed to the Florida Pharmacy Association and 3 Axis Advisors 2020 claims analysis, and the 16.1% rural-pharmacy-closure figure to the RUPRI Center (Salako, Ullrich, and Mueller, 2018); both were previously attributed to secondary sources.*
 
 ---
 

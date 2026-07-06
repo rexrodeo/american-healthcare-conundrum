@@ -580,7 +580,7 @@ def chart4_program_growth():
 # ══════════════════════════════════════════════════════════════════════════════
 
 def chart5_savings_tracker():
-    """All 19 issues; Issue #19 highlighted in gold. Running total $553.25B."""
+    """All 19 issues; Issue #19 highlighted in gold. Running total $545.25B."""
     issues = [
         ("#1",  "OTC Drugs",          0.6),
         ("#2",  "Drug Pricing",       25.0),
@@ -589,7 +589,7 @@ def chart5_savings_tracker():
         ("#5",  "Admin Waste",       200.0),
         ("#6",  "Supply Waste",       28.0),
         ("#7",  "GLP-1 Pricing",      40.0),
-        ("#8",  "Denial Machine",     32.0),
+        ("#8",  "Denial Machine",     24.0),
         ("#9",  "Employer Trap",       6.6),
         ("#10", "Procedure Mill",      7.6),
         ("#11", "MA Overpayment",     28.0),
@@ -607,9 +607,9 @@ def chart5_savings_tracker():
     labels  = [i[1] for i in issues]
     savings = [i[2] for i in issues]
 
-    running_total = 553.25
+    running_total = 545.25
     target = 3240.0
-    pct = running_total / target * 100   # 17.1%
+    pct = running_total / target * 100   # 16.8%
 
     fig, (ax_left, ax_right) = plt.subplots(
         1, 2, figsize=(10, 6.5), dpi=100,
@@ -643,7 +643,7 @@ def chart5_savings_tracker():
     # ── Right: running total with two inset sub-panels ────────────────────────
     ax_right.set_facecolor(NAVY)
     ax_right.axis("off")
-    ax_right.set_title("Running Total\n553.25B / 3.24T (17.1%)",
+    ax_right.set_title(f"Running Total\n{running_total:.2f}B / 3.24T ({pct:.1f}%)",
                        fontsize=10, color=WHITE, pad=7)
 
     # --- Full-scale panel ---
@@ -708,7 +708,7 @@ def chart5_savings_tracker():
 
     fig.text(0.04, 0.01,
              "Target: 3.24T US-Japan per-capita gap (CMS NHE 2024; OECD 2023). "
-             "Issue #19 adds 10.33B. Cumulative: 553.25B (17.1%). "
+             f"Issue #19 adds 10.33B. Cumulative: {running_total:.2f}B ({pct:.1f}%). "
              "All figures per-year booked savings.",
              fontsize=5.5, color=LGRAY, ha="left", va="bottom")
 
