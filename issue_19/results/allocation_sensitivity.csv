@@ -1,0 +1,5 @@
+allocation_proxy,usable_weight_rows,aggregate_net_spread_bil,aggregate_charity_bil,rectified_raw_gap_bil,note
+by_beds,1986,49.61,16.18,34.86,
+uniform,1986,49.61,16.18,37.34,
+by_charity_adversarial,1986,49.61,16.18,33.43,
+by_outpatient_rev,4,,16.18,,weight not usable from public cache (see methodology)

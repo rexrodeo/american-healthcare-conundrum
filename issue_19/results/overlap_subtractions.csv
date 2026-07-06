@@ -1,0 +1,7 @@
+source,amount_bil
+"Raw DSH spread-to-charity gap (acute, C2/C3 corrected)",34.864
+"Issue #13 Nonprofit Lie overlap (FULL min(), C5)",-6.892
+Issue #17 Part B Premium overlap (COMPUTED; #17 carved out 340B),-0.402
+Issue #4 PBM contract-pharmacy fees overlap,-1.743
+Gap pool after overlap,25.827
+x recoverability 0.4,10.331

@@ -1,0 +1,29 @@
+{
+  "issue_number": 19,
+  "datasets_used": [
+    "HCRIS HOSP10 financials (DSH universe, beds, charity care, ownership, CCN type)",
+    "IRS Form 990 Schedule H Part I 7a (via Issue #13 per-hospital panel)",
+    "CMS Medicare Part B Drug Spending PUF (via Issue #17, for #17 reconciliation)",
+    "Drug Channels program-purchase totals (CURATED, discounted price)",
+    "IQVIA WAC list value + list-to-340B gap (CURATED, gross-discount calibration)",
+    "Senator Cassidy May 2025 investigation (CURATED, cross-validation)",
+    "AHA 2022 community-benefit analysis (CURATED, universe anchor)",
+    "AIR340B March 2024 report (CURATED, reconciliation)"
+  ],
+  "gotchas_confirmed": {
+    "hcris_ctrl_type_mapping": "nonprofit=1,2; for-profit=3-6; government=7-13. For-profit STATUTORILY INELIGIBLE, excluded. DSH (acute): nonprofit=1590, government=396.",
+    "ccn_facility_scrub_C1": "DSH universe = short-term acute only (CCN 0001-0879/1225-1299/1300-1399). Removed 344 non-acute (psych/LTCH/rehab); moved 61 children's to a separate 340B category.",
+    "charity_care_at_cost_not_charges": "Central charity = Schedule H 7a financial assistance AT COST where real-990-matched (758/1986), else HCRIS S-10 charity-care-at-cost. NOT charges, NOT bad-debt-inclusive uncompensated care. Total $16.18B.",
+    "gross_vs_net_discount_WAC_basis_C2": "Gross discount = paid * d/(1-d) on the DISCOUNTED acquisition price (d=0.45 off WAC), NOT paid * d. Whole-program gross reconstructs IQVIA's $66.4B gap. DSH gross $51.95B; net spread = gross MINUS CP fees ($49.61B).",
+    "ceiling_price_formula": "Brand ceiling = AMP - max(0.231*AMP, AMP - Medicaid Best Price). Per-NDC ceiling prices gated; composite weighted discount anchored to IQVIA whole-program ratio.",
+    "allocation_robustness_C4": "Aggregate spread ($49.61B) EXCEEDS aggregate charity ($16.18B); the per-entity clip does not manufacture the gap. Allocation-proxy sensitivity is first-class; adversarial charity-weighted allocation leaves a positive floor.",
+    "issue_13_overlap_full_min_C5": "#13 overlap computed via CCN co-failure join, subtracted at FULL min() value (no 0.53 survival-fraction down-scaling, which had inflated #19's booked figure).",
+    "issue_17_340b_carveout": "#17 reserved the 340B-acquired Part B share (0.35) for #19 and booked $6.17B on NON-340B units only. The #19 Part B overlap is therefore near-zero (5% buffer).",
+    "opais_bulk_export_gated": "HRSA OPAIS is a Blazor/SignalR SPA; no static bulk-download URL. Universe built from HCRIS + AHA anchor; per-entity spend ALLOCATED. Data-partner CTA: Apexus PVP per-entity disclosure.",
+    "dsh_share_staleness": "78% DSH sub-share is 2022-vintage; banded 0.74/0.78/0.82.",
+    "aha_v_becerra_remedy": "$10.6B OPPS underpayment to 340B hospitals 2018-Q3 2022; CMS 1793-F $7.8B offset from CY2026. A Medicare PAYMENT-RATE remedy, distinct from the drug-ACQUISITION spread #19 measures; flagged."
+  },
+  "originality_posture": "Headline = per-DSH-hospital spread-to-charity gap from HCRIS + Schedule H 7a, WAC-basis gross discount, net of COMPUTED overlap with #13/#17/#4, with first-class allocation-robustness test. Curated inputs: Drug Channels totals, IQVIA WAC, entity-type shares, ceiling discount.",
+  "stage_status": "FULL_BUILD_CORRECTED_STAGE_5.5",
+  "generated_at": "2026-06-10T21:07:33.574193"
+}

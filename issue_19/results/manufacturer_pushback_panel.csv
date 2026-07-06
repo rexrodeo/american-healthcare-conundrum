@@ -1,0 +1,19 @@
+manufacturer,ticker,policy_effective_date,policy_scope,litigation_status
+Eli Lilly,LLY,2020-09-01,single CP unless in-house pharmacy; claims-detail via 340B ESP,3rd Cir (Lilly v Cole) favorable to mfr; ongoing
+AstraZeneca,AZN,2020-10-01,in-house + child sites only; no CP replenishment,AstraZeneca v HHS; 3rd Cir favorable to mfr
+Sanofi,SNY,2020-10-01,CP cut unless entity reports claims data,Sanofi v Cole; 3rd Cir favorable to mfr 2024
+Novartis,NVS,2020-12-01,one CP per entity if no in-house pharmacy,Novartis v HHS; DC Cir partial
+Novo Nordisk,NVO,2021-01-01,CP restrictions; reporting required,in litigation
+United Therapeutics,UTHR,2021-01-01,single CP limit,HRSA enforcement letter 2021
+Boehringer Ingelheim,private,2021-08-01,single CP unless in-house,in litigation
+Merck,MRK,2021-07-01,CP restrictions; 340B ESP claims data,in litigation
+Bristol Myers Squibb,BMY,2021-07-01,CP restrictions,in litigation
+Gilead,GILD,2021-10-01,CP restrictions,in litigation
+Amgen,AMGN,2021-09-01,single CP unless in-house,in litigation
+Pfizer,PFE,2022-01-01,CP restrictions on select products,in litigation
+AbbVie,ABBV,2022-01-01,CP restrictions,in litigation
+Bayer,BAYRY,2022-06-01,CP restrictions,in litigation
+GSK,GSK,2022-08-01,CP restrictions,in litigation
+Johnson & Johnson,JNJ,2022-08-01,CP restrictions; 2025 rebate-model attempt blocked by HRSA,HRSA blocked rebate model 2025
+Astellas,ALPMY,2023-01-01,CP restrictions,in litigation
+Takeda,TAK,2023-01-01,CP restrictions,in litigation

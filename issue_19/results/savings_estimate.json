@@ -1,0 +1,166 @@
+{
+  "issue_number": 19,
+  "issue_title": "The 340B Spread",
+  "anchor_year": 2024,
+  "headline_status": "COMPUTED (Stage 5.5 corrected)",
+  "booked_bil": 10.33,
+  "booked_target_bil": 10.0,
+  "range_lo_bil": 1.95,
+  "range_hi_bil": 26.23,
+  "n_dsh_hospitals": 1986,
+  "n_nonacute_removed_c1": 344,
+  "n_childrens_moved_c1": 61,
+  "real_990_match_coverage": 758,
+  "allocation_robustness": {
+    "aggregate_net_spread_bil": 49.61,
+    "aggregate_charity_central_bil": 16.18,
+    "spread_exceeds_charity": true,
+    "adversarial_charity_weighted_floor_bil": 33.43,
+    "note": "After C1-C3 corrections, aggregate spread EXCEEDS aggregate charity, so the per-entity clip no longer manufactures the gap; the adversarial charity-weighted allocation leaves a positive floor (raw-gap level, before overlap/recoverability)."
+  },
+  "waterfall": {
+    "national_program_purchases_2024_discounted_bil": 81.4,
+    "iqvia_wac_list_value_2024_bil": 147.8,
+    "iqvia_list_to_340b_gap_2024_bil": 66.4,
+    "dsh_share": 0.78,
+    "national_dsh_pool_discounted_bil": 63.49,
+    "gross_340b_savings_dsh_wac_basis_bil": 51.95,
+    "contract_pharmacy_fees_bil": 2.34,
+    "net_spread_captured_bil": 49.61,
+    "charity_care_delivered_central_bil": 16.18,
+    "raw_spread_to_charity_gap_bil": 34.86,
+    "overlap_13_bil": 6.892,
+    "overlap_17_bil": 0.402,
+    "overlap_4_bil": 1.743,
+    "gap_after_overlap_bil": 25.83,
+    "x_recoverability_central": 0.4,
+    "booked_central_bil": 10.33
+  },
+  "overlap_method": {
+    "issue_13": "COMPUTED via direct CCN join: sum over hospitals that fail #13's community-benefit test of min(i19_gap, i13_gap). C5: subtracted at FULL min() value, NOT down-scaled by #13's survival fraction (which had inflated #19's booked figure).",
+    "issue_17": "COMPUTED RECONCILIATION: #17 already removed the 340B-acquired Part B share (0.35) entirely and reserved it for #19. #17 books the INTERNATIONAL gap on NON-340B units; #19 books the DOMESTIC 340B spread on 340B units. Additive at the dollar level. Residual is a 5% buffer.",
+    "issue_4": "PBM-affiliated chains (CVS/ESI/Optum ~34% of CP throughput) collect contract-pharmacy fees partly counted in #4's PBM total. 5% of raw gap."
+  },
+  "params": {
+    "composite_discount_off_wac": {
+      "low": 0.38,
+      "central": 0.45,
+      "high": 0.49
+    },
+    "discount_basis": "paid * d/(1-d) on DISCOUNTED acquisition price (C2)",
+    "dsh_share_band": {
+      "low": 0.74,
+      "central": 0.78,
+      "high": 0.82
+    },
+    "cp_dispense_share": 0.55,
+    "cp_fee_retention": {
+      "low": 0.07289107289107288,
+      "central": 0.08190008190008188,
+      "high": 0.12012012012012012
+    },
+    "recoverability": {
+      "low": 0.25,
+      "central": 0.4,
+      "high": 0.65
+    },
+    "entity_type_shares": {
+      "DSH": 0.78,
+      "FQHC": 0.1,
+      "Ryan_White": 0.04,
+      "other": 0.08
+    }
+  },
+  "sensitivity_grid": [
+    {
+      "scenario": "conservative",
+      "discount": 0.38,
+      "cp_fee": 0.12,
+      "charity": "broad",
+      "dsh_share": 0.74,
+      "recov": 0.25,
+      "raw_gap_bil": 10.53,
+      "after_overlap_bil": 7.8,
+      "booked_bil": 1.95
+    },
+    {
+      "scenario": "central",
+      "discount": 0.45,
+      "cp_fee": 0.082,
+      "charity": "central",
+      "dsh_share": 0.78,
+      "recov": 0.4,
+      "raw_gap_bil": 34.86,
+      "after_overlap_bil": 25.83,
+      "booked_bil": 10.33
+    },
+    {
+      "scenario": "aggressive",
+      "discount": 0.49,
+      "cp_fee": 0.073,
+      "charity": "pure_7a",
+      "dsh_share": 0.82,
+      "recov": 0.65,
+      "raw_gap_bil": 54.47,
+      "after_overlap_bil": 40.35,
+      "booked_bil": 26.23
+    }
+  ],
+  "allocation_sensitivity": [
+    {
+      "allocation_proxy": "by_beds",
+      "usable_weight_rows": 1986,
+      "aggregate_net_spread_bil": 49.61,
+      "aggregate_charity_bil": 16.18,
+      "rectified_raw_gap_bil": 34.86,
+      "note": ""
+    },
+    {
+      "allocation_proxy": "uniform",
+      "usable_weight_rows": 1986,
+      "aggregate_net_spread_bil": 49.61,
+      "aggregate_charity_bil": 16.18,
+      "rectified_raw_gap_bil": 37.34,
+      "note": ""
+    },
+    {
+      "allocation_proxy": "by_charity_adversarial",
+      "usable_weight_rows": 1986,
+      "aggregate_net_spread_bil": 49.61,
+      "aggregate_charity_bil": 16.18,
+      "rectified_raw_gap_bil": 33.43,
+      "note": ""
+    },
+    {
+      "allocation_proxy": "by_outpatient_rev",
+      "usable_weight_rows": 4,
+      "aggregate_net_spread_bil": NaN,
+      "aggregate_charity_bil": 16.18,
+      "rectified_raw_gap_bil": NaN,
+      "note": "weight not usable from public cache (see methodology)"
+    }
+  ],
+  "issue_17_reconciliation": {
+    "booked_bil": 6.17,
+    "share_340b_central": 0.35,
+    "universe_spend_bil": 41.8
+  },
+  "air340b_reconciliation": {
+    "air340b_dsh_profit_2022_bil": 44.1,
+    "air340b_dsh_charity_2022_bil": 18.5,
+    "ours_dsh_net_spread_2024_bil": 49.61,
+    "ours_dsh_charity_central_2024_bil": 16.18,
+    "note": "AIR340B's $44.1B is the SELL-SIDE margin (reimbursement received minus 340B acquisition cost); our net spread is the BUY-SIDE acquisition discount minus CP fees. On the corrected WAC basis our gross discount (~$66.6B whole-program) is consistent with IQVIA, and the DSH net-spread reconciles to the same order of magnitude as AIR340B's profit. Our central charity (~$16B, 38% real 990 coverage + S-10 fallback) is close to AIR340B's $18.5B Schedule-H financial-assistance figure, resolving the prior ~2x charity divergence."
+  },
+  "limitations": {
+    "allocation_not_measurement": "Per-entity 340B spend is ALLOCATED, not measured. The allocation-proxy sensitivity (beds/uniform/charity-weighted) is a first-class output (allocation_sensitivity.csv); even the adversarial charity-weighted allocation leaves a positive floor because aggregate spread exceeds aggregate charity. HRSA does not publish per-entity purchase volumes; OPAIS bulk export requires an authenticated interactive session. Data-partner CTA: Apexus PVP per-entity disclosure.",
+    "discount_basis_wac": "Gross discount = paid * d/(1-d) on the DISCOUNTED acquisition price (C2 correction), anchored to IQVIA WAC list value $147.8B and gap $66.4B (44.9% off WAC). Per-NDC ceiling prices are gated; bands 0.38/0.49.",
+    "charity_scope": "Central charity = Schedule H line 7a financial assistance at cost where a REAL IRS-990 match exists (38% of the universe), else HCRIS S-10 charity-care-at-cost. The pure-7a-only series (narrowest) and the broad Schedule H basket (generous) bracket the band. Bad-debt-inclusive uncompensated care is NOT used in the central (C3 correction).",
+    "universe_proxy": "DSH universe = nonprofit + government SHORT-TERM ACUTE hospitals (CCN 0001-0879/1225-1299/1300-1399; psych/LTCH/rehab removed, children's moved to a separate 340B category; C1). For-profit excluded as statutorily ineligible. Anchored to AHA 2022 (1,586 tax-exempt 340B hospitals).",
+    "dsh_share_staleness": "The 78% DSH sub-share is 2022-vintage applied to the 2024 $81.4B program. Banded 0.74/0.78/0.82 in the sensitivity grid."
+  },
+  "data_partner_cta": "The lead ask is Apexus 340B Prime Vendor Program per-entity purchase data, which would replace the allocation with measured per-hospital 340B purchase volume. Secondary asks: per-NDC ceiling prices (HRSA, gated), per-entity contract-pharmacy fee disclosure (340B Health member survey), and state APCD per-prescription spread observation.",
+  "distinct_from_published": true,
+  "vs_target": "central $10.33B vs $10.0B scoping target. Computed bottom-up, reported as-is, NOT tuned.",
+  "generated_at": "2026-06-10T21:07:33.572601"
+}

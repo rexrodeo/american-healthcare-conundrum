@@ -8,7 +8,7 @@ This project finds it, one issue at a time. Each issue identifies one fixable pr
 
 ---
 
-> **Latest Issue (#18): [Coding for Dollars](issue_18/newsletter_issue_18.md)** — Hospitals shift Medicare inpatient discharges into higher-paying severity tiers through documentation intensity, not necessarily sicker patients. Across all Medicare fee-for-service inpatient stays, coded severity rose about 15.5% from 2013 to 2024 (price-held-constant Fisher index) while patients' independently-measured sickness (the HCC risk score) rose about 7.8%. Applying Crespin et al. 2024's patient-level-controlled coding-intensity share (2.0% of MS-DRG payment weights) to the operating-netted FFS IPPS pool ($95.3B), discounting to 55% recoverability, and netting confirmed-fraud overlap, we book **$1.04B/year** (range $0.73B to $5.15B). Budget-neutral weight recalibration does not erase it: more discharges landing in higher-weight tiers raises total payments regardless. The fix shortens the documentation-and-coding adjustment cycle (CMS rulemaking), expands OIG audit coverage for high-yield DRG pairs, and moves toward bundled/population payment that removes the per-discharge severity incentive. [Read it →](https://americanhealthcareconundrum.com/issue-18-coding-for-dollars)
+> **Latest Issue (#19): [The 340B Spread](issue_19/newsletter_issue_19.md)** — The 1992 statute (42 USC 256b) requires drug manufacturers to sell outpatient drugs to covered-entity hospitals at steep discounts, but requires no pass-through of the discount to patients. Across a per-entity panel of 1,986 acute disproportionate-share (DSH) hospitals, net 340B spread captured runs about $49.6B/year against documented charity care of about $16.2B/year; only 98 hospitals deliver charity care at least equal to the spread they capture, while 1,888 capture more than they deliver. From $81.4B in CY2024 program purchases (78% DSH share, gross discount on a WAC basis, minus contract-pharmacy fees), net of overlaps with Issues #13, #17, and #4, and at 40% recoverability, we book **$10.33B/year** (range $1.95B to $26.23B). The fix ranks by enactability: per-entity transparency reporting (the Minnesota 62J.461 model), contract-pharmacy fee disclosure, pass-through tied to documented charity care, then eligibility narrowing. [Read it →](https://americanhealthcareconundrum.com/issue-19-the-340b-spread/)
 
 ---
 
@@ -34,11 +34,12 @@ This project finds it, one issue at a time. Each issue identifies one fixable pr
 | 16 | [The Other 100 Drugs](issue_16/newsletter_issue_16.md) | $16.4B/yr | After removing all 25 IRA-negotiated drugs and the nine from Issue #2, the next 100 single-source brand products (~85 molecules) in the CY2023 Part D PUF carry $73.4B gross ($43.1B net) at US net prices ~3.22x international; net-to-net method with category rebates netted once, booked at 55% recoverability; 11 NHS-matched products show a 12.9x median gap, confirming the blanket ratio is conservative | CMS Part D Spending by Drug PUF CY2023, RAND RR-A788-3, NHS Drug Tariff Part VIIIA |
 | 17 | [The Part B Pharmacy Premium](issue_17/newsletter_issue_17.md) | $6.2B/yr | $41.80B universe of 597 single-source physician-administered Part B drugs (CY2023 Part B PUF, after excluding skin substitutes, vaccines, immune globulins); MedPAC June 2019 / ASPE 2018 ex-manufacturer 1.8x ratio (RAND 3.22x as aggressive ceiling), biosimilars zeroed and biosimilar-competed originators half-counted, netted to the non-340B share and 55% recoverability; ASP+6% buy-and-bill add-on rewards costlier originators over biosimilars | CMS Part B Spending by Drug PUF CY2023, MedPAC June 2019, ASPE 2018, RAND RR-A788-3 |
 | 18 | [Coding for Dollars](issue_18/newsletter_issue_18.md) | $1.0B/yr | Hospitals shift Medicare FFS inpatient discharges into higher-paying MS-DRG severity tiers via documentation intensity; coded severity rose +15.5% (price-held Fisher case-mix index) vs. +7.8% in measured sickness (HCC risk score) 2013–2024; Crespin et al. 2024 patient-level-controlled coding-intensity share (2.0% of MS-DRG weights) applied to the $95.3B operating-netted FFS IPPS pool at 55% recoverability, net of confirmed-fraud overlap | CMS Medicare Inpatient IPPS Geographic Variation and by-Provider PUFs DY2013–DY2024, Crespin et al. *Health Affairs* 2024, MedPAC March 2026 |
-| | **Running Total** | **$542.92B/yr** | **16.8% of the $3.24T gap** | |
+| 19 | [The 340B Spread](issue_19/newsletter_issue_19.md) | $10.33B/yr | Per-entity panel of 1,986 acute DSH hospitals: net 340B spread captured ~$49.6B/yr vs. documented charity care ~$16.2B/yr; only 98 of 1,986 hospitals deliver charity ≥ spread; waterfall from $81.4B CY2024 purchases (78% DSH, gross discount on WAC basis, minus contract-pharmacy fees) net of Issue #13/#17/#4 overlaps at 40% recoverability | HRSA/Drug Channels CY2024 program purchases, CMS HCRIS DSH universe, IRS Form 990 Schedule H, Cassidy Senate HELP contract-pharmacy benchmark |
+| | **Running Total** | **$553.25B/yr** | **17.1% of the $3.24T gap** | |
 
 *Issue #9 is the first issue at the revised $3.24T denominator (CMS NHE 2024 final, released April 18, 2026). Issues #1–#8 published using the prior $3T denominator and are not retrofitted.*
 
-![Savings Tracker](issue_18/figures/chart5_savings_tracker.png)
+![Savings Tracker](issue_19/figures/chart5_savings_tracker.png)
 
 ---
 
@@ -53,6 +54,16 @@ The same operations. Exposed to the same clinical evidence. Wildly different pri
 ---
 
 ## Published Issues
+
+### Issue #19 — The 340B Spread (~$10.33B/year)
+
+The 340B Drug Pricing Program (42 USC 256b, enacted 1992) requires drug manufacturers to sell outpatient drugs to eligible "covered entity" hospitals at steep statutory discounts. The statute requires nothing about passing that discount on to patients, so a hospital can buy a drug at the 340B price, bill a commercial insurer at the full negotiated rate, and keep the difference. We built a per-entity panel of 1,986 acute disproportionate-share (DSH) hospitals from the CMS HCRIS universe (for-profit hospitals are statutorily excluded; psychiatric, long-term-care, rehabilitation, and children's hospitals scrubbed) and estimated each entity's net 340B spread captured against the charity care it documents (Form 990 Schedule H line 7a at cost, with an HCRIS S-10 fallback). Net spread captured runs about $49.6 billion per year against documented charity care of about $16.2 billion; only 98 hospitals deliver charity care at least equal to the spread they capture, while 1,888 capture more than they deliver. The dollar waterfall starts from $81.4B in CY2024 program purchases (a discounted-acquisition basis), takes the 78 percent DSH share, grosses the spread up to a WAC basis (discount depth 45 percent), subtracts about $2.34B in contract-pharmacy fees, computes the per-entity gap as max(spread − charity, 0), nets overlaps with Issues #13, #17, and #4, and applies a 0.40 recoverability factor: **$10.33 billion per year** (range $1.95B to $26.23B). Per-entity 340B purchases are allocated by bed count rather than measured, because HRSA publishes no per-entity volumes; that is the lead data-partner ask. The fix ranks by enactability: per-entity transparency reporting (the Minnesota 62J.461 model), contract-pharmacy fee disclosure, pass-through tied to documented charity care, then eligibility narrowing.
+
+![340B Spread vs. Charity Care, 1,986 DSH Hospitals](issue_19/figures/chart1_scatter_spread_vs_charity.png)
+
+*Source: HRSA and Drug Channels CY2024 program purchases; CMS HCRIS DSH hospital universe; IRS Form 990 Schedule H; Cassidy Senate HELP contract-pharmacy fee benchmark.*
+
+**Read the full analysis →** [`issue_19/newsletter_issue_19.md`](issue_19/newsletter_issue_19.md)
 
 ### Issue #18 — Coding for Dollars (~$1.0B/year)
 

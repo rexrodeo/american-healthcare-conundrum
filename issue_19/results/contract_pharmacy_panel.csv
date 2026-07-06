@@ -1,0 +1,13 @@
+chain,year,n_locations,share_of_cp_throughput,note
+Walgreens,2024,8700,0.3,">90% of locations are 340B CPs; ~46,100 CE relationships"
+CVS,2024,7200,0.22,>75% of locations are 340B CPs; $382M fees 2023 (Cassidy)
+Walmart,2024,4600,0.08,broad 340B participation
+Cigna/Express Scripts,2024,0,0.06,PBM-affiliated mail/specialty
+UnitedHealth/OptumRx,2024,0,0.06,PBM-affiliated mail/specialty
+Kroger,2024,2200,0.04,supermarket pharmacy
+Rite Aid,2024,1300,0.03,shrinking footprint
+Independent/Other,2024,1575,0.21,small chains + independents + health-system CPs
+ALL,2017,18000,1.0,Drug Channels 2017 baseline
+ALL,2019,25000,1.0,Drug Channels 2019
+ALL,2022,28000,1.0,Drug Channels 2022
+ALL,2024,25775,1.0,Drug Channels 2024

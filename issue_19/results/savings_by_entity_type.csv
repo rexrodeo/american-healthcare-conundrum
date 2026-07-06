@@ -1,0 +1,6 @@
+entity_type,n_entities,pool_340b_spend_bil,raw_spread_to_charity_gap_bil,booked_bil,status
+DSH (short-term acute),1986,63.49,34.86,10.33,BOOKED
+FQHC,~1500 (not in HCRIS panel),8.14,n/a (grant-funded; charity mandated),0.0,range_high (FQHCs deliver mandated care)
+RYAN_WHITE,~600,3.26,n/a,0.0,range_high
+CHILDRENS (separate 340B category),61 moved out of DSH (C1),within OTHER pool,n/a (separate statutory category),0.0,range_high (NOT double-counted vs DSH)
+OTHER (CAH-special/SCH/RRC/cancer),n/a,6.51,n/a,0.0,range_high

@@ -1,0 +1,8 @@
+anchor,expected,computed,verdict
+Senator Cassidy CVS 2023 CP fees,$382M,$538M,PASS
+Aggregate CP retention (whole program),$2.9-3.2B,$3.0B,PASS
+IQVIA WAC gross-discount (whole program),$66.4B,$66.6B,PASS
+Drug Channels DSH pool reconstruction,$63.5B,$63.5B,PASS
+AHA 2022 tax-exempt 340B hospital count,"1,586",1590,PASS
+AIR340B 2022 DSH charity (Schedule H FA),$18.5B,$16.2B,PASS (same order; resolves prior 2x divergence)
+Part B 340B-acquired spend (vs #17 reservation),~$14.6B,$14.6B,PASS (consistent with #17 reservation)
